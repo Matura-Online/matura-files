@@ -10,11 +10,9 @@ import (
 )
 
 func main() {
-	rootDir := "."
-
 	var wg sync.WaitGroup
 
-	err := filepath.Walk(rootDir, func(path string, info os.FileInfo, err error) error {
+	err := filepath.Walk(".", func(path string, info os.FileInfo, err error) error {
 		if err != nil {
 			return err
 		}
@@ -33,7 +31,7 @@ func main() {
 	})
 
 	if err != nil {
-		fmt.Printf("Error walking the path %s: %v\n", rootDir, err)
+		fmt.Printf("Error walking the path %s: %v\n", ".", err)
 	}
 
 	wg.Wait()
