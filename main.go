@@ -12,19 +12,26 @@ import (
 func main() {
 	var wg sync.WaitGroup
 
+	imageFormats := []string{".png", ".jpg", ".jpeg"}
+	audioFormats := []string{".mp3", ".wav"}
+
 	err := filepath.Walk(".", func(path string, info os.FileInfo, err error) error {
 		if err != nil {
 			return err
 		}
 
-		if strings.HasSuffix(path, ".png") {
-			wg.Add(1)
-			go convertAndRemoveFile(path, "WebP", convertToWebP, &wg)
+		for _, format := range imageFormats {
+			if strings.HasSuffix(path, format) {
+				wg.Add(1)
+				go convertAndRemoveFile(path, "WebP", convertToWebP, &wg)
+			}
 		}
 
-		if strings.HasSuffix(path, ".mp3") {
-			wg.Add(1)
-			go convertAndRemoveFile(path, "Opus", convertToOpus, &wg)
+		for _, format := range audioFormats {
+			if strings.HasSuffix(path, format) {
+				wg.Add(1)
+				go convertAndRemoveFile(path, "Opus", convertToOpus, &wg)
+			}
 		}
 
 		return nil
