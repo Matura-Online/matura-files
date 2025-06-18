@@ -1,0 +1,457 @@
+{
+    "name": "Matematika",
+    "level": "B",
+    "maxPoints": 40,
+    "scale": {
+        "range1": [
+            0,
+            24.99
+        ],
+        "range2": [
+            25,
+            44.99
+        ],
+        "range3": [
+            45,
+            66.99
+        ],
+        "range4": [
+            67,
+            84.99
+        ],
+        "range5": [
+            85,
+            100
+        ]
+    },
+    "sections": [
+        {
+            "name": "Osnovno",
+            "predictedTime": 150,
+            "instructions": "Pozorno pročitajte sve upute i slijedite ih.\nIspit traje 150 minuta.\n\nIspred svake skupine zadataka uputa je za rješavanje. Pozorno je pročitajte.\nPri računanju možete upotrebljavati priloženu knjižicu formula.\n\nKada riješite zadatke, provjerite odgovore.\nŽelimo Vam mnogo uspjeha!",
+            "helpFiles": [
+                {
+                    "name": "1",
+                    "fileUrl": "https://files.matura.top/All/Mat/B/40yZbulUx.webp"
+                },
+                {
+                    "name": "2",
+                    "fileUrl": "https://files.matura.top/All/Mat/B/Q8gx7CGsR.webp"
+                }
+            ],
+            "potentialPoints": 40,
+            "questionGroups": [
+                {
+                    "info": "I. Zadatci višestrukoga izbora.\n\nU zadatcima od 1. do 20. od više ponuđenih odgovora samo je jedan točan.\nTočan odgovor donosi jedan bod.",
+                    "questions": [
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koji od navedenih brojeva pripada skupu racionalnih brojeva?",
+                            "choices": [
+                                "$-\\frac{\\pi}{3}$",
+                                "$-\\sqrt{0.9}$",
+                                "$\\frac5{11}$",
+                                "$\\sqrt{\\pi^2}$"
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Cemu je od navedenoga jednako $\\left(-2^{n}\\right)^3?$",
+                            "choices": [
+                                "$-8^n$",
+                                "$-8\\cdot2^n$",
+                                "$8^n$",
+                                "$8\\cdot2^n$"
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Cemu je od navedenoga jednako $\\sqrt[3]{a^2}$ ？",
+                            "choices": [
+                                "$a^{\\frac23}$",
+                                "$a^{-\\frac23}$",
+                                "$a^{\\frac32}$",
+                                "$a^{-\\frac32}$"
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koji je od navedenih izraza brojnik u do kraja sredenome izrazu $5-\\frac{1+x}x$ za svaki $x\\in\\mathbf{R}\\setminus\\{0\\}$?",
+                            "choices": [
+                                "$4-x$",
+                                "$4+x$",
+                                "$4x-1$",
+                                "$4x+1$"
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Josip, Ivan i Marko zajednicki su kupili igracu konzolu. Josip je ulozio 220 eura, Ivan 200 eura i Marko 130 eura. Dogovorili su da će ta konzola biti kod Josipa, Ivana ili Marka određeni dio dana tijekom mjeseca proporcionalno ulozenomu novcu. Koliko je dana igraca konzola bila kod Josipa u mjesecu koji ima 30 dana?",
+                            "choices": [
+                                "11",
+                                "12",
+                                "18",
+                                "19"
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Neki se proizvod prodaje u pakiranjima od 0.25kg i 2.5kg. Koliko je pakiranja od 2.5kg dobio Leon ako je naručio 138kg toga proizvoda, a narudžba mu je isporućena u 84 pakiranja?",
+                            "choices": [
+                                "46",
+                                "49",
+                                "52",
+                                "55"
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koja od navedenih tvrdnja ne vrijedi za svaka dva prirodna broja $a$ i $b$?",
+                            "choices": [
+                                "$a\\cdot{b}$ prirodni je broj",
+                                "$a-b$ cijeli je broj",
+                                "$\\frac{a}{b}$ racionalni je broj",
+                                "$\\sqrt{a-b}$ realni je broj"
+                            ],
+                            "correctChoice": "D"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koji je od navedenih intervala skup svih rješenja sustava nejednadžba $\\begin{cases}x>-1\\\\2x<4\\end{cases}$?",
+                            "choices": [
+                                "$\\left\\langle-\\infty,-1\\right\\rangle$",
+                                "$\\langle-1,2\\rangle$",
+                                "$\\langle2,4\\rangle$",
+                                "$\\langle4,\\infty\\rangle$"
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Što od navedenoga vrijedi ako je $2^k=72$?",
+                            "choices": [
+                                "$72=\\log_k2$",
+                                "$72=\\log_k72$",
+                                "$k=\\log_{72}{2}$",
+                                "$k=\\log_272$"
+                            ],
+                            "correctChoice": "D"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koliko iznosi nultočka funkcije $f(x)=-\\frac{3}{2}x+2$?",
+                            "choices": [
+                                "$\\frac{4}{3}$",
+                                "$2$",
+                                "$-\\frac{3}{2}$",
+                                "$-4$"
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Neka kvadratna funkcija $f(x)=ax^{2}+bx+c$ ima dvije različite realne nultočke, a najveća joj vrijednost iznosi 12. Što od navedenoga može vrijediti za koeficijent a i diskriminantu D?",
+                            "choices": [
+                                "$a=-1$ i $D=48$",
+                                "$a=-1$ i $D=-48$",
+                                "$a=1$ i $D=48$",
+                                "$a=1$ i $D=-48$"
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koja od navedenih tvrdnja vrijedi za graf svake neparne funkcije?",
+                            "choices": [
+                                "Simetričan je s obzirom na os $x$.",
+                                "Simetričan je s obzirom na os $y$.",
+                                "Simetričan je s obzirom na pravac $y=x$.",
+                                "Simetričan je s obzirom na ishodište koordinatnoga sustava."
+                            ],
+                            "correctChoice": "D"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koji su od navedenih brojeva tri uzastopna člana geometrijskoga niza?",
+                            "choices": [
+                                "$0,2,4$",
+                                "$\\frac{1}{2},2,8$",
+                                "$1,\\frac{7}{2},5$",
+                                "$5, 4, 3$"
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Opseg trokuta ABC iznosi 64cm, a opseg njemu sličnoga trokuta DEF $48cm$. Ako duljina najkraće stranice trokuta ABC iznosi 16cm, koliko iznosi duljina najkraće stranice trokuta DEF?",
+                            "choices": [
+                                "8cm",
+                                "10cm",
+                                "12cm",
+                                "14cm"
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Zbroj mjera središnjega i njemu pripadnoga obodnog kuta iznosi $192^{\\circ}$. Koliko iznosi mjera obodnoga kuta?",
+                            "choices": [
+                                "$128^{\\circ}$",
+                                "$96^{\\circ}$",
+                                "$64^{\\circ}$",
+                                "$32^{\\circ}$"
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "mediaUrl": "https://files.matura.top/2025/Probna/Mat/B/ckFuDmG4s.webp",
+                            "question": "U kvadratnoj mrezi prikazani su vektori $\\begin{array}{cccc}\\rightarrow&\\rightarrow&\\rightarrow&\\rightarrow&\\rightarrow&\\rightarrow\\\\a,&b,&c,&d,&u,&v\\end{array}$.\nKoji je od navedenih vektora jednak vektoru $\\begin{array}{c}\\to\\\\u+\\nu\\end{array}$?",
+                            "choices": [
+                                "$\\vec{a}$",
+                                "$\\vec{b}$",
+                                "$\\vec{c}$",
+                                "$\\vec{d}$"
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koja od navedenih tvrdnja nije točna?",
+                            "choices": [
+                                "Ravnina je određena pravcem i točkom koja ne pripada tomu pravcu.",
+                                "Ravnina je određena trima točkama koje ne pripadaju istomu pravcu.",
+                                "Ravnina je određena dvama mimoilaznim (mimosmjernim) pravcima.",
+                                "Ravnina je određena dvama pravcima koji se sijeku."
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koliko strana ima pravilni poliedar koji ima 12 bridova i 8 vrhova?",
+                            "choices": [
+                                "4",
+                                "6",
+                                "8",
+                                "12"
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "mediaUrl": "https://files.matura.top/2025/Probna/Mat/B/fefW0ksQBIt2.webp",
+                            "shortText": "Učenici jednoga razreda uključeni su u sljedeće izvannastavne aktivnosti: robotiku, zbor, dramsku, nogomet, matematičare i kemičare. Svaki je učenik uključen u samo jednu aktivnost. Kružnim dijagramom prikazan je postotak učenika uključenih u pojedinu aktivnost.",
+                            "question": "Ako u zboru pjeva šestero učenika, koliko je učenika uključeno u kemičare?",
+                            "choices": [
+                                "2",
+                                "3",
+                                "4",
+                                "5"
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Tri puta bacamo novčić. Koliko iznosi vjerojatnost da je u tim trima bacanjima barem jednom palo pismo?",
+                            "choices": [
+                                "$\\frac18$",
+                                "$\\frac38$",
+                                "$\\frac58$",
+                                "$\\frac78$"
+                            ],
+                            "correctChoice": "D"
+                        }
+                    ]
+                },
+                {
+                    "info": "II. Zadatci kratkoga odgovora\n\nU zadatcima od 21. do 35. upišite odgovore na predviđeno mjesto u ispitnoj knjižici.\nTočan odgovor donosi jedan bod.",
+                    "questions": [
+                        {
+                            "type": "SubBoard",
+                            "mainQuestion": "Koliko iznosi $\\frac{1+2:5}{3-\\left(0.8+2\\right)}$?",
+                            "points": 1,
+                            "answers": [
+                                "7"
+                            ]
+                        },
+                        {
+                            "type": "SubBoard",
+                            "mainQuestion": "Izraz $\\left(\\frac{a^3}{b^{-4}}\\right)^2$ zapišite u obliku umnoška potencija s bazama $a$ i $b$.",
+                            "points": 1,
+                            "fullSolutionOrUrl": "$a^6\\cdot b^8$",
+                            "showTldraw": true
+                        },
+                        {
+                            "type": "SubBoard",
+                            "mainQuestion": "Udaljenost između Zagreba i Osijeka iznosi približno 300 km. Kolika bi ta udaljenost, izražena u centimetrima, bila na zemljovidu čije je mjerilo 1 : 1 000 000?",
+                            "answers": [
+                                "30cm",
+                                "30 cm"
+                            ],
+                            "points": 1
+                        },
+                        {
+                            "type": "SubBoard",
+                            "points": 1,
+                            "mainQuestion": "Koje je rješenje svake kvadratne jednadžbe oblika $ax^{2}+bx=0$?",
+                            "fullSolutionOrUrl": "$0$ i $\\frac{b}{a}$",
+                            "showTldraw": true
+                        },
+                        {
+                            "type": "SubBoard",
+                            "mainQuestion": "Nacrtajte graf funkcije $f\\left(x\\right)=\\frac{1}{2}x-3$",
+                            "fullSolutionOrUrl": "https://files.matura.top/2025/Probna/Mat/B/rw7RGkjce.webp",
+                            "points": 1,
+                            "showTldraw": true
+                        },
+                        {
+                            "type": "SubBoard",
+                            "mainQuestion": "Odredite domenu (prirodno područje defnicije) funkcije $f(x)=\\frac{1}{x-6}$",
+                            "fullSolutionOrUrl": "$\\mathbb{R}\\setminus\\{6\\}$",
+                            "points": 1,
+                            "answers": [
+                                "R\\6",
+                                "R/6"
+                            ]
+                        },
+                        {
+                            "type": "SubBoard",
+                            "mainQuestion": "Koliko iznosi zbroj prvih 100 članova aritmetičkoga niza kojemu je prvi član 2.5, a stoti član 52?",
+                            "answers": [
+                                "2725"
+                            ],
+                            "points": 1
+                        },
+                        {
+                            "type": "SubBoard",
+                            "mainQuestion": "Duljina osnovice jednakokračnoga trokuta iznosi 8cm, a duljina kraka 5cm. Koliko iznosi mjera kuta uz osnovicu toga trokuta?",
+                            "fullSolutionOrUrl": "$36°52°12\"$",
+                            "points": 1,
+                            "showTldraw": true
+                        },
+                        {
+                            "type": "SubBoard",
+                            "mainQuestion": "Visina stošca iznosi 5cm, a polumjer baze 12cm. Koliko iznosi volumen toga stošca?",
+                            "fullSolutionOrUrl": "$240\\pi\\mathrm{cm}^3$",
+                            "points": 1
+                        },
+                        {
+                            "type": "SubBoard",
+                            "mainQuestion": "Odredite mjeru kuta koji pravac $y=\\frac{2}{5}x+4$ zatvara s pozitivnim smjerom osi $x$.",
+                            "fullSolutionOrUrl": "$21^\\circ48^\\prime5^\\prime$",
+                            "points": 1
+                        },
+                        {
+                            "type": "SubBoard",
+                            "mainQuestion": "Riješite zadatke s potencijama.",
+                            "subQuestions": [
+                                {
+                                    "question": "Izračunajte vrijednost brojevnoga izraza $10^{201}:\\left(5\\cdot10^{200}\\right)$.",
+                                    "points": 1,
+                                    "answers": [
+                                        "2"
+                                    ]
+                                },
+                                {
+                                    "question": "S koliko nula završava broj $90\\cdot10^{200}+10^{201}$?",
+                                    "points": 1,
+                                    "answers": [
+                                        "202"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "SubBoard",
+                            "mainQuestion": "U nekoj je školi provedena akcija dobrovoljnoga darivanja krvi kojoj se odazvalo 24 maturanta. Svim darivateljima prethodno je određena krvna grupa (A, B, AB ili 0) i dobiveni su sljedeći podatci: B AB AB 0 B A 0 0 A A B B B A B AB 0 A A A A AB A 0.",
+                            "subQuestions": [
+                                {
+                                    "question": "Odredite mod dobivenih podataka.",
+                                    "points": 1,
+                                    "answers": [
+                                        "A"
+                                    ]
+                                },
+                                {
+                                    "question": "Frekvencije podataka prikažite u tablici.",
+                                    "points": 1,
+                                    "answers": [],
+                                    "mediaUrl": "https://files.matura.top/2025/Probna/Mat/B/NMO0Vff7x.webp"
+                                }
+                            ],
+                            "fullSolutionOrUrl": "https://files.matura.top/2025/Probna/Mat/B/wE1zBWZoc.webp"
+                        },
+                        {
+                            "type": "SubBoard",
+                            "mainQuestion": "Serviser kućanskih aparata naplaćuje dolazak u kuću 50€, a svaki sat rada naplaćuje 25€.",
+                            "subQuestions": [
+                                {
+                                    "question": "Koliko je sati rada obračunato ako je serviser uslugu naplatio ukupno 150€?",
+                                    "points": 1,
+                                    "answers": [
+                                        "4"
+                                    ]
+                                },
+                                {
+                                    "question": "Zapišite pravilo pridruživanja koje opisuje cijenu C serviserove usluge ovisno o broju sati t koje je utrošio na popravak aparata.",
+                                    "points": 1,
+                                    "answers": []
+                                }
+                            ],
+                            "fullSolutionOrUrl": "1. 4\n2. $C(t)=25t+50$"
+                        },
+                        {
+                            "type": "SubBoard",
+                            "mainQuestion": "Duljina jedne stranice trokuta iznosi 28cm, a površina toga trokuta iznosi 210cm$^{2}$.",
+                            "subQuestions": [
+                                {
+                                    "question": "Koliko iznosi duljina visine koja pripada toj stranici?",
+                                    "points": 1,
+                                    "answers": [
+                                        "15cm"
+                                    ]
+                                },
+                                {
+                                    "question": "Koliko iznosi površina trokuta kojemu su vrhovi u polovištima stranica zadanoga trokuta?",
+                                    "points": 1,
+                                    "answers": [
+                                        "52.5cm^2"
+                                    ]
+                                }
+                            ],
+                            "fullSolutionOrUrl": "1. 15cm\n2. 52.5cm$^{2}$"
+                        },
+                        {
+                            "type": "SubBoard",
+                            "mainQuestion": "Na skici je prikazan trapez ABCD tako da su $\\left|\\overline{AB}\\right|=15$cm $\\left|\\overline{CD}\\right|=7$cm, $\\left|\\overline{AD}\\right|=4$cm i $\\begin{vmatrix}\\angle BAD\\end{vmatrix}=48^{\\circ}36^{\\prime}$.",
+                            "mediaUrl": "https://files.matura.top/2025/Probna/Mat/B/fkEQDVKqHfS.webp",
+                            "fullSolutionOrUrl": "1. 33cm$^{2}$\n2. 32.138cm",
+                            "subQuestions": [
+                                {
+                                    "question": "Koliko iznosi površina trapeza ABCD?",
+                                    "points": 1,
+                                    "answers": [
+                                        "33cm^2"
+                                    ]
+                                },
+                                {
+                                    "question": "Koliko iznosi opseg trapeza ABCD?",
+                                    "points": 1,
+                                    "answers": [
+                                        "32.138cm"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

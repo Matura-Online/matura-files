@@ -1,0 +1,882 @@
+{
+    "name": "Hrvatski Jezik",
+    "maxPoints": 110,
+    "scale": {
+        "range1": [
+            0,
+            34.99
+        ],
+        "range2": [
+            35,
+            51.99
+        ],
+        "range3": [
+            52,
+            67.49
+        ],
+        "range4": [
+            67.5,
+            80.99
+        ],
+        "range5": [
+            81,
+            100
+        ]
+    },
+    "sections": [
+        {
+            "name": "Čitanje, Književnost",
+            "predictedTime": 100,
+            "instructions": "Pozorno pročitajte sve upute i slijedite ih.\nIspit traje 100 minuta.\n\nKada riješite zadatke, provjerite odgovore.\nŽelimo Vam mnogo uspjeha!",
+            "questionGroups": [
+                {
+                    "info": "I. Čitanje\n\nZadatci s polaznim tekstom.\nZadatci višestrukoga izbora.\n\nU zadatcima višestrukoga izbora od više ponuđenih odgovora samo je jedan točan.\nTočan odgovor donosi jedan bod. Zadatci od 1. do 30. odnose se na polazne tekstove.",
+                    "questions": [
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koja je tema pjesme?",
+                            "choices": [
+                                "nastojanje da se ostvare snovi iz djetinjstva",
+                                "želja da se skonča u rodnome kraju",
+                                "borba za obiteljsko imanje",
+                                "strah od smrti"
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koja se od sljedećih tvrdnja ne odnosi na lirski subjekt?",
+                            "choices": [
+                                "Kao dijete maštao je o tome da će uzgajati masline.",
+                                "Napustivši rodni kraj, putovao je po svijetu.",
+                                "Umrijet će u svojemu zavičaju.",
+                                "Mediteranskoga je podrijetla."
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Kojom je stilskom figurom motiv maslina naglašen u prvoj strofi?",
+                            "choices": [
+                                "apostrofom",
+                                "eufemizmom",
+                                "gradacijom",
+                                "hiperbolom"
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koje je značenje sljedećih stihova?",
+                            "choices": [
+                                "Otac je brao masline dok ne bi obrao i zadnju granu.",
+                                "Masline su zimi svjetlucale na suncu.",
+                                "Masline su davale ulje za svjetiljke.",
+                                "Otac je masline brao i po mraku."
+                            ],
+                            "shortText": "_A otac moj na svakoj vašoj grani\nPlamičak brao za dne zimskog mraka._",
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Što od sljedećega simboliziraju masline?",
+                            "choices": [
+                                "težak život lirskoga subjekta",
+                                "generacijsku povezanost",
+                                "nadolazeću starost",
+                                "krštenje"
+                            ],
+                            "correctChoice": "B"
+                        }
+                    ],
+                    "initialText": {
+                        "text": "Iznova k vama ja se vraćam, svete\nMasline, što vas sadio moj djedo\nI gajio moj otac, a još dijete -\nPod vama ja sam sanjareći sjȅdō.\n\nIz vašeg ploda djed je začin hrani\nSàžimō$^{1}$ rukom svojijeh težaka,\nA otac moj na svakoj vašoj grani\nPlamičak brao za dne zimskog mraka.\n\nI vi im daste mâst i svjetlo: zdravlje\nTijelu, radost očima i duši.\nI još ste tu. I sunčevo vas slavlje\nJoš raji$^{2}$. I vrh vaš se još ne suši.\n\nSa duga puta ja vam dođoh, svete\nMasline, crn i trȕl ko ì pānj zimi, -\nJer čas već stiže da i ono dijete,\nKo djed i otac, od vas dar svoj primi.\n\nŠto sada trebam, vi ćete mi dati.\nU krevet leć ću što se ù njem rodih.\nSvoj časak smrtni ja ću dočekati\nNa žalu s kojeg jednom i odbrodih.\n\nI hoću da tu jadnu pȕt mi - što je\nKrštena bila vodom iz bunara\nOtoka našeg - u čas smrti moje,\nPomaže ulje màslinika stara.\n\n$^{1}$ sàžimō, od sažimati - stisnuti, stlačiti, zgusnuti\n$^{2}$ raji, od rajiti - obasjavati srećom, činiti nekoga da se osjeća kao u raju",
+                        "title": "Posljednja pomast"
+                    }
+                },
+                {
+                    "info": "Pozorno pročitajte polazni tekst (drugi tekst) i riješite 6., 7., 8., 9. i 10. zadatak.",
+                    "initialText": {
+                        "title": "Ranko Marinković, Kiklop",
+                        "text": "U trpezariji za doručkom do njega je sjeo „Krele”. Ne po svojoj volji, već po nekom rasporedu, ali\nčini se da je on to primio kao sretnu okolnost, želio je razgovarati s Melkiorom koji nije dodirnuo jela.\n- Nemoj se ljutiti - reče „Krele” gledajući krišku kruha ispred Melkiora namazanu nekom crnom\nmarmeladom. - Ja sam ono tamo namjerno, znaš. Ti si ipak viši intelektualac, profesor, je li? To se i\nvidi. A meni je to, da ti kažem, zabavno. Uvijek sam volio lajati, to jest, vau-vau - pse imitirati. Mogu\nih sve uzbuniti koliko god ih ima na dohvatu moga glasa. Jednom ću ti pokazati, noću, vidjet ćeš.\n- Vjerujem ti, dragi...\n- Zovi me Krele. Mani, neka se naviknu, to je korisno.\n- Što je korisno?\n- A to, da ti nalijepe neku etiketu. „Krele” je isto što i kreten, naziv od milja. Jer ponos... šta, da\nbudem ponosan? Ponosan regrut, ma šta kažete! A zašto ne jedeš? Nećeš? Mogu li ja? Hvala ti ko\nbratu. Da se s ponosom naganjam sa starom droljom Lizom (mislim kobilom), a ona mene kopitom\nmože baš posred ponosa, ha? A jok! Radije lajem na sijalicu! - Mljackao je slasno svježi kruh sa\ncrnom marmeladom i govorio povjerljivo, otkrivajući svoju tajnu. - Zna on da je nitko i ništa. Ti misliš\nda ne zna? O-ho, Čičak ima sedam fakulteta! Ali ja ih imam devet! Jesi li imao kada zakrpljenu\nzadnjicu... ili naprosto bez zakrpe, rupu? E, ja imam i tu visoku školu, a Čičak je nema, njemu je\nvojska oblačila čakšire$^{1}$. Ali on sada ima vlast, a ja je nemam. Zato kad se on izvoli rugati, treba\nsamo pogoditi kojim pravcem želi da se krene. Njemu je to potrebno, razumiješ? Što bi on bio, na\nprimjer, pored tebe? Neki kukavni kukac. Gnjida. Ti znaš Pitagorin poučak, a on - da konj ima četiri\nnoge. Zato ga se čuvaj... jer on će te sa sve četiri, da te đavo odnese!\n- Pa što sam mu ja skrivio? - snebiva se Melkior i dolazi mu da zaplače. - Ja... sam mu pokoran.\n- Pokoran, a usto misliš... i tako dalje... što da te citiram, zna on to. Zato te i pita kako se gasi\nsijalica. Da bi ti uništio misao. A u tebi se buni dostojanstvo, ljudsko, je li? Mani to. Insekti će prije\nili kasnije pojesti čovječanstvo, ima ih milijardu milijarda puta više nego nas. Ja sve gledam sa\ntog stajališta i ne uzbuđuje me naše privremeno dostojanstvo. To prepuštam velikanima. Budući\narheolozi neće naći ni traga od svega toga na njihovim kosturima. Za stotinu godina, a možda i\nranije, pojavit će se na tržištu Hitlerove kosti, dakako lažne. Amerikanci će plaćati teške dolare za\njedan Hitlerov plombirani zub, za dvije Mussolinijeve vlasi, mada nema nijedne na glavi. Sve su\nto jadne gluposti, lopata i lopata, i ništa više. Treba sada živjeti. Sačuvati žive kosti ispod Čičkove\nvlasti, makar i lajući na elektriku. Ali ti, čini se, imaš drugu taktiku. Neka. Čuvaj ga se. Cezar je,\nkažu, već dvojicu ubio. Kad ubije trećega, ucmekat će ga. Kakva satisfakcija za trećega, a!\n\n$^{1}$ čakšire - hlače od vune"
+                    },
+                    "questions": [
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koju životnu filozofiju zastupa Krele?",
+                            "choices": [
+                                "Ljudski je život besmislen ako se izgubi dostojanstvo.",
+                                "U teškim vremenima najvažnije je preživjeti.",
+                                "Za dobar život važno je dobro obrazovanje.",
+                                "U životu se treba zabavljati."
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Zbog kojega se razloga Čičak okomio na Melkiora?",
+                            "choices": [
+                                "jer je Melkior intelektualno nadmoćan",
+                                "jer Melkior odbija jesti vojničku hranu",
+                                "jer su Melkior i Krele prijatelji",
+                                "jer mu Melkior prkosi"
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Na što se odnosi podcrtani izraz u sljedećoj rečenici?\nE, ja imam i tu visoku školu, a Čičak je nema, njemu je vojska oblačila čakšire.",
+                            "choices": [
+                                "na Krelino iskustvo krajnjega siromaštva",
+                                "na Krelinu sposobnost oponašanja pasa",
+                                "na Krelino poznavanje arheologije",
+                                "na Krelino formalno obrazovanje"
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Kako se Krele odnosi prema svojemu nadimku?",
+                            "choices": [
+                                "Prihvaća ga pragmatično.",
+                                "Ljuti se zbog njega.",
+                                "Ponosi se njime.",
+                                "Srami ga se."
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Kakvim je tonom Krele izgovorio sljedeću rečenicu?",
+                            "choices": [
+                                "ironičnim",
+                                "ljutitim",
+                                "rezigniranim",
+                                "tužnim"
+                            ],
+                            "shortText": "_Kakva satisfakcija za trećega, a!_",
+                            "correctChoice": "A"
+                        }
+                    ]
+                },
+                {
+                    "info": "Pozorno pročitajte polazni tekst (treći tekst) i riješite 11., 12., 13., 14. i 15 zadatak.",
+                    "initialText": {
+                        "title": "Marcel Proust, Combray",
+                        "text": "Pošto se Françoise već pobrinula da moji roditelji dobiju sve što im treba, penjala se prvi put k\ntetki da joj dade pepsin$^{1}$\n i da je pita što želi za ručak. Malokad nije bilo potrebno da o nečem iznese\nsvoje mišljenje ili protumači kakav važniji događaj:\n- Zamislite, Françoise, gospođa Goupil zakasnila je više od četvrt sata da dođe po svoju sestru;\nako se još malo zadrži na putu, ne bih se nimalo začudila kad bi stigla na misu tek poslije podizanja.\n- Ah, to i ne bi bilo nikakvo čudo - odgovori Françoise.\n- Françoise, da ste došli prije pet minuta, vidjeli biste još kako prolazi gospođa Imbert i nosi dva\nputa veće šparoge od šparoga stare Callotove; pokušajte doznati od njezine služavke gdje ih je\nnabavila. Vi nama ove godine servirate šparoge uz svako jelo pa bi vam takve dobro došle za naše\nputnike.\n- Ne bi bilo nikakvo čudo da su te šparoge iz vrta gospodina župnika - pripomene Françoise.\n- Ah, ne bih baš rekla, sirota moja Françoise - otpovrne tetka sliježući ramenima - da je to iz vrta\ngospodina župnika! Pa valjda znate da kod njega uspijevaju samo neke sitne, bijedne, bezvrijedne\nšparoge. A kažem vam da su ove bile debele kao ruka. Dakako, ne kao vaša ruka, nego kao ova\nmoja jadna ručica koja je ove godine još više omršavjela... Jeste li čuli, Françoise, onu zvonjavu što\nmi je probila uši?\n- Nisam, gospođo Octave.\n- Ah, sirota moja djevojko, bit će da imate zbilja tvrde uši, zahvalite dragom Bogu! Maguelonka je\ndošla po doktora Piperauda. Odmah je zatim izašao s njom pa su skupa skrenuli u Ulicu Oiseau. Bit\nće da se neko dijete razboljelo.\n- Ah, eto ti ga na, Bože! - uzdahne Françoise, koja nije mogla slušati kako je nesreća snašla\nneku nepoznatu osobu, pa makar i negdje daleko u svijetu, a da ne počne kukati.\n- A za kim je, Françoise, zvonilo mrtvačko zvono? Ah, Bože, bit će za gospođom Rousseau. Eto,\nveć sam zaboravila da je sinoć preminula. Ah, vrijeme je da dragi Bog i mene pozove, sasvim sam\nizgubila glavu poslije smrti mog sirotog Octavea. Nego, ja vam samo oduzimam vrijeme, dijete moje!\n- Ma ne, gospođo Octave, nije vam moje vrijeme toliko dragocjeno; onaj tko nam ga daje nije\nnam ga prodao. Idem samo prigledati da mi se nije vatra ugasila.\nTako su Françoise i moja tetka na toj jutarnjoj sjednici pretresle prve događaje toga dana. Ali\nkatkad su ti događaji zadobivali takav tajanstven i ozbiljan karakter da bi tetka osjetila da neće\ndočekati onaj trenutak kad će Françoise sama doći do nje, pa bi u kući četiri puta gromoglasno\nodjeknulo zvonce.\n- Ama, gospođo Octave, nije još vrijeme za pepsin - dobacila bi joj Françoise. - Da vam nije zlo?\n- Ma nije, Françoise - odgovorila bi joj tetka - ma jest, zapravo, znate i sami da mi je malokad\nsasvim dobro; jednog ću dana preminuti kao gospođa Rousseau a da neću imati kad ni da se\nsnađem; ali nisam vas zato zvala. Nećete mi vjerovati da sam maloprije vidjela, kao što sad vas\ngledam, gospođu Goupil s nekom curicom koju uopće ne poznajem!\n\n$^{1}$ pepsin - lijek za probavu"
+                    },
+                    "questions": [
+                        {
+                            "type": "SingleChoice",
+                            "question": "S kojim je likom pripovjedač rodbinski povezan?",
+                            "choices": [
+                                "s gospođom Goupil",
+                                "s gospođom Imbert",
+                                "s gospođom Octave",
+                                "s gospođom Rousseau"
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koja se od sljedećih tvrdnja odnosi na gospođu Octave?",
+                            "choices": [
+                                "Smeta joj pripovijedanje o nesrećama.",
+                                "Dijete joj se razboljelo.",
+                                "Udovica je.",
+                                "Slabo čuje."
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "U kojemu slučaju gospođa Octave poziva Françoise ranije nego što je uobičajeno?",
+                            "choices": [
+                                "kad želi razgovarati o zanimljivim događajima",
+                                "kad joj treba lijek za probavu",
+                                "kad čuje zvono s crkve",
+                                "kad je gladna"
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koja je od sljedećih gospođa viđena s djevojčicom koju gospođa Octave ne poznaje?",
+                            "choices": [
+                                "ona za kojom je zvonilo mrtvačko zvono",
+                                "ona koja je kasnila po svoju sestru",
+                                "ona koja je nosila velike šparoge",
+                                "ona koja je otišla po liječnika"
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "U kojoj je od sljedećih rečenica upotrijebljena ironija?",
+                            "choices": [
+                                "Pa valjda znate da kod njega uspijevaju samo neke sitne, bijedne, bezvrijedne šparoge.",
+                                "Idem samo prigledati da mi se nije vatra ugasila.",
+                                "Tako su Françoise i moja tetka na toj jutarnjoj sjednici pretresle prve događaje toga dana.",
+                                "-Da vam nije zlo?"
+                            ],
+                            "correctChoice": "C"
+                        }
+                    ]
+                },
+                {
+                    "info": "Pozorno pročitajte polazni tekst (četvrti tekst) i riješite 16., 17., 18., 19. i 20. zadatak.",
+                    "initialText": {
+                        "title": "William Shakespeare, Hamlet",
+                        "text": "POLONIJE: (...) Moj vladaru i moja gospo - raspravljati\nŠto veličanstvo mora biti, što je dužnost,\nZašto je dan dan, i noć noć, a vrijeme vrijeme,\nBilo bi rasipati dan i noć i vrijeme.\nStoga, jer je kratkoća duša razbora,\nOpširnost samo tijelo i izvanjski ukras,\nDa skratimo: vaš plemeniti sin je lud.\nDa, on je lud; a kad se pravo objasni,\nLudilo nije drugo nego biti lud.\nNo, pustimo to.\nKRALJICA: Više srži, a manje umijeća.\nPOLONIJE: Kunem se, gospo, da se ne služim umijećem.\nDa je lud, istina je; istina je, šteta!\nI šteta što je istina! Glupe li slike!\nNek ide zbogom; neću se služiti umijećem.\nDopustimo tad da je lud. Sad ostaje\nDa pronađemo uzrok ovoga efekta -\nIl bolje reći, uzrok ovoga defekta;\nJer taj defektni efekat svoj uzrok ima.\nTako. Sad ostaje... Uostalom, ostatak\nRazmotrite.\nJa imam kćer - to jest, imam je dok je moja -\nKoja, kao savjesno i poslušno dijete,\nTo mi je dala. (Vadi pismo.) Čujte i zaključite.\n(Čita.) „Božanskoj i najljepotnijoj Ofeliji, idolu moje duše -”\nTo je loš izraz, traljav izraz - „najljepotnija” je traljav izraz. No,\nsad ćete čuti. Evo: (Čita.) „U izvrsnu bjelinu njenih grudi, ovo,”\nitd. -\nKRALJICA: Je li joj to Hamlet poslao?\nPOLONIJE: Samo čas, gospo; izostaviti neću ništa.\n(Čita.)\n„Sumnjaj da su zvijezde vatra živa,\nSumnjaj da se kreće sunce jarko,\nSumnjaj da istina lašcem biva,\nAl ne sumnjaj da te ljubim žarko.\nO, draga Ofelijo, ja sam nespretan u slaganju stihova; nisam vješt\nu brojenju svojih uzdaha; ali da te ljubim vrlo mnogo, o,\nneizmjerno, to vjeruj. Zbogom.\nZauvijek tvoj, najdraža gospo, dok\nje ovo tijelo njegovo, HAMLET.”\nTo mi je kćerka poslušna pokazala.\nA osim toga mi je povjerila sve\nO njegovu udvaranju: u koje vrijeme,\nNa koji način, gdje.\nKRALJ: Ali kako je ona\nTu ljubav primila?\nPOLONIJE: Što mislite o meni?\nKRALJ: Da ste odan i častan čovjek.\nPOLONIJE: Rado bih to\nDokazao. Dakle, kad ovu žarku ljubav\nU zaletu primijetih - jer je opazih,\nTo moram reći, prije nego kći mi kaza -\nŠto biste bili mogli pomislit vi\nIl njeno drago veličanstvo kraljica,\nDa sve sam ja to znao i tajnovit bio,\nIl da sam, nijem, svom srcu dao mig da šuti,\nIl da sam lakoumno gledao tu ljubav?\nŠto biste mislili? Ne. Ja se latih posla,\nI svojoj mladoj gospodični rekoh ovo:\n„Gospodin Hamlet knez je, iznad tvoje zvijezde;\nTo ne smije biti.” Tad joj naredih da se\nZaključava pred posjetima njegovim,\nDa ne prima ni glasnike ni darove.\nOna me posluša i pobra plod mog svjeta$^{1}$;\nA on, tako odbijen - da skratimo priču -\nPade u tugu; onda stade postiti;\nTada ga besanica spopade, i slabost;\nLakoća tad u glavi; tako silazeći\nDođe u ludilo u kojem sada bjesni,\nA zato svi mi tugujemo.\nKRALJ (Kraljici.): Mislite da je to?\nKRALJICA: Možda; vrlo vjerojatno.\n\n$^{1}$ svjeta - savjeta"
+                    },
+                    "questions": [
+                        {
+                            "type": "SingleChoice",
+                            "question": "Zašto Polonije kralju i kraljici govori o Hamletovoj i Ofelijinoj ljubavi?",
+                            "choices": [
+                                "Želi ukazati na njihovu dužnost prema sinu.",
+                                "Želi objasniti Hamletovo ponašanje.",
+                                "Želi dokazati da je dobar otac.",
+                                "Želi opravdati Ofeliju."
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koje je značenje sljedećih kraljičinih riječi?\nViše srži, a manje umijeća.",
+                            "choices": [
+                                "Kraljica smatra da kralj ne vlada dovoljno umješno.",
+                                "Kraljica procjenjuje Hamletove sposobnosti.",
+                                "Kraljica izražava svoje shvaćanje ludila.",
+                                "Kraljica želi da Polonije ne okoliša."
+                            ],
+                            "correctChoice": "D"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Kako je Polonije saznao za Ofelijinu i Hamletovu ljubav?",
+                            "choices": [
+                                "Upozorila ga je kraljica.",
+                                "Hamlet mu se povjerio.",
+                                "Saznao je od kralja.",
+                                "Sam je primijetio."
+                            ],
+                            "correctChoice": "D"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koje je značenje podcrtanoga izraza u sljedećim stihovima?",
+                            "choices": [
+                                "Ofelijin je društveni položaj nedostojan Hamletova.",
+                                "Ofelija naivno idealizira Hamleta.",
+                                "Hamlet je Ofelijin zaštitnik.",
+                                "Hamlet ne mari za Ofeliju."
+                            ],
+                            "shortText": "„Gospodin Hamlet knez je, iznad tvoje zvijezde;\nTo ne smije biti.”",
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koja je od sljedećih tvrdnja o Polonijevu odnosu prema Ofeliji točna?",
+                            "choices": [
+                                "Polonije se ljuti na Ofeliju zato što je neposlušna.",
+                                "Polonije nastoji Ofeliji pronaći supruga.",
+                                "Polonije štiti Ofelijinu privatnost.",
+                                "Polonije vjeruje Ofeliji."
+                            ],
+                            "correctChoice": "D"
+                        }
+                    ]
+                },
+                {
+                    "info": "Pozorno pročitajte polazni tekst (peti tekst) i riješite 21., 22., 23., 24. i 25. zadatak.",
+                    "initialText": {
+                        "title": "Saša Ceci, Milo za drago",
+                        "text": "Osim uobičajenog odnosa žderač - klopa, u prirodi postoje i zanimljiviji slučajevi interakcije između\nvrsta: rak samac sa svojom moruzgvom, vlasulja i riba klaun, pa djetelina i ona bakterija koja može\napsorbirati dušik (za štrebere: rizobija). Ljudima dugo nije bilo jasno kako je moguće da spontano\ndolazi do takvog, gotovo dobrohotnog ponašanja između vrsta (pamtimo iz osnovnjaka i križaljki da\nse to zove simbioza). A nije im bilo jasno, jer je o prirodi i društvu vladalo isto uvjerenje: da je i Bog\nprvo sebi stvorio bradu. U prijevodu - svatko se prvenstveno brine za sebe.\nKako je onda došlo do toga da neki rak naokolo tegli moruzgvu? Iskren, pošten i točan odgovor\nbio bi da zapravo ne znamo točno i da možda nikad ni nećemo doznati. No znamo da postoji\noptimalna strategija koja započinje s nuđenjem suradnje i u kojoj u konačnici korist imaju obje\nstrane, pa nije neobično da je i priroda ponekad koristi. Temelji se na jednostavnom principu -\nvraćanje milo za drago (tit for tat).\nSkužili smo da je ta strategija zbilja jako dobra kad je s njom ruski matematičar Anatol Rapoport\npobijedio na natjecanju u rješavanju „dileme zatvorenika”. Bilo je to na turniru koji je 1979.\norganizirao Robert Axelrod, profesor politologije sa Sveučilišta u Michiganu. Dilema zatvorenika\nidealizirani je problem koji se proučava u teoriji igara - dva čovjeka privedena su i razdvojena, a\nistražitelji im nude manju kaznu ako priznaju zločin koji su zajedno počinili. Situacija je ovakva - ako\noba priznaju, dobit će nešto umanjenu kaznu. Ako ni jedan ne prizna, istražitelji nemaju dovoljno\ndokaza i oba dobivaju neku minimalnu kaznu. No ako samo jedan prizna - taj postaje svjedok\npokajnik i biva oslobođen, dok drugi dobiva maksimalnu kaznu.\nAko se igra samo jedan krug, očito je da je optimalna strategija da oba priznaju i izbjegnu\nmaksimalnu kaznu. No ideja Axelrodova natjecanja bila je da se igra više krugova na bodove i da\nsvaka strategija igra protiv svih ostalih (liga-sustav). Rapoportova pobjednička strategija glasila je\notprilike ovako:\n(1) u prvom krugu ne priznaj (dakle, surađuj s drugim zatvorenikom)\n(2) ako on prizna, u sljedećem krugu priznaj i ti (osveti se - milo za drago)\n(3) ako on ne prizna, u sljedećem krugu surađuj (na dobro vrati dobrim i ne budi zlopamtilo).\nRezultat je bio iznenađujući, ne samo zbog jednostavnosti ove strategije, već i zbog implikacija koje\nje imao na društvo - nuđenje i uzvraćanje suradnje, kažnjavanje nesuradnje i brzo opraštanje jest\nnajpovoljnija strategija. Ili, kako je Richard Dawkins zgodno izokrenuo britansku verziju poslovice\no Bogu i bradi - dobri momci stižu prvi na cilj (good guys finish first). Važno je reći da su neke\nstrategije prošle bolje u srazu s ovom strategijom, ali bi na kraju balade ona bila ukupni pobjednik\n(nešto kao Keke Rosberg u Formuli 1, tri godine kasnije)."
+                    },
+                    "questions": [
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koja je namjena polaznoga teksta?",
+                            "choices": [
+                                "objasniti dobivaju li zatvorenici manju kaznu ako priznaju zločin koji su počinili",
+                                "informirati čitatelje o tome kako ponašanje životinja utječe na ljude",
+                                "izraziti nepovjerenje u rezultate znanstvenih istraživanja",
+                                "predstaviti prednosti suradničkoga ponašanja"
+                            ],
+                            "correctChoice": "D"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koja je preporučena strategija u igri „dilema zatvorenika” ako se igra više krugova?",
+                            "choices": [
+                                "Ako drugi „zatvorenik” u prvome krugu prizna, u drugome ti ne priznaj.",
+                                "Ako drugi „zatvorenik” surađuje s „istražiteljem”, oprosti mu.",
+                                "Na početku surađuj s drugim „zatvorenikom”.",
+                                "Ni u kojemu slučaju nemoj priznati krivnju."
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koji izraz autor suprotstavlja izrazu da je i Bog prvo sebi stvorio bradu?",
+                            "choices": [
+                                "odnos žderač - klopa",
+                                "optimalna strategija",
+                                "svjedok pokajnik",
+                                "zločin"
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Kojim je funkcionalnim stilom pisan polazni tekst?",
+                            "choices": [
+                                "administrativnim",
+                                "književnoumjetničkim",
+                                "popularno-znanstvenim",
+                                "razgovornim"
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Kojim se od sljedećih izraza autor ne koristi u polaznome tekstu?",
+                            "choices": [
+                                "stručnim pojmovima iz područja biologije",
+                                "riječima iz engleskoga jezika",
+                                "matematičkim formulama",
+                                "žargonizmima"
+                            ],
+                            "correctChoice": "C"
+                        }
+                    ]
+                },
+                {
+                    "info": "Pozorno pročitajte polazni tekst (šesti tekst) i riješite 26., 27., 28., 29. i 30. zadatak.",
+                    "initialText": {
+                        "title": "Lidija Šare, Mediteranska kuharica 2",
+                        "text": "Razne vrste ribe, koje se obično nalaze na tržištu, brojne su i idu od riba masnoga mesa (sardele,\nskuše), srednje masnoga (inćuni, cipli, sabljarka, tuna, trlje) do izrazito mršavoga (arbun, obliš,\ngrdobina, sarag, lubin, list, komarča, itd.), zatim ribe koje se prodaju na režnjeve, sitna riba, školjkaši,\nmekušci s ljušturom ili bez nje. Nije uvijek lako nabaviti ribu i dobro bi bilo da na početku potražite\npomoć, primjerice, nekoga iskusnog prodavača ribe kojemu će biti drago da s vama podijeli svoje\nznanje. Bitno svojstvo ribe koju nikako ne smijete zanemariti, bez obzira na vrstu ribe koju želite\nnabaviti, jest njezina svježina. Da biste znali je li riba svježa, nudimo vam nekoliko korisnih savjeta.\nPogledajte prije svega oko, koje mora biti živo i bistro. Odbacite ribu bez očiju ili, još gore, bez glave.\nLjuske moraju dobro prianjati uz tijelo (kod ribe koja nije svježa, ljuske su dignute). Ne kupujte ribu\nkojoj su očišćene ljuske. Boja se mora prelijevati, gotovo je metalna. lzbjegavajte ribu koju prskaju\nvodom da bi izbjegli sušenje, jer bi se lako moglo dogoditi da nije svježa. Škrge moraju biti crvene i\nvlažne, listići netaknuti. Kod stare ribe škrge postaju najprije grimizne, a zatim smeđe boje, a pločice\nse otvaraju. Meso mora biti čvrsto, otporno na dodir, a želudac nadut. Ako na pritisak prsta ostane\notisak, riba nije svježa. Miris mora biti jedva primjetan. Budite sumnjičavi prema ribi koja je obložena\nalgama: uglavnom služe da sakriju početak lošega mirisa. Jastoge, velike rakove i jegulje najbolje je\nnabaviti još žive, a jednako je tako i s mekušcima u ljušturi. Ne kupujte školjke koje se ne zatvaraju\nna dodir. Meso mekušaca (školjki) ne smije biti bez sjaja, suho i ne smije imati kiselkasti miris.\n\nKuhanje:\nKuhanje ribe jedan je od najjednostavnijih načina pripremanja, ali ipak zahtijeva malo pozornosti.\nPripremite prvo court-bouillon: uzavrite slanu vodu koju ste začinili režnjem celera, jednom mrkvom,\njednim crvenim lukom razrezanim na pola, jednim listom lovora, strukom peršina, čašom bijeloga\nvina, ako više volite bijelim octom ili jednim limunom izrezanim na kriške. Kuhajte sat vremena,\na zatim pustite da se malo ohladi. U međuvremenu pripremite ribu: očistite ljuske i želudac, ali je\nostavite cijelu, s glavom i repom. Zatim stavite ribu u lonac i pustite da uzavri na laganoj vatri.\nZa ribu od 800 grama računajte na otprilike 20 minuta kuhanja od trenutka kada je voda ponovno\nuzavrela. Pustite da kuha na laganoj vatri, jedva da vrije. Riba je gotova kada je oko bijelo. Škampi\ni rakovi moraju biti bačeni u court-bouillon koji vrije i izvađeni tek što je vrenje ponovno počelo.\nZa ovo je potrebna ovalna ili pravokutna posuda s rešetkom koja se može izvlačiti i s poklopcem.\nRešetka je potrebna da se ribu može dobro namjestiti i držati je ravno dok se kuha, a osim toga,\nkada je skuhana, nakon što smo je ostavili da odleži malo vremena u ribljoj juhi, rešetka vam\npomaže da lako izvadite ribu, a da je pri tome ne slomite. U takvoj posudi mogu se kuhati i\nplemeniti jastozi."
+                    },
+                    "questions": [
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koja je namjena polaznoga teksta?",
+                            "choices": [
+                                "poučiti čitatelja o tome kako prepoznati i pripremiti svježu ribu",
+                                "upozoriti na opasnosti konzumiranja nedovoljno svježe ribe",
+                                "opisati vrste riba koje se nalaze na domaćemu tržištu",
+                                "promovirati ribu kao važan sastojak zdrave prehrane"
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koji je upotrijebljeni glagolski oblik tipičan za vrstu tekstova kojoj pripada polazni tekst?",
+                            "choices": [
+                                "futur I.",
+                                "imperativ",
+                                "kondicional I.",
+                                "prezent"
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koje od sljedećih obilježja mora imati svježa riba?",
+                            "choices": [
+                                "dignute ljuske",
+                                "metalnu boju ljusaka",
+                                "mršavo meso",
+                                "otvorene škržne pločice"
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Što je court-bouillon?",
+                            "choices": [
+                                "knjiga recepata",
+                                "lonac za kuhanje",
+                                "sorta bijeloga vina",
+                                "vrsta juhe"
+                            ],
+                            "correctChoice": "D"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Što je od sljedećega iskazano o rakovima u polaznome tekstu?",
+                            "choices": [
+                                "Trebaju se pripremati nakon što odstoje.",
+                                "Moraju biti obloženi algama.",
+                                "Kuhaju se vrlo kratko.",
+                                "Nije ih lako nabaviti."
+                            ],
+                            "correctChoice": "C"
+                        }
+                    ]
+                },
+                {
+                    "info": "II. Književnost\n\nZadatci bez polaznoga teksta\nZadatci višestrukoga izbora.\n\nU zadatcima višestrukoga izbora od više ponuđenih odgovora samo je jedan točan.\nTočan odgovor donosi jedan bod.",
+                    "questions": [
+                        {
+                            "type": "SingleChoice",
+                            "question": "U kojemu je od sljedećih stihova upotrijebljena sinestezija?",
+                            "choices": [
+                                "Neprekinuti lanac sȓcā vodi\nOd našeg sȑca u davnu davninu.",
+                                "Čuješ li grohot? To tvojoj slobodi\nSmiju se pređi nestali u tminu.",
+                                "I kad mi riječi mirišu ko tamjan,\nOne su stigle nekud izdaleka,",
+                                "I kad mi kletva nagrne na usta,"
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koji se od sljedećih kompozicijskih dijelova upotrebljava u značenju posljednje scene u drami?",
+                            "choices": [
+                                "epilog",
+                                "kulminacija",
+                                "peripetija",
+                                "prolog"
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "S kojom se namjerom epski pjevač obraća boginji u invokaciji Ilijade sljedećim stihovima?",
+                            "choices": [
+                                "Želi biti siguran da će Ahejci pobijediti u ratu.",
+                                "Traži pomoć da bi opjevao epska zbivanja.",
+                                "Htio bi da se Ahilej prestane ljutiti.",
+                                "Moli zaštitu za Pelejeva sina."
+                            ],
+                            "shortText": "Srdžbu mi, boginjo, pjevaj Ahileja, Peleju sina,\nPogubnu, kojano zada Ahejcima tisuću jada,",
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koji se od sljedećih pojmova odnosi na postupak koji je u komedijama često temelj dramskoga zapleta?",
+                            "choices": [
+                                "deus ex machina",
+                                "in medias res",
+                                "mimesis",
+                                "qui pro quo"
+                            ],
+                            "correctChoice": "D"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koji se od sljedećih ženskih likova na početku drame pojavljuje odjeven u mušku odjeću?",
+                            "choices": [
+                                "Antigona",
+                                "Dubravka",
+                                "Ofelija",
+                                "Rosaura"
+                            ],
+                            "correctChoice": "D"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koji književni lik izgovara sljedeći tekst?",
+                            "choices": [
+                                "barunica Castelli",
+                                "Lotta",
+                                "Lucija",
+                                "Vivijana"
+                            ],
+                            "shortText": "Čuj, Alfrede! Ja sumnjam, ta reci jasno, otvoreno: Kad će to biti da me\ndođeš osloboditi iz ovih uza? Ja sjedim u onom starom naslonjaču med njegovim\nmrkim drugovima i često mi bude kao da se ova tijesna četiri zida sve stežu i da se\nniski strop nada mnom sve spušta k momu tjemenu, i biva mi da vičem: Ugušit ću\nse... pomozite, ugušit ću se!",
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koja se od sljedećih tvrdnja odnosi na Izabelu iz Cvijeta sa raskršća Antuna Gustava Matoša?",
+                            "choices": [
+                                "Oličenje je tjelesnoga i erosa kojemu se prepušta bez moralne odgovornosti.",
+                                "Zbog patrijarhalnoga odgoja zakinuta je za prava koja je uživao njezin brat.",
+                                "Neiskusna je i slijepa djevojka koja se zaljubljuje u nepoznatoga fotografa.",
+                                "Tajanstvena je Poljakinja iz Beča koja svira violončelo."
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koji je od sljedećih književnih likova romantičarski lik?",
+                            "choices": [
+                                "Leone iz Gospode Glembajevih",
+                                "Miljenko iz Dubravke",
+                                "Smail-aga iz Smrti Smail-age Čengića",
+                                "Stanac iz Novele od Stanca"
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Na koje se književnopovijesno razdoblje odnosi sljedeća tvrdnja?",
+                            "choices": [
+                                "na barok",
+                                "na klasicizam",
+                                "na romantizam",
+                                "na realizam"
+                            ],
+                            "shortText": "Ta je književna epoha određena mimetičkom teorijom umjetnosti, nastojanjem da književne\nkonvencije ostvare iluziju zbilje i da  približe spoznajnoj ulozi znanosti.",
+                            "correctChoice": "D"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Za kojega je od sljedećih pjesnika karakteristična upotreba soneta te neopetrarkističkih i kozmičkih motiva?",
+                            "choices": [
+                                "za Antuna Branka Šimića",
+                                "za Ivana Mažuranića",
+                                "za Tina Ujevića",
+                                "za Vladimira Nazora"
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "S kojom je pjesmom Slavko Mihalić uspostavio intertekstualnu vezu u sljedećemu stihu?",
+                            "choices": [
+                                "s uvodnim sonetom Kanconijera Francesca Petrarce",
+                                "s pjesmom Mojsije Silvija Strahimira Kranjčevića",
+                                "s pjesmom Albatros Charlesa Baudelairea",
+                                "s pjesmom Pjesnici Antuna Branka Šimića"
+                            ],
+                            "shortText": "Bolje da nitko ne vidi tvoje oči pune čuđenja.",
+                            "correctChoice": "D"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koje je od sljedećih obilježja karakteristično za klasicističku ?",
+                            "choices": [
+                                "deskriptivnost",
+                                "ekspresivnost",
+                                "moralističnost",
+                                "subjektivnost"
+                            ],
+                            "correctChoice": "C"
+                        }
+                    ]
+                },
+                {
+                    "info": "III. Hrvatski jezik\n\nZadatci višestrukoga izbora.\n\nU zadatcima višestrukoga izbora od više ponuđenih odgovora samo je jedan točan.\nTočan odgovor donosi jedan bod.",
+                    "questions": [
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koja je od sljedećih rečenica napisana u skladu s pravilima o pisanju velikoga i maloga početnog slova?",
+                            "choices": [
+                                "Europski parlament, europsko vijeće, Vijeće Europske unije i europska komisija glavne su institucije na čelu uprave Europske unije.",
+                                "Somalijski poluotok koji strši u Arapsko more i leži duž južne strane Adenskoga zaljeva naziva se Afrički rog ili Rog Afrike.",
+                                "I viola odorata (mirisna ljubica) i viola tricolor (divlja maćuhica, trobojna ljubica) pripadaju istoj biljnoj porodici.",
+                                "Razdoblje Karolinške Renesanse odraz je utjecaja antičkoga Rima na kulturu germanskih Franaka."
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koji od sljedećih frazema ima značenje ‘bez ustručavanja govoriti svoje mišljenje’?",
+                            "choices": [
+                                "nemati dlake na jeziku",
+                                "pogoditi u dlaku točno",
+                                "tražiti dlaku u jajetu",
+                                "ići komu niz dlaku"
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koja je sintagma u sljedećoj rečenici rezultat pridruživanja?",
+                            "choices": [
+                                "Ivan je gledao",
+                                "je netremice gledao",
+                                "je gledao u oči",
+                                "njezine oči"
+                            ],
+                            "shortText": "Ivan je netremice gledao u njezine oči.",
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "U kojoj od sljedećih rečenica imenica cvijeće ima službu atributa?",
+                            "choices": [
+                                "Pjesme su cvijeće koje pjesnici daruju voljenima.",
+                                "„Cvijeće cvijetu”, govorio bi pružajući mi buket.",
+                                "Nosila je haljinu s izvezenim cvijećem.",
+                                "Tih me dana obasipao cvijećem."
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koja je od sljedećih zavisnosloženih rečenica namjerna rečenica?",
+                            "choices": [
+                                "Svakako namjeravam doći ako dođeš i ti.",
+                                "Naumio sam doći tamo gdje ćeš biti ti.",
+                                "Doći ću da opet budem s tobom.",
+                                "Znaš da ću ti doći."
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koja je od sljedećih rečenica gramatički točna?",
+                            "choices": [
+                                "Mirna mi je preporučila Rainer Maria Rilkeova Pisma mladom pjesniku.",
+                                "Rekla mi je da ću sigurno požaliti odustanem li od putovanja.",
+                                "U odlučivanju važnih stvari treba poslušati mudre savjete.",
+                                "Pravila ponašanja vrijede za svih."
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "U kojoj su od sljedećih rečenica točno upotrijebljeni rečenični znakovi?",
+                            "choices": [
+                                "Vjerovala sam mu, jer me nikad prije nije iznevjerio.",
+                                "„Znala sam”, vrisne Ana, „da ćeš se vratiti!”",
+                                "To se dogodilo u Zagrebu, 10. lipnja 2020.",
+                                "Tebe je Draga, otac uvijek najviše volio."
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koliko je prednaglasnica u sljedećoj rečenici?",
+                            "choices": [
+                                "tri",
+                                "četiri",
+                                "pet",
+                                "šest"
+                            ],
+                            "shortText": "Nisam se sjetila pitati ga hoće li kupiti kruh na putu od škole do kuće.",
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koja je gramatička (oblikotvorna) osnova u riječi nogometaš?",
+                            "choices": [
+                                "nog",
+                                "nogom",
+                                "nogomet",
+                                "nogometaš"
+                            ],
+                            "correctChoice": "D"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "U kojemu je padežu zamjenica u sljedećoj rečenici?",
+                            "choices": [
+                                "u dativu",
+                                "u akuzativu",
+                                "u lokativu",
+                                "u instrumentalu"
+                            ],
+                            "shortText": "Ostajem pri svojemu.",
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "U kojoj je od sljedećih rečenica glagol u množini?",
+                            "choices": [
+                                "Svejednako mišljaše svoje.",
+                                "Mirno življaše na selu.",
+                                "I dalje govoraše isto.",
+                                "Pojedoše u tišini."
+                            ],
+                            "correctChoice": "D"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koja je tvorenica u sljedećemu primjeru nastala složeno-sufiksalnom tvorbom?",
+                            "choices": [
+                                "kišobranar",
+                                "kišobranarski",
+                                "kišobran",
+                                "kišobranarov"
+                            ],
+                            "shortText": "Djed je bio kišobranar. S bakom se upoznao kad je otvorio kišobranarski obrt, a ona je imala\nslomljen kišobran i ušla je u radnju tražeći kišobranarov savjet.",
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "U kojoj je od sljedećih rečenica podcrtana riječ metonimija?",
+                            "choices": [
+                                "Profesor mi je pričao da je jednom razgovarao s *Krležom*.",
+                                "Mašta o tome da će jednoga dana pisati kao *Krleža*.",
+                                "*Krleža* je jedan od najvećih hrvatskih pisaca.",
+                                "Učenici premalo čitaju *Krležu*."
+                            ],
+                            "correctChoice": "D"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "U kojoj je od podcrtanih riječi epentetski l?",
+                            "choices": [
+                                "polje",
+                                "grmlje",
+                                "bilje",
+                                "ulje"
+                            ],
+                            "shortText": "Naše *polje* daje i beskorisno *grmlje* i dragocjeno *bilje* od kojega pravimo ljekovito *ulje*.",
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koja se od sljedećih tvrdnja odnosi na Ćirila i Metoda?",
+                            "choices": [
+                                "Utemeljili su najstariji slavenski književni jezik.",
+                                "Napisali su tekst Bašćanske ploče.",
+                                "Živjeli su oko 1100. godine.",
+                                "Stvorili su pismo ćirilicu."
+                            ],
+                            "correctChoice": "A"
+                        }
+                    ]
+                },
+                {
+                    "info": "Zadatak višestrukoga izbora s nadopunjavanjem\n\nU zadatku višestrukoga izbora s nadopunjavanjem (58.1. - 58.5.) od više ponuđenih odgovora samo je jedan točan.\nSvaki točan odgovor donosi jedan bod. U zadatku višestrukoga izbora s nadopunjavanjem (58.1. - 58.5.) moguće je ostvariti 5 bodova.",
+                    "initialText": {
+                        "text": "U društvenome okruženju srednjega vijeka nastajala je književna, odnosno oralna kultura koja je po svojim glavnim obilježjima bila predmoderna. Ponajprije, autori su imali svoju publiku, (1.) ___ nisu imali mogućnosti da se iskažu u oblicima komunikacije koje danas nazivamo književnim tržištem. (2.) ___ je bilo malo, a (3.) ___ od dvora do dvora ili od jedne crkvene pisarne do druge vrlo sporo. Kako autorskih prava nije bilo ni u začetcima, dvorski ili samostanski prepisivači mogli su u djelo unositi (4.) ___ osobne književne ambicije. Od nekih poznatih djela sačuvano je (5.) ___ različitih inačica, katkad sa znatnim sadržajnim promjenama."
+                    },
+                    "questions": [
+                        {
+                            "type": "SingleChoice",
+                            "question": "1.",
+                            "choices": [
+                                "ali",
+                                "dakle",
+                                "jer",
+                                "nakon što"
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "2.",
+                            "choices": [
+                                "Manuskripata",
+                                "Manuskripte",
+                                "Manuskriptova",
+                                "Manuskriptovi"
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "3.",
+                            "choices": [
+                                "jenjavali su",
+                                "kasnili su",
+                                "kolali su",
+                                "slovili su"
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "4.",
+                            "choices": [
+                                "njegove",
+                                "njihove",
+                                "svoje",
+                                "takve"
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "5.",
+                            "choices": [
+                                "desetak",
+                                "desetero",
+                                "desetica",
+                                "desetka"
+                            ],
+                            "correctChoice": "A"
+                        }
+                    ]
+                }
+            ],
+            "potentialPoints": 62
+        },
+        {
+            "name": "Sažetak",
+            "predictedTime": 80,
+            "instructions": "Pozorno pročitajte sve upute i slijedite ih.\n\nIspit traje 80 minuta.\nSažetak treba imati 200 - 250 riječi.\nSažetak će se bodovati s nula (0) bodova ako nema dovoljan broj riječi, ako ima prevelik broj riječi, ako je pisan velikim tiskanim slovima ili ako je nečitko napisan.\n\nŽelimo Vam mnogo uspjeha!",
+            "questionGroups": [
+                {
+                    "info": "Pročitajte polazni tekst.\nSažetak oblikujte kao zaokruženu cjelinu s uvodom, razradom i zaključkom.\nPazite da Vaš sažetak bude pravopisno, gramatički i leksički točan.\nU sažetak morate uvrstiti sve smjernice.\nSažetak mora imati 200 - 250 riječi.",
+                    "initialText": {
+                        "title": "Majda Rijavec, Dubravka Miljković, Školska disciplina",
+                        "text": "Istraživanja širom svijeta pokazuju da, usprkos svim naporima koji se čine da bi ih bilo manje,\ndisciplinskih je problema u školi sve više. Stručnjaci koji se bave problemima (ne)discipline u\nrazredu pokušavaju definirati modele koji bi u praksi mogli poslužiti i za prevenciju i za rješavanje\ndisciplinskih problema. Danas su u svijetu poznata dva modela školske discipline: pozitivna\ndisciplina Jane Nelsen i njezinih suradnika te asertivna disciplina Leeja Cantera i Marianne Canter.\nPozitivna disciplina usmjerena je na učenike, a njezin je cilj razvoj njihovih osobina i vrlina\nsamodiscipline, tj. smanjivanje potrebe za izvanjskom kontrolom ponašanja. Naglašava se razvoj\nsamokontrole te razvoj svijesti o svojim i tuđim emocijama i motivima, ističe se važnost socijalne\nodgovornosti i sposobnosti timskoga rada, poštenje, moralnost, integritet, iskrenost i pomaganje\ndrugima. Preduvjet je svemu tome zadovoljavanje najvažnijih učeničkih potreba kao što je\nostvarivanje autonomije (potreba da učenici svojevoljno i samostalno biraju aktivnosti i donose\nodluke), kompetentnosti (potreba da se učenici osjećaju uspješnima i da imaju kontrolu nad\nokolinom) i povezanosti (potreba za dobrim, bliskim i sigurnim odnosima s drugim ljudima). Svi\nučenici, baš kao i odrasli ljudi, vole kad mogu sami odlučivati o onome što im je važno - hoće li prvo\npisati zadaću ili se igrati, na koju će temu pisati sastavak ili kamo će ići na izlet. Osjećaj slobode i\nu malim stvarima dovodi do osjećaja zadovoljstva, a time i do manje disciplinskih problema. Slično\nje i s ostalim dvjema potrebama. Svaki učenik ima potrebu pokazati i sebi i drugima kako je bar\nu nečemu uspješan, tj. kompetentan. Većini učenika to i uspijeva. Neki su općenito dobri učenici,\ndrugi su izrazito uspješni u nekim predmetima, a treći u sportu ili nekoj drugoj izvannastavnoj\naktivnosti. Njihove kompetencije treba razvijati da im škola ne bi bila mučno iskustvo suočavanja s\nneuspjehom, nego mjesto postizanja uspjeha i osobnoga zadovoljstva. Također, svaki učenik ima\npotrebu imati prijatelje i biti prihvaćen od ostalih učenika u razredu. Učenici koji su u tome smislu\nzadovoljni izazivat će manje disciplinskih problema. Važno je istaknuti da se ovaj model izričito\nprotivi upotrebi nagrada, pohvala i kazni. Temelji se na dobrim odnosima učitelja i učenika i njihovu\nstalnom dogovaranju radi sprečavanja problema u ponašanju; ako netko „ne sluša”, slijede mu\nprirodne, logične posljedice - na primjer, posljedica nerada loša je ocjena.\nAsertivna je disciplina, s druge strane, usmjerena na učitelja jer se temelji na pravilima i\nkorektivnim postupcima koje primjenjuje učitelj. Ti su korektivni postupci nagrade, pohvale i\nkazne te ne služe samo u rješavanju problema, već i u njihovu sprečavanju, odnosno u razvoju\nsamodiscipline. Postavljanje pravila nužno je za stvaranje discipline u razredu. Učenicima treba biti\njasno što je dopušteno, a što nije. Pravila moraju biti jasna, a kad se jednom postave, od učenika\nse očekuje da ih poštuju. Stoga učitelj treba poticati učenike kad se drže pravila, ali isto tako moraju\nbiti jasne posljedice, odnosno kazne ako učenici pravila krše. Poticaji su sve ono što učenici vole i\nu čemu uživaju, na primjer zabavne aktivnosti na kraju dana, proslave rođendana u razredu, igranje\nigara, odlazak u zoološki vrt, kino ili kazalište, sat u prirodi, slatkiši, dopuštanje aktivnosti po izboru,\nproglašenje najboljega učenika, razne vrste pohvala i slično. Za razliku od poticaja, kazna je sve ono\nšto smanjuje učestalost nekoga ponašanja, a općenito se ne sviđa onomu na kome se primjenjuje.\nU školi se najčešće primjenjuju opomene, ukori, slanje ravnatelju na razgovor te kažnjavanje\nnekom neugodnom aktivnošću, na primjer brisanjem ploče ili pospremanjem nereda. Kazne mogu\nbiti i uskraćivanje ili zabrana nekih ugodnih aktivnosti. Ipak, kažnjavanje ima brojnih ograničenja\n- uči učenike što ne smiju ili ne trebaju raditi, a ne ono što bi trebali. Također, kazna obično ima\nkratkotrajne učinke, uči djecu agresivnosti prema drugima, stvara negativno školsko i razredno\nozračje, a ponekad može služiti i kao nagrada - učenici je izazivaju da bi dobili pažnju učitelja,\ndrugih učenika ili smanjili dosadu. Usprkos svim ovim ograničenjima kažnjavanje je ipak nužno i\nučinkovito, a očekivanje da će se svi oblici kazne zamijeniti „pozitivnijim” tehnikama idealističko je i\nutopijsko.\nČini se da je kratkoročno učinkovitija asertivna disciplina, no za dugoročne učinke bolje je\npozabaviti se pozitivnom disciplinom. Ipak u obama modelima ima postupaka koji su nedvojbeno\nvažni za uspostavljanje dobroga razrednog ozračja, a oni uključuju usmjeravanje na prevenciju,\njasna pravila i postupke, poticaje, dobre odnose s učenicima, dobru suradnju s roditeljima,\nsamodisciplinu i mnoge druge."
+                    },
+                    "questions": [
+                        {
+                            "type": "EssayWriting",
+                            "question": "Smjernice za pisanje sažetka\nPročitajte zadani tekst.\nSažmite polazni tekst svojim riječima:\n• tako da navedete opće podatke o polaznome tekstu\n• tako da odredite namjenu i temu teksta\n• tako da navedete osnovne misli teksta i pojedinosti koje ih podupiru\n• tako da odredite autorov stav o temi.",
+                            "minWords": 200,
+                            "maxWords": 250,
+                            "points": [
+                                {
+                                    "category": "Sadržaj",
+                                    "points": 6
+                                },
+                                {
+                                    "category": "Organizacija teksta i stil",
+                                    "points": 6
+                                },
+                                {
+                                    "category": "Jezična točnost",
+                                    "points": 6
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "potentialPoints": 18
+        },
+        {
+            "name": "Školski Esej",
+            "predictedTime": 160,
+            "instructions": "Pozorno pročitajte sve upute i slijedite ih.\n\nIspit traje 160 minuta.\nNapišite školski esej slijedeći priložene upute i smjernice za pisanje školskoga eseja.\n\nŠkolski esej treba imati najmanje 440 riječi.\nŠkolski esej bodovat će se s nula (0) bodova ako nema dovoljan broj riječi, ako je pisan velikim tiskanim slovima ili ako je nečitko napisan.\n\nŽelimo Vam mnogo uspjeha!",
+            "questionGroups": [
+                {
+                    "info": "Pozorno pročitajte sljedeće tekstove nakon kojih slijede upute i smjernice za pisanje školskoga eseja.\n\nZADATAK ZA PISANJE ŠKOLSKOGA ESEJA\nAlbert Camus, Stranac\n\nPolazno pitanje\nNa koji način Meursaultov karakter određuje njegovu sudbinu?\n",
+                    "initialText": {
+                        "text": "Polazni tekst\nSutradan me u zatvoru posjetio branitelj. Bio je nizak i debeljuškast, prilično mlad, pomno\nzalizane kose. Iako je bilo vruće (ja sam bio u košulji), nosio je tamno odijelo, ovratnik sa\nzavrnutim krajevima i neobičnu kravatu sa širokim crnim i bijelim prugama. Odloži na moj krevet\ntorbu koju je nosio pod pazuhom, predstavi se i reče da je proučio moj predmet. Moj je slučaj vrlo\nškakljiv, ali on ne sumnja u uspjeh, pod uvjetom da mu se povjerim. Zahvalih mu, a on mi reče:\n- Da prijeđemo odmah na samu stvar!\nSjede na krevet i priopći mi da su se raspitali o mom privatnom životu. Znaju da mi je majka\nnedavno umrla u ubožnici. Zatim su poveli istragu u Marengu. Istražitelji su doznali da sam se\n„pokazao bešćutnim” na dan mamina sprovoda. - Znate - reče mi branitelj - malo mi je neugodno\nda vas to pitam, ali je to vrlo važno, i bit će jak argument optužbe ako ne budem mogao na to ništa\nodgovoriti. - Htio je da mu pomognem. Upita me jesam li taj dan mnogo patio. Neobično sam se\nzačudio tom pitanju, činilo mi se da bi i meni bilo vrlo neugodno kad bih ga morao kome postaviti.\nOdgovorih mu, ipak, da sam se uglavnom odvikao da sâm sebe ispitujem, i da mi je teško o tome\nbilo što kazati. Svakako sam mnogo volio majku, ali to ništa ne znači. Sva su zdrava bića\nmanje-više koji put poželjela da umru oni koje vole. Tu me branitelj, vrlo uzbuđen, presiječe u\nriječi. Zatraži od mene da mu obećam da to neću reći na suđenju ni pred glavnim istražiteljem.\nObjasnih mu, međutim, da sam po naravi takav da mi često tjelesne potrebe potiskuju osjećaje.\nOnoga dana kad smo pokopali mamu, bio sam vrlo umoran i pospan, pa nisam vodio računa o\nonome što se događalo. Jedino mogu pouzdano reći da bih radije da mama nije umrla. Ali, činilo\nmi se da branitelj nije time zadovoljan. Reče mi:\n- To nije dovoljno.\nPorazmisli i upita me smije li reći da sam toga dana potpuno gospodario svojim osjećajima.\nRekoh mu: - Nemojte, to ne bi bila istina. - Pogledao me nekako čudno, kao da mu se pomalo\ngadim. Reče mi gotovo pakosno da će ravnatelja i osoblje ubožnice svakako preslušati kao\nsvjedoke, i da bi mi „to moglo grdno naškoditi”. Upozorih ga da to nema nikakve veze s mojim\nslučajem, ali mi on samo odgovori da se vidi da nisam imao nikad posla s pravosuđem.\nOtišao je nekako srdit. Htio sam ga zadržati i rastumačiti mu da želim steći njegovu naklonost,\nne zato da bi me bolje branio nego, ako mogu tako reći, iz prirodnih razloga. Najgore je što sam\nvidio da se osjeća nelagodno sa mnom. Nije me razumio i malo se naljutio na mene. Zaželio sam\nda ga uvjerim da sam kao i drugi ljudi, baš kao i drugi ljudi. Ali od svega toga ne bi zapravo bilo\nvelike koristi, i iz lijenosti sam odustao od svoga nauma."
+                    },
+                    "questions": [
+                        {
+                            "type": "EssayWriting",
+                            "question": "Smjernice\n• U uvodu:\n- ukratko predstavite autora i djelo\n- u jednoj ili više rečenica oblikujte tvrdnju kojom ćete odgovoriti na polazno pitanje i tako najaviti ono o čemu ćete pisati u središnjemu dijelu eseja.\n\n• U središnjemu dijelu eseja razradite i argumentirajte svoju tvrdnju kojom ste odgovorili na polazno pitanje tako da argumentacija:\n- proizlazi iz razumijevanja djela u cjelini\n- proizlazi iz sadržajne i stilske analize polaznog teksta i njegove uloge u djelu u cjelini\n- bude povezana s književnopovijesnim kontekstom u kojemu je djelo nastalo.\n\nSvoj tekst rasporedite u odlomke koji su jasno, logično i smisleno povezani.\n• U zaključku sažeto istaknite ono najvažnije o čemu ste pisali u središnjemu dijelu eseja.",
+                            "minWords": 440,
+                            "points": [
+                                {
+                                    "category": "Središnja tvrdnja",
+                                    "points": 6
+                                },
+                                {
+                                    "category": "Argumentacija",
+                                    "points": 6
+                                },
+                                {
+                                    "category": "Povezanost teksta",
+                                    "points": 6
+                                },
+                                {
+                                    "category": "Upotreba rječnika",
+                                    "points": 6
+                                },
+                                {
+                                    "category": "Pravopisna i gramatička točnost",
+                                    "points": 6
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "potentialPoints": 30
+        }
+    ]
+}

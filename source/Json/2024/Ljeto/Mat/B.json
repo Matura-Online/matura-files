@@ -1,0 +1,499 @@
+{
+    "name": "Matematika",
+    "level": "B",
+    "maxPoints": 40,
+    "scale": {
+        "range1": [
+            0,
+            24.99
+        ],
+        "range2": [
+            25,
+            44.99
+        ],
+        "range3": [
+            45,
+            66.99
+        ],
+        "range4": [
+            67,
+            84.99
+        ],
+        "range5": [
+            85,
+            100
+        ]
+    },
+    "sections": [
+        {
+            "name": "Osnovno",
+            "predictedTime": 150,
+            "instructions": "Pozorno pročitajte sve upute i slijedite ih.\nIspit traje 150 minuta.\n\nIspred svake skupine zadataka uputa je za rješavanje. Pozorno je pročitajte.\nPri računanju možete upotrebljavati priloženu knjižicu formula.\n\nKada riješite zadatke, provjerite odgovore.\nŽelimo Vam mnogo uspjeha!",
+            "questionGroups": [
+                {
+                    "info": "I. Zadatci višestrukoga izbora.\n\nU zadatcima od 1. do 20. od više ponuđenih odgovora samo je jedan točan.\nTočan odgovor donosi jedan bod.",
+                    "questions": [
+                        {
+                            "type": "SingleChoice",
+                            "question": "Na brojevnome pravcu prikazanom na slici dužina $\\overline{OP}$ podijeljena je na 12 dijelova jednakih duljina. Koja je od navedenih točaka s prikazanoga brojevnog pravca pridružena broju $\\frac{-4}{3}$?",
+                            "choices": [
+                                "P",
+                                "Q",
+                                "R",
+                                "S"
+                            ],
+                            "correctChoice": "C",
+                            "mediaUrl": "https://files.matura.top/2024/Ljeto/Mat/B/rqy24SfuV.webp"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koji je od navedenih brojeva najveći?",
+                            "choices": [
+                                "$0.345$",
+                                "$0.34\\dot{5}$",
+                                "$0.345$",
+                                "$0.\\dot{3}\\dot{4}\\dot{5}$"
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Aritmetička sredina brojeva 9, 11 i x iznosi 13. Koliko iznosi broj x?",
+                            "choices": [
+                                "13",
+                                "15",
+                                "17",
+                                "19"
+                            ],
+                            "correctChoice": "D"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koliko je puta broj $5*10^{-50}$ veći od broja $2.5*10^{-100}$?",
+                            "choices": [
+                                "$5\\cdot10^{49}$",
+                                "$10^{50}$",
+                                "$2\\cdot10^{50}$",
+                                "$10^{51}$"
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Čemu je jednako $-5^{\\frac{2}{3}}$?",
+                            "choices": [
+                                "$\\sqrt{125}$",
+                                "$-\\sqrt[3]{25}$",
+                                "$\\frac{1}{\\sqrt{125}}$",
+                                "$\\frac{1}{\\sqrt[3]{25}}$"
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Čemu je jednak izraz $a^2-(b+1)^2$ za sve realne brojeve a i b?",
+                            "choices": [
+                                "$(a-b-1)(a+b+1)$",
+                                "$(a-b+1)(a+b+1)$",
+                                "$(a-b-1)^{2}$",
+                                "$\\left(a-b+1\\right)^{2}$"
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Cijena nekoga proizvoda povećana je za 60 %, a potom smanjena za 50 %. Koja od navedenih tvrdnja vrijedi za konačnu cijenu u odnosu na početnu cijenu?",
+                            "choices": [
+                                "Smanjila se za 10%.",
+                                "Smanjila se za 20%.",
+                                "Povećala se za 10%.",
+                                "Povećala se za 20%."
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koje je značenje koeficijenta R, pri čemu su P, Q i R pozitivni brojevi?",
+                            "shortText": "Cijena buketa ruža u cvjećarnici ovisi o broju x kupljenih ruža i cijeni usluge izrade buketa.\nSve ruže imaju istu cijenu. Ako se navedena ovisnost može prikazati izrazom $P=Qx+R$.",
+                            "choices": [
+                                "broj kupljenih ruža",
+                                "cijena buketa ruža",
+                                "cijena jedne ruže",
+                                "cijena usluge izrade buketa ruža"
+                            ],
+                            "correctChoice": "D"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "choices": [
+                                "Smanjit će se za šest.",
+                                "Smanjit će se za tri.",
+                                "Povećat će se za tri.",
+                                "Povećat će se za šest."
+                            ],
+                            "question": "Zadana je funkcija $f(x)=-3x$. Kako će se promijeniti vrijednost funkcije f poveća li se vrijednost varijable x za dva?",
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koliko iznosi vrijednost koeficijenta b u kvadratnoj jednadžbi $x^{2}+bx=10$ ako je $x=5$ jedno rješenje jednadžbe?",
+                            "choices": [
+                                "-3",
+                                "-2",
+                                "0",
+                                "3"
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koliko iznosi diskriminanta kvadratne jednadžbe $4x^2=5x+1$?",
+                            "choices": [
+                                "-41",
+                                "-9",
+                                "9",
+                                "41"
+                            ],
+                            "correctChoice": "D"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Zadan je aritmetički niz kojemu su $a_{4}=41$ i $a_{8}=89$. Koliko iznosi $a_{6}$?",
+                            "choices": [
+                                "61",
+                                "64",
+                                "65",
+                                "68"
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Kojoj je od navedenih funkcija domena interval $\\begin{bmatrix}0,\\infty\\end{bmatrix}$?",
+                            "choices": [
+                                "$f(x) =\\frac{2}{x}$",
+                                "$f(x) =\\sqrt{2x}$",
+                                "$f(x) =\\log\\frac{x}{2}$",
+                                "$f(x) =2|x|$"
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koji od trokuta prikazanih u kvadratnoj mreži ima najveću površinu?",
+                            "mediaUrl": "https://files.matura.top/2024/Ljeto/Mat/B/EJyAbJXj5.webp",
+                            "choices": [
+                                "K",
+                                "L",
+                                "M",
+                                "N"
+                            ],
+                            "correctChoice": "D"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koliko iznosi duljina polumjera kružnice opisane pravokutnomu trokutu ako su duljine kateta toga trokuta 6 cm i 8 cm?",
+                            "choices": [
+                                "5cm",
+                                "5.5cm",
+                                "7cm",
+                                "7.5cm"
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koliko iznosi zbroj obodnoga i središnjega kuta nad istim kružnim lukom ako je njihova razlika 48°?",
+                            "choices": [
+                                "72°",
+                                "96°",
+                                "120°",
+                                "144°"
+                            ],
+                            "correctChoice": "D"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Pravac je zadan jednadžbom $3x-2y+6=0$. Koliko iznosi mjera kuta koji taj pravac zatvara s pozitivnim smjerom osi apscisa?",
+                            "choices": [
+                                "33° 41' 24''",
+                                "41° 48' 37''",
+                                "48° 11' 23''",
+                                "56° 18' 36''"
+                            ],
+                            "correctChoice": "D"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Na kojoj su od ponuđenih slika prikazani vektori $\\vec{a}$, $\\vec{b}$ i $\\vec{c}$ za koje vrijedi $\\vec{a} + \\vec{b} = \\vec{c}$?",
+                            "mediaUrl": "https://files.matura.top/2024/Ljeto/Mat/B/C6cl8XoFI.webp",
+                            "choices": [
+                                "Slika A",
+                                "Slika B",
+                                "Slika C",
+                                "Slika D"
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Duljina je stranice romba 3 cm, a mjera šiljastoga kuta 52°. Koliko iznosi duljina visine toga romba?",
+                            "choices": [
+                                "1.85cm",
+                                "1.92cm",
+                                "2.36cm",
+                                "2.60cm"
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "U razrednome odjelu od 28 učenika 16 je djevojčica, od kojih četiri imaju ocjenu u elementu vrednovanja \"Rješavanje problema\". Kolika je vjerojatnost da će slučajnim odabirom iz toga razrednog odjela biti odabrana djevojčica koja nema ocjenu u elementu vrednovanja Rješavanje problema?",
+                            "choices": [
+                                "$\\frac17$",
+                                "$\\frac27$",
+                                "$\\frac37$",
+                                "$\\frac47$"
+                            ],
+                            "correctChoice": "C"
+                        }
+                    ]
+                },
+                {
+                    "info": "II. Zadatci kratkoga odgovora\n\nU zadatcima od 21. do 30. upišite odgovore na predviđeno mjesto u ispitnoj knjižici.\nTočan odgovor donosi jedan bod.",
+                    "questions": [
+                        {
+                            "type": "SubBoard",
+                            "mainQuestion": "Riješite zadatke.",
+                            "subQuestions": [
+                                {
+                                    "question": "Napišite jedan iracionalni broj koji je veći od 1 i manji od 5.",
+                                    "points": 1,
+                                    "answers": [
+                                        "π",
+                                        "pi",
+                                        "3.14"
+                                    ]
+                                },
+                                {
+                                    "question": "Napišite neki broj koji pri dijeljenju s brojem 17 daje ostatak 13",
+                                    "points": 1,
+                                    "answers": [
+                                        "115",
+                                        "13",
+                                        "30",
+                                        "47",
+                                        "64"
+                                    ]
+                                }
+                            ],
+                            "fullSolutionOrUrl": "1. npr. π\n2. npr. 115"
+                        },
+                        {
+                            "type": "SubBoard",
+                            "mainQuestion": "Na grafikonu je prikazano koliko u nekome vinogradu ima trsova s 0, 1, 2, 3 ili 4 grozda.",
+                            "subQuestions": [
+                                {
+                                    "question": "Izračunajte prosječan broj grozdova po trsu.",
+                                    "points": 1,
+                                    "answers": [
+                                        "2.6",
+                                        "2,6"
+                                    ]
+                                },
+                                {
+                                    "question": "Kolika je vjerojatnost da je ubrani grozd s trsa koji je imao četiri grozda (decimalni zapis)?",
+                                    "points": 1,
+                                    "answers": [
+                                        "0.2191",
+                                        "0,2191"
+                                    ]
+                                }
+                            ],
+                            "showTldraw": true,
+                            "points": 1,
+                            "mediaUrl": "https://files.matura.top/2024/Ljeto/Mat/B/YB79CiNIs.webp"
+                        },
+                        {
+                            "type": "SubBoard",
+                            "mainQuestion": "Riješite zadatke.",
+                            "showTldraw": true,
+                            "subQuestions": [
+                                {
+                                    "question": "Pojednostavnite izraz $\\frac{3a^6+5a^6}{a^4}$ do kraja za svaki realni broj a za koji je izraz definiran.",
+                                    "points": 1
+                                },
+                                {
+                                    "question": "Zapišite izraz $\\left(49^n\\right)^3$ u obliku potencije s bazom 7.",
+                                    "points": 1
+                                }
+                            ],
+                            "fullSolutionOrUrl": "1. $8a^{2}$\n2. $7^{6n}$"
+                        },
+                        {
+                            "type": "SubBoard",
+                            "mainQuestion": "Riješite zadatke.",
+                            "subQuestions": [
+                                {
+                                    "question": "Skratite razlomak $\\frac{b^2-9}{2b+6}$ za svaki realni broj b za koji je izraz definiran.",
+                                    "points": 1
+                                },
+                                {
+                                    "question": "Riješite nejednadžbu $\\frac{2x+1}3<7$ i rješenje prikažite u obliku intervala.",
+                                    "points": 1
+                                }
+                            ],
+                            "fullSolutionOrUrl": "1. $\\frac{b-3}2$\n2. $\\langle-\\infty,10\\rangle$",
+                            "showTldraw": true
+                        },
+                        {
+                            "type": "SubBoard",
+                            "mainQuestion": "Kuhar je za neko jelo iskoristio $\\frac38$ pakiranja riže nakon čega je ostalo 750 grama riže.",
+                            "showTldraw": true,
+                            "subQuestions": [
+                                {
+                                    "question": "Kolika je masa riže u cijelome pakiranju?",
+                                    "points": 1,
+                                    "answers": [
+                                        "1200 g",
+                                        "1200g",
+                                        "1.2kg",
+                                        "1,2kg"
+                                    ]
+                                },
+                                {
+                                    "question": "Preostalih 750 grama riže kuhar je odlučio iskoristiti za kolač. Prema receptu potrebno je 0.7 litara mlijeka za 150 grama riže. Koliko mu treba mlijeka ako će potrošiti svu rižu?",
+                                    "points": 1,
+                                    "answers": [
+                                        "3.5L",
+                                        "3.5 L"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "SubBoard",
+                            "mainQuestion": "Riješite zadatke.",
+                            "showTldraw": true,
+                            "subQuestions": [
+                                {
+                                    "question": "Odredite nultočku funkcije $f(x)=\\log_{7}(2x-5)$.",
+                                    "points": 1,
+                                    "answers": [
+                                        "3"
+                                    ]
+                                },
+                                {
+                                    "question": "Ako je $\\log_{3}a=c$ i $\\log_{3}b=d$, čemu je jednako $\\log_3(ab)$ zapisano uz pomoć c i d?",
+                                    "points": 1,
+                                    "answers": [
+                                        "c+d",
+                                        "c + d"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "SubBoard",
+                            "mainQuestion": "Na skici je prikazan trokut DFG u kojemu je $\\begin{vmatrix}EF\\end{vmatrix}=8 \\mathrm{cm}, \\begin{vmatrix}EG\\end{vmatrix}=6.5 \\mathrm{cm}$ te $\\alpha=30^{\\circ}$ i $\\beta=55^{\\circ}$.",
+                            "showTldraw": true,
+                            "subQuestions": [
+                                {
+                                    "question": "Koliko iznosi x?",
+                                    "points": 1,
+                                    "rightInput": "cm",
+                                    "answers": [
+                                        "6.83",
+                                        "6,83"
+                                    ]
+                                },
+                                {
+                                    "question": "Koliko iznosi y?",
+                                    "points": 1,
+                                    "rightInput": "cm",
+                                    "answers": [
+                                        "10.65",
+                                        "10,65"
+                                    ]
+                                }
+                            ],
+                            "mediaUrl": "https://files.matura.top/2024/Ljeto/Mat/B/snLpuk1Ij.webp"
+                        },
+                        {
+                            "type": "SubBoard",
+                            "mainQuestion": "Baza uspravne trostrane piramide pravokutan je trokut kojemu su duljine kateta 10 cm i 24 cm. Duljina visine te piramide iznosi 11 cm.",
+                            "showTldraw": true,
+                            "subQuestions": [
+                                {
+                                    "question": "Odredite volumen te piramide.",
+                                    "points": 1,
+                                    "rightInput": "$cm^{3}$",
+                                    "answers": [
+                                        "440"
+                                    ]
+                                },
+                                {
+                                    "question": "Koliko iznosi mjera najmanjega kuta trokuta koji je baza te piramide?",
+                                    "points": 1
+                                }
+                            ],
+                            "fullSolutionOrUrl": "1. 440\n2. $22°37'12''$"
+                        },
+                        {
+                            "type": "SubBoard",
+                            "mainQuestion": "Riješite zadatke.",
+                            "showTldraw": true,
+                            "subQuestions": [
+                                {
+                                    "question": "Odredite jednadžbu pravca prikazanoga na slici.",
+                                    "points": 1,
+                                    "mediaUrl": "https://files.matura.top/2024/Ljeto/Mat/B/iRbkqjFn7.webp"
+                                },
+                                {
+                                    "question": "Odredite oplošje uspravnoga stošca kojemu je duljina izvodnice 25 cm, a promjer baze 14 cm.",
+                                    "points": 1,
+                                    "rightInput": "$cm^{2}$"
+                                }
+                            ],
+                            "fullSolutionOrUrl": "1. $y=-\\frac{1}{2}x+3$\n2. $224\\pi$ - priznaju se rješenja $[703.36, 704]$"
+                        },
+                        {
+                            "type": "SubBoard",
+                            "mainQuestion": "Na nekoj površini planira se sadnja voćnjaka s najmanje 60 stabala.",
+                            "showTldraw": true,
+                            "subQuestions": [
+                                {
+                                    "question": "Za 60 posađenih stabala predviđa se prosječni urod 18 kg po stablu. Ukoliko se posadi više od 60 stabala očekuje se smanjenje uroda za 0.2 kg po svakom stablu kao što je prikazano u tablici. Koliki se prosječni urod očekuje po stablu ako se na tu površinu posadi 85 stabala?",
+                                    "points": 1,
+                                    "answers": [
+                                        "13kg",
+                                        "13 kg"
+                                    ],
+                                    "mediaUrl": "https://files.matura.top/2024/Ljeto/Mat/B/YJ95sn1pm.webp"
+                                },
+                                {
+                                    "question": "Funkcijom $f(x)=-0.2x^{2}+30x$ opisan je ukupan urod, gdje je x broj posađenih stabala. Za koliko se posađenih stabala očekuje najveći ukupan urod u tome voćnjaku?",
+                                    "points": 1,
+                                    "answers": [
+                                        "75"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "potentialPoints": 40,
+            "helpFiles": [
+                {
+                    "name": "1",
+                    "fileUrl": "https://files.matura.top/All/Mat/B/40yZbulUx.webp"
+                },
+                {
+                    "name": "2",
+                    "fileUrl": "https://files.matura.top/All/Mat/B/Q8gx7CGsR.webp"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,912 @@
+{
+    "name": "Engleski",
+    "level": "A",
+    "maxPoints": 85,
+    "scale": {
+        "range1": [
+            0,
+            31.99
+        ],
+        "range2": [
+            32,
+            54.99
+        ],
+        "range3": [
+            55,
+            71.99
+        ],
+        "range4": [
+            72,
+            85.99
+        ],
+        "range5": [
+            86,
+            100
+        ]
+    },
+    "sections": [
+        {
+            "name": "Čitanje",
+            "predictedTime": 70,
+            "instructions": "Pozorno pročitajte sve upute i slijedite ih.\nIspit Čitanja traje 70 minuta.\n\nIspit se sastoji od zadataka povezivanja, zadataka višestrukoga izbora i zadatka dopunjavanja.\n- U zadatcima povezivanja svaki sadržaj označen brojem povežite s odgovarajućim sadržajem koji je označen slovom (zadatci 1 i 3).\n- U zadatcima višestrukoga izbora od više ponuđenih odgovora odaberite samo jedan (zadatci 2 i 4).\n- U zadatku dopunjavanja dopunite praznine upisivanjem sadržaja koji nedostaje (zadatak 5).\n\nKada riješite zadatke, provjerite odgovore.\nŽelimo Vam mnogo uspjeha!",
+            "potentialPoints": 40,
+            "questionGroups": [
+                {
+                    "info": "You are going to read an article in which people talk about banning proms.\nFor questions 1-12, choose from the people A-F.\nThere is an example at the beginning (0).",
+                    "questions": [
+                        {
+                            "type": "MatchThePairs",
+                            "whatFirst": "letters",
+                            "sortInGrid": [
+                                "letters"
+                            ],
+                            "options": [
+                                {
+                                    "id": "A",
+                                    "type": "letter",
+                                    "textOrAudio": "I’d been stuck in my room for two weeks, recovering from an illness. So, against my doctor’s advice, I decided to travel again. I took a three-day train trip that I’d taken many years before as a student on what was the most exciting adventure of my life. But everything had changed. Perhaps because of globalisation. Now everywhere seemed the same; everyone seemed to be dressed the same. Perhaps I had changed. I missed the atmosphere of adventure and began to regret my decision. So I got off the train and flew back to my home and my bed."
+                                },
+                                {
+                                    "id": "B",
+                                    "type": "letter",
+                                    "textOrAudio": "It didn’t start well, seeing my train leave the station without me. So I decided to think positive: I would only be ten minutes late and it wouldn’t be the end of the world if I missed the interview. Fifteen minutes later, I was watching the countryside roll by. After catching up with my emails and dealing with the office ones, I did what I usually do on train rides - daydream of being somewhere exciting or beautiful. When I arrived for the interview, I realised that I needn’t have worried because one of the interviewers hadn’t yet arrived."
+                                },
+                                {
+                                    "id": "C",
+                                    "type": "letter",
+                                    "textOrAudio": "So I was standing in the corridor, next to the open window, breathing in the rushing air. How I longed to be back where I had come from. I even found myself longing for the crowded commuter trains I was on holiday to get away from. In the compartment I’d just left, I’d been squeezed between people and piles of luggage, with the carriage swaying with the many bends in the track, which had made my stomach turn so much that I had got up, found my backpack and escaped into the corridor."
+                                },
+                                {
+                                    "id": "D",
+                                    "type": "letter",
+                                    "textOrAudio": "I was returning home after a day searching the bookshops in London, my carriage full of foreigners from language schools that regularly fill this train after a day’s sightseeing in London. London exhausts me, so I stared at my newspaper, trying to distance myself from the people around me. The next thing I knew was that one of them was shaking my shoulder and gesturing me to get off the train. He must have thought I was one of them. And it’s a good thing he woke me, because otherwise I would have missed my connection."
+                                },
+                                {
+                                    "id": "E",
+                                    "type": "letter",
+                                    "textOrAudio": "I was returning home after a day searching the bookshops in London, my carriage full of foreigners from language schools that regularly fill this train after a day’s sightseeing in London. London exhausts me, so I stared at my newspaper, trying to distance myself from the people around me. The next thing I knew was that one of them was shaking my shoulder and gesturing me to get off the train. He must have thought I was one of them. And it’s a good thing he woke me, because otherwise I would have missed my connection.I was on the train coming home, and it was packed. Some teenagers had taken up the seats and of course it never occurred to them to get up for an older person like me. I’d had enough of it, this commuting, in a crowded compartment. I stared at the window, which reflected the ghost-like lit-up strained faces of the commuters. And I saw my own face, staring back at me out of the blackness, and I knew I was sick of this daily travel. My mind was made up. It was time for a change."
+                                },
+                                {
+                                    "id": "F",
+                                    "type": "letter",
+                                    "textOrAudio": "I’m a Londoner, born there, brought up there, the place is in my blood. Then I left the country for a number of years. When I returned, I was on the familiar underground train, this time with my bags and suitcase weighing me down, far from the light of day, surrounded by people on their way to work, with their morning newspapers, some working on laptops, just like me a few years before - but now it looked strange, like I was in another country. I had come home, but I didn’t feel at home."
+                                },
+                                {
+                                    "id": "0",
+                                    "type": "number",
+                                    "textOrAudio": "Which person had wanted to buy a book?"
+                                },
+                                {
+                                    "id": "1",
+                                    "type": "number",
+                                    "textOrAudio": "Which person had to change trains?"
+                                },
+                                {
+                                    "id": "2",
+                                    "type": "number",
+                                    "textOrAudio": "Which person had a lot of luggage?"
+                                },
+                                {
+                                    "id": "3",
+                                    "type": "number",
+                                    "textOrAudio": "Which person missed their train?"
+                                },
+                                {
+                                    "id": "4",
+                                    "type": "number",
+                                    "textOrAudio": "Which person made their journey after dark?"
+                                },
+                                {
+                                    "id": "5",
+                                    "type": "number",
+                                    "textOrAudio": "Which person fell asleep?"
+                                },
+                                {
+                                    "id": "6",
+                                    "type": "number",
+                                    "textOrAudio": "Which person did not have a seat?"
+                                },
+                                {
+                                    "id": "7",
+                                    "type": "number",
+                                    "textOrAudio": "Which person was homesick?"
+                                },
+                                {
+                                    "id": "8",
+                                    "type": "number",
+                                    "textOrAudio": "Which person did some work on their journey?"
+                                },
+                                {
+                                    "id": "9",
+                                    "type": "number",
+                                    "textOrAudio": "Which person felt like a tourist?"
+                                },
+                                {
+                                    "id": "10",
+                                    "type": "number",
+                                    "textOrAudio": "Which person changed their mind?"
+                                },
+                                {
+                                    "id": "11",
+                                    "type": "number",
+                                    "textOrAudio": "Which person was on their regular journey?"
+                                },
+                                {
+                                    "id": "12",
+                                    "type": "number",
+                                    "textOrAudio": "Which person was travel sick?"
+                                }
+                            ],
+                            "pairs": [
+                                {
+                                    "letter": "D",
+                                    "number": "0",
+                                    "isExample": true
+                                },
+                                {
+                                    "letter": "D",
+                                    "number": "1"
+                                },
+                                {
+                                    "letter": "F",
+                                    "number": "2"
+                                },
+                                {
+                                    "letter": "B",
+                                    "number": "3"
+                                },
+                                {
+                                    "letter": "E",
+                                    "number": "4"
+                                },
+                                {
+                                    "letter": "D",
+                                    "number": "5"
+                                },
+                                {
+                                    "letter": "E",
+                                    "number": "6"
+                                },
+                                {
+                                    "letter": "C",
+                                    "number": "7"
+                                },
+                                {
+                                    "letter": "B",
+                                    "number": "8"
+                                },
+                                {
+                                    "letter": "F",
+                                    "number": "9"
+                                },
+                                {
+                                    "letter": "A",
+                                    "number": "10"
+                                },
+                                {
+                                    "letter": "E",
+                                    "number": "11"
+                                },
+                                {
+                                    "letter": "C",
+                                    "number": "12"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "info": "Read the article Giant-Man Stanley Cook.\nFor questions 13-18, choose the correct answer (A, B, C or D).",
+                    "initialText": {
+                        "title": "Giant-Man Stanley Cook",
+                        "text": "Stanley Cook was in the Guinness Book of Records from 1967 to 1993 as the tallest man in England, where he was reported to have measured 8ft 4in (2.44m) - a fact that, his greatnephew, Jim Cook, who lives in Ontario, Canada, and has researched Stanley’s life, says is an exaggeration.\n\nStanley Cook was born in 1891 in London, the second youngest of four sons. After his father died on Christmas Day, 1899, his mother struggled to make ends meet, and Cook, then aged eight, and his two-year-old brother George were placed in care. “He was remarkably tall for his age,” said Jim Cook. “He was a happy boy, who realized it paid to entertain the others and make them laugh.” The brothers were sent to homes in Canada to learn agricultural skills, but Cook was unfit for farm work and, in 1909, he returned to England to find factory work.\n\nIn the spring of 1911, Cook was the tallest man in a parade of giants as part of the celebrations for the coronation of King George V. He was said to stand 7ft 4in tall, and the attention he received from the press and public was his first indication that his unusual height might be a means to make a living away from a factory. He was approached by Don Banks, who offered to find him work in Ashton’s Circus.\n\n“Of course Stanley was a freak,” said his great-nephew, “and that’s what people paid to see. He was free to travel since he didn’t have a home of his own or anything to keep him where he was. And he was a happy, well-adjusted chap. He liked to talk to the public and see them enjoy themselves.” In June 1911 Cook earned his first salary as a professional giant in Ashton’s Circus at Chigwell in Essex.\n\n“His height could be seen as a blessing,” said Jim Cook, “because it gave him a life he could never otherwise have enjoyed,” including a tour of Europe in early 1914. His picture appeared in newspapers all over the world. “Suddenly newspapers were reporting that he stood 8ft 11in.”\n\nJim Cook believes his manager, Don Banks, was the source of this. “He made the most of Stanley’s size. Of course Don ‘stretched’ the truth. He just wanted to bring in the crowds.” Stanley claimed he was 8ft 4in and continued to do so for the rest of his life. His doctor’s case notes say he stood 7ft 9in tall, which is now known to have been the case.\n\nStanley stayed with the circus until his death in 1918, aged 27. “He died young, but he had a unique life,’’ said Jim. “He travelled widely, had a good working relationship with Don, who never took advantage of him, and the circus provided him with a family.”\n\nFor Jim Cook, his great-uncle’s fame has enabled long-lost family members to find each other. “I’ve been to places I’d never have been, doing this research, from Canada to Britain, the States and Australia. The expenses have been huge, and well worth it. I’d say that its role in helping me reconnect with family has been its greatest gift to me. It’s nice to think that Stanley is still remembered after all these years.”"
+                    },
+                    "questions": [
+                        {
+                            "type": "SingleChoice",
+                            "question": "What was his main reason for joining a circus?",
+                            "choices": [
+                                "It gave him the chance to travel.",
+                                "He didn’t have a home.",
+                                "He needed the money.",
+                                "He enjoyed entertaining people."
+                            ],
+                            "correctChoice": "D"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "He realized that he could make money out of his height",
+                            "choices": [
+                                "when he was in care.",
+                                "while he was in Canada.",
+                                "during a royal celebration.",
+                                "at Chigwell."
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "How did he feel about his height?",
+                            "choices": [
+                                "It did not trouble him.",
+                                "He felt he was a freak.",
+                                "He thought people laughed at him.",
+                                "He was grateful for it."
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "His manager",
+                            "choices": [
+                                "lied to him.",
+                                "exploited him.",
+                                "treated him fairly.",
+                                "treated him like a member of the family."
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Jim Cook is particularly appreciative of the fact that",
+                            "choices": [
+                                "he has found out about his family.",
+                                "he has had the chance to travel.",
+                                "he has received money for his work.",
+                                "he has revived the memory of his great-uncle."
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "What was Stanley Cook’s true height?",
+                            "choices": [
+                                "7ft 4in.",
+                                "7ft 9in.",
+                                "8ft 4in.",
+                                "8ft 11in."
+                            ],
+                            "correctChoice": "B"
+                        }
+                    ]
+                },
+                {
+                    "info": "Read the article about personality research.\nFor questions 19-24, choose from the sentences A-H the one which best fits the gap.\nThere are two letters which you do not need.\nThere is an example at the beginning (0)",
+                    "initialText": {
+                        "title": "The desire to define ourselves",
+                        "text": "Think of the last time you tried to describe someone, or attempted to explain your own behaviour to another person. Chances are you used words such as “shy” or “confident”, “friendly” or “reserved”. When trying to understand our own, or other people’s behaviour, we tend to fall back on these psychological categories without even thinking. (0) ___. Of course, in reality none of us is so easily defined.\n\nAnd yet the desire to define ourselves is undeniable. Personality, by which we generally mean the thoughts, feelings and behaviour that make each of us individual, fascinates and challenges us. (19) ___. Meanwhile, our identity and relation to the world is defined in the categories psychologists and scientists have identified.\n\nIn reality, we are all made up of conflicting traits. (20) ___. For example, we can be careful and controlling in one area but spontaneous thrill-seekers in another. So can the contradictory nature of human behaviour ever be neatly classified into a set of universal traits? The Victorians certainly thought so.\n\nTowards the end of the nineteenth century, Sir Francis Galton pioneered an approach called lexical analysis, proposing that the most significant personality differences in people’s lives were encoded in their language. (21) ___. This theory was debated and refined over the next 100 years. In 1936, US psychologists Gordon Allport and H. S. Odbert extracted almost 18,000 personality-describing words and reduced them to around 5,000 common traits.\n\nSoon after, psychologist Raymond Cattell took those terms and reduced them further to 171 and then to 16. He then identified five broad traits that came to be known as “the big five”: openness, neuroticism, conscientiousness, extroversion and agreeableness. (22) ___. If, say, you register high in openness, you are likely to be emotionally adventurous, willing to try new things and intellectually curious.\n\nBut what, you may be wondering, was the point of focusing so intently on personality research? What did researchers such as Galton and Cattell hope to gain? (23) ___. Personality is only of interest to psychologists if it can give them information about how we’re likely to behave - now and in the future.\n\nRita Carter has recently published research which argues that people behave differently depending on context. (24) ___. “Instead of saying we’re one particular type,” she says, “it is more complex. You need to examine each of our individual personalities and then look at how they fight each other.”\n\nAre we entirely predictable creatures that can be classified according to a finite number of traits, or do we adapt according to our mood and situation? The debate continues."
+                    },
+                    "questions": [
+                        {
+                            "type": "FillInChoices",
+                            "correctChoices": [
+                                {
+                                    "letter": "A",
+                                    "answers": [
+                                        "They tended to define personality purely as a potentiality to behave in a certain way - focusing  entirely on probable and predicted outcome."
+                                    ]
+                                },
+                                {
+                                    "index": 23,
+                                    "answers": [
+                                        "Aside from the satisfaction of cracking the code of human personality, the aim was to predict human behaviour."
+                                    ],
+                                    "letter": "B"
+                                },
+                                {
+                                    "index": 21,
+                                    "answers": [
+                                        "If we could sample language, we could build a complete lexicon of human personality traits."
+                                    ],
+                                    "letter": "C"
+                                },
+                                {
+                                    "index": 19,
+                                    "answers": [
+                                        "Psychologists and scientists have devoted themselves to the goal of understanding it for more than a century."
+                                    ],
+                                    "letter": "D"
+                                },
+                                {
+                                    "letter": "E",
+                                    "answers": [
+                                        "As every parent knows, a child is born with strikingly recognisable traits, many that are different from those of their parents or their other siblings."
+                                    ]
+                                },
+                                {
+                                    "index": 20,
+                                    "answers": [
+                                        "They make us the individuals that we are, but also unpredictable."
+                                    ],
+                                    "letter": "F"
+                                },
+                                {
+                                    "index": 22,
+                                    "answers": [
+                                        "Each trait indicates or predicts the way you may behave in certain situations."
+                                    ],
+                                    "letter": "G"
+                                },
+                                {
+                                    "index": 24,
+                                    "answers": [
+                                        "It shows that we have several personalities, and the one that comes to the fore depends on the situation we find ourselves in."
+                                    ],
+                                    "letter": "H"
+                                },
+                                {
+                                    "index": 0,
+                                    "letter": "I",
+                                    "answers": [
+                                        "One friend is optimistic, seeing the world from a generally hopeful perspective, while the other is the opposite, a gloomy pessimist."
+                                    ],
+                                    "isExample": true
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "info": "Read the text about life in the city.\nFor questions 25-32, choose the answer (A, B, C or D) that best fits each space.\nThere is an example at the beginning (0).",
+                    "initialText": {
+                        "text": "The pace of city life is obviously (0) ___ hectic than that in the country. People in cities walk (25) ___ average at 1 to 1.5 metres per second, considerably faster than in villages. For the past 30 years we (26) ___ told the hurried pace of urban life is potentially more harmful. But research says that the noise and bustle of city life produces so much adrenaline that we become addicted to the excitement it gives us. We even speed up to maximise the (27) ___ of the pleasure we start experiencing. For example, we try to do many things simultaneously, such as driving and talking on the phone.\n\nWe have adapted to city life in other ways too, learning to respect another person’s space so as (28) ___ on their privacy. Shopping transactions take place (29) ___ a distance of at least 1.5 metres, while friends talk a metre apart. These social rules allow us to retain our privacy but make the beginning of a friendship with strangers more difficult, (30) ___ turns the city into a lonely place. The long-term city dweller has about 1,800 people whom they know and could potentially have a social interaction with; (31) ___, they end up having no more than five.\n\nOne thing is certain. Enjoying city life would not be possible if the inhabitants (32) ___ by a set of strict rules. The rules that make life in the city easier.",
+                        "title": "Life in the City"
+                    },
+                    "questions": [
+                        {
+                            "type": "SingleChoice",
+                            "isExample": true,
+                            "question": "0",
+                            "choices": [
+                                "far",
+                                "the most",
+                                "most",
+                                "more"
+                            ],
+                            "correctChoice": "D"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "25",
+                            "choices": [
+                                "for",
+                                "by",
+                                "in",
+                                "on"
+                            ],
+                            "correctChoice": "D"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "26",
+                            "choices": [
+                                "are",
+                                "were",
+                                "have been",
+                                "had been"
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "27",
+                            "choices": [
+                                "intensity",
+                                "strength",
+                                "force",
+                                "volume"
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "28",
+                            "choices": [
+                                "not intrude",
+                                "not to intrude",
+                                "not intruding",
+                                "intruding not"
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "29",
+                            "choices": [
+                                "on",
+                                "at",
+                                "in",
+                                "during"
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "30",
+                            "choices": [
+                                "which",
+                                "what",
+                                "that",
+                                "this"
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "31",
+                            "choices": [
+                                "meanwhile",
+                                "however",
+                                "moreover",
+                                "therefore"
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "32",
+                            "choices": [
+                                "do not live",
+                                "will not live",
+                                "are not living",
+                                "were not living"
+                            ],
+                            "correctChoice": "D"
+                        }
+                    ]
+                },
+                {
+                    "info": "Read and complete the text below.\nFill each space (33-40) with one word. Write your answer only here in the exam booklet.\nThere is an example at the beginning (0).",
+                    "initialText": {
+                        "title": "CERN",
+                        "text": "The European Organization for Nuclear Research, (0) ___ as CERN, is an international organization (33) ___ purpose is to operate the world’s largest particle physics laboratory. It is situated in the northwest suburbs of Geneva on the border of France and Switzerland and was established in 1954. Twenty European countries (34) ___ part in its work. The name CERN also refers (35) ___ the laboratory, which employs 2,400 full-time employees and hosts 10,000 visiting scientists and engineers, representing 113 nationalities.\n\nCERN provides the accelerators and other equipment needed for high-energy physics research. Numerous experiments have been conducted (36) ___ CERN by scientists from all over the world. It is the birthplace of the World Wide Web. CERN has a large and powerful computer centre for analysing experimental data and it (37) ___ this data immediately available to researchers around the world.\n\nAfter analysing trillions of collisions between protons, CERN’s researchers seem to (38) ___ found the subatomic particle called the Higgs boson. This basic building block of the universe was imagined and named 50 years (39) ___ by theoretical physicist Peter Higgs. The discovery of this particle opens the way to detailed studies which might result (40) ___ an explanation of the way the universe was ordered after the chaos of the Big Bang."
+                    },
+                    "questions": [
+                        {
+                            "type": "FillInChoices",
+                            "correctChoices": [
+                                {
+                                    "index": 0,
+                                    "answers": [
+                                        "known"
+                                    ],
+                                    "isExample": true
+                                },
+                                {
+                                    "index": 33,
+                                    "answers": [
+                                        "whose"
+                                    ]
+                                },
+                                {
+                                    "index": 34,
+                                    "answers": [
+                                        "take"
+                                    ]
+                                },
+                                {
+                                    "index": 35,
+                                    "answers": [
+                                        "to"
+                                    ]
+                                },
+                                {
+                                    "index": 36,
+                                    "answers": [
+                                        "at"
+                                    ]
+                                },
+                                {
+                                    "index": 37,
+                                    "answers": [
+                                        "makes",
+                                        "renders"
+                                    ]
+                                },
+                                {
+                                    "index": 38,
+                                    "answers": [
+                                        "have"
+                                    ]
+                                },
+                                {
+                                    "index": 39,
+                                    "answers": [
+                                        "ago"
+                                    ]
+                                },
+                                {
+                                    "index": 40,
+                                    "answers": [
+                                        "in"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Pisanje",
+            "predictedTime": 75,
+            "instructions": "Pozorno pročitajte sve upute i slijedite ih.\nIspit Pisanja traje 75 minuta.\n\nIspit se sastoji od zadatka eseja.\nŽelimo Vam mnogo uspjeha!",
+            "potentialPoints": 20,
+            "questionGroups": [
+                {
+                    "info": "Write an essay of 200-250 words.\nYour essay must have an introduction, body and conclusion.\nDiscuss arguments for and against this view and give your own opinion.",
+                    "questions": [
+                        {
+                            "type": "EssayWriting",
+                            "points": [
+                                {
+                                    "category": "Izvršenje zadatka",
+                                    "points": 5
+                                },
+                                {
+                                    "category": "Koherencija i kohenzija",
+                                    "points": 5
+                                },
+                                {
+                                    "category": "Vokabular",
+                                    "points": 5
+                                },
+                                {
+                                    "category": "Gramatika",
+                                    "points": 5
+                                }
+                            ],
+                            "question": "Some people say that university students should take a job while studying. Others disagree.",
+                            "minWords": 200,
+                            "maxWords": 250
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Slušanje",
+            "predictedTime": 35,
+            "instructions": "Pozorno pročitajte sve upute i slijedite ih.\nIspit Slušanja traje 35 minuta.\n\nIspit se sastoji od zadataka povezivanja i zadataka višestrukoga izbora.\n- U zadatcima povezivanja svaki sadržaj označen brojem povežite s odgovarajućim sadržajem koji je označen slovom (zadatci 1 i 3).\n- U zadatcima višestrukoga izbora od više ponuđenih odgovora odaberite samo jedan (zadatci 2 i 4).\n\nKada riješite zadatke, provjerite odgovore.\nŽelimo Vam mnogo uspjeha!",
+            "potentialPoints": 25,
+            "questionGroups": [
+                {
+                    "info": "You will hear 5 people talking about their dogs.\nFor each recording (1-5), decide why each person got their dog. Choose from A to H.\nWrite one letter next to the number of the recording.\nThere are three letters that you do not need.\nDo not use any letter more than once.",
+                    "initialAudio": "https://files.matura.top/2015/Jesen/Eng/A/Task1.opus",
+                    "questions": [
+                        {
+                            "type": "MatchThePairs",
+                            "whichToHide": [
+                                "numbers"
+                            ],
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "type": "number",
+                                    "textOrAudio": "Speaker 1"
+                                },
+                                {
+                                    "id": "2",
+                                    "type": "number",
+                                    "textOrAudio": "Speaker 2"
+                                },
+                                {
+                                    "id": "3",
+                                    "type": "number",
+                                    "textOrAudio": "Speaker 3"
+                                },
+                                {
+                                    "id": "4",
+                                    "type": "number",
+                                    "textOrAudio": "Speaker 4"
+                                },
+                                {
+                                    "id": "5",
+                                    "type": "number",
+                                    "textOrAudio": "Speaker 5"
+                                },
+                                {
+                                    "id": "A",
+                                    "type": "letter",
+                                    "textOrAudio": "To teach their children responsibility."
+                                },
+                                {
+                                    "id": "B",
+                                    "type": "letter",
+                                    "textOrAudio": "For companionship."
+                                },
+                                {
+                                    "id": "C",
+                                    "type": "letter",
+                                    "textOrAudio": "For protection."
+                                },
+                                {
+                                    "id": "D",
+                                    "type": "letter",
+                                    "textOrAudio": "For the exercise."
+                                },
+                                {
+                                    "id": "E",
+                                    "type": "letter",
+                                    "textOrAudio": "To breed them."
+                                },
+                                {
+                                    "id": "F",
+                                    "type": "letter",
+                                    "textOrAudio": "To give them a home."
+                                },
+                                {
+                                    "id": "G",
+                                    "type": "letter",
+                                    "textOrAudio": "For fun and play."
+                                },
+                                {
+                                    "id": "H",
+                                    "type": "letter",
+                                    "textOrAudio": "To improve their children’s health."
+                                }
+                            ],
+                            "pairs": [
+                                {
+                                    "letter": "C",
+                                    "number": "1"
+                                },
+                                {
+                                    "letter": "D",
+                                    "number": "2"
+                                },
+                                {
+                                    "letter": "A",
+                                    "number": "3"
+                                },
+                                {
+                                    "letter": "F",
+                                    "number": "4"
+                                },
+                                {
+                                    "letter": "E",
+                                    "number": "5"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "info": "You will hear people talking in eight situations.\nFor each situation (6-13), choose the correct answer, A, B or C.\nYou will hear each recording twice",
+                    "initialAudio": "https://files.matura.top/2015/Jesen/Eng/A/Task2.opus",
+                    "questions": [
+                        {
+                            "type": "SingleChoice",
+                            "question": "You hear Lily talking about Charlie. What does she like about him?",
+                            "choices": [
+                                "His sense of humour.",
+                                "His looks.",
+                                "His caring nature."
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "You hear Kyle talking about going white-water rafting. Why did he decide to do it?",
+                            "choices": [
+                                "For the thrill.",
+                                "To make a point.",
+                                "Because of peer pressure."
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "You hear Lauren talking about her maths teacher. What does she say about him?",
+                            "choices": [
+                                "He’s interesting.",
+                                "He’s well-prepared.",
+                                "He’s committed."
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "You hear two people talking. What is the main topic of their conversation?",
+                            "choices": [
+                                "Dieting.",
+                                "Clothes.",
+                                "Looks."
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "You hear Ruby talking about a book she read. What does she say about the book?",
+                            "choices": [
+                                "It had a difficult style.",
+                                "The characters were shallow.",
+                                "It had an entertaining plot."
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "You hear two people discussing a job application. How does the man feel about the applicant?",
+                            "choices": [
+                                "He’s a bit suspicious of the applicant.",
+                                "He’s impressed by the applicant.",
+                                "He thinks that the applicant is competent."
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "You hear Caitlin talking about her holiday. What does she say about it?",
+                            "choices": [
+                                "It was expensive.",
+                                "It was exciting.",
+                                "It was tiring."
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "You hear a student talking about his homework. How did he manage to finish it on time?",
+                            "choices": [
+                                "He worked all night.",
+                                "He had assistance.",
+                                "He was motivated."
+                            ],
+                            "correctChoice": "B"
+                        }
+                    ]
+                },
+                {
+                    "info": "You will hear a brother and a sister talking about three different teen summer camps.\nListen to the conversation and decide which teen camp (A-C) each question (14-19) refers to.\n\nWrite:\n- A for Albert Cookery School\n- B for Bakewell Cookery School\n- C for Clough Cookery School",
+                    "initialAudio": "https://files.matura.top/2015/Jesen/Eng/A/Task3.opus",
+                    "questions": [
+                        {
+                            "type": "MatchThePairs",
+                            "whatFirst": "letters",
+                            "options": [
+                                {
+                                    "id": "A",
+                                    "type": "letter",
+                                    "textOrAudio": "Albert Cookery School"
+                                },
+                                {
+                                    "id": "B",
+                                    "type": "letter",
+                                    "textOrAudio": "Bakewell Cookery School"
+                                },
+                                {
+                                    "id": "C",
+                                    "type": "letter",
+                                    "textOrAudio": "Clough Cookery School"
+                                },
+                                {
+                                    "id": "14",
+                                    "type": "number",
+                                    "textOrAudio": "Which course is the most advanced?"
+                                },
+                                {
+                                    "id": "15",
+                                    "type": "number",
+                                    "textOrAudio": "Which course is taught by a famous chef?"
+                                },
+                                {
+                                    "id": "16",
+                                    "type": "number",
+                                    "textOrAudio": "Which course requires participants to bring special equipment?"
+                                },
+                                {
+                                    "id": "17",
+                                    "type": "number",
+                                    "textOrAudio": "Which course includes an excursion?"
+                                },
+                                {
+                                    "id": "18",
+                                    "type": "number",
+                                    "textOrAudio": "Which course has a family atmosphere?"
+                                },
+                                {
+                                    "id": "19",
+                                    "type": "number",
+                                    "textOrAudio": "Which course is the most intense?"
+                                }
+                            ],
+                            "pairs": [
+                                {
+                                    "letter": "A",
+                                    "number": "14"
+                                },
+                                {
+                                    "letter": "C",
+                                    "number": "15"
+                                },
+                                {
+                                    "letter": "B",
+                                    "number": "16"
+                                },
+                                {
+                                    "letter": "B",
+                                    "number": "17"
+                                },
+                                {
+                                    "letter": "C",
+                                    "number": "18"
+                                },
+                                {
+                                    "letter": "A",
+                                    "number": "19"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "info": "You will hear a radio interview with the musician Grey Jackson.\nFor questions 20-25, choose the correct answer, A, B or C.\nYou will hear the recording twice.",
+                    "initialAudio": "https://files.matura.top/2015/Jesen/Eng/A/Task4.opus",
+                    "questions": [
+                        {
+                            "type": "SingleChoice",
+                            "question": "Grey first learned to play",
+                            "choices": [
+                                "the violin.",
+                                "the guitar.",
+                                "the piano."
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Grey’s first gig took place",
+                            "choices": [
+                                "at a garage.",
+                                "at the local school.",
+                                "at the local jazz club."
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "On stage, Grey feels",
+                            "choices": [
+                                "relaxed.",
+                                "insecure.",
+                                "excited."
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "The music Grey now plays is",
+                            "choices": [
+                                "jazz and folk.",
+                                "rock’n’roll.",
+                                "a combination of styles."
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Grey plays his music for",
+                            "choices": [
+                                "the audience.",
+                                "personal satisfaction.",
+                                "financial security."
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Grey next plans to",
+                            "choices": [
+                                "make a new album.",
+                                "play at an outdoor festival.",
+                                "appear at an award ceremony."
+                            ],
+                            "correctChoice": "C"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

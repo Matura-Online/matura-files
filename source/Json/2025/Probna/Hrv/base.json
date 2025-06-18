@@ -1,0 +1,1052 @@
+{
+	"name": "Hrvatski Jezik",
+	"maxPoints": 110,
+	"scale": {
+		"range1": [
+			0,
+			34.99
+		],
+		"range2": [
+			35,
+			51.99
+		],
+		"range3": [
+			52,
+			67.49
+		],
+		"range4": [
+			67.5,
+			80.99
+		],
+		"range5": [
+			81,
+			100
+		]
+	},
+	"sections": [
+		{
+			"name": "Čitanje, Književnost i Hrvatski Jezik",
+			"predictedTime": 100,
+			"instructions": "Pozorno pročitajte sve upute i slijedite ih.\nIspit traje 100 minuta.\n\nKada riješite zadatke, provjerite odgovore.\nŽelimo Vam mnogo uspjeha!",
+			"questionGroups": [
+				{
+					"info": "I. Čitanje\n\nZadatci s polaznim tekstom.\nZadatci višestrukoga izbora.\n\nU zadatcima višestrukoga izbora od više ponuđenih odgovora samo je jedan točan.\nTočan odgovor donosi jedan bod. Zadatci od 1. do 30. odnose se na polazne tekstove.",
+					"questions": [
+						{
+							"type": "SingleChoice",
+							"question": "Koja je tema pjesme?",
+							"choices": [
+								"pjesnikovo žaljenje zbog smrti bliske osobe",
+								"pjesnikov doživljaj čovjekove egzistencije",
+								"uživanje u noćnome pejzažu",
+								"sjećanje na nesretnu ljubav"
+							],
+							"correctChoice": "B"
+						},
+						{
+							"type": "SingleChoice",
+							"question": "Na koji motiv upućuje podcrtana metafora u sljedećemu stihu?",
+							"choices": [
+								"na obraze",
+								"na oči",
+								"na svjetla",
+								"na mjesec"
+							],
+							"shortText": "(_*Zastrta okna* praznih tamnih kuća_)",
+							"correctChoice": "B"
+						},
+						{
+							"type": "SingleChoice",
+							"question": "Kakvima su prikazani ljudi u sljedećim stihovima?",
+							"choices": [
+								"nesretnima",
+								"sebičnima",
+								"slijepima",
+								"zavidnima"
+							],
+							"shortText": "_Obrazi su teški vise... dogaraju oči_\n_mutne vlažne prazne_",
+							"correctChoice": "A"
+						},
+						{
+							"type": "SingleChoice",
+							"question": "Koja se od sljedećih tvrdnja ne odnosi na pjesmu Sudbine u ponoć?",
+							"choices": [
+								"U pjesmi je prisutan motiv prolaznosti.",
+								"U pjesmi je prisutna simbolika boja.",
+								"Pjesma je pisana vezanim stihom.",
+								"Pjesma je grafički strukturirana."
+							],
+							"correctChoice": "C"
+						},
+						{
+							"type": "SingleChoice",
+							"question": "Kojoj književnoj poetici pripada pjesma Sudbine u ponoć?",
+							"choices": [
+								"ekspresionističkoj",
+								"impresionističkoj",
+								"romantičarskoj",
+								"simbolističkoj"
+							],
+							"correctChoice": "A"
+						}
+					],
+					"initialText": {
+						"title": "Sudbine u ponoć, Antun Branko Šimić",
+						"text": "Obrazi su teški vise... dogaraju oči\nmutne vlažne prazne\n\nU očima poumirale duše\n(Zastrta okna praznih tamnih kuća)\n\nBijela svjetla šúme\n\nNa stolovima čaše pune alkohola\n\nTekućina ulijeva težinu\nu pokrete\nljudska tijela prečinja$^{1}$\nu neke pomične i teške\nkipove od drva\n\nŽena\nšto sja žarkim bojama odijela\nnamirisanom bijelom puti tijela\nne budi više požude\nuzdignutim oštrim smijehom\nCrvena i hladna srca muklo kao ure tuku\n\nČovjek\npodignut od stola\nnekim zovom koji on sâm čuje\nkoraca u noć svoje zadnje korake\n\nMjesec\n– okrugla crvena glava –\nsmije se neopažen kroz prozor\ndok raste pometnja\nu ovaj prostor izgubljenih tijela\n\n$^{1}$ prečinja – pretvara"
+					}
+				},
+				{
+					"info": "Pozorno pročitajte polazni tekst (drugi tekst) i riješite 6., 7., 8., 9. i 10. zadatak.",
+					"initialText": {
+						"title": "Antun Gustav Matoš, Kip domovine leta 188*",
+						"text": "Kada se ušeprtljiše Zagrepčani radi onijeh grbova na zgradi državne financije, zovne usplahirena vlast u pomoć vojsku.\nBijaše to treći dan bune.\nJutro toplo, sunčano. Nebom se nepomično pružio samo jedan, crn i duguljast oblačak: mniš e je kroz pukotinu modrog plašta nebeskog prokuljao dim.\n– Vojska ide, ide vojska!\nI za tili časak prsne šarena gužva. Odvulala se kao pred kakom grozovitom istragom, a na pustom Trgu Jelačićevu ostadoše samo piljarički stolovi i stočići.\nZa tren oka zabravilo vrata kućna i dućanska.\nTišina kao pred groznom bitkom!\nMalo, a iz Bakačeve ulice kao da šušnu lišće, kao da pljusnu kiša – i diže se bahat kopita.\n– Soldati ideju, bežimo!\n– Nedem, makar fratri padali!\n– Ali, Pepica, draga, lublena Pepica...\n– Nedem, Joškec, nedem! Kaj mi moreju ovi grintavci? Ja nis’ niš kriva!\nTo govori tik do spomenika usamljen par: guravi piljar$^{1}$\nPogačić i pretila gospa Pogačićka, koja se ujezerila na svom tronošku kao u staro mirno doba.\nI zarudi prvi red konjice.\n– Pepica, za pet ran Kristušovih, smili mi se! Hodi! Buju te fundali ovi mađarski hajuši.$^{2}$\nI niz modruljasti se nos poštovanog purgara$^{3}$ prosu voda iz očiju.\n– Ali, Pepica, draga, lublena Pepica!\n– Nedem, Jožica, magari$^{4}$ najdepši$^{5}$ fratri padali.\nTutnji već i gromori: sad će zapljusnuti crveni eskadron.\n– Pepica! Jojček, kaj bu z nas!\nI čestiti se purgar zdvojno okrene na peti i stane strugati, strugati niz čaršiju.\n– Fuj te budi, pajcek vušivi!\nDrekne i pljune za njim.\nKonjica joj se već kasom sasvijem prikučila.\nTek sada kada se osjeti sama, napuštena, a motreći sve jasnije i jasnije bijesna, blesasta lica i gole ćorde$^{6}$\n– uhvati babu grdan strah. Ujelo ju nešto duboko u grudima, koljena joj se kucnu, ona dva-tri zuba zacvokotaju, a pred očima joj se zamagli.\nŠćućuri se i stane gristi nokte. Učini joj se da ju onaj bucmasti oficir s iglastim brcima gleda pakosno, zlurado.\n– Lezi, babo! – dreknu neko.\nA ona potresena skoči na noge junačke i baci kao molitven pogled na sionog Bana: u sunčanom se zlatu blista kalpak$^{7}$ i menten$^{8}$, a ljuta mu se krivošija$^{9}$ u snažnoj desnici kao zapalila...\nI u babinoj duši sine dan kada ga je djevojkom ovdje gledala s njegovim „ilercima”.\nUto bocne onaj časnik svog konja i uz urnebesni hura i smijeh preskoči poštovanu „tovarušicu”$^{10}$ općepoznatog purgara Pogačića. Zemlja zatutnji, a gusa$^{11}$ poleti kao vijor preko piljarskih klupa i stočića.\n\n$^{1}$ piljar – prodavač voća i povrća na tržnici\n$^{2}$ Buju te fundali ovi mađarski hajuši. – Ubit će te ove mađarske bitange.\n$^{3}$ purgar – građanin Zagreba\n$^{4}$ magari – makar\n$^{5}$ najdepši – najdeblji\n$^{6}$ ćorda – zakrivljena sablja\n$^{7}$ kalpak – svečana krznena kapa\n$^{8}$ menten – svečani ogrtač\n$^{9}$ krivošija – zakrivljena sablja\n$^{10}$ „tovarušica” – bračna družica, supruga\n$^{11}$ gusa – razbojnička četa"
+					},
+					"questions": [
+						{
+							"type": "SingleChoice",
+							"question": "Koja je tema polaznoga teksta?",
+							"choices": [
+								"bitka za vrijeme pobune Zagrepčana protiv Mađara",
+								"zaključavanje trgovina i kuća uoči dolaska konjice",
+								"Pepičin prkos za vrijeme nadolazeće opasnosti",
+								"prisjećanje na slavna ilirska vremena"
+							],
+							"correctChoice": "C"
+						},
+						{
+							"type": "SingleChoice",
+							"question": "Na koga se odnosi podcrtani izraz u sljedećoj rečenici?",
+							"choices": [
+								"na ilirce",
+								"na pobunjenike",
+								"na trgovce",
+								"na vojnike"
+							],
+							"shortText": "_Kaj mi moreju ovi *grintavci*_?",
+							"correctChoice": "D"
+						},
+						{
+							"type": "SingleChoice",
+							"question": "Koji zaključak o Pepici proizlazi iz sljedeće rečenice?",
+							"choices": [
+								"da je ustrajna u svojoj odluci",
+								"da se ne boji Jožice",
+								"da je prestrašena",
+								"da prezire Jožicu"
+							],
+							"shortText": "_Nedem, Jožica, magari najdepši fratri padali_.",
+							"correctChoice": "A"
+						},
+						{
+							"type": "SingleChoice",
+							"question": "U kojoj je od sljedećih rečenica iskazana ironija?",
+							"choices": [
+								"_Buju te fundali ovi mađarski hajuši._",
+								"_Tek sada kada se osjeti sama, napuštena, a motreći sve jasnije i jasnije bijesna, blesasta lica i gole ćorde – uhvati babu grdan strah._",
+								"_Učini joj se da ju onaj bucmasti oficir s iglastim brcima gleda pakosno, zlurado._",
+								"_Uto bocne onaj časnik svog konja i uz urnebesni hura i smijeh preskoči poštovanu „tovarušicu” općepoznatog purgara Pogačića._"
+							],
+							"correctChoice": "D"
+						},
+						{
+							"type": "SingleChoice",
+							"question": "Kojim se od sljedećih postupaka postiže uvjerljiv prikaz likova?",
+							"choices": [
+								"dijalogom na kajkavskome narječju",
+								"onomatopejskim izrazima",
+								"upotrebom grafostilema",
+								"lirskim opisom prirode"
+							],
+							"correctChoice": "A"
+						}
+					]
+				},
+				{
+					"info": "Pozorno pročitajte polazni tekst (treći tekst) i riješite 11., 12., 13., 14. i 15 zadatak.",
+					"initialText": {
+						"title": "Ivo Andrić, Na Drini ćuprija$^{1}$",
+						"text": "U leto četvrte godine prošao je kroz kasabu$^{2}$ prvi voz, okićen zelenilom i zastavama. Bilo je veliko narodno veselje. (...) Vožnja je toga dana bila besplatna. (...)\nTek sada kad je železnica ostvarena i proradila, videlo se šta to znači za most, njegovu ulogu u životu kasabe i njegovu sudbinu uopšte. Pruga je išla niz Drinu, onom strminom ispod Mejdana, usečena u breg, opasivala varoš$^{3}$ i spuštala se u ravnicu kod poslednjih kuća, na obali Rzava. Tu je bila stanica. Ceo saobraćaj za ljude i robu, sa Sarajevom i preko njega sa ostalim zapadnim svetom, ostao je sada na desnoj obali Drine. Leva obala, i sa njom most, potpuno su umrtvljeni. Preko mosta je prelazio samo još svet iz sela sa leve obale Drine; seljaci sa svojim malim, pretovarenim konjima i volovskim kolima, ili konjske zaprege koje vuku drvo iz udaljenih šuma na železničku stanicu. (...)\nKiridžije$^{4}$, konji, natkrivene arabe$^{5}$ i staromodni mali fijakeri$^{6}$, kojima se nekad putovalo u Sarajevo, ostali su bez posla. Putovanje nije trajalo dva puna dana, sa konakom$^{7}$ u Rogatici, kao dosada, nego svega četiri sata. I to su bili oni brojevi od kojih svetu pamet staje, ali svet govori o njima i dalje, bez pameti, sa uzbuđenjem, računajući sve dobitke i uštede koje brzina donosi. (...)\nIstina, i seljaci su se teško privikavali na železnicu. Služili su se njome, ali nisu mogli da se srode s njom i da joj uhvate ćud i naviku. U ranu zoru oni se spuštaju s brda, sa suncem stignu u kasabu i već kod prvih dućana uzbuđeno pitaju svakog koga sretnu:\n‒ Je li otišla mašina?\n‒ Da si ti živ i zdrav, rođače, otišla je davno – lažu bezdušno dokone$^{8}$ dućandžije sa ćepenaka$^{9}$.\n‒ Ama, bogati?\n‒ Sutra će druga.\nSve to pitaju ne zaustavljajući se, žureći i dalje i navikujući na žene i decu, koji zaostaju.\nTako stignu trkom na stanicu. Tu ih neko od osoblja umiri i kaže im da su prevareni i da ima još tri dobra sata do polaska voza. Tada odahnu, posedaju uza zid stanične zgrade, rasprte torbe, doručkuju, razgovaraju ili kunjaju, ali su stalno na oprezu i čim neka teretna lokomotiva negde pisne, oni poskaču i počnu da prte svoje rasturene stvari vičući:\n‒ Ustajte! Ode mašina!\nSlužbenik na peronu ih grdi i gura napolje:\n‒ Ama, jesam li vam rekao da ima više od tri sata do polaska voza? Kud ste nasrnuli?\nJeste li vi pametni?\nOni se vraćaju na svoje staro mesto, sedaju ponovo, ali ih sumnja i neverica ne napuštaju.\nI kod prvog piska ili samo sumnjivog šuma oni će ponovo poskakati na noge i navaliti na peron, da ponovo budu vraćeni da strpljivo čekaju i pažljivo osluškuju. Jer, ma koliko da im se govori i dokazuje, u dnu svesti oni tu „mašinu” ne mogu drugačije da shvate do kao neku brzu, zagonetnu i podmuklu švapsku ujdurmu$^{10}$, koja neopreznom čoveku izmakne dok on okom trepne i koja samo to i gleda: kako da prevari seljaka putnika i da ode bez njega.\n\n\n$^{1}$ ćuprija – most\n$^{2}$ kasaba – gradić\n$^{3}$ varoš – grad\n$^{4}$ kiridžija – prijevoznik\n$^{5}$ araba – putnička ili teretna zaprežna kola\n$^{6}$ fijaker – dvoprežna kočija namijenjena javnomu prijevozu\n$^{7}$ konak – noćenje\n$^{8}$ dokon – besposlen\n$^{9}$ ćepenak – vratašca trgovine ili radionice \n$^{10}$ ujdurma – podvala, prijevara"
+					},
+					"questions": [
+						{
+							"type": "SingleChoice",
+							"question": "Koja je od sljedećih tvrdnja o seljacima točna?",
+							"choices": [
+								"Smatraju da moraju paziti da vlak ne ode bez njih.",
+								"Misle da će vožnja vlakom uvijek biti besplatna.",
+								"Lako se snalaze u voznome redu vlaka.",
+								"Često kasne na vlak."
+							],
+							"correctChoice": "A"
+						},
+						{
+							"type": "SingleChoice",
+							"question": "Kojim područjem željeznička pruga nije prolazila?",
+							"choices": [
+								"strminom ispod Mejdana",
+								"lijevom obalom Drine",
+								"kroz ravnicu",
+								"oko grada"
+							],
+							"correctChoice": "B"
+						},
+						{
+							"type": "SingleChoice",
+							"question": "U kojemu području stanuju seljaci koji putuju željeznicom?",
+							"choices": [
+								"u brdima iznad kasabe",
+								"u udaljenim šumama",
+								"na obali Rzava",
+								"u Rogatici"
+							],
+							"correctChoice": "A"
+						},
+						{
+							"type": "SingleChoice",
+							"question": "Kojom je od sljedećih stilskih figura iskazano kako seljaci putnici doživljavaju vlak?",
+							"choices": [
+								"eufemizmom",
+								"ironijom",
+								"oksimoronom",
+								"personifikacijom"
+							],
+							"correctChoice": "D"
+						},
+						{
+							"type": "SingleChoice",
+							"question": "U kojemu je od sljedećih dijelova polaznoga teksta pripovjedač subjektivan?",
+							"choices": [
+								"_U leto četvrte godine prošao je kroz kasabu prvi voz, okićen zelenilom i zastavama._",
+								"_Kiridžije, konji, natkrivene arabe i staromodni mali fijakeri, kojima se nekad putovalo u Sarajevo, ostali su bez posla._",
+								"_I to su bili oni brojevi od kojih svetu pamet staje, ali svet govori o njima i dalje, bez pameti, sa uzbuđenjem, računajući sve dobitke i uštede koje brzina donosi._",
+								"_Službenik na peronu ih grdi i gura napolje:_"
+							],
+							"correctChoice": "C"
+						}
+					]
+				},
+				{
+					"info": "Pozorno pročitajte polazni tekst (četvrti tekst) i riješite 16., 17., 18., 19. i 20. zadatak.",
+					"initialText": {
+						"title": "Miroslav Krleža, Gospoda Glembajevi",
+						"text": "GLEMBAY: Dakle, ti si prisustvovao toj aferi? I ti nikome nisi rekao o tome ni slova?\nLEONE: Nikome!\nGLEMBAY: Neshvatljivo!\nLEONE: Ja mislim da je u ovaj mah potpuno svejedno zašto ja nisam o tome nikome ništa govorio! Prije svega, ja o onoj pregaženoj starici nisam imao ni pojma. O tome opet meni nije nitko rekao ni riječi! A ti si me pitao što ja mislim o toj vašoj juridičkoj konferenciji. Molim lijepo: ja ti izlažem svoje misli! Što sam ja znao o svemu tome? Vidim tu jednu ženu u visokom stepenu trudnoće s djetetom na sisi, u suzama, a ne puštaju je pred barunicu jer nema vizitkarte! Govori ta žena o nekim ubojstvima, o nekakvom procesu, o Singer-mašini$^{1}$ kao o svojoj najvećoj sreći! Otišao sam u dućan i kupio sam jednu Singer-mašinu i dao joj poslati na njenu adresu, čita s jednog papirića: F. Canjeg, Cvjetna $^{163}$ a.\nPUBA: Pa to je genijalno! Pa to je divno! I oni tebi mogu da potvrde da je ta mašina plaćena još prije nego što se je ona ubila?\nLEONE: Kako to misliš? Ne razumijem!\nPUBA: Pa to je, naime, jedan neobično dragocjeni fakat da li je ta mašina plaćena prije samoubojstva te žene? Verstehst du das nicht?$^{2}$ Na tome se može iskonstruirati nov juridički obrat stvari: po toj plaćenoj mašini dobiva čitava ta smrt posve novo pravno osvjetljenje! Njeno predsmrtno pismo je time potpuno demantirano!\nLEONE: Pardon, valjda ne misliš da sam ja tu mašinu kupio za tvoje advokatske trikove? Ta mašina, to je moja „paranoidna” mašina i nema s tim juridičkim tvojim vicevima nikakve veze! Ja sam s tom singericom zakasnio na liniji svoje vlastite „paranoidne” odgovornosti!\n\n$^{1}$ Singer-mašina – vrsta šivaćega stroja\n$^{2}$ Verstehst du das nicht? – Zar ti to ne razumiješ?"
+					},
+					"questions": [
+						{
+							"type": "SingleChoice",
+							"question": "O kojoj aferi, u kontekstu djela u cjelini, govori Glembay u sljedećoj rečenici?",
+							"choices": [
+								"o samoubojstvu Fanike Canjeg",
+								"o utapanju Leoneove sestre",
+								"o preljubu barunice Castelli",
+								"o zločinu prvoga Glembaya"
+							],
+							"shortText": "_Dakle, ti si prisustvovao toj aferi?_",
+							"correctChoice": "A"
+						},
+						{
+							"type": "SingleChoice",
+							"question": "Zbog kojega razloga Faniki Canjeg, prema Leoneovim riječima, nije bio dopušten posjet barunici?",
+							"choices": [
+								"jer je sudjelovala u sudskome procesu",
+								"jer je trebala imati posjetnicu",
+								"jer je sa sobom povela dijete",
+								"jer je prijetila ubojstvom"
+							],
+							"correctChoice": "B"
+						},
+						{
+							"type": "SingleChoice",
+							"question": "S kojom je namjerom Leone kupio Singer-mašinu?",
+							"choices": [
+								"Htio je demantirati pismo Fanike Canjeg.",
+								"Htio je utjecati na sudsku presudu.",
+								"Htio je pomoći Faniki Canjeg.",
+								"Htio je zaštititi barunicu."
+							],
+							"correctChoice": "C"
+						},
+						{
+							"type": "SingleChoice",
+							"question": "U kojemu je od sljedećih primjera iz polaznoga teksta upotrijebljena ironija?",
+							"choices": [
+								"LEONE: Prije svega, ja o onoj pregaženoj starici nisam imao ni pojma.",
+								"LEONE: A ti si me pitao što ja mislim o toj vašoj juridičkoj konferenciji.",
+								"PUBA: Pa to je genijalno!",
+								"PUBA: po toj plaćenoj mašini dobiva čitava ta smrt posve novo pravno osvjetljenje!"
+							],
+							"correctChoice": "B"
+						},
+						{
+							"type": "SingleChoice",
+							"question": "Što je od sljedećega karakteristično za Pubin način izražavanja?",
+							"choices": [
+								"Upotrebljava stručne izraze.",
+								"Nastoji biti humorističan.",
+								"Govori nepovezano.",
+								"Sarkastičan je."
+							],
+							"correctChoice": "A"
+						}
+					]
+				},
+				{
+					"info": "Pozorno pročitajte polazni tekst (peti tekst) i riješite 21., 22., 23., 24. i 25. zadatak.",
+					"initialText": {
+						"title": "Peter James i Nick Thorpe, Antičke zalogajnice",
+						"text": "Malo je vjerojatno da je etiketa dopuštala imućnijim Grcima i Rimljanima da sjednu na cestu i malo založe. Zapravo je većina ljudi u starom i srednjem vijeku glavni obrok uživala kod kuće, zbog čega rani kineski restorani i jesu tako iznimni. U talijanskim su gradovima Rimskog Carstva, međutim, zalogajnice ipak živahno poslovale, brinući se za potrebe užurbanih građana iz srednje i radničke klase što su jurili na posao i s posla kući.\n\tUlice rimskih Pompeja, sačuvane pod vulkanskim pepelom još od erupcije Vezuva 79. godine, bile su prepune „zalogajnica” koje su – kako nam je poznato iz literarnih izvora – nekoć preko čitavoga dana posluživale jela, pića, kruh, sir, datulje, orahe, smokve i kolače. U tim se barovima točilo i vino, obično pomiješano s vodom, ali ponekad i, što zvuči čudno, s morem. U hladne se dane posluživalo vruće razvodnjeno vino, začinjeno mirodijama i počesto zaslađeno medom. Tipična je rimska zalogajnica imala tezgu popločenu komadima mramora i otvorenu prema ulici. Krčazi s vinom stavljali su se na hladan kamen kako bi piće ostalo svježe. U Pompejima su se sačuvali ostatci otprilike dvije stotine zalogajnica i točionica, a u jednoj ulici kraj javnog kupališta čak ih osam tvori jedinstven blok dug sedamdesetak metara.\n\tKrenemo li, međutim, s legendarnijega kraja vremenskoga pravca, spomenut ćemo kako su ruševine nečega što je po svemu sudeći bila zalogajnica iskopane i na slavnom nalazištu Troje na sjeverozapadu današnje Turske. One potječu iz arheološkog sloja nastalog u trinaestom stoljeću prije Krista, dakle baš u doba odvijanja Homerova epa o Trojanskom ratu. Odmah pokraj glavnih južnih gradskih vrata, arheolozi su pronašli kućicu koja je širokim vratima gledala na ulicu. U njoj su pak pronašli tri prostorije s velikim ognjištem, žrvanj iznad posude za skupljanje brašna, kameni kuhinjski sudoper s odvodom na ulicu, peći i kante za spremanje zaliha. Na nekoliko su mjesta bili pronađeni i ostatci nagorjele pšenice. Svemu tome nisu bile priključene nikakve stambene prostorije, a položaj zgrade kraj gradskih vrata naveo je arheologe na misao da je riječ o pekarnici ili zalogajnici, „jednoj od najstarijih poznatih”. Homer pak često spominje silne gozbe na kojima su krkali junaci Trojanskog rata s obiju strana, i na kojima bi okretanje vola na ražnju bilo obično popraćeno lokanjem čitavih vjedrica vina i beskrajnim društvenim laprdanjem. Možda bismo sada mogli i zamisliti Hektora kako zastaje kraj gradskih vrata dohvatiti malo pite zeljanice na putu u boj s Ahilejem.\n\tTrojanske su pretenzije na najstariju poznatu zalogajnicu bile, međutim, srušene jednim nalazom iz velikoga sumerskoga grada Ura u današnjem Iraku. Tridesetih je godina dvadesetoga stoljeća britanski arheolog sir Leonard Woolley iskopao mnoštvo njegovih širokih ulica sagrađenih u osamnaestom stoljeću prije Krista. U njemu je jedna privatna kuća bila prepravljena probijanjem širokog prozora na ulicu, a ispod njega je bila tezga od opeke na otprilike $^{90}$ centimetara iznad razine ulice. U istoj je prostoriji bila i velika krušna peć, a na njezinu vrhu štednjak od pune opeke s roštiljima na drveni ugljen na kojima se peklo meso. Jedinstven raspored te kuhinje i njezina otvorenost prema ulici naveli su Woolleyja na zaključak da je tu riječ o javnoj kuhinji iz koje se prolaznicima prodavala hrana izložena na štandu. Pritom je također zamijetio, i to ne bez čuđenja, da je stil gradnje te peći stare četiri tisuće godina „savršeno istovjetan onom što ga danas nalazimo po arapskim kućama i javnim kuhinjama”."
+					},
+					"questions": [
+						{
+							"type": "SingleChoice",
+							"question": "Koja je namjena polaznoga teksta?",
+							"choices": [
+								"potaknuti čitatelje na konzumaciju hrane u restoranima i zalogajnicama",
+								"predstaviti čitateljima zanimljivosti iz povijesti restorana i zalogajnica",
+								"uputiti čitatelje u načine pripreme hrane i pića antičkoga doba",
+								"upozoriti čitatelje na upitnu kvalitetu ulične hrane"
+							],
+							"correctChoice": "B"
+						},
+						{
+							"type": "SingleChoice",
+							"question": "Na kojemu su mjestu sačuvani ostatci jedinstvenoga bloka od osam zalogajnica?",
+							"choices": [
+								"kraj javnoga kupališta u Pompejima",
+								"kraj južnih gradskih vrata Troje",
+								"u širokim ulicama grada Ura",
+								"na obali antičke Grčke"
+							],
+							"correctChoice": "A"
+						},
+						{
+							"type": "SingleChoice",
+							"question": "Koje je zajedničko obilježje drevnih zalogajnica opisanih u polaznome tekstu?",
+							"choices": [
+								"Bile su namijenjene visokim društvenim slojevima.",
+								"Nastale su prilagodbom privatnih kuća.",
+								"Opisane su u Homerovim epovima.",
+								"Bile su otvorene prema ulici."
+							],
+							"correctChoice": "D"
+						},
+						{
+							"type": "SingleChoice",
+							"question": "U kojemu je od sljedećih dijelova polaznoga teksta iznesen autorov komentar?",
+							"choices": [
+								"_One potječu iz arheološkog sloja nastalog u trinaestom stoljeću prije Krista,_",
+								"_Možda bismo sada mogli i zamisliti Hektora kako zastaje kraj gradskih vrata dohvatiti malo pite zeljanice na putu u boj s Ahilejem._",
+								"_Tridesetih je godina dvadesetoga stoljeća britanski arheolog sir Leonard Woolley iskopao mnoštvo njegovih širokih ulica sagrađenih u osamnaestom stoljeću prije Krista._",
+								"_U istoj je prostoriji bila i velika krušna peć, a na njezinu vrhu štednjak od pune opeke s roštiljima na drveni ugljen na kojima se peklo meso._"
+							],
+							"correctChoice": "B"
+						},
+						{
+							"type": "SingleChoice",
+							"question": "Kojim je od sljedećih postupaka naglašen šaljiv ton polaznoga teksta?",
+							"choices": [
+								"usporedbom drevnih zalogajnica s današnjima",
+								"navođenjem povijesnih činjenica",
+								"depatetizacijom klasičnih likova",
+								"nabrajanjem jela i pića"
+							],
+							"correctChoice": "C"
+						}
+					]
+				},
+				{
+					"info": "Pozorno pročitajte polazni tekst (šesti tekst) i riješite 26., 27., 28., 29. i 30. zadatak.",
+					"initialText": {
+						"title": "Ljubica Uvodić-Vranić, Propagandne poruke bombardiraju nas svakodnevno",
+						"text": "Ne samo da se ljudi hvataju na ovaj prozirni lijepak, nego mu se i rijetko suprotstavljaju. Neki se naljute i ogorčeno odgovore te tako potvrde svoju elektroničku adresu do koje je našem „meceni” možda i stalo. Mogli biste mi reći: „Pa što ste se toga uhvatili?! Te elektroničke poruke zbilja rijetko dolaze, svega jednom tjedno.” U pravu ste – rijetko dolaze. No svaki put uzmu nam poneku minutu, pa kad to pomnožimo s $^{52}$ tjedna, ispadne da izgubimo sat vremena godišnje. To, naravno, nije sve. Ima onih predivnih, odličnih elektroničkih poruka koje dobivamo nekoliko puta dnevno. Većinu se zaista isplati otvoriti! Međutim, dan ima samo $^{24}$ sata. Ako ste zaposleni ili prezaposleni, te su poruke velika napast. Željeli biste ih otvoriti, a znate da morate nešto napraviti.\n\tOni nisu samo šarmantni kradljivci vremena. Uz e-poruku često dobijete pedeset, pa i više adresa. Osoba koje je poslala e-poruku ne briše adrese, nego ih prosljeđuje dalje. Mislim da „mecene” koje vas besplatno zabavljaju prekrasnim pejzažima i umjetničkim slikama, divnim cvijećem, svjetskim čudima to baš i žele. Stotine tisuća adresa kruže uokolo i oni ih zatim ustupaju, ali više ne besplatno, nego ih prodaju. Tako i vi i svi čija se adresa našla uz tu divnu powerpointprezentaciju poslije nekog vremena dobivate nove reklame. (...)\n\tReklamne poruke ne samo da su nam za petama na svakom kiosku, nego nas prate i kad idemo na putovanje. Ogromni džamboplakati ne mogu ostati nezamijećeni. Novine su pune reklama s fotografijama lijepih i sretnih ljudi kakvi ćemo i mi postati – čim kupimo te proizvode. S fotografija na naslovnicama žutog i manje žutog tiska, s portala, izloga, kioska gledaju nas poznate osobe i pozivaju nas da im se divimo. One su sve tako lijepe, njihov je ten savršen, mlade su jer im se već desetke godina sve fotografije uljepšavaju fotošopom. Novine prodaju njihovu mladost i ljepotu s još ponekom manje važnom informacijom o onome što one rade ili, još važnije, gdje su bile i s kim su viđene, što planiraju s prošlim, trenutnim i budućim vezama, u koga su zaljubljene, s kim imaju dijete ili od koga se baš ovih dana razvode.\n\tSve te važne vijesti prodaju novine, kao što ih prodaju i reklame na portalima i u sklopu televizijskih emisija pa se ukratko može reći sljedeće: novine prodaju poznate, a poznati prodaju novine. (...)\n\tGledajući tu mladost i ljepotu, mnogi se ljudi osjećaju zanemarenima i nesposobnima da ikad sebi priušte dio toga glamura koji prati poznate. U toj neravnopravnoj usporedbi osobe zaboravljaju na prave vrijednosti i osjećaju se loše zbog svojeg vanjskog izgleda. Osobe koje se osjećaju loše ne izgledaju tako dobro kao što bi izgledale da je na njihovim licima samouvjereni osmijeh izazvan unutarnjim vrijednostima. Umjesto pretjerane brige za vanjski izgled treba osvijestiti svoje ljudske vrijednosti na kojima možemo raditi i bez skupih injekcija koje pomlađuju. Briga o vanjskom izgledu koji se nameće medijskim putem ne ostavlja dovoljno vremena ni prostora za druge aktivnosti koje bi stavile u fokus vrijednosti koje se nalaze ispod ove naše ambalaže, (...).\n\tNajgore od svega je to što su te slike koje gledamo u velikoj mjeri lažne. Čuvena Claudia S.$^{1}$ jednom je rekla: „I ja bih voljela izgledati kao Claudia S.!”\n\n$^{1}$ Claudia S. – Claudia Schiffer, njemački supermodel i glumica koja je vrhunac svoje popularnosti dosegla devedestih godina 20. stoljeća"
+					},
+					"questions": [
+						{
+							"type": "SingleChoice",
+							"question": "Koja je namjena polaznoga teksta?",
+							"choices": [
+								"potaknuti čitatelje na otvaranje elektroničkih promidžbenih poruka",
+								"istaknuti prednosti tiskanih medija u odnosu na elektroničke",
+								"upozoriti čitatelje na manipulaciju promidžbenim porukama",
+								"zabaviti čitatelje komentarima o poznatim osobama"
+							],
+							"correctChoice": "C"
+						},
+						{
+							"type": "SingleChoice",
+							"question": "Koji se od sljedećih izraza iz polaznoga teksta ne odnosi na promidžbene poruke?",
+							"choices": [
+								"_prozirni lijepak_",
+								"_velika napast_",
+								"_dio toga glamura_",
+								"_ljudske vrijednosti_"
+							],
+							"correctChoice": "D"
+						},
+						{
+							"type": "SingleChoice",
+							"question": "U kojemu je od sljedećih primjera iz polaznoga teksta prisutna ironija?",
+							"choices": [
+								"_Reklamne poruke ne samo da su nam za petama na svakom kiosku, nego nas prate i kad idemo na putovanje._",
+								"_Novine su pune reklama s fotografijama lijepih i sretnih ljudi kakvi ćemo i mi postati – čim kupimo te proizvode._",
+								"_Gledajući tu mladost i ljepotu, mnogi se ljudi osjećaju zanemarenima i nesposobnima_",
+								"_Najgore od svega je to što su te slike koje gledamo u velikoj mjeri lažne._"
+							],
+							"correctChoice": "B"
+						},
+						{
+							"type": "SingleChoice",
+							"question": "Na koji se pojam u polaznome tekstu odnosi riječ ambalaža?",
+							"choices": [
+								"na elektroničke adrese osoba",
+								"na _powerpoint_-prezentacije",
+								"na ljudsku vanjštinu",
+								"na žuti tisak"
+							],
+							"correctChoice": "C"
+						},
+						{
+							"type": "SingleChoice",
+							"question": "Koji od sljedećih dijelova polaznoga teksta sažima temeljnu autoričinu poruku čitateljima?",
+							"choices": [
+								"_Ima onih predivnih, odličnih elektroničkih poruka koje dobivamo nekoliko puta dnevno. Većinu se zaista isplati otvoriti!_",
+								"_S fotografija na naslovnicama žutog i manje žutog tiska, s portala, izloga, kioska gledaju nas poznate osobe i pozivaju nas da im se divimo._",
+								"_Novine prodaju njihovu mladost i ljepotu s još ponekom manje važnom informacijom o onome što one rade ili, još važnije, gdje su bile i s kim su viđene,_",
+								"_Umjesto pretjerane brige za vanjski izgled treba osvijestiti svoje ljudske vrijednosti na kojima možemo raditi i bez skupih injekcija koje pomlađuju_"
+							],
+							"correctChoice": "D"
+						}
+					]
+				},
+				{
+					"info": "II. Književnost\n\nZadatci bez polaznoga teksta.\nZadatci višestrukoga izbora.\n\nU zadatcima višestrukoga izbora od više ponuđenih odgovora samo je jedan točan.\nTočan odgovor donosi jedan bod.",
+					"questions": [
+						{
+							"type": "SingleChoice",
+							"question": "Na koji se događaj odnosi podcrtana riječ u stihovima iz Dubravke Ivana Gundulića?",
+							"choices": [
+								"na nadmetanje Gorštaka i Divjaka za Dubravkinu naklonost",
+								"na vjenčanje najljepšega pastira i najljepše pastirice",
+								"na Ljubdragovo obraćanje mladima",
+								"na Ribarov dolazak u Dubravu"
+							],
+							"shortText": "_Ovo *dan* je ki dohodi_\n_jednom nami na godište,_\n_u ki slatkoj mi slobodi_\n_činimo ovdi svetilište,_",
+							"correctChoice": "B"
+						},
+						{
+							"type": "SingleChoice",
+							"question": "Koja se od sljedećih tvrdnja odnosi na Jurja Stipančića?",
+							"choices": [
+								"Hipersenzibilni je intelektualac i umjetnik koji ne voli svojega oca jer ga smatra odgovornim za majčinu smrt.",
+								"Žrtva je očevih ambicija, sebičan i bezosjećajan te uništava majčin i sestrin život.",
+								"Obitelj ga odbacuje jer joj više nije koristan i primjer je otuđenoga pojedinca.",
+								"Siromašan je student koji ne želi da se sestra za njega žrtvuje."
+							],
+							"correctChoice": "B"
+						},
+						{
+							"type": "SingleChoice",
+							"question": "Na kojega se književnika odnose sljedeće tvrdnje?",
+							"choices": [
+								"na Dantea Alighierija",
+								"na Giovannija Boccaccia",
+								"na Johanna Wolfganga Goethea",
+								"na Pedra Calderóna de la Barcu"
+							],
+							"shortText": "U 14. stoljeću u europsku je književnost uveo formu novele. Njegova je zbirka od sto novela utjecala na razvoj europske proze.",
+							"correctChoice": "B"
+						},
+						{
+							"type": "SingleChoice",
+							"question": "Koji od sljedećih antitetičnih odnosa nije motiv u Noveli od Stanca Marina Držića?",
+							"choices": [
+								"mladost – starost",
+								"očevi – sinovi",
+								"selo – grad",
+								"sluge – gospodari"
+							],
+							"correctChoice": "D"
+						},
+						{
+							"type": "SingleChoice",
+							"question": "Koji je lik noćnik u epu Smrt Smail-age Čengića Ivana Mažuranića?",
+							"choices": [
+								"Durak",
+								"Mirko",
+								"Novica",
+								"Smail-aga"
+							],
+							"correctChoice": "C"
+						},
+						{
+							"type": "SingleChoice",
+							"question": "Koji je od sljedećih likova romana Zločin i kazna Fjodora Mihajloviča Dostojevskoga najviše utjecao na to da Raskoljnikov prizna zločin?",
+							"choices": [
+								"Arkadij Svidrigajlov",
+								"Avdotja Romanovna",
+								"Dmitrij Razumihin",
+								"Sonja Marmeladova"
+							],
+							"correctChoice": "D"
+						},
+						{
+							"type": "SingleChoice",
+							"question": "S kojim je književnim djelom uspostavljena intertekstualna veza u sljedećemu primjeru iz Kiklopa Ranka Marinkovića?",
+							"choices": [
+								"s djelom _Hamlet_ Williama Shakespearea",
+								"s djelom _Stranac_ Alberta Camusja",
+								"s djelom _Zločin i kazna_ Fjodora Mihajloviča Dostojevskoga",
+								"s djelom _Život je san_ Pedra Calderóna de la Barce"
+							],
+							"shortText": "_Naivno je i glupo u ovom svijetu biti dobar. (...) ja znam odmah u početku da mi stric želi ubiti oca i oženiti majku (...). Prekasno je poslije lupati se po čelu: ah, da sam znao, da sam mogao i slutiti! Kako to da nisam opazio, da nisam pomislio, da nisam ranije obratio pažnju?... Sve je prekasno, sve je učinjeno. I sad se treba osvetiti, a za to nismo sposobni. Pa mislimo: a čemu sve to, čemu osveta, kad našeg oca više nema, a majka je legla u krevet s ubojicom? Razmišljamo. „Razmišljanje nas čini kukavcima.”_",
+							"correctChoice": "A"
+						}
+					]
+				},
+				{
+					"info": "III. Hrvatski jezik\n\nZadatci višestrukoga izbora.\n\nU zadatcima višestrukoga izbora od više ponuđenih odgovora samo je jedan točan.\nTočan odgovor donosi jedan bod.",
+					"questions": [
+						{
+							"type": "SingleChoice",
+							"question": "Koja je od sljedećih rečenica napisana u skladu s pravilima o pisanju velikoga i maloga početnog slova?",
+							"choices": [
+								"Austro-Ugarska Monarhija utemeljena je 1867. Austro-ugarskom nagodbom, a raspala se nakon poraza u Prvome svjetskom ratu.",
+								"Za vrijeme svoje slavne vladavine sultan Sulejman veličanstveni (1520. – 1566.) uveo je posebnu ceremoniju znanu kao Parada Baklava.",
+								"U gotičkoj crkvici svete Marije na Škrilinama kod Berma nalazi se freska ples mrtvaca koja je nastala u razdoblju Jeseni srednjega vijeka.",
+								"Najvažniji Rimski nalaz s bjelovarskoga područja, kameni reljef s prikazom mitološke scene Ifigenije na Tauridi, danas nije vidljiv jer je ugrađen u portal katedrale."
+							],
+							"correctChoice": "A"
+						},
+						{
+							"type": "SingleChoice",
+							"question": "U kojemu je od sljedećih primjera upotrijebljen pleonazam?",
+							"choices": [
+								"elektronička poruka",
+								"glasna glazba",
+								"golema slika",
+								"mala sobica"
+							],
+							"correctChoice": "D"
+						},
+						{
+							"type": "SingleChoice",
+							"question": "Koji je frazem u bliskoznačnome odnosu sa značenjem sljedeće rečenice?",
+							"choices": [
+								"Trla baba lan da joj prođe dan.",
+								"Baba šumom, djed drumom.",
+								"Prošla baba s kolačima.",
+								"Sto baba, kilavo dijete."
+							],
+							"shortText": "Prilika je propuštena.",
+							"correctChoice": "C"
+						},
+						{
+							"type": "SingleChoice",
+							"question": "Koja je riječ u sljedećemu tekstu supodređenica/kohiponim imenice mačka?",
+							"choices": [
+								"ljubimac",
+								"vrsta",
+								"životinja",
+								"pas"
+							],
+							"shortText": "Kad birate kućnoga ljubimca, dobro razmislite koju ćete vrstu životinje odabrati.\nVećina ljudi odlučuje se za psa ili mačku.",
+							"correctChoice": "D"
+						},
+						{
+							"type": "SingleChoice",
+							"question": "Koja sintagma u sljedećoj rečenici nije sročna u gramatičkome rodu?",
+							"choices": [
+								"susjeda Verica",
+								"u obližnjoj trgovini",
+								"svježe mlijeko",
+								"mlijeko Pašnjak"
+							],
+							"shortText": "Jutros je susjeda Verica u obližnjoj trgovini kupila svježe mlijeko Pašnjak.",
+							"correctChoice": "D"
+						},
+						{
+							"type": "SingleChoice",
+							"question": "Koja je od sljedećih zavisnosloženih rečenica subjektna rečenica?",
+							"choices": [
+								"Dugo smo vježbali kako bismo se što bolje pripremili za ispit.",
+								"Vježbali smo kako je pokazano u oglednome ispitu.",
+								"Zna se kako je teško položiti taj ispit.",
+								"Pitajte ih kako je bilo na ispitu!"
+							],
+							"correctChoice": "C"
+						},
+						{
+							"type": "SingleChoice",
+							"question": "Koja je od sljedećih rečenica napisana u skladu s pravilima o pisanju zareza?",
+							"choices": [
+								"Oprostite, što sam zaboravio najaviti svoj izostanak sa sastanka.",
+								"Morate nazočiti sastanku, ili na vrijeme najaviti svoj izostanak.",
+								"Zašto niste javili, da nećete moći nazočiti sastanku?",
+								"Ako bude moguće, sastanak ćemo održati u srijedu."
+							],
+							"correctChoice": "D"
+						},
+						{
+							"type": "SingleChoice",
+							"question": "U kojoj je od sljedećih rečenica prisutan izravni objekt?",
+							"choices": [
+								"Dugo nije razmišljao o njoj.",
+								"Ona ga se nije sjećala.",
+								"Ipak mu je oprostila.",
+								"Uvrijedio ju je."
+							],
+							"correctChoice": "D"
+						},
+						{
+							"type": "SingleChoice",
+							"question": "Koja je od sljedećih rečenica gramatički točna?",
+							"choices": [
+								"Naslijedit će svo očevo bogatstvo.",
+								"Sami smo sagradili svoju kuću.",
+								"Prvo pravilo vrijedi za svih.",
+								"U ničemu nije uživao."
+							],
+							"correctChoice": "B"
+						},
+						{
+							"type": "SingleChoice",
+							"question": "U kojoj je od sljedećih riječi provedeno jednačenje po mjestu tvorbe?",
+							"choices": [
+								"raspušten",
+								"rastresen",
+								"raščešljan",
+								"raznježen"
+							],
+							"correctChoice": "C"
+						},
+						{
+							"type": "SingleChoice",
+							"question": "Koja je od sljedećih tvorenica nastala sufiksalnom tvorbom?",
+							"choices": [
+								"beskućnik",
+								"gromobran",
+								"kućepazitelj",
+								"padobranac"
+							],
+							"correctChoice": "D"
+						},
+						{
+							"type": "SingleChoice",
+							"question": "Koji je slog u imenici računalo naglašen?",
+							"choices": [
+								"ra",
+								"-ču",
+								"-na",
+								"-lo"
+							],
+							"correctChoice": "B"
+						},
+						{
+							"type": "SingleChoice",
+							"question": "Kojemu funkcionalnom stilu hrvatskoga standardnog jezika pripada sljedeći tekst?",
+							"choices": [
+								"administrativnomu",
+								"književnoumjetničkomu",
+								"publicističkomu",
+								"znanstvenomu"
+							],
+							"shortText": "Noć knjige 2023. održana je u 254 grada i mjesta širom Hrvatske, a u programu su sudjelovale narodne knjižnice, knjižare, antikvarijati i nakladnici te različite ustanove – od vrtića, škola i muzeja do domova za umirovljenike i bolnica. Knjiga i čitanje slavili su se i u kafićima, parkovima, na plažama, pa i u tramvajima, vlakovima, na brodovima te u zagrebačkoj zračnoj luci.",
+							"correctChoice": "C"
+						},
+						{
+							"type": "SingleChoice",
+							"question": "Koje je od sljedećih prezimena matronim?",
+							"choices": [
+								"Anić",
+								"Marković",
+								"Petrović",
+								"Stipinić"
+							],
+							"correctChoice": "A"
+						},
+						{
+							"type": "SingleChoice",
+							"question": "Kako se zove autor prve hrvatske gramatike?",
+							"choices": [
+								"Bartol Kašić",
+								"Faust Vrančić",
+								"Ivan Belostenec",
+								"Juraj Habdelić"
+							],
+							"correctChoice": "A"
+						}
+					]
+				},
+				{
+					"info": "Zadatak višestrukoga izbora s nadopunjavanjem\n\nU zadatku višestrukoga izbora s nadopunjavanjem (58.1. - 58.5.) od više ponuđenih odgovora samo je jedan točan.\nSvaki točan odgovor donosi jedan bod. U zadatku višestrukoga izbora s nadopunjavanjem (58.1. - 58.5.) moguće je ostvariti 5 bodova.",
+					"initialText": {
+						"text": "Kad je riječ o potrošnji i konzumaciji hrane, najviše se raspravlja o njezinoj kakvoći i sve (1.) ___ cijenama. Procjenjuje se da svaki stanovnik Hrvatske u prosjeku baci u smeće čak 71 (2.) ___ hrane godišnje. Ta neslavna brojka temelji se na istraživanju (3.) ___ tijekom 2021. provelo Ministarstvo gospodarstva i održivoga razvoja prema metodologiji Europske unije za praćenje otpada od hrane. Nije sav prehrambeni otpad jestiv, ali znatan dio (4.) ___. Prema spomenutome istraživanju količinom odbačene hrane koja je još jestiva (5.) ___ 4400 šlepera u koloni dugačkoj 70 kilometara – a tolika je udaljenost od Zagreba do Kutine. U istraživanju su navedene i ove slikovite usporedbe: jestiv udio odbačene hrane jednak je količini 363 140 štruca kruha, odnosno kao da svaki stanovnik Splita i Slavonskoga Broda dobije jedan kruh."
+					},
+					"questions": [
+						{
+							"type": "SingleChoice",
+							"question": "1.",
+							"choices": [
+								"intenzivnijim",
+								"neumjerenim",
+								"skupocjenijim",
+								"višim"
+							],
+							"correctChoice": "D"
+						},
+						{
+							"type": "SingleChoice",
+							"question": "2.",
+							"choices": [
+								"kila",
+								"kile",
+								"kilogram",
+								"kilograma"
+							],
+							"correctChoice": "C"
+						},
+						{
+							"type": "SingleChoice",
+							"question": "3.",
+							"choices": [
+								"što ga je",
+								"što ju je",
+								"što su ga",
+								"što su je"
+							],
+							"correctChoice": "A"
+						},
+						{
+							"type": "SingleChoice",
+							"question": "4.",
+							"choices": [
+								"bi",
+								"bih",
+								"jest",
+								"jesu"
+							],
+							"correctChoice": "C"
+						},
+						{
+							"type": "SingleChoice",
+							"question": "5.",
+							"choices": [
+								"bilo je napunjeno",
+								"bit će napunjeno",
+								"napunilo bi se",
+								"napunilo se"
+							],
+							"correctChoice": "C"
+						}
+					]
+				}
+			],
+			"potentialPoints": 62
+		},
+		{
+			"name": "Sažetak",
+			"predictedTime": 80,
+			"instructions": "Pozorno pročitajte sve upute i slijedite ih.\n\nIspit traje 80 minuta.\nSažetak treba imati 200 - 250 riječi.\nSažetak će se bodovati s nula (0) bodova ako nema dovoljan broj riječi, ako ima prevelik broj riječi, ako je pisan velikim tiskanim slovima ili ako je nečitko napisan.\n\nŽelimo Vam mnogo uspjeha!",
+			"questionGroups": [
+				{
+					"info": "Pročitajte polazni tekst.\nSažetak oblikujte kao zaokruženu cjelinu s uvodom, razradom i zaključkom.\nPazite da Vaš sažetak bude pravopisno, gramatički i leksički točan.\nU sažetak morate uvrstiti sve smjernice.\nSažetak mora imati 200 - 250 riječi.",
+					"initialText": {
+						"title": "Deni Miličević, Tiskana ili e-knjiga?",
+						"text": "Digitalizacijom i masovnim širenjem informacijske tehnologije stvorena je i mogućnost da gotovo sve pojave i predmeti iz nama poznatoga svijeta promijene svoj oblik prelazeći iz fizičkoga u digitalni. Tehnološki je napredak čovječanstvu donio mnoge prednosti jer ljudi prije pedesetak godina nisu mogli ni zamisliti da će iz udobnosti vlastitoga doma virtualnim putem moći plaćati račune, tražiti recepte, kupovati odjeću i hranu. Međutim, zajedno s prednostima digitalizacije dolaze i nedostatci, a to je itekako uočljivo kod digitalizacije knjiga.\nZašto često govorimo o knjigama i zašto su one iznimno važne? Mnogo je odgovora na ova pitanja, ali možemo poći od onoga najvažnijeg. Naime, uspon svake napredne civilizacije započeo je pismom, a kulminirao različitim književnim i religijskim tekstovima zapisanima u različitim oblicima: na glinenim pločicama, papirusu i drugim materijalima. Knjige su postale pisani tragovi prošlosti, dokazi čovjekovih dostignuća i sinteza znanja stečenih od samih početaka ljudske povijesti pa sve do našega vremena. Većina se nas upoznala s knjigama već u ranome djetinjstvu, u obitelji i vrtiću kad bismo znatiželjno gledali šarene slikovnice i divili se neobičnim ilustracijama. Danas srednjoškolci često doživljavaju lektiru napornom i dosadnom, pa nerijetko stvaraju otpor prema čitanju. Međutim, vjerovali ili ne, mnogi se tinejdžeri ipak u slobodno vrijeme posvete čitanju štiva koje ih uistinu zanima. Knjigama su prožete sve sfere našega života – od škole u kojoj većinu informacija prikupljamo iz knjiga pa do kuhinje gdje nas spašavaju bakine kuharice. Mogli bismo reći da svakomu životnom području i razdoblju pripadaju odgovarajuće knjige – zbog toga je nužno da svaki čovjek u modernome društvu bude pismen te da bude u mogućnosti s razumijevanjem čitati različite tekstove.\nKnjiga se u posljednjih nekoliko desetljeća iz klasičnoga tiskanog oblika sve češće prevodi u digitalni, pa tako danas imamo mrežne stranice posvećene prodaji elektroničkih knjiga koje se mogu čitati isključivo s malih ekrana. Nažalost, čitajući elektroničku knjigu, više ne možemo uživati u izgledu korica ni mirisu stranica nove knjige, ne možemo promatrati lijepo izložene knjige na policama. Čari su to koje brojne knjigoljupce privlače i vraćaju tiskanoj knjizi, a izostaju prilikom čitanja one u digitalnome obliku. Osim toga, jedan je od velikih nedostataka e-knjige štetna plava svjetlost mobitela, računala ili elektroničkoga čitača koja može oštetiti vid, pa čak i poremetiti bioritam, pogotovo ako se ovi uređaji upotrebljavaju prije spavanja. Većina je ljudi današnjice duboko uvučena u crnu rupu interneta i njegovih sadržaja kojima svakodnevno pribjegava propuštajući tako uobičajeni tijek života i socijalizaciju. Elektronička knjiga, nažalost, tomu vjerojatno pridonosi. Također, pri čitanju digitalne knjige izostaje jedna posebna vrijednost one tiskane, a to je upravo odmak od tehnologije i užurbanosti današnjega svijeta. Tiskana knjiga pruža nam mogućnost čitanja odabranoga sadržaja u miru, podalje od kaosa i digitalizacije 21. stoljeća, u idealnome ugođaju nekoga tihog i mirnog mjesta gdje čitanje postaje neprocjenjiv doživljaj. Uvijek će postojati čitatelji koji jednostavno ne mogu zamisliti odbacivanje tradicionalnoga sveska papira i nezaboravnoga mirisa neprelistanih stranica.\nIpak, e-knjige ne moraju nužno biti loše. Lako su dostupne jer jednim klikom u tek nekoliko sekundi možemo doći do željene knjige. Ponekad se susrećemo sa situacijom da su knjige koje tražimo u knjižnici ili knjižari već posuđene ili rasprodane, a tada možemo posegnuti za elektroničkom knjigom jer internetskih zaliha sigurno neće ponestati. Na raznim mrežnim stranicama možemo pronaći i veći izbor knjiga nego u knjižnicama, uključujući široku paletu tekstova manje poznatih autora čija vrijednost možda još nije prepoznata, stoga nisu objavljeni u tiskanome obliku. Elektronička knjiga smanjuje potrošnju papira i tinte i često je lakše dostupna nego tiskana knjiga. Također, sadržaj e-knjige može biti interaktivan, odnosno mogu mu biti dodani razni grafički i medijski elementi. Kao prednost elektroničkih knjiga možemo shvatiti i činjenicu da je e-čitač ili mobitel, na kojima ih možemo čitati, praktičnije nositi sa sobom nego tiskanu knjigu. Uređaji u torbi zauzimaju manje mjesta od knjiga u tiskanome obliku, a čovjek 21. stoljeća sigurno neće zaboraviti ponijeti mobitel kamo god pošao, tako da su mu e-knjige dostupne u svakome trenutku.\nKoliko god obje inačice knjiga imale prednosti ili nedostataka, opet se sve svodi na osobni izbor. Ponekad zaista nije loše prilagoditi se novim prilikama i pratiti moderne društvene i tehnološke trendove, no također ne bismo trebali u potpunosti odbaciti ni tradiciju i zanemariti klasične vrijednosti u koje među prvima ubrajamo tiskane knjige. Na kraju vjerojatno nije ni važno čitamo li knjige u tiskanome ili elektroničkome obliku – važno je samo da ih čitamo i obogaćujemo svoj rječnik, razvijamo maštu, potičemo kreativnost i proširujemo znanje."
+					},
+					"questions": [
+						{
+							"type": "EssayWriting",
+							"question": "Smjernice za pisanje sažetka\nPročitajte zadani tekst.\nSažmite polazni tekst svojim riječima:\n• tako da navedete opće podatke o polaznome tekstu\n• tako da odredite namjenu i temu teksta\n• tako da navedete osnovne misli teksta i pojedinosti koje ih podupiru\n• tako da odredite autorov stav o temi.",
+							"minWords": 200,
+							"maxWords": 250,
+							"points": [
+								{
+									"category": "Sadržaj",
+									"points": 6
+								},
+								{
+									"category": "Organizacija teksta i stil",
+									"points": 6
+								},
+								{
+									"category": "Jezična točnost",
+									"points": 6
+								}
+							],
+							"examples": [
+								{
+									"title": "Sažetak 1",
+									"text": "U tekstu Tiskana ili e-knjiga? autorica Deni Miličević piše o razlikama između tiskanih i elektroničkih knjiga. Pritom želi informirati čitatelje o spomenutim oblicima knjiga te ih potaknuti na razmišljanje o njihovim prednostima i nedostatcima. Autorica naglašava da su knjige oduvijek imale nezamjenjivu ulogu u prenošenju znanja i razvoju kulture te iznosi da su se tijekom povijesti tekstovi pojavljivali u različitim oblicima i svjedočili civilizacijskim dosezima nekoga naroda. Također, knjige su prisutne u različitim životnim situacijama i imaju različite namjene. Da bi mogao opstati u modernom društvu, presudno je da čovjek razvije vještina čitanja s razumijevanjem, ističe autorica.\nNadalje, autorica navodi da se danas knjige često digitaliziraju, no ta pojava ima i svoje nedostatke. Elektroničke knjige moguće je čitati isključivo s ekrana uređaja, a oni emitiraju zračenja koja mogu izazvati štetne posljedice po čitateljevo zdravlje. Osim toga, onemogućen je čitateljev neposredan fizički doživljaj knjige. U tekstu se također tvrdi da digitalni internetski sadržaj sve više uvlači čitatelje u svijet ekrana i ne pruža odmak od užurbanosti suvremene civilizacije.\nMeđutim, istaknuto je da elektronička knjiga ipak ima i brojne prednosti. E-knjiga brzo je i lako dostupna čitateljima. Osim toga, autorica ističe da na mrežnim stranicama postoji veći izbor autora i naslova nego u knjižnicama. Nadalje, e-knjiga na mobitelu ili e-čitaču lakše se prenosi, zauzima manje prostora u torbi, ima pozitivan utjecaj na okoliš jer se štedi papir i tinta.\nAutorica objektivno predstavlja i prednosti i nedostatke tiskane i e-knjige te potiče na čitanje jer se tako obogaćuje znanje i razvija kreativnost.",
+									"points": [
+										{
+											"category": "Sadržaj",
+											"points": 6
+										},
+										{
+											"category": "Organizacija teksta",
+											"points": 6
+										},
+										{
+											"category": "Jezična točnost",
+											"points": 6
+										}
+									]
+								},
+								{
+									"title": "Sažetak 2",
+									"text": "U tekstu Tiskana ili e-knjiga? autorica Deni Miličević piše o tiskanim i elektroničkim knjigama, pri čemu želi informirati čitatelje o oblicima knjiga koji su danas dostupni te ih potaknuti na razmišljanje o njihovim prednostima i nedostatcima.\nAutorica navodi da su moderne tehnologije unaprijedile kvalitetu ljudskoga života, no kaže i da je napredak uvijek praćen nedostacima. To je vidljivo i kod zamjene tiskane knjige digitalnom. U tekstu se napominje da knjige oduvijek imaju nezamijenjivu ulogu u očuvanju znanja i razvoju kulture. One obuhvaćaju svako životno područje i razdoblje, zato je za modernoga čovjeka vještina čitanja s razumjevanjem vrlo važna.\nNadalje, autorica naglašava činjenicu da se u posljednje vrijeme tiskane knjige prevode u digitalne pa ih je lako nabaviti putem mrežnih stranica, no može ih se čitati samo sa ekrana uređaja kao što su elektronički čitač ili mobitel. Istaknuto je da spomenuti uređaji zrače pa čitanje e-knjiga može imati štetne posljedice po čitateljevo zdravlje. Također, nekim je čitateljima za potpuni užitak čitanja važan „fizičkiˮ dodir s tiskanom knjigom koji pri čitanju e-knjige izostaje. Usto, autorica kao prednost tiskane knjige ističe odmor od modernih tehnologija i ubrzanoga života.\nMeđutim, naglašava se da elektronička knjiga nudi i brojne prednosti kao što su laka dostupnost na internetu, velik izbor, interaktivni sadržaji te praktičan prenos, a također i ušteda papira i tinte.\nAutorica zaključuje da je čitateljeva odluka za tiskanu ili e-knjigu pitanje osobnoga izbora, no da zapravo nije važno koji će oblik biti odabran. Najvažnije je čitati, jer time obogaćujemo svoje znanje i razvijamo kreativnost.",
+									"points": [
+										{
+											"category": "Sadržaj",
+											"points": 4
+										},
+										{
+											"category": "Organizacija teksta",
+											"points": 4
+										},
+										{
+											"category": "Jezična točnost",
+											"points": 4
+										}
+									]
+								},
+								{
+									"title": "Sažetak 3",
+									"text": "U tekstu Tiskana ili e-knjiga? autorica Deni Miličević navodi primjer kako ljudi danas mogu kupovati stvari i plaćati račune virtualnim putem iz udobnosti vlastitoga doma. No, ovaj tehnološki napredak ima i svoje nedostatke, a to je vidljivo i kod zamjene tiskanih knjiga digitalnima.\nVažno je reći da knjige oduvijek imaju nezamjenjivu ulogu u prenošenju znanja i kulture te da one prožimaju svako životno područje i razdoblje, od škole pa do kuhinje gdje nas spašavaju bakine kuharice. Zato je vještina čitanja tekstova s razumijevanjem veoma važna. No, problem je u tome što tinejdžere uopće ne zanima čitanje i knjige su im dosadne.\nDanas se tiskane knjige prevode u digitalne i lako ih je nabaviti na internetu pa se u tekstu potiče mlade da čitaju barem e-knjige. No, takve se knjige mogu čitati jedino s ekrana, tj. elektroničkog čitača ili mobitela. Problem je i to što ovi uređaji zrače pa time imaju loš utjecaj na čitateljevo zdravlje. Također je nekim čitateljima važna ljepota i miris knjiga na policama, a toga nema ako čitaju e-knjige. Smatra se da je bolje čitati tiskane knjige jer to predstavlja odmor od bespuća interneta. S druge strane, i elektroničke knjige ipak imaju svoje prednosti jer ih je lako nabaviti putem interneta gdje postoji velik izbor. Njihove su dobre strane i praktično nošenje mobitela u torbi, a također i ušteda papira i tinte.\nNo, čitatelj se sam mora odlučiti za tiskanu ili e-knjigu, ali nije važno koju će izabrati. Najvažnije je čitati jer time obogaćujemo znanje i maštu.",
+									"points": [
+										{
+											"category": "Sadržaj",
+											"points": 2
+										},
+										{
+											"category": "Organizacija teksta",
+											"points": 2
+										},
+										{
+											"category": "Jezična točnost",
+											"points": 6
+										}
+									]
+								},
+								{
+									"title": "Sažetak 4",
+									"text": "U tekstu o tiskanim i elektroničkim knjigama piše se o današnjim tehnološkim mogućnostima prevođenja tiskane knjige u elektronički oblik te o prednostima i nedostatcima spomenutih oblika knjige.\nNove su tehnologije unaprijedile mnoga područja ljudskoga života, no svaki napredak ima i svoje nedostatke, a to je vidljivo i kod zamjene tiskanih knjiga digitalnima. Knjige obuhvaćaju svako životno područje i razdoblje te je zato vještina čitanja sa razumjevanjem veoma važna.\nElektronička knjiga pruža brojne prednosti, a to su laka dostupnost, velik izbor autora i naslova, intraktivnost te praktičan i lak prijenos, a također i uštedimo papire i tinte.\nElektronička knjiga se može čitati jedino s ekrana uređaja kao što su elektronički čitač ili mobitel. S druge strane, ti uređaji zrače pa time imaju loš utjecaj na čitateljevo zdravlje. Isto tako, nekim čitateljima je za užitak čitanja važan dodir s tiskanom knjigom kojega nema pri čitanju e-knjige. Dobra je strana tiskane knjige i to što ona predstavlja odmor od modernih tehnologija i ubrzanoga načina života.\nOdluka za tiskanu ili elektroničku knjigu je na svakome od nas, no zapravo nije važno hoćemo li izborom e-knjige slijediti nove trendove ili ostati vjeran tradicionalnoj tiskanoj knjizi. Najvažnije je čitati jer time obogaćujemo svoje znanje i razvijamo kreativnost.",
+									"points": [
+										{
+											"category": "Sadržaj",
+											"points": 2
+										},
+										{
+											"category": "Organizacija teksta",
+											"points": 2
+										},
+										{
+											"category": "Jezična točnost",
+											"points": 2
+										}
+									]
+								},
+								{
+									"title": "Sažetak 5",
+									"text": "U članku Tiskana ili e-knjiga? Deni Miličević piše kako je masovnim širenjem informacijske tehnologije omogućeno da gotovo sve pojave i predmeti u našemu svijetu promjene svoj oblik iz fizičkoga u digitalni. To se danas događa i s knjigama s kojima je davno započeo uspon ljudske civilizacije. No zajedno s prednostima dolaze i nedostaci, a to se vidi i kod digitalizacije knjiga.\nKnjige prožimaju svako životno područje i razdoblje, od slikovnica iz vrtića pa do kuhinje gdje nas spašavaju bakine kuharice. No, problem je u tome što mlade danas uglavnom ne zanima čitanje i knjige su im dosadne.\nDanas je elektroničke knjige lako nabaviti na internetu gdje ih ima veliki izbor, a moguće ih je čitati putem e-čitača ili mobitela. Međutim, ovi uređaji kao veliki nedostatak imaju štetnu plavu svjetlost. Također je nekima važna ljepota i miris knjiga na policama, a toga nema kod čitanja e-knjige. Tiskana knjiga pruža nam mogućnost čitanja odabranoga sadržaja u miru, podalje od kaosa i digitalizacije\nNa kraju vjerojatno nije ni važno čitamo li knjige u tiskanome ili elektroničkome obliku – važno je samo da ih čitamo i obogaćujemo svoj rječnik, razvijamo maštu, potičemo kreativnost i proširujemo znanje. ",
+									"points": [
+										{
+											"category": "Sadržaj",
+											"points": 0
+										},
+										{
+											"category": "Organizacija teksta",
+											"points": 0
+										},
+										{
+											"category": "Jezična točnost",
+											"points": 0
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"potentialPoints": 18
+		},
+		{
+			"name": "Školski Esej",
+			"predictedTime": 160,
+			"instructions": "Pozorno pročitajte sve upute i slijedite ih.\n\nIspit traje 160 minuta.\nNapišite školski esej slijedeći priložene upute i smjernice za pisanje školskoga eseja.\n\nŠkolski esej treba imati najmanje 440 riječi.\nŠkolski esej bodovat će se s nula (0) bodova ako nema dovoljan broj riječi, ako je pisan velikim tiskanim slovima ili ako je nečitko napisan.\n\nŽelimo Vam mnogo uspjeha!",
+			"questionGroups": [
+				{
+					"info": "Pozorno pročitajte sljedeće tekstove nakon kojih slijede upute i smjernice za pisanje školskoga eseja.\n\nPolazno pitanje\nPo čemu je lik Melkiora Tresića primjer modernoga književnog lika?",
+					"initialText": {
+						"title": "Ranko Marinković, Kiklop",
+						"text": "Vlastito se tijelo javi s poznatim zahtjevima i zgrči želudac kao bijesnu pesnicu sve do ispod nosa Melkiorova. On mu se odupre uvijek spremnom silom umnih razloga i zaprijeti mu vagom invalidovom. Želiš li, bezumniče, jednog dana i sam stajati u veži bez noge, bez ruke, bez vida... uz vagu s natpisom VAGA RATNOG INVALIDA i dovikivati prosjački bezdušnosti ulice: „tko se važe, sebi pomaže”?\nObilazio je velike i skupe restorane, s delikatnim mirisima (tu oni zalaze da bi odvratili sumnju) od stola do stola, zavirivao u lica nad tanjurima... i u tanjure same, krišom. Sami zalogaji, žvak i žvak i mrmor molitava, cin-cin čaša, corpus homini$^{1}$, transsupstancijacija, gastrolatrija... Dominus vobiscum!$^{2}$ Melkior se odvrati s užasavanjem nad bezbrižnošću „ljudi svoga vremena”. Nabiju vreće za dobar nišan. A ovdje trbuh sakrili ispod stola kao sramotu. Ne, agenta neće pojesti kanibali! Tu moraš svakako intervenirati, Melkiore Tresiću, ne daj da ga pojedu. Mogao bi im biti od koristi. Mogao bi, recimo, organizirati njihovu buduću privredu. Izvoz ananasa, kokosa, banana, majmuna i papagaja – velika firma ANAKOKOBANAMAJPAP – EXPORT Pagopago – Polinezija.\nA i ostali... Kapetan... on bi mogao organizirati trgovačku mornaricu TUTUILA-LINE; upravitelj stroja podigao bi razne tehničke servise i radionice kao bazu za buduću industriju: liječnik bi organizirao zdravstvenu službu, podigao bolnice i ambulante; prvi bi časnik izmislio neku novu, humaniju religiju koja bi branila da se jedu ubijeni neprijatelji i poštivala status zarobljenika prema haškoj konvenciji, a mornar... on bi osnovao sindikate i laburističku opoziciju... Da, da... No sve je to na vrbi svirala dok ovaj rat traje. Status quo ante bellum$^{3}$ u arhipelagu Samoa, to jest brodolomci mogu još biti i pojedeni, to za sada zavisi od njihove lične snalažljivosti i, dakako, od stanja Melkiorove mašte, koja je danas eto, milostivo sklona svakom čovjeku na kojeg vreba neka opasnost.\nPonovno je uzeo prelistavati ulice kao albume s fotografijama nepoznatih lica. Ali ubrzo se zamori njegova nenaviknuta pažnja od policijskog provjeravanja prolaznika i on zaboravi na svrhu svoga uzaludnog krstarenja. Osjeti gorak okus samotnog lutanja i sav mu se napor svede na pomicanje tijela u svijetlom sunčanom prostoru koji mu se odjednom učini strahovito prostornim i praznim, nesavladivim. Zato je iskorištavao svaki ugao ulica i mijenjao pravac kretanja s nadom u neko malo otkriće. Ali ponovno se otvarala pred njim najneutješnija dimenzija – dužina sa svojim varavim zatvaranjem u perspektivi. Još nitko nije sagradio takvu ulicu, pade mu na pamet, koja bi se stvarno klinasto zatvarala. Nema takvog pogleda na svijet. To je strašnije od očajanja. Zamisli dva beskrajno visoka slijepa siva zida što se zatvaraju u oštrom uglu i usamljenog čovjeka među njima koji se više ne osvrće. Ide polako prema uglu već sasvim usitnjenim koracima jer zna da je tamo kraj. A iza leđa je ostalo sve: i život i ljubav i povjerenje... i ono što se nazivalo srećom. Osuđen da živi do ugla, a stati ne može jer ga vrijeme samo pomiče. Ide u cikcaku, otkriva milostivu dimenziju širine. Ali i ona je sve kraća, sve popustljivija, sve sklonija svome iščeznuću u matematičkoj nuli. A nula je omča vješala, plotun pred zidom, sjekira giljotine, a odrubljena je glava točka što se otkotrljala na kraj rečenice. Isplažen krvavi jezik, pregrizen – i kraj.\n\n$^{1}$ corpus homini – ljudsko tijelo\n$^{2}$ Dominus vobiscum! – Gospodin s vama!\n$^{3}$ Status quo ante bellum – vraćanje u stanje prije rata (nitko ne dobiva ništa)"
+					},
+					"questions": [
+						{
+							"type": "EssayWriting",
+							"question": "Smjernice\n• U uvodu:\n- ukratko predstavite autora i djelo\n- u jednoj ili više rečenica oblikujte tvrdnju kojom ćete odgovoriti na polazno pitanje i tako najaviti ono o čemu ćete pisati u središnjemu dijelu eseja.\n\n• U središnjemu dijelu eseja razradite i argumentirajte svoju tvrdnju kojom ste odgovorili na polazno pitanje tako da argumentacija:\n- proizlazi iz razumijevanja djela u cjelini\n-  proizlazi iz sadržajne i stilske analize polaznoga teksta i njegove uloge u djelu u cjelini\n- bude povezana s književnopovijesnim kontekstom u kojemu su pjesme nastale.\n\nSvoj tekst rasporedite u odlomke koji su jasno, logično i smisleno povezani.\n• U zaključku sažeto istaknite ono najvažnije o čemu ste pisali u središnjemu dijelu eseja.",
+							"minWords": 440,
+							"points": [
+								{
+									"category": "Središnja tvrdnja",
+									"points": 6
+								},
+								{
+									"category": "Argumentacija",
+									"points": 6
+								},
+								{
+									"category": "Povezanost teksta",
+									"points": 6
+								},
+								{
+									"category": "Upotreba rječnika",
+									"points": 6
+								},
+								{
+									"category": "Pravopisna i gramatička točnost",
+									"points": 6
+								}
+							],
+							"examples": [
+								{
+									"title": "Esej 1",
+									"text": "Ranko Marinković bio je hrvatski pisac podrijetlom s otoka Visa koji je svoja najznačajnija djela napisao u drugoj polovici 20. stoljeća. Jedno je od njih roman Kiklop čija je radnja smještena u predratni Zagreb i prati otuđena čovjeka, intelektualca, kazališnoga kritičara Melkiora Tresića. On je primjer modernoga lika jer bježi od stvarnoga dehumaniziranog svijeta i ljudi u svoj unutarnji svijet u kojemu miješa stvarnost i maštu.\nIako je vrlo pametan, Melkior Tresić ne može se ostvariti kao potpun čovjek ni na osobnome ni na poslovnome planu jer je paraliziran razmišljanjem te strahom od rata i smrti. Svoju je sliku svijeta i života oblikovao na temelju svojega bogatoga znanja iz književnosti, povijesti, filozofije, religije, umjetnosti. Sklon je razmišljanju te na svijet oko sebe i na sebe samoga gleda vrlo ironično. Nadolazeći rat u njemu izaziva velik strah i kako bi ga izbjegao, sustavno se izgladnjuje. Rat je predočen metaforom kiklopa kojemu Melkior želi uskratiti svoje meso. S druge strane, u stvarnome su svijetu odnosi s prijateljima površni. Neki mu se, poput Uga, otvoreno rugaju, a intelektualni razgovori s drugima izazivaju u njemu nervozu i uznemirenost (npr. razgovori s Maestrom o tehnici ili s don Fernandom o teoriji preventivne dehumanizacije). Ne ostvaruje se ni na ljubavnome području. Naime, platonski je zaljubljen u glumicu Vivijanu o kojoj ništa ne zna, a idealizira je, dok je istodobno u vezi s udanom Enkom. Stoga se Melkior sve više osamljuje. Njegovo je pravo ja njegov um koji on sam odlučno odvaja od svojega tijela i doživljava vlastito tijelo kao neprijatelja. Zato Melkior u polaznome tekstu, u kojemu se prikazuje njegov život prije poziva u vojsku, ljude koji se dobro hrane naziva vrećama za nišan, a on to ne želi postati. Zabrinut je za svoju egzistenciju i sam sebe uvjerava da mora gladovati, što se u ulomku ostvaruje tehnikom slobodnoga neupravnog govora (Želiš li, bezumniče, jednog dana i sam stajati u veži bez noge, bez ruke, bez vida... uz vagu s natpisom VAGA RATNOG INVALIDA). U polaznome se tekstu uočava i asocijativnost kojom se dočarava Melkiorova uznemirenost. Njegova je otuđenost posebno došla do izražaja u drugome dijelu polaznoga teksta kad se pripovijeda o njegovu lutanju pustim ulicama koje metaforički upućuju na njegovu unutrašnju izgubljenost – izlaza nema, pred njim je zid, a sve što je tražio ostaje iza njega (ljubav, sreća, povjerenje) i sve završava u matematičkoj nuli, što je u skladu s egzistencijalističkom filozofijom 20. stoljeća.\nMelkiorova se otuđenost od stvarnoga svijeta očituje u ispreplitanju mašte i stvarnosti. On zamišlja dramu o kanibalima (Ne, agenta neće pojesti kanibali!), a likovi iz drame često izranjaju iz njegove svijesti u svakodnevnome životu i oni postaju metafore za stvarne ljude i događaje. Kanibali jedu najdeblje brodolomce s broda Menelaj, a najjadniji među njima kanibalima je odbojan. Tako Melkior vidi rat kao kanibala koji će ga mimoići bude li dovoljno mršav. Kad Melkior ipak završi u kasarni, izravno se suočava sa svojim najvećim strahom i doživljava poraz za porazom dok ga ne izbace kao nesposobnoga za vojsku. Na kraju se romana pripovijeda o njegovu bijegu u zamišljeni Zoopolis gdje se puzeći izjednačava sa životinjom u potpunoj dehumanizaciji i kapitulaciji pred moćnim ratnim kiklopom. Temeljni je postupak u ispreplitanju mašte i stvarnosti intertekstualnost koja osim funkcije karakterizacije Melkiorova lika upućuje na ideju da je kiklop-rat sastavni dio ljudske povijesti i da rat uništava čovječnost.\nMože se zaključiti kako je Melkiorov bijeg od rata uzaludan. Strah od rata u njemu izaziva sve veću otuđenost, što se očituje u bijegu od ljudi, od svijeta i u konačnici od sebe samoga te u potpunome doslovnom i simboličkom gubitku čovječnosti.",
+									"points": [
+										{
+											"category": "Središnja tvrdnja",
+											"points": 6
+										},
+										{
+											"category": "Argumentacija",
+											"points": 6
+										},
+										{
+											"category": "Povezanost teksta",
+											"points": 6
+										},
+										{
+											"category": "Upotreba rječnika",
+											"points": 6
+										},
+										{
+											"category": "Pravopisna i gramatička točnost",
+											"points": 6
+										}
+									]
+								},
+								{
+									"title": "Esej 2",
+									"text": "Roman Kiklop jedan je od najpoznatijih hrvatskih romana 20. stoljeća, a napisao ga je pisac, dramatičar, esejist i kritičar Ranko Marinković koji je iza sebe ostavio pozamašan opus (drama Glorija, zbirka Ruke, kritike Geste i grimase, roman Never more). Roman je filozofski i monološko asocijativni, svi su likovi vrlo neobični. U romanu se pripovijeda na neobičan suvremeni način o predratnome Zagrebu, a glavni je protagonist ovoga višeslojnoga romana kritičar i pisac Melkior Tresić. Melkior je intelektualac širokoga znanja i svjestan je svoje načitanosti. Voli mnogo razmišljati, osamljivati se, ali je temeljni osjećaj koji proživljava paničan strah od rata. On je otuđen i to se ostvaruje u njegovoj uzaludnoj potrazi za ženom koja bi ga voljela i u njegovoj opsjednutosti gladovanjem što mu onemogućava normalno funkcioniranje.\nSvi su njegovi osobni odnosi površni te do izražaja dolazi njegova otuđenost jer ne uspijeva ostvariti puninu odnosa s drugima. Naime, Melkior je nesretno zaljubljen u djevojku duge kose koju naziva Vivijanom. Viđa je u društvu sumnjivih osoba, o njoj kolaju različite priče u koje on ne vjeruje, nego ju idealizira. Vivijana rijetko obraća pažnju na njega, razgovaraju vrlo malo i od te veze nema ništa. Ona je samo žena koju bi on želio imati, ali je zapravo uopće ne upoznaje. Konkretnu ljubavnu vezu ostvaruje s kućanicom Enkom čiji je muž liječnik i puno radi. Melkior joj dolazi kad muža nema kod kuće. Ne ostvaruje ni prijateljske odnose, svi su površni i temelje se na nadmudrivanju. Ponekad mu pašu razgovori s drugim intelektualcima, npr. s don Fernandom o preventivnoj dehumanizaciji. Melkior se ne slaže s don Fernandom da bi sve potencijalne zločince trebalo detektirati i preventivno ih ubiti kako bi se spriječili drugi zločini.\nMelkiorovim postupcima upravlja njegov strah od rata. Taj je strah vidljiv i u polaznome tekstu kad mu se grči želudac, a on sam sebe uvjerava da mora gladovati. Gledajući ljude u restoranima, užasava se njihove bezbrižnosti i smatra da će hranjenjem postati vreće za dobar nišan. On je odlučio da neće jesti kako bi izbjegao rat. Postaje opsjednut tom idejom i jede tek toliko da preživi. Ljudi oko njega vide što se s njim događa i zbog toga mu se također rugaju.\nSvoje tijelo naziva mesom i hranom za kiklopa, tj. rat. On je ratu odlučio uskratiti svoje meso i tom slikovitom idejom opravdava izgladnjivanje. Često se važe na uličnoj vagi bojeći se da ne dobije koji gram što pokazuje da je opsjednut vlastitim tijelom i egzistencijom. Na kraju možemo zaključiti da je Melkior potonuo kao brodolomci o kojima je pisao u svojoj drami o kanibalima, zajedno sa svima drugima. Ni on ni drugi nisu mogli izbjeći kopita ratnoga kiklopa koji ih je sve zgazio.",
+									"points": [
+										{
+											"category": "Središnja tvrdnja",
+											"points": 4
+										},
+										{
+											"category": "Argumentacija",
+											"points": 4
+										},
+										{
+											"category": "Povezanost teksta",
+											"points": 4
+										},
+										{
+											"category": "Upotreba rječnika",
+											"points": 4
+										},
+										{
+											"category": "Pravopisna i gramatička točnost",
+											"points": 6
+										}
+									]
+								},
+								{
+									"title": "Esej 3",
+									"text": "Ranko Marinković stvarao je u razdoblju hrvatske književnosti koje se zove Druga moderna. To je razdoblje od 1952. do 1968., ali je on pisao i dalje, u slijedećim razdobljima, sve do svoje smrti. Često je u svojim djelima prikazivao ljude s otoka Visa, najviše u zbirci pripovijedaka Ruke iz 1953. U svojim je djelima zapisao likove otuđenih pojedinaca koji su bili nezadovoljni svojim životima, gubili su svoju ljudskost i nisu mogli ostvariti svoje živote na kvalitetan način. Takvim likovima obiluje svjetska književnost 20. stoljeća. Jedan od njih je Melkior Tresić koji je glavni lik u romanu Kiklop. To je roman fragmentarne strukture, temelji se na pripovijedanju u 3. licu i na unutrašnjim monolozima i asocijacijama i na asocijativno monološkom tipu romana. Melkior Tresić otuđio se od ljudi i najveći dio vremena u svojemu životu provodi u razmišljanju o mnogim temama. Na kraju se otuđio i od sebe pavši na razinu životinje koja ima ticala i puže po zemlji.\nMelkior se užasno boji Drugoga svjetskog rata i taj strah odražava se na sve segmente njegovoga života. Pokušava izbjeći mobilizaciju na način da se ne hrani kako treba i oboljeva od anoreksije. O tome se pripovijeda u prvom polaznom tekstu. Melkior druge ljude koji jedu gleda kao osobe koje se dobrovoljno daju na raspolaganje kiklopu, tj. ratu, a on mu ne želi dati svoje meso i zato se prepušta gladovanju. Neobjašnjivo mu je kako se ljudi ponašaju kao da se ništa ne događa, mirno nastavljaju sa svojim životima, a rat dolazi. On tako razmišlja jer posjeduje veliko znanje iz povijesti i svih drugih znanosti, jako je načitan i zna da kiklopa ništa neće zaustaviti. Drugi nisu pametni kao on, jer da jesu ne bi bili tako opušteni.\nZbog cijelog tog ratnog ludila Melkior se osamljuje i luta ulicama i postaje sve usamljeniji vidjevši da nema izlaza. Ništa ga ne može izvući iz njegove tuge i usamljenosti. Žene s kojima provodi vrijeme i u koje je zaljubljen (Enka i Vivijana) i njegovo društvo (Ugo, Maestro, Fredi, don Fernando) ne pomažu mu da mu bude bolje. Zapravo nikoga nije briga za njega zbog njega samoga nego i drugi druženjem, glupiranjem i ludorijama pokušavaju ispuniti svoje jadne živote. Roman se temelji na intertekstualnosti pa pisac često tim postupkom upućuje na druge otuđene likove iz svjetske književnosti koji su slični Melkioru, npr, na Hamleta, koji su poput njega vrlo neobični, skloni razmišljanju, pesimistični i koji poput njega shvaćaju da izlaza nema. Poput Hamleta ni Melkior ne djeluje, on nije tip ratnika koji će se u ratu boriti, njega ne zanima konkretni rat nego o ratu koji dolazi razmišlja kao o užasu koji uništava čovječanstvo i na koncu uništava svaku ljudskost u ljudima te oni i sami postaju životinje kao što to postaje Melkior na kraju romana.",
+									"points": [
+										{
+											"category": "Središnja tvrdnja",
+											"points": 4
+										},
+										{
+											"category": "Argumentacija",
+											"points": 2
+										},
+										{
+											"category": "Povezanost teksta",
+											"points": 4
+										},
+										{
+											"category": "Upotreba rječnika",
+											"points": 4
+										},
+										{
+											"category": "Pravopisna i gramatička točnost",
+											"points": 4
+										}
+									]
+								},
+								{
+									"title": "Esej 4",
+									"text": "Ranko Marinković pisao je u 20. stoljeću. Rođen je na otoku Visu, a veći je dio života\nproveo u Zagrebu. To se razdoblje u kojem je stvarao naziva Druga moderna u hrvatskoj\nknjiževnosti jer se pisci okreću novim stvarima. Bio je suvremeni i poznati pisac Druge\nmoderne i jedan od najboljih pisaca u Hrvatskoj. I danas se na njegovom rodnom Visu svake\ngodine održava festival pod imenom Marinkovićevi dani kako bi se mu odala dužna počast i\nsjećanje. Napisao je roman Kiklop koji prati nesretnoga pojedinca koji se zove Melkior Tresić.\nOn je nesretno zaljubljeni, nema stalni posao, boji se rata, u krčmi mu se rugaju i zato je\notuđeni. A takvi su svi moderni likovi. To će biti tema mog eseja. Pisao je i drame npr. Gloriju\ni razne priče, npr. Ruke u kojima svađaju ljeva i desna ruka.\n\nPrvi polazni tekst vodi nas u gostionu u kojoj je Melkior volio dolazit. Kad se sjetio gladi,\nsjetio se invalidove vage jer se svakodnevno vagao da bi Kiklopu uskratio svoje meso. Bio je\nstalno gladan i zato je obilazio restorane i mirisao i promatrao ljude koji su jeli s uživanjem.\nZatim se sjetio kapetana, liječnika i izvoza voća i razmišljao kako je sve uzalud dok traje rat.\nZato je osamljen hodao ulicama i sretao nepoznate i bio umoran od policijskih provjera. „Osjeti\ngorak okus samotnog lutanja…” Bio je nesretan i usamljen. „…i život, i ljubav i povjerenje… i\nono što se nazivalo srećom.” Želio je otkriti nešto novo jer je sve izgubio. Jako se bojao rata.\nNada se da ga neće uzeti u rat bude li dovoljno mršav. Na kraju su ga ipak pozvali ali su ga\nubrzo pustili jer je glumio da je lud. I u kasarni je bio jako usamljen. Jedini prijatelj mu je bio\nvojnik Krele (kreten) koji mu je pomogao da izađe vani.\n\nKad se vratio starom životu i dalje je bio otuđeni jer rat samo što nije. Cijela se radnja\nzbiva u Zagrebu u kojem svi pričaju o ratu. Kad rat konačno počinje Melkior se skroz izgubi i\ntrči, trči, dok ne padne na zemlju i puzi u grad Zoopolis (što je zapravo zoološki vrt) i tamo od\nstraha potpuno poludi i počne razgovarati s kukcima. Ti kukci su zapravo ljudi koji bi htjeli\npostati manji od kukaca da se sakriju od rata.\n\nMože se zaključiti da su ljudi prikazani u Kiklopu jako otuđeni, a najviše među njima to\nje Melkior. Slabo se poznaju, malo znaju jedni o drugima, jedni druge nadmudruju, puno\nvremena provode u gostionicama. Melkioru se takav život ni najmanje ne sviđa, a uz to je tu i\nstrah od Kiklopa Polifema, tj. od rata.",
+									"points": [
+										{
+											"category": "Središnja tvrdnja",
+											"points": 2
+										},
+										{
+											"category": "Argumentacija",
+											"points": 0
+										},
+										{
+											"category": "Povezanost teksta",
+											"points": 2
+										},
+										{
+											"category": "Upotreba rječnika",
+											"points": 2
+										},
+										{
+											"category": "Pravopisna i gramatička točnost",
+											"points": 2
+										}
+									]
+								},
+								{
+									"title": "Esej 5",
+									"text": "Radnja romana Kiklop Ranka Marinkovića zbiva se u gradu Zagrebu neposredno prije drugoga svjetskog rata. Roman započinje scenom kad Melkior Tresić šeta ulicama i promatra i sluša reklame te promatra prolaznike. Stalno se ponavlja Mar-Mar i to je pisano da se naglasi velikim slovima. Dolazi do slijepca koji prodaje žnirance. Učinilo mu se da je vidio svojega učitelja koji je njega i ostale učenike maltretirao. Glavni su ostali likovi uz Melkiora Hugo,\nMaestro, Fenando, Adam, Enka, Vivijana, Krele, i ljudi na jednom pustom dalekom otoku koje su zarobili domorotci i koji čekaju biti pojeđeni. Roman prati toga Melkiora koji piše, večera po vani i druži se u Daj-damu s nabrojenim likovima.\nMelkior je najprije zaljubljen u Enku, a onda u glumicu Vivijanu. Ta je glumica stalno s glumcem Fredijem i ostalim društvom u krčmi pa to živcira Melkiora. On luta ulicama i mašta da se nađe s Vivijanom. Svi to znaju, a on misli da je tajna. Jedan je od njenih pratitelja Adam koji je kiropraktičar. On može predviđati sudbinu. Nakon niza događaja Melkior završi u kasarni. Tamo je naredniku pljunuo u lice pa su ga zatvorili u ludnicu. Upoznao je druge vojnike, npr. Kreleta koji je lajao na žarulju. Na kraju su Melkiora pustili jer su mislili da je lud i on ponovno luta ulicama i razmišlja kako je sve nula, tj. ništa. Na kraju je on zaista poludio i otpuzao u zoološki vrt.\nNaslov za roman je Marinković posudio još od Homera. Nema baš puno događaja u romanu, zato je po meni roman dosta neshvatljiv, više se bazira na razgovorima i prepričavanju djela drugih pisaca i umjetnika. Najviše se Melkior opisuje po noći. On je dobio ime po sveta tri kralja što znači da je bio pobožan i pazio je što radi, nikome i ničemu se nije rugao nego je samo htio pošteno živjeti u miru s voljenom Vivijanom. Ima jedna scena u romanu kad je Melkior stao na tračnice i čekao da ga tramvaj pogazi. Tramvaj je bio sve bliže, a on se nije htio maknuti. Već je i vozač poludio, zvonio je, trubio, vikao i mahao i na kraju je stao da ga ne udari. I on je mislio da je Melkior lud. Na mnogo mjesta u romanu ljudi zbilja misle da je Melkior jako poludio. To je jedan od razloga zašto je naslov posuđen od Homera jer je i kiklop bio lud. Roman ima više različitih dijelova, jedan je u Zagrebu, drugi u kasarni i zadnji opet u Zagrebu. Tada počinje rat, opisuje se bombardiranje i avioni i tu roman prestaje jer je sve nestalo, sve je uništeno.",
+									"points": [
+										{
+											"category": "Središnja tvrdnja",
+											"points": 0
+										},
+										{
+											"category": "Argumentacija",
+											"points": 0
+										},
+										{
+											"category": "Povezanost teksta",
+											"points": 0
+										},
+										{
+											"category": "Upotreba rječnika",
+											"points": 0
+										},
+										{
+											"category": "Pravopisna i gramatička točnost",
+											"points": 0
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"potentialPoints": 30
+		}
+	]
+}

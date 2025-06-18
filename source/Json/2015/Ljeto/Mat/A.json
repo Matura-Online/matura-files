@@ -1,0 +1,520 @@
+{
+    "name": "Matematika",
+    "level": "A",
+    "maxPoints": 60,
+    "scale": {
+        "range1": [
+            0,
+            27.99
+        ],
+        "range2": [
+            28,
+            49.99
+        ],
+        "range3": [
+            50,
+            69.99
+        ],
+        "range4": [
+            70,
+            82.99
+        ],
+        "range5": [
+            83,
+            100
+        ]
+    },
+    "sections": [
+        {
+            "name": "Osnovno",
+            "predictedTime": 180,
+            "instructions": "Pozorno pročitajte sve upute i slijedite ih.\nIspit traje 180 minuta.\n\nIspred svake skupine zadataka je uputa za rješavanje. Pozorno je pročitajte.\nMožete upotrebljavati priloženu knjižicu formula.\n\nKada riješite zadatke, provjerite odgovore.\nŽelimo Vam mnogo uspjeha!",
+            "potentialPoints": 60,
+            "questionGroups": [
+                {
+                    "info": "I. Zadatci višestrukoga izbora.\n\nU sljedećim zadatcima od više ponuđenih odgovora samo je jedan točan.\nU zadatcima od 1. do 10. točan odgovor donosi jedan bod, a u zadatcima od 11. do 15. dva boda.",
+                    "questions": [
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koji je od navedenih brojeva veći od $\\frac{1}{4}$ i manji od $\\frac{1}{3}$?",
+                            "choices": [
+                                "$\\frac{1}{5}$",
+                                "$\\frac{1}{7}$",
+                                "$\\frac{3}{8}$",
+                                "$\\frac{3}{10}$"
+                            ],
+                            "correctChoice": "D"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Kojoj je od navedenih kvadratnih jednadžba zbroj rješenja jednak -1, a umnožak rješenja jednak 3?",
+                            "choices": [
+                                "$x^{2}-x+3=0$",
+                                "$x^{2}+x+3=0$",
+                                "$3x^{2}-3x+1=0$",
+                                "$3x^{2}+3x+1=0$"
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Ako je $t=\\frac{1}{r}-\\frac{m}{h}$ čemu je jednako $m$?",
+                            "choices": [
+                                "$m=h(\\frac{1}{r}-t)$",
+                                "$m=h(\\frac{1}{r}+t)$",
+                                "$m=\\frac{1-rt}{rh}$",
+                                "$m=\\frac{1+rt}{rh}$"
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koliko je zupčanika spojeno u nizu?",
+                            "choices": [
+                                "4",
+                                "6",
+                                "8",
+                                "10"
+                            ],
+                            "correctChoice": "C",
+                            "shortText": "U jednome je stroju spojeno u nizu nekoliko zupčanika. Svaki zupčanik, počevši od drugoga, ima dvostruko manje zubaca od prethodnoga, što znači da prilikom rada stroja napravi dvostruko veći broj okretaja od prethodnoga. Dok se najveći zupčanik okrene 9 puta, najmanji se okrene 1152 puta."
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Na skici je prikazan pravokutni trokut ABC. Koliko iznosi mjera kuta u vrhu B?",
+                            "choices": [
+                                "$20\\circ54'$",
+                                "$22\\circ27'$",
+                                "$67\\circ33'$",
+                                "$69\\circ6'$"
+                            ],
+                            "correctChoice": "C",
+                            "mediaUrl": "https://files.matura.top/2015/Ljeto/Mat/A/9jQFDFihk.webp"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "mediaUrl": "https://files.matura.top/2015/Ljeto/Mat/A/8T3Cd2Scs.webp",
+                            "question": "Realnomu broju t pridružena je točka E(t) na brojevnoj kružnici. Koja od navedenih slika prikazuje točku E(t) za koju vrijedi $\\sin(t)=-\\frac{1}{3},\\tg(t)>0$?",
+                            "choices": [
+                                "Slika A",
+                                "Slika B",
+                                "Slika C",
+                                "Slika D"
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Za koji su realan broj k vektori $\\vec{a}=-\\vec{i}+7\\vec{j}$ i $\\vec{b}=k\\times\\vec{i}+4\\vec{j}$ okomiti?",
+                            "choices": [
+                                "$k=-28$",
+                                "$k=-\\frac{7}{4}$",
+                                "$k=\\frac{7}{4}$",
+                                "$k=28$"
+                            ],
+                            "correctChoice": "D"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koja je od navedenih funkcija neparna?",
+                            "choices": [
+                                "$f(x)=2^{3x}-x$",
+                                "$f(x)=x^{x}+1$",
+                                "$f(x)=x^{3}\\cos(x)$",
+                                "$f(x)=\\log{x^{2}+2x}$"
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "mediaUrl": "https://files.matura.top/2015/Jesen/Mat/A/bvyxAXIuK.webp",
+                            "question": "Za koji su prirodan broj n u razvoju binoma $(x^{2}+y)^{n}$ vrijednosti binomnih koeficijenata petoga i osmoga člana jednake?",
+                            "choices": [
+                                "9",
+                                "19",
+                                "11",
+                                "12"
+                            ],
+                            "correctChoice": "C",
+                            "shortText": "Napomena: $\\begin{pmatrix}{n}\\\\{k}\\end{pmatrix}=\\frac{n!}{k!\\times(n-k)!}$"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Kolika je mjera kuta $α$ prikazanoga na skici ako je duljina dužine $\\overline{AB}$ jednaka polumjeru kružnice?",
+                            "choices": [
+                                "$25\\circ$",
+                                "$30\\circ$",
+                                "$40\\circ$",
+                                "$45\\circ$"
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koliko je centimetara razina vode ispod gornjega ruba akvarija? (Napomena: $1L = 1 dm^{3}$)",
+                            "choices": [
+                                "5.6 cm",
+                                "8.1 cm",
+                                "10.3 cm",
+                                "11.9 cm"
+                            ],
+                            "correctChoice": "B",
+                            "shortText": "U akvarij oblika kvadra duljine 45 cm, širine 25 cm i visine 25 cm naliveno je 19 litara vode."
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koliki će biti omjer stabala graba i stabala hrasta u toj šumi kada se posiječe $\\frac{4}{11}$ stabala graba, a sadnjom poveća broj stabala hrasta za $\\frac{1}{6}$?",
+                            "choices": [
+                                "3 : 7",
+                                "7 : 12",
+                                "11 : 24",
+                                "25 : 36"
+                            ],
+                            "correctChoice": "A",
+                            "shortText": "U nekoj šumi omjer stabala graba i stabala hrasta iznosi 11 : 14."
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Zadane su funkcije $f(x)=2x-2$ i $g(x)=\\log(x^{2}+1)$. Koliki je zbroj rješenja jednadžbe $(f \\circ g)(x)=1$?",
+                            "choices": [
+                                "0",
+                                "6",
+                                "9",
+                                "18"
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koliko se rješenja trigonometrijske jednadžbe $3\\cos(2x)+2\\sin^{2}(x)=0$ nalazi u intervalu $[{0},{2\\pi}]$?",
+                            "choices": [
+                                "jedno",
+                                "dva",
+                                "tri",
+                                "četiri"
+                            ],
+                            "correctChoice": "D"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Ako pobočka (bočna strana) pravilne uspravne trostrane piramide s ravninom osnovke (baze) zatvara kut od $68°$, koliki je kut bočnoga brida i osnovke te piramide?",
+                            "choices": [
+                                "$51\\circ3'36''$",
+                                "$55\\circ27'12''$",
+                                "$62\\circ8'47''$",
+                                "$69\\circ54'6''$"
+                            ],
+                            "correctChoice": "A"
+                        }
+                    ]
+                },
+                {
+                    "info": "II. Zadatci kratkoga odgovora.\n\nU sljedećim zadatcima odgovorite kratkim odgovorom.",
+                    "questions": [
+                        {
+                            "type": "SubBoard",
+                            "mainQuestion": "Kolika je vrijednost izraza $\\sqrt{3}+4^{1.25}$ zaokružena na dvije decimale?",
+                            "answers": [
+                                "7.39",
+                                "9,39"
+                            ],
+                            "points": 1,
+                            "showTldraw": true
+                        },
+                        {
+                            "type": "SubBoard",
+                            "mainQuestion": "Od 4 300 000 glasača na referendum se odazvalo 84% glasača i od toga je 55% glasača zaokružilo ZA. Koji je broj glasača koji su zaokružili ZA na tome referendumu?",
+                            "points": 1,
+                            "showTldraw": true,
+                            "answers": [
+                                "1 986 600",
+                                "1986600"
+                            ]
+                        },
+                        {
+                            "type": "SubBoard",
+                            "mainQuestion": "Riješite zadatke.",
+                            "subQuestions": [
+                                {
+                                    "question": "Radiosignal odaslan je sa Zemlje i putuje brzinom 3\\times10^{8} m/s. Koliki je put u metrima prešao za 20 minuta od trenutka odašiljanja?",
+                                    "points": 1
+                                },
+                                {
+                                    "question": "Zadan je kompleksan broj $z=3(\\cos(\\frac{2\\pi}{7})+i\\sin(\\frac{2\\pi}{7}))$. Koja je vrijednost argumenta $ϕ$ broja $z^{6}$?",
+                                    "points": 1
+                                }
+                            ],
+                            "showTldraw": true,
+                            "fullSolutionOrUrl": "1. $3.6\\times10^{11} m$\n\n2. $ϕ=\\frac{12\\pi}{7}$ ili $5.385587406$ ili $1.714285714\\pi$ ili $308\\circ34'17''$"
+                        },
+                        {
+                            "type": "SubBoard",
+                            "mainQuestion": "Riješite zadatke s algebarskim izrazima.",
+                            "subQuestions": [
+                                {
+                                    "question": "Napišite algebarski izraz $(x^{1.5}\\times\\sqrt[4]{x})^{\\frac{1}{2}}$ u obliku potencije s bazom x.",
+                                    "points": 1,
+                                    "answers": []
+                                },
+                                {
+                                    "question": "Čemu je jednak pojednostavljeni i do kraja skraćeni algebarski izraz $(3a-\\frac{6a-1}{3a})\\times{\\frac{1}{3a-1}}$, za $a\\ne0,a\\ne\\frac{1}{3}$.",
+                                    "points": 1,
+                                    "answers": []
+                                }
+                            ],
+                            "showTldraw": true,
+                            "fullSolutionOrUrl": "1. $x^{7}{8}$ ili $x^{0.875}$\n\n2. $\\frac{3a-1}{3a}$"
+                        },
+                        {
+                            "type": "SubBoard",
+                            "mainQuestion": "Riješite zadatke.",
+                            "subQuestions": [
+                                {
+                                    "question": "Nacrtajte graf linearne funkcije $f$ zadane sljedećom tablicom.",
+                                    "points": 1,
+                                    "answers": []
+                                },
+                                {
+                                    "question": "U kojoj točki pravac $y=\\frac{3}{2}x+3$ siječe os apscisa?",
+                                    "points": 1,
+                                    "answers": []
+                                }
+                            ],
+                            "showTldraw": true,
+                            "fullSolutionOrUrl": "https://files.matura.top/2015/Ljeto/Mat/A/FyQCxOveX.webp",
+                            "mediaUrl": "https://files.matura.top/2015/Ljeto/Mat/A/9TOHQJCRw.webp",
+                            "points": 1
+                        },
+                        {
+                            "type": "SubBoard",
+                            "mainQuestion": "Riješite zadatke.",
+                            "subQuestions": [
+                                {
+                                    "question": "Riješite sustav $\\left\\{\\begin{array}{l}{y=\\frac{2x-4}{5}}\\\\{x+10y=\\frac{11}{2}}\\end{array}\\right.$",
+                                    "points": 1,
+                                    "answers": []
+                                },
+                                {
+                                    "question": "Riješite jednadžbu $|3x-2|=x+6$",
+                                    "points": 1,
+                                    "answers": []
+                                }
+                            ],
+                            "showTldraw": true,
+                            "fullSolutionOrUrl": "1. $x=\\frac{1}{2}$ i $y=-\\frac{3}{5}$\n\n2. $x_{1}=-1$ i $x_{2}=4$"
+                        },
+                        {
+                            "type": "SubBoard",
+                            "mainQuestion": "Zadana je funkcija $f(x)=-\\frac{1}{2}x^{2}+3x-1$.",
+                            "subQuestions": [
+                                {
+                                    "question": "Odredite sliku (skup svih vrijednosti) funkcije $f$.",
+                                    "points": 1,
+                                    "answers": []
+                                },
+                                {
+                                    "question": "Nacrtajte graf funkcije $f$.",
+                                    "points": 1,
+                                    "answers": []
+                                }
+                            ],
+                            "showTldraw": true,
+                            "fullSolutionOrUrl": "https://files.matura.top/2015/Ljeto/Mat/A/o9BWQylf9.webp"
+                        },
+                        {
+                            "type": "SubBoard",
+                            "mainQuestion": "Riješite zadatke iz geometrije.",
+                            "subQuestions": [
+                                {
+                                    "shortText": "Neka je prirodan broj n takav da vrijedi $\\begin{pmatrix}{n}\\\\{3}\\end{pmatrix}=\\begin{pmatrix}{n}\\\\{2}\\end{pmatrix}$. Napomena: $\\begin{pmatrix}{n}\\\\{k}\\end{pmatrix}=\\frac{n!}{k!(n-k)!}$.",
+                                    "question": "Koliko iznosi duljina stranice $a$ prikazane na skici?",
+                                    "points": 1,
+                                    "rightInput": "jediničnih dužina",
+                                    "answers": [
+                                        "4.16",
+                                        "4,16"
+                                    ]
+                                },
+                                {
+                                    "question": "Duljine stranica trokuta su 12 cm i 17 cm, a mjera kuta među njima je $135\\circ$. Kolika je duljina treće stranice trokuta?",
+                                    "points": 1,
+                                    "answers": [
+                                        "26.86",
+                                        "26,86"
+                                    ],
+                                    "rightInput": "cm"
+                                }
+                            ],
+                            "showTldraw": true,
+                            "mediaUrl": "https://files.matura.top/2015/Ljeto/Mat/A/lqYGG7bMr.webp"
+                        },
+                        {
+                            "type": "SubBoard",
+                            "mainQuestion": "Riješite zadatke.",
+                            "subQuestions": [
+                                {
+                                    "question": "Riješite nejednadžbu $\\frac{x+5}{x-2}<0$. Napišite rješenje s pomoću intervala.",
+                                    "points": 1,
+                                    "answers": []
+                                },
+                                {
+                                    "question": "Neprekidna funkcija definirana za sve realne brojeve ima točno dvije točke lokalnoga minimuma $A(-1,2)$ i $B(4,-3)$ i samo jednu točku lokalnoga maksimuma $C(1,3)$. Odredite interval/intervale rasta funkcije na cijeloj domeni.",
+                                    "points": 1,
+                                    "answers": []
+                                }
+                            ],
+                            "showTldraw": true,
+                            "fullSolutionOrUrl": "1. $⟨{-5},{2}⟩$\n\n2. $⟨{-1},{1}⟩,⟨{4},{\\infty}⟩$"
+                        },
+                        {
+                            "type": "SubBoard",
+                            "mainQuestion": "Riješite zadatke s funkcijama.",
+                            "subQuestions": [
+                                {
+                                    "question": "Odredite prvu derivaciju funkcije $f(x)=\\tg(3x)$.",
+                                    "points": 1,
+                                    "answers": []
+                                },
+                                {
+                                    "question": "Napišite jednadžbu tangente na graf funkcije $f(x)=x^{3}+2x+1$ u točki s apscisom $x_{0}=1$.",
+                                    "points": 1,
+                                    "answers": []
+                                }
+                            ],
+                            "showTldraw": true,
+                            "fullSolutionOrUrl": "1. $f'(x)=\\frac{3}{\\cos^{2}(3x)}$\n\n2. $y=5x-1$"
+                        },
+                        {
+                            "type": "SubBoard",
+                            "mediaUrl": "https://files.matura.top/2015/Ljeto/Mat/A/dVMyuJIyj.webp",
+                            "mainQuestion": "Slika prikazuje graf funkcije $f(x)=A\\sin(Bx)+D$.",
+                            "subQuestions": [
+                                {
+                                    "question": "Odredite amplitudu A.",
+                                    "points": 1,
+                                    "answers": [
+                                        "2"
+                                    ]
+                                },
+                                {
+                                    "question": "Odredite koeficijent B.",
+                                    "points": 1,
+                                    "answers": []
+                                }
+                            ],
+                            "showTldraw": true
+                        },
+                        {
+                            "type": "SubBoard",
+                            "mainQuestion": "Riješite zadatke.",
+                            "subQuestions": [
+                                {
+                                    "question": "Zadan je geometrijski niz $\\frac{3}{4},\\frac{1}{2},\\frac{1}{3},...$. Koji je šesti član zadanoga niza?",
+                                    "points": 1,
+                                    "answers": []
+                                },
+                                {
+                                    "question": "Prvi je član geometrijskoga reda 0.5, a suma je toga geometrijskog reda 1.25. Koliko iznosi kvocijent toga geometrijskog reda?",
+                                    "points": 1,
+                                    "answers": []
+                                },
+                                {
+                                    "question": "Zlatko je odlučio štedjeti. Prvi je dan u kasicu ubacio 1 kunu. Svaki sljedeći dan ubacit će 50 lipa više nego što je ubacio prethodnoga dana. Koliko će ukupno kuna uštedjeti na taj način za 45 dana?",
+                                    "points": 1,
+                                    "answers": [
+                                        "540"
+                                    ]
+                                }
+                            ],
+                            "showTldraw": true,
+                            "fullSolutionOrUrl": "1. $\\frac{8}{81}$\n\n2. $\\frac{3}{5}=0.6$"
+                        },
+                        {
+                            "type": "SubBoard",
+                            "mainQuestion": "Riješite zadatke.",
+                            "subQuestions": [
+                                {
+                                    "question": "Koliko je $x$ ako je $log_{x}8=-\\frac{1}{3}$?",
+                                    "points": 1,
+                                    "answers": []
+                                },
+                                {
+                                    "question": "Riješite jednadžbu $0.5^{2x-1}+0.25^{x-1}=48$",
+                                    "points": 1,
+                                    "answers": []
+                                },
+                                {
+                                    "question": "Pacijent je dobio lijek protiv bolova. Količina lijeka K u organizmu, izražena u miligramima, opisana je formulom $K(t)=2.5\\cdot0.85^t$. Vrijeme $t$ proteklo od trenutka dobivanja lijeka izraženo je u satima. Lijek prestaje djelovati kada je količina lijeka u organizmu manja od 1 mg. Nakon koliko će vremena lijek prestati djelovati?",
+                                    "points": 1,
+                                    "answers": [
+                                        "5.64",
+                                        "5,64"
+                                    ]
+                                }
+                            ],
+                            "showTldraw": true,
+                            "fullSolutionOrUrl": "1. $\\frac1{512}=2^{-9}=8^{-3}$ ili $1.953125\\cdot10^{-3}$.\n\n2. $-\\frac32=-1.5$"
+                        }
+                    ]
+                },
+                {
+                    "info": "III. Zadatci produženoga odgovora.\n\nU 29. i 30. zadatku napišite kemijskom olovkom postupak rješavanja i odgovor na predviđeno mjesto. Prikažite sav svoj rad (skice, postupak, račun).\nAko dio zadatka riješite napamet, objasnite i zapišite kako ste to učinili.",
+                    "questions": [
+                        {
+                            "type": "SubBoard",
+                            "mainQuestion": "Riješite zadatke iz geometrije.",
+                            "subQuestions": [
+                                {
+                                    "question": "Zadana je kružnica $\\left(x-2\\right)^2+\\left(y+3\\right)^2=25$. Odredite joj središte i nacrtajte je u koordinatnome sustavu.",
+                                    "points": 2,
+                                    "answers": []
+                                },
+                                {
+                                    "question": "U trokutu $ABC$ duljina stranice $\\overline{AB}$ jednaka je 6 cm, a duljina visine iz vrha C jednaka je 4.1 cm. Kolika je površina njemu sličnoga trokuta $A'B'C'$ kojemu je duljina visine iz vrha C' jednaka duljini stranice $\\overline{AB} trokuta $ABC$?",
+                                    "points": 2
+                                },
+                                {
+                                    "question": "Točka T(2,-6) pripada krivulji $\\frac{x^2}{16}+\\frac{y^2}{b^2}=1$. Neka je t tangenta na tu krivulju u točki T. Odredite udaljenost tangente t od ishodišta koordinatnoga sustava.",
+                                    "points": 3,
+                                    "answers": []
+                                },
+                                {
+                                    "question": "Zemljište ima oblik trapeza kao na skici. Koliko najmanje metara ograde treba kupiti da bi se ogradilo to zemljište?",
+                                    "points": 3,
+                                    "mediaUrl": "https://files.matura.top/2015/Ljeto/Mat/A/ObOrU1oNL.webp"
+                                }
+                            ],
+                            "showTldraw": true,
+                            "fullSolutionOrUrl": "https://files.matura.top/2015/Ljeto/Mat/A/HIcEL2VwT.webp"
+                        },
+                        {
+                            "type": "SubBoard",
+                            "mainQuestion": "Koji je skup svih rješenja nejednadžbe $\\sqrt{4-3x}-\\sqrt{x+1}>2$?",
+                            "points": 4,
+                            "showTldraw": true,
+                            "fullSolutionOrUrl": "https://files.matura.top/2015/Ljeto/Mat/A/mS5TZPlV4.webp"
+                        }
+                    ]
+                }
+            ],
+            "helpFiles": [
+                {
+                    "name": "1",
+                    "fileUrl": "https://files.matura.top/All/Mat/A/Lqxsjf8kZ.webp"
+                },
+                {
+                    "name": "2",
+                    "fileUrl": "https://files.matura.top/All/Mat/A/QRl0OPW4n.webp"
+                },
+                {
+                    "name": "3",
+                    "fileUrl": "https://files.matura.top/All/Mat/A/ZrYkK3jJr.webp"
+                },
+                {
+                    "name": "4",
+                    "fileUrl": "https://files.matura.top/All/Mat/A/cmDAhgaFP.webp"
+                }
+            ]
+        }
+    ]
+}

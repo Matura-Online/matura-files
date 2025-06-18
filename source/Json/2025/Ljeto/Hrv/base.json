@@ -1,0 +1,975 @@
+{
+    "name": "Hrvatski Jezik",
+    "maxPoints": 110,
+    "scale": {
+        "range1": [
+            0,
+            29.99
+        ],
+        "range2": [
+            30,
+            49
+        ],
+        "range3": [
+            50,
+            69.99
+        ],
+        "range4": [
+            70,
+            84.99
+        ],
+        "range5": [
+            85,
+            100
+        ]
+    },
+    "sections": [
+        {
+            "name": "Čitanje, Književnost i Hrvatski Jezik",
+            "predictedTime": 100,
+            "instructions": "Pozorno pročitajte sve upute i slijedite ih.\nIspit traje 100 minuta.\n\nKada riješite zadatke, provjerite odgovore.\nŽelimo Vam mnogo uspjeha!",
+            "potentialPoints": 62,
+            "questionGroups": [
+                {
+                    "info": "I. Čitanje\n\nZadatci s polaznim tekstom.\nZadatci višestrukoga izbora.\n\nU zadatcima višestrukoga izbora od više ponuđenih odgovora samo je jedan točan.\nTočan odgovor donosi jedan bod. Zadatci od 1. do 30. odnose se na polazne tekstove.",
+                    "initialText": {
+                        "title": "Gospodskomu Kastoru$^{1}$",
+                        "text": "Prostite, sjeni, lutajuć tihe na Letinu$^{2}$ žalu,\nŠto ću pozajmit klasičnu strofu!\nMajčica Gaea$^{3}$ nešto je drukča, neg’li je bila\nDrukčiji danas treba Apolo.\n\nProstite i vi, Kastore dragi, gospodski psiću!\nDrijemajte samo mekom na sagu.\nVani je zima (ne znam vam toga reći na pasju,\nAl vi ste uvijek istoga mnijenja!),\n\nSipa po vrašku! Kako li samo žmirkate važno!\nOčito, da se čudite nešto,\nKud li se trgom vucare trome, prostačke psine\nPodvita repa, kičme ko britva.\n\nSkitnice jedne! gotove uvijek željno zavirit\nPoganom njuškom ȕ svaku tricu!\nPeče vas, reko bih, ta zaboravnost, ali izvin’te,\nKastore dragi. Tempora! Mores!$^{4}$\n\nGlete, na primjer, toga se nađe baš i u ljudi;\nŠto su to ljudi – sigurno znate;\nVidi se, vidi; uopće psić ste moderan posve,\nSve vam je jasno, način korektan.\n\nBah – il je čudo: s vremena duhom pođoste naprijed.\nSve je uzálud: odlična kuća,\nGdje vas je časna predala nekad na svijet majka,\nNe da se tako lako zatajit.\n\nI kad su ljuske pale sa vašeg slijepoga vida,\nŽeljeli nijeste pogledat ȕ zrak;\nPrvi vam korak bješe da svojoj gospođi bajnoj\nLaznete skromno gospodsku petu.\n\nZlatna metoda! Cjelovom tijem shvatiste život!\nMeka vas ruka uze u krilo;\nCijela obitelj, odlična kuća i ekcelenca$^{5}$\nU vas je slavne vidjela dare.\n\nKad vas je koji majčin miljenik razmićen$^{6}$ nešto\nObijesnim prstom ščepo za uho,\nVi ste mu odmah, psiću vanredni, gotovo, nježno,\nPružili drugo, repić podvinuv!\n\nZato ste tako legnuli meko, zato vam danas\nProlazi starost kao u loju,\nU kut iz kuta, kako vam reknu, ali se zato\nNe pruža vaša šapa badava!\n\nEto, što znači biti psetancem odlična gazde!\nNajlakše k cilju podvita repa!\nPitoma njuško, cjeluješ petu, al se i za te\nMirisno peče masna kobasa!\n\nI ja sam, evo, kreposti vašoj savio pjesmu,\nPolažem lovor preda vas;\nSlab je to darak, jestive više volite stvari,\nOdlike više praktične vrsti!\n\nIpak vam – ne htêć uditi daljem napretku vašem –\nU uho nešto šapnuti moram:\nSve mi se čini, da ste – uglavnom – svojom metodom,\nKastore, malko slijedili – ljude!\n\nSilvije Strahimir Kranjčević\n\n\n$^{1}$ - Kastor - u grčkoj mitologiji Zeusov sin i brat blizanac Polideuka.\n$^{2}$ - Letin žal - u grčkoj mitologiji rijeka zaborava iz koje su pile duše preminulih.\n$^{3}$ - Gaea - u grčkoj mitologiji Majka Zemlja\n$^{4}$ - Tempora! Mores! - Vremena! Običaji – Izraz se često upotrebljava za kritiziranje trenutačnih stavova i trendova.\n$^{5}$ - ekcelenca - počasna titula.\n$^{6}$ - razmićen - razmažen."
+                    },
+                    "questions": [
+                        {
+                            "type": "SingleChoice",
+                            "question": "Kakvim je tonom napisana pjesma?",
+                            "choices": [
+                                "baladičnim",
+                                "elegičnim",
+                                "idiličnim",
+                                "ironičnim"
+                            ],
+                            "correctChoice": "D"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koji su od sljedećih motiva u oprečnome odnosu u pjesmi?",
+                            "choices": [
+                                "psić - ljudi",
+                                "ruka - peta",
+                                "Kastor - psine",
+                                "pjesma - lovor"
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "shortText": "Zlatna metoda! Cjelovom tijem shvatiste život!",
+                            "question": "O kojoj metodi govori lirski subjekt u sljedećemu stihu?",
+                            "choices": [
+                                "o dodvoravanju drugima",
+                                "o suosjećanju s drugima",
+                                "o skromnome načinu života",
+                                "o spoznaji moralnih vrijednosti"
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koja se od sljedećih tvrdnja odnosi na lirski subjekt?",
+                            "choices": [
+                                "Pohvaljuje suživot čovjeka i psa.",
+                                "Teži visokomu društvenom položaju.",
+                                "Kudi pse lutalice i njihov način života.",
+                                "Osuđuje ponašanje svojih suvremenika."
+                            ],
+                            "correctChoice": "D"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koja se od sljedećih tvrdnja ne odnosi na pjesmu?",
+                            "choices": [
+                                "Napisana je u dijaloškome obliku.",
+                                "Antički su motivi u kontrastu s njezinom temom.",
+                                "Deminutivi su upotrijebljeni u pejorativnome značenju.",
+                                "U pjesničkome jeziku upotrebljavaju se kolokvijalizmi i žargonizmi."
+                            ],
+                            "correctChoice": "A"
+                        }
+                    ]
+                },
+                {
+                    "info": "Pozorno pročitajte polazni tekst (drugi tekst) i riješite 6., 7., 8., 9. i 10. zadatak.",
+                    "initialText": {
+                        "title": "Albert Camus, Stranac",
+                        "text": "Tužilac ga upita jesam li mu redovito plaćao hranu. Céleste se nasmija i izjavi: – To su bile sitnice među nama. – Upitaše ga još što misli o mom zločinu. On se tada uhvati rukama za ogradu, vidjelo se da je nešto smislio. Reče: – Za mene je to nesreća. A svi znaju što je nesreća. Od nesreće se čovjek ne može obraniti. E, pa za mene je to nesreća! – htio je nastaviti, ali mu predsjednik reče da je dosta i da mu zahvaljuje. Céleste se malko zbuni, ali doda da bi htio još nešto reći. Upozoriše ga neka bude kratak. On opet ponovi da je to nesreća, a predsjednik mu reče: – Jest, to se razumije, ali mi smo ovdje da sudimo o takvim nesrećama. Hvala vam. – Tada, kao da je iscrpao sve svoje znanje i dobru volju, Céleste se okrenu meni. Učini mi se da mu se oči cakle, a usne dršću. Kao da me je pitao kako bi mi još mogao pomoći. Ja ništa ne rekoh, ne učinih nijedne kretnje, ali prvi put otkako znam za sebe poželjeh da zagrlim jednog čovjeka. Predsjednik mu još dobaci neka napusti mjesto za svjedoke. Céleste se vrati na svoje mjesto. Tu ostade do kraja rasprave, malko sagnut, nalakćen na koljena, s panama-šeširom u rukama, slušajući sve što se govori. Uđe Marie. Na glavi je imala šešir i bila je opet lijepa, iako mi se više sviđala gologlava. S mjesta na kojem sam sjedio nazrijevao sam njene sitne dojke i razabirao donju usnu koja joj je uvijek bila malko ispupčena. Činilo mi se da je vrlo nervozna. Prvo je zapitaše otkad me poznaje. Ona navede vrijeme kad je kod nas radila. Predsjednik je htio da zna u kakvim je odnosima sa mnom. Ona reče da mi je prijateljica. Na jedno drugo pitanje odgovori da je istina da je trebalo da se uda za mene. Javni tužilac, koji je prelistavao spise, iznenada je upita otkad traje naša veza. Ona navede datum. Tužilac ravnodušno pripomenu da mu se čini da je to bilo dan nakon mamine smrti. Zatim pomalo podrugljivo reče da se ne bi htio dulje zadržavati na tom škakljivom pitanju, da dobro shvaća Marijine obzire, ali (tu mu glas postade trpkiji) da mu dužnost nalaže da se izdigne iznad društvenih obzira. Zamoli Marie da ukratko opiše onaj dan kad sam se zbližio s njom. Marie nije htjela odgovarati, ali na navaljivanje tužiočevo ispripovjedi kako smo se kupali, kako smo išli u kino i otišli na kraju u moj stan. Tužilac reče da je, pročitavši Marijin iskaz u istrazi, pregledao program kino-predstava toga dana. Doda da će i sama Marie reći koji smo film tada gledali. I zaista, gotovo bezbojnim glasom, ona navede da je to bio jedan film s Fernandelom. Kad je to rekla, u sudnici je nastao tajac. Tada tužilac ustade i, vrlo ozbiljno, glasom koji mi se učini zaista potresenim, upre prstom u mene i izusti polagano: – Gospodo porotnici, sutradan nakon smrti svoje majke, ovaj je čovjek otišao na kupanje, upustio se u nedopušten odnos i smijao se gledajući jednu filmsku komediju. Nemam više što da vam kažem. – Kad je sjeo, u sudnici je svejednako vladao muk. Ali odjednom Marie zajeca, reče da nije bilo baš tako, da je tu bilo i koječega drugog, da su je natjerali da kaže suprotno od onoga što misli, da me dobro poznaje i da nisam učinio nikakvo zlo. Ali, na predsjednikov znak, podvornik je odvede i rasprava se nastavi."
+                    },
+                    "questions": [
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koje mišljenje o pripovjedaču ima Céleste?",
+                            "choices": [
+                                "da je pripovjedač hladnokrvni ubojica",
+                                "da je pripovjedač nehotice počinio zločin",
+                                "da je pripovjedač zahvalan na njegovu iskazu",
+                                "da je pripovjedač iskorištavao njegovu velikodušnost"
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Zbog kojega je razloga u sudnici nastupila tišina?",
+                            "choices": [
+                                "Prisutni su htjeli čuti što slijedi.",
+                                "Prisutni su bili zgranuti Marijinim odgovorom.",
+                                "Prisutni su se iznenadili zbog optuženikova ponašanja u sudnici.",
+                                "Prisutni su bili impresionirani tužiteljevim ispitivačkim sposobnostima."
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "S kojim ciljem tužitelj ispituje Marie o danu kad se zbližila s pripovjedačem?",
+                            "choices": [
+                                "da prikaže pripovjedača kao bezosjećajnoga čovjeka",
+                                "da se naruga Marie zbog njezine veze s pripovjedačem",
+                                "da otkrije kako pripovjedač provodi svoje slobodne dane",
+                                "da bi naveo Marie da poroti otkrije sve što zna o pripovjedačevu zločinu"
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koje se od sljedećih stilskih obilježja odnosi na polazni tekst?",
+                            "choices": [
+                                "lirizam",
+                                "impersonalnost",
+                                "načelo tipičnosti",
+                                "estetika ružnoće"
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Kojom je pripovjednom tehnikom napisano djelo kojemu pripada polazni tekst?",
+                            "choices": [
+                                "strujom svijesti",
+                                "pripovijedanjem u 1. licu",
+                                "pripovijedanjem u 3. licu",
+                                "slobodnim neupravnim govorom"
+                            ],
+                            "correctChoice": "B"
+                        }
+                    ]
+                },
+                {
+                    "info": "Pozorno pročitajte polazni tekst (treći tekst) i riješite 11., 12., 13., 14. i 15 zadatak.",
+                    "initialText": {
+                        "title": "Gustav Schwab, Mida",
+                        "text": "\tJednom je moćni bog Dioniz odlutao sa svojim bakhanticama i satirima prijeko u Malu Aziju. Ondje je vrludao po visovima brda Tmola, obraslim vinovom lozom, a pratila ga njegova družina. Samo Silena, stare pijanice, nije bilo s njima. Njega je svladalo vino pa je zaspao i tako zaostao. Zaspala starca našli su frigijski seljaci, svezali ga vijencima od cvijeća i poveli ga pred svoga kralja Midu. Kralj s poštovanjem pozdravi prijatelja svetog boga, primi ga srdačno i gostio ga deset dana i deset noći. Jedanaesto jutro izvede kralj svoga gosta na lidijska polja, gdje ga preda Dionizu. Obradovan što je ponovno uz njega stari drug, Dioniz nagovori kralja neka zatraži od njega bilo kakav dar. Tada Mida reče:\n\t– Ako smijem birati, veliki bože Bakho, onda učini da se sve čega se dotaknem pretvori u sjajno zlato.\n\tBog požali što Mida nije pogodio bolje izabrati, ali mu ipak dade znak da će mu se želja ispuniti.\n\tRadujući se kobnom daru, pohrli Mida natrag i odmah pokuša da li se obećanje obistinjuje. I gle, zelena grana koju je otkinuo s jednoga hrasta pretvori se u zlato. Brzo podigne kamen sa zemlje, a kamen se stvori sjajnim grumenom zlata. Kidao je zrelo klasje s vlatova, a žeo je zlato. Voće što ga je ubirao sa stabla svijetlilo se kao zlatne jabuke Hesperidā. Sav ushićen potrči u svoju palaču. Ali tek što se prstom dotakao dovratka, već su se stupovi sjajili kao vatra. Dapače, i voda u koju je umočio ruke pretvorila se u zlatnu tekućinu.\n\tIzvan sebe od radosti, zapovjedi slugama da mu prirede obilan ručak. Začas je stajao spremljen stol, krcat izvrsna pečenja i bijela kruha. Kralj posegne za kruhom – i sveti dar Demetrin pretvori se u tvrdu kovinu. Stavi komad mesa u usta – i sjajni mu lim zazveči među zubima. Uzme pehar da srkne mirisava vina – a grlom kao da mu kliznu tekuće zlato. Sada mu sine kakvo je strahovito dobro izmolio za dar. Tako bogat, a ipak tako siromašan, proklinjao je svoju ludost, jer nije mogao da utaži glada ni žeđe, užasna smrt bila je neizbježiva. U očaju udari se pesnicom po čelu – o, užasa! i lice mu se zasja i zaiskri kao zlato. Tada u strahu podiže ruke k nebu i pomoli se: – Milost, milost, oče Dionize! Oprosti meni slaboumnom grešniku i oduzmi od mene ovo blještavo zlo!\n\tBakho, milostivi bog, usliši molbu raskajana luđaka, skine s njega čaroliju i naloži mu:\n\t– Pođi do rijeke Paktola i idi uz nju dok ne dođeš do njezina izvora u gorama. Ondje gdje pjenušava voda izbija iz stijene zagnjuri glavu u hladni mlaz, da se oslobodiš zlatnoga sjaja. Sa zlatom speri zajedno i svoj grijeh!\n\tMida se pokori božjoj zapovijedi, i, gle, istoga časa ostavi ga čarolija, ali zlatotvorna snaga prijeđe na rijeku, koja otada nosi sa sobom dragocjenu kovinu u velikoj količini.\n\tOd toga vremena mrzio je Mida svako bogatstvo, napustio je svoju veličanstvenu palaču i rado je vrludao po poljima i šumama poštujući poljskoga boga Pana čija su omiljela boravišta bile hladovite pećine u gorama."
+                    },
+                    "questions": [
+                        {
+                            "type": "SingleChoice",
+                            "question": "Zbog kojega je razloga Dioniz odlučio ispuniti Midi svaku želju?",
+                            "choices": [
+                                "Mida je bio gostoljubiv.",
+                                "Mida mu je bio stari prijatelj.",
+                                "Htio je Midi pokazati svoju moć.",
+                                "Htio je provjeriti Midinu inteligenciju."
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Zbog kojega je razloga Mida poželio da se skine s njega čarolija?",
+                            "choices": [
+                                "Shvatio je da je lud.",
+                                "Shvatio je da je previše bogat.",
+                                "Shvatio je da će umrijeti od gladi.",
+                                "Shvatio je da će ga bogovi kazniti."
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Kojom se od sljedećih rečenica iskazuje da je Mida svjestan da je njegova želja loša?",
+                            "choices": [
+                                "Kidao je zrelo klasje s vlatova, a žeo je zlato.",
+                                "Ali tek što se prstom dotakao dovratka, već su se stupovi sjajili kao vatra.",
+                                "Izvan sebe od radosti, zapovjedi slugama da mu prirede obilan ručak.",
+                                "Sada mu sine kakvo je strahovito dobro izmolio za dar."
+                            ],
+                            "correctChoice": "D"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koja se od sljedećih mitoloških tema odnosi na polazni tekst?",
+                            "choices": [
+                                "traganje za besmrtnosti",
+                                "panteistički doživljaj svijeta",
+                                "moralno utemeljenje čovjeka",
+                                "razumijevanje civilizacijskih promjena"
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koje je od sljedećih obilježja pripovjednoga teksta prisutno u polaznome tekstu?",
+                            "choices": [
+                                "retardacija",
+                                "retrospekcija",
+                                "slobodni neupravni govor",
+                                "kronološko pripovijedanje"
+                            ],
+                            "correctChoice": "D"
+                        }
+                    ]
+                },
+                {
+                    "info": "Pozorno pročitajte polazni tekst (četvrti tekst) i riješite 16., 17., 18., 19. i 20. zadatak.",
+                    "initialText": {
+                        "title": "Carlo Goldoni, Gostioničarka Mirandolina",
+                        "text": "GROF: Mirandolino, tražio sam Vas.\nMIRANDOLINA: Tu sam, s ovim plemenitašicama.\nGROF: Plemenitašicama? Ponizno se klanjam.\nORTENSIA: Vaša odana službenica. (tiho Dejaniri) (Ovaj plemić imućniji je od onog drugog.)\nDEJANIRA (tiho Ortensiji): (Ali ja ne znam kako se iskamči dar.)\nMARKIZ (tiho Mirandolini): (Hej! Pokažite grofu rupčić.)\nMIRANDOLINA: Pogledajte, gospodine grofe, kakav sam lijep dar dobila od gospodina markiza. (pokaže rupčić grofu)\nGROF: Oh, to me veseli! Sjajno, gospodine markiže.\nMARKIZ: Eh, ništa, ništa. Trice. Odnesite ga, neću da to govorite. Nije potrebno da se zna što činim.\nMIRANDOLINA (za sebe): (Nije potrebno da se zna, a tjera me da ga pokažem. Siromaštvu oholost ne priliči.)\nGROF (Mirandolini): Ako dopuštaju ove gospođe, htio bih Vam nešto reći.\nORTENSIA: Slobodno izvolite.\nMARKIZ (Mirandolini): Taj ćete rupčić u džepu uništiti.\nMIRANDOLINA: Eh, odložit ću ga u pamuk, da se ne zgužva!\nGROF (Mirandolini): Pogledajte ovaj mali ukras od dijamanata.\nMIRANDOLINA: Vrlo je lijep.\nGROF: Pristaje uz naušnice što sam Vam ih darovao. (Ortensia i Dejanira gledaju, pa tiho razgovaraju jedna s drugom)\nMIRANDOLINA: Dakako da pristaje, samo je još ljepši.\nMARKIZ (za sebe): (Proklet da je grof, njegovi dijamanti, njegov novac i vrazi ga njegovi odnijeli.)\nGROF (Mirandolini): Zato Vam ja evo darujem ukras, da biste imali nakit koji pristaje uz onaj koji imate.\nMIRANDOLINA: Nipošto ga neću uzeti.\nGROF: Nećete valjda biti tako neuljudni.\nMIRANDOLINA: Oh! Ja neuljudna nisam nikada. Da Vas ne uvrijedim, uzet ću ga.\n\n(Ortensia i Dejanira razgovaraju kao gore, gledajući kako je grof velikodušan)\n\nMIRANDOLINA: Ha? Što kažete na to, gospodine markiže? Zar nije lijep ovaj ukras?\nMARKIZ: U svojoj vrsti rupčić je ukusniji.\nGROF: Jest, ali od vrste do vrste priličan je razmak.\nMARKIZ: Divota! Javno se hvaliti velikim troškom.\nGROF: Da, da, Vi svoje darove dajete tajno.\nMIRANDOLINA (za sebe): (Ovaj put uistinu mogu reći da dok se dvojica svađaju, treći likuje.)\nMARKIZ: I tako ću, slatke gospođe, ručati s vama.\nORTENSIA (grofu): Tko je ovaj drugi gospodin?\nGROF: Ja sam grof od Albafiorite, vama na usluzi.\nDEJANIRA: Borati! To je ugledna obitelj, poznajem je. (i ona pristupi grofu)\n\n(...)\n\nGROF: Stojim vam na usluzi, gospođe. Jeste li same? Zar uza se nemate muškaraca?\nMARKIZ: Ja sam tu, gospodine, pa im niste potrebni Vi.\nORTENSIA: Same smo, gospodine grofe. Poslije ćemo Vam reći zašto.\nGROF: Mirandolino.\nMIRANDOLINA: Gospodine.\nGROF: Naložite da se u mojoj sobi prostre za troje. (Ortensiji i Dejaniri) Hoćete li se udostojati i ukazati mi čast?\nORTENSIA: Prihvatit ćemo Vaš ljubazni poziv.\nMARKIZ: Ali te su gospođe pozvale mene.\nGROF: One mogu slobodno odlučiti da izvole učiniti kako im se prohtije, ali za mojom malom trpezom više od troje ne stane.\nMARKIZ: I to bih htio vidjeti..\nORTENSIA: Pođimo, pođimo, gospodine grofe. Gospodin markiz svojim će nas društvom udostojiti drugi put. (ode)"
+                    },
+                    "questions": [
+                        {
+                            "type": "SingleChoice",
+                            "question": "Kako se osjeća markiz nakon što je Mirandolina primila poklone od grofa?",
+                            "choices": [
+                                "Uznemiren je jer je svjestan da je grofov poklon skuplji od njegova.",
+                                "Nezadovoljan je jer nije uspio svoj poklon Mirandolini dati u tajnosti.",
+                                "Siguran je u sebe jer je uvjeren da je njegov poklon vredniji od grofova.",
+                                "Sretan je jer je Mirandolina grofov poklon prihvatila samo iz pristojnosti."
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Zbog kojega razloga Ortensia i Dejanira prihvaćaju grofov poziv na zajednički ručak?",
+                            "choices": [
+                                "jer je grof darežljiviji od markiza",
+                                "jer je grof Dejanirin obiteljski prijatelj",
+                                "jer mu žele objasniti zašto su same u gostionici",
+                                "jer su ljubomorne na to što je markiz darovao Mirandolini rupčić"
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "shortText": "_Siromaštvu oholost ne priliči._",
+                            "question": "Koje je značenje sljedeće rečenice u polaznome tekstu?",
+                            "choices": [
+                                "Ortensia se drži uzvišeno jer je plemkinja.",
+                                "Grof se nepotrebno hvali svojim bogatstvom.",
+                                "Mirandolina je skromna jer je pučkoga podrijetla.",
+                                "Markiz se razmeće svojim poklonom iako nema novca."
+                            ],
+                            "correctChoice": "D"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koja je uloga teksta u zagradama koji je napisan neukošenim slovima?",
+                            "choices": [
+                                "Navode se neverbalni elementi dramske radnje.",
+                                "Prikazuje se tekst koji se ne izgovara na pozornici.",
+                                "Ukazuje se na stvarne motive i reakcije dramskih lica.",
+                                "Objašnjava se u kojim se uvjetima događa scena ili prizor."
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "U kojoj je od sljedećih rečenica upotrijebljena ironija?",
+                            "choices": [
+                                "Vaša odana službenica.",
+                                "Nije potrebno da se zna što činim.",
+                                "Da, da, Vi svoje darove dajete tajno.",
+                                "To je ugledna obitelj, poznajem je."
+                            ],
+                            "correctChoice": "C"
+                        }
+                    ]
+                },
+                {
+                    "info": "Pozorno pročitajte polazni tekst (peti tekst) i riješite 21., 22., 23., 24. i 25. zadatak.",
+                    "initialText": {
+                        "title": "Sandra Krstev Barać, Kako smanjiti svakodnevni umor - inPharma, br. 86, srpanj/kolovoz 2024.",
+                        "text": "\tNema sumnje da bi većina nas voljela imati više energije i vitalnosti jer smo tada produktivniji na poslu, boljega smo raspoloženja i pozitivnije doživljavamo svijet. No činjenica je da su neke od najčešćih svakodnevnih boljki suvremenoga čovjeka manjak energije i umor.\n\tDobra je vijest da se razina energije može podići, i to posve prirodno. Prvi je korak odabir pravih namirnica bogatih hranjivim tvarima kojima se tijelo opskrbljuje elementima potrebnim za proizvodnju energije. Ako se prehrana temelji na pekarskim proizvodima i rafiniranim ugljikohidratima, tijelo će dobiti brz izvor energije, ali će tu energiju još brže izgubiti. Zato je za dugotrajan izvor energije najbolje birati uravnotežene obroke kojima se uz kompleksne ugljikohidrate i vlakna unose i proteini i zdrave masnoće. Oni zahtijevaju dulju probavu, pa pomažu stabilizirati razinu glukoze u krvi te osigurati stalnu opskrbu energijom. Cjelovite žitarice poput kvinoje, prosa i smeđe riže u kombinaciji s mesom peradi, ribom ili jajima, uz dodatak povrća i nezaobilaznoga maslinova ulja, optimalna su kombinacija uz koju neće doći do nagloga pada energije.\n\n**Vitamini i minerali bitni za energiju**\n\tDa bi se uspješno proizvela energija, potrebni su mikronutrijenti. Među njima su najpoznatiji vitamini B-kompleksa koji imaju važnu ulogu u oslobađanju energije, a ujedno imaju i pozitivan učinak na raspoloženje i ublažavanje stresa. Osim toga, bitno je unijeti i dovoljno vitamina C jer je on poznat imunostimulans i snažan antioksidans, a potreban je i za iskorištavanje masti kao izvora energije. U borbi protiv umora i u stimulaciji energije važnu ulogu ima i željezo. Njegov nedostatak narušava tjelesnu aktivnost uzrokujući umor i letargiju, smanjuje radnu sposobnost i usporava misaone procese, stoga je u prehranu poželjno uključiti namirnice bogate željezom (meso, ribe, mahunarke, ali i tamnozeleno lisnato povrće).\n\tIpak, ponekad ni uz najbolju volju nije moguće samo prehranom osigurati dovoljno vitamina i minerala, već je važno u prehranu unijeti pripravke koji sadrže biljke koje se tradicionalno upotrebljavaju za prevladavanje umora, a tu sigurno možemo izdvojiti macu i guaranu.\n\n**Crna maca kao pomoć za mentalni fokus i izdržljivost**\n\tTko je ikad tražio prirodnu pomoć u slučaju hormonskoga disbalansa, velika je vjerojatnost da se upoznao s macom, biljkom peruanskih Anda. No, maca (Lepidium meyenii) ima znatno dalekosežniju primjenu – tradicionalna upotreba veže se upravo uz povećanje energije i smanjenje umora.\n\tEnergizirajući učinak mace potvrđuje i znanost. Prema studiji objavljenoj 2005. godine u časopisu Anales de la Facultad de la Medicina članovi jednoga nogometnog tima uzimali su 1500 mg mace tijekom 60 dana. Istraživački tim pratio je brzinu i potrošnju kisika, i to prije i nakon dvomjesečne primjene mace. Rezultati su pokazali povećanje tjelesnih performansi, posebice povećanje potrošnje kisika za čak 33%. Na temelju rezultata autori su zaključili da maca može poboljšati razinu energije, i to ne samo kod sportaša, već i kod svih ljudi.\n\n**Guarana za energetski boost**\n\tGuarana je biljka amazonskoga područja s dugom tradicijom upotrebe. Autohtono stanovništvo izuzetno je cijeni zbog stimulirajućega učinka pa tako postoje zapisi da su pili guaranu kako bi mogli loviti dulji period bez umaranja. Danas znamo da je za energetski boost koji pruža guarana zaslužan kofein koji ona sadrži u značajnoj količini, no najpoznatiji stimulans središnjega živčanog sustava nije jedina aktivna tvar zaslužna za blagodati biljke.\n\tDa je riječ o uistinu čudesnoj biljci koja povećava pamćenje, dokazuje i analiza objavljena ove godine u časopisu Nutrients. Dodatno, još su Mattei i autori davne 1998. otkrili da guarana može zaštititi od tjelesnih i psiholoških posljedica stresa.\n\n**Trebate dodatnu energiju?**\n\tU današnjoj užurbanoj radnoj i privatnoj svakodnevici većini nam treba dodatna energija. Pravi je izbor pomoć u vidu posebno formuliranih pripravaka namijenjenih povećanju razine energije i smanjenju umora. Tu se ističe novi pripravak E-Power kvalitetnoga domaćeg proizvođača Energodina.\n\tUz vitamine B-kompleksa E-Power sadrži željezo, krom i vitamin D, ali i cijenjenu crnu macu, kao i tjelesni i mentalni stimulans guaranu. Formulacija je dodatno pojačana supervoćem camu camu, najbogatijim prirodnim izvorom vitamina C. E-Power sadrži i L-citrulin. Riječ je o neesencijalnoj aminokiselini koju naše tijelo sintetizira, a nalazimo je primjerice i u lubenici. Djeluje u sinergiji s ostalim sastojcima E-Powera pružajući prirodni stimulans energije svima kojima je to potrebno.\n\n\tI savjet za kraj, za dodatnu energiju i borbu protiv umora ne zaboravite piti dovoljno tekućine, ali i boraviti u prirodi. Sudjelujte u našoj nagradnoj igri jer će sretni dobitnici početkom sljedeće godine otputovati u domovinu guarane!"
+                    },
+                    "questions": [
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koja je glavna namjena polaznoga teksta?",
+                            "choices": [
+                                "potaknuti čitatelje na kupnju novoga energetskog pripravka",
+                                "uputiti čitatelje na postupke pripreme uravnoteženih obroka",
+                                "educirati čitatelje o tome kako prirodnim putem povećati energiju",
+                                "predstaviti rezultate znanstvenih studija objavljenih u časopisima"
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koje se od sljedećih obilježja odnosi na polazni tekst?",
+                            "choices": [
+                                "Prema obliku tekst je isprekidan.",
+                                "Prema sadržaju tekst je raspravljački.",
+                                "Tekst je napisan popularno-znanstvenim stilom.",
+                                "Pojmovi napisani ukošenim slovima u tekstu imaju funkciju poveznice."
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Za koju je od sljedećih tvrdnja u polaznome tekstu iskazano da je znanstveno dokazana?",
+                            "choices": [
+                                "Željezo ima važnu ulogu u borbi protiv umora.",
+                                "Camu camu najbogatiji je prirodni izvor vitamina C.",
+                                "Uzimanje mace omogućuje povećanje fizičke izdržljivosti svih ljudi.",
+                                "Samo prehranom nemoguće je unijeti dovoljno vitamina i minerala."
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Za koji je od sljedećih sastojaka iskazano da potiče rad živčanoga sustava?",
+                            "choices": [
+                                "za glukozu",
+                                "za vitamin C",
+                                "za željezo",
+                                "za kofein"
+                            ],
+                            "correctChoice": "D"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koje je godine objavljena analiza u časopisu Nutrients?",
+                            "choices": [
+                                "1998. godine",
+                                "2005. godine",
+                                "2024. godine",
+                                "2025. godine"
+                            ],
+                            "correctChoice": "C"
+                        }
+                    ]
+                },
+                {
+                    "info": "Pozorno pročitajte polazni tekst (šesti tekst) i riješite 26., 27., 28., 29. i 30. zadatak.",
+                    "initialText": {
+                        "title": "Zrinka Matić, Dvije sonate",
+                        "text": "\tKrećući se preko granica vremena i prostora, glazbenih stilova i razdoblja, sonata kao žanr i kao forma započinje svoju epopeju kao predah od pjeva u vidu sviračke igre, a razvija se u intrigantan šah glazbenih poteza, apstraktnu tvorbu formiranu u nekoliko stavaka, sročenih u nizu vremenom prokušanih pravila, upravo onoliko fleksibilnih da im se rado priklanjaju i najveći buntovnici i inovatori glazbene povijesti.\n\tSonatnost Sonate za violinu i klavir u A-duru Césara Francka (1822. – 1890.) uočljiva je ponajprije u tome što sadrži temeljni sonatni princip, koji se očituje u opoziciji (obično harmonijskoj), izloženoj gotovo na samome početku djela, koja se produbljuje, definira i na kraju razrješuje i pomiruje. Taj sonatni pristup funkcionira od sonata 18. stoljeća nadalje, a očituje se i u Franckovoj. Radi se o jednome od najvažnijih djela u opusu ovoga francuskog skladatelja (rođenoga u Liègeu, koji je danas dio Belgije, a 1822. bio je dijelom Ujedinjenoga Kraljevstva Nizozemske).\n\tBogatom harmonijskom paletom Franck nadograđuje sonatna pravila već od prvih taktova. U mekome Alegrettu, prvome stavku Sonate, predstavljaju se suprotstavljene teme, prva gotovo isključivo na violini, a druga na klaviru. Te teme vratit će se u narednim stavcima, preobražene tehnikom transformacije motiva, koju Franck usvaja od njezina tvorca Franza Liszta, njegova dobrog prijatelja. Drugi je stavak dramatični scherzo u d-molu, u kojemu se klavir i violina isprepliću u turbulentnome tkanju, ispresijecanome refleksivnim interludijima, sve do konačnoga trijumfa u D-duru. Čežnja izražena kromatskim uzlaznim gestama, prizivajući ne tako dalek odjek Tristan-akorda, provlači se prvim taktovima trećega stavka, čiji naziv Recitativo-Fantasia naznačuje otvorenost forme stavka, u kojemu violina praćena klavirom izlazi daleko na pučinu udaljavajući se i povremeno se osvrćući prema osnovnim glazbenim mislima prvih dvaju stavaka. Posljednji stavak vraća se u sigurnu lagunu optimistične teme, iznesene u kanonu, ali i unutar ovih kontura rađa se mala oluja, reminiscencija na onu iz drugoga stavka, naginjući se opasno iz tonaliteta s pet snizilica prema onome sa šest povisilica. A-dur označava povratak vedrine u radosnome i ushićenome završetku.\n\tViolinistički virtuoz Eugène Ysaÿe nije od Francka mogao dobiti ljepši dar za svoje vjenčanje 1866. godine u Arlonu u blizini luksemburške granice. Sonatu je tad voljenoj izveo zajedno sa sestrom zajedničkoga prijatelja, pijanisticom Marie-Léontine Bordes-Pène, a Sonata ostaje na njegovu repertoaru sljedećih četrdesetak godina.\n\tNešto kasnije, osjećajući se zarobljeno u antitezi između poetskoga sadržaja i formalne strukture, Richard Strauss (1864. – 1949.) svoj će razvoj u postromantičarskome modernističkom smjeru započeti vrlo rano. Ipak, njegova su mladenačka djela uronjena u tradiciju. Sonatni oblik dominira većinom njih, pa tako i njegovom jedinom Sonatom za violinu i klavir u Es-duru, op. 18, nastalom 1887. – 1888., kojom će se oprostiti od sonatne forme. Njome Strauss iskazuje romantične osjećaje prema budućoj supruzi Pauline de Ahna, ali i anticipira gusto tkanje simfonijskih pjesama, koje će uskoro skladati: s lakoćom, kao vješt pijanist i violinist, gradi briljantne, plemenite teme herojskoga karaktera skladajući Sonatu u tonalitetu Es-dura, u kojemu je skladana Beethovenova Eroica, a u kojemu će on sam skladati simfonijsku poemu Ein Heldenleben (Život heroja)."
+                    },
+                    "questions": [
+                        {
+                            "type": "SingleChoice",
+                            "question": "Kojoj tekstnoj vrsti pripada polazni tekst?",
+                            "choices": [
+                                "izvještaju",
+                                "prikazu",
+                                "reportaži",
+                                "životopisu"
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koje je od sljedećih stilskih obilježja naglašeno u polaznome tekstu?",
+                            "choices": [
+                                "aforističnost",
+                                "alegoričnost",
+                                "objektivnost",
+                                "slikovitost"
+                            ],
+                            "correctChoice": "D"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Što je od sljedećega César Franck, prema polaznome tekstu, usvojio od Franza Liszta?",
+                            "choices": [
+                                "dramatičnost",
+                                "sonatna pravila",
+                                "suprotstavljenost tema",
+                                "tehniku transformacije motiva"
+                            ],
+                            "correctChoice": "D"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koja je osoba svirala violinu na vjenčanju u Arlonu?",
+                            "choices": [
+                                "Franz Liszt",
+                                "Eugène Ysaÿe",
+                                "César Franck",
+                                "Marie-Léontine Bordes-Pène"
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koja od sljedećih tvrdnja o Richardu Straussu **nije iskazana** u polaznome tekstu?",
+                            "choices": [
+                                "Posvetio je sonatu voljenoj ženi.",
+                                "Skladao je sonate samo u mladosti.",
+                                "S Beethovenom je skladao simfoniju Život heroja.",
+                                "Udaljava se od tradicije tijekom svojega umjetničkog razvoja."
+                            ],
+                            "correctChoice": "C"
+                        }
+                    ]
+                },
+                {
+                    "info": "II. Književnost\n\nZadatci bez polaznoga teksta.\nZadatci višestrukoga izbora.\n\nU zadatcima višestrukoga izbora od više ponuđenih odgovora samo je jedan točan.\nTočan odgovor donosi jedan bod.",
+                    "questions": [
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koja je od sljedećih stilskih figura podcrtana u sljedećoj rečenici?\nVeć su treću zimu zaredom moderne torbe u *vrištećim* bojama.",
+                            "choices": [
+                                "aliteracija",
+                                "gradacija",
+                                "metafora",
+                                "onomatopeja"
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koji je od sljedećih književnih postupaka karakterističan za dramu?",
+                            "choices": [
+                                "akrostih",
+                                "digresija",
+                                "invokacija",
+                                "peripetija"
+                            ],
+                            "correctChoice": "D"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "U kojemu je od sljedećih primjera prisutna etička karakterizacija lika?",
+                            "choices": [
+                                "Bio je bijedno odjeven i svjestan toga da će ostaviti loš prvi dojam.",
+                                "Ovaj je mjesec zaradio taman toliko da si može osigurati hranu i platiti sve režije.",
+                                "Odlučio je pomoći siromašnim susjedima na katu iznad i napokon s njima razgovarati.",
+                                "Toliko ga je obuzeo osjećaj bespomoćnosti zbog neimaštine da je morao sjesti na klupu."
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "shortText": "Koliko te, Prospere, volim, teško ti saznati nije,\nKad želim da sa zemlje odeš u nebo što prije.",
+                            "question": "Kojoj književnoj vrsti pripada sljedeći tekst?",
+                            "choices": [
+                                "ditirambu",
+                                "elegiji",
+                                "epigramu",
+                                "epitafu"
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koje je od sljedećih obilježja karakteristično za novelu?",
+                            "choices": [
+                                "retardacija radnje",
+                                "razgranata fabula",
+                                "formulaičnost izraza",
+                                "kratkoća i sažetost pripovijedanja"
+                            ],
+                            "correctChoice": "D"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "shortText": "Uzdahnuv velim, videć što sve nas stigne:\nod zipke pa do groba samo je korak.",
+                            "question": "Za koje je književnopovijesno razdoblje karakteristična ideja iskazana u sljedećim stihovima?",
+                            "choices": [
+                                "za renesansu",
+                                "za barok",
+                                "za klasicizam",
+                                "za avangardu"
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koja se od sljedećih tvrdnja odnosi na realizam?",
+                            "choices": [
+                                "Započinje \"doba romana\".",
+                                "Uobičajeno je gomilanje stilskih figura.",
+                                "Tragedija kao književna vrsta ima kultno značenje.",
+                                "Središte zanimanja premješta se s razuma na maštu i osjećaje."
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "shortText": "Pripovijesti s osloncem u hrvatskoj povijesti i predaji, podjednako u prozi i stihu, donijele su mu prvu književnu slavu. Najveći uspjeh doživio je povijesnim romanima. Njima je kanonizirao roman u hrvatskoj književnosti i odgojio književnu publiku.",
+                            "question": "Na kojega se književnika odnosi sljedeći tekst?",
+                            "choices": [
+                                "na Augusta Šenou",
+                                "na Marka Marulića",
+                                "na Miroslava Krležu",
+                                "na Vjenceslava Novaka"
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "U kojemu se od sljedećih djela ne poštuje Aristotelovo dramsko jedinstvo mjesta, vremena i radnje?",
+                            "choices": [
+                                "u Antigoni",
+                                "u Gospodi Glembajevima",
+                                "u Hamletu",
+                                "u Noveli od Stanca"
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koja se od sljedećih tvrdnja odnosi na roman Posljednji Stipančići?",
+                            "choices": [
+                                "Otac odlučuje provjeriti bi li njegov sin bio dobar vladar.",
+                                "Obitelj polako odbacuje i zaboravlja svojega sina te on na kraju umire.",
+                                "Psihološki krug oko glavnoga lika postupno se sužava te on priznaje zločin.",
+                                "Glava obitelji mijenja svoja politička uvjerenja sukladno svojim privatnim interesima."
+                            ],
+                            "correctChoice": "D"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "shortText": "U zemlju kažu da je *on* Etèokla\nPo pravdi i po zakonu sahranio\nDa ondje dolje mrtvi njega poštuju.",
+                            "question": "Na koga se odnosi podcrtana zamjenica u sljedećim stihovima iz Sofoklove Antigone?",
+                            "choices": [
+                                "na Edipa",
+                                "na Hemona",
+                                "na Kreonta",
+                                "na Tiresiju"
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "shortText": "_Svi su klečali preda mnom, a vaša gospođa majka bila je jedna distingvirana dama, nervozna dama, ona je već nekoliko puta bila digla ruku na sebe, ja nikada nikome nisam učinila ništa nažao!_",
+                            "question": "Koji književni lik izgovara sljedeće riječi?",
+                            "choices": [
+                                "Fanny",
+                                "Vivijana",
+                                "princeza Stela",
+                                "barunica Castelli"
+                            ],
+                            "correctChoice": "D"
+                        }
+                    ]
+                },
+                {
+                    "info": "III. Hrvatski jezik\n\nZadatci višestrukoga izbora.\n\nU zadatcima višestrukoga izbora od više ponuđenih odgovora samo je jedan točan.\nTočan odgovor donosi jedan bod.",
+                    "questions": [
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koja je od sljedećih rečenica napisana u skladu s pravilima o pisanju velikoga i maloga početnog slova?",
+                            "choices": [
+                                "Je li selo koje je opisano u romanu Črna mati zemla Sveti Martin Na Muri?",
+                                "U Hrvatskome Narodnom Kazalištu gledali smo predstavu Slučaj vlastite pogibelji.",
+                                "Ručni sat iz drugoga svjetskog rata jedan je od motiva njezina romana, a autoricu se doživljava kao Slavonku.",
+                                "U njegovu je romanu djevojka sa Žumberka došla raditi u dvokatnicu koju je prije rata izgradio židovski trgovac."
+                            ],
+                            "correctChoice": "D"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koji je od sljedećih primjera napisan u skladu s normom hrvatskoga standardnog jezika?",
+                            "choices": [
+                                "drva za ogrijev",
+                                "riječnička baza",
+                                "dnevna svijetlost",
+                                "liječnička ispričnica"
+                            ],
+                            "correctChoice": "D"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "shortText": "Jan se *slaže* s mojim *mužem*, stoga mu *može* biti dobro društvo tijekom *vožnje*.",
+                            "question": "U kojoj je od podcrtanih riječi u sljedećoj rečenici provedena palatalizacija?",
+                            "choices": [
+                                "slaže",
+                                "mužem",
+                                "može",
+                                "vožnje"
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "U kojoj je od sljedećih rečenica povratno-posvojna zamjenica u lokativu?",
+                            "choices": [
+                                "Čitali su iz svojih knjiga.",
+                                "Vjerujem svojim snovima.",
+                                "Tko o čemu, on o svojim prijateljima.",
+                                "Nadmašila me svojim sposobnostima."
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koji je točan glagolski prilog glagola ležati?",
+                            "choices": [
+                                "ležeći",
+                                "liježući",
+                                "ležavši",
+                                "legavši"
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "shortText": "Svjesni smo toga da su ljeti troškovi grijanja u kućanstvima manji, dok je tijekom zime dosta teško zagrijati prostorije, osobito ako se gradilo prije pojave modernih izolacijskih materijala.",
+                            "question": "Koja je od podcrtanih riječi u sljedećoj rečenici prilog?",
+                            "choices": [
+                                "ljeti",
+                                "manji",
+                                "zime",
+                                "prije"
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "U kojoj od sljedećih rečenica podcrtana riječ ima službu atributa?",
+                            "choices": [
+                                "Oduvijek je više držao do zakona *ulice*.",
+                                "Prekrasan se drvored protezao duž *ulice*.",
+                                "Uživao sam upoznajući čarobne pariške *ulice*.",
+                                "Nakon osvojene titule klicale su im gradske *ulice*."
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "U kojoj je od sljedećih rečenica red riječi stilski neobilježen?",
+                            "choices": [
+                                "Poznata zbirka Vesne Parun zove se Crna maslina.",
+                                "Vesna je Parun jedna od najvećih hrvatskih pjesnikinja.",
+                                "Na otoku Zlarinu blizu Šibenika rodila se 1922. Vesna Parun.",
+                                "U Osnovnoj je školi Poličnik obilježena stota godišnjica rođenja Vesne Parun."
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koja je od sljedećih zavisnosloženih rečenica mjesna rečenica?",
+                            "choices": [
+                                "Najbolje je ići kuda i svi ostali idu.",
+                                "Priča se da je odlazak na more bio vrlo uzbudljiv.",
+                                "Iako je bilo mračno i oblačno, krenuli smo u planine.",
+                                "Sjedili smo dugo na onome mjestu gdje rastu suncokreti."
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koja je od sljedećih tvorenica nastala od glagola?",
+                            "choices": [
+                                "čitateljstvo",
+                                "dužnosnik",
+                                "iscjelitelj",
+                                "sljepoća"
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "shortText": "Imenica *žilet* dobila je naziv po američkome izumitelju Kingu Campu Gilletteu koji je patentirao i prvi počeo prodavati sigurnosne britvice.",
+                            "question": "Kojoj vrsti leksema pripada podcrtana riječ u sljedećoj rečenici?",
+                            "choices": [
+                                "egzonimima",
+                                "egzotizmima",
+                                "eponimima",
+                                "etnonimima"
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "shortText": "Američki filmski redatelj okušao se u različitim filmskim žanrovima. Kad je bila riječ o rokovima snimanja, bio je jako strog i *nesmiljen* prema članovima filmske ekipe. Nisu ga zanimali njihovi privatni problemi.",
+                            "question": "Koje je značenje podcrtane riječi u sljedećemu primjeru?",
+                            "choices": [
+                                "nekritičan",
+                                "nemilosrdan",
+                                "nepovjerljiv",
+                                "neustrašiv"
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "U kojoj je od sljedećih riječi preneseno značenje metonimijsko?",
+                            "choices": [
+                                "**pàkao** im. m. 〈G pàkla〉 1. rel. u kršćanstvu mjesto ili stanje u kojemu borave duše grešnika 2. pren. nepodnošljive okolnosti ili mjesto na kojemu vladaju nepodnošljive okolnosti [~ na zemlji; živjeti u paklu]",
+                                "**pàkēt** im. m. 〈G pakéta; mn. N pakéti, G pakétā〉 1. ambalaža četvrtasta oblika [napuniti ~] 2. pren. količina čega koja stane u istoimenu ambalažu [~ čokolade]",
+                                "**pèčat** im. m. 〈G pèčata; mn. N pèčati, G pȅčātā〉 1. predmet s urezanim reljefnim, ispupčenim znakom ili tekstom [izraditi ~] 2. otisak takva znaka na ispravi kojim se potvrđuje ispravnost podataka [udariti ~] 3. pren. ono čime je što obilježeno [Ovaj grad nosi ~ rata.]",
+                                "**plȁmēn** im. m. 〈G plȁmena; mn. N plȁmenovi/plȁmeni, G plȁmenōvā/plȁmēnā〉 1. toplinska i svjetlosna energija koja se oslobađa pri gorenju vatre [~ svijeće] 2. pren. jak zanos [ljubavni ~; borbeni ~]"
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koji od sljedećih frazema znači 'predati se'?",
+                            "choices": [
+                                "posuti se pepelom",
+                                "podići bijelu zastavu",
+                                "zakopati ratnu sjekiru",
+                                "vaditi kestenje iz vatre"
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koja je od sljedećih povijesnih osoba reformirala hrvatsku grafiju?",
+                            "choices": [
+                                "August Šenoa",
+                                "Bartol Kašić",
+                                "Faust Vrančić",
+                                "Ljudevit Gaj"
+                            ],
+                            "correctChoice": "D"
+                        }
+                    ]
+                },
+                {
+                    "info": "Zadatak višestrukoga izbora s nadopunjavanjem\n\nU zadatku višestrukoga izbora s nadopunjavanjem (58.1. - 58.5.) od više ponuđenih odgovora samo je jedan točan.\nSvaki točan odgovor donosi jedan bod. U zadatku višestrukoga izbora s nadopunjavanjem (58.1. - 58.5.) moguće je ostvariti 5 bodova.",
+                    "initialText": {
+                        "title": "",
+                        "text": "Londonski sajam knjiga (1.) ___ je događaj prve polovine godine za svjetsko izdavaštvo, a druga polovina godine (uvijek u listopadu) pripada Frankfurtskomu sajmu knjiga. Ta dva velika događaja određuju (2.) ___ izdavačkih trendova (objave velikih i dugoiščekivanih hitova, naslova slavnih autora, biografija i autobiografija poznatih ličnosti itd.). (3.) ___, oni povezuju književne scene raznih krajeva svijeta te se na njima također zbivaju razmjene važnih, ne uvijek najkomercijalnijih književnih tekstova na najrazličitijim svjetskim jezicima. Dolazak na Londonski sajam knjiga znači da sudjelujete u svim tim kretanjima, nalazite se na (4.) ___ ideja koje su izdavači, književni agenti i skauti, pisci i urednici, filmski producenti, tiskari, digitalni developeri, prevoditelji, dizajneri i svi ostali koji sudjeluju u lancu proizvodnje knjige donijeli sa sobom. (5.) ___, tko ne bi volio svake godine posjećivati sajmove knjiga?"
+                    },
+                    "questions": [
+                        {
+                            "type": "SingleChoice",
+                            "question": "1.",
+                            "choices": [
+                                "cehovski",
+                                "centralni",
+                                "cerebralni",
+                                "ceremonijalni"
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "2.",
+                            "choices": [
+                                "dimenziju",
+                                "dinamiku",
+                                "dioništvo",
+                                "direktivu"
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "3.",
+                            "choices": [
+                                "Nakon toga",
+                                "Nasuprot tomu",
+                                "Osim toga",
+                                "Usprkos tomu"
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "4.",
+                            "choices": [
+                                "vrelu",
+                                "vremeplovu",
+                                "vretenu",
+                                "vrhu"
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "5.",
+                            "choices": [
+                                "Rukom o ruku",
+                                "Ruku na srce",
+                                "Ruka ruku mije",
+                                "Rukama i nogama"
+                            ],
+                            "correctChoice": "B"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Sažetak",
+            "predictedTime": 80,
+            "instructions": "Pozorno pročitajte sve upute i slijedite ih.\n\nIspit traje 80 minuta.\nSažetak treba imati 200 - 250 riječi.\nSažetak će se bodovati s nula (0) bodova ako nema dovoljan broj riječi, ako ima prevelik broj riječi, ako je pisan velikim tiskanim slovima ili ako je nečitko napisan.\n\nŽelimo Vam mnogo uspjeha!",
+            "potentialPoints": 18,
+            "questionGroups": [
+                {
+                    "info": "Pročitajte polazni tekst.\nSažetak oblikujte kao zaokruženu cjelinu s uvodom, razradom i zaključkom.\nPazite da Vaš sažetak bude pravopisno, gramatički i leksički točan.\nU sažetak morate uvrstiti sve smjernice.\nSažetak mora imati 200 - 250 riječi.",
+                    "initialText": {
+                        "title": "Kruno Lokotar, Dvopismeni ili nepismeni",
+                        "text": "\tU suvremenome svijetu sve se manje čita, a razloge tomu treba tražiti u intenzivnoj digitalizaciji koja donosi nevjerojatne promjene u živote ljudi, ali i izazove u čitateljskim navikama. Dokazano je da čitanje znatno utječe na razvoj mozga, a tehnologija je promijenila način na koji čitamo, što posljedično mijenja i mozak.\n\tIstraživanjem američke neuroznanstvenice Maryanne Wolf, koje je predstavila u svojoj knjizi Čitatelju, vrati se kući, utvrđeno je da se danas čita više nego ikad prije. Međutim, dominira digitalno, površno čitanje, koje karakterizira brzo prelaženje preko teksta. Takvo je čitanje letimično, odvija se u cik-cak figuri dok oči skakuću po tekstu na ekranu, baš kao što skakuće i čitateljska pozornost. Prelazak očima preko teksta, uz česte prekide zbog obavijesti (notifikacija) ili poveznica, smanjuje sposobnost dublje koncentracije i refleksije. Čitatelji stalno traže novu informaciju koja im odvlači pozornost. Takva im aktivnost donosi brzu i kratkotrajnu zadovoljštinu, ovisnu o novim podražajima, a istovremeno negativno utječe na sposobnost analitičkoga razmišljanja i kritičkoga mišljenja. Osim toga, brz pristup informacijama i oslanjanje na internetske pretraživače mogu smanjiti kapacitet za dugoročno pamćenje. Ljudski se mozak sve više oslanja na tehnologiju. Smanjuje se potreba za pamćenjem jer se informacije mogu uvijek lako pronaći. Rezultati skraćene pozornosti očituju se u rastućemu broju kratkih književnih formi, ali još i više u objavama na društvenim mrežama. Čim se digitalni čitatelj izmakne iz digitalnoga svijeta, spopada ga nepodnošljiva dosada. Dosada je nekad bila izvor kreacije i imaginacije, ali suvremena je dosada ozbiljan problem koji se zadovoljava digitalnom stimulacijom, a ne knjigom. Uz navedeno, kao vrlo važnu negativnu posljedicu digitalnoga čitanja istraživanje ističe i smanjenje empatije kod mladih. Bez empatije smanjuje se mogućnost emocionalnoga povezivanja, što može utjecati na socijalne odnose i međuljudske vještine.\n\tMeđutim, istraživanje pokazuje kako se svi navedeni problemi mogu umanjiti poticanjem dubinskoga, klasičnoga čitanja u fizičkome mediju, tj. čitanjem prave knjige. Takav način čitanja ne zadovoljava mozak trenutačno, već ga aktivira i usmjerava prema sposobnosti obavljanja dugoročnih zadaća. Za razliku od digitalnoga čitanja dubinsko čitanje zahtijeva usredotočenost na jednu temu tijekom duljega razdoblja. Time se razvija koncentracija, što je korisno za učenje i rješavanje problema. Stvaraju se snažnije veze među različitim informacijama u mozgu, što pridonosi boljemu dugoročnom pamćenju. Veze olakšavaju razumijevanje složenih koncepata i omogućavaju zadržavanje znanja. Osim toga, kad čitatelj tijekom čitanja zamišlja složene scenarije, likove i situacije, stimulira se mašta i kreativna sposobnost mozga. Ovaj aspekt dubinskoga čitanja posebno je važan za mlade jer potiče kreativno promišljanje koje može doprinijeti inovativnim idejama i rješenjima u stvarnome svijetu. Klasično čitanje ima veliku ulogu u razvoju strpljenja, planiranja i empatije. Čitanje fikcije pomaže čitateljima da se užive u živote likova, razumiju njihove osjećaje, motivacije i perspektive, a to utječe na razumijevanje i prihvaćanje različitosti, što je posebno važno u globalnome svijetu. Dubinsko čitanje pozitivno djeluje i na vještine pisanja i govora jer se njime obogaćuje vokabular, omogućava jasnije i preciznije izražavanje misli i ideja koje su preduvjet za razvijanje socijalnih vještina i komunikacije.\n\tIstraživanja pokazuju kako se nalazimo u poodmakloj fazi najveće od svih dosadašnjih revolucija – u jeku smo neurološke revolucije prema kojoj su otkrića i upotreba parnoga stroja i električne struje banalni jer ova revolucija izravno utječe i modificira način na koji funkcionira naš mozak. Iako je tehnologija omogućila široku dostupnost tekstova, multimedijalnost, brzinu i interaktivnost, istovremeno je donijela i brojne izazove koji otežavaju tradicionalno čitanje te sve dobrobiti koje ono donosi za razvoj ljudskoga mozga. Na pitanje kako pomiriti tradicionalno čitanje s digitalnim svijetom ranije spomenuta neuroznanstvenica Maryanne Wolf odgovor vidi u obrazovnome sustavu koji razvija dvopismeni mozak, sposoban da se snađe u objema čitalačkim galaksijama. To je važno jer bi dijete bez digitalnih kompetencija lako moglo biti izopćeno iz vršnjačkoga društva, a sasvim će se sigurno teže nositi s izazovima suvremenoga svijeta, jednako kao što će bez vještine klasičnoga čitanja ostati zakinuto za ranije navedene dobrobiti. Razvijanje dvopismenosti omogućava iskorištavanje prednosti obaju svjetova. Digitalno je čitanje izazovnije zbog stalnih smetnji (pop-upovi, poveznice, videomaterijali), ali obrazovanjem se može pomoći učenicima da usvoje tehnike za filtriranje ovih smetnji i da ostanu koncentrirani na ključne informacije. Međutim, na pitanje kako to učiniti, kako pomiriti Gutenberga i Zuckerberga, galaksiju knjige i digitalnu galaksiju, obrazovni sustav tek treba naći pravi odgovor.\n\tProces je digitalizacije ireverzibilan, što znači da nema povratka na staro. Ima svoje manjkavosti, ali i dobre strane. No, oko toga ne treba kukati, nego se s problemom treba suočiti. Ne osposobimo li sebe i nadolazeće generacije da budemo žitelji dviju galaksija, papirnate i digitalne, uskoro će nedostajati i pisaca i čitatelja i suosjećajnih građana sposobnih za kritičko mišljenje. "
+                    },
+                    "questions": [
+                        {
+                            "type": "EssayWriting",
+                            "points": [
+                                {
+                                    "category": "Sadržaj",
+                                    "points": 6
+                                },
+                                {
+                                    "category": "Organizacija teksta i stil",
+                                    "points": 6
+                                },
+                                {
+                                    "category": "Jezična točnost",
+                                    "points": 6
+                                }
+                            ],
+                            "question": "Smjernice za pisanje sažetka\nPročitajte zadani tekst.\nSažmite polazni tekst svojim riječima:\n• tako da navedete opće podatke o polaznome tekstu\n• tako da odredite namjenu i temu teksta\n• tako da navedete osnovne misli teksta i pojedinosti koje ih podupiru\n• tako da odredite autorov stav o temi.",
+                            "minWords": 200,
+                            "maxWords": 250,
+                            "examples": [
+                                {
+                                    "title": "Sažetak 1",
+                                    "text": "U tekstu Tiskana ili e-knjiga? autorica Deni Miličević piše o razlikama između tiskanih i elektroničkih knjiga. Pritom želi informirati čitatelje o spomenutim oblicima knjiga te ih potaknuti na razmišljanje o njihovim prednostima i nedostatcima. Autorica naglašava da su knjige oduvijek imale nezamjenjivu ulogu u prenošenju znanja i razvoju kulture te iznosi da su se tijekom povijesti tekstovi pojavljivali u različitim oblicima i svjedočili civilizacijskim dosezima nekoga naroda. Također, knjige su prisutne u različitim životnim situacijama i imaju različite namjene. Da bi mogao opstati u modernom društvu, presudno je da čovjek razvije vještina čitanja s razumijevanjem, ističe autorica.\nNadalje, autorica navodi da se danas knjige često digitaliziraju, no ta pojava ima i svoje nedostatke. Elektroničke knjige moguće je čitati isključivo s ekrana uređaja, a oni emitiraju zračenja koja mogu izazvati štetne posljedice po čitateljevo zdravlje. Osim toga, onemogućen je čitateljev neposredan fizički doživljaj knjige. U tekstu se također tvrdi da digitalni internetski sadržaj sve više uvlači čitatelje u svijet ekrana i ne pruža odmak od užurbanosti suvremene civilizacije.\nMeđutim, istaknuto je da elektronička knjiga ipak ima i brojne prednosti. E-knjiga brzo je i lako dostupna čitateljima. Osim toga, autorica ističe da na mrežnim stranicama postoji veći izbor autora i naslova nego u knjižnicama. Nadalje, e-knjiga na mobitelu ili e-čitaču lakše se prenosi, zauzima manje prostora u torbi, ima pozitivan utjecaj na okoliš jer se štedi papir i tinta.\nAutorica objektivno predstavlja i prednosti i nedostatke tiskane i e-knjige te potiče na čitanje jer se tako obogaćuje znanje i razvija kreativnost.",
+                                    "points": [
+                                        {
+                                            "category": "Sadržaj",
+                                            "points": 6
+                                        },
+                                        {
+                                            "category": "Organizacija teksta",
+                                            "points": 6
+                                        },
+                                        {
+                                            "category": "Jezična točnost",
+                                            "points": 6
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Sažetak 2",
+                                    "text": "U tekstu Tiskana ili e-knjiga? autorica Deni Miličević piše o tiskanim i elektroničkim knjigama, pri čemu želi informirati čitatelje o oblicima knjiga koji su danas dostupni te ih potaknuti na razmišljanje o njihovim prednostima i nedostatcima.\nAutorica navodi da su moderne tehnologije unaprijedile kvalitetu ljudskoga života, no kaže i da je napredak uvijek praćen nedostacima. To je vidljivo i kod zamjene tiskane knjige digitalnom. U tekstu se napominje da knjige oduvijek imaju nezamijenjivu ulogu u očuvanju znanja i razvoju kulture. One obuhvaćaju svako životno područje i razdoblje, zato je za modernoga čovjeka vještina čitanja s razumjevanjem vrlo važna.\nNadalje, autorica naglašava činjenicu da se u posljednje vrijeme tiskane knjige prevode u digitalne pa ih je lako nabaviti putem mrežnih stranica, no može ih se čitati samo sa ekrana uređaja kao što su elektronički čitač ili mobitel. Istaknuto je da spomenuti uređaji zrače pa čitanje e-knjiga može imati štetne posljedice po čitateljevo zdravlje. Također, nekim je čitateljima za potpuni užitak čitanja važan „fizičkiˮ dodir s tiskanom knjigom koji pri čitanju e-knjige izostaje. Usto, autorica kao prednost tiskane knjige ističe odmor od modernih tehnologija i ubrzanoga života.\nMeđutim, naglašava se da elektronička knjiga nudi i brojne prednosti kao što su laka dostupnost na internetu, velik izbor, interaktivni sadržaji te praktičan prenos, a također i ušteda papira i tinte.\nAutorica zaključuje da je čitateljeva odluka za tiskanu ili e-knjigu pitanje osobnoga izbora, no da zapravo nije važno koji će oblik biti odabran. Najvažnije je čitati, jer time obogaćujemo svoje znanje i razvijamo kreativnost.",
+                                    "points": [
+                                        {
+                                            "category": "Sadržaj",
+                                            "points": 4
+                                        },
+                                        {
+                                            "category": "Organizacija teksta",
+                                            "points": 4
+                                        },
+                                        {
+                                            "category": "Jezična točnost",
+                                            "points": 4
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Sažetak 3",
+                                    "text": "U tekstu Tiskana ili e-knjiga? autorica Deni Miličević navodi primjer kako ljudi danas mogu kupovati stvari i plaćati račune virtualnim putem iz udobnosti vlastitoga doma. No, ovaj tehnološki napredak ima i svoje nedostatke, a to je vidljivo i kod zamjene tiskanih knjiga digitalnima.\nVažno je reći da knjige oduvijek imaju nezamjenjivu ulogu u prenošenju znanja i kulture te da one prožimaju svako životno područje i razdoblje, od škole pa do kuhinje gdje nas spašavaju bakine kuharice. Zato je vještina čitanja tekstova s razumijevanjem veoma važna. No, problem je u tome što tinejdžere uopće ne zanima čitanje i knjige su im dosadne.\nDanas se tiskane knjige prevode u digitalne i lako ih je nabaviti na internetu pa se u tekstu potiče mlade da čitaju barem e-knjige. No, takve se knjige mogu čitati jedino s ekrana, tj. elektroničkog čitača ili mobitela. Problem je i to što ovi uređaji zrače pa time imaju loš utjecaj na čitateljevo zdravlje. Također je nekim čitateljima važna ljepota i miris knjiga na policama, a toga nema ako čitaju e-knjige. Smatra se da je bolje čitati tiskane knjige jer to predstavlja odmor od bespuća interneta. S druge strane, i elektroničke knjige ipak imaju svoje prednosti jer ih je lako nabaviti putem interneta gdje postoji velik izbor. Njihove su dobre strane i praktično nošenje mobitela u torbi, a također i ušteda papira i tinte.\nNo, čitatelj se sam mora odlučiti za tiskanu ili e-knjigu, ali nije važno koju će izabrati. Najvažnije je čitati jer time obogaćujemo znanje i maštu.",
+                                    "points": [
+                                        {
+                                            "category": "Sadržaj",
+                                            "points": 2
+                                        },
+                                        {
+                                            "category": "Organizacija teksta",
+                                            "points": 2
+                                        },
+                                        {
+                                            "category": "Jezična točnost",
+                                            "points": 6
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Sažetak 4",
+                                    "text": "U tekstu o tiskanim i elektroničkim knjigama piše se o današnjim tehnološkim mogućnostima prevođenja tiskane knjige u elektronički oblik te o prednostima i nedostatcima spomenutih oblika knjige.\nNove su tehnologije unaprijedile mnoga područja ljudskoga života, no svaki napredak ima i svoje nedostatke, a to je vidljivo i kod zamjene tiskanih knjiga digitalnima. Knjige obuhvaćaju svako životno područje i razdoblje te je zato vještina čitanja sa razumjevanjem veoma važna.\nElektronička knjiga pruža brojne prednosti, a to su laka dostupnost, velik izbor autora i naslova, intraktivnost te praktičan i lak prijenos, a također i uštedimo papire i tinte.\nElektronička knjiga se može čitati jedino s ekrana uređaja kao što su elektronički čitač ili mobitel. S druge strane, ti uređaji zrače pa time imaju loš utjecaj na čitateljevo zdravlje. Isto tako, nekim čitateljima je za užitak čitanja važan dodir s tiskanom knjigom kojega nema pri čitanju e-knjige. Dobra je strana tiskane knjige i to što ona predstavlja odmor od modernih tehnologija i ubrzanoga načina života.\nOdluka za tiskanu ili elektroničku knjigu je na svakome od nas, no zapravo nije važno hoćemo li izborom e-knjige slijediti nove trendove ili ostati vjeran tradicionalnoj tiskanoj knjizi. Najvažnije je čitati jer time obogaćujemo svoje znanje i razvijamo kreativnost.",
+                                    "points": [
+                                        {
+                                            "category": "Sadržaj",
+                                            "points": 2
+                                        },
+                                        {
+                                            "category": "Organizacija teksta",
+                                            "points": 2
+                                        },
+                                        {
+                                            "category": "Jezična točnost",
+                                            "points": 2
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Sažetak 5",
+                                    "text": "U članku Tiskana ili e-knjiga? Deni Miličević piše kako je masovnim širenjem informacijske tehnologije omogućeno da gotovo sve pojave i predmeti u našemu svijetu promjene svoj oblik iz fizičkoga u digitalni. To se danas događa i s knjigama s kojima je davno započeo uspon ljudske civilizacije. No zajedno s prednostima dolaze i nedostaci, a to se vidi i kod digitalizacije knjiga.\nKnjige prožimaju svako životno područje i razdoblje, od slikovnica iz vrtića pa do kuhinje gdje nas spašavaju bakine kuharice. No, problem je u tome što mlade danas uglavnom ne zanima čitanje i knjige su im dosadne.\nDanas je elektroničke knjige lako nabaviti na internetu gdje ih ima veliki izbor, a moguće ih je čitati putem e-čitača ili mobitela. Međutim, ovi uređaji kao veliki nedostatak imaju štetnu plavu svjetlost. Također je nekima važna ljepota i miris knjiga na policama, a toga nema kod čitanja e-knjige. Tiskana knjiga pruža nam mogućnost čitanja odabranoga sadržaja u miru, podalje od kaosa i digitalizacije\nNa kraju vjerojatno nije ni važno čitamo li knjige u tiskanome ili elektroničkome obliku – važno je samo da ih čitamo i obogaćujemo svoj rječnik, razvijamo maštu, potičemo kreativnost i proširujemo znanje. ",
+                                    "points": [
+                                        {
+                                            "category": "Sadržaj",
+                                            "points": 0
+                                        },
+                                        {
+                                            "category": "Organizacija teksta",
+                                            "points": 0
+                                        },
+                                        {
+                                            "category": "Jezična točnost",
+                                            "points": 0
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Školski Esej",
+            "predictedTime": 160,
+            "instructions": "Pozorno pročitajte sve upute i slijedite ih.\n\nIspit traje 160 minuta.\nNapišite školski esej slijedeći priložene upute i smjernice za pisanje školskoga eseja.\n\nŠkolski esej treba imati najmanje 440 riječi.\nŠkolski esej bodovat će se s nula (0) bodova ako nema dovoljan broj riječi, ako je pisan velikim tiskanim slovima ili ako je nečitko napisan.\n\nŽelimo Vam mnogo uspjeha!",
+            "potentialPoints": 30,
+            "questionGroups": [
+                {
+                    "info": "Pozorno pročitajte sljedeće tekstove nakon kojih slijede upute i smjernice za pisanje školskoga eseja.\n\nPolazno pitanje\nNa koji je način Lovrino podrijetlo utjecalo na njegov životni put?",
+                    "initialText": {
+                        "title": "Polazni tekst",
+                        "text": "\tNeki nemir osvoji Lovru.\n\t– Međutim – nastavi grof – čovjek snuje, a Bog boguje. Grof Buol mi je prijatelj, ali ima u njega drugih prijatelja, moćnijih prijatelja. Na preporuku carskoga poslanika u Carigradu baruna H., primljen je drugi pitomac u akademiju, a i sami znate da je samo jedno mjesto prazno bilo.\n\t– Dakle ništa? – istisnu jedva Lovro blijed na smrt.\n\t– Žalibože ništa, jadni prijatelju moj! Ali ne gubite nade. Učite prava, budite činovnik! Skrbit ću za vas.\n\t– Hvala, gospodine grofe, ne mogu.\n\t– A zašto?\n\t– Oprostite da vam i opet iskreno govorim.\n\t– Govorite slobodno.\n\t– Utekoh iz sjemeništa da se dokopam slobode. Nisam bio jak u nijemoj zabiti probaviti nekoliko godina. A da budem svezan sav svoj vijek? (…)\n\t– Što kanite dakle, prijatelju?\n\t– Što? Znam li ja? Vijest, koju evo razumjeh, ošinula me kao grom iz vedra neba. Nemam sile ni misliti, ali samo to znam, da neću biti činovnikom.\n\t– Ohrabrite se, prijatelju. Vi znate puno jezika; poznajete razne književnosti. Budite učitelj. Šta velite na to?\n\t– Pravo rekoste, gospodine grofe! Sila vraća mi se. Da, bit ću učitelj za sve što sam bio za vašega sina. Svratit ću svoju tvornu silu u tu struju, i kad mi nije dano da budem sȃm čitavim čovjekom, othranjivat ću bar čitave ljude.\n\t– Dobro! Napišite odmah molbu na ministarstvo! Sȃm ću ju popratiti da vam se podijeli štipendij državni.\n\tŠto grof reče, to Lovro i učini. Valjalo je čekati, čekati. Lovro bavio se pisanjem književnih slavenskih rasprava. Minula tri mjeseca, ne bude odgovora. Grof se tomu čudio. Zdravlje bijaše mu slabo. Prekret pripravljao se po svoj državi. Grof odluči ostaviti se službe a poći na godinu dana putovati po Italiji, po Švicarskoj. Lovri valjade poći kući, nije mu se dalo samu besposličiti na tuđoj hrani. Starci slušali kako će Lovro biti profesorom, starci zadovoljni bili, samo bi se starici kadšto iz oka izvinula suzica. Sve će biti dobro, tješio se Lovrin otac. Ta nije li sȃm predsjednik rekao da je Lovro valjan, pošten, učen čovjek, a takav mora da bude velikim gospodinom."
+                    },
+                    "questions": [
+                        {
+                            "type": "EssayWriting",
+                            "points": [
+                                {
+                                    "category": "Središnja tvrdnja",
+                                    "points": 6
+                                },
+                                {
+                                    "category": "Argumentacija",
+                                    "points": 6
+                                },
+                                {
+                                    "category": "Povezanost teksta",
+                                    "points": 6
+                                },
+                                {
+                                    "category": "Upotreba rječnika",
+                                    "points": 6
+                                },
+                                {
+                                    "category": "Pravopisna i gramatička točnost",
+                                    "points": 6
+                                }
+                            ],
+                            "question": "Smjernice\n• U uvodu:\n- ukratko predstavite autora i djelo\n- u jednoj ili više rečenica oblikujte tvrdnju kojom ćete odgovoriti na polazno pitanje i tako najaviti ono o čemu ćete pisati u središnjemu dijelu eseja.\n\n• U središnjemu dijelu eseja razradite i argumentirajte svoju tvrdnju kojom ste odgovorili na polazno pitanje tako da argumentacija:\n- proizlazi iz razumijevanja djela u cjelini\n-  proizlazi iz sadržajne i stilske analize polaznoga teksta i njegove uloge u djelu u cjelini\n- bude povezana s književnopovijesnim kontekstom u kojemu su pjesme nastale.\n\nSvoj tekst rasporedite u odlomke koji su jasno, logično i smisleno povezani.\n• U zaključku sažeto istaknite ono najvažnije o čemu ste pisali u središnjemu dijelu eseja.",
+                            "minWords": 440
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

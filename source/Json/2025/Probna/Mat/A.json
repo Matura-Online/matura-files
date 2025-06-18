@@ -1,0 +1,578 @@
+{
+    "name": "Matematika",
+    "level": "A",
+    "maxPoints": 60,
+    "scale": {
+        "range1": [
+            0,
+            24.99
+        ],
+        "range2": [
+            25,
+            44.99
+        ],
+        "range3": [
+            45,
+            67.99
+        ],
+        "range4": [
+            68,
+            84.99
+        ],
+        "range5": [
+            85,
+            100
+        ]
+    },
+    "sections": [
+        {
+            "name": "Osnovno",
+            "predictedTime": 180,
+            "instructions": "Pozorno pročitajte sve upute i slijedite ih.\n\nIspit traje 180 minuta.\nIspred svake skupine zadataka uputa je za rješavanje. Pozorno je pročitajte.\nPri računanju možete upotrebljavati priloženu knjižicu formula.\n\nKada riješite zadatke, provjerite odgovore.\nŽelimo Vam mnogo uspjeha!",
+            "helpFiles": [
+                {
+                    "name": "1",
+                    "fileUrl": "https://files.matura.top/All/Mat/A/cmDAhgaFP.webp"
+                },
+                {
+                    "name": "2",
+                    "fileUrl": "https://files.matura.top/All/Mat/A/Lqxsjf8kZ.webp"
+                },
+                {
+                    "name": "3",
+                    "fileUrl": "https://files.matura.top/All/Mat/A/QRl0OPW4n.webp"
+                },
+                {
+                    "name": "4",
+                    "fileUrl": "https://files.matura.top/All/Mat/A/ZrYkK3jJr.webp"
+                }
+            ],
+            "potentialPoints": 60,
+            "questionGroups": [
+                {
+                    "info": "I. Zadatci višestrukoga izbora.\n\nU zadatcima od 1. do 20. od više ponuđenih odgovora samo je jedan točan.\nTočan odgovor donosi jedan bod.",
+                    "questions": [
+                        {
+                            "type": "SingleChoice",
+                            "question": "U kojemu se kvadrantu Gaussove ravnine nalazi točka kojoj je pridruzen kompleksni broj $z_{1}+z_{2}+z_{3}+z_{4}$?",
+                            "choices": [
+                                "I.",
+                                "II.",
+                                "III.",
+                                "IV."
+                            ],
+                            "shortText": "Točkama prikazanima u Gaussovoj ravnini pridruženi su kompleksni brojevi $z_{1},z_{2},z_{3}$i$z_{4}.$.",
+                            "mediaUrl": "https://files.matura.top/2025/Probna/Mat/A/fZO0Z0XHOrW.webp",
+                            "correctChoice": "D"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Čemu je od navedenoga jednako $\\sqrt[4]{\\left(a^6\\right)^{-\\frac43}}$ za svaki $a\\in\\mathbf{R}\\setminus\\{0\\}$?",
+                            "choices": [
+                                "$-a^2$",
+                                "$-a^{-2}$",
+                                "$a^2$",
+                                "$a^{-2}$"
+                            ],
+                            "correctChoice": "D"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koji je od navedenih izraza brojnik u do kraja sređenome izrazu $5-\\frac{1+x}x$ za svaki $x\\in\\mathbf{R}\\setminus\\{0\\}$?",
+                            "choices": [
+                                "4 - x",
+                                "4 + x",
+                                "4x - 1",
+                                "4x + 1"
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koliko je dana igraća konzola bila kod Josipa u mjesecu koji ima 30 dana?",
+                            "choices": [
+                                "11",
+                                "12",
+                                "18",
+                                "19"
+                            ],
+                            "shortText": "Josip, Ivan i Marko zajednički su kupili igraću konzolu. Josip je uložio 220 eura, Ivan 200 eura i Marko 130 eura. Dogovorili su da će ta konzola biti kod Josipa, Ivana ili Marka određeni broj dana tijekom mjeseca proporcionalno uloženomu novcu.",
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Rješenja koje od navedenih jednadžba su brojevi pridruženi točkama A i B?",
+                            "choices": [
+                                "$|x-2|=3$",
+                                "$|x-1|=6$",
+                                "$\\left|x+1\\right|=6$",
+                                "$|x+2|=3$"
+                            ],
+                            "shortText": "Na brojevnome pravcu istaknuta je dužina $\\overline{AB}$ koja je podijeljena na šest sukladnih dijelova.",
+                            "mediaUrl": "https://files.matura.top/2025/Probna/Mat/A/tdg4qVVpK.webp",
+                            "correctChoice": "D"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Za koliko se promijenila vrijednost varijable $x$ ako se vrijednost linearne funkcije $f(x)=ax+3$ povećala za dva?",
+                            "choices": [
+                                "$\\frac{2}{a}$",
+                                "2",
+                                "$\\frac{5}{a}$",
+                                "5"
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koji broj ne pripada slici funkcije $f(x)=\\frac{4}{x-2}$?",
+                            "choices": [
+                                "0",
+                                "2",
+                                "4",
+                                "6"
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Na kojoj je od ponuđenih slika prikazan graf kvadratne funkcije $f(x)=ax^{2}+bx+c$ kojoj je umnožak vodećega koeficijenta i diskriminante negativan broj?",
+                            "choices": [
+                                "A",
+                                "B",
+                                "C",
+                                "D"
+                            ],
+                            "mediaUrl": "https://files.matura.top/2025/Probna/Mat/A/BV3ss8OEsoe1.webp",
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Što od navedenoga vrijedi za funkciju f na intervalu [-6,6]?",
+                            "choices": [
+                                "Funkcija je parna i nije periodična.",
+                                "Funkcija je parna i periodična.",
+                                "Funkcija je neparna i periodična.",
+                                "Funkcija je neparna i nije periodična"
+                            ],
+                            "shortText": "Na slici je prikazan graf funkcije $f$ na intervalu [-6,6].",
+                            "mediaUrl": "https://files.matura.top/2025/Probna/Mat/A/tqGrvGTgb.webp",
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Broj nekih čestica smanjuje se eksponencijalno. Mjerenja su pokazala da se broj čestica prepolovi svaka 2.5 sata. Kojim se od navedenih izraza moze izraćunati broj čestica $N$ nakon protekloga vremena $t$ u satima ako je na početku mjerenja bilo. $N_{0}$ cestica?",
+                            "choices": [
+                                "$N=N_{0}\\cdot\\left(\\frac{1}{2}\\right)^{2.5t}$",
+                                "$N=N_{0}\\cdot\\left(\\frac{1}{2}\\right)^{0.4t}$",
+                                "$N=N_{0}\\cdot\\left(\\frac{1}{2}\\right)^{-0.4t}$",
+                                "$N=N_{0}\\cdot\\left(\\frac{1}{2}\\right)^{-2.5t}$"
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koja je od prikazanih točaka pridružena realnomu broju t za koji vrijedi $\\operatorname{tg}t=\\frac{3}{4}$?",
+                            "choices": [
+                                "$E(t_1)$",
+                                "$E(t_2)$",
+                                "$E(t_3)$",
+                                "$E(t_4)$"
+                            ],
+                            "shortText": "Na slici su prikazane točke $E(t_1)$ $E(t_2)$ $E(t_3)$ i $E(t_4)$.",
+                            "mediaUrl": "https://files.matura.top/2025/Probna/Mat/A/Re0zDzDK.webp",
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koji su od navedenih brojeva tri uzastopna člana geometrijskoga niza?",
+                            "choices": [
+                                "$0,2,4$",
+                                "$\\frac12,2,8$",
+                                "$1,\\frac{7}{2},5$",
+                                "$5,4,3$"
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Duljine odsječaka na koje nožište visine pravokutnoga trokuta dijeli hipotenuzu u omjeru su 1 : 4. U kojemu su omjeru duljine kateta toga trokuta?",
+                            "choices": [
+                                "$1:4$",
+                                "$\\sqrt{5}:5$",
+                                "$1:2$",
+                                "$2\\sqrt{5}:5$"
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Iz točke T koja se nalazi izvan kružnice položena je tangenta na tu kružnicu. Točka T udaljena je 5cm od te kružnice, a od dirališta tangente i kružnice 9cm. Koliko iznosi duljina polumjera te kružnice?",
+                            "choices": [
+                                "4cm",
+                                "5.6cm",
+                                "7.5cm",
+                                "10cm"
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koja od navedenih tvrdnja nije točna?",
+                            "choices": [
+                                "Ravnina je određena pravcem i točkom koja ne pripada tomu pravcu.",
+                                "Ravnina je određena trima točkama koje ne pripadaju istomu pravcu.",
+                                "Ravnina je određena dvama mimoilaznim (mimosmjernim) pravcima.",
+                                "Ravnina je određena dvama pravcima koji se sijeku."
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "U kuglu je upisana kocka. Koliki je omjer oplošja kugle i oplošja kocke?",
+                            "choices": [
+                                "$\\frac{\\pi}2$",
+                                "$\\frac{\\pi}6$",
+                                "$\\frac{\\pi}{4}$",
+                                "$\\frac{\\pi}3$"
+                            ],
+                            "correctChoice": "D"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koji je od navedenih skalarnih umnožaka negativan?",
+                            "choices": [
+                                "$\\begin{array}{c}\\to\\\\\\mathcal{V}\\cdot\\mathcal{W}\\end{array}$",
+                                "$\\begin{array}{c}\\to\\\\\\mathcal{U}\\cdot\\mathcal{Z}\\end{array}$",
+                                "$\\begin{array}{c}\\to\\\\\\mathcal{V}\\cdot\\mathcal{Z}\\end{array}$",
+                                "$\\begin{array}{c}\\to\\\\\\mathcal{U}\\cdot\\mathcal{W}\\end{array}$"
+                            ],
+                            "shortText": "U kvadratnoj mreži prikazani su vektori $\\begin{array}{ccc}\\to&\\to&\\to&\\to\\\\u,&v,&w,&z\\end{array}$.",
+                            "mediaUrl": "https://files.matura.top/2025/Probna/Mat/A/t2QX7mTAwG.webp",
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Zadani su tocka $T(6,2a-3)$ i pravac $y-1=0$. Za koju od navedenih vrijednosti realnoga broja $a$ udaljenost toČke $T$ od toga pravca iznosi pet?",
+                            "choices": [
+                                "–1.5",
+                                "–0.5",
+                                "2.5",
+                                "3.5"
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koja od navedenih tvrdnja nije točna?",
+                            "choices": [
+                                "Najmanji broj djece rođene u jednome danu te veljače je pet.",
+                                "Najveći broj djece rođene u jednome danu te veljače je 22.",
+                                "U sedam dana te veljače rođeno je manje od osmero djece.",
+                                "U 14 dana te veljače rođeno je više od petnaestero djece."
+                            ],
+                            "shortText": "Podatci o broju rođene djece svakoga dana u veljači neprijestupne godine prikazani su brkatom kutijom (kutijastim dijagramom).",
+                            "mediaUrl": "https://files.matura.top/2025/Probna/Mat/A/wQTNwzO6uK11.webp",
+                            "correctChoice": "D"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Ispit se sastoji od 20 pitanja, a odgovara se zaokruživanjem jednoga od četiriju ponuđenih odgovora. Koliko ima različitih načina odabira jednoga odgovora ako je odgovoreno na sva pitanja?",
+                            "choices": [
+                                "$\\begin{pmatrix}20\\\\4\\end{pmatrix}$",
+                                "$\\frac{20!}{4!}$",
+                                "$4^{20}$",
+                                "$20^4$"
+                            ],
+                            "correctChoice": "C"
+                        }
+                    ]
+                },
+                {
+                    "info": "II. Zadatci kratkoga odgovora.\n\nU zadatcima od 21. do 39. upišite odgovore na predviđeno mjesto u ispitnoj knjižici.\nTočan odgovor donosi jedan bod.",
+                    "questions": [
+                        {
+                            "type": "SubBoard",
+                            "mainQuestion": "Kolika je vrijednost izraza $x\\cdot\\sqrt[3]{-7}+\\sqrt[3]{7\\cdot x^{3}}$ za svaki realni broj $x$?",
+                            "points": 1,
+                            "answers": [
+                                "0"
+                            ],
+                            "showTldraw": true
+                        },
+                        {
+                            "type": "SubBoard",
+                            "mainQuestion": "Koliko bitova ima u 50 000 000$^{13}$ kibibajtova ako 1 kibibajt ima 1024 bajtova, a 1 bajt 8 bitova? Rješenje napišite znanstvenim zapisom.",
+                            "fullSolutionOrUrl": "10^{104}",
+                            "answers": [
+                                "10^104"
+                            ],
+                            "points": 1,
+                            "showTldraw": true
+                        },
+                        {
+                            "type": "SubBoard",
+                            "mainQuestion": "Napišite neku kvadratnu jednadžbu čija je diskriminanta pozitivna.",
+                            "fullSolutionOrUrl": "Npr:\n\n\\begin{aligned}&2x^{2}+3x-2=0,\\\\&ax^{2}+bx+c=0,\\\\&a,b,c\\in\\mathbf{R},a\\neq0,b^{2}-4ac>0\\end{aligned}",
+                            "points": 1,
+                            "showTldraw": true
+                        },
+                        {
+                            "type": "SubBoard",
+                            "mainQuestion": "Riješite nejednadžbu $(5x-3)(6-x)\\geq0$ i rješenje zapišite s pomoću intervala.",
+                            "points": 1,
+                            "fullSolutionOrUrl": "$\\left[\\frac{3}{5},6\\right]$",
+                            "showTldraw": true
+                        },
+                        {
+                            "type": "SubBoard",
+                            "mainQuestion": "Koliko iznosi apsolutna vrijednost (modul) kompleksnoga brojae $\\left(1+i\\right)^{2024}?$",
+                            "points": 1,
+                            "answers": [
+                                "2^1012"
+                            ],
+                            "fullSolutionOrUrl": "2^{1012}",
+                            "showTldraw": true
+                        },
+                        {
+                            "type": "SubBoard",
+                            "mainQuestion": "Na slici je prikazano gibanje motocikla i automobila koji se kreću istom cestom prema istome mjestu. Nakon koliko će minuta od početka promatranja motocikl sustići automobil?",
+                            "mediaUrl": "https://files.matura.top/2025/Probna/Mat/A/EtmvC1rDk7ke.webp",
+                            "answers": [
+                                "16m",
+                                "16 minuta"
+                            ],
+                            "showTldraw": true,
+                            "points": 1
+                        },
+                        {
+                            "type": "SubBoard",
+                            "mainQuestion": "Riješite jednadžbu $\\log_{2}\\left(2^{x}+3\\right)=1$",
+                            "points": 1,
+                            "answers": [
+                                "nema rješenja",
+                                "/"
+                            ],
+                            "showTldraw": true
+                        },
+                        {
+                            "type": "SubBoard",
+                            "mainQuestion": "Napišite prva tri člana nekoga geometrijskoga niza koji konvergira.",
+                            "fullSolutionOrUrl": "Npr:\n\n$0.5,0.25,0.125$\n$a_{n}=a_{1}q^{n-1},0<q<1$",
+                            "points": 1,
+                            "showTldraw": true
+                        },
+                        {
+                            "type": "SubBoard",
+                            "mainQuestion": "Odredite derivaciju funkcje $f(x)=x^{5}\\cdot\\sin x$.",
+                            "fullSolutionOrUrl": "$f^{\\prime}(x)=5x^4\\sin x+x^5\\cos x$",
+                            "points": 1,
+                            "showTldraw": true
+                        },
+                        {
+                            "type": "SubBoard",
+                            "mainQuestion": "Duljina najkraće stranice trokuta iznosi 8cm, a mjera kuta nasuprot toj stranici 20°. Koliko iznosi mjera tupoga kuta toga trokuta ako je duljina stranice nasuprot tomu kutu 18cm?",
+                            "fullSolutionOrUrl": "$\\text{129°41'13\"}$",
+                            "points": 1,
+                            "showTldraw": true
+                        },
+                        {
+                            "type": "SubBoard",
+                            "mainQuestion": "Ako se duljina polumjera baze stošca poveća za 20 %, a duljina visine smanji za 20 %, za koliko se posto poveća volumen toga stošca?",
+                            "answers": [
+                                "15.2",
+                                "15.2%"
+                            ],
+                            "points": 1,
+                            "showTldraw": true
+                        },
+                        {
+                            "type": "SubBoard",
+                            "mainQuestion": "Kolika je vjerojatnost da je Karlo do 8:00 sati stigao pred školu ako je poznato da je ušao u prvi autobus koji je stigao na tu stanicu?",
+                            "shortText": "Karlo mora u školu stići do 8:00 sati, a na autobusnu stanicu stigao je u 7:45 sati. Autobus koji vozi do Karlove škole na tu stanicu po rasporedu vožnje dolazi svakih 12 minuta te mu do škole treba 7 minuta.",
+                            "answers": [
+                                "0.66",
+                                "0.7",
+                                "2/3"
+                            ],
+                            "points": 1,
+                            "showTldraw": true
+                        },
+                        {
+                            "type": "SubBoard",
+                            "mainQuestion": "Odredite mjeru kuta koji pravac $y=\\frac{2}{5}x+4$ zatvara s pozitivnim smjerom osi $x$.",
+                            "points": 1,
+                            "fullSolutionOrUrl": "21° 48' 5\"",
+                            "showTldraw": true
+                        },
+                        {
+                            "type": "SubBoard",
+                            "mainQuestion": "Na slici je prikazana kružnica sa središtem u točki $S$. Odredite jednadžbu te kružnice.",
+                            "mediaUrl": "https://files.matura.top/2025/Probna/Mat/A/kfBMgrFg0fbeIy.webp",
+                            "points": 1,
+                            "fullSolutionOrUrl": "$\\left(x+2\\right)^2+\\left(y-1\\right)^2=5$",
+                            "showTldraw": true
+                        },
+                        {
+                            "type": "SubBoard",
+                            "mainQuestion": "Zadana je kružnica jednadžbom $x^{2}+y^{2}+4y-5=0$",
+                            "subQuestions": [
+                                {
+                                    "question": "Koliko iznosi duljina dužine koju ta kružnica odsijeca na osi apscisa?",
+                                    "points": 1,
+                                    "answers": []
+                                },
+                                {
+                                    "question": "Koliko iznosi duljina polumjera te kružnice?",
+                                    "points": 1,
+                                    "answers": [
+                                        "3"
+                                    ]
+                                }
+                            ],
+                            "fullSolutionOrUrl": "1. $2\\sqrt{5}$\n2. 3",
+                            "showTldraw": true
+                        },
+                        {
+                            "type": "SubBoard",
+                            "mainQuestion": "Neka je funkcija $f(x)=4+\\sqrt{x}$",
+                            "subQuestions": [
+                                {
+                                    "question": "Odredite domenu (prirodno područje definicije) funkcije f.",
+                                    "points": 1,
+                                    "answers": []
+                                },
+                                {
+                                    "question": "Odredite jednadžbu tangente u točki grafa funkcije f s apscisom 25.",
+                                    "points": 1,
+                                    "answers": []
+                                }
+                            ],
+                            "showTldraw": true,
+                            "fullSolutionOrUrl": "1. $\\left[0,\\infty\\right\\rangle$\n2. $y=\\frac{1}{10}x+\\frac{13}{2}$"
+                        },
+                        {
+                            "type": "SubBoard",
+                            "mainQuestion": "Na slici je prikazan graf funkcije $f(x)=A\\cos(Bx)$",
+                            "mediaUrl": "https://files.matura.top/2025/Probna/Mat/A/8lArpt9wVmQ.webp",
+                            "subQuestions": [
+                                {
+                                    "question": "Napišite sva rješenja jednadžbe $f(x)=-1$ iz intervala [-9,11].",
+                                    "points": 1,
+                                    "answers": [
+                                        "-2,2,10",
+                                        "-2, 2, 10"
+                                    ]
+                                },
+                                {
+                                    "question": "Odredite vrijednosti koeficijenata $A$ i $B$",
+                                    "points": 1,
+                                    "answers": [
+                                        "-2, pi/2",
+                                        "-2,pi/2"
+                                    ]
+                                }
+                            ],
+                            "showTldraw": true,
+                            "fullSolutionOrUrl": "1. -2, 2, 10\n2. A = -2, B = $\\frac{\\pi}{6}$"
+                        },
+                        {
+                            "type": "SubBoard",
+                            "mainQuestion": "Dulina jedne stranice trokuta iznosi 28cm, a povrsina toga trokuta iznosi 210cm$^2$",
+                            "subQuestions": [
+                                {
+                                    "question": "Koliko iznosi duljina visine na zadanu stranicu toga trokuta?",
+                                    "points": 1,
+                                    "answers": [
+                                        "15cm"
+                                    ]
+                                },
+                                {
+                                    "question": "Koliko iznosi površina trokuta kojemu su vrhovi u polovištima stranica zadanoga trokuta?",
+                                    "points": 1,
+                                    "answers": [
+                                        "52.5cm^2"
+                                    ]
+                                }
+                            ],
+                            "fullSolutionOrUrl": "1. 15cm\n2. 52.5cm^{2}",
+                            "showTldraw": true
+                        },
+                        {
+                            "type": "SubBoard",
+                            "mainQuestion": "Zadana je pravilna uspravna trostrana piramida kojoj je osnovni brid duljine 6cm, a duljina visine $5\\sqrt{3}$cm.",
+                            "subQuestions": [
+                                {
+                                    "question": "Koliko iznosi volumen te piramide?",
+                                    "points": 1,
+                                    "answers": [
+                                        "45cm^3"
+                                    ]
+                                },
+                                {
+                                    "question": "Koliko iznosi površina ortogonalne projekcije jedne pobočke na ravninu baze?",
+                                    "points": 1,
+                                    "answers": []
+                                }
+                            ],
+                            "fullSolutionOrUrl": "1. 45cm^{3}\n2. $3\\sqrt{3}\\mathrm{cm}^2$",
+                            "showTldraw": true
+                        }
+                    ]
+                },
+                {
+                    "info": "III. Zadatci produženoga odgovora.\n\nU zadatcima od 40. do 45. napišite postupak rješavanja i odgovor na predviđeno mjesto u ispitnoj knjižici.\nPrikažite sav svoj rad (skice, postupak, račun).\n\nAko dio zadatka riješite napamet, objasnite i zapišite kako ste to učinili.\nTočan odgovor donosi dva, tri ili četiri boda.",
+                    "questions": [
+                        {
+                            "type": "SubBoard",
+                            "mainQuestion": "Dokažite da je vrijednost izraza $\\frac{4n-3}{4n+1}$ manja od vrijednosti izraza $\\frac{3n-2}{3n+1}$ za svaki prirodni broj n. Postupak i obrazloženje.",
+                            "points": 2,
+                            "fullSolutionOrUrl": "https://files.matura.top/2025/Probna/Mat/A/BHU64okcs.webp",
+                            "showTldraw": true
+                        },
+                        {
+                            "type": "SubBoard",
+                            "mainQuestion": "Odredite sve vektore duljine 8 okomite na vektor $12\\overset{\\rightarrow}{\\operatorname*{i}}-9\\overset{\\rightarrow}{\\operatorname*{j}}$. Postupak i odgovor.",
+                            "showTldraw": true,
+                            "fullSolutionOrUrl": "https://files.matura.top/2025/Probna/Mat/A/wYjwWZb9r.webp",
+                            "points": 2
+                        },
+                        {
+                            "type": "SubBoard",
+                            "points": 2,
+                            "mainQuestion": "Duljine stranica pravokutnoga trokuta uzastopni su članovi aritmetičkoga niza. Koliko iznosi duljina hipotenuze toga trokuta ako mu je opseg 15cm? Postupak i odgovor.",
+                            "fullSolutionOrUrl": "https://files.matura.top/2025/Probna/Mat/A/FEBWKLlyi.webp",
+                            "answers": [
+                                "6.25cm"
+                            ],
+                            "showTldraw": true
+                        },
+                        {
+                            "type": "SubBoard",
+                            "fullSolutionOrUrl": "https://files.matura.top/2025/Probna/Mat/A/pPz0ivqyN.webp",
+                            "points": 2,
+                            "answers": [],
+                            "mainQuestion": "Odredite sva rješenja jednadžbe $\\cos^{4}x-\\sin^{4}x=0.5$. Postupak i odgovor.",
+                            "showTldraw": true
+                        },
+                        {
+                            "type": "SubBoard",
+                            "mainQuestion": "Kružnica opsega 30πcm upisana je jednakokračnomu trapezu. Ako je mjera unutarnjega kuta toga trapeza 50°, koliko iznosi njegova površina? Postupak i odgovor.",
+                            "mediaUrl": "https://files.matura.top/2025/Probna/Mat/A/UB8gmt07n.webp",
+                            "showTldraw": true,
+                            "fullSolutionOrUrl": "https://files.matura.top/2025/Probna/Mat/A/NgZqzOOTK.webp",
+                            "points": 2
+                        },
+                        {
+                            "type": "SubBoard",
+                            "mainQuestion": "Na slici je prikazan graf polinoma četvrtoga stupnja $y=f(x)$. Ako je funkcija $g(x)=\\frac{5x-4}{x-4}$, riješite sustav nejednadžba $\\begin{cases}f^{\\prime}(x)\\leq0\\\\g(x)+g^{\\prime}(x)<0&\\end{cases}$. Postupak i odgovor.",
+                            "mediaUrl": "https://files.matura.top/2025/Probna/Mat/A/Wc0ysx4TW.webp",
+                            "points": 2,
+                            "fullSolutionOrUrl": "https://files.matura.top/2025/Probna/Mat/A/VpDbitDK4.webp"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,1114 @@
+{
+    "name": "Hrvatski Jezik",
+    "maxPoints": 110,
+    "scale": {
+        "range1": [
+            0,
+            34.99
+        ],
+        "range2": [
+            35,
+            51.99
+        ],
+        "range3": [
+            52,
+            67.49
+        ],
+        "range4": [
+            67.5,
+            80.99
+        ],
+        "range5": [
+            81,
+            100
+        ]
+    },
+    "sections": [
+        {
+            "name": "Čitanje, Književnost",
+            "predictedTime": 100,
+            "instructions": "Pozorno pročitajte sve upute i slijedite ih.\nIspit traje 100 minuta.\n\nKada riješite zadatke, provjerite odgovore.\nŽelimo Vam mnogo uspjeha!",
+            "questionGroups": [
+                {
+                    "info": "I. Čitanje\n\nZadatci s polaznim tekstom.\nZadatci višestrukoga izbora.\n\nU zadatcima višestrukoga izbora od više ponuđenih odgovora samo je jedan točan.\nTočan odgovor donosi jedan bod. Zadatci od 1. do 30. odnose se na polazne tekstove.",
+                    "questions": [
+                        {
+                            "type": "SingleChoice",
+                            "question": "Što je od sljedećega iskazano o Stjepanu Arkadijeviču?",
+                            "choices": [
+                                "Njegovi stavovi proizlaze iz iskrenoga osobnog uvjerenja.",
+                                "Konzervativne je stavove smatrao nerazumnima.",
+                                "Smatra da su liberalni stavovi korisni društvu.",
+                                "Njegove stavove oblikuje njegova okolina."
+                            ],
+                            "correctChoice": "D"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Što znači stav liberalne stranke da je vjera samo uzda za barbarski dio stanovnika?",
+                            "choices": [
+                                "da vjernici lakše obuzdavaju svoje ponašanje",
+                                "da uz vjeru ljudi mogu postati civilizirani",
+                                "da su vjernici članovi političkih stranaka",
+                                "da se vjerom može upravljati ljudima"
+                            ],
+                            "correctChoice": "D"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Kakav je životni stav Stjepana Arkadijeviča?",
+                            "choices": [
+                                "altruistički",
+                                "asketski",
+                                "hedonistički",
+                                "nihilistički"
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koju misao o napretku iznosi autor uvodnika koji čita Stjepan Arkadijevič?",
+                            "choices": [
+                                "Napredak će se postići pomirbom konzervativaca i liberala.",
+                                "Vlasti bi trebale ograničiti utjecaj radikalizma na napredak.",
+                                "Konzervativni stavovi onemogućuju napredak.",
+                                "Revolucija je jedini put prema napretku."
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koja riječ upućuje na to da se novine koje Stjepan Arkadijevič čita kritički odnose prema vlasti?",
+                            "choices": [
+                                "smotka",
+                                "omama",
+                                "vika",
+                                "bodljika"
+                            ],
+                            "correctChoice": "D"
+                        }
+                    ],
+                    "initialText": {
+                        "title": "Lav Nikolajevič Tolstoj, Ana Karenjina",
+                        "text": "Stjepan Arkadijevič nije birao ni pravca, ni mišljenja, nego su ti pravci i ta mišljenja sama dolazila k njemu, isto onako kako nije birao ni oblika svoga šešira ili kaputa, nego je uzimao one koji su se nosili. A imati mišljenje bilo je njemu, koji je živio u poznatome društvu, uz neku potrebu duševnoga rada, koja se razvija obično u zrelijim godinama, isto tako potrebno kao imati šešir. Ako je i imao razloga liberalno mišljenje pretpostavljati konzervativnome, kojega su se također držali mnogi iz njegova kruga, nije to nestalo poradi toga što bi liberalno mišljenje smatrao razumnijim, nego zato što se ono više slagalo s njegovim načinom života. Liberalna je stranka govorila da je u Rusiji sve loše. Doista, Stjepan Arkadijevič imao je dugova mnogo, a novca mu nikad nije dostajalo. Liberalna je stranka govorila da je brak preživjela ustanova, pa da ga treba preurediti, i doista, obiteljski život pružao je Stjepanu Arkadijeviču malo zadovoljstva i silio ga lagati i pretvarati se, što je bilo toliko protivno njegovoj naravi. Liberalna je stranka govorila (...) da je vjera samo uzda za barbarski dio stanovnika, i doista, Stjepan Arkadijevič nije bez boli u nogama mogao podnijeti ni najkraćega blagodarenja u crkvi, te nije mogao shvatiti čemu sve te strašne i zanosne riječi o drugome svijetu kad bi se i na ovome moglo vrlo veselo živjeti. Ujedno je Stjepanu Arkadijeviču, koji je volio veselu šalu, bilo drago zbuniti katkad mirna čovjeka time da se ne treba zaustavljati, ako se već ponosimo svojim podrijetlom od Rjurika, a odricati se prvoga pretka - majmuna. Liberalno je mišljenje dakle postalo Stjepanu Arkadijeviču navikom, pa je imao rado svoje novine, kao i smotku nakon objeda poradi lake omame koju je proizvodila u njegovoj glavi. Pročitao je uvodnik u kojem se razlagalo kako se u naše vrijeme potpuno nepotrebno diže vika o radikalizmu koji će tobože progutati sve konzervativne elemente te da vlada tobože treba poduzeti mjere za ugušenje revolucionarne hidre, dok naprotiv „prema našemu mišljenju opasnost nije u prividnoj revolucionarnoj hidri, nego u nepopustljivosti tradicionalizma koji koči napredak” itd. Pročitao je i drugi članak, financijski, u kojemu se spominjao Bentham i Mill i bockala se vlada. Sa svojstvenom prirođenom brzinom misli shvaćao je značenje svake bodljike: tko ju je uperio na koga i radi čega ju je uperio, pa ga je to kao svagda donekle zadovoljavalo."
+                    }
+                },
+                {
+                    "info": "Pozorno pročitajte polazni tekst (drugi tekst) i riješite 6., 7., 8., 9. i 10. zadatak.",
+                    "initialText": {
+                        "title": "Ranko Marinković, Kiklop",
+                        "text": "Škola. Klupe, u svakoj četiri ošišane glave. Krele je naprijed, među malima. Lijep i stasit poručnik šeta među klupama. Pustio sablju da važno tandrče po podu (druge vojne svrhe ona čini se i nema) a gore dugim finim prstima prelijeće preko burnih valova čvrste tamne kose, ispituje stanje uzburkanosti oficirske frizure. Znak nadmoćnosti nad ošišanim glavama. Jedna vrsta snage, starozavjetne, misli Melkior, nad ošišanim Filistejima. A poručnik čeljust miče, govori. Što govori, ne razumije Melkior, već gleda čeljust kako radi i fine prste kako plešu na valovima. Potom reče Melkior: čeljušću magarećom jednu gomilu, dvije gomile, čeljušću magarećom pobi tisuću ljudi. (...) I zine Melkior od čuda te krasne kose valovite i od one snage u njoj.\n\t- Šta zijaš ti ko idiot? Slušaš li ti mene?\n\t- Slušam.\n\t- ... gospodine poručniče, mamlazu!\n\t- Slušam, gospodine poručniče.\n\t- E pa, deder, kaži razvod straže? Ustani!\n\tMelkior stoji i ne govori o razvodu straže, već (u sebi) kako čeljušću magarećom jednu, dvije gomile, čeljušću magarećom pobi tisuću ljudi... ponavlja priče ratničke.\n\t- Ne znaš? A ti si novajlija? Pa potrudi se, slušaj druge. Sjedni.\n\t- A ti, nosati, što se smiješ ko luda na brašno? Da se javiš na raport! Raz’ straž’ - već pita udomaćenim kraticama - ti, Krele?\nKrelu izbaci neka silna opruga i sav dršćući od napete svoje spremnosti ispali razvod straže kao rafal u grudi dušmanske, odlučno, vojnički. Devet fakulteta! misli Melkior.\n\t- A tebe ono Čičak naziva Kreletom? Pa ti si bistar mangup!\n\t- Ne znam, gospodine poručniče - raportira Krele otresito - pratim predavanja.\n\t- Dobro je, Krele.\n\t- Starat ću se! - izdire se Krele propisno.\n\t- No, ne deri se, nisi na zanimanju. Sjedni.\n\t- Razumijem! - Tek kad je sjeo, Krele je komandirao svom tijelu „na mjestu voljno”, ali glavu je zadržao visoko, u sferi poručnikovoj: ne da se on ukebati u nepažnji i nestašluku.\n\t- Diplomacija... koješta! - Šeta među redovima klupa krupan major-ratnik, krivonogi jahač u čizmama. Zvecka mamuzama. Zabacio ruke na stražnjicu, gurka klupe koljenima, miči mi se s puta, i govori svadljivo: - Laži i maži! Večere, ručkovi, banketi, šampanjac, torte, majoneze! Cilindraši! Nabiguzice! Guzaju se po automobilima, po ložama, salonima, šinjoni, lornjoni, lak i trak, zlato, dijamanti, briljanti, buzoranti, glumice, balerine... Otmjenost! Protokol! A sve sama kurva, muška i ženska! Đubre do đubreta! E, al ima jedno vrijeme kad svršava kurvin pir! Gotovo je sa zezanjem za zelenim stolom! Bježe svi u božju mater, lornjoni i šinjoni, nabijaju se u mišje rupe, kukavička gamad! E, tada mi vojnici uzimamo stvari u svoje ruke i počinje - rat! I nema tu više pliz i pardon, musje i madam, nego raspali i ožeži, pa kom opanci kom obojci! Dosta ste se nakenjali „diplomatskih nota”, a sada, bogamu, da mi zagruvamo, po našim notama!\n\nMajor je prekinuo šetanje, počeo je rat. Prošlo mu psovačko svadljivo predratno raspoloženje,\ngdje je u poniženju podnosio kukavičko diplomatsko puzanje i kurvinsko prenemaganje. Sada čovjek\nzna što je: vojnik! - to je. Sve rješavaš u oči, otvoreno, jasno, pa tko koga!\nDa, ali ne može da ratuje kakva god budala. Odlučnost i hrabrost, jasno, bez toga nema vojnika,\nali to nije sve. Potrebno je da imaš nešto i u mozgu, a to je vojna nauka. Zato si, eto, tu, na obuci."
+                    },
+                    "questions": [
+                        {
+                            "type": "SingleChoice",
+                            "question": "Na kojoj se stilskoj figuri temelji prikaz vojnika i poručnika?",
+                            "choices": [
+                                "na alegoriji",
+                                "na gradaciji",
+                                "na hiperboli",
+                                "na kontrastu"
+                            ],
+                            "correctChoice": "D"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Na kojemu se postupku temelji Melkiorova misao o starozavjetnim Filistejcima i magarećoj čeljusti?",
+                            "choices": [
+                                "na magijskome realizmu",
+                                "na intertekstualnosti",
+                                "na paradoksu",
+                                "na fantastici"
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Što znači podcrtani izraz u sljedećoj rečenici?",
+                            "choices": [
+                                "Valja ratovati bez obzira na to kako će sukob završiti.",
+                                "Rat je neizbježan, ali ne treba paničariti.",
+                                "U ratu ne treba paziti na pristojnost.",
+                                "Za materinski jezik vrijedi ratovati."
+                            ],
+                            "shortText": "I nema tu više pliz pardon, musje i madam, *nego raspali i ožeži, pa kom opanci kom obojci!*",
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koje se majorovo stanje naglašava vulgarizmima u njegovu govoru?",
+                            "choices": [
+                                "Ogorčen je zbog vojničke nespremnosti.",
+                                "Prezire diplomaciju svojega vremena.",
+                                "Gnjevan je zbog nadolazećega rata.",
+                                "Boji se mirnoga rješavanja sukoba."
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koja je od sljedećih tvrdnja o Kreli točna?",
+                            "choices": [
+                                "Spremno se prilagođava vojničkomu životu.",
+                                "Želi se što prije uključiti u rat.",
+                                "Obrazovaniji je od Melkiora.",
+                                "Ima visoko mišljenje o sebi."
+                            ],
+                            "correctChoice": "A"
+                        }
+                    ]
+                },
+                {
+                    "info": "Pozorno pročitajte polazni tekst (treći tekst) i riješite 11., 12., 13., 14. i 15 zadatak.",
+                    "initialText": {
+                        "title": "Vjenceslav Novak, Posljednji Stipančići",
+                        "text": "Stipančić je plakao, njegov se očajni glas gušio u grlu, a ramena mu se od jecanja tresla.\n- Ante, što se dogodilo? Govori, za ime božje!\n- Čitaj - šapne Stipančić i segne rukom pod uzglavlje. No kad je htio da joj dade nekakvo pismo, zgnječi ga u rukama i utisne opet pod jastuk:\n- Ne pitaj me... Ne mogu pokazati nikomu tu smrtnu sramotu.\n- Zar je zatvoren, ubijen? Ta mati sam mu, gdje ti je srce da me ovako mučiš!\n- Propao je! - reče Stipančić istim nepodnošljivim glasom. A Valpurga segne pod uzglavlje i uzme bez njegova opiranja papir. Kroz suze jedva je raspoznala slova u pismu što je počinjalo s nagovorom: „Momu vrlo ljubeznome ocu, gospodinu Anti Stipančiću. Dužnost mi je javiti vam da sam svoje nauke dovršio bacivši knjige u kut, jer moj preljubezni otac nije našao svoga sina vrijednim da ga još tih par mjeseci uzdrži na sveučilištu. Pred tri dana započeo sam novu karijeru s kojom će se morati njegovo plemenito očinsko srce sprijateljiti - ja sam primljen u službu kavanarskih konobara. Ako bi se plemenitom srcu moga gospodina oca htjelo dati nažao što sam sa praga visoke doktorske časti sašao među konobare, ostaje mu vrlo lijepa utjeha da je njegov sin po svoj prilici najinteligentniji konobar u Europi. Doduše, priznat ću da sam se s trpkim osjećajem u duši dao na taj korak. No u ovaj par bilo mi je birati dvoje: ili da skočim u Dunav ili da ostanem živ kao pošten konobar. Toliko momu plemenitomu ocu na znanje s poniznom zamolbom da zaboravi sa mnom sve što je u svojoj veledušnosti o meni i sa mnom snovao. Ostajem s dužnom zahvalnošću i s počitanjem momu plemenitomu gospodinu ocu, patriciju... Juraj Stipančić, bivši doktorand prava, konobar.”\nValpurga je, pročitavši pismo, osjetila u sebi nešto utješno što je dolazilo iza velikoga straha od prve pomisli: - Samo kad je živ! - Stoga je sasvim mirno pitala muža:\n- Zar si mu uskratio novaca?\nStipančić nije dugo odgovorio. Kad je dignuo s očiju ruke, reče dubokim glasom kao da iza svega\nosjećanja samomu sebi predbacuje:\n- A što ti misliš reći time „uskratio”? Znaš li ti što će to reći kroz osam godina pošiljati svaku svotu koju je zatražio? Što će to reći isprazniti svoje ruke i učiniti krivicu drugima? Pa veliš „uskratio”?\n- Ja ne znam... Tek tako nešto razabiram iz ovoga pisma.\n- Misliš li da je to došlo iznenada? Ne deset, nego dvadeset puta pisao mi je u ovo par posljednjih godina da je posljednja žrtva što je od mene traži. Ali posljednje nisam mogao dočekati nego obratno: ja sam vidio da moja imovina za nju ne dotječe. Kad sam sve to vidio i uvjerio se da drugoga izlaza nema, pisao sam mu istinu: „Još ovo proljeće, a onda više ne računaj na me jer nemam.” Minuo je i taj rok, na posljednja dva pisma nijesam niti odgovorio, a jutros sam dobio to... Propao je i upropastio nas... A ta sramota, oh, ta sramota!\n\nI opet je proplakao onim strašnim raskidanim glasom. Samo taj glas, te bolno zgrčene mišice\nlica i taj mrtvi pogled bez nade, samo je to boljelo Valpurgu poradi čovjeka za kojega je držala da je\nneoboriv kao jablan što se vrškom dotiče oblaka te prkosi burama i olujama. Samo ju je u srce dirala\nbespomoć toga čovjeka kojega je bila naučila gledati da svojom voljom vlada nad svime i svemu\nopredjeljuje put. Moralo mu je biti dosta kad je klonuo i on. O samom Jurju bila je nekako u sebi\nuvjerena da je to mladenačka obijest i onakovi hiri kakvima i nju često Lucija znade podražiti. O tom\nbi bila rado uvjerila i Stipančića, ali on nije htio odgovarati ni na jednu njezinu riječ."
+                    },
+                    "questions": [
+                        {
+                            "type": "SingleChoice",
+                            "question": "S kojom namjerom Juraj piše pismo?",
+                            "choices": [
+                                "da se ispriča ocu zbog neodgovornosti",
+                                "da zahvali ocu na dotadašnjoj pomoći",
+                                "da izazove u oca grižnju savjesti",
+                                "da obavijesti oca o novome poslu"
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Kakvim je tonom pisano Jurjevo pismo?",
+                            "choices": [
+                                "poniznim",
+                                "prijateljskim",
+                                "ravnodušnim",
+                                "sarkastičnim"
+                            ],
+                            "correctChoice": "D"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Što je Valpurga osjetila pročitavši Jurjevo pismo?",
+                            "choices": [
+                                "nadu",
+                                "olakšanje",
+                                "strah",
+                                "tugu"
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koja Antina karakteristika ukazuje na to da se promijenio u odnosu na svoj prijašnji život?",
+                            "choices": [
+                                "Pokazuje slabost pred suprugom.",
+                                "Stalo mu je do sinova uspjeha.",
+                                "Snažan je i ponosan čovjek.",
+                                "Boji se sramote."
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Što je od sljedećega u polaznome tekstu iskazano o Valpurgi?",
+                            "choices": [
+                                "Pokušava nagovoriti Antu da odgovori na Jurjevo pismo.",
+                                "Pokušava uvjeriti Antu da je Juraj poput Lucije.",
+                                "Misli da se Ante pretjerano uzrujao.",
+                                "Boji se da će Ante umrijeti."
+                            ],
+                            "correctChoice": "C"
+                        }
+                    ]
+                },
+                {
+                    "info": "Pozorno pročitajte polazni tekst (četvrti tekst) i riješite 16., 17., 18., 19. i 20. zadatak.",
+                    "initialText": {
+                        "title": "Sofoklo, Antigona",
+                        "text": "Ismena\n\tPa vjerenicu čeda svoga smaknut ćeš?\n\nKreont\n\tI drugih eno polja dadu orat se.\n\nIsmena\n\tAl’ ko što on i ona, lje ne pristaju.\n\nKreont\n\tZle žene al’ sinovma davat mrzi me.\n\nIsmena\n\tKako l’ te sramoti otac, mili Hemone!\n\nKreont\n\tBaš odveć mene jediš i ti i tvoj brak!\n\nIsmena\n\tPa nju ćeš otet srca svoga porodu?\n\nKreont\n\tHad bit će onaj, tko će spriječit svadbu tu!\n\nIsmena\n\tSmrt za nju, kako čini s’, odlučena je.\n\nKreont\n\tTo čini s’ tebi ko i meni.\n(Slugama.)\n\tNe čas’te,\n\tVeć vod’te, sluge, u kuću ih, vezane\n\tNek jesu te mi ženske, a ne slobodne!\n\tTa i junaci bježe, kad ti oni već\n\tŽivotu svomu nadomak ugledaju smrt.\n(Odvedu Antigonu i Ismenu.)\n\n\nSTAJAĆA PJESMA\nZbor\n1. strofa\n\tOj blažen, tko u životu ne okusi zla!\n\tKome bog dom uzdrma, nikakav jad ga\n\tNe mine, - od koljena koljenu to se šulja.\n\tBaš tako, kada na moru\n\tZli, burni dunu vjetrovi\n\tIz Trakije, a tama s dna navali,\n\tTad moru iz dubine eno valja val\n\tCrn pijesak burom uzburkan,\n\tOd udaraca jekom ječe obale.\n\t\n1. antistrofa\n\tI doma preminulih Labdakida nesreću\n\tStaru vidim, gdje na jade jade gomila;\n\tRoda rod ne rješava, nego sve obara ih\n\tBog neki, spasa nema im.\n\tTa zadnji eto ogranak,\n\tU domu što ga Edipovu obasja\n\tSjaj sreće, podzemnijeh opet bogova\n\tMač sada kosi krvavi\n\tI riječi nerazum i bijesna srca strast.\n\n2. strofa\n\tZeuse, koja bi obijest\n\tLjudska skršila snaga tvoju?\n\tNju niti kada svlada san svetokrilac\n\tNi neumorni mjeseci.\n\tKao vladar bogova vijekom dovijeka\n\tMlad sjajem na Olimpu vladaš blistavim.\n\tPa odsad i unapredak,\n\tKo dosad, vijek će vrijediti\n\tTaj zakon: smrtnik nijedan\n\tZa svoga žića bez jada ne prolazi.\n\n2. antistrofa\n\tEno nestalna nada je\n\tMnogom čovjeku melem srcu,\n\tA mnogom meka lakoumnim željama;\n\tI šulja se, a ne vidiš,\n\tDokle ti ne opali nogu vatre žar;\n\tJer mudro netko riječ reče preslavnu;\n\tZlo drži onaj gdjekada\n\tZa dobro, komu nagoni\n\tU groznu bijedu srce bog;\n\tA kratak samo čas on traje bez jada."
+                    },
+                    "questions": [
+                        {
+                            "type": "SingleChoice",
+                            "question": "Što znači sljedeća Kreontova rečenica?\nI drugih eno polja dadu orat se.",
+                            "choices": [
+                                "Djeca nastavljaju roditeljsku tradiciju.",
+                                "Zaručnici će biti smaknuti na polju.",
+                                "Žene su zle i mrze muškarce.",
+                                "Ima i drugih žena za udaju."
+                            ],
+                            "correctChoice": "D"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Na koga se odnosi podcrtana riječ u sljedećoj rečenici?",
+                            "choices": [
+                                "na Antigonu",
+                                "na Hemona",
+                                "na Ismenu",
+                                "na Polinika"
+                            ],
+                            "shortText": "Pa vjerenicu *čeda* svoga smaknut ćeš?",
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "S kojom namjerom Ismena postavlja pitanja Kreontu?",
+                            "choices": [
+                                "da ga uvjeri da su žene i muškarci jednako vrijedni",
+                                "da joj dopusti da se uda za svojega odabranika",
+                                "da ga nagovori da poštedi Antigonu",
+                                "da se spasi od prerane smrti"
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Što je tema stajaće pjesme?",
+                            "choices": [
+                                "nepravednost Antigonine sudbine",
+                                "čovjekova nemoć pred bogovima",
+                                "Zeusova pravednost",
+                                "spasonosnost nade"
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Što je iskazano sljedećim riječima?",
+                            "choices": [
+                                "Bogovi se pojavljuju u obliku prirodnih pojava.",
+                                "Sretni roditelji imaju nesretnu djecu.",
+                                "Nesreća se prenosi generacijama.",
+                                "Ljudi premalo vjeruju bogovima."
+                            ],
+                            "shortText": "... - od koljena koljenu to se šulja.",
+                            "correctChoice": "C"
+                        }
+                    ]
+                },
+                {
+                    "info": "Pozorno pročitajte polazni tekst (peti tekst) i riješite 21., 22., 23., 24. i 25. zadatak.",
+                    "initialText": {
+                        "title": "Edukacija o zaštiti baštine na radionici simulacije požara i spašavanja umjetnina",
+                        "text": "11. travnja 2022. - Hrvatski konzervatori u suradnji s Javnom vatrogasnom postrojbom u Trogiru nastavljaju s provedbom projekta „Smanjivanje rizika od požara u povijesnom gradu Trogiru” pa je tako protekloga vikenda u Zbirci sakralne umjetnosti Župe sv. Lovre održana edukativna radionica te simulacija požara i spašavanja umjetnina.\nPodsjetimo: Trogir je, uz irski Dublin, jedini europski grad koji sudjeluje u međunarodnome projektu PREVENT Međunarodnoga centra za proučavanje očuvanja i restauracije kulturnih dobara (ICCROM), koji ta organizacija provodi u okviru programa „First Aid and Resilience in Times of Crisis”.\nZaključci i znanja koje hrvatski stručnjaci usvajaju putem ovoga programa iznimno su važni ne samo za razvoj hrvatske već i europske konzervatorske i vatrogasne prakse, stoga će djelatnici Konzervatorskoga odjela u Trogiru prezentacijom ove radionice svoja iskustva prenositi drugim odjelima, kolegama konzervatorima i zainteresiranoj javnosti.\nImajući u vidu kako neprocjenjivo vrijedna baština stradava diljem svijeta zbog požara koji su se mogli spriječiti, kao što je recentni primjer požara na katedrali Notre Dame u Parizu ili požar u staroj trogirskoj jezgri prošle godine, cilj je uz pomoć ovoga tipa radionica i izdavanjem priručnika o sigurnosti podignuti razinu svijesti o požarnoj opasnosti te osnažiti stanovnike za bolje snalaženje u stresnoj situaciji izbijanja požara.\nNa radionici na kojoj su sudjelovali predstavnici Stožera civilne zaštite, Crvenog križa,\nDobrovoljnoga vatrogasnog društva, Javne vatrogasne postrojbe, Policijske postaje Trogir, Muzeja grada Trogira i Zbirke sakralne umjetnosti u Trogiru prikazana su tri ključna dokumenta za procjenu rizika za povijesnu jezgru Trogira, operativni plan reagiranja i plan evakuacije umjetnina. S obzirom na dostupne informacije izvjesno je kako ovakav detaljan pristup smanjivanju rizika od požara na kulturnoj baštini ne postoji trenutačno nigdje u Hrvatskoj, kao ni na području Europske unije.\nZnačenje projekta veće je tim što se njime prvi put definiraju protokoli reagiranja u slučaju većega incidenta i ugroženosti baštine, a prvi se put izrađuje i procjena rizika za povijesnu jezgru, i to potpuno novom metodologijom utemeljenom na interdisciplinarnome pristupu i međuresornoj suradnji kakva još ne postoji u Hrvatskoj. Razvija se i edukativni model za vatrogasnu službu, odnosno program njezine specijalizacije u području spašavanja kulturne baštine. Projekt predviđa i aktivnosti kojima će se zajedno s građanima razvijati otpornost zajednice na razne vrste prijetnji.\n„Upravljanje rizikom proces je u kojem čuvari baštine i oni koji njome upravljaju mogu identificirati velike rizike, utvrditi njihov učinak i vjerojatnost pojavljivanja te pronaći načine za smanjenje ili ublažavanje utjecaja identificiranih rizika. Drugim riječima, upravljanje rizikom omogućuje donositeljima odluka da definiraju prioritete i osiguraju dugoročno očuvanje baštine. Interdisciplinarni tim iz Trogira ušao je u uži izbor za sudjelovanje na prvoj radionici projekta PREVENT održanoj prošloga rujna. Ideja izrade funkcionalnoga plana prevencije opasnosti od požara za povijesni grad, uz aktivno sudjelovanje civilne zaštite, vatrogasaca, građana i odjela za baštinu, ne samo da će pomoći u zaštiti života i imovine nego i pridonijeti održivomu razvoju regije”, istaknula je Aparna\nTandon iz ICCROM-a, specijalistica za smanjenje rizika od katastrofa i oporavak nakon krize."
+                    },
+                    "questions": [
+                        {
+                            "type": "SingleChoice",
+                            "question": "Kojoj tekstnoj vrsti pripada polazni tekst?",
+                            "choices": [
+                                "eseju",
+                                "kritici",
+                                "sažetku",
+                                "vijesti"
+                            ],
+                            "correctChoice": "D"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "O kojim temama čitatelj može više saznati upotrebom hiperveze (ICCROM) u drugome odlomku polaznoga teksta?",
+                            "choices": [
+                                "o radu Međunarodnoga centra za proučavanje očuvanja i restauracije kulturnih dobara",
+                                "o radionici o zaštiti kulturne baštine od požara održanoj u Trogiru",
+                                "o suradnji Konzervatorskoga odjela i vatrogasaca u Trogiru",
+                                "o smanjivanju rizika od požara u Dublinu"
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koji je cilj projekta PREVENT?",
+                            "choices": [
+                                "da trogirski konzervatori budu uspješniji u zaštiti od požara od svojih hrvatskih kolega",
+                                "da vatrogasci svoje znanje i iskustvo o zaštiti od požara prenesu kolegama",
+                                "da vatrogasci i policija dobiju uvid u važnost zaštite baštine od požara",
+                                "da se šira zajednica osposobi za zaštitu baštine od požara"
+                            ],
+                            "correctChoice": "D"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koja je uloga izjave Aparne Tandon?",
+                            "choices": [
+                                "potaknuti interdisciplinarni trogirski tim na uključivanje u projekt",
+                                "upoznati čitatelje sa sudionicima projekta",
+                                "istaknuti ugled Trogira u inozemstvu",
+                                "naglasiti važnost projekta"
+                            ],
+                            "correctChoice": "D"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Na što upućuje pojam interdisciplinarnosti u polaznome tekstu?",
+                            "choices": [
+                                "na uključivanje institucija različitih područja djelovanja",
+                                "na obuku konzervatora iz drugih dijelova Hrvatske",
+                                "na očuvanje i sakralne i svjetovne baštine",
+                                "na međunarodnu suradnju znanstvenika"
+                            ],
+                            "correctChoice": "A"
+                        }
+                    ]
+                },
+                {
+                    "info": "Pozorno pročitajte polazni tekst (šesti tekst) i riješite 26., 27., 28., 29. i 30. zadatak.",
+                    "initialText": {
+                        "title": "Ovaj ponos svjetski poznatog branda i usisava i pere podove, a sad ga možete kupiti na rekordnoj jesenskoj akciji",
+                        "text": "Današnja tehnologija uvelike nam je olakšala život. Čak i najtradicionalniji među nama popustili su pred svim čudima pametnih aparata. I zaista, moramo to priznati, uživamo u blagodatima naših pametnica. Međutim, ako spadate u kategoriju tvrdoglavih koji sumnjičavo dižu obrvu na svaki spomen riječi smart ispred imena aparata, vjerujemo da biste trebali pročitati ovaj članak do kraja.\nSve je više radnih aktivnosti automatizirano i robotizirano, a umjetna inteligencija jedan je od najvećih tehnoloških trendova. Napredak novih tehnologija odražava se na gotovo sve sfere naših života olakšavajući nam svakodnevicu, pa tako i održavanje higijene doma. Mnoge su naše kućanske aktivnosti poput stalnoga pometanja, pranja te usisavanja podova i tepiha uvelike zamijenili robotski pomagači. Osim higijene podova bitna je i higijena zraka u prostoriji, odnosno prikaz temperature i vlage zraka u prostoriji.\nVacuum je kao vodeći svjetski proizvođač robota za kućnu uporabu pripremio posebnu akcijsku kombinaciju. Uz kupnju određenih modela Kalea robotskih usisavača na akciji na poklon posve besplatno dobivate vrhunski higrometar Luca. Omogućite si savršenu kombinaciju za svoj dom koja će vam olakšati svakodnevne aktivnosti. Kalea 496 vaš je partner u osiguravanju čistoće vašeg doma. Opremljen nizom inteligentnih senzora i moćnim sustavom čišćenja, robotski usisavač Kalea uspješno se nosi sa svakodnevnom prljavštinom, prašinom i dlakama kućnih ljubimaca, tako da se možete usredotočiti na sebe i svoje slobodne aktivnosti. Kalea 496 robotski usisavač, povezan s vašim pametnim telefonom\nWiFi vezom, kombinira troslojni sustav čišćenja s dvjema višeslojnim četkicama te ima posebno dizajniranu bočnu četkicu za čišćenje kutova i rubova i snagu usisavanja takvu da može očistiti sve, od najmanjih čestica do veće prljavštine s vašeg poda. Kalea 496 može biti vaša za 1999 kuna (redovna cijena 2789 kuna).\nKalea Combo 8311 robotski je usisavač i perač podova. Umjesto vas usisava prašinu, prljavštinu i ostatke s glatkih podova i sagova služeći se četkom u obliku slova V i snažnim usisom. Četke za brisanje rubova skupljaju ostatke uz zidove i iz kutova. Sustav pranja vlažnom krpom služi se tkaninom od mikrovlakana posebne rebraste teksture. Kad je podloga za mokro pranje skinuta, uređaj samo usisava. Kad je podloga postavljena i spremnik je napunjen vodom, uređaj može usisavati i prati glatke površine. Iskoristite popust i kupite Kalea Combo 8311 na bežično upravljanje po akcijskoj cijeni od 2299 kuna (redovna cijena 3189 kuna).\nKalea e8517 može se pohvaliti tehnologijom Smart Mapping. Naime, ova vrhunska tehnologija omogućuje joj pamćenje rasporeda vašeg doma i čišćenje po prostoriji ili katu. Za čišćenje većeg broja različitih površina Kalea e8517 ima i poboljšane dvojne gumene četke. Uz trostupanjski sustav čišćenja, one su tajna njezina moćnog čišćenja. Ako tomu dodamo kontrolu s vašega telefona, čišćenje doista postaje prilagođeno vama. Kalea e8517 može biti vaša za 3899 kuna (redovna cijena 5289 kuna).\nJe li soba prevlažna, suha, topla ili hladna? Odgovor na ta pitanja pruža Luca, higrometar koji dobijete na poklon. Ovaj higrometar opremljen je vrhunskom tehnologijom i vrlo točno mjeri vlagu u zraku i temperaturu. Luca kontrolira klimatsko stanje prostorije i vizualno pristaje svakoj okolini.\nOmogućite si savršenu kombinaciju Kalee i Luce, koja će vam olakšati svakodnevne aktivnosti.\nIskoristite poseban jesenski popust za kupnju jednog od modela Kalee. Kalee su dostupne po akcijskim cijenama u internetskoj trgovini Vacuum Hrvatska, u trgovinama Vacuum i kod ovlaštenih prodavatelja. Akcija traje do kraja listopada ili do isteka zaliha. Više informacija o proizvodu možete pronaći na www.vacuum.hr."
+                    },
+                    "questions": [
+                        {
+                            "type": "SingleChoice",
+                            "question": "Kakva je svrha polaznoga teksta?",
+                            "choices": [
+                                "komercijalna",
+                                "obrazovna",
+                                "upućivačka",
+                                "zabavna"
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Kojoj tekstnoj vrsti pripada polazni tekst?",
+                            "choices": [
+                                "izvješću",
+                                "oglasu",
+                                "reportaži",
+                                "uputi"
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Zašto je u ponudu uključen higrometar?",
+                            "choices": [
+                                "da čitatelji osvijeste važnost higijene zraka",
+                                "da se poboljša unutarnje uređenje doma",
+                                "da se olakša rad robotskoga usisavača",
+                                "da čitateljima ponuda bude privlačnija"
+                            ],
+                            "correctChoice": "D"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Kojim se sredstvom postiže interaktivnost u posljednjemu odlomku polaznoga teksta?",
+                            "choices": [
+                                "internetskim poveznicama",
+                                "navođenjem tehničkih podataka",
+                                "retoričkim pitanjima",
+                                "upotrebom imperativa"
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Zašto autor polaznoga teksta upotrebljava prvo lice množine?",
+                            "choices": [
+                                "Iskazuje važnost svih zainteresiranih za robotske usisavače.",
+                                "Ističe poštovanje prema potencijalnim korisnicima.",
+                                "Naglašava prisutnost tehnologije u životu ljudi.",
+                                "Izražava bliskost s čitateljima."
+                            ],
+                            "correctChoice": "D"
+                        }
+                    ]
+                },
+                {
+                    "info": "II. Književnost\n\nZadatci bez polaznoga teksta.\nZadatci višestrukoga izbora.\n\nU zadatcima višestrukoga izbora od više ponuđenih odgovora samo je jedan točan.\nTočan odgovor donosi jedan bod.",
+                    "questions": [
+                        {
+                            "type": "SingleChoice",
+                            "question": "U kojemu je od sljedećih stihova upotrijebljen oksimoron?",
+                            "choices": [
+                                "Kad žmirim, oko vid mi bolji ima,",
+                                "Jer danju gleda nedostojne stvari;",
+                                "Kad spavam, tebe nazire u snima",
+                                "I mračno svijetli, svjetlom u mrak žari"
+                            ],
+                            "correctChoice": "D"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Što je u sljedećemu primjeru didaskalija?",
+                            "choices": [
+                                "Sedmi prizor",
+                                "HARPAGON",
+                                "(_već iz vrta dovikuje „Drž’te tata” i dojuri na pozornicu bez šešira_)",
+                                "Drž’te tata! Drž’te lopova! Drž’te ubojicu! Drž’te razbojnika!"
+                            ],
+                            "shortText": "Sedmi prizor\nHARPAGON (*već iz vrta dovikuje „Drž’te tata” i dojuri na pozornicu bez šešira*): Drž’te tata!\nDrž’te lopova! Drž’te ubojicu! Drž’te razbojnika!",
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "U kojemu je od sljedećih primjera prisutna etička karakterizacija lika?",
+                            "choices": [
+                                "*Nervozan i nemiran, htio je na svu silu da se svlada - i od toga je osjećao gotovo glavobolju.*",
+                                "*Bilo je dana kad ga hvatao očaj i odvratnost - nije mogao da vidi ikoga oko sebe,*",
+                                "*Strogo odgojena, nalazila je najljepšu stranu ljubavi upravo u toj odluci: biti vjerna, pomagati kao družica života mužu.*",
+                                "*Vlastite oči zurile su u nj (...) bez izraza: crveno, nabuhlo lice, okruženo raskuštranom, neurednom, davno striženom bradom, imalo je vid kao u teško bolesnog čovjeka.*"
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "U kojemu književnopovijesnom razdoblju umjetnici odbacuju pravila klasicističke poetike?",
+                            "choices": [
+                                "u renesansi",
+                                "u baroku",
+                                "u romantizmu",
+                                "u realizmu"
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koja se od sljedećih tvrdnja odnosi na književnost realizma?",
+                            "choices": [
+                                "U književnim se djelima piše o sukobu između strasti i dužnosti, pri čemu su pod utjecajem racionalističke filozofije dužnost i razum važniji od osjećaja.",
+                                "U poeziji se njeguje kult ljepote i teži se savršenstvu izraza, a simbole se smatra vezom između fizičkoga i metafizičkoga svijeta.",
+                                "Književnost slijedi znanstvenu metodu kako bi se u djelima stvorila vjerna slika ljudskoga života.",
+                                "Književnost predstavlja krik protiv užasa i dehumanizacije koju donosi Prvi svjetski rat."
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Za koje je razdoblje hrvatske književnosti karakteristična vrsta stiha iz sljedećega primjera?",
+                            "choices": [
+                                "za srednjovjekovlje",
+                                "za renesansu",
+                                "za barok",
+                                "za romantizam"
+                            ],
+                            "shortText": "*Kad najpri ja tvoje vidih zlate kose\ni oči, gospoje, ke srca zanose,*",
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koji je od sljedećih hrvatskih pjesnika pola stoljeća stvarao inspiriran mediteranskim pejzažem, hrvatskom poviješću i slavenskom mitologijom?",
+                            "choices": [
+                                "Antun Branko Šimić",
+                                "Antun Gustav Matoš",
+                                "Silvije Strahimir Kranjčević",
+                                "Vladimir Nazor"
+                            ],
+                            "correctChoice": "D"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koje je obilježje prisutno u sljedećim stihovima Charlesa Baudelairea?",
+                            "choices": [
+                                "ekspresionistički krik",
+                                "impresionistički opis",
+                                "estetika ružnoće",
+                                "svjetska bol"
+                            ],
+                            "shortText": "*Ko razvratnik jadni što ljubi i jede\nIzmučenu dojku prastare bludnice,\nUžitak hoćemo, ali bez sudnice,*",
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koji književni lik izgovara sljedeće rečenice?",
+                            "choices": [
+                                "Hamlet",
+                                "Horacije",
+                                "Klaudije",
+                                "Polonije"
+                            ],
+                            "shortText": "*Danska je tamnica. (...)\nO Bože, mogao bih biti zatočen u orahovoj ljusci i\nračunati se kraljem beskonačna svemira...*",
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Na kojega se književnika odnosi sljedeća tvrdnja?",
+                            "choices": [
+                                "na Alberta Camusja",
+                                "na Franza Kafku",
+                                "na Johanna Wolfganga Goethea",
+                                "na Pedra Calderóna de la Barcu"
+                            ],
+                            "shortText": "*Pisao je stilom koji odgovara točnom, gotovo suhoparnom izvještaju. Izuzetnu začudnost i\nnovinu u cjelokupnoj strukturi djela postiže uvođenjem fantastike - pri čemu krajnje čudnovato i\nnemoguće nikoga ne začuđuje.*",
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koja se od sljedećih tvrdnja odnosi na djelo Gospoda Glembajevi?",
+                            "choices": [
+                                "Kompozicija je uokvirena.",
+                                "Glavni je lik biološki motiviran.",
+                                "Elementi fantastike isprepliću se sa stvarnošću.",
+                                "Karakterizacija likova temelji se na tehnici redukcije."
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "S kojim je od sljedećih pjesnika Ivan Slamnig ostvario intertekstualnu vezu naslovom svoje pjesme Koji hodaš malen ispod zvijezda?",
+                            "choices": [
+                                "s Antunom Brankom Šimićem",
+                                "s Charlesom Baudelaireom",
+                                "sa Silvijem Strahimirom Kranjčevićem",
+                                "s Vladimirom Nazorom"
+                            ],
+                            "correctChoice": "A"
+                        }
+                    ]
+                },
+                {
+                    "info": "III. Hrvatski jezik\n\nZadatci višestrukoga izbora.\n\nU zadatcima višestrukoga izbora od više ponuđenih odgovora samo je jedan točan.\nTočan odgovor donosi jedan bod.",
+                    "questions": [
+                        {
+                            "type": "SingleChoice",
+                            "question": "U kojoj je od sljedećih rečenica podcrtana riječ pravopisno točna?",
+                            "choices": [
+                                "Plovili su morskim *tijesnacem*.",
+                                "Ne postoje dvije iste vrste pasa *miješanaca*.",
+                                "Svakoga nas je jutra budio susjedov *pijetao*.",
+                                "Desna strana mozga dominantna je *lijevacima*."
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koja je od sljedećih rečenica napisana u skladu s pravilima o pisanju velikoga i maloga početnog slova?",
+                            "choices": [
+                                "U Gospinoj batariji, glavnoj utvrdi koju je Austrija za svojega vladanja početkom 19. stoljeća sagradila na Otoku Visu, nalazi se izložba koju su postavili Hrvatski povijesni muzej iz Zagreba i Arheološki muzej iz Splita.",
+                                "Prigodom manifestacije _Nazorovi dani_ Osnovna škola Vladimira Nazora iz Postira u suradnji s Agencijom za odgoj i obrazovanje objavljuje literarni natječaj Nazor i mi.",
+                                "Kulturne su Lastovske znamenitosti _Lastovski statut_ iz 1310. i _Lastovski poklad_ koji je proglašen kulturnim nematerijalnim blagom.",
+                                "Comic Sans prvi je hrvatski film sniman na otočiću Jabuci, a sufinanciran je sredstvima Hrvatskoga audiovizualnog centra i Programa Kreativna europa."
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "U kojoj je od sljedećih rečenica riječ _zvijezda_ upotrijebljena u denotativnome značenju?",
+                            "choices": [
+                                "Velikani nakon smrti odlaze među zvijezde.",
+                                "Zbog oblaka večeras se ne vide zvijezde.",
+                                "Rodio se pod sretnom zvijezdom.",
+                                "Bila je zvijezda maturalne večeri."
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "U kojoj je od sljedećih rečenica podcrtana riječ upotrijebljena u skladu s leksičkom normom?",
+                            "choices": [
+                                "Njegove su prepirke s Valpurgom *donijele* do toga da se obitelj raspala.",
+                                "Juraj se nadao da će prijetnjom samoubojstvom *pridobiti* majčin novac.",
+                                "Valpurga je na koncu umrla od silne *žalbe* zbog Lucijine smrti.",
+                                "Alfred se Luciji svidio jer je bio iznimno *naočit*."
+                            ],
+                            "correctChoice": "D"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koja je riječ sinonim podcrtane riječi u sljedećemu primjeru?",
+                            "choices": [
+                                "bahatoga",
+                                "divljega",
+                                "ponosnoga",
+                                "prekrasnoga"
+                            ],
+                            "shortText": "Izgledalo je to kao kad bi sivi, uhati magarac navukao na sebe snježnobijeli kostim *gordoga* jahaćeg konja.",
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koji je izraz značenjski suprotstavljen podcrtanomu frazemu u sljedećoj rečenici?",
+                            "choices": [
+                                "biti kao pas i mačka",
+                                "biti kao prst i nokat",
+                                "biti bog i batina",
+                                "biti kost i koža"
+                            ],
+                            "shortText": "Svima je poznato da je Mate sa svojim poslovođom *kuhan i pečen*.",
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koliko je sročnih atributnih sintagma u sljedećoj rečenici?",
+                            "choices": [
+                                "dvije",
+                                "tri",
+                                "četiri",
+                                "pet"
+                            ],
+                            "shortText": "Naši domaćini s Filozofskoga fakulteta iz Osijeka pripremili su prigodnu izložbu.",
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "U kojoj je od sljedećih rečenica objekt u točnome padežu?",
+                            "choices": [
+                                "Sva su njihova nastojanja u konačnici rezultirala neuspjehom.",
+                                "Sva su njihova nastojanja u konačnici rezultirala neuspjeha.",
+                                "Sva su njihova nastojanja u konačnici rezultirala neuspjehu.",
+                                "Sva su njihova nastojanja u konačnici rezultirala neuspjeh."
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koja je od sljedećih rečenica besubjektna?",
+                            "choices": [
+                                "Danima se raspravljalo o suši.",
+                                "Naslućivala se promjena vremena.",
+                                "Najavljena je u večernjemu Dnevniku.",
+                                "Sutradan je prema predviđanjima pala kiša."
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koja je riječ u sljedećoj rečenici u lokativu?",
+                            "choices": [
+                                "majci",
+                                "čvor",
+                                "resi",
+                                "joj"
+                            ],
+                            "shortText": "Sjedeći nasuprot majci, gledala sam u čvor na resi zavjese, samo da joj ne moram gledati u oči.",
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "U kojoj su od sljedećih rečenica svi glagolski oblici točno upotrijebljeni?",
+                            "choices": [
+                                "Uticao je na društvo svojega vremena prikazujući obiteljske prilike.",
+                                "Nakon blagdana Velike Gospe vidimo da su naši otoci opustjeli.",
+                                "Nakon što se vratila s posla, volila se satima odmarati.",
+                                "Kad bi je ugledao, ona bi se odmah zarumenila."
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koja od sljedećih imenica ima nulti morfem?",
+                            "choices": [
+                                "kakao",
+                                "pepeo",
+                                "radio",
+                                "rodeo"
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koja je od sljedećih riječi nastala tvorbenim sufiksom -avica?",
+                            "choices": [
+                                "glavica",
+                                "nogavica",
+                                "spravica",
+                                "zdravica"
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "U kojoj je od sljedećih riječi provedeno jednačenje po zvučnosti?",
+                            "choices": [
+                                "svjedodžba",
+                                "oraščić",
+                                "podbradak",
+                                "zelembać"
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koja se od sljedećih tvrdnja odnosi na Zapis popa Martinca?",
+                            "choices": [
+                                "Tekst sadrži opis teškoga stanja nakon poraza hrvatskoga plemstva na Krbavskome polju.",
+                                "Tekst sadrži zakonske propise vinodolskih općina nakon osvajanja knezova krčkih.",
+                                "Tekst je enciklopedija skupljenoga srednjovjekovnog znanja.",
+                                "Tekst je zapis o darovanju zemlje župi sv. Lucije."
+                            ],
+                            "correctChoice": "A"
+                        }
+                    ]
+                },
+                {
+                    "info": "Zadatak višestrukoga izbora s nadopunjavanjem\n\nU zadatku višestrukoga izbora s nadopunjavanjem (58.1. - 58.5.) od više ponuđenih odgovora samo je jedan točan.\nSvaki točan odgovor donosi jedan bod. U zadatku višestrukoga izbora s nadopunjavanjem (58.1. - 58.5.) moguće je ostvariti 5 bodova.",
+                    "initialText": {
+                        "text": "Tijekom srednjoškolskoga obrazovanja naučili smo što je šekspirovski sonet, a čitali smo i (1.) ___ Hamleta kao lektirno djelo. (2.) ___, shvatili smo zašto se renesansnoga (3.) ___ i pjesnika smatra najvećim piscem engleskoga jezika te zašto su mu dramski likovi (4.) ___ oblikovani. Shakespeare je do danas ostao književnik (5.) ___."
+                    },
+                    "questions": [
+                        {
+                            "type": "SingleChoice",
+                            "question": "1.",
+                            "choices": [
+                                "Shakespeareovog",
+                                "Shakespeareov-a",
+                                "Shakespearovog",
+                                "Shakespeareova"
+                            ],
+                            "correctChoice": "D"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "2.",
+                            "choices": [
+                                "Jednostavnije rečeno",
+                                "Za razliku od toga",
+                                "U tom slučaju",
+                                "Sve u svemu"
+                            ],
+                            "correctChoice": "D"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "3.",
+                            "choices": [
+                                "dramatičara",
+                                "dramatista",
+                                "dramaturga",
+                                "dramičara"
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "4.",
+                            "choices": [
+                                "viralno",
+                                "vidovito",
+                                "viskozno",
+                                "virtuozno"
+                            ],
+                            "correctChoice": "D"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "5.",
+                            "choices": [
+                                "bez konca i kraja",
+                                "bez premca",
+                                "bez sumnje",
+                                "bez takta"
+                            ],
+                            "correctChoice": "B"
+                        }
+                    ]
+                }
+            ],
+            "potentialPoints": 62
+        },
+        {
+            "name": "Sažetak",
+            "predictedTime": 80,
+            "instructions": "Pozorno pročitajte sve upute i slijedite ih.\n\nIspit traje 80 minuta.\nSažetak treba imati 200 - 250 riječi.\nSažetak će se bodovati s nula (0) bodova ako nema dovoljan broj riječi, ako ima prevelik broj riječi, ako je pisan velikim tiskanim slovima ili ako je nečitko napisan.\n\nŽelimo Vam mnogo uspjeha!",
+            "questionGroups": [
+                {
+                    "info": "Pročitajte polazni tekst.\nSažetak oblikujte kao zaokruženu cjelinu s uvodom, razradom i zaključkom.\nPazite da Vaš sažetak bude pravopisno, gramatički i leksički točan.\nU sažetak morate uvrstiti sve smjernice.\nSažetak mora imati 200 - 250 riječi.",
+                    "initialText": {
+                        "title": "Marko Perišić, Zdravlje očiju",
+                        "text": "Ulaskom u četrdesete mnogi ljudi počinju primjećivati prve znakove pogoršanja vida, no rijetko tko poduzima ikakve mjere na samom početku. Za naočalama se uglavnom poseže tek kada postane potpuno nemoguće pročitati novinski članak, etiketu na proizvodu ili cijenu u trgovini. Ponekad se zapravo čini da se ne brinemo dovoljno o zdravlju svojih očiju. Na neki smo način pomireni s činjenicom da starenje i slabiji vid idu jedno s drugim. Ne postoje čarobne kapi, kapsule i ideje kako popraviti vid preko noći, no postoje načini kako se pobrinuti da imamo zdrave oči i bistar pogled što duže.\n\nSto smo puta čuli i izreku da smo ono što jedemo i da je ljudsko gorivo hrana. Hranite li se nezdravo i ne brinete li se o unosu kvalitetnih nutrijenata, patit će vaše tijelo, ali i vaše oči. Ako se pitate kako popraviti vid, odgovor se krije upravo u vašem tanjuru. Premda se degenerativne očne promjene ne mogu u potpunosti izbjeći, pravilnom prehranom možete ih usporiti. Kad govorimo o vitaminima za oči, na prvom se mjestu zasigurno mora naći vitamin A koji sprečava gubitak vida (noćno sljepilo). Mrkva, batat i špinat sadržavaju izobilje vitamina A. Vitamin C iznimno je snažan antioksidans koji prevenira degenerativne promjene, smanjuje rizik od pojave očne mrene i snižava očni tlak. Namirnice bogate vitaminom C jesu špinat, sve vrste agruma i šumsko voće. Uz vitamine valja spomenuti i karotenoide lutein i zeaksantin iz voća i povrća koji sprečavaju bolesti očne mrežnice. Karotenoida najviše ima u lisnatom povrću, jajima, brokuli i tikvicama, stoga se potrudite barem jednu od ovih namirnica konzumirati svakodnevno. Ne smijemo zaboraviti omega-3 masne kiseline koje se nalaze u ribi, a imaju pozitivan učinak na oštrinu vida. Ako se na vašem jelovniku nalaze tuna ili losos barem dva dana u tjednu, smanjit ćete rizik od senilne makularne degeneracije i bolesti suhoga oka.\n\nNije samo prehrana put do boljega vida - promjenama u životnome stilu možemo doprinijeti održavanju zdravlja očiju. Svi znamo da je redovita tjelovježba korisna za opću čovjekovu dobrobit, ali jeste li znali da ima i bitnu ulogu u prevenciji očnih bolesti kao što su glaukom, senilna makularna degeneracija i očna mrena? Istraživanja su pokazala da redovito vježbanje smanjuje vjerojatnost razvijanja oštećenja vida, a istraživanje Sveučilišta u Kaliforniji dokazalo je da vježbanje niskoga intenziteta poboljšava rad neurona koji su odgovorni za obradu vizualnih informacija, što znači da ne morate biti profesionalni vježbači da biste tjelovježbom poboljšali stanje svojih očiju. Bez obzira na trenutačnu razinu tjelesne kondicije, jednostavno otiđite u brzu šetnju da biste počeli poboljšavati svoj vid. Unatoč svim vježbama i zdravoj prehrani oči neće moći biti zdrave ni normalno funkcionirati bez dovoljno odmora. Zato je od ključne važnosti pružiti im dovoljno sna i kvalitetan odmor. Preporučuje se od sedam do osam sati sna svake noći kako bi se oči mogle regenerirati. Ako vaš posao zahtijeva rad na računalu, vjerojatno ćete početi osjećati umor i težinu u očima nakon nekoliko sati. U tom slučaju savjetujemo da svakih 20 minuta napravite kratku pauzu i dvadesetak sekunda gledate u neki objekt u daljini. Tako ćete opustiti mišiće u oku i potaknuti treptanje, što je prijeko potrebno za normalnu funkciju očiju.\n\nU posljednje vrijeme internet je preplavljen savjetima kako popraviti vid uz pomoć vježbi za oči. Uklonite dioptriju vježbanjem, Vježbe za bolji vid u roku od tjedan dana... samo su neki od naslova članaka i videouradaka koji obećavaju poboljšan vid, pa čak i život bez naočala i kontaktnih leća. Nažalost, nijedna metoda nije učinkovita kako se predstavlja, barem ne u slučaju ako patite od kratkovidnosti, dalekovidnosti ili astigmatizma jer su u tim stanjima očne jabučice nepravilnog oblika. Vježbe za oči koje su namijenjene jačanju očnih mišića ne mogu promijeniti oblik očne jabučice. Na pitanje kako popraviti vid jedini je odgovor - posjetiti oftalmologa i promijeniti životne navike. Naravno, postoje određene vježbe za oči koje preporučuju oftalmolozi i koje zaista mogu pomoći za određena stanja kao što su strabizam i ambliopija, a postoje i vježbe za bolji vid koje pomažu očima umornima zbog pretjeranog korištenja elektroničkih uređaja. Te vježbe neće uistinu poboljšati vaš vid, ali će spriječiti zamućenja nastala dugotrajnim gledanjem u ekran. Dakle, takve vježbe za oči nisu štetne i možete ih izvoditi bez straha, ali nemojte zbog njih prestati nositi naočale ili leće jer vam te vježbe definitivno neće ukloniti dioptriju.\n\nUvođenjem zdravih životnih navika poboljšat ćete zdravlje cjelokupnog organizma, a samim time i očiju. Svi smo mi robovi određenih navika, a na nama je hoće li te navike biti dobre ili loše. Grickanje čipsa ponekad zamijenite grickanjem mrkve, a gledanje serije jednosatnom šetnjom u prirodi. Sitne, ali bitne promjene koje uvedete u svoju svakodnevicu mogu vas nagraditi bistrim i oštrim vidom, a možda čak i potpunom promjenom oštrine vida."
+                    },
+                    "questions": [
+                        {
+                            "type": "EssayWriting",
+                            "question": "Smjernice za pisanje sažetka\nPročitajte zadani tekst.\nSažmite polazni tekst svojim riječima:\n• tako da navedete opće podatke o polaznome tekstu\n• tako da odredite namjenu i temu teksta\n• tako da navedete osnovne misli teksta i pojedinosti koje ih podupiru\n• tako da odredite autorov stav o temi.",
+                            "minWords": 200,
+                            "maxWords": 250,
+                            "points": [
+                                {
+                                    "category": "Sadržaj",
+                                    "points": 6
+                                },
+                                {
+                                    "category": "Organizacija teksta i stil",
+                                    "points": 6
+                                },
+                                {
+                                    "category": "Jezična točnost",
+                                    "points": 6
+                                }
+                            ],
+                            "examples": [
+                                {
+                                    "title": "Sažetak 1",
+                                    "text": "U tekstu Zdravlje očiju autor Marko Perišić savjetuje ljudima što učiniti da bi svoje oči što duže održali zdravima. Namjena je teksta potaknuti ljude na zdrave navike kojima će poboljšati svoj vid.\n\nAutor ističe da se vid može poboljšati odgovarajućom prehranom. Navodi da valja jesti hranu bogatu vitaminom A (npr. mrkvu) koji sprečava noćno sljepilo i vitaminom C (npr. iz agruma) koji štiti od mrene i poboljšava očni tlak. Također, navodi i važnost voća i povrća bogatog karotenoidima radi zdravlja mrežnice, kao i važnost ribe bogate omega-3 masnim kiselinama za očuvanje oštrine vida.\n\nNadalje, u tekstu se navodi da se zdravlje očiju može poboljšati i svakodnevnim aktivnostima. Kao jedan od načina za unapređenje zdravlja očiju navodi se tjelesna aktivnost, što se dokazuje rezultatima znanstvenog istraživanja koje je pokazalo da lagana tjelovježba pozitivno utječe na rad neurona odgovornih za vid. Osim toga, autor navodi i nužnost adekvatnog sna i odmora. Ljudima koji rade za računalom preporučuje da rade pauze tijekom rada.\n\nAutor naglašava da vježbe za oči ne mogu popraviti dioptriju. Navodi da su na internetu prisutni brojni savjeti kako vježbama popraviti vid, ali da je riječ o obmani jer se kratkovidnost, dalekovidnost i astigmatizam ne mogu popraviti vježbama. Doduše, postoje vježbe za neka druga stanja poput strabizma ili umora, ali samo posjet oftalmologu i promjena životnih navika nabolje mogu pozitivno utjecati na vid.\n\nAutor zaključuje da je na svakom čovjeku da svojim svakodnevnim izborima doprinese zdravlju svojih očiju.",
+                                    "points": [
+                                        {
+                                            "category": "Sadržaj",
+                                            "points": 6
+                                        },
+                                        {
+                                            "category": "Organizacija teksta",
+                                            "points": 6
+                                        },
+                                        {
+                                            "category": "Jezična točnost",
+                                            "points": 6
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Sažetak 2",
+                                    "text": "U tekstu Zdravlje očiju autor Marko Perišić piše o zdravlju očiju da bi prikazao što sve moramo učiniti da bi nam oči bile zdrave.\n\nAutor navodi da valja jesti hranu bogatu vitaminom A, kao što su mrkva i batat, kako bismo sprječili noćno sljepilo. Ističe da je važan i vitamin C iz agruma i špinata jer štiti od mrene i poboljšava očni tlak. Autor navodi važnost hrane bogate karotenoidima zbog zdravlja mrežnice, kao i važnost hrane bogate omega-3 masnim kiselinama za očuvanje oštrine vida.\n\nKao jedan od načina za unaprjeđenje zdravlja očiju navodi se tjelesna aktivnost, što se dokazuje rezultatima znanstvenog istraživanja koje je pokazalo da lagana tjelovježba pozitivno utječe na rad neurona odgovornih za vid. Autor navodi nužnost adekvatnog sna i odmora. Ljudima koji rade za računalom preporučuje da rade pauze tijekom rada.\n\nU tekstu se navodi da su na internetu prisutni brojni savjeti kako vježbama popraviti vid, ali da je riječ o obmani jer se kratkovidnost, dalekovidnost i astigmatizam ne mogu popraviti vježbama. Postoje vježbe za neka druga stanja poput strabizma ili umora, ali samo posjet oftamologu i životne navike mogu utjecati na vid.\n\nAutor zaključuje da je na svakom čovjeku da svojim svakodnevnim izborima doprinese zdravlju svojih očiju.",
+                                    "note": "Sadržaj - Nema osnovnih misli.\nOrganizacija teksta - Nema veznih sredstava. Osnovne misli nisu iznesene jasno i logično s obzirom na smisao polaznog teksta te zbog izostanka osnovnih misli nije ostvarena zadana struktura središnjih odlomaka.\nJezična točnost - sprječili, zbog zdravlja, oftamolog.",
+                                    "points": [
+                                        {
+                                            "category": "Sadržaj",
+                                            "points": 4
+                                        },
+                                        {
+                                            "category": "Organizacija teksta",
+                                            "points": 4
+                                        },
+                                        {
+                                            "category": "Jezična točnost",
+                                            "points": 6
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Sažetak 3",
+                                    "text": "U tekstu Zdravlje očiju autor Marko Perišić piše o zdravlju očiju da bi prikazao što sve moramo učiniti da bi nam oči bile zdrave i da bi bolje vidjeli.\n\nTrebamo jesti hranu bogatu vitaminom A, kao što su mrkva i batat, kako bi sprječili noćno sljepilo. Važan je i vitamin C iz agruma i špinata jer štiti od mrene i poboljšava očni tlak. Važna je i hrana bogate karotenoidima zbog zdravlja mrežnice i hrana bogata omega-3 masnim kiselinama za očuvanje oštrine vida. Za zdravlje očiju moramo biti fizićki aktivni. Znanstveno istraživanje kaže da je lagana fizićka aktivnost dobra za rad neurona odgovornih za vid. Nužni su dugi san i odmor da bi nam oči bile dobre. Zato se ljudima koji rade za računalom preporučava da rade pauze tjekom rada. Na internetu su prisutni brojni savijeti kako vježbama popraviti vid, ali je riječ o prevari jer se kratkovidnost, dalekovidnosti i astigmatizam ne mogu popravit vježbama. Postoje neke vježbe, ali samo oftamolog i životne navike mogu utjecati na vid.\n\nAutor misli da je na svakom čovjeku da svojim svakodnevnim izborima doprinese zdravlju svojih očiju i na svakom je čovjeku hoće li donijeti dobru ili lošu odluku.",
+                                    "note": "Sadržaj - Nema osnovnih misli, ali dobro je što je tekst sažet vlastitim riječima.\nOrganizacija teksta - U središnjem dijelu nema osnovnih misli. Nema odlomaka. Nije jasno čije se misli iznose. Nisu upotrijebljena vezna sredstva.\nJezična točnost - bi vidjeli, sprječili, fizićki, preporučava, tjekom, savijeti, zbog zdravlja, popravit, oftamolog.",
+                                    "points": [
+                                        {
+                                            "category": "Sadržaj",
+                                            "points": 4
+                                        },
+                                        {
+                                            "category": "Organizacija teksta",
+                                            "points": 2
+                                        },
+                                        {
+                                            "category": "Jezična točnost",
+                                            "points": 2
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Sažetak 4",
+                                    "text": "U tekstu Marko Perišić govori o tome kako popraviti vid. Navodi da će tjelo patiti ako se hranimo nezdravo i da promjenama u životnome stilu možemo poboljšati zdravlje očiju. Ako se hranimo ne zdravo i ne pazimo o unosu kvalitetnih nutrijenata, patit će naše tjelo ali i naše oči. Pravilnom prehranom ne možemo sprječiti degenerativne promjene ali ih možemo usporiti. Kada govorimo o vitaminima za oči najvažniji je vitamin A koji sprječava gubitak vida (noćno sljepilo). Vitamin C sprečava degenerativne promjene, smanjuje rizik od pojave očne mrene te snižava očni tlak. Uz vitamine su važni karotenoidi lutein i zeaksantin. Ne smijemo zaboraviti omega-3 masne kiseline koje se nalaze u ribi, a imaju pozitivan učinak na oštrinu vida. Promjenama u životnome stilu možemo doprinjeti održavanju zdravlja očiju. Autor ističe da redovito vježbanje smanjuje vjerovatnost razvijanja oštečenja vida, a istraživanje je dokazalo da vježbanje niskog inteziteta poboljšava rad neurona koji su odgovorni za obradu vizualnih informacija, što znači da ne moramo biti profesionalni vježbači da bi tjelovježbom poboljšali stanje svojih očiju. Treba redovito i spavati. U posljednje vrijeme je internet preplavljen savjetima kako popraviti vid uz pomoć vježbi za oči. Nažalost nijedna metoda nije učinkovita kako se predstavlja jer vježbe za oči koje su namjenjene jačanju oćnih mišića ne mogu promjeniti oblik očne jabučice. Na pitanje „kako popraviti vidˮ jedini je odgovor - posjetiti oftalmologa i promjeniti životne navike. Naravno, postoje određene vježbe za oči koje zaista mogu pomoći za određena stanja, a postoje i vježbe za bolji vid koje pomažu kada su nam oči umorne zbog pretjeranog korištenja elektronićkih uređaja",
+                                    "note": "Sadržaj - Sažetak je djelomično prepisan - nedostaje parafraziranja. Nije naveden naslov teksta. Nije navedena namjena teksta. Nije iznesen autorov stav.\nOrganizacija teksta - Sažetak nije podijeljen u odlomke. Nema jasnih osnovnih misli. Nisu upotrijebljena vezna sredstva. Ponekad nije jasno čije se misli iznose. Stil je neprimjeren.\nJezična točnost - jelo, ne zdravo, ne pazimo o unosu, sprječiti, doprinjeti, vjerovatnost, oštečenja, intezitet, bi poboljšali, namjenjene, oćnih, promjeniti, elektronićkih, zarezi, zanaglasnice.",
+                                    "points": [
+                                        {
+                                            "category": "Sadržaj",
+                                            "points": 2
+                                        },
+                                        {
+                                            "category": "Organizacija teksta",
+                                            "points": 0
+                                        },
+                                        {
+                                            "category": "Jezična točnost",
+                                            "points": 0
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Sažetak 5",
+                                    "text": "Ne postoje magične kapi, kapsule i ideje kako popraviti vid preko noći, no postoje načini kako se pobrinuti da imate zdrave oči i bistar pogled što duže.\n\n\tHranite li se nezdravo i ne marite o unosu kvalitetnih nutrijenata, patit će vaše tijelo, ali i vaše oči. Ako se pitate kako popraviti vid, odgovor se krije upravo u vašem tanjuru. Premda se degenerativne očne promjene ne mogu u potpunosti izbjeći, pravilnom prehranom ih možete usporiti.\n\tNije samo prehrana put do boljega vida - promjenama u životnome stilu možemo doprinijeti održavanju zdravlja očiju. Svi znamo da je redovita tjelovježba korisna za opću čovjekovu dobrobit, ali jeste li znali da ima i bitnu ulogu u prevenciji očnih bolesti kao što su glaukom, senilna makularna degeneracija i katarakta? Preporučuje se od sedam do osam sati sna svake noći kako bi se oči mogle regenerirati. Ako vaš posao zahtijeva rad na računalu, vjerojatno ćete početi osjećati umor i težinu u očima nakon nekoliko sati.\n\tU posljednje vrijeme internet je preplavljen savjetima kako popraviti vid uz pomoć vježbi za oči. Nažalost, nijedna metoda nije učinkovita kako se predstavlja, barem ne u slučaju kada patite od kratkovidnosti, dalekovidnosti ili astigmatizma jer su u tim stanjima očne jabučice nepravilnog oblika.\n\tUvođenjem zdravih životnih navika poboljšat ćete zdravlje cjelokupnog organizma, a samim time i očiju. Svi smo mi „roboviˮ određenih navika, a na nama je hoće li te navike biti dobre ili loše.",
+                                    "note": "Sadržaj - Tekst je u cijelosti prepisan - nije odgovoreno na zadane smjernice.",
+                                    "points": [
+                                        {
+                                            "category": "Sadržaj",
+                                            "points": 0
+                                        },
+                                        {
+                                            "category": "Organizacija teksta",
+                                            "points": 0
+                                        },
+                                        {
+                                            "category": "Jezična točnost",
+                                            "points": 0
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "potentialPoints": 18
+        },
+        {
+            "name": "Školski Esej",
+            "predictedTime": 160,
+            "instructions": "Pozorno pročitajte sve upute i slijedite ih.\n\nIspit traje 160 minuta.\nNapišite školski esej slijedeći priložene upute i smjernice za pisanje školskoga eseja.\n\nŠkolski esej treba imati najmanje 440 riječi.\nŠkolski esej bodovat će se s nula (0) bodova ako nema dovoljan broj riječi, ako je pisan velikim tiskanim slovima ili ako je nečitko napisan.\n\nŽelimo Vam mnogo uspjeha!",
+            "questionGroups": [
+                {
+                    "info": "Pozorno pročitajte sljedeće tekstove nakon kojih slijede upute i smjernice za pisanje školskoga eseja.\n\nPolazno pitanje\nKako se u poeziji Tina Ujevića isprepliću tradicionalni i moderni elementi?",
+                    "initialText": {
+                        "text": "**Notturno**\nNoćas se moje čelo žari,\nnoćas se moje vjeđe pote;\ni moje misli san ozari,\numrijet ću noćas od ljepote.\n\nDuša je strasna u dubini,\nona je zublja u dnu noći;\nplačimo, plačimo u tišini,\numrimo, umrimo u samoći.\n\n\n**Naše vile**\nOu sont nos amoureuses?$^{1}$\nGdje su nama drage rajne sestre i drage,\nMarulova seja$^{2}$ i Dubravka, gdje Cvijeta$^{3}$?\nProcvjetaše polja i plodan s rosne vlage\nperivoj u cvatu pramaljeća cvjeta:\ngdje su naše nimfe i sve čari nage\ngizdavih ljepota, krasnije od cvijeta;\ngdje su naše vile, Gjivo, Šiško, Gjore$^{4}$,\nvi, dva Dinka$^{5}$, i Tasso$^{6}$, pokloniče Flore?\n\nGdje su dobre djeve, bijele poput krina,\ndeklice što tješe i jačaju junake?\nGdje je mučenica Zrinjska Katarina$^{7}$,\nknjiževnica, duše pobožne i jake,\nsrce Amazonke, Jelena$^{8}$, mat’ sina,\nsveta ko regina Helena$^{9}$ iz rake;\nSunčanica$^{10}$ gdje je i Kosara$^{11}$, kći kralja,\nNeda$^{12}$ i Sokolica, sjajan niz koralja?\n\nNestale su kao biser rane rose,\nbanice su danas otoka za sretne;\nsve, što uspomenu njine slave nose\nuklele su zavijek, ljubavnike sjetne;\nal nebesa plava blagi balzam rose,\n\nmelem nade, i blažen tko ih jednom sretne\nvjerujući u šarna obećanja duge,\ntko ih nađe, Muze naše tlapnje$^{13}$ i tuge!\n\n$^{1}$ Ou sont nos amoureuses? - Gdje su naše dragane? (franc.)\n$^{2}$ Marulova seja - Judita\n$^{3}$ Cvijeta, Flora - dubrovačka književnica\n$^{4}$ Gjivo, Šiško, Gjore - dubrovački renesansni pjesnici\n$^{5}$ dva Dinka - Dinko Ranjina i Dinko Zlatarić, dubrovački renesansni književnici\n$^{6}$ Tasso - talijanski pjesnik, posvetio nekoliko pjesama Cvijeti Zuzorić\n$^{7}$ Zrinjska Katarina - žena hrvatskoga bana Petra Zrinskoga\n$^{8}$ Jelena - kći Petra Zrinskoga i Katarine Zrinski\n$^{9}$ Helena - kraljica Jelena (10. stoljeće), izgradila dvije crkve kod Solina, u jednoj je pokopana\n$^{10}$ Sunčanica i Sokolica - likovi iz Gundulićeva epa Osman\n$^{11}$ Kosara - kći makedonskoga cara\n$^{12}$ Neda - književni lik iz romana Kraljica Lepa Eugena Kumičića\n$^{13}$ tlapnja - ono što se priviđa, bez uporišta u stvarnosti\n\n\n**Oproštaj**\n(u današnjoj transkripciji)\n\nOvdi usrid luke naša mlada plavca\nuzdvigla je jidra voljna, smina i nova.\nI hoteća pojti putom svojeg plova\ngre prez kog vojvode al zakonodavca.\n\nBudi da smo virni krivovirna pravca,\nNištar manje čtimo (koko i zemlja ova)\n- ki va versih libar množ harvacki skova -\nMarulića Marka, splitskog začinjavca.\n\nU lipom jaziku, gdi „ča” slaje zvoni,\nMi dobročasimo garb slovućeg greba\nI tokoj ti napis dijački i stari.\n\nZbogom, o Marule! Pojti ćemo, poni\nŽaju imimo velu sunčenoga neba:\nKorugva nam ćuhta; gremo, mi puntari!\n\n\n**Oproštaj**\n(na suvremenome hrvatskom književnom jeziku)\n\nOvdje je usred luke naša mlada lađa\nuzdignula jedra slobodna, smjela i nova,\ni htijući otploviti svojim putem\nodlazi bez ikakva vođe ili zapovjednika.\n\nAli premda smo vjernici heretičke struje,\nipak štujemo kao i ova zemlja\nsplitskoga pjesnika Marka Marulića,\nkoji je napisao hrvatskih mnogo knjiga u stihovima.\n\nU lijepom jeziku, gdje slađe zvuči „ča”\npozdravljamo grb slavnoga groba,\ni također taj natpis latinski i stari.\n\nZbogom, o Marule! Poći ćemo,\njer silno žeđamo za sunčanim nebom:\nnaš stijeg leprša; odlazimo, o mi, buntovnici!"
+                    },
+                    "questions": [
+                        {
+                            "type": "EssayWriting",
+                            "question": "Smjernice\n• U uvodu:\n- ukratko predstavite autora i djelo\n- u jednoj ili više rečenica oblikujte tvrdnju kojom ćete odgovoriti na polazno pitanje i tako najaviti ono o čemu ćete pisati u središnjemu dijelu eseja.\n\n• U središnjemu dijelu eseja razradite i argumentirajte svoju tvrdnju kojom ste odgovorili na polazno pitanje tako da argumentacija:\n- proizlazi iz razumijevanja pjesničkoga opusa Tina Ujevića\n- proizlazi iz sadržajne i stilske analize polaznih pjesama i njihove uloge u pjesničkome opusu\n- bude povezana s književnopovijesnim kontekstom u kojemu su pjesme nastale.\n\nSvoj tekst rasporedite u odlomke koji su jasno, logično i smisleno povezani.\n• U zaključku sažeto istaknite ono najvažnije o čemu ste pisali u središnjemu dijelu eseja.",
+                            "minWords": 440,
+                            "points": [
+                                {
+                                    "category": "Središnja tvrdnja",
+                                    "points": 6
+                                },
+                                {
+                                    "category": "Argumentacija",
+                                    "points": 6
+                                },
+                                {
+                                    "category": "Povezanost teksta",
+                                    "points": 6
+                                },
+                                {
+                                    "category": "Upotreba rječnika",
+                                    "points": 6
+                                },
+                                {
+                                    "category": "Pravopisna i gramatička točnost",
+                                    "points": 6
+                                }
+                            ],
+                            "examples": [
+                                {
+                                    "title": "Esej 1",
+                                    "text": "\tTin Ujević jedan je od najznačajnijih književnika suvremene hrvatske književnosti. Javio se u književnosti 1914. godine u zajedničkoj zbirci mladih pjesnika Hrvatska mlada lirika koja je najavila nova pjesnička strujanja. Mnoge su njegove pjesme prožete čežnjom za apsolutnom spoznajom svijeta i života i vjerom u pjesničko stvaralaštvo. Stoga se u brojnim svojim pjesmama izravno ili neizravno pita o korijenima toga stvaralaštva. Ujević pronalazi inspiraciju u tradiciji, uspostavlja poseban suodnos sa starim piscima na tematskoj, strukturnoj i idejnoj razini te se istovremeno od njih distancira stvarajući svoj moderni izričaj.\n\tTradiciju kao inspiraciju u pjesmama suvremenoga pjesnika Ujevića može se pratiti na sadržajnoj i stilskoj razini u pjesmama Naše vile i Oproštaj. U pjesmi Naše vile prve su dvije strofe složena retorička pitanja kojima se nostalgično evocira postojanje velikih imena hrvatske književnosti s naglaskom na renesansno i barokno razdoblje. Pjesnik oživljava stare pjesnike (Džoru Držića, Šiška Menčetića, Dinka Ranjinu, Zlatarića), poznate likove stare hrvatske renesansne (Juditu) i barokne književnosti (Dubravku, Sokolicu, Sunčanicu) naglašavajući kontinuitet ženskih likova, koje naziva vilama, tj. muzama. Prisjeća se s ponosom i divljenjem i stvarnih povijesnih osoba - pjesnikinje Cvijete Zuzorić, koja je bila inspiracija mnogim hrvatskim pjesnicima, svojim suvremenicima, ali i talijanskome pjesniku Tassu, nesretne Katarine Zrinski i njezine kćeri Jelene, kraljice Helene. Isprepliću se stvarne i fiktivne osobe, iz čega se može zaključiti kako su izvorišta Ujevićeva stvaralaštva i stvarna povijest i fiktivna povijest - ona književna. Sve su te vile, tj. muze danas banice na otoku za sretne zajedno s onima koji pronose njihovu slavu i koje nadahnjuju. Osim toga, pjesma Naše vile građena je dvanaestercima, što je također poveznica s književnom renesansnom tradicijom.\n\tI dok se s jedne strane Ujević okreće tradiciji kao nepresušnom vrelu svoje poezije progovarajući s divljenjem i nostalgijom o velikim imenima, i stvarnim pjesničkim i fiktivnim likovima, u mnogim pjesmama naglašava se namjera da se prekine veza s tradicijom. Tako u pjesmi Oproštaj uspostavlja poseban suodnos sa splitskim književnikom Markom Marulićem (često nazivanim utemeljiteljem hrvatske književnosti). Lirski subjekt govori lirskim „mi” uime svoje pjesničke generacije. Neobično je i novo i to što pjesnik piše pjesmu na tri različita načina: jezikom starih pjesnika, starim jezikom u današnjoj transkripciji i suvremenim hrvatskim književnim jezikom. U pjesmi Oproštaj jasno se ističe da su suvremeni pjesnici veliki Marulićevi štovatelji, ali su oni svojevrsni heretici jer tu istu tradiciju negiraju jer žele poći svojim putem, broditi svojom „plavcom”. Polaze od tradicije, ali žele kreirati nešto novo. Izborom jezičnih, stilskih i pravopisnih jedinica pjesnik upućuje na Marulića, ali zapravo piše svojom inačicom starohrvatskoga jezika i pravopisa. Intertekstualnim upućivanjem na Marulićevo stvaralaštvo naglašava se suvremeno vrijeme i pravo suvremene književne generacije da se prikloni modernim strujanjima. To je vidljivo i u strukturi - verzija pisana starim jezikom ispjevana je u formi soneta, dok je ona na suvremenom jeziku građena slobodnim stihom. Moderno i tradicionalno ujedinjuju se i u pjesmi Notturno, koja je napisana u vezanom stihu i katrenima građenima pravilnim devetercima (čestim stihom hrvatske poezije), dakle strukturno je tradicionalna, ali se tematski približava modernizmu. U toj se pjesmi, u kojoj intelektualac, umjetnik u samoći umire od ljepote, isprepliću motivi patnje, samoće, ljepote i smrti, u čemu se ogleda utjecaj Baudelairea i Matoša. Ujević u toj pjesmi progovara kao modernistički pjesnik, osamljen i otuđen, ali u pjesništvu pronalazi utjehu i utočište.\n\tMože se zaključiti da se tradicija i stvaralaštvo u Ujevićevu pjesništvu prožimaju - s jedne strane Ujević je svjestan da svakoga čovjeka i pjesnika oblikuju njegova povijest i povijest njegove književnosti, a s druge strane traži uime svoje generacije i u svoje ime pravo na slobodu i pravo na odmak od te tradicije naglašavajući imperativ književnoga stvaralaštva vremena u kojemu je živio, imperativ suvremenoga pjesništva 20. stoljeća - pravo na individualnu stvaralačku slobodu.",
+                                    "points": [
+                                        {
+                                            "category": "Središnja tvrdnja",
+                                            "points": 6
+                                        },
+                                        {
+                                            "category": "Argumentacija",
+                                            "points": 6
+                                        },
+                                        {
+                                            "category": "Povezanost teksta",
+                                            "points": 6
+                                        },
+                                        {
+                                            "category": "Upotreba rječnika",
+                                            "points": 6
+                                        },
+                                        {
+                                            "category": "Pravopisna i gramatička točnost",
+                                            "points": 6
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Esej 2",
+                                    "text": "\tNijedan pisac ne može pobjeći od svoje prošlosti. On uči na stvaralaštvu svojih predaka. Tin Augustin Ujević najvažniji je hrvatski pjesnik svih vremena. U njegovom se stvaralaštvu isprepliću tradicionalni i moderni elementi i o tome ću pisati u daljnjem svojem eseju. Pisao je ljubavne i misaone pjesme i pjesme u kojima razmišlja o ulogi čovjeka u svijetu i čovjeku kojega niko ne razumije.\n\tTradicionalno je ono iz povijesti, najviše je to vidljivo u pjesmi Oproštaj koja je napisana na dva načina: starim i novim jezikom. U prvoj se strofi govori o lađi na kojoj želi odploviti lirski subjekt. Na toj lađi nema zapovjednika. U drugoj strofi pozdravlja Marka Marulića, kojega zove i Marul i vidimo da mu se divi. Želi odploviti na toj lađi s ostalima koje naziva buntovnici. Zadnja je strofa slikovita, leprša zastava pod sunčanim nebom. Dakle, u ovim se pjesmama isprepliću tradicija i moderno po jeziku i spominjanju oca hrvatske književnosti Marka Marulića. Prva je pjesma Oproštaj pisana kao sonet, a druga kao slobodni stihovi, što je isto razlika.\n\tS druge strane, u pjesmi Naše vile spominje jako puno imena iz hrvatske prošlosti: književne likove, povijesne osobe iz stvarnosti. S nostalgijom se pita gdje su svi oni. Vidi se da im se pjesnik divi, zaključuje da su mu one bile inspiracija, zato ih zove muze i vile, ali i tuguje što svih njih više nema. Tu se tradicionalno i moderno isprepliću po tome što su svi koje nabraja u prošlosti, a on ih se sjeća i spominje ih u svojim pjesmama. S treće strane, u pjesmi Notturno govori o nesretnoj ljubavi (plačimo, umrimo). Govori o osjećajima (vjeđe se pote, čelo se žari), uzbuđen je, ljubav je nesretna, ali i lijepa u svojoj nesreći. Na takav je način pisao pjesme Petrarca u humanizmu, a onda su ga oponašali i petrarkisti u renesansi. Oni su u prošlosti, a Ujević je moderan pa se i tako isprepliću.\n\tZnači, možemo zaključiti da se u pjesništvu Tina Ujevića zbilja isprepliću elementi modernoga vremena u kojemu je živio i tradicije. Tradicija je ono što je Ujević naučio od svojih predaka i to je primijenio u svojem pjesništvu. On se sjeća osoba iz prošlosti i piše o njima, piše kao drugi pisci iz prošlosti, npr. petrarkisti, a treći je način ispreplitanja taj da piše starim jezikom, kao pisci u prošlosti, a onda da bi bilo razumljivo prevodi to na suvremeni jezik.",
+                                    "note": "U uvodu nije jasno predstavljen pjesnik niti je odgovoreno na polazno pitanje. Ne navode se argumenti na početku središnjih odlomaka.",
+                                    "points": [
+                                        {
+                                            "category": "Središnja tvrdnja",
+                                            "points": 4
+                                        },
+                                        {
+                                            "category": "Argumentacija",
+                                            "points": 2
+                                        },
+                                        {
+                                            "category": "Povezanost teksta",
+                                            "points": 4
+                                        },
+                                        {
+                                            "category": "Upotreba rječnika",
+                                            "points": 4
+                                        },
+                                        {
+                                            "category": "Pravopisna i gramatička točnost",
+                                            "points": 4
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Esej 3",
+                                    "text": "\tVeliki hrvatski pjesnik Tin Ujević javio se u književnosti 1914. godine i pisao je sve do svoje smrti 1955. godine. Za života je objavio nekoliko zbirka pjesama među kojima su npr. Lelek sebra, Kolajna i Auto na korzu. U mnogim je svojim pjesmama spajao moderne i tradicionalne pjesme, koristeći povijest i povijesne i književne likove kao inspiraciju i teme za svoje pjesme (Naše vile), eksperimentirajući starim pravopisom i jezikom (Oproštaj) ili oponašajući stil pjesama pjesnika iz povijesti, npr. petrarkista (Notturno), a izraz je u svim tim pjesmama moderan.\n\tU prvim je svojim pjesmama zapitan nad smislom čovjekova postojanja, često se obraća Bogu u biblijskome stilu, što je također poveznica s tradicijom i tradicionalnom biblijskom književnošću i biblijskim stilom (npr. pjesma Svakidašnja jadikovka). Budući da je za života mnogo putovao, česti su motivi putovanja, ceste, plovidbe. U nekima od njih, npr. u pjesmi Odlazak nostalgično se prisjeća rodnoga kraja, koji doživljava svim osjetilima (miris kalopera, malena mjesta). Želi tamo putovati, vratiti se prirodi i poznatim lokalitetima (Brač, Imotski). Motiv putovanja, plovidbe, naglašen je u pjesmi Oproštaj. Hrvatski su petrarkisti, npr. Mavro Vetranović, pjevali o putovanju plavcom, zapravo govoreći o životnome putovanju. Tako je i putovanje Ujevićevom plavcom alegorijsko - plovidba je to nove pjesničke generacije koja kreće novim putem.\n\tU pjesmama iz zbirke Kolajna Ujević traži savršenu, idealnu ženu, ali je ne pronalazi. Traži je kako bi mu ona bila inspiracija, utjeha i ljubav, smisao i razlog života. Ta žena ne uzvraća ljubav ili je uzvraća kratko (kao u pjesmi Notturno). Ujević se pjesmama obraćao mnogim ženama u svojemu životu. Neke su bile književni likovi, neke kraljice. On ih je nazivao muzama i vilama, kao u pjesmi Naše vile. To su npr. Judita, Dubravka, Cvijeta, kraljica Jelena. Govori retoričkim pitanjima kako su one sad samo prošlost, ali žive u njegovim pjesmama, potiču ga na stvaralaštvo i rastužuju ga.\n\tStremio je u svojim pjesmama i svemirskim visinama, dizanju uvis, izdvajanju iz kolektiva i iz mase (Visoki jablani). Izdvojeni su pojedinci često tada usamljeni i neshvaćeni, što je česta tema tadašnje poezije (npr. Cesarić, Oblak), a često su to pjesnici. U Ujevićevoj je poeziji čest motiv zvijezda, kao i kod Antuna Branka Šimića.\n\tS obzirom na sve navedeno može se zaključiti da je Tin Ujević veliko ime hrvatske poezije. Spaja i isprepliće moderne i tradicionalne elemente u svojim pjesmama, prisjeća se starih pjesnika i staroga jezika, ali stalno poput usamljenog pojedinca 20. st. i neshvaćenoga pjesnika stoji izdvojen poput jablana među ljudima.",
+                                    "note": "Nedostaje stilska analiza polaznih tekstova. U prvome se i trećemu odlomku razrade udaljava od središnje tvrdnje.",
+                                    "points": [
+                                        {
+                                            "category": "Središnja tvrdnja",
+                                            "points": 4
+                                        },
+                                        {
+                                            "category": "Argumentacija",
+                                            "points": 2
+                                        },
+                                        {
+                                            "category": "Povezanost teksta",
+                                            "points": 4
+                                        },
+                                        {
+                                            "category": "Upotreba rječnika",
+                                            "points": 6
+                                        },
+                                        {
+                                            "category": "Pravopisna i gramatička točnost",
+                                            "points": 6
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Esej 4",
+                                    "text": "Tin Ujević je napisao sljedeće zbirke pjesama: Lelek srebra, Kolajna, Žedan kamen na studencu, Ojađeno zvono i Auto na korzu. Te zbirke eseja Ljudi za vratima gostionice i Skalpel kaosa. Bio je bohem i svjecki putnik. Bio je u Beogradu i Parizu i općenito je mnogo putovao i prevodio s Francuskog jezika. Rođen je krajem 19. stoljeća u malom mjestu Vrgorac, školovao se u Imotskom, Splitu i Rimu. Čitali smo njegovu pjesmu Svakdašnja jadikovka u kojoj se obraća Bogu i moli ga kao njegov sin za pomoć jer gazi po ovome svijetu po trnju i kamenju, a pomoći nema i nema. U pjesmi Visoki jablani uspoređuje jablane koji se penju visinama, baš kao i neki ljudi, npr. pjesnici. Odgovor na polazno pitanje je da je Tin Ujević moderni pjesnik, ali je izašao iz povijesti i davnine koju poštiva i u ovom ću eseju pisati o njegovim pjesmama koje su nam zadatak za esej.\nDobili smo tri pjesme: Naše vile, Notturno i dvije pjesme Oproštaja. Najviše mi se sviđa Naše vile jer ima puno retoričkih pitanja i nabrajaju se hrvatske vile. Svima im se Ujević divi i zove ih muzama jer su mu inspiracija za pisanje. U pjesmi Oproštaj spominje oca hrvatske književnosti Marka Marulića u trećoj strofi i pozdravlja buntovnika Marula u četvrtoj. Pjesma Notturno govori o ljubavi, strasti, patnji i umiranju. Ako pogledamo stil, najjednostavnija je pjesma o noćnoj ljubavi, dok su su Oproštaj i Naše vile prepune nepoznatih riječi što ih čini nejasnima i nerazumljivim. Pjesma Naše vile ima 3 kitice po osam stihova, a druge dvije imaju 2 kitice po četiri stiha i jedna još 2 po tri stiha što se zove sonet. U pjesmi Notturno je anafora, ponavlja se noćas se, noćas se. Najvažnije su metafore: nimfe i melem iz prve pjesme, zublja u drugoj, a u trećoj ih nema. Poredbe su: bijele poput krina, kao biser rane rose, a epiteti: ljubavnike sjetne, melem, blijedi mjeseci, sunčano nebo. Sve to lijepo i neopisivo ukrasuje pjesme i čini ih posebnima te tjera uvijek na ponovo čitanje i razmišljanje.\nNakon što sam sadržajno i stilski analizirao pjesme prelazim na književnopovijesni kontekst u kojem je Ujević stvarao. S njim su usporedno pisali veliki pjesnici Dobriša Cesarić i Dragutin Tadijanović, koji je živio najduže od svih pjesnika, više od sto godina, a bio je iz Rastušja u Slavoniji. Najpoznatija je Cesarićeva pjesma Voćka poslije kiše, a Tadijanovićeva Da sam ja učiteljica. Tu spada i Miroslav Krleža (U agoniji, Leda, Gospoda Glembajevi), a još i puno drugih pjesnika i drukčijih pisaca. Snjima je Ujević pisao, a svi su pisali o teškim temama suvremenih ljudi, o otuđenju i samoći kao Ujević u gore spomenutoj Svakdašnjoj jadikovki.\nNajvažnije što mogu napisati o Ujeviću u zaključku je to da je bio, iako je pio po krčmama, veliki pjesnik, što argumentiram zato jer je izabran za maturu, možda ne svima razumljiv, ali poseban i zbilja bi ga se moglo preporučiti svakome za čitati.",
+                                    "note": "Dotaknuta je sadržajna i stilska analiza polaznih pjesama. Podatci izneseni u eseju nisu pogrešni, ali argumentacija je površna te se tekst u nekim dijelovima udaljava od središnje tvrdnje. Tekst je nepovezan i nije pisan objektivnim stilom.",
+                                    "points": [
+                                        {
+                                            "category": "Središnja tvrdnja",
+                                            "points": 2
+                                        },
+                                        {
+                                            "category": "Argumentacija",
+                                            "points": 2
+                                        },
+                                        {
+                                            "category": "Povezanost teksta",
+                                            "points": 0
+                                        },
+                                        {
+                                            "category": "Upotreba rječnika",
+                                            "points": 2
+                                        },
+                                        {
+                                            "category": "Pravopisna i gramatička točnost",
+                                            "points": 2
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Esej 5",
+                                    "text": "Tin Ujević se zapravo zvao Augustin Tin Ujević i stvarao je u avangardi kamo spadaju futurizam, ekspresionizam, dadaizam i ostali izmi, npr. ekspresionizam. Bio je u prvom svjetskom ratu i pobjegao u Makedoniju pa je dobio tuberkolozu. Kad se vratio napisao je Oproštaj, ali i Naše vile i Notturno. O njima ću pisati u polaznom pitanju. Kad su nastale? O čemu govore? Kome ih upućuje? Nije lako na to odgovoriti ali eto pokušaj će biti u eseju.\nU prvoj se pjesmi pita gdje su mu dragane, tj ljubavnice, a to su Cvijeta, Dubravka, Judita, ali i vile od Gjore, Šiška, dva Dinka i Tassa. Svi su se oni jako voljeli. U drugoj pjesmi koje se događa u noći piše da mu se čelo žari i da će umrijeti od ljepote, vjerojatno od ljubavi. Ali onda pjesmu završava s motivima plača i umiranja što ju čini tragičnom. U pjesmi Oproštaj piše na dva načina: starinski i moderni. Zamišlja da plovi s Markom Marulićem, a onda ga pozdravlja jer je on mrtav. Vidi se da je prva pjesma nastala u prošlosti, a druga u sadašnjosti jer je prva itekako ne razumljiva i ne sigurna u značenje. U pjesmama baš nema uočljivijih stilskih sredstava pa se na tome neću zadržavati.\nPrelazim na odgovore na polazno pitanje. Što mladom čovjeku koji je učenik znači nešto iz prošlosti? Znači mu ako razumije, a ako ne onda mu je samo muka i dugo se muči da bi razumio nešto tako dubokoumno. Ne znam da li je Tin Ujević još živ da ga stavim u književnopovijesni kontekst ali bi ga željela pitati o čemu bi danas pisao da bude i tradicionalan i moderan. Ne bi samo nas smjeli pitati o njima piscima nego bi i mi nje pitali ko su i što su i zašto su pisali. Ja priznam da nikad nisam uspjela napisati pjesmu ali ko zna, život je dug i nepredviđen i ko zna što nas čeka iza ugla, kakvo nam život iznenađenje sprema.\nZato iskoristimo svaki dan, živimo punim plućima kao da nam je posljednji, plovimo kao Marulić u luci, pod sunčanim nebom, budimo buntovnici. Moramo probati i čitati jer ako čitamo svaćat ćemo više i više i možda jednoga dana uspijemo napisati bolje i ljepše nego što smo pisali do sada.\nNa kraju hvala Ujeviću za ove lijepe pjesme i još lijepše koje ima a nismo stigli pročitati. Mi maturanti imamo puno obaveza i naj važnije nam je imati dosta riječi i proći maturu, a pogotovo baš sad kad ima i prag.",
+                                    "note": "Neispunjen zadatak. Školski esej nema razrađenu središnju tvrdnju. Argumentacija je izostala.",
+                                    "points": [
+                                        {
+                                            "category": "Središnja tvrdnja",
+                                            "points": 0
+                                        },
+                                        {
+                                            "category": "Argumentacija",
+                                            "points": 0
+                                        },
+                                        {
+                                            "category": "Povezanost teksta",
+                                            "points": 0
+                                        },
+                                        {
+                                            "category": "Upotreba rječnika",
+                                            "points": 0
+                                        },
+                                        {
+                                            "category": "Pravopisna i gramatička točnost",
+                                            "points": 0
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "potentialPoints": 30
+        }
+    ]
+}
