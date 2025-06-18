@@ -22,10 +22,15 @@ jobs:
         go-version: '1.21'
 
     - name: Install ffmpeg
-      run: sudo apt-get update && sudo apt-get install -y ffmpeg
+      run: sudo apt-get install -y ffmpeg
 
     - name: Run Go program
       run: go run .
+
+    - name: Copy files from ./html to ./source
+      run: |
+        mkdir -p ./source
+        cp -r ./html/* ./source/
 
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v4
