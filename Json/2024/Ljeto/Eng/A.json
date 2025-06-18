@@ -1,0 +1,953 @@
+{
+    "name": "Engleski",
+    "level": "A",
+    "scale": {
+        "range1": [
+            0,
+            35.99
+        ],
+        "range2": [
+            36,
+            55.99
+        ],
+        "range3": [
+            56,
+            73.99
+        ],
+        "range4": [
+            74,
+            86.99
+        ],
+        "range5": [
+            87,
+            100
+        ]
+    },
+    "maxPoints": 85,
+    "sections": [
+        {
+            "name": "Čitanje",
+            "predictedTime": 70,
+            "instructions": "Pozorno pročitajte sve upute i slijedite ih.\nIspit čitanja traje 70 minuta.\n\nIspit se sastoji od zadataka povezivanja, zadataka višestrukoga izbora i kombiniranih zadataka dopunjavanja.\n- U zadatcima povezivanja svaki sadržaj označen brojem povežite samo s jednim odgovarajućim sadržajem koji je označen slovom (zadatak 1).\n- U zadatcima višestrukoga izbora od više ponuđenih odgovora odaberite samo jedan (zadatak 2).\n- U kombiniranim zadatcima odaberite samo jedan sadržaj koji najbolje nadopunjava tekst (zadatci 3, 4 i 5).\n\nKada riješite zadatke, provjerite odgovore.\nŽelimo Vam mnogo uspjeha!",
+            "questionGroups": [
+                {
+                    "info": "You are going to read an article in which people talk about holidays.\nFor each question (1-12), choose one person from A-F.\nThere is an example at the beginning (0-A).",
+                    "questions": [
+                        {
+                            "type": "MatchThePairs",
+                            "whatFirst": "letters",
+                            "options": [
+                                {
+                                    "id": "A",
+                                    "type": "letter",
+                                    "textOrAudio": "I’d always wished I’d been to the tropics, so when I saw the advert for a Caribbean cruise, I was over the moon. Considering the facilities and locations, it’s really quite reasonable. For one of the destinations, I had to get a visa at short notice, and I was on pins and needles until it arrived, I can tell you. I’ve not been at my best recently, with work being so stressful, and I’m anticipating there’ll be some therapeutic benefits from this trip. Everyone in the office is jealous - they’re saying it’s going to be so cool!"
+                                },
+                                {
+                                    "id": "B",
+                                    "type": "letter",
+                                    "textOrAudio": "This year I’ve decided to push the boat out and visit a Greek island. It’s something I’ve always longed to do, and I fly out in June. It was a snap decision in the end, and I was worried that the villa was rather steep, but the sea views look fantastic. According to ‘Healthy Living’ magazine’s recommendation, it’s a winning location. The island has lots of places to visit, and they accommodate groups or single travellers, so I’m looking forward to an interesting time. I’ve gone self-catering, mind you: I hope getting supplies won’t be a headache."
+                                },
+                                {
+                                    "id": "C",
+                                    "type": "letter",
+                                    "textOrAudio": "If you’d told me six months ago that I’d be going on a proper safari, I’d have laughed, but all those years of filling in magazine coupons have paid off at last. A fortnight in Namibia - I can hardly believe my luck! I didn’t expect to have so many shots to be honest, but that’s a small price to pay, when you consider what’s in store. We tour around a national park from our base camp, dropping in at various lookouts and stations every day. I’m relaxed about everything but the heat: that could be an uphill struggle."
+                                },
+                                {
+                                    "id": "D",
+                                    "type": "letter",
+                                    "textOrAudio": "We’re creatures of habit, so it’s the good old canal barge this summer. Moving along at four miles per hour is super-chilled, and it’s amazing how much you see en route: kingfishers and otters, for example. You overnight at pubs or marinas along the way, and there’s always some entertaining company to inject some humour into our evenings. They do say that laughter is the best medicine. We only worry about what to eat when we get hungry. Eating out every night can be a bit pricey, but that’s the last thing we’re worried about at our age."
+                                },
+                                {
+                                    "id": "E",
+                                    "type": "letter",
+                                    "textOrAudio": "It’s the standard package holiday this year for us. You can’t beat it - everything’s paid for, so you can eat and drink as much as you like, there’s a water park for the youngsters and the nightlife is pretty good too. It’s a win-win situation, really - and you can book everything in no time at all. When it comes to holidays, you name it, we’ve done it, but this one just ticks every box. My wife is worried though: she says where’s the fun when you get it all handed to you on a plate?"
+                                },
+                                {
+                                    "id": "F",
+                                    "type": "letter",
+                                    "textOrAudio": "It’ll be walking in the Alps this time. We’ve hired a villa in the Tyrol and we’re going with some neighbours. They fancied the Rockies, but this is the best we can do. Although the climbing will be quite demanding compared to East Anglia, once we’ve got a second wind it should be OK - fingers crossed! I’ve no doubt Derek will take his time as usual, snapping photographs, but that’ll give the rest of us a chance to catch our breath. One thing I’m a bit worried about is whether we will have packed enough layers to wear."
+                                },
+                                {
+                                    "id": "0",
+                                    "type": "number",
+                                    "textOrAudio": "Which person had always regretted not going somewhere?"
+                                },
+                                {
+                                    "id": "1",
+                                    "type": "number",
+                                    "textOrAudio": "Which person is going on the holiday they normally take?"
+                                },
+                                {
+                                    "id": "2",
+                                    "type": "number",
+                                    "textOrAudio": "Which person is anticipating cold temperatures?"
+                                },
+                                {
+                                    "id": "3",
+                                    "type": "number",
+                                    "textOrAudio": "Which person won their holiday in a competition?"
+                                },
+                                {
+                                    "id": "4",
+                                    "type": "number",
+                                    "textOrAudio": "Which person considers their holiday the ultimate choice?"
+                                },
+                                {
+                                    "id": "5",
+                                    "type": "number",
+                                    "textOrAudio": "Which person is surprised at the medical requirements for the holiday?"
+                                },
+                                {
+                                    "id": "6",
+                                    "type": "number",
+                                    "textOrAudio": "Which person considers their holiday comparatively cheap?"
+                                },
+                                {
+                                    "id": "7",
+                                    "type": "number",
+                                    "textOrAudio": "Which person is anxious about ascents?"
+                                },
+                                {
+                                    "id": "8",
+                                    "type": "number",
+                                    "textOrAudio": "Which person only spent a short time considering their booking?"
+                                },
+                                {
+                                    "id": "9",
+                                    "type": "number",
+                                    "textOrAudio": "Which person is taking a holiday on a small vessel?"
+                                },
+                                {
+                                    "id": "10",
+                                    "type": "number",
+                                    "textOrAudio": "Which person is hoping the holiday will have medical benefits?"
+                                },
+                                {
+                                    "id": "11",
+                                    "type": "number",
+                                    "textOrAudio": "Which person will stay in different places over the holiday?"
+                                },
+                                {
+                                    "id": "12",
+                                    "type": "number",
+                                    "textOrAudio": "Which person is concerned about the food that will be available?"
+                                }
+                            ],
+                            "pairs": [
+                                {
+                                    "number": "0",
+                                    "letter": "A",
+                                    "isExample": true
+                                },
+                                {
+                                    "number": "1",
+                                    "letter": "D"
+                                },
+                                {
+                                    "number": "2",
+                                    "letter": "F"
+                                },
+                                {
+                                    "number": "3",
+                                    "letter": "C"
+                                },
+                                {
+                                    "number": "4",
+                                    "letter": "E"
+                                },
+                                {
+                                    "number": "5",
+                                    "letter": "C"
+                                },
+                                {
+                                    "number": "6",
+                                    "letter": "A"
+                                },
+                                {
+                                    "number": "8",
+                                    "letter": "B"
+                                },
+                                {
+                                    "number": "9",
+                                    "letter": "D"
+                                },
+                                {
+                                    "number": "10",
+                                    "letter": "A"
+                                },
+                                {
+                                    "number": "11",
+                                    "letter": "D"
+                                },
+                                {
+                                    "number": "12",
+                                    "letter": "B"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "info": "Read the text below.\nFor each question (13-18), choose the correct answer (A, B, C or D).\nMark your answer on the answer sheet.",
+                    "initialText": {
+                        "title": "Trees and Green Spaces in Cities",
+                        "text": "“Trees provide nesting sites, food, and cover for countless species living around us. Of course,” Tom Baker says, “as students of architecture we used to refer to trees as graceful supplements making a house feel like a home and enriching the view from the window, which they still very much do.” They also help clear the atmosphere by decreasing pollution. Trees cool the air, land and water with leafy shade and moisture. Those planted near our homes and in our community reduce the need for air-conditioning and heating produced by burning fossil fuels. And the list goes on and on.\n\nFast-forward a decade, and Tom Baker is head of ‘The Green Spaces Initiative’ in Brookson. He says green spaces can contribute to a more liveable, sustainable, and economically strong city that improves the quality of life of its inhabitants. Urban planning thus requires careful consideration of the environmental impact of city life, including the attempt to reduce CO2 emissions, and of various other factors, such as local demographics, social or cultural values, and economic development. Apart from the traditionally accepted view that they provide spaces for recreation and relaxation, a wide range of experts have confirmed that areas of greenery enhance biodiversity. After a local opinion poll, another interpretation has emerged, defining them as places where people can interact.\n\nIt is estimated that, ideally, everyone should live within 500 metres of a green space. Despite that, it is not uncommon for city planners to overlook the inclusion of green spaces, especially in highly urbanised areas where there is little room for property development. City planners may prioritise economic development and infrastructure over green spaces although there is now a common understanding of their benefits. Whether or not humans have interfered with the development of a green area determines whether it is considered to be natural. This will lead either to revitalising it or protecting it for its significance to the environment.\n\nIn general, however, incorporating green spaces in cities is crucial and it requires constant campaigning to raise awareness among citizens of its numerous benefits. Tom adds: “An example is that spending time in a park can be a great family- and community-building activity, such as sharing a birthday or playing games, or that trees can reduce harmful substances, lowering the incidence of respiratory problems. While we’re currently promoting the latest data referring to the reduction of stress levels and anxiety, next in line is that parks can create a sense of place, adding character to urban areas.”\n\nIn short, there is no doubt that green spaces are beneficial for the environment and the community. Nevertheless, one major challenge remains: many cities have already grown so packed that large swathes of parks and forest trails are nearly impossible to establish as it would be too expensive to bring down existing blocks of housing. A solution may be creating mini forests in the smaller spaces, growing up to 30 times as fast as conventional ones. This involves planting a limited number of native species in a small space to produce a thick forest that could prove efficient in remediating soil and supplying animal habitats.\n\n“Many cities have underutilised spaces, such as carparks, abandoned buildings and vacant lots. If they wanted, local authorities could convert them into parks, community gardens, green roofs, and other types of urban green infrastructure. Maintaining biodiversity for any green area is key for its own and human survival in general,” states Tom. “Governments could also encourage local participation through petitions or complaints as well as involvement in the creation and maintenance of green spaces, as they are increasingly considered to minimise the influence of pollutants. This could be done through volunteer programmes, community garden initiatives, and other community-based programmes.”"
+                    },
+                    "questions": [
+                        {
+                            "type": "SingleChoice",
+                            "question": "Which statement about trees reflects Tom Baker’s initial professional interest in trees?",
+                            "choices": [
+                                "They remove CO2 from the atmosphere.",
+                                "They bring songbirds and wildlife close by.",
+                                "They make a neighbourhood more beautiful.",
+                                "They reduce the heat from streets and buildings."
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "What are the benefits of more parks and green spaces, according to Brookson’s residents?",
+                            "choices": [
+                                "They reduce social isolation.",
+                                "They lower their carbon footprint.",
+                                "They produce habitats for many species.",
+                                "They present more opportunities for exercise."
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Why are green spaces often not included in city planning?",
+                            "choices": [
+                                "Because of the cities’ low housing budgets.",
+                                "Because humans have changed them beyond return.",
+                                "Because people fail to realise how important green spaces are.",
+                                "Because in congested parts of the city space is in high demand."
+                            ],
+                            "correctChoice": "D"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Which slogan would summarise Tom’s most recent campaign for making green spaces more popular?",
+                            "choices": [
+                                "Green spaces remove pollutants.",
+                                "Green spaces improve mental health.",
+                                "Green spaces are educational and fun.",
+                                "Green spaces develop the identity of cities."
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "How can green spaces be developed in urban areas?",
+                            "choices": [
+                                "By employing rapid-growth techniques.",
+                                "By removing old buildings to insert green spaces.",
+                                "By letting existing green areas and natural forests grow.",
+                                "By planting numerous tree species to restore deteriorated land."
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "In the last paragraph, what does Tom say should be given priority when planning a green space?",
+                            "choices": [
+                                "The opinions and attitudes of the local population.",
+                                "The local government’s plans for a particular area.",
+                                "The provision of habitats for local plant and animal species.",
+                                "The reduction of the environmental impact of life in city areas."
+                            ],
+                            "correctChoice": "C"
+                        }
+                    ]
+                },
+                {
+                    "info": "Read the text on the next page.\nFor each question (19-24), choose the sentence (A-H) that best fits the gap.\nThere are two sentences that you do not need.\nThere is an example at the beginning (0-I).",
+                    "initialText": {
+                        "title": "Downshifting",
+                        "text": "The paradigm of the career ladder has long been promoted by employment services and recruitment agencies. (0) ___. Therefore, current developments in Western Europe, where city slickers are becoming brewers and executives are picking up power tools, are certainly something that is upsetting the applecart.\n\nStatistics show that, at the start of 2022, one fifth of French people were in the process of changing jobs and over a quarter were thinking about it. In general, labour markets have become less regulated and more insecure for workers. (19) ___. English has a word for it - ‘downshifting’ - signifying a career change to an activity perhaps less well paid, but offering better job satisfaction.\n\nCommentators are perplexed by what appears to run counter to perceived wisdom on social mobility and aspiration. Millennials and younger generations in society must increasingly make do with jobs less prestigious than their parents’ or for which they are overqualified. (20) ___. What are we to make, therefore, of the manager who actively wants to become a cheese maker?\n\nA recent study in France has lifted the lid on what is going on, providing an insight into new motivations and aspirations. The first takeaway is that career switchers’ attitude to employment is ‘experiential’: they prize fulfilment over material reward. (21) ___. Some access benefits during retraining; others have income from family or savings to fall back on. Their existing qualifications and CV offer them an escape route should things not work out. In some ways, it is the best of both worlds.\n\nThe new career may not offer the kudos, social opportunities or financial reward they might otherwise expect, but the experiential perspective results in a change in expectation. (22) ___. As a result, they rarely feel a loss of status; indeed, they are more likely to report an increased sense of ‘meaning’ in their new job.\n\nThis brings us to the second major conclusion of the study, which has more to do with the nature of the employment being abandoned. (23) ___. This is manifested in rejection of an unhealthy sedentary existence, as well as the narrow focus of stratified work in a large faceless company. They complained of an increasing feeling of disconnection from a higher sense of vocation in what they were doing. Some went further, describing modern career structures and lifestyles as devoid of purpose and even meaningless.\n\nIn stark contrast, manual activity offers the gratification of physical involvement. There are perceived benefits to mind and body. (24) ___. This is completely in opposition to the soul-destroying tedium of a corporate culture of meetings, reports and hierarchies, where the division of labour means that workers can never physically hold the fruits of their labour. Of course, disturbing developments worldwide have contributed to this reordering of priorities but, ultimately, a concern with autonomy is what is driving these changes. The retrained craftsperson is more likely to be involved with all aspects of production and to see palpable results from their efforts. This, it seems, trumps old notions of ‘a secure job.’"
+                    },
+                    "questions": [
+                        {
+                            "type": "FillInChoices",
+                            "showAnswers": true,
+                            "correctChoices": [
+                                {
+                                    "index": 0,
+                                    "letter": "I",
+                                    "answers": [
+                                        "Offspring securely employed in administrative or professional occupations is the holy grail of ambitious parents all over the world."
+                                    ],
+                                    "isExample": true
+                                },
+                                {
+                                    "index": 19,
+                                    "letter": "D",
+                                    "answers": [
+                                        "Part of this trend is that professionals are enthusiastically embracing ‘trades’, as they were once dismissively termed."
+                                    ]
+                                },
+                                {
+                                    "index": 20,
+                                    "letter": "H",
+                                    "answers": [
+                                        "This is characterised as an unfortunate, even unfair, imposition."
+                                    ]
+                                },
+                                {
+                                    "index": 21,
+                                    "letter": "C",
+                                    "answers": [
+                                        "That said, they often have the reassurance of a safety net."
+                                    ]
+                                },
+                                {
+                                    "index": 22,
+                                    "letter": "A",
+                                    "answers": [
+                                        "They are less likely to focus on these aspects and more on the notion of job satisfaction."
+                                    ]
+                                },
+                                {
+                                    "index": 23,
+                                    "letter": "F",
+                                    "answers": [
+                                        "Many respondents reported being put off by the idea of a lifetime spent at a desk interacting with a computer screen."
+                                    ]
+                                },
+                                {
+                                    "index": 24,
+                                    "letter": "B",
+                                    "answers": [
+                                        "The work has immediacy and tangible results."
+                                    ]
+                                },
+                                {
+                                    "letter": "E",
+                                    "answers": [
+                                        "Losing a job can be a shock to the system and have unexpected results."
+                                    ]
+                                },
+                                {
+                                    "letter": "G",
+                                    "answers": [
+                                        "There is a measurable increase in spirituality."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "info": "Read the text below.\nFor each question (25-32), choose the answer (A, B, C or D) that best completes the sentence.\nThere is an example at the beginning (0-A).",
+                    "initialText": {
+                        "title": "Losing an Accent",
+                        "text": "Everybody has an accent. Listening to accents we can immediately make (0) ___ about our interlocutors. The way someone talks (25) ___ to their identity. So why is it that some people lose their regional or national accent, (26) ___ for others it remains firmly in place? You may consider your accent to be immutable, but research shows that at any point in our lives the need to conform may alter - on a conscious or subconscious level - our vocal production, (27) ___ we like it or not.\n\nIn the case of those whose accents do shift, the way (28) ___ which they speak may be of less importance to their sense of identity, or it may be that it is their need to belong to a social or professional group that causes the change. As young children, we are exposed to a relatively small social group we learn to imitate. As we encounter wider societal groupings this same instinct to assimilate (29) ___ us to modify our speech patterns accordingly. The process can repeat itself multiple times in a person’s life as variations in work or location occur.\n\nOf course, there are others (30) ___ voices remain impervious to change. It is possible that this reflects a sense of security in cultural identity, or perhaps an urge to identify with (or even advertise) their original background rather than any new environment where they find themselves. In addition, (31) ___ a person possess the accent of what is deemed to be a prestigious group in society, they will consequently feel (32) ___ pressure to abandon that advantage. This confirms speech’s crucial role in our sense of identity. Accents are all around us!"
+                    },
+                    "questions": [
+                        {
+                            "type": "SingleChoice",
+                            "question": "0",
+                            "choices": [
+                                "assumptions",
+                                "allowances",
+                                "determinations",
+                                "prejudices"
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "25",
+                            "choices": [
+                                "contrasts",
+                                "consents",
+                                "contributes",
+                                "concurs"
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "26",
+                            "choices": [
+                                "as",
+                                "while",
+                                "maybe",
+                                "again"
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "27",
+                            "choices": [
+                                "whether",
+                                "although",
+                                "unless",
+                                "as"
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "28",
+                            "choices": [
+                                "by",
+                                "of",
+                                "on",
+                                "in"
+                            ],
+                            "correctChoice": "D"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "29",
+                            "choices": [
+                                "would cause",
+                                "might cause",
+                                "must have caused",
+                                "could have been causing"
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "30",
+                            "choices": [
+                                "who’s",
+                                "where",
+                                "which",
+                                "whose"
+                            ],
+                            "correctChoice": "D"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "31",
+                            "choices": [
+                                "could",
+                                "shall",
+                                "should",
+                                "would"
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "32",
+                            "choices": [
+                                "low",
+                                "high",
+                                "less",
+                                "more"
+                            ],
+                            "correctChoice": "C"
+                        }
+                    ]
+                },
+                {
+                    "info": "Read the text on the next page.\nFor each question (33-40), choose the answer (A-M) that best completes the sentence.\nThere are five options that you do not need.\nThere is an example at the beginning (0-N).",
+                    "initialText": {
+                        "title": "The Future with ChatGPT",
+                        "text": "ChatGPT defines (0) ___ as a state-of-the-art AI language model developed by OpenAI. It is a Generative Pre-trained Transformer (GPT) model that (33) ___ deep learning techniques to generate human-like text based on the input provided. It consists of a massive corpus of diverse internet content, including webpages, books, essays, and other publicly available text sources. However, ChatGPT answers users’ requests based on these sources, but without credits or reference (34) ___ where the information comes from, which poses a huge copyright problem, particularly because of ChatGPT’s widespread usage (35) ___ students, especially in completing academic assignments.\n\nThe AI model (36) ___ various language tasks such as answering questions, generating creative writing, and translating text. Although mimicking human conversation is, in fact, (37) ___ main feature, ChatGPT has other capabilities as well. This includes storing previous conversations to be recalled when and where necessary, or writing and debugging computer programs, answering test questions (sometimes at a level higher than the average human test-taker), composing song lyrics, simulating an entire chat room, and even playing games like tic-tac-toe. As impressive as this may sound, ChatGPT’s features are creating legal and ethical problems that will have to be discussed and solved in the future.\n\nAnother ethical concern the model (38) ___ is plagiarism. Educational institutions are hugely concerned (39) ___ the originality of the work that students submit. Unfortunately, ChatGPT has made this problem even more serious by making it easier for students to plagiarise almost undetected. While (40) ___ have been AIs developed with the sole purpose of detecting AI-written content, the tools are not 100% accurate and they may pronounce a human-written text as AI-generated and vice versa.\n\nIt can be concluded that ChatGPT has been given many positive reviews but has also received a lot of criticism since appearing in 2022."
+                    },
+                    "questions": [
+                        {
+                            "type": "FillInChoices",
+                            "showAnswers": true,
+                            "correctChoices": [
+                                {
+                                    "index": 0,
+                                    "letter": "N",
+                                    "answers": [
+                                        "itself"
+                                    ],
+                                    "isExample": true
+                                },
+                                {
+                                    "index": 33,
+                                    "letter": "H",
+                                    "answers": [
+                                        "uses"
+                                    ]
+                                },
+                                {
+                                    "index": 34,
+                                    "letter": "F",
+                                    "answers": [
+                                        "to"
+                                    ]
+                                },
+                                {
+                                    "index": 35,
+                                    "letter": "K",
+                                    "answers": [
+                                        "by"
+                                    ]
+                                },
+                                {
+                                    "index": 36,
+                                    "letter": "B",
+                                    "answers": [
+                                        "does"
+                                    ]
+                                },
+                                {
+                                    "index": 37,
+                                    "letter": "G",
+                                    "answers": [
+                                        "its"
+                                    ]
+                                },
+                                {
+                                    "index": 38,
+                                    "letter": "D",
+                                    "answers": [
+                                        "raises"
+                                    ]
+                                },
+                                {
+                                    "index": 39,
+                                    "letter": "I",
+                                    "answers": [
+                                        "about"
+                                    ]
+                                },
+                                {
+                                    "index": 40,
+                                    "letter": "C",
+                                    "answers": [
+                                        "there"
+                                    ]
+                                },
+                                {
+                                    "letter": "A",
+                                    "answers": [
+                                        "proposes"
+                                    ]
+                                },
+                                {
+                                    "letter": "E",
+                                    "answers": [
+                                        "their"
+                                    ]
+                                },
+                                {
+                                    "letter": "J",
+                                    "answers": [
+                                        "for"
+                                    ]
+                                },
+                                {
+                                    "letter": "L",
+                                    "answers": [
+                                        "those"
+                                    ]
+                                },
+                                {
+                                    "letter": "M",
+                                    "answers": [
+                                        "makes"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "potentialPoints": 40
+        },
+        {
+            "name": "Pisanje",
+            "predictedTime": 75,
+            "instructions": "Pozorno pročitajte sve upute i slijedite ih.\nIspit pisanja traje 75 minuta.\n\nIspit se sastoji od zadatka eseja.\nEsej napišite slijedeći priloženu uputu i smjernice za pisanje eseja.\n\nŽelimo Vam mnogo uspjeha!",
+            "questionGroups": [
+                {
+                    "info": "Write an essay of 200-250 words.\nYour essay must have an introduction, body and conclusion.\n\nDiscuss both of these views and give your own opinion.",
+                    "questions": [
+                        {
+                            "type": "EssayWriting",
+                            "question": "Some people believe the Internet is a reliable source of healthcare information.\nOthers claim it cannot replace a visit to the doctor.",
+                            "minWords": 200,
+                            "maxWords": 250,
+                            "points": [
+                                {
+                                    "category": "Izvršenje zadatka",
+                                    "points": 5
+                                },
+                                {
+                                    "category": "Koherencija i kohezija",
+                                    "points": 5
+                                },
+                                {
+                                    "category": "Vokabular",
+                                    "points": 5
+                                },
+                                {
+                                    "category": "Gramatika",
+                                    "points": 5
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "potentialPoints": 20
+        },
+        {
+            "name": "Slušanje",
+            "predictedTime": 35,
+            "instructions": "Pozorno pročitajte sve upute i slijedite ih.\nIspit slušanja traje 35 minuta.\n\nIspit se sastoji od zadataka povezivanja i zadataka višestrukoga izbora.\n- U zadatcima povezivanja svaki sadržaj označen brojem povežite samo s jednim odgovarajućim sadržajem koji je označen slovom (zadatci 1 i 3).\n- U zadatcima višestrukoga izbora od više ponuđenih odgovora odaberite samo jedan (zadatci 2 i 4).\n\nŽelimo Vam mnogo uspjeha!",
+            "questionGroups": [
+                {
+                    "info": "You will hear five people talking about priorities in life.\nMatch each speaker (1-5) with one option from A-H.\nThere are three options that you do not need.\nYou will hear the recording twice.",
+                    "questions": [
+                        {
+                            "type": "MatchThePairs",
+                            "question": "What is each person’s top priority?",
+                            "whichToHide": [
+                                "numbers"
+                            ],
+                            "options": [
+                                {
+                                    "id": "A",
+                                    "type": "letter",
+                                    "textOrAudio": "Romantic relationships."
+                                },
+                                {
+                                    "id": "B",
+                                    "type": "letter",
+                                    "textOrAudio": "Family."
+                                },
+                                {
+                                    "id": "C",
+                                    "type": "letter",
+                                    "textOrAudio": "Job fulfilment."
+                                },
+                                {
+                                    "id": "D",
+                                    "type": "letter",
+                                    "textOrAudio": "Freedom."
+                                },
+                                {
+                                    "id": "E",
+                                    "type": "letter",
+                                    "textOrAudio": "Status."
+                                },
+                                {
+                                    "id": "F",
+                                    "type": "letter",
+                                    "textOrAudio": "Money."
+                                },
+                                {
+                                    "id": "G",
+                                    "type": "letter",
+                                    "textOrAudio": "Health."
+                                },
+                                {
+                                    "id": "H",
+                                    "type": "letter",
+                                    "textOrAudio": "Friendship."
+                                },
+                                {
+                                    "id": "1",
+                                    "type": "number",
+                                    "textOrAudio": "Speaker 1"
+                                },
+                                {
+                                    "id": "2",
+                                    "type": "number",
+                                    "textOrAudio": "Speaker 2"
+                                },
+                                {
+                                    "id": "3",
+                                    "type": "number",
+                                    "textOrAudio": "Speaker 3"
+                                },
+                                {
+                                    "id": "4",
+                                    "type": "number",
+                                    "textOrAudio": "Speaker 4"
+                                },
+                                {
+                                    "id": "5",
+                                    "type": "number",
+                                    "textOrAudio": "Speaker 5"
+                                }
+                            ],
+                            "pairs": [
+                                {
+                                    "number": "1",
+                                    "letter": "D"
+                                },
+                                {
+                                    "number": "2",
+                                    "letter": "G"
+                                },
+                                {
+                                    "number": "3",
+                                    "letter": "B"
+                                },
+                                {
+                                    "number": "4",
+                                    "letter": "C"
+                                },
+                                {
+                                    "number": "5",
+                                    "letter": "E"
+                                }
+                            ]
+                        }
+                    ],
+                    "initialAudio": "https://files.matura.top/2024/Ljeto/Eng/A/Task1.opus"
+                },
+                {
+                    "info": "You will hear people talking in eight situations.\nFor each question (6-13), choose the correct answer (A, B or C).\nYou will hear each recording twice.",
+                    "questions": [
+                        {
+                            "type": "SingleChoice",
+                            "shortText": "Why did Terry join the club?",
+                            "question": "You hear Terry talking to a friend about a walking club.",
+                            "choices": [
+                                "For something to do at weekends.",
+                                "To discover new places.",
+                                "To lose weight."
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "shortText": "What is David going to do?",
+                            "question": "You hear David talking to a friend about his plans for the weekend.",
+                            "choices": [
+                                "He’s going to work.",
+                                "He’s going to the flea market.",
+                                "He’s going to his aunt’s."
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "shortText": "What is the woman’s complaint about it?",
+                            "question": "You hear a man and a woman discussing her new TV.",
+                            "choices": [
+                                "It’s too loud.",
+                                "It’s too expensive.",
+                                "It’s too big."
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "shortText": "What is the main topic of discussion?",
+                            "question": "You hear two people discussing the recent election.",
+                            "choices": [
+                                "The numbers of people voting.",
+                                "The role the environment played.",
+                                "The influence of the youth vote."
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "shortText": "What is Sarah’s main emotion after the holiday?",
+                            "question": "You hear a man asking Sarah about her recent holiday.",
+                            "choices": [
+                                "Enthusiasm.",
+                                "Irritation.",
+                                "Indifference."
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "shortText": "Why did Pat take on the job?",
+                            "question": "You hear Pat talking to a friend about his work as a delivery rider.",
+                            "choices": [
+                                "For financial reasons.",
+                                "For domestic reasons.",
+                                "For health reasons."
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "shortText": "What does she admire most about Greg?",
+                            "question": "You hear a woman describing her business colleague Greg.",
+                            "choices": [
+                                "His charm.",
+                                "His determination.",
+                                "His adaptability."
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "shortText": "What made him decide against it?",
+                            "question": "You hear a man talking about an apartment he has been to view.",
+                            "choices": [
+                                "The location.",
+                                "The cost.",
+                                "The view."
+                            ],
+                            "correctChoice": "A"
+                        }
+                    ],
+                    "initialAudio": "https://files.matura.top/2024/Ljeto/Eng/A/Task2.opus"
+                },
+                {
+                    "info": "You will hear two friends talking about three eBooks.\nFor each question (14-19), choose the correct answer (A, B or C) from the list of eBooks.\nMark A for Alfa, B for Bravo or C for Charlie.",
+                    "initialAudio": "https://files.matura.top/2024/Ljeto/Eng/A/Task3.opus",
+                    "questions": [
+                        {
+                            "type": "MatchThePairs",
+                            "whatFirst": "letters",
+                            "options": [
+                                {
+                                    "id": "A",
+                                    "type": "letter",
+                                    "textOrAudio": "Alfa"
+                                },
+                                {
+                                    "id": "B",
+                                    "type": "letter",
+                                    "textOrAudio": "Bravo"
+                                },
+                                {
+                                    "id": "C",
+                                    "type": "letter",
+                                    "textOrAudio": "Charlie"
+                                },
+                                {
+                                    "id": "14",
+                                    "type": "number",
+                                    "textOrAudio": "Which eBook is slightly off-topic?"
+                                },
+                                {
+                                    "id": "15",
+                                    "type": "number",
+                                    "textOrAudio": "Which eBook is clearly and logically written?"
+                                },
+                                {
+                                    "id": "16",
+                                    "type": "number",
+                                    "textOrAudio": "Which eBook is the most creative?"
+                                },
+                                {
+                                    "id": "17",
+                                    "type": "number",
+                                    "textOrAudio": "Which eBook uses references properly?"
+                                },
+                                {
+                                    "id": "18",
+                                    "type": "number",
+                                    "textOrAudio": "Which eBook has photos linked to the topic?"
+                                },
+                                {
+                                    "id": "19",
+                                    "type": "number",
+                                    "textOrAudio": "Which eBook will have the greatest impact on its readers?"
+                                }
+                            ],
+                            "pairs": [
+                                {
+                                    "number": "14",
+                                    "letter": "B"
+                                },
+                                {
+                                    "number": "15",
+                                    "letter": "C"
+                                },
+                                {
+                                    "number": "16",
+                                    "letter": "B"
+                                },
+                                {
+                                    "number": "17",
+                                    "letter": "A"
+                                },
+                                {
+                                    "number": "18",
+                                    "letter": "C"
+                                },
+                                {
+                                    "number": "19",
+                                    "letter": "A"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "info": "You will hear a radio interview with Patrick Ahmadi, a pickleball player.\nFor each question (20-25), choose the correct answer (A, B or C).\nYou will hear the recording twice.",
+                    "initialAudio": "https://files.matura.top/2024/Ljeto/Eng/A/Task4.opus",
+                    "questions": [
+                        {
+                            "type": "SingleChoice",
+                            "question": "Why did Patrick take up pickleball?",
+                            "choices": [
+                                "Because of his interest in athletics.",
+                                "Because he wanted to learn something new.",
+                                "Because he was fascinated by the game."
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Who was pickleball originally intended for?",
+                            "choices": [
+                                "Ageing adults.",
+                                "Children and teenagers.",
+                                "All age groups."
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "What has, according to Patrick, made pickleball spread so quickly?",
+                            "choices": [
+                                "It requires little instruction.",
+                                "It is taught at school.",
+                                "It is a family game."
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "What are the disadvantages of pickleball for Patrick?",
+                            "choices": [
+                                "Hours-long training.",
+                                "Lack of pickleball facilities.",
+                                "Absence of social interaction."
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "What should be done, according to Patrick, to help develop pickleball further?",
+                            "choices": [
+                                "More pickleball clubs ought to be established.",
+                                "Young players should get support to become professionals.",
+                                "More international championships should be organised."
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "What are Patrick’s immediate goals in the future?",
+                            "choices": [
+                                "To enter more competitions.",
+                                "To be an ambassador of the sport.",
+                                "To represent his country at the Olympics."
+                            ],
+                            "correctChoice": "A"
+                        }
+                    ]
+                }
+            ],
+            "potentialPoints": 25
+        }
+    ]
+}

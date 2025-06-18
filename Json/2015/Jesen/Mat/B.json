@@ -1,0 +1,437 @@
+{
+    "maxPoints": 40,
+    "level": "B",
+    "name": "Matematika",
+    "scale": {
+        "range1": [
+            0,
+            24.99
+        ],
+        "range2": [
+            25,
+            49
+        ],
+        "range3": [
+            50,
+            69.99
+        ],
+        "range4": [
+            70,
+            86.99
+        ],
+        "range5": [
+            87,
+            100
+        ]
+    },
+    "sections": [
+        {
+            "name": "Osnovno",
+            "predictedTime": 150,
+            "instructions": "Pozorno pročitajte sve upute i slijedite ih.\nIspit traje 150 minuta.\n\nIspred svake skupine zadataka je uputa za rješavanje. Pozorno je pročitajte.\nMožete upotrebljavati priloženu knjižicu formula.\n\nKada riješite zadatke, provjerite odgovore.\nŽelimo Vam mnogo uspjeha!",
+            "questionGroups": [
+                {
+                    "info": "I. Zadatci višestrukoga izbora.\n\nU sljedećim zadatcima od više ponuđenih odgovora samo je jedan točan.\nU zadatcima od 1. do 12. točan odgovor donosi jedan bod, a u zadatcima od 13. do 16. dva boda.",
+                    "questions": [
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koji se od navedenih brojeva nalazi u intervalu $[{2},{\\frac{31}{3}}⟩$.",
+                            "choices": [
+                                "1.99",
+                                "$\\frac{5}{3}$",
+                                "$\\frac{49}{6}$",
+                                "10.6"
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koliko je $\\sqrt[3]{21}+\\frac{1}{\\sqrt{1.25}}$ zaokruženo na četiri decimale?",
+                            "choices": [
+                                "3.6532",
+                                "3.6534",
+                                "3.6536",
+                                "3.6538"
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koliko je ukupno racionalnih brojeva u skupu $\\{{-7},{-\\frac{1}{3}},{0}, {2.45},{\\frac{\\sqrt{3}}{2}}\\}$?",
+                            "choices": [
+                                "jedan",
+                                "dva",
+                                "tri",
+                                "četiri"
+                            ],
+                            "correctChoice": "D"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Čemu je jednako $2(2x+y)-3(x-1)$?",
+                            "choices": [
+                                "$-x+y-3$",
+                                "$-x+y+3$",
+                                "$x + 2y - 3$",
+                                "$x + 2y + 3$"
+                            ],
+                            "correctChoice": "D"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koja od navedenih jednakosti nije istinita za svaki pozitivan broj x?",
+                            "choices": [
+                                "$x^{6}=(x^{2})^{3}$",
+                                "$x^{6}=x^{2}\\times{x^{3}}$",
+                                "$x^{6}=x^{9}\\div{x^{3}}$",
+                                "$x^{6}=x\\times{x}\\times{x}\\times{x}\\times{x}\\times{x}$"
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koliko je puta masa Zemlje veća od mase Mjeseca?",
+                            "shortText": "Masa Zemlje je $5.974\\times{10}^{24}$ kg, a masa Mjeseca $7.349\\times{10}^{22}$ kg.",
+                            "choices": [
+                                "8 puta",
+                                "12 puta",
+                                "81 put",
+                                "123 puta"
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "shortText": "Napomena: Jedna stopa iznosi 0.3048 m. Stopa se sastoji od 12 inča.",
+                            "question": "Spomenik je visok 15 stopa i 7 inča. Kolika je visina spomenika izražena u metrima?",
+                            "choices": [
+                                "4.7024 m",
+                                "4.7214 m",
+                                "4.7498 m",
+                                "4.7858 m"
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Opseg kruga je $8\\pi$ cm. Kolika mu je površina?",
+                            "choices": [
+                                "$4\\pi cm^{2}$",
+                                "$8\\pi cm^{2}$",
+                                "$16\\pi cm^{2}$",
+                                "$32\\pi cm^{2}$"
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Kojoj je od navedenih nejednadžba skup svih rješenja interval $[{\\frac{5}{2}}, \\infty⟩$?",
+                            "choices": [
+                                "$2x-5\\geq0$",
+                                "$2x-5<0$",
+                                "$5x-2\\geq0$",
+                                "$5x-2<0$"
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Čemu je jednako $v_{1}$ iz formule $F\\times{t}=m(v_{2}-v_{1})$?",
+                            "choices": [
+                                "$v_{1}=v_{2}-\\frac{m}{F\\times{t}}$",
+                                "$v_{1}=\\frac{v_{2}-m}{F\\times{t}}$",
+                                "$v_{1}=\\frac{v_{2}-F\\times{t}}{m}$",
+                                "$v_{1}=v_{2}-\\frac{F\\times{t}}{m}$"
+                            ],
+                            "correctChoice": "D"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Na kojoj je slici prikazan graf funkcije $f(x)=2(x-1)(x+2)$?",
+                            "choices": [
+                                "Slika A",
+                                "Slika B",
+                                "Slika C",
+                                "Slika D"
+                            ],
+                            "correctChoice": "A",
+                            "mediaUrl": "https://files.matura.top/2015/Jesen/Mat/B/nv88v5ND3.webp"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koliki je ukupni put prešao?",
+                            "shortText": "Biciklist je 40 minuta vozio prosječnom brzinom 21.3 km/h, potom je pola sata vozio prosječnom brzinom 18.2 km/h i na kraju je 20 minuta vozio prosječnom brzinom 8.5 km/h.\nNapomena: Prosječna brzina računa se kao omjer prijeđenoga puta i vremena.",
+                            "choices": [
+                                "19.32 km",
+                                "26.13 km",
+                                "32 km",
+                                "48 km"
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Kolika je površina dijela zida koji nije prekriven plakatima?",
+                            "shortText": "Na zidu duljine 6 m i visine 3 m zalijepljeno je 5 malih i 4 velika plakata koji se međusobno ne preklapaju i ne dodiruju. Plakati su pravokutnoga oblika, mali dimenzija 25 cm x 60 cm, a veliki dimenzija 120 cm x 80 cm.",
+                            "choices": [
+                                "$5.73 m^{2}$",
+                                "$9.26 m^{2}$",
+                                "$13.41 m^{2}$",
+                                "$16.89 m^{2}$"
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koji je od navedenih pravaca usporedan s pravcem $y=\\frac{2}{3}x-5$ i prolazi točkom $(2,-1)$?",
+                            "choices": [
+                                "$2x+3y-1=0$",
+                                "$2x-3y-7=0$",
+                                "$\\frac{2}{3}x-y-1=0$",
+                                "$\\frac{2}{3}x+y-7=0$"
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Zadani su pozitivni brojevi $a,b,c$ takvi da je $a=\\frac{3}{4}b$ i $b=\\frac{5}{7}c$. Razlika najvećega i najmanjega broja je 31.2. Koliki je broj $a$?",
+                            "choices": [
+                                "4.5",
+                                "21.6",
+                                "36",
+                                "42"
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Zadana su dva različita broja x i y. Razliku kvadrata brojeva x i y podijelite s razlikom brojeva x i y. Dobiveni količnik pomnožite sa zbrojem brojeva x i y. Što je rezultat?",
+                            "choices": [
+                                "kvadrat zbroja brojeva x i y",
+                                "zbroj kvadrata brojeva x i y",
+                                "kvadrat razlike brojeva x i y",
+                                "razlika kvadrata brojeva x i y"
+                            ],
+                            "correctChoice": "A"
+                        }
+                    ]
+                },
+                {
+                    "info": "II. Zadatci kratkoga odgovora.\n\nU sljedećim zadatcima odgovorite kratkim odgovorom.",
+                    "questions": [
+                        {
+                            "type": "SubBoard",
+                            "mainQuestion": "Koliko je 6.5% od 900?",
+                            "points": 1,
+                            "answers": [
+                                "58.5",
+                                "58,5"
+                            ],
+                            "showTldraw": true
+                        },
+                        {
+                            "type": "SubBoard",
+                            "mainQuestion": "Za koji je broj x vrijednost izraza $-7.14-0.05(x-1)$ jednaka $-7.54$?",
+                            "points": 1,
+                            "answers": [
+                                "9"
+                            ],
+                            "showTldraw": true
+                        },
+                        {
+                            "type": "SubBoard",
+                            "mainQuestion": "Riješite kvadratnu jednadžbu $\\frac{1}{3}x^{2}-5x=-2$ i napišite njezino manje rješenje.",
+                            "points": 1,
+                            "showTldraw": true,
+                            "fullSolutionOrUrl": "Odgovor: $\\frac{15-\\sqrt{201}}{2}\\approx0.4112765606$ ili broj iz intervala $[{0.41},{0.42}]$"
+                        },
+                        {
+                            "type": "SubBoard",
+                            "mainQuestion": "Riješite nejednadžbu $\\frac{4-7x}{3}<1-\\frac{3x+1}{6}$.",
+                            "points": 1,
+                            "showTldraw": true,
+                            "fullSolutionOrUrl": "Odgovor: $x>\\frac{3}{11}$"
+                        },
+                        {
+                            "type": "SubBoard",
+                            "mainQuestion": "Prikažite izraz $\\frac{a}{a+1}-\\frac{1}{a(a+1)}$ u obliku razlomka skraćenoga do kraja.",
+                            "showTldraw": true,
+                            "fullSolutionOrUrl": "Odgovor: $\\frac{a-1}{a}$",
+                            "points": 1
+                        },
+                        {
+                            "type": "SubBoard",
+                            "mainQuestion": "Riješite zadatke.",
+                            "subQuestions": [
+                                {
+                                    "question": "Odredite vrijednost x u rješenju sustava jednadžba $\\begin{cases}0.2x+2=0.6y\\\\3x+6y=0\\end{cases}$.",
+                                    "points": 1,
+                                    "answers": []
+                                },
+                                {
+                                    "question": "Riješite jednadžbu $0.2\\times10^{4x-7}-200=0$.",
+                                    "points": 1,
+                                    "answers": []
+                                }
+                            ],
+                            "showTldraw": true,
+                            "fullSolutionOrUrl": "1. $-10$\n\n2. $\\frac{5}{2}$"
+                        },
+                        {
+                            "type": "SubBoard",
+                            "mainQuestion": "Zadana je funkcija $f(x)=-\\frac{1}{3}x+2$.",
+                            "subQuestions": [
+                                {
+                                    "question": "U kojoj točki graf te funkcije siječe os x?",
+                                    "points": 1,
+                                    "answers": []
+                                },
+                                {
+                                    "question": "Nacrtajte graf zadane funkcije.",
+                                    "points": 1,
+                                    "answers": []
+                                }
+                            ],
+                            "showTldraw": true,
+                            "fullSolutionOrUrl": "https://files.matura.top/2015/Jesen/Mat/B/pGYbSHkRJ.webp"
+                        },
+                        {
+                            "type": "SubBoard",
+                            "mainQuestion": "Na dijagramu su prikazani osobni dohodci za prva četiri mjeseca u godini.",
+                            "showTldraw": true,
+                            "subQuestions": [
+                                {
+                                    "question": "Koliki je prosječni osobni dohodak u ta četiri mjeseca?",
+                                    "points": 1,
+                                    "rightInput": "kn",
+                                    "answers": [
+                                        "5197.50",
+                                        "5197,50"
+                                    ]
+                                },
+                                {
+                                    "question": "Za koliko je posto povećan dohodak u travnju u odnosu na ožujak (dvije decimale)?",
+                                    "points": 1,
+                                    "rightInput": "%",
+                                    "answers": [
+                                        "8.34",
+                                        "8,34"
+                                    ]
+                                }
+                            ],
+                            "mediaUrl": "https://files.matura.top/2015/Jesen/Mat/B/CacFRPPLF.webp"
+                        },
+                        {
+                            "type": "SubBoard",
+                            "mainQuestion": "Ekološka udruga je 2010. godine provela istraživanje o kakvoći zraka. Broj molekula ugljikova monoksida na milijun molekula zraka $(M)$ procjenjuje se prema formuli $M=0.01t^{2}-0.24t+4.31$, gdje je t broj godina proteklih od 2010. godine.",
+                            "showTldraw": true,
+                            "subQuestions": [
+                                {
+                                    "question": "Koliki je procijenjeni broj molekula ugljikova monoksida na milijun molekula zraka za 2026. godinu?",
+                                    "points": 1,
+                                    "answers": [
+                                        "3",
+                                        "3.03",
+                                        "3,03"
+                                    ]
+                                },
+                                {
+                                    "question": "Koje će godine prema toj procjeni biti najmanji broj molekula ugljikova monoksida na milijun molekula zraka?",
+                                    "points": 1,
+                                    "answers": [
+                                        "2022.",
+                                        "2022",
+                                        "12"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "SubBoard",
+                            "mainQuestion": "Pravilna uspravna četverostrana piramida ima osnovni brid duljine 20 dm. Visina pobočke (bočne strane) piramide iznosi 22 dm.",
+                            "showTldraw": true,
+                            "subQuestions": [
+                                {
+                                    "question": "Koliko je oplošje te piramide?",
+                                    "points": 1,
+                                    "answers": [
+                                        "1280"
+                                    ],
+                                    "rightInput": "$dm^{2}$"
+                                },
+                                {
+                                    "question": "Koliki obujam (volumen) te piramide?",
+                                    "points": 1,
+                                    "answers": [],
+                                    "rightInput": "$dm^{3}$"
+                                }
+                            ],
+                            "fullSolutionOrUrl": "1. $1280$\n\n2. $\\frac{3200\\sqrt{6}}{3}\\approx2612.789059$ ili broj iz intervala $[{2612},{2612.4}]$"
+                        },
+                        {
+                            "type": "SubBoard",
+                            "shortText": "Znakovi za uzbunjivanje stanovništva emitiraju se putem sirena.\nUpozorenje za nadolazeću opasnost oglašava se kombinacijom jednoličnih (J) i zavijajućih (Z) tonova na način: JZJZJ.\nTrajanje svakoga pojedinog tona je 20 sekundi. Jednoga dana u 8 sati 12 minuta i 35 sekundi oglasila se sirena upozorenjem za nadolazeću opasnost.\nNakon 5 minuta stanke isto se upozorenje ponovilo.",
+                            "showTldraw": true,
+                            "subQuestions": [
+                                {
+                                    "question": "Kada je završilo to ponovljeno upozorenje za nadolazeću opasnost?",
+                                    "points": 1,
+                                    "answers": []
+                                },
+                                {
+                                    "question": "Je li u 8 sati 19 minuta i 48 sekundi bio jednoličan ton (J), zavijajući ton (Z) ili stanka (S)?",
+                                    "points": 1,
+                                    "answers": [
+                                        "zavijajući ton",
+                                        "Z"
+                                    ]
+                                }
+                            ],
+                            "fullSolutionOrUrl": "1. 8h 20m 55s / 8 sati 20 minuta 55 sekundi"
+                        },
+                        {
+                            "type": "SubBoard",
+                            "mediaUrl": "https://files.matura.top/2015/Jesen/Mat/B/Io32x3iUb.webp",
+                            "shortText": "Cijene usluga triju taksi-prijevoznika prikazane su u tablici. Cijena usluge prijevoza uključuje startninu i cijenu vožnje po prijeđenome kilometru.",
+                            "showTldraw": true,
+                            "subQuestions": [
+                                {
+                                    "question": "Koliko treba platiti uslugu prijevoza taksijem A na udaljenosti od 7 km?",
+                                    "points": 1,
+                                    "answers": [
+                                        "31"
+                                    ]
+                                },
+                                {
+                                    "question": "Za koju će udaljenost u kilometrima usluga prijevoza taksijem B i taksijem C biti jednako naplaćena?",
+                                    "points": 1,
+                                    "answers": [
+                                        "6"
+                                    ]
+                                },
+                                {
+                                    "question": "Napišite formulu prema kojoj se računa cijena usluge prijevoza taksijem B.\nUpotrijebite oznaku x za broj prijeđenih kilometara, a oznaku y za cijenu usluge prijevoza (u kunama).",
+                                    "points": 1,
+                                    "answers": [
+                                        "5+4x"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "potentialPoints": 40,
+            "helpFiles": [
+                {
+                    "name": "1",
+                    "fileUrl": "https://files.matura.top/All/Mat/B/40yZbulUx.webp"
+                },
+                {
+                    "name": "2",
+                    "fileUrl": "https://files.matura.top/All/Mat/B/Q8gx7CGsR.webp"
+                }
+            ]
+        }
+    ]
+}

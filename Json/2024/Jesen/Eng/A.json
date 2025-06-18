@@ -1,0 +1,953 @@
+{
+    "name": "Engleski",
+    "level": "A",
+    "scale": {
+        "range1": [
+            0,
+            35.99
+        ],
+        "range2": [
+            36,
+            55.99
+        ],
+        "range3": [
+            56,
+            73.99
+        ],
+        "range4": [
+            74,
+            86.99
+        ],
+        "range5": [
+            87,
+            100
+        ]
+    },
+    "maxPoints": 85,
+    "sections": [
+        {
+            "name": "Čitanje",
+            "predictedTime": 70,
+            "instructions": "Pozorno pročitajte sve upute i slijedite ih.\nIspit čitanja traje 70 minuta.\n\nIspit se sastoji od zadataka povezivanja, zadataka višestrukoga izbora i kombiniranih zadataka dopunjavanja.\n- U zadatcima povezivanja svaki sadržaj označen brojem povežite samo s jednim odgovarajućim sadržajem koji je označen slovom (zadatak 1).\n- U zadatcima višestrukoga izbora od više ponuđenih odgovora odaberite samo jedan (zadatak 2).\n- U kombiniranim zadatcima odaberite samo jedan sadržaj koji najbolje nadopunjava tekst (zadatci 3, 4 i 5).\n\nKada riješite zadatke, provjerite odgovore.\nŽelimo Vam mnogo uspjeha!",
+            "questionGroups": [
+                {
+                    "info": "You are going to read an article about learning foreign languages.\nFor each question (1-12), choose one person from A-F.\nThere is an example at the beginning (0-E).",
+                    "questions": [
+                        {
+                            "type": "MatchThePairs",
+                            "whatFirst": "letters",
+                            "options": [
+                                {
+                                    "id": "A",
+                                    "type": "letter",
+                                    "textOrAudio": "For the vast majority of people in my class, one of the most common barriers to conversing in a new language is the fear of a teacher’s reaction. Being a communicative type of learner, I ignore the pattern and the structure of a language, but I will use it regardless of the risk of using some awkward or incorrect word. Once, I needed to replace a broken item in a store in Spain. I had to use Spanish instead of my native English, although my speaking skills were at an elementary level at that time. As usual, I thanked the shop assistant for correcting my pronunciation."
+                                },
+                                {
+                                    "id": "B",
+                                    "type": "letter",
+                                    "textOrAudio": "For the vast majority of people in my class, one of the most common barriers to conversing in a new language is the fear of a teacher’s reaction. Being a communicative type of learner, I ignore the pattern and the structure of a language, but I will use it regardless of the risk of using some awkward or incorrect word. Once, I needed to replace a broken item in a store in Spain. I had to use Spanish instead of my native English, although my speaking skills were at an elementary level at that time. As usual, I thanked the shop assistant for correcting my pronunciation.At the very beginning, my friend advised me to pick out 50 French words and commit them to memory in various contexts. I have also compiled a script of useful phrases I have picked up while doing the shopping or reading notices in public places. Then, in the city where I am currently living there is a regular language-immersion meet-up group with a tutor, which joins people practising the language together in a carefree way, etc. This has given me the opportunity to absorb it as often as possible in many ways. I am aware that in order to master it, I will have to focus on structures and tenses in the future."
+                                },
+                                {
+                                    "id": "C",
+                                    "type": "letter",
+                                    "textOrAudio": "My teachers proposed reading comics while commuting since they use fairly simple language and my brain can easily memorise new language structures via the pictures. Now, I have moved on to adapted readers and if I don’t understand a word, I can always consult the dictionary. I was advised to write the translation on the page margin. Although the first pages are fully packed, I can say I understand more with each chapter and need to look up fewer words. I also highlight the structures I think might be useful later."
+                                },
+                                {
+                                    "id": "D",
+                                    "type": "letter",
+                                    "textOrAudio": "The written test I took the other day says I am B2 in Italian. Still, I am reluctant to engage in any sort of verbal exchange with native speakers. The other day I met an Italian colleague on the bus and he struck up a conversation. I could barely utter yes and no! All my instructors had one thing in common: they would teach us vocabulary and write endless bilingual lists of words on the board and we would have to copy them and learn by heart. Recalling a word in a real-life context is still a tough challenge."
+                                },
+                                {
+                                    "id": "E",
+                                    "type": "letter",
+                                    "textOrAudio": "For me, learning a language has always been about focusing on the experiences that the new language would open up. I am a keen traveller and have volunteered in different parts of the world. This has given me the opportunity to pick up some basics in several languages. Also, my pronunciation has improved a lot with singing. I listen to the song and try to sing along and memorise the text. This has helped me to master idioms and grammar, and memorise the subtle differences in the meaning and pronunciation of words."
+                                },
+                                {
+                                    "id": "F",
+                                    "type": "letter",
+                                    "textOrAudio": "Native speakers consider me a gifted genius. If you ask me, talent is nothing without consistent hard work and expert teachers. An online language course tutor has suggested that l record myself for two to four minutes without stopping. I will describe the world around me, or give my opinion on a particular topic. Next, I will listen to the recording of my speech and notice which words I use. If I have used only familiar words, I will search for synonymous words to replace them. Afterwards, making a new recording and listening to it will prove whether I have made any progress."
+                                },
+                                {
+                                    "id": "0",
+                                    "type": "number",
+                                    "textOrAudio": "Which person is an auditory learner?"
+                                },
+                                {
+                                    "id": "1",
+                                    "type": "number",
+                                    "textOrAudio": "Which person believes that determination, formal education and practice lead to success?"
+                                },
+                                {
+                                    "id": "2",
+                                    "type": "number",
+                                    "textOrAudio": "Which person has difficulty when speaking the language?"
+                                },
+                                {
+                                    "id": "3",
+                                    "type": "number",
+                                    "textOrAudio": "Which person uses a wide range of activities to get exposed to the new language?"
+                                },
+                                {
+                                    "id": "4",
+                                    "type": "number",
+                                    "textOrAudio": "Which person is particularly interested in expanding vocabulary?"
+                                },
+                                {
+                                    "id": "5",
+                                    "type": "number",
+                                    "textOrAudio": "Which person is entirely self-taught?"
+                                },
+                                {
+                                    "id": "6",
+                                    "type": "number",
+                                    "textOrAudio": "Which person doesn’t worry about making mistakes?"
+                                },
+                                {
+                                    "id": "7",
+                                    "type": "number",
+                                    "textOrAudio": "Which person is aware of multiple connotations of words?"
+                                },
+                                {
+                                    "id": "8",
+                                    "type": "number",
+                                    "textOrAudio": "Which person likes to get feedback from native speakers?"
+                                },
+                                {
+                                    "id": "9",
+                                    "type": "number",
+                                    "textOrAudio": "Which person has gradually improved their reading skill?"
+                                },
+                                {
+                                    "id": "10",
+                                    "type": "number",
+                                    "textOrAudio": "Which person blames the teaching methods for lack of language competence?"
+                                },
+                                {
+                                    "id": "11",
+                                    "type": "number",
+                                    "textOrAudio": "Which person plans to upgrade their grammar?"
+                                },
+                                {
+                                    "id": "12",
+                                    "type": "number",
+                                    "textOrAudio": "Which person learns through images?"
+                                }
+                            ],
+                            "pairs": [
+                                {
+                                    "number": "0",
+                                    "letter": "E",
+                                    "isExample": true
+                                },
+                                {
+                                    "number": "1",
+                                    "letter": "F"
+                                },
+                                {
+                                    "number": "2",
+                                    "letter": "D"
+                                },
+                                {
+                                    "number": "3",
+                                    "letter": "B"
+                                },
+                                {
+                                    "number": "4",
+                                    "letter": "F"
+                                },
+                                {
+                                    "number": "5",
+                                    "letter": "E"
+                                },
+                                {
+                                    "number": "6",
+                                    "letter": "A"
+                                },
+                                {
+                                    "number": "8",
+                                    "letter": "A"
+                                },
+                                {
+                                    "number": "9",
+                                    "letter": "C"
+                                },
+                                {
+                                    "number": "10",
+                                    "letter": "D"
+                                },
+                                {
+                                    "number": "11",
+                                    "letter": "B"
+                                },
+                                {
+                                    "number": "12",
+                                    "letter": "C"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "info": "Read the text below.\nFor each question (13-18), choose the correct answer (A, B, C or D).\nMark your answer on the answer sheet.",
+                    "initialText": {
+                        "title": "Woman Completes Quest to Eat One Scone in Every UK Legacy Property",
+                        "text": "There are few things more quintessentially British than afternoon tea, where pride of place is taken by a pile of warm, fluffy scones smothered in clotted cream and topped with delicious strawberry jam. Doughy, crumbly and still warm from the oven, scones are a staple in TV shows like ‘The Great British Bake Off’ and ‘Escape to the Country’. Is it possible to have too much of a good thing?\n\nOne British woman combined her passion for scones and the country’s rich historical heritage in a unique and quirky project that has been described by fellow Brits in terms ranging from “odd” to “funny in the head” but has been recorded in a popular blog. Betty Masters aimed to eat one scone in every single UK Legacy property, and she completed her decade-long ‘odyssey’ last week as she tucked into - predictably - a scone and cuppa with milk and sugar at a stately home in Northern Ireland. “It’s all been incredibly rewarding!” said the 45-year-old travel agent, sharing her culinary achievement with a clutch of reporters from across the world, “I’m never, ever sick of scones!”\n\nUK Legacy is a conservation organisation founded in the late-19th century that safeguards sites like castles, stately homes, beaches and acres of rolling countryside across the land. For their annual subscription of £50 per year, its 7.5 million members have a free pass to the organisation’s many sites - as well as credit for contributing to the upkeep of the country’s rich and varied heritage. The organisation is synonymous with respectability, volunteering and middle-class people who are choosy about the kinds of places they patronise and for whom membership is a discreet, even hidden, badge of honour. It was founded several decades ago, at a time when the luxurious world depicted in programmes such as ‘Downton Abbey’ and ‘Poirot’ was reaching its end and mounting running costs making the maintenance of grand houses and estates increasingly difficult. Thanks to its efforts, millions have been able to access these and other national treasures.\n\nUK Legacy’s popular tea shops are a valuable source of revenue, selling over 3 million scones a year. What makes the scone its best-selling item and, equally importantly, is there a correct way to pronounce it? There are two schools of thought regarding what is by now a classic question. “Scone rhymes with tone!” asserts Jessica Taylor, a 65-year-old retired physiotherapist, in the tea shop at Broome Abbey in Nottinghamshire. “Don’t be daft, it rhymes with gone!” counters her colleague Pam Smith, 59, a part-time factory worker (who claims volunteering “gets her out of the house”), “She just thinks she’s posh!” It is a common misapprehension. In fact, there is an even balance in pronunciations across the south of England, though Pam’s predominates in Northern England and Scotland.\n\nThe gift of scone-making, both attest, lies in “cold cream, cold eggs - and colder butter,” although their tried and tested hand-me-down family recipes have marked differences: Jessica swears by sultanas and a pinch of cinnamon, while Pam confides that “half a cup of grated cheddar” is what makes hers special. “Scones are everybody’s cup of tea,” says Betty Masters, stating that a good rise is also important. What were her standout moments from her decade of research? She mentions a Christmas pudding scone in North Wales meant for the gift-giving season that literally vanished from the shelves. And at Andrew Carnegie’s birthplace in Dunfermline, there were no scones, but the millionaire’s shortbread won at a contest. We end our interview in a neighbourhood café with - you’ve guessed it - tea and scones!"
+                    },
+                    "questions": [
+                        {
+                            "type": "SingleChoice",
+                            "question": "The author considers",
+                            "choices": [
+                                "scones to be excessively British.",
+                                "scones the focal point of afternoon tea.",
+                                "British people to be very proud of scones.",
+                                "cream and strawberry jam the ultimate topping."
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "According to the author, British people",
+                            "choices": [
+                                "found Betty’s quest eccentric.",
+                                "considered Betty’s behaviour amusing.",
+                                "thought Betty spent too much time on her quest.",
+                                "did not believe that Betty would complete the project."
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Betty Masters",
+                            "choices": [
+                                "remains a fan of scones.",
+                                "has never been ill after eating a scone.",
+                                "distributed scones to a group of reporters.",
+                                "did not believe she would complete her quest."
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "UK Legacy members do not",
+                            "choices": [
+                                "mind which causes they support.",
+                                "have to show their badges on entry.",
+                                "receive public recognition for their work.",
+                                "have to pay to enter individual properties."
+                            ],
+                            "correctChoice": "D"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "The pronunciation of the word scone is",
+                            "choices": [
+                                "frequently wrong.",
+                                "acquired at school.",
+                                "governed by geography.",
+                                "an indicator of social status."
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "The scones Jessica and Pam make",
+                            "choices": [
+                                "are their inventions.",
+                                "are presents for other people.",
+                                "are made from inherited methods.",
+                                "are entered in baking competitions."
+                            ],
+                            "correctChoice": "C"
+                        }
+                    ]
+                },
+                {
+                    "info": "Read the text on the next page.\nFor each question (19-24), choose the sentence (A-H) that best fits the gap.\nThere are two sentences that you do not need.\nThere is an example at the beginning (0-I).",
+                    "initialText": {
+                        "title": "The Power of Influencers",
+                        "text": "The age of digital media has seen the appearance of new opportunities for professional success, which defy traditional principles and requirements of ‘making it big’. (0) ____. These individuals, who have gathered a significant following on social media platforms, hold a unique position as trendsetters and opinion leaders. The phenomenon has completely revolutionised the notion of influence, transforming the way people grasp information, make purchasing decisions and engage with brands.\n\nSo, what does it take and how is it done? Whereas some influencers can attribute their popularity to sophisticated education and exceptional expertise, others monetise their charisma or a sense of humour that enables them to capture and entertain audiences. They often focus on niches - specific segments within a broader market or field. (19) ____. By creating compelling content related to corresponding products or services, they inspire, inform and entertain millions of people worldwide.\n\nThe expansion of the influencer marketing phenomenon can undoubtedly be linked to the power of social media. (20) ____. Unlike in traditional advertising, a more personal and authentic approach to promotion is achieved. There is a sense of confidence in the person that one feels towards a trusted peer, making their recommendations and endorsements highly influential.\n\nThe most successful influencers have become powerful drivers of consumer behaviour. With their persuasive storytelling skill and as an integral part of the consumer decision-making process, they stimulate a desire for a variety of products. (21) ____. The whole idea of marketing and financial success has been changed due to this ability to shape trends and introduce new lines.\n\nNevertheless, the influencer industry has encountered a few challenges and ethical considerations. One concern is the issue of authenticity. (22) ____. Naturally, the followers question these individuals’ credibility. Additionally, the line between organic content and sponsored posts can sometimes blur, raising questions about transparency and disclosure. As a result, regulations and guidelines regarding sponsored content have emerged to protect consumers and ensure transparency.\n\nAlongside the rise of ‘traditional’ influencers with millions of followers, micro-influencers have gained prominence. (23) ____. This leads to increased trust and stronger impact. Brands are recognising the potential of collaborating with them to target niche markets effectively and create more authentic connections with consumers.\n\nThis new occupation has also influenced cultural and social norms. The advertising role has been expanded by significant input evident in shaping beauty standards, lifestyle choices, and even political opinions. Debates have been sparked about social media inauthenticity, the impact on mental health and the potential for encouraging unrealistic expectations. (24) ____.\n\nThe phenomenon of influencers has irreversibly changed the landscape of social influence. Their rise to prominence highlights the power of digital media in connecting individuals using new forms of communication. While influencers have revolutionised marketing and consumer behaviour, challenges surrounding authenticity, transparency and social impact persist. As society continues to adapt to the grip of digital platforms, understanding the role of influencers becomes crucial in navigating this dynamic and evolving arena."
+                    },
+                    "questions": [
+                        {
+                            "type": "FillInChoices",
+                            "showAnswers": true,
+                            "correctChoices": [
+                                {
+                                    "index": 0,
+                                    "letter": "I",
+                                    "answers": [
+                                        "The rise of influencers has become a defining feature of contemporary society."
+                                    ],
+                                    "isExample": true
+                                },
+                                {
+                                    "index": 19,
+                                    "letter": "H",
+                                    "answers": [
+                                        "These can range from fashion and beauty to fitness, travel, or technology."
+                                    ]
+                                },
+                                {
+                                    "index": 20,
+                                    "letter": "F",
+                                    "answers": [
+                                        "The connection between influencers and followers provided there is immediate, creating a sense of intimacy and relatability many people long for."
+                                    ]
+                                },
+                                {
+                                    "index": 21,
+                                    "letter": "B",
+                                    "answers": [
+                                        "That is how they foster wider audience engagement and consequently create revenue."
+                                    ]
+                                },
+                                {
+                                    "index": 22,
+                                    "letter": "G",
+                                    "answers": [
+                                        "Some influencers have been criticised for promoting products they do not use or genuinely believe in."
+                                    ]
+                                },
+                                {
+                                    "index": 23,
+                                    "letter": "A",
+                                    "answers": [
+                                        "Their audiences are smaller but even more closely-knit communities of buyers with similar needs."
+                                    ]
+                                },
+                                {
+                                    "index": 24,
+                                    "letter": "D",
+                                    "answers": [
+                                        "The implications of this newfound power can indeed be disheartening."
+                                    ]
+                                },
+                                {
+                                    "letter": "C",
+                                    "answers": [
+                                        "They would have done anything to attract new subscribers or followers."
+                                    ]
+                                },
+                                {
+                                    "letter": "E",
+                                    "answers": [
+                                        "Selling products and services had always required a lot of knowledge and skill."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "info": "Read the text below.\nFor each question (25-32), choose the answer (A, B, C or D) that best completes the sentence.\nThere is an example at the beginning (0-A).",
+                    "initialText": {
+                        "title": "Sleeping Octopuses",
+                        "text": "Octopuses may be many mariners’ nightmares, but new research has added (0) ____ growing evidence that they may dream while asleep. Octopuses (25) ____ to undergo two different stages of sleep: ‘quiet sleep’ and ‘active sleep’, the latter of which involves twitching body parts and rapid changes in the texture and patterning of the skin.\n\nResearchers (26) ____ the Japanese Institute of Science claim - in addition to confirming that octopuses do indeed sleep during this active stage - they have also discovered that this stage shares many characteristics with REM sleep in humans.\n\nProf. Tom Roody, the study’s lead author, said the team’s findings were not proof that octopuses dream. “Perhaps we (27) ____ already associate certain skin patterns during wakefulness to particular situations: hunting, social displays, threat displays, and camouflage to different sorts of environments. These patterns reappear during active sleep,” he said. “So, if we are looking at something like dreaming, (28) ____ I repeat, this is a possibility we do not prove in this study, they would resemble a pseudo random walk over waking experiences.”\n\nHowever, Roody put (29) ____ that there are other possible explanations: for example, that octopuses refine their camouflage patterns while they sleep.\n\nWhen the team tapped on the tanks and watched how the animals responded, they found the octopuses showed different reactions depending on whether they were awake, in the quiet stage of sleep, or in the active stage. Every 60 minutes or so, the animals (30) ____ rapid changes of skin colour that lasted about one minute, together with changes in breathing rate, as well as body and eye movements.\n\nWhat’s more, if the octopuses were deprived (31) ____ sleep for two days by being tickled with a paintbrush, they subsequently showed an increased rate of active sleep. They entered the stage sooner, (32) ____ a self-regulating control - one of the key criteria of sleep. The researchers confirmed that octopuses were indeed asleep during the active stage."
+                    },
+                    "questions": [
+                        {
+                            "type": "SingleChoice",
+                            "question": "0",
+                            "choices": [
+                                "to",
+                                "in",
+                                "by",
+                                "on"
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "25",
+                            "choices": [
+                                "are meant",
+                                "are predestined",
+                                "are seen",
+                                "are thought"
+                            ],
+                            "correctChoice": "D"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "26",
+                            "choices": [
+                                "of",
+                                "at",
+                                "on",
+                                "by"
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "27",
+                            "choices": [
+                                "will",
+                                "must",
+                                "can",
+                                "need to"
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "28",
+                            "choices": [
+                                "but",
+                                "even",
+                                "unless",
+                                "however"
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "29",
+                            "choices": [
+                                "forward",
+                                "out",
+                                "on",
+                                "by"
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "30",
+                            "choices": [
+                                "undergo",
+                                "underwent",
+                                "had undergone",
+                                "have undergone"
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "31",
+                            "choices": [
+                                "from",
+                                "off",
+                                "to",
+                                "of"
+                            ],
+                            "correctChoice": "D"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "32",
+                            "choices": [
+                                "suggesting",
+                                "suggest",
+                                "to suggest",
+                                "suggested"
+                            ],
+                            "correctChoice": "A"
+                        }
+                    ]
+                },
+                {
+                    "info": "Read the text on the next page.\nFor each question (33-40), choose the answer (A-M) that best completes the sentence.\nThere are five options that you do not need.\nThere is an example at the beginning (0-N).",
+                    "initialText": {
+                        "title": "A Name Is a Name Is a Name..",
+                        "text": "What’s in a name? If you (0) ___ to ask the author behind this fundamental question, the answer would quite simply be that names play no role in explaining who or what we are. Now, for the author of the question, namely (33) ___ William Shakespeare - in his 16th-century tragedy ‘Romeo and Juliet’ - it seemed of little importance what someone’s name might mean because our names should not define who we are. Of course, we need to take (34) ___ consideration that the character of Juliet, who asks the question originally, is trying to justify her romantic interest in Romeo, who just happens to bear the last name of Juliet’s family’s sworn enemies.\n\nLet us now fast-forward to a time five centuries later when researchers decided to pose the question of what influence our names had on us and, (35) ___ Shakespeare and his quite progressive world views, actually found out the opposite. Our names determine us much more than they (36) ___ ever thought. Interestingly, independent research, conducted in 2013 and 2015 respectively, found that our names determined our lives to the extent of us opting for our careers, developing talents or having interests based on our first or last names.\n\nDubbed nominative determinism, this phenomenon explained why there was an inordinately large number of medical professionals with such names (37) ___ Payne, Butcher or Medina, as well as lawyers named Lawrence or Laurence. But the pressure our names put on us doesn’t stop there. According to the same research, even our talents and interests are affected. Therefore, someone like Usain Bolt had no other choice but to become the fastest man on the planet, (38) ___ did the poet William Wordsworth have any say (39) ___ choosing his profession. Who (40) ___ have guessed that our names play such a significant role in shaping who we are? Definitely not those who have named us."
+                    },
+                    "questions": [
+                        {
+                            "type": "FillInChoices",
+                            "showAnswers": true,
+                            "correctChoices": [
+                                {
+                                    "index": 0,
+                                    "letter": "N",
+                                    "answers": [
+                                        "were"
+                                    ],
+                                    "isExample": true
+                                },
+                                {
+                                    "index": 33,
+                                    "letter": "c",
+                                    "answers": [
+                                        "one"
+                                    ]
+                                },
+                                {
+                                    "index": 34,
+                                    "letter": "G",
+                                    "answers": [
+                                        "into"
+                                    ]
+                                },
+                                {
+                                    "index": 35,
+                                    "letter": "J",
+                                    "answers": [
+                                        "unlike"
+                                    ]
+                                },
+                                {
+                                    "index": 36,
+                                    "letter": "M",
+                                    "answers": [
+                                        "had"
+                                    ]
+                                },
+                                {
+                                    "index": 37,
+                                    "letter": "A",
+                                    "answers": [
+                                        "as"
+                                    ]
+                                },
+                                {
+                                    "index": 38,
+                                    "letter": "L",
+                                    "answers": [
+                                        "nor"
+                                    ]
+                                },
+                                {
+                                    "index": 39,
+                                    "letter": "E",
+                                    "answers": [
+                                        "in"
+                                    ]
+                                },
+                                {
+                                    "index": 40,
+                                    "letter": "D",
+                                    "answers": [
+                                        "could"
+                                    ]
+                                },
+                                {
+                                    "letter": "B",
+                                    "answers": [
+                                        "was"
+                                    ]
+                                },
+                                {
+                                    "letter": "F",
+                                    "answers": [
+                                        "like"
+                                    ]
+                                },
+                                {
+                                    "letter": "H",
+                                    "answers": [
+                                        "have"
+                                    ]
+                                },
+                                {
+                                    "letter": "I",
+                                    "answers": [
+                                        "must"
+                                    ]
+                                },
+                                {
+                                    "letter": "K",
+                                    "answers": [
+                                        "not"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "potentialPoints": 40
+        },
+        {
+            "name": "Pisanje",
+            "predictedTime": 75,
+            "instructions": "Pozorno pročitajte sve upute i slijedite ih.\nIspit pisanja traje 75 minuta.\n\nIspit se sastoji od zadatka eseja.\nEsej napišite slijedeći priloženu uputu i smjernice za pisanje eseja.\n\nŽelimo Vam mnogo uspjeha!",
+            "questionGroups": [
+                {
+                    "info": "Write an essay of 200-250 words.\nYour essay must have an introduction, body and conclusion.\n\nDiscuss both of these views and give your own opinion.",
+                    "questions": [
+                        {
+                            "type": "EssayWriting",
+                            "question": "Some say that the development of technology will replace the majority of jobs.\nOthers disagree.",
+                            "minWords": 200,
+                            "maxWords": 250,
+                            "points": [
+                                {
+                                    "category": "Izvršenje zadatka",
+                                    "points": 5
+                                },
+                                {
+                                    "category": "Koherencija i kohezija",
+                                    "points": 5
+                                },
+                                {
+                                    "category": "Vokabular",
+                                    "points": 5
+                                },
+                                {
+                                    "category": "Gramatika",
+                                    "points": 5
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "potentialPoints": 20
+        },
+        {
+            "name": "Slušanje",
+            "predictedTime": 35,
+            "instructions": "Pozorno pročitajte sve upute i slijedite ih.\nIspit slušanja traje 35 minuta.\n\nIspit se sastoji od zadataka povezivanja i zadataka višestrukoga izbora.\n- U zadatcima povezivanja svaki sadržaj označen brojem povežite samo s jednim odgovarajućim sadržajem koji je označen slovom (zadatci 1 i 3).\n- U zadatcima višestrukoga izbora od više ponuđenih odgovora odaberite samo jedan (zadatci 2 i 4).\n\nŽelimo Vam mnogo uspjeha!",
+            "questionGroups": [
+                {
+                    "info": "You will hear five people talking about choosing a future career path.\nMatch each speaker (1-5) with one option from A-H.\nThere are three options that you do not need.\nYou will hear the recording twice.",
+                    "questions": [
+                        {
+                            "type": "MatchThePairs",
+                            "question": "Which career does each person decide on?",
+                            "whichToHide": [
+                                "numbers"
+                            ],
+                            "options": [
+                                {
+                                    "id": "A",
+                                    "type": "letter",
+                                    "textOrAudio": "Content creator."
+                                },
+                                {
+                                    "id": "B",
+                                    "type": "letter",
+                                    "textOrAudio": "Software developer."
+                                },
+                                {
+                                    "id": "C",
+                                    "type": "letter",
+                                    "textOrAudio": "Music producer."
+                                },
+                                {
+                                    "id": "D",
+                                    "type": "letter",
+                                    "textOrAudio": "Sports manager."
+                                },
+                                {
+                                    "id": "E",
+                                    "type": "letter",
+                                    "textOrAudio": "Financial manager."
+                                },
+                                {
+                                    "id": "F",
+                                    "type": "letter",
+                                    "textOrAudio": "Hospitality specialist."
+                                },
+                                {
+                                    "id": "G",
+                                    "type": "letter",
+                                    "textOrAudio": "Events planner."
+                                },
+                                {
+                                    "id": "H",
+                                    "type": "letter",
+                                    "textOrAudio": "Civil engineer."
+                                },
+                                {
+                                    "id": "1",
+                                    "type": "number",
+                                    "textOrAudio": "Speaker 1"
+                                },
+                                {
+                                    "id": "2",
+                                    "type": "number",
+                                    "textOrAudio": "Speaker 2"
+                                },
+                                {
+                                    "id": "3",
+                                    "type": "number",
+                                    "textOrAudio": "Speaker 3"
+                                },
+                                {
+                                    "id": "4",
+                                    "type": "number",
+                                    "textOrAudio": "Speaker 4"
+                                },
+                                {
+                                    "id": "5",
+                                    "type": "number",
+                                    "textOrAudio": "Speaker 5"
+                                }
+                            ],
+                            "pairs": [
+                                {
+                                    "number": "1",
+                                    "letter": "G"
+                                },
+                                {
+                                    "number": "2",
+                                    "letter": "D"
+                                },
+                                {
+                                    "number": "3",
+                                    "letter": "C"
+                                },
+                                {
+                                    "number": "4",
+                                    "letter": "H"
+                                },
+                                {
+                                    "number": "5",
+                                    "letter": "A"
+                                }
+                            ]
+                        }
+                    ],
+                    "initialAudio": "https://files.matura.top/2024/Jesen/Eng/A/Task1.opus"
+                },
+                {
+                    "info": "You will hear people talking in eight situations.\nFor each question (6-13), choose the correct answer (A, B or C).\nYou will hear each recording twice.",
+                    "questions": [
+                        {
+                            "type": "SingleChoice",
+                            "shortText": "How did she feel before her driving test?",
+                            "question": "You hear a girl talking about driving school.",
+                            "choices": [
+                                "Fearful.",
+                                "Inadequate.",
+                                "Calm."
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "shortText": "What was wrong with the student’s essay?",
+                            "question": "You hear a teacher giving feedback to a student.",
+                            "choices": [
+                                "It wasn’t structured properly.",
+                                "The content was partially off topic.",
+                                "The spelling was often incorrect."
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "shortText": "What do they disagree about?",
+                            "question": "You hear a couple making holiday plans.",
+                            "choices": [
+                                "The destination.",
+                                "The duration.",
+                                "The budget."
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "shortText": "What does she think is its biggest benefit for us?",
+                            "question": "You hear a woman talking about artificial intelligence.",
+                            "choices": [
+                                "It may replace difficult jobs.",
+                                "It can save time.",
+                                "It will educate people."
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "shortText": "What piece of advice does he give?",
+                            "question": "You hear a man talking about healthy eating.",
+                            "choices": [
+                                "Avoid processed food.",
+                                "Become a vegan.",
+                                "Skip meals occasionally."
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "shortText": "Who will it help?",
+                            "question": "You hear a radio announcement about a government’s decision.",
+                            "choices": [
+                                "Richer people.",
+                                "Poorer people.",
+                                "Everyone."
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "shortText": "Why is he going there?",
+                            "question": "You hear a man talking about his trip to New York.",
+                            "choices": [
+                                "To visit family.",
+                                "To look for work.",
+                                "To have fun."
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "shortText": "What does she like about it?",
+                            "question": "You hear a teenager talking about a new video game.",
+                            "choices": [
+                                "The plot.",
+                                "The graphics.",
+                                "The music."
+                            ],
+                            "correctChoice": "A"
+                        }
+                    ],
+                    "initialAudio": "https://files.matura.top/2024/Jesen/Eng/A/Task2.opus"
+                },
+                {
+                    "info": "You will hear two friends talking about three eBooks.\nFor each question (14-19), choose the correct answer (A, B or C) from the list of eBooks.\nMark A for Arcady, B for Bonnearth or C for Courseterra.",
+                    "initialAudio": "https://files.matura.top/2024/Jesen/Eng/A/Task3.opus",
+                    "questions": [
+                        {
+                            "type": "MatchThePairs",
+                            "whatFirst": "letters",
+                            "options": [
+                                {
+                                    "id": "A",
+                                    "type": "letter",
+                                    "textOrAudio": "Arcady"
+                                },
+                                {
+                                    "id": "B",
+                                    "type": "letter",
+                                    "textOrAudio": "Bonnearth"
+                                },
+                                {
+                                    "id": "C",
+                                    "type": "letter",
+                                    "textOrAudio": "Courseterra"
+                                },
+                                {
+                                    "id": "14",
+                                    "type": "number",
+                                    "textOrAudio": "Which environmental summer course gives basic insight into natural sciences?"
+                                },
+                                {
+                                    "id": "15",
+                                    "type": "number",
+                                    "textOrAudio": "Which environmental summer course includes specialisation as an integral part of the course?"
+                                },
+                                {
+                                    "id": "16",
+                                    "type": "number",
+                                    "textOrAudio": "Which environmental summer course assigns an obligatory research project?"
+                                },
+                                {
+                                    "id": "17",
+                                    "type": "number",
+                                    "textOrAudio": "Which environmental summer course offers distance learning?"
+                                },
+                                {
+                                    "id": "18",
+                                    "type": "number",
+                                    "textOrAudio": "Which environmental summer course enables you to learn at your own pace?"
+                                },
+                                {
+                                    "id": "19",
+                                    "type": "number",
+                                    "textOrAudio": "Which environmental summer course requires no prior experience in the subject to enrol?"
+                                }
+                            ],
+                            "pairs": [
+                                {
+                                    "number": "14",
+                                    "letter": "A"
+                                },
+                                {
+                                    "number": "15",
+                                    "letter": "B"
+                                },
+                                {
+                                    "number": "16",
+                                    "letter": "A"
+                                },
+                                {
+                                    "number": "17",
+                                    "letter": "C"
+                                },
+                                {
+                                    "number": "18",
+                                    "letter": "B"
+                                },
+                                {
+                                    "number": "19",
+                                    "letter": "C"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "info": "You will hear a radio interview with Jenny Phillips, a visitor centre manager.\nFor each question (20-25), choose the correct answer (A, B or C).\nYou will hear the recording twice.",
+                    "initialAudio": "https://files.matura.top/2024/Jesen/Eng/A/Task4.opus",
+                    "questions": [
+                        {
+                            "type": "SingleChoice",
+                            "question": "What motivated Jenny to move to Grassley?",
+                            "choices": [
+                                "It was near her home town.",
+                                "It was reasonably priced.",
+                                "It offered good facilities."
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "What was Jenny’s initial motivation to become involved in the project?",
+                            "choices": [
+                                "To do voluntary work.",
+                                "To help save fishing equipment.",
+                                "To advance her career."
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "When is the centre at its busiest?",
+                            "choices": [
+                                "At the beginning of the week.",
+                                "In the evening.",
+                                "In poor weather."
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "What does Jenny consider to be the principal challenge of her work?",
+                            "choices": [
+                                "Long-term planning.",
+                                "Unforeseen events.",
+                                "Other people’s behaviour."
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Who offers Jenny the most strategic support?",
+                            "choices": [
+                                "The centre employees.",
+                                "The committee members.",
+                                "The community stakeholders."
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "What are Jenny’s plans for the future?",
+                            "choices": [
+                                "She wants to get a new job.",
+                                "She wants things to remain as they are.",
+                                "She wants to instigate changes."
+                            ],
+                            "correctChoice": "C"
+                        }
+                    ]
+                }
+            ],
+            "potentialPoints": 25
+        }
+    ]
+}

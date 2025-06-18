@@ -1,0 +1,920 @@
+{
+    "scale": {
+        "range1": [
+            0,
+            31.99
+        ],
+        "range2": [
+            32,
+            54.99
+        ],
+        "range3": [
+            55,
+            71.99
+        ],
+        "range4": [
+            72,
+            85.99
+        ],
+        "range5": [
+            86,
+            100
+        ]
+    },
+    "maxPoints": 85,
+    "name": "Engleski",
+    "level": "A",
+    "sections": [
+        {
+            "name": "Čitanje",
+            "potentialPoints": 40,
+            "predictedTime": 70,
+            "instructions": "Pozorno pročitajte sve upute i slijedite ih.\nIspit Čitanja traje 70 minuta.\n\nIspit se sastoji od zadataka povezivanja, zadataka višestrukoga izbora i zadatka dopunjavanja.\n- U zadatcima povezivanja svaki sadržaj označen brojem povežite s odgovarajućim sadržajem koji je označen slovom (zadatci 1 i 3).\n- U zadatcima višestrukoga izbora od više ponuđenih odgovora odaberite samo jedan (zadatci 2 i 4).\n- U zadatku dopunjavanja dopunite praznine upisivanjem sadržaja koji nedostaje (zadatak 5).\n\nKada riješite zadatke, provjerite odgovore.\nŽelimo Vam mnogo uspjeha!",
+            "questionGroups": [
+                {
+                    "info": "You are going to read an article in which people talk about banning proms.\nFor questions 1-12, choose from the people A-F.\nThere is an example at the beginning (0).",
+                    "questions": [
+                        {
+                            "whatFirst": "letters",
+                            "type": "MatchThePairs",
+                            "sortInGrid": [
+                                "letters"
+                            ],
+                            "options": [
+                                {
+                                    "id": "A",
+                                    "type": "letter",
+                                    "textOrAudio": "There are definitely two different ways of looking at it. On the positive side, a prom is something to be remembered - you may feel like you’ve missed out on a part of life if you don’t go. On the negative side, there are a lot of things that go on at proms you should not be involved in, alcohol being just one of them. Personally, I don’t know. Isn’t it better to advise teenagers to be safe and make smart decisions? Give them a chance to choose. And hide your check books!"
+                                },
+                                {
+                                    "id": "B",
+                                    "type": "letter",
+                                    "textOrAudio": "The principal at my son’s school decided that they would no longer have proms! And here’s why: alcohol and drugs swamp the event. In addition, there are exaggerated expenses. It all starts with fancy clothes, continues with limousines and goes on to all kinds of questionable forms of entertainment. “Financial decadence and vanity,” he said. At first, we were furious, of course. But then we organized a teacherparent-student meeting and discussed all the pros and cons. In the end we all saw he was right. No more proms! And the kids all survived!"
+                                },
+                                {
+                                    "id": "C",
+                                    "type": "letter",
+                                    "textOrAudio": "There is a lot of negative media hype about proms. However, is there any truth there? Alcohol, for example. The idea that students drink more during the prom than on any other weekend is just wishful thinking. Teenagers drink every weekend, don’t they? Then, there’s the excessive expenditure connected to it. It’s okay if girls want to dress up because proms are a reflection of a generation’s current “fashions and dance” - in the same way that it is a reflection of our larger culture. No, don’t take away students’ proms. They need them, as much as they need any aspect of their future adult life."
+                                },
+                                {
+                                    "id": "D",
+                                    "type": "letter",
+                                    "textOrAudio": "Simply outlawing something never works with teenagers. Telling them to “just say no to the prom” would inevitably lead to secret “illegal dances” and renting tuxedos from unlicensed suppliers. Is that what we want for our teenagers? It’s important to keep on organizing the proms. Why? Because a lot of teenagers seem increasingly alienated, distant and even depressed. They also seem to be paralyzed with self-esteem and self-importance. A prom is a great way to help them learn to deal with these issues."
+                                },
+                                {
+                                    "id": "E",
+                                    "type": "letter",
+                                    "textOrAudio": "Society and the media have contributed to the idea that proms have to be outrageous. It’s not just about celebrating accomplishments anymore. Apparently, it’s about glamour, not merits. What is unfortunate is that there are students who just want to celebrate the end of their high school lives and enjoy a night out with their classmates, but cannot afford it. So what to do then? I think schools should set limits and say what is acceptable and make it affordable for all, right? Because the prom is an unforgettable event as they all begin a new chapter in their young adult lives."
+                                },
+                                {
+                                    "id": "F",
+                                    "type": "letter",
+                                    "textOrAudio": "In my opinion, the prom could use a makeover. It is the Goliath of school dances, a ritual that exposes those awful (or wonderful) and intense themes of high school: popularity, glamorous beauty, wealth or lack of it. It has always been part of our culture, a big deal, whether or not you want it to be. The prom is a ritual in need of transformation. I would advocate a big non-prom party instead, unburdened by excessive expectation. I’d lose the gowns, the up-dos and the limos and celebrate how awesome it is to be almost finished with high school."
+                                },
+                                {
+                                    "id": "0",
+                                    "type": "number",
+                                    "textOrAudio": "Which person talks about personal experience?"
+                                },
+                                {
+                                    "id": "1",
+                                    "type": "number",
+                                    "textOrAudio": "Which person finds the prom a regular feature of social life?"
+                                },
+                                {
+                                    "id": "2",
+                                    "type": "number",
+                                    "textOrAudio": "Which person agrees the prom equals unacceptable behaviour?"
+                                },
+                                {
+                                    "id": "3",
+                                    "type": "number",
+                                    "textOrAudio": "Which person believes alcohol is not a problem only at proms?"
+                                },
+                                {
+                                    "id": "4",
+                                    "type": "number",
+                                    "textOrAudio": "Which person thinks proms have little to do with achievement?"
+                                },
+                                {
+                                    "id": "5",
+                                    "type": "number",
+                                    "textOrAudio": "Which person mentions teenagers’ mental health?"
+                                },
+                                {
+                                    "id": "6",
+                                    "type": "number",
+                                    "textOrAudio": "Which person proposes a new kind of celebration?"
+                                },
+                                {
+                                    "id": "7",
+                                    "type": "number",
+                                    "textOrAudio": "Which person raises the question of social inequality?"
+                                },
+                                {
+                                    "id": "8",
+                                    "type": "number",
+                                    "textOrAudio": "Which person thinks the choice should be left to teenagers?"
+                                },
+                                {
+                                    "id": "9",
+                                    "type": "number",
+                                    "textOrAudio": "Which person thinks banning proms could lead to unlawful activities?"
+                                },
+                                {
+                                    "id": "10",
+                                    "type": "number",
+                                    "textOrAudio": "Which person sees no problem in the costs of a prom?"
+                                },
+                                {
+                                    "id": "11",
+                                    "type": "number",
+                                    "textOrAudio": "Which person puts the responsibility on educational institutions?"
+                                },
+                                {
+                                    "id": "12",
+                                    "type": "number",
+                                    "textOrAudio": "Which person thinks a prom mirrors social trends?"
+                                }
+                            ],
+                            "pairs": [
+                                {
+                                    "number": "0",
+                                    "letter": "B",
+                                    "isExample": true
+                                },
+                                {
+                                    "number": "1",
+                                    "letter": "F"
+                                },
+                                {
+                                    "number": "2",
+                                    "letter": "B"
+                                },
+                                {
+                                    "number": "3",
+                                    "letter": "C"
+                                },
+                                {
+                                    "number": "4",
+                                    "letter": "E"
+                                },
+                                {
+                                    "number": "5",
+                                    "letter": "D"
+                                },
+                                {
+                                    "number": "6",
+                                    "letter": "F"
+                                },
+                                {
+                                    "number": "7",
+                                    "letter": "E"
+                                },
+                                {
+                                    "number": "8",
+                                    "letter": "A"
+                                },
+                                {
+                                    "number": "9",
+                                    "letter": "D"
+                                },
+                                {
+                                    "number": "10",
+                                    "letter": "C"
+                                },
+                                {
+                                    "number": "11",
+                                    "letter": "E"
+                                },
+                                {
+                                    "number": "12",
+                                    "letter": "C"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "info": "Read the article about the Armenian primary school curriculum.\nFor questions 13-18, choose the correct answer (A, B, C or D).",
+                    "initialText": {
+                        "title": "Armenia makes chess compulsory in schools",
+                        "text": "Tiny Armenia, tucked away in a corner between Turkey and Iran, is an obsessive chessplaying country and a big player in world chess. Their first laureate was Tigran Petrosian, who won the world championship in 1963 and successfully defended his title three years later. In 2011 a six-person national squad came first at the World Team Chess Championship in Russia. That group included up-and-coming player Levon Aronian, 28, currently third in the World Chess Federation’s rankings. These contemporary exploits have fostered a recent craze for this mind-training board game. Indeed, a new move could make it even bigger: mandatory chess in school. The educational authorities of this former Soviet republic have made the game part of the primary school curriculum, along with such standards as maths and history, for children between the ages of seven and nine.\n\nArmenian authorities say teaching chess in school is about building character, not breeding chess champions. The education minister says taking the pastime into the classroom will help nurture a sense of organisation among schoolchildren and will teach them the importance of taking care of their duties. “We hope that the Armenian teaching model might become among the best in the world,” said Rehan Ashotyan. Half a million dollars were allocated to the national chess academy to draw up a course, create textbooks, train instructors and buy equipment. A further $1 million was paid for furniture for chess classrooms.\n\nContinuing the line of successful chess players, Armenia now has an eight-year-old champion, David Ayrapetyan. His parents are hoping that the programme will give him an opponent worthy of his skills. The chess whiz finds the local retirees and fellow children to be pushovers. Only his classmate Aren can give him a run for his money. David’s parents say chess is good for him, no matter what the future holds. Their assumption is that, even if he doesn’t become a grandmaster or doesn’t join the national chess team, chess will certainly teach him to think logically and improvise, as those are indispensable qualities in life.\n\nWendi Fischer, executive director of the US Foundation for Chess, has campaigned for the game to be taken up in American classrooms and labels Armenia’s programme as undoubtedly positive. “By playing chess in class, the children think they’re playing, while they are actually doing some serious thinking all the time,” she said. “So it is a great way to cross over between having a true hard-core curriculum that’s mandatory and giving young children the chance to play and explore and have fun.”\n\nUnlike so many addictive computer games with hardly any upsides, chess is said to teach problem-solving skills, self-discipline and the sheer pleasure of competition. Some classroom observations in primary schools proved that the children do love playing it, though there are some objections to outbursts of bad temper when they lose, and sometimes tears. Adults have acquired the ability to cope with such strong emotions or at least to conceal them, which children have yet to master. They ought to be taught that being gracious in defeat is an important part of the game.\n\nThe newly introduced chess curriculum might even help the children beat the odds against artificial intelligence. A £30 chess program can now beat the world champion. But for the ordinary mortal, trying to fathom the best move in each situation, to arrive at what grandmasters call the “truth” of a position, is endlessly demanding. There lies the real joy of winning a game of chess. The Armenians believe that they are giving their children a useful tool with which to approach life."
+                    },
+                    "questions": [
+                        {
+                            "type": "SingleChoice",
+                            "question": "The Armenians are very much into chess in modern times because",
+                            "choices": [
+                                "chess has always been a national obsession.",
+                                "they wish to beat other former Soviet states.",
+                                "it is an obligatory part of the primary school curriculum.",
+                                "their chess players have been successful."
+                            ],
+                            "correctChoice": "D"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Why did the Armenians decide to introduce chess in primary school?",
+                            "choices": [
+                                "To maintain Armenia’s status as one of the strongest chess-playing countries.",
+                                "To honour their long chess-playing tradition.",
+                                "To develop schoolchildren’s awareness of responsibility.",
+                                "To make the Armenian school system the best in the world."
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "What does David’s family expect from their son’s chess playing?",
+                            "choices": [
+                                "To bring him and his family more money in the future.",
+                                "To make him part of the national chess team.",
+                                "To enable him to beat the local chess whiz kid.",
+                                "To help him make rational choices and be resourceful."
+                            ],
+                            "correctChoice": "D"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "What does the US chess expert think about Armenia’s primary school curriculum?",
+                            "choices": [
+                                "It is well balanced.",
+                                "It is very difficult.",
+                                "It has a good campaign.",
+                                "It puts focus on children’s fun."
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "A drawback of children playing chess at an early age is that it can",
+                            "choices": [
+                                "teach children to hide their emotions.",
+                                "lead to children developing an obsessive addiction.",
+                                "lead to children behaving poorly when defeated.",
+                                "result in children playing like adults."
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "According to the last paragraph, computers nowadays",
+                            "choices": [
+                                "bring joy into chess.",
+                                "are the best chess players.",
+                                "help the grandmasters.",
+                                "are pretty demanding."
+                            ],
+                            "correctChoice": "B"
+                        }
+                    ]
+                },
+                {
+                    "info": "Read the article about the death of email.\nFor questions 19-24, choose from the sentences A-H the one which best fits the gap.\nThere are two letters which you do not need.\nThere is an example at the beginning (0)",
+                    "initialText": {
+                        "title": "Why email no longer rules",
+                        "text": "When the CD-ROM arrived, people predicted the death of the printed book. (0) ___. If not communication, then at least the end of grammar, spelling and punctuation. And so on, until we reach the current prediction that an explosion of tweets, status updates and messaging on social networking sites heralds the death of email - and this time it might be for real.\n\nEmail has had a good run as king of communications. But its reign is obviously over. In its place, a new generation of services is starting to take hold. (19) ___. Just as email did more than a decade ago, this shift promises to profoundly rewrite the way we communicate - in ways we can only begin to imagine.\n\nWe still use email, of course. But email was better suited to the way we used to use the internet - logging off and on, checking our messages in bursts. (20) ___. Being online all the time has created a host of new ways to communicate that are faster than email, and more fun.\n\nWhy wait for a response to an email when you get a quicker answer with instant messaging? Thanks to social networks, some questions can be answered without even asking them. (21) ___. Email, stuck in the era of attachments, seems boring compared to services which allow users to share photos plus other information and to enter comments in near real-time.\n\nSo how will these new tools change the way we communicate? Let’s start with the most obvious: they make our interactions that much faster. Years ago, we were frustrated if it took a few days for a letter to arrive. A couple of years ago, we’d complain about a half-hour delay in getting an email. (22) ___. In a few months, we may be complaining that our cell phones aren’t automatically able to send messages to friends within a certain distance, letting them know we’re nearby.\n\nThese new services also make communicating more frequent and informal - more like a blog comment or a throwaway aside, rather than a crafted email sent to one person. There is no need to spend time writing a long email to your half-dozen closest friends about how your vacation went. (23) ___. Instead of sending a few emails a week to a handful of friends, you can send dozens of messages a day to hundreds of people who know you, or just barely do.\n\nMeanwhile, one big question remains: will the new services save time, or eat up even more of it? You can argue that, because we have more ways to send more messages, we spend more time doing it. (24) ___. We get lured into wasting time, telling our bosses we are looking into something, instead of just doing it, for example. And we will no doubt waste time communicating stuff that isn’t meaningful, maybe at the expense of more meaningful communication - such as, say, talking to somebody in person."
+                    },
+                    "questions": [
+                        {
+                            "type": "FillInChoices",
+                            "correctChoices": [
+                                {
+                                    "index": 0,
+                                    "letter": "I",
+                                    "answers": [
+                                        "A few years later, the explosive growth in text messaging was thought to herald the End of Communication As We Know It."
+                                    ],
+                                    "isExample": true
+                                },
+                                {
+                                    "index": 19,
+                                    "letter": "H",
+                                    "answers": [
+                                        "Countless social networks and messaging services are fighting for a piece of the new world."
+                                    ]
+                                },
+                                {
+                                    "index": 23,
+                                    "letter": "G",
+                                    "answers": [
+                                        "If they’re interested, they can watch it unfold in real time online."
+                                    ]
+                                },
+                                {
+                                    "index": 20,
+                                    "letter": "F",
+                                    "answers": [
+                                        "Whether we are sitting at a desk or talking on a mobile phone, whether working or travelling to work, now we are always connected."
+                                    ]
+                                },
+                                {
+                                    "letter": "E",
+                                    "answers": [
+                                        "Having this in mind, your boss does not have to be concerned about you wasting time at work."
+                                    ],
+                                    "isExtra": true
+                                },
+                                {
+                                    "index": 22,
+                                    "letter": "D",
+                                    "answers": [
+                                        "Today, we fuss about it taking an extra few seconds for a text message to go through."
+                                    ]
+                                },
+                                {
+                                    "letter": "C",
+                                    "answers": [
+                                        "Now it enables you to communicate with anybody at any given moment."
+                                    ],
+                                    "isExtra": true
+                                },
+                                {
+                                    "index": 24,
+                                    "letter": "B",
+                                    "answers": [
+                                        "This hardly makes us more productive."
+                                    ]
+                                },
+                                {
+                                    "index": 21,
+                                    "letter": "A",
+                                    "answers": [
+                                        "If you want to know the latest news about your friends, just check their latest status update."
+                                    ]
+                                }
+                            ],
+                            "showAnswers": true
+                        }
+                    ]
+                },
+                {
+                    "info": "Read the text about food in Hong Kong.\nFor questions 25-32, choose the answer (A, B, C or D) that best fits each space.\nThere is an example at the beginning (0).",
+                    "initialText": {
+                        "title": "Get stuffed in Hong Kong",
+                        "text": "Among its numerous attractions, China has always boasted a long culinary tradition. There are (0) ___ many cuisines in China as there are regions, which gives a huge variety of colours and tastes, (25) ___ of which are considered extremely exotic by visiting tourists.\n\nDue to its rich history, Hong Kong has always been particularly food conscious. It is hard to have a conversation in Hong Kong (26) ___ mentioning food, especially when many still greet each other by asking, “Have you eaten yet?” Cantonese is by far the most popular Chinese cuisine in Hong Kong, but Chiu Chow, Shanghainese, Sichuanese and Northern Chinese are also widely available.\n\nCantonese cuisine is famously fresh: there is an emphasis on (27) ___ fresh meat. Simple techniques such as steaming and stir-frying (28) ___ the ingredients to retain their delicate and well-balanced flavours. The cuisine is famous (29) ___ goose and seafood dishes. Shanghainese cooking, (30) ___, uses a lot of salted and preserved foods. It relies on stewing, braising and frying. Sichuanese is the most fiery, (31) ___ great use of chillies and pungent peppercorns. Northern Chinese food uses a lot of oils (e.g. sesame and chilli) coupled with ingredients such as vinegar, garlic, spring onions, bean paste and dark soy sauce. Steamed bread, dumplings and noodles are (32) ___ to rice, and lamb and mutton, seldom seen on other Chinese menus, are also popular."
+                    },
+                    "questions": [
+                        {
+                            "type": "SingleChoice",
+                            "choices": [
+                                "as",
+                                "so",
+                                "very",
+                                "much"
+                            ],
+                            "correctChoice": "A",
+                            "question": "0",
+                            "isExample": true
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "25",
+                            "choices": [
+                                "few",
+                                "lot",
+                                "some",
+                                "more"
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "26",
+                            "choices": [
+                                "on",
+                                "by",
+                                "during",
+                                "without"
+                            ],
+                            "correctChoice": "D"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "27",
+                            "choices": [
+                                "a",
+                                "/",
+                                "the",
+                                "any"
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "choices": [
+                                "allow",
+                                "make",
+                                "take",
+                                "let"
+                            ],
+                            "question": "28",
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "29",
+                            "choices": [
+                                "after",
+                                "with",
+                                "for",
+                                "by"
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "30",
+                            "choices": [
+                                "moreover",
+                                "on the other hand",
+                                "furthermore",
+                                "in contrast to"
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "choices": [
+                                "taking",
+                                "putting",
+                                "making",
+                                "giving"
+                            ],
+                            "question": "31",
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "32",
+                            "choices": [
+                                "preference",
+                                "to prefer",
+                                "preferring",
+                                "preferred"
+                            ],
+                            "correctChoice": "D"
+                        }
+                    ]
+                },
+                {
+                    "info": "Read and complete the text below.\nFill each space (33-40) with one word. Write your answer only here in the exam booklet.\nThere is an example at the beginning (0).",
+                    "initialText": {
+                        "title": "Midnight ban on gamers",
+                        "text": "In its effort to control game addiction among adolescents, South Korea pulled the plug this weekend on young gamers after midnight, putting a hotly debated law (0) ___ practice. The new system, called the “Shutdown Law”, also referred (33) ___ as the “Cinderella Law”, blocks those under the age of 16 from accessing gaming websites after midnight. This has fuelled heated anger (34) ___ younger gamers.\n\nAs South Korea, (35) ___ has one of the world’s richest online gaming cultures, tries to battle gaming addiction that has led to serious consequences, it struggles to find effective means to selectively help those in need. (36) ___ government is heavily involved in treating people for gaming addiction (37) ___ holding workshops on prevention and offering counselling.\n\nHowever, internet users have flooded the government’s website with postings, calling the new measure “a waste of money”, “idiotic” and “useless”, and questioning (38) ___ it will prevent young gamers from playing into the late hours.\n\nThe controversial shutdown system already faces a petition in court. “The bottom line is that, (39) ___ the parents’ point of view, it violates their right to educate their children”, said Lee Byung-chan, the lawyer who filed the petition (40) ___ behalf of a group of parents. The fate of the petition is to be decided upon next Monday."
+                    },
+                    "questions": [
+                        {
+                            "type": "FillInChoices",
+                            "correctChoices": [
+                                {
+                                    "index": 0,
+                                    "answers": [
+                                        "into"
+                                    ],
+                                    "isExample": true
+                                },
+                                {
+                                    "index": 33,
+                                    "answers": [
+                                        "to"
+                                    ]
+                                },
+                                {
+                                    "index": 34,
+                                    "answers": [
+                                        "in",
+                                        "among",
+                                        "amongst"
+                                    ]
+                                },
+                                {
+                                    "index": 35,
+                                    "answers": [
+                                        "which"
+                                    ]
+                                },
+                                {
+                                    "index": 36,
+                                    "answers": [
+                                        "Korea's",
+                                        "The",
+                                        "Its"
+                                    ]
+                                },
+                                {
+                                    "index": 37,
+                                    "answers": [
+                                        "by"
+                                    ]
+                                },
+                                {
+                                    "index": 38,
+                                    "answers": [
+                                        "if",
+                                        "whether"
+                                    ]
+                                },
+                                {
+                                    "index": 39,
+                                    "answers": [
+                                        "from"
+                                    ]
+                                },
+                                {
+                                    "index": 40,
+                                    "answers": [
+                                        "on"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Pisanje",
+            "predictedTime": 75,
+            "potentialPoints": 20,
+            "instructions": "Pozorno pročitajte sve upute i slijedite ih.\nIspit Pisanja traje 75 minuta.\n\nIspit se sastoji od zadatka eseja.\nŽelimo Vam mnogo uspjeha!",
+            "questionGroups": [
+                {
+                    "info": "Write an essay of 200-250 words.\nYour essay must have an introduction, body and conclusion.\nDiscuss arguments for and against this view and give your own opinion.",
+                    "questions": [
+                        {
+                            "type": "EssayWriting",
+                            "question": "Some people say that watching a movie based on a book is far more exciting than reading the book. Others disagree.",
+                            "minWords": 200,
+                            "maxWords": 250,
+                            "points": [
+                                {
+                                    "category": "Izvršenje zadatka",
+                                    "points": 5
+                                },
+                                {
+                                    "category": "Koherencija i kohenzija",
+                                    "points": 5
+                                },
+                                {
+                                    "category": "Vokabular",
+                                    "points": 5
+                                },
+                                {
+                                    "category": "Gramatika",
+                                    "points": 5
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Slušanje",
+            "predictedTime": 35,
+            "potentialPoints": 25,
+            "instructions": "Pozorno pročitajte sve upute i slijedite ih.\nIspit Slušanja traje 35 minuta.\n\nIspit se sastoji od zadataka povezivanja i zadataka višestrukoga izbora.\n- U zadatcima povezivanja svaki sadržaj označen brojem povežite s odgovarajućim sadržajem koji je označen slovom (zadatci 1 i 3).\n- U zadatcima višestrukoga izbora od više ponuđenih odgovora odaberite samo jedan (zadatci 2 i 4).\n\nKada riješite zadatke, provjerite odgovore.\nŽelimo Vam mnogo uspjeha!",
+            "questionGroups": [
+                {
+                    "info": "You will hear 5 people talking about their first day at school.\nFor each recording (1-5), decide what the speaker was most impressed by.\nChoose from A to H.\nWrite one letter next to the number of the recording.\nDo not use any letter more than once.\nThere are three letters that you do not need.\nYou will hear the recording twice.",
+                    "initialAudio": "https://files.matura.top/2015/Ljeto/Eng/A/Task1.opus",
+                    "questions": [
+                        {
+                            "whichToHide": [
+                                "numbers"
+                            ],
+                            "type": "MatchThePairs",
+                            "question": "What made the greatest impression on each speaker on their first day at school?",
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "type": "number",
+                                    "textOrAudio": "Speaker 1"
+                                },
+                                {
+                                    "id": "2",
+                                    "type": "number",
+                                    "textOrAudio": "Speaker 2"
+                                },
+                                {
+                                    "id": "3",
+                                    "type": "number",
+                                    "textOrAudio": "Speaker 3"
+                                },
+                                {
+                                    "id": "4",
+                                    "type": "number",
+                                    "textOrAudio": "Speaker 4"
+                                },
+                                {
+                                    "id": "5",
+                                    "type": "number",
+                                    "textOrAudio": "Speaker 5"
+                                },
+                                {
+                                    "id": "A",
+                                    "type": "letter",
+                                    "textOrAudio": "School uniforms."
+                                },
+                                {
+                                    "id": "B",
+                                    "type": "letter",
+                                    "textOrAudio": "The food."
+                                },
+                                {
+                                    "id": "C",
+                                    "type": "letter",
+                                    "textOrAudio": "The teacher"
+                                },
+                                {
+                                    "id": "D",
+                                    "type": "letter",
+                                    "textOrAudio": "The classmates."
+                                },
+                                {
+                                    "id": "E",
+                                    "type": "letter",
+                                    "textOrAudio": "Travelling to school."
+                                },
+                                {
+                                    "id": "F",
+                                    "type": "letter",
+                                    "textOrAudio": "The building."
+                                },
+                                {
+                                    "id": "G",
+                                    "type": "letter",
+                                    "textOrAudio": "The school facilities."
+                                },
+                                {
+                                    "id": "H",
+                                    "type": "letter",
+                                    "textOrAudio": "The welcome."
+                                }
+                            ],
+                            "pairs": [
+                                {
+                                    "number": "1",
+                                    "letter": "E"
+                                },
+                                {
+                                    "number": "2",
+                                    "letter": "B"
+                                },
+                                {
+                                    "number": "3",
+                                    "letter": "D"
+                                },
+                                {
+                                    "number": "4",
+                                    "letter": "H"
+                                },
+                                {
+                                    "number": "5",
+                                    "letter": "G"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "info": "You will hear people talking in eight situations.\nFor each situation (6-13), choose the correct answer, A, B or C.\nYou will hear each recording twice",
+                    "initialAudio": "https://files.matura.top/2015/Ljeto/Eng/A/Task2.opus",
+                    "questions": [
+                        {
+                            "type": "SingleChoice",
+                            "question": "You hear Mario talking about his lack of free time. What would he do if he had more free time?",
+                            "choices": [
+                                "Learn a new language.",
+                                "Improve his social life.",
+                                "Spend more time outdoors."
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "You hear a teacher and Mrs Peterson talking about her son’s absence from school. What is Mrs Peterson trying to do?",
+                            "choices": [
+                                "Defend her son.",
+                                "Clarify the situation.",
+                                "Cover for her son."
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "You hear a doctor talking to a patient. What advice is he giving to his patient?",
+                            "choices": [
+                                "To change his habits.",
+                                "To join a support group.",
+                                "To continue taking his medicine."
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "You will hear a woman talking about believing in horoscopes. Which statement best describes her view?",
+                            "choices": [
+                                "Our destiny is written in the stars.",
+                                "Daily horoscopes help us make it through the day.",
+                                "Detailed readings can tell you who you are."
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "You hear a piece of news on an English car company. According to the text, the company..",
+                            "choices": [
+                                "forbids its workers to send emails when they are off-shift.",
+                                "switches off after-hours emails for its workers.",
+                                "turns off personal emails for its workers."
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "You hear a tour guide talking to a group of high school students about the Royal Hostel. When can the students contact the receptionist?",
+                            "choices": [
+                                "After 10 pm.",
+                                "From 7 am.",
+                                "Round the clock."
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "You hear Oliver talking about leaving home and going to college. What concerns him most about going to university?",
+                            "choices": [
+                                "Separating from his friends.",
+                                "Leaving his family.",
+                                "Facing a lot of work."
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "You hear a piece of news on a replica of Noah’s ark built in Hong Kong. What is the connection between the global crisis and the ark?",
+                            "choices": [
+                                "The ark was built as an answer to the crisis.",
+                                "The global crisis is used as a means of advertising the ark.",
+                                "The ark is an economic success despite the crisis."
+                            ],
+                            "correctChoice": "B"
+                        }
+                    ]
+                },
+                {
+                    "info": "You will hear a brother and a sister talking about three different teen summer camps.\nListen to the conversation and decide which teen camp (A-C) each question (14-19) refers to.\n\nWrite:\n- A for ActionQuest Camp\n- B for Brook Camp\n- C for Chestnut Camp",
+                    "initialAudio": "https://files.matura.top/2015/Ljeto/Eng/A/Task3.opus",
+                    "questions": [
+                        {
+                            "whatFirst": "letters",
+                            "type": "MatchThePairs",
+                            "options": [
+                                {
+                                    "id": "A",
+                                    "type": "letter",
+                                    "textOrAudio": "ActionQuest Camp"
+                                },
+                                {
+                                    "id": "B",
+                                    "type": "letter",
+                                    "textOrAudio": "Brook Camp"
+                                },
+                                {
+                                    "id": "C",
+                                    "type": "letter",
+                                    "textOrAudio": "Chestnut Camp"
+                                },
+                                {
+                                    "id": "14",
+                                    "type": "number",
+                                    "textOrAudio": "Which camp has a parents’ day?"
+                                },
+                                {
+                                    "id": "15",
+                                    "type": "number",
+                                    "textOrAudio": "Which camp does NOT offer sports activities?"
+                                },
+                                {
+                                    "id": "16",
+                                    "type": "number",
+                                    "textOrAudio": "Which camp is a girls-only camp?"
+                                },
+                                {
+                                    "id": "17",
+                                    "type": "number",
+                                    "textOrAudio": "Which camp organises day trips for campers?"
+                                },
+                                {
+                                    "id": "18",
+                                    "type": "number",
+                                    "textOrAudio": "Which camp has academic courses?"
+                                },
+                                {
+                                    "id": "19",
+                                    "type": "number",
+                                    "textOrAudio": "Which camp does NOT allow personal electronic equipment?"
+                                }
+                            ],
+                            "pairs": [
+                                {
+                                    "number": "14",
+                                    "letter": "C"
+                                },
+                                {
+                                    "number": "15",
+                                    "letter": "B"
+                                },
+                                {
+                                    "number": "16",
+                                    "letter": "B"
+                                },
+                                {
+                                    "number": "17",
+                                    "letter": "A"
+                                },
+                                {
+                                    "number": "18",
+                                    "letter": "A"
+                                },
+                                {
+                                    "number": "19",
+                                    "letter": "B"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "info": "You will hear an interview with Tomasina Miers, a Masterchef winner.\nFor questions 20-25, choose the correct answer, A, B or C.\nYou will hear the recording twice.",
+                    "initialAudio": "https://files.matura.top/2015/Ljeto/Eng/A/Task4.opus",
+                    "questions": [
+                        {
+                            "type": "SingleChoice",
+                            "question": "Why did Tomasina travel to Mexico for the first time?",
+                            "choices": [
+                                "To find a job.",
+                                "To try the food.",
+                                "To visit relatives."
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "choices": [
+                                "She studied Spanish.",
+                                "She moved to Chile.",
+                                "She found the love of her life."
+                            ],
+                            "question": "What happened after Tomasina’s first trip to Mexico?",
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "choices": [
+                                "Spend time outdoors.",
+                                "Socialise with the locals.",
+                                "Learn traditional dances."
+                            ],
+                            "question": "If Tomasina went back to Argentina, what would she do?",
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "When did Tomasina discover her love for food?",
+                            "choices": [
+                                "As a young person.",
+                                "When visiting the markets.",
+                                "While travelling."
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Why did Tomasina decide to become a chef?",
+                            "choices": [
+                                "To share her passion.",
+                                "To earn money.",
+                                "To write a cookbook."
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "choices": [
+                                "They are expensive.",
+                                "She wants to cook.",
+                                "She likes the locals."
+                            ],
+                            "question": "Why does Tomasina avoid staying in hotels when travelling?",
+                            "correctChoice": "C"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

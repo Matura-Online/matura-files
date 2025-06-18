@@ -1,0 +1,457 @@
+{
+    "name": "Matematika",
+    "maxPoints": 40,
+    "scale": {
+        "range1": [
+            0,
+            24.99
+        ],
+        "range2": [
+            25,
+            49.99
+        ],
+        "range3": [
+            50,
+            69.99
+        ],
+        "range4": [
+            70,
+            86.99
+        ],
+        "range5": [
+            87,
+            100
+        ]
+    },
+    "sections": [
+        {
+            "name": "Osnovno",
+            "predictedTime": 150,
+            "instructions": "Pozorno pročitajte sve upute i slijedite ih.\n\nIspit traje 150 minuta.\nIspred svake skupine zadataka je uputa za rješavanje. Pozorno je pročitajte.\nMožete upotrebljavati priloženu knjižicu formula.\n\nKada riješite zadatke, provjerite odgovore.\nŽelimo Vam mnogo uspjeha!",
+            "questionGroups": [
+                {
+                    "info": "I. Zadatci višestrukoga izbora.\n\nU sljedećim zadatcima od više ponuđenih odgovora samo je jedan točan.\nU zadatcima od 1. do 12. točan odgovor donosi jedan bod, a u zadatcima od 13. do 16. dva boda.",
+                    "questions": [
+                        {
+                            "type": "SingleChoice",
+                            "question": "Kojemu od navedenih intervala pripada broj 7?",
+                            "choices": [
+                                "$\\left\\langle-\\infty,7\\right\\rangle$",
+                                "$\\left\\langle7,9\\right]$",
+                                "$\\left[1,8\\right]$",
+                                "$\\left[8,+\\infty\\right\\rangle$"
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koja je od navedenih tvrdnja točna?",
+                            "choices": [
+                                "$-2.4<-\\frac{7}{3}<-2$",
+                                "$-2.4<-2<-\\frac{7}{3}$",
+                                "$-\\frac{7}{3}<-2.4<-2$",
+                                "$-2<-\\frac{7}{3}<-2.4$"
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koja je vrijednost izraza $\\frac{b+\\left|1+a\\right|}{a^{3}-3b}$, za $a=-2,b=\\frac{1}{3}$?",
+                            "choices": [
+                                "$-\\frac43$",
+                                "$-\\frac4{27}$",
+                                "$\\frac4{21}$",
+                                "$\\frac49$"
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "shortText": "Borna i Marko istodobno rješavaju ispit iz Matematike. Borna je ispit riješio za 1 sat i 53 minute, a Marko za 2 sata i 5 minuta.",
+                            "question": "Koja je od navedenih tvrdnja točna?",
+                            "choices": [
+                                "Borna je ispit rješavao 52 minute dulje od Marka.",
+                                "Borna je ispit rješavao 52 minute kraće od Marka.",
+                                "Borna je ispit rješavao 12 minuta dulje od Marka.",
+                                "Borna je ispit rješavao 12 minuta kraće od Marka."
+                            ],
+                            "correctChoice": "D"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Kolika je udaljenost točaka $A(-3,-1)$ i $B(2,3)$?",
+                            "choices": [
+                                "$\\sqrt{5}$",
+                                "$3$",
+                                "$\\sqrt{41}$",
+                                "$9$"
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koja je točka nultočka funkcije $f\\left(x\\right)=3x+15$?",
+                            "choices": [
+                                "$(-5,0)$",
+                                "$(-1,0)$",
+                                "$(1,0)$",
+                                "$(5,0)$"
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koja od navedenih nejednadžba ima isti skup rješenja kao nejednadžba $-5x+2\\leq1$?",
+                            "choices": [
+                                "$5x\\leq-1$",
+                                "$5x\\leq-3$",
+                                "$5x\\geq1$",
+                                "$5x\\geq3$"
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "shortText": "Mesar priprema smjesu za kobasice od svinjskoga i junećega mesa u omjeru 4 : 3.",
+                            "question": "Koliko je ukupno mesa upotrijebio za kobasice ako je u smjesi 12 kg junećega mesa?",
+                            "choices": [
+                                "20 kg",
+                                "28 kg",
+                                "36 kg",
+                                "48 kg"
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koja od navedenih jednadžba predstavlja pravac s koeficijentom smjera $k=-2$?",
+                            "choices": [
+                                "$x+y+1=0$",
+                                "$x+2y+2=0$",
+                                "$2x-y-1=0$",
+                                "$2x+y+1=0$"
+                            ],
+                            "correctChoice": "D"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koji je realan broj x rješenje jednadžbe $0.1^{x}=100^{-2}$?",
+                            "choices": [
+                                "-4",
+                                "-2",
+                                "2",
+                                "4"
+                            ],
+                            "correctChoice": "D"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Kolika je dobit te obrtničke radionice ako je prodano 745 proizvoda?",
+                            "shortText": "Dobit neke obrtničke radionice D u kunama izražena je formulom $D(n)=-2n^2+1510n$, gdje je n broj prodanih proizvoda.",
+                            "choices": [
+                                "11 400 kn",
+                                "12 500 kn",
+                                "14 900 kn",
+                                "15 700 kn"
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koja dužina predstavlja visinu uspravne piramide prikazane na skici?",
+                            "choices": [
+                                "$\\overline{AB}$",
+                                "$\\overline{AC}$",
+                                "$\\overline{VN}$",
+                                "$\\overline{VP}$"
+                            ],
+                            "correctChoice": "C",
+                            "mediaUrl": "https://files.matura.top/2015/Ljeto/Mat/B/U7OdShh3I.webp"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koja slika prikazuje grafičko rješenje sustava jednadžba $3x-y+3=0$ i $x-3y-3=0$?",
+                            "mediaUrl": "https://files.matura.top/2015/Ljeto/Mat/B/xpX0VVouo.webp",
+                            "choices": [
+                                "Slika A",
+                                "Slika B",
+                                "Slika C",
+                                "Slika D"
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Zadan je sustav $\\begin{cases}x+y=10\\\\x^2-y^2=20\\end{cases}$. Koliko je $x-y$?",
+                            "choices": [
+                                "2",
+                                "5",
+                                "10",
+                                "20"
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "shortText": "Ručnik pravokutnoga oblika ima duljinu 100 cm i širinu 70 cm. Pri prvome pranju ručnik se skuplja 2 % po duljini i 3 % po širini.",
+                            "question": "Za koliko će se posto smanjiti površina ručnika nakon prvoga pranja?",
+                            "choices": [
+                                "za 4.51%",
+                                "za 4.94%",
+                                "za 5%",
+                                "za 6%"
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "shortText": "Na slikama su prikazane po tri centilne krivulje rasta za djevojčice i za dječake kojima se prati njihov razvoj.\n\nPrimjerice, djevojčica dobi od 13 godina i visine 140 cm je na 5. centilu krivulje rasta.\nTo znači da je 95 % djevojčica iste dobi više od nje, a samo 5 % djevojčica iste dobi niže je od nje.",
+                            "question": "Koja je tvrdnja točna za dječaka koji je na 95. centilu krivulje rasta?",
+                            "choices": [
+                                "Samo je 5 % dječaka dobi od 11 godina niže od 135 cm.",
+                                "Samo je 5 % dječaka dobi od 11 godina više od 135 cm.",
+                                "Samo je 5 % dječaka dobi od 12 godina niže od 165 cm.",
+                                "Samo je 5 % dječaka dobi od 12 godina više od 165 cm."
+                            ],
+                            "correctChoice": "D",
+                            "mediaUrl": "https://files.matura.top/2015/Ljeto/Mat/B/ZEdRGWfQ6.webp"
+                        }
+                    ]
+                },
+                {
+                    "info": "II. Zadatci kratkoga odgovora.\n\nU sljedećim zadatcima odgovorite kratkim odgovorom.",
+                    "questions": [
+                        {
+                            "type": "SubBoard",
+                            "mainQuestion": "Koliko je $85.3\\cdot2^{2.75}$?",
+                            "showTldraw": true,
+                            "answers": [
+                                "573.8277",
+                                "573,8277"
+                            ],
+                            "points": 1
+                        },
+                        {
+                            "type": "SubBoard",
+                            "mainQuestion": "Zaokružite broj $\\sqrt{15}$ na tri decimale.",
+                            "points": 1,
+                            "answers": [
+                                "3.873",
+                                "3,873"
+                            ]
+                        },
+                        {
+                            "type": "SubBoard",
+                            "mainQuestion": "Koliko ima cijelih brojeva u skupu $S=\\left\\{-\\sqrt{2},-1,0,\\sqrt{9},6,\\pi^{2},\\frac{21}{2}\\right\\}$?",
+                            "answers": [
+                                "4"
+                            ],
+                            "showTldraw": true,
+                            "points": 1
+                        },
+                        {
+                            "type": "SubBoard",
+                            "mainQuestion": "Koliko košta 4 kg jabuka ako 3 kg jabuka košta 22.5 kn?",
+                            "answers": [
+                                "30",
+                                "30kn"
+                            ],
+                            "showTldraw": true,
+                            "points": 1
+                        },
+                        {
+                            "type": "SubBoard",
+                            "mainQuestion": "Koliki je broj učenika iz ispita dobio ocjenu odličan?",
+                            "shortText": "Ispitu je pristupilo 48 učenika i svi su ga položili. Ocjenu dovoljan dobilo je 31.25 % učenika.\nOd preostalih učenika trećina je dobila ocjenu odličan.",
+                            "answers": [
+                                "11"
+                            ],
+                            "points": 1,
+                            "showTldraw": true
+                        },
+                        {
+                            "type": "SubBoard",
+                            "mainQuestion": "Riješite zadatke.",
+                            "showTldraw": true,
+                            "subQuestions": [
+                                {
+                                    "question": "Izraz $\\left(2x+y\\right)^2-7xy$ pojednostavnite do kraja.",
+                                    "points": 1,
+                                    "answers": []
+                                },
+                                {
+                                    "question": "Prikažite izraz ${\\frac{2}{a-3}}+1$, za $a\\neq3$ u obliku jednoga do kraja sređenoga razlomka.",
+                                    "points": 1,
+                                    "answers": []
+                                }
+                            ],
+                            "fullSolutionOrUrl": "1. $4x^2-3xy+y^2$\n\n2. $\\frac{a-1}{a-3}$"
+                        },
+                        {
+                            "type": "SubBoard",
+                            "mainQuestion": "Majka, kći i sin imaju ukupno 87 godina. Majka je rodila kći s 26 godina, a sina pet godina kasnije.",
+                            "subQuestions": [
+                                {
+                                    "question": "Koliko je godina imala majka kada je rodila sina?",
+                                    "points": 1,
+                                    "answers": [
+                                        "31"
+                                    ]
+                                },
+                                {
+                                    "question": "Koliko godina ima kći sada?",
+                                    "points": 1,
+                                    "answers": [
+                                        "22"
+                                    ]
+                                }
+                            ],
+                            "showTldraw": true
+                        },
+                        {
+                            "type": "SubBoard",
+                            "mainQuestion": "Polumjer prednjega kotača na traktoru je 30 cm, a polumjer stražnjega kotača je 55 cm.",
+                            "showTldraw": true,
+                            "subQuestions": [
+                                {
+                                    "question": "Za koliko je opseg stražnjega kotača veći od opsega prednjega kotača?",
+                                    "points": 1,
+                                    "rightInput": "cm",
+                                    "answers": [
+                                        "157.08",
+                                        "157,08"
+                                    ]
+                                },
+                                {
+                                    "question": "Koliki je put prešao traktor ako je prednji kotač napravio 50 okretaja više nego stražnji kotač? Rezultat napišite u metrima.",
+                                    "points": 1,
+                                    "rightInput": "m",
+                                    "answers": [
+                                        "207.35",
+                                        "207,35"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "SubBoard",
+                            "mainQuestion": "Zadana je funkcija $f(x)=-\\frac{3}{4}x^{2}+3x-2$.",
+                            "showTldraw": true,
+                            "subQuestions": [
+                                {
+                                    "question": "Odredite koordinate sjecišta grafa funkcije $f$ s osi $y$.",
+                                    "points": 1,
+                                    "answers": [
+                                        "(0,-2)",
+                                        "(0, -2)",
+                                        "0,-2",
+                                        "0, -2",
+                                        "0 i -2"
+                                    ]
+                                },
+                                {
+                                    "question": "Kolika je maksimalna vrijednost funkcije $f$?",
+                                    "points": 1,
+                                    "answers": [
+                                        "1",
+                                        "f(2)=1"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "SubBoard",
+                            "mainQuestion": "Zadan je četverokut ABCD prikazan na skici.",
+                            "mediaUrl": "https://files.matura.top/2015/Ljeto/Mat/B/R0YIQA7lv.webp",
+                            "showTldraw": true,
+                            "subQuestions": [
+                                {
+                                    "question": "Kolika je površina četverokuta ABCD?",
+                                    "points": 1,
+                                    "rightInput": "$cm^{2}$",
+                                    "answers": [
+                                        "52.5",
+                                        "52,5"
+                                    ]
+                                },
+                                {
+                                    "question": "Koliki je opseg četverokuta ABCD?",
+                                    "points": 1,
+                                    "rightInput": "cm",
+                                    "answers": [
+                                        "30.81",
+                                        "30,81"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "SubBoard",
+                            "mainQuestion": "Riješite zadatke.",
+                            "showTldraw": true,
+                            "subQuestions": [
+                                {
+                                    "question": "$2(x+4)-3(2x-1)=4x+2$",
+                                    "points": 1,
+                                    "answers": []
+                                },
+                                {
+                                    "question": "Čemu je jednako M ako je $v=\\sqrt{\\frac{T}{3M}}$?",
+                                    "points": 1,
+                                    "answers": []
+                                },
+                                {
+                                    "question": "Nacrtajte graf kvadratne funkcije $f(x)=x^{2}+2x-3$?",
+                                    "points": 1,
+                                    "answers": []
+                                }
+                            ],
+                            "fullSolutionOrUrl": "https://files.matura.top/2015/Ljeto/Mat/B/hHYw2iIwF.webp"
+                        },
+                        {
+                            "type": "SubBoard",
+                            "mainQuestion": "Bazen dužine 25 m, širine 16.6 m i dubine 2 m puni se vodom brzinom od 1000 L u minuti. (Napomena: $1dm^{3}$ = $1L$)",
+                            "showTldraw": true,
+                            "subQuestions": [
+                                {
+                                    "question": "Koliko je vremena potrebno da se bazen u potpunosti napuni? (hh:mm)",
+                                    "points": 1,
+                                    "answers": [
+                                        "830 min",
+                                        "830min",
+                                        "830m",
+                                        "830 m",
+                                        "13h 50m",
+                                        "13h 50m",
+                                        "13:50",
+                                        "13.50"
+                                    ]
+                                },
+                                {
+                                    "question": "Koncentracija klora u vodi je 1 mg/L. Koliko grama klora ima u punome bazenu?",
+                                    "points": 1,
+                                    "rightInput": "g",
+                                    "answers": [
+                                        "830"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "potentialPoints": 40,
+            "helpFiles": [
+                {
+                    "name": "1",
+                    "fileUrl": "https://files.matura.top/All/Mat/B/40yZbulUx.webp"
+                },
+                {
+                    "name": "2",
+                    "fileUrl": "https://files.matura.top/All/Mat/B/Q8gx7CGsR.webp"
+                }
+            ]
+        }
+    ],
+    "level": "B"
+}

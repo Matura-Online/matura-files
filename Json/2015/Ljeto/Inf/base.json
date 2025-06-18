@@ -1,0 +1,440 @@
+{
+    "name": "Informatika",
+    "maxPoints": 40,
+    "scale": {
+        "range1": [
+            0,
+            27.99
+        ],
+        "range2": [
+            28,
+            49.99
+        ],
+        "range3": [
+            50,
+            74.99
+        ],
+        "range4": [
+            75,
+            84
+        ],
+        "range5": [
+            85,
+            100
+        ]
+    },
+    "sections": [
+        {
+            "name": "Osnovno",
+            "predictedTime": 100,
+            "instructions": "Pozorno pročitajte sve upute i slijedite ih.\nIspit traje 100 minuta.\n\nIspred svake skupine zadataka je uputa za rješavanje. Pozorno je pročitajte.\nMožete upotrebljavati priložene pomoćne tablice.\n\nKada riješite zadatke, provjerite odgovore.\nŽelimo Vam mnogo uspjeha!",
+            "helpFiles": [
+                {
+                    "name": "1",
+                    "fileUrl": "https://files.matura.top/All/Inf/2015-2018/K2xhcmADg.webp"
+                },
+                {
+                    "name": "2",
+                    "fileUrl": "https://files.matura.top/All/Inf/2015-2018/kkPfC4fkj.webp"
+                },
+                {
+                    "name": "3",
+                    "fileUrl": "https://files.matura.top/All/Inf/2015-2018/tVcSYJsOz.webp"
+                }
+            ],
+            "potentialPoints": 40,
+            "questionGroups": [
+                {
+                    "info": "I. Zadatci višestrukoga izbora.\n\nU sljedećim zadatcima od više ponuđenih odgovora samo je jedan točan.\nSvaki točan odgovor donosi 1 bod.",
+                    "questions": [
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koju tipku ili kombinaciju tipaka na tipkovnici treba pritisnuti (u operacijskome sustavu MS Windows) ako u međuspremnik treba pohraniti sliku samo aktivnoga prozora?",
+                            "choices": [
+                                "[Print Screen]",
+                                "[Alt]+[Print Screen]",
+                                "[Shift]+[Print Screen]",
+                                "[Ctrl]+[Print Screen]"
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Kako se naziva računalna mreža na širemu geografskom području?",
+                            "choices": [
+                                "LAN",
+                                "WLAN",
+                                "WAN",
+                                "PAN"
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "mediaUrl": "https://files.matura.top/2015/Ljeto/Inf/5K4AXevFG.webp",
+                            "shortText": "U programu za obradu teksta MS Word prikazan je dio teksta kao na slici.",
+                            "question": "Koje su tri ponuđene ikone (opcije) nužno odabrane za oblikovanje riječi „Informatika” u prikazanome tekstu?",
+                            "choices": [
+                                "Opcija A",
+                                "Opcija B",
+                                "Opcija C",
+                                "Opcija D"
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "mediaUrl": "https://files.matura.top/2015/Ljeto/Inf/OQZGEH94p.webp",
+                            "question": "Za što se prilikom korištenja programa za obradu teksta MS Word upotrebljava oznaka na ravnalu koja je na slici istaknuta crvenom bojom?",
+                            "choices": [
+                                "za uvlaku prvoga retka odabranoga odlomka",
+                                "za uvlaku svih redaka odabranoga odlomka osim prvoga",
+                                "za uvlaku cijeloga odabranog odlomka s lijeve strane",
+                                "za uvlaku cijeloga odabranog odlomka s desne strane"
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Kojom se od navedenih formula u programu za proračunske tablice MS Excel izračunava zbroj vrijednosti iz raspona ćelija od A1 do B5 i od C1 do D5?",
+                            "choices": [
+                                "=SUM(A1;B5;C1;D5)",
+                                "=SUM(A1:B5:C1:D5)",
+                                "=SUM(A1;B5:C1;D5)",
+                                "=SUM(A1:B5;C1:D5)"
+                            ],
+                            "correctChoice": "D"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "shortText": "U programu za proračunske tablice MS Excel upisane su školske ocjene iz pisane provjere znanja u rasponu ćelija od C2 do C30.",
+                            "question": "Kojom se od navedenih formula može prebrojiti koliko je učenika pozitivno riješilo pisanu provjeru znanja?",
+                            "choices": [
+                                "=COUNTIF(C2:C30;ꞌ2,3,4,5ꞌ)",
+                                "=COUNTIF(C2:C30;ꞌ>1ꞌ)",
+                                "=COUNTIF(C2:C30;ꞌ2 OR 3 OR 4 OR 5ꞌ)",
+                                "=COUNTIF(C2:C30;ꞌ0ꞌ)"
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koji od navedenih pojmova najbolje odgovara riječi hardver?",
+                            "choices": [
+                                "tvrdi disk",
+                                "programska oprema",
+                                "središnja jedinica računala",
+                                "sklopovlje"
+                            ],
+                            "correctChoice": "D"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koja je mjerna jedinica za razlučivost skenera?",
+                            "choices": [
+                                "inch",
+                                "bps",
+                                "dpc",
+                                "dpi"
+                            ],
+                            "correctChoice": "D"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koji je binarni zapis dekadskoga broja $29_{(10)}$?",
+                            "choices": [
+                                "1011",
+                                "1101",
+                                "10111",
+                                "11101"
+                            ],
+                            "correctChoice": "D"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koji je binarni zapis heksadekadskoga broja $E01.3_{(16)}$?",
+                            "choices": [
+                                "111000000001,0011",
+                                "11101,11",
+                                "111000000001,11",
+                                "110001,0011"
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Sadržaj 8-bitovnoga registra je 10010101. Koji je to dekadski broj ako je poznato da je u registru zapisan cijeli broj s predznakom i apsolutnom vrijednosti?",
+                            "choices": [
+                                "-149",
+                                "-21",
+                                "21",
+                                "149"
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "shortText": "Na slici su prikazani sadržaji 8-bitovnih registara A i B u kojima su brojevi zapisani metodom dvojnoga komplementa.",
+                            "question": "Koji će biti sadržaj 8-bitovnoga registra C ako je u njemu zapisan zbroj sadržaja registara A i B?",
+                            "choices": [
+                                "01110100",
+                                "10001000",
+                                "110001000",
+                                "111101000"
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Kako glasi pojednostavljeni logički izraz $\\overline{\\overline{A+\\overline{B}}\\times{\\overline{B}}}$?",
+                            "choices": [
+                                "${A}\\times{B}$",
+                                "$A$",
+                                "0",
+                                "1"
+                            ],
+                            "correctChoice": "D"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "mediaUrl": "https://files.matura.top/2015/Ljeto/Inf/Qpb38zjm7.webp",
+                            "question": "Kako glasi logički izraz koji je opisan prikazanom tablicom istinitosti?",
+                            "choices": [
+                                "$A\\times{\\overline{B}}\\times{C}+A\\times{B}\\times{\\overline{C}}$",
+                                "$\\overline{A}\\times{B}\\times{\\overline{C}}+\\overline{A}\\times{\\overline{B}}\\times{C}$",
+                                "$(A+\\overline{B}+C)\\times(A+B+\\overline{C})$",
+                                "$(\\overline{A}+B+\\overline{C})\\times(\\overline{A}+\\overline{B}+C)$"
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Kako glasi pojednostavljeni logički izraz $\\overline{\\overline{A+\\overline{B}}\\times{C}+\\overline{B\\times{C}}}$?",
+                            "choices": [
+                                "0",
+                                "1",
+                                "$A\\times{\\overline{C}}$",
+                                "$A\\times{B}\\times{C}$"
+                            ],
+                            "correctChoice": "D"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Broj a je srednji po veličini od triju brojeva a, b i c. Koji od navedenih logičkih izraza opisuje broj a?",
+                            "choices": [
+                                "(a > b) I (a < c) ILI (a < b) I (a > c)",
+                                "((a > b) ILI (a < c)) ILI ((a < b) ILI (a > c))",
+                                "(a > b) I (a > c) ILI (a < b) I (a < c)",
+                                "((a > b) I (a < c)) I ((a < b) I (a > c))"
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koja će vrijednost biti pohranjena u varijabli c nakon izvođenja sljedećega dijela programa?",
+                            "choices": [
+                                "-2",
+                                "-1",
+                                "1",
+                                "3"
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "mediaUrl": "https://files.matura.top/2015/Ljeto/Inf/vowqzMXcc.webp",
+                            "question": "Koju će vrijednost imati varijable a i b nakon izvođenja sljedećega dijela programa?",
+                            "choices": [
+                                "20",
+                                "16",
+                                "5",
+                                "4"
+                            ],
+                            "correctChoice": "D"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "mediaUrl": "https://files.matura.top/2015/Ljeto/Inf/ZmnDHv5Wz.webp",
+                            "question": "U kojemu će se od sljedećih algoritama varijabla x smanjivati za tri dok ne postane manja od 20?",
+                            "choices": [
+                                "Opcija A",
+                                "Opcija B",
+                                "Opcija C",
+                                "Opcija D"
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "mediaUrl": "https://files.matura.top/2015/Ljeto/Inf/x6oXSwBUq.webp",
+                            "question": "Koji će od sljedećih algoritama ispisati binarni zapis dekadskoga prirodnog broja n?",
+                            "choices": [
+                                "Opcija A",
+                                "Opcija B",
+                                "Opcija C",
+                                "Opcija D"
+                            ],
+                            "correctChoice": "C"
+                        }
+                    ]
+                },
+                {
+                    "info": "II. Zadatci kratkoga odgovora i dopunjavanja.\n\nU sljedećim zadatcima trebate odgovoriti kratkim odgovorom (jednom riječju, dvjema riječima ili brojem) ili dopuniti tablicu.",
+                    "questions": [
+                        {
+                            "type": "ShortAnswer",
+                            "question": "Kako glasi skraćenica za uobičajeni mrežni protokol kojim se razmjenjuju datoteke na World Wide Webu?",
+                            "answers": [
+                                "HTTP"
+                            ]
+                        },
+                        {
+                            "type": "ShortAnswer",
+                            "question": "Kojom se formulom prebrojava koliko ima brojeva u rasponu ćelija od A3 do C8 u programu za proračunske tablice MS Excel?",
+                            "answers": [
+                                "=COUNT(A3:C8)"
+                            ]
+                        },
+                        {
+                            "type": "ShortAnswer",
+                            "shortText": "$\\overline{X} = NOT X$\n\n$\\times = I$\n\n$+ = ILI$",
+                            "question": "Pojednostavnite logički izraz $(A+B)\\times{\\overline{\\overline{A}+\\overline{A\\times{\\overline{B}}}}}$ tako da ga napišete s najmanjim mogućim brojem operacija i operanada.",
+                            "answers": [
+                                "A I NOT B",
+                                "A and not B"
+                            ]
+                        },
+                        {
+                            "type": "ShortAnswer",
+                            "question": "Koji je dekadski zapis oktalnoga broja $53.4_{(8)}$.",
+                            "answers": [
+                                "43,5",
+                                "43.5"
+                            ]
+                        },
+                        {
+                            "type": "ShortAnswer",
+                            "question": "Koji je heksadekadski zapis oktalnoga broja $25.2_{(8)}$?",
+                            "answers": [
+                                "15,4",
+                                "15.4"
+                            ]
+                        },
+                        {
+                            "type": "ShortAnswer",
+                            "question": "Koliko će prostora (u KB) na tvrdome disku zauzeti slika čija je razlučivost 400 × 1600 točkica ako je poznato da je slika spremljena bez kompresije i da ima ukupno 256 različitih mogućnosti za boju? (Napomena: 1 KB = 210 B)",
+                            "answers": [
+                                "625KB",
+                                "625 KB"
+                            ]
+                        },
+                        {
+                            "type": "ShortAnswer",
+                            "shortText": "Eva, Filip i Lucija igraju zanimljivu igru. Eva kaže Filipu jedan cijeli broj.\nFilip treba taj broj zapisati na način kako bi bio zapisan u 8-bitovnome registru metodom dvojnoga komplementa.\nTako dobiveni zapis Filip kaže Luciji, ali joj kaže da je to zapis cijeloga broja metodom predznaka i apsolutne vrijednosti.\nLucija treba naći pripadnu dekadsku vrijednost toga broja.",
+                            "question": "Ako je Eva rekla Filipu broj -16, koji bi broj trebala dobiti Lucija?",
+                            "answers": [
+                                "-112"
+                            ]
+                        },
+                        {
+                            "type": "ShortAnswer",
+                            "shortText": "Pretpostavimo da se realni brojevi u memoriji računala zapisuju prema IEEE 754 standardu.",
+                            "question": "Ako je u registru zapisan broj čija je heksadekadska vrijednost C0480000, koji je to dekadski broj?",
+                            "answers": [
+                                "-3.125",
+                                "-3,125"
+                            ]
+                        },
+                        {
+                            "type": "ShortAnswer",
+                            "mediaUrl": "https://files.matura.top/2015/Ljeto/Inf/A5xvJmfOY.webp",
+                            "question": "Koja će biti vrijednost varijable x nakon izvođenja sljedećega dijela programa?",
+                            "answers": [
+                                "Laž",
+                                "False",
+                                "0"
+                            ]
+                        },
+                        {
+                            "type": "ShortAnswer",
+                            "mediaUrl": "https://files.matura.top/2015/Ljeto/Inf/KHgPBDexZ.webp",
+                            "question": "Koja će biti vrijednost varijable t nakon izvođenja sljedeće naredbe?",
+                            "answers": [
+                                "2"
+                            ]
+                        },
+                        {
+                            "type": "ShortAnswer",
+                            "mediaUrl": "https://files.matura.top/2015/Ljeto/Inf/F9E0HzLEZ.webp",
+                            "question": "Što će ispisati sljedeći dio programa za unesenu vrijednost varijable t = 5?",
+                            "answers": [
+                                "Z"
+                            ]
+                        },
+                        {
+                            "type": "ShortAnswer",
+                            "mediaUrl": "https://files.matura.top/2015/Ljeto/Inf/ydWMOTVcx.webp",
+                            "question": "Koju će vrijednost ispisati sljedeći dio programa?",
+                            "answers": [
+                                "149"
+                            ]
+                        },
+                        {
+                            "type": "ShortAnswer",
+                            "mediaUrl": "https://files.matura.top/2015/Ljeto/Inf/lsBubkR0M.webp",
+                            "question": "Koju će vrijednost ispisati sljedeći dio programa ako se za n upisuje vrijednost 2 i zatim n različitih prirodnih brojeva k: 1811 i 7?",
+                            "answers": [
+                                "1811"
+                            ]
+                        },
+                        {
+                            "type": "ShortAnswer",
+                            "mediaUrl": "https://files.matura.top/2015/Ljeto/Inf/oDOQ5DONp.webp",
+                            "question": "Popunite tablicu istinitosti za sklop prikazan na slici (odvojite razmacima slijedno).",
+                            "answers": [
+                                "0 0 0 1 1 1 1 1"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "info": "III. Zadatci produženoga odgovora.\n\nU sljedećim zadatcima trebate napisati program u pseudojeziku.\nSvaku liniju kôda napišite na jednu crtu pazeći na redoslijed.",
+                    "questions": [
+                        {
+                            "type": "Programming",
+                            "points": [
+                                {
+                                    "category": "Ukupno",
+                                    "points": 3
+                                }
+                            ],
+                            "question": "Neka je T broj koji se dobiva iz dvoznamenkastoga broja D tako da se zamijene mjesta znamenkama jedinice i desetice.\nNapišite program u pseudojeziku koji će učitati dvoznamenkasti prirodan broj D, a ispisati veći od brojeva D i T.\n(Napomena: Ne treba provjeravati je li broj dvoznamenkast.)",
+                            "implementation": [
+                                {
+                                    "code": "ulaz(D);\n\tT := D mod 10 * 10 + D div 10\n\tako je D > T onda\n\t\tizlaz(D)\n\tinače\n\t\tizlaz(T);",
+                                    "language": "pseudo"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Programming",
+                            "points": [
+                                {
+                                    "category": "Ukupno",
+                                    "points": 3
+                                }
+                            ],
+                            "question": "Dva igrača igraju igru u kojoj naizmjence stavljaju kamenčiće na niz polja.\nPrvi igrač stavlja jedan kamenčić na prvo polje i nakon toga drugi igrač stavlja dva kamenčića na drugo polje.\nU svakome sljedećem koraku igrač koji je na redu stavlja na sljedeće polje dva puta više kamenčića nego što je stavljeno na prethodno polje.\nIgra završava kada je broj kamenčića koje je stavio neki igrač u posljednjemu koraku veći ili jednak zadanomu broju N.\nNapišite program u pseudojeziku koji će učitati prirodan broj N, a ispisati u kojemu će koraku K završiti igra.",
+                            "implementation": [
+                                {
+                                    "code": "ulaz(N);\n\tK := 1;\n\tB := 1;\n\tdok je B < N činiti {\n \t\tK := K + 1;\n \t\tB := 2 * B;\n\t}\n\tizlaz(K)",
+                                    "language": "pseudo"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

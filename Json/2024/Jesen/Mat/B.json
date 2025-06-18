@@ -1,0 +1,496 @@
+{
+    "name": "Matematika",
+    "level": "B",
+    "maxPoints": 40,
+    "scale": {
+        "range1": [
+            0,
+            24.99
+        ],
+        "range2": [
+            25,
+            44.99
+        ],
+        "range3": [
+            45,
+            66.99
+        ],
+        "range4": [
+            67,
+            84.99
+        ],
+        "range5": [
+            85,
+            100
+        ]
+    },
+    "sections": [
+        {
+            "name": "Osnovno",
+            "predictedTime": 150,
+            "instructions": "Pozorno pročitajte sve upute i slijedite ih.\nIspit traje 150 minuta.\n\nIspred svake skupine zadataka uputa je za rješavanje. Pozorno je pročitajte.\nPri računanju možete upotrebljavati priloženu knjižicu formula.\n\nKada riješite zadatke, provjerite odgovore.\nŽelimo Vam mnogo uspjeha!",
+            "questionGroups": [
+                {
+                    "info": "I. Zadatci višestrukoga izbora.\n\nU zadatcima od 1. do 20. od više ponuđenih odgovora samo je jedan točan.\nTočan odgovor donosi jedan bod.",
+                    "questions": [
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koji je najmanji zajednički višekratnik brojeva 12 i 15?",
+                            "choices": [
+                                "144",
+                                "120",
+                                "60",
+                                "45"
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "choices": [
+                                "$-\\frac{11}3$",
+                                "$-0.2$",
+                                "$3\\pi$",
+                                "$\\sqrt{256}$"
+                            ],
+                            "question": "Koji od navedenih brojeva ne pripada skupu racionalnih brojeva?",
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Na dijagramu su prikazani podatci o broju letova zrakoplova 18. travnja tijekom četiriju godina. Koje je godine na taj datum bio najveći postotak otkazanih letova?",
+                            "choices": [
+                                "2020.",
+                                "2021.",
+                                "2022.",
+                                "2023."
+                            ],
+                            "mediaUrl": "https://files.matura.top/2024/Jesen/Mat/B/sVOvdZhFw.webp",
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "U kutiji se nalazi 45 papirića od kojih je svaki označen jednim brojem od 1 do 45 tako da se brojevi ne ponavljaju. Kolika je vjerojatnost da je iz kutije izvučen papirić označen parnim brojem?",
+                            "choices": [
+                                "$\\frac1{45}$",
+                                "$\\frac{22}{45}$",
+                                "$\\frac12$",
+                                "$\\frac{23}{45}$"
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Čemu je od navedenoga jednako $6^{n}\\times{6}$ za svaki cijeli broj n?",
+                            "choices": [
+                                "$6^{n+1}$",
+                                "$6^{n-1}$",
+                                "$12^n$",
+                                "$36^n$"
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koliko iznosi M ako je $\\sqrt{3}-\\sqrt{12}+\\sqrt{27}=M^{\\frac12}$?",
+                            "choices": [
+                                "6",
+                                "12",
+                                "18",
+                                "42"
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koji se od navedenih algebarskih izraza ne može zapisati u obliku umnoška dvaju linearnih faktora s realnim koeficijentima?",
+                            "choices": [
+                                "$x^{2}+4$",
+                                "$2xy-x^{2}$",
+                                "$x^{2}-1$",
+                                "$3xy+x$"
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Tri poduzetnika kupili su dionice u vrijednosti 44 820 eura. Prvi je platio $\\frac16$ ukupnoga iznosa, a druga dvojica ostatak vrijednosti u omjeru $7 : 8$. Koliko je platio poduzetnik koji je uložio najviše novca?",
+                            "choices": [
+                                "17430 eura",
+                                "19920 eura",
+                                "20916 eura",
+                                "23904 eura"
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koji je od navedenih brojeva rješenje jednadžbe $9x^2+20x+4=0$?",
+                            "choices": [
+                                "-4",
+                                "-2",
+                                "2",
+                                "4"
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Za koju vrijednost realnoga parametra m kvadratna $x^2-2x+m=0$ jednadžba ima dvostruko realno rješenje?",
+                            "choices": [
+                                "-4",
+                                "-1",
+                                "1",
+                                "4"
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koji je od prikazanih grafova graf linearne funkcije s pozitivnim koeficijentom smjera i negativnim odsječkom na osi y?",
+                            "mediaUrl": "https://files.matura.top/2024/Jesen/Mat/B/IBqpBH6bK.webp",
+                            "choices": [
+                                "Slika A",
+                                "Slika B",
+                                "Slika C",
+                                "Slika D"
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Cijeni najma apartmana od 70 eura po danu boravka dodaje se jednokratni trošak čišćenja koji iznosi 9 eura. Koja funkcija opisuje ovisnost cijene C o broju dana d provedenih u apartmanu?",
+                            "choices": [
+                                "$C(d) =\\frac{9}{70}d$",
+                                "$C(d) =\\frac{70}{9}d$",
+                                "$C(d) =9d+70$",
+                                "$C(d) =70d+9$"
+                            ],
+                            "correctChoice": "D"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Što je domena funkcije $f(x)=\\frac{x-2}{x+3}$?",
+                            "choices": [
+                                "$\\mathbf{R}\\setminus\\{-3\\}$",
+                                "$\\mathbf{R}\\setminus\\{-2\\}$",
+                                "$\\mathbf{R}\\setminus\\{2\\}$",
+                                "$\\mathbf{R}\\setminus\\{3\\}$"
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koliko iznosi zbroj prvih 15 članova niza zadanoga općim članom $a_n=15-3n$?",
+                            "choices": [
+                                "-135",
+                                "-112.5",
+                                "112.5",
+                                "135"
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koliko iznosi mjera kuta ∠BAD ako mjera kuta $∠BSC$ iznosi 70°, a mjera kuta $∠CSD$ iznosi 94°?",
+                            "choices": [
+                                "55°",
+                                "78°",
+                                "82°",
+                                "98°"
+                            ],
+                            "correctChoice": "C",
+                            "mediaUrl": "https://files.matura.top/2024/Jesen/Mat/B/OBVteVXuN.webp"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koliko iznosi duljina polumjera kružnice opisane pravokutnomu trokutu kojemu su duljine kateta 7 cm i 24 cm?",
+                            "choices": [
+                                "3.5cm",
+                                "8.5cm",
+                                "12cm",
+                                "12.5cm"
+                            ],
+                            "correctChoice": "D"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Opsezi dvaju sličnih trokuta su 24cm i 36cm. Ako je površina manjega od tih dvaju trokuta $28cm^{2}$, koliko iznosi površina većega trokuta?",
+                            "choices": [
+                                "$36.4cm^{2}$",
+                                "$42cm^{2}$",
+                                "$46.6cm^{2}$",
+                                "$63cm^{2}$"
+                            ],
+                            "correctChoice": "D"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Vatrogasne ljestve duljine 25 m prislonjene su na zid pod kutom 60° u odnosu na tlo. Koju visinu dosežu te ljestve?",
+                            "choices": [
+                                "12.5m",
+                                "14.43m",
+                                "21.65m",
+                                "43.3m"
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koliko iznosi duljina vektora $\\overline{AB}$ ako je $A(-1,7)$ i $B(2,3)$?",
+                            "choices": [
+                                "$\\sqrt{17}$",
+                                "$5$",
+                                "$\\sqrt{43}$",
+                                "$7$"
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Na slici su prikazani pravac p i točka A. Koja je jednadžba pravca koji sadrži točku A i paralelan je s pravcem p?",
+                            "choices": [
+                                "$=-\\frac{3}{4}x-\\frac{5}{4}$",
+                                "$y=-\\frac{3}{4}x-\\frac{2}{3}$",
+                                "$y=-\\frac{4}{3}x-\\frac{5}{4}$",
+                                "$y=-\\frac{4}{3}x-\\frac{2}{3}$"
+                            ],
+                            "correctChoice": "D",
+                            "mediaUrl": "https://files.matura.top/2024/Jesen/Mat/B/KO17W6RLg.webp"
+                        }
+                    ]
+                },
+                {
+                    "info": "II. Zadatci kratkoga odgovora\n\nU zadatcima od 21. do 30. upišite odgovore na predviđeno mjesto u ispitnoj knjižici.\nTočan odgovor donosi jedan bod.",
+                    "questions": [
+                        {
+                            "type": "SubBoard",
+                            "mainQuestion": "Riješite zadatke.",
+                            "subQuestions": [
+                                {
+                                    "question": "Na brojevnome pravcu prikazanom na slici dužina $\\overline{KT}$ podijeljena je na 10 dijelova jednakih duljina. Kojoj je točki označenoj na brojevnome pravcu pridružen broj -0.59?",
+                                    "points": 1,
+                                    "answers": [
+                                        "T"
+                                    ],
+                                    "mediaUrl": "https://files.matura.top/2024/Jesen/Mat/B/iv1Y1fOEw.webp"
+                                },
+                                {
+                                    "question": "Najviša zgrada na svijetu je Burj Khalifa koja je 296 m viša od Shangai Towera, druge po visini zgrade na svijetu. U planu je gradnja nebodera The Bride koji bi trebao biti visine 1152 m, što je 621 m više od Shangai Towera. Koliko iznosi visina Burj Khalife?",
+                                    "points": 1,
+                                    "answers": [
+                                        "827"
+                                    ]
+                                }
+                            ],
+                            "showTldraw": true
+                        },
+                        {
+                            "type": "SubBoard",
+                            "mainQuestion": "Riješite zadatke.",
+                            "subQuestions": [
+                                {
+                                    "question": "Broj $0.542\\times{10^{-2023}}$ zapišite u znanstvenome zapisu.",
+                                    "points": 1,
+                                    "answers": []
+                                },
+                                {
+                                    "question": "Izračunajte vrijednost $ab^{2}c^{3}$ ako je $a=8$, $b=\\frac{1}{4}$ i $c=2$.",
+                                    "points": 1,
+                                    "answers": [
+                                        "4"
+                                    ]
+                                }
+                            ],
+                            "showTldraw": true,
+                            "fullSolutionOrUrl": "1. $5.42\\times{10^{-2024}}$\n2. $4$"
+                        },
+                        {
+                            "type": "SubBoard",
+                            "mainQuestion": "Riješite zadatke.",
+                            "showTldraw": true,
+                            "subQuestions": [
+                                {
+                                    "question": "Skratite razlomak $\\frac{x^{2}-25}{x^{2}-10x+25}$ do kraja za svaki x za koji je definiran.",
+                                    "points": 1,
+                                    "answers": []
+                                },
+                                {
+                                    "question": "Matko je zapisao sve cijele brojeve veće od 4, a manje od 10. Ivana je zapisala sve cijele brojeve veće od 0, a manje od 8. Koliko su jednakih cijelih brojeva zapisali Matko i Ivana?",
+                                    "points": 1,
+                                    "answers": [
+                                        "3"
+                                    ]
+                                }
+                            ],
+                            "fullSolutionOrUrl": "1. $\\frac{x+5}{x-5}$\n2. $3$"
+                        },
+                        {
+                            "type": "SubBoard",
+                            "mainQuestion": "Riješite zadatke.",
+                            "showTldraw": true,
+                            "subQuestions": [
+                                {
+                                    "question": "Nada proizvodi svijeće u iznajmljenome prostoru za koji plaća mjesečni najam 250 eura. Za svaku proizvedenu svijeću potroši 0.40 eura. Koliko je svijeća Nada proizvela u jednome mjesecu ako je mjesečni trošak iznosio 5532.80 eura?",
+                                    "points": 1,
+                                    "answers": [
+                                        "13207"
+                                    ]
+                                },
+                                {
+                                    "question": "Broj je noćenja u nekome gradu 2022. godine iznosio 152 500, a 2023. godine 172 325. Za koliko je posto porastao broj noćenja u tome gradu 2023. godine u odnosu na 2022. godinu?",
+                                    "points": 1,
+                                    "rightInput": "%",
+                                    "answers": [
+                                        "13"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "SubBoard",
+                            "mainQuestion": "Riješite zadatke.",
+                            "showTldraw": true,
+                            "subQuestions": [
+                                {
+                                    "question": "Izrazite C iz jednakosti $A^{2}=B^{2}+2CD$.",
+                                    "points": 1,
+                                    "answers": []
+                                },
+                                {
+                                    "question": "Izraz $10^{2\\log z}$ zapišite kao potenciju s bazom z, z > 0.",
+                                    "points": 1,
+                                    "answers": []
+                                }
+                            ],
+                            "fullSolutionOrUrl": "1. $\\frac{A^2-B^2}{2D}$, $D\\neq0$\n2. $z^{2}$"
+                        },
+                        {
+                            "type": "SubBoard",
+                            "mainQuestion": "Na slici je prikazano tjeme T i dio grafa kvadratne funkcije $f\\begin{pmatrix}x\\end{pmatrix}=ax^2-2x+1$.",
+                            "subQuestions": [
+                                {
+                                    "question": "Odredite vodeći koeficijent a funkcije f.",
+                                    "points": 1,
+                                    "answers": [
+                                        "-1"
+                                    ]
+                                },
+                                {
+                                    "question": "Odredite sliku funkcije f.",
+                                    "points": 1,
+                                    "answers": []
+                                }
+                            ],
+                            "showTldraw": true,
+                            "mediaUrl": "https://files.matura.top/2024/Jesen/Mat/B/2dim0BUxw.webp",
+                            "fullSolutionOrUrl": "1. $-1$\n2. $\\left\\langle-\\infty,2\\right]$"
+                        },
+                        {
+                            "type": "SubBoard",
+                            "mainQuestion": "Na slici su prikazani pravac p i kut α.",
+                            "mediaUrl": "https://files.matura.top/2024/Jesen/Mat/B/ChtxQAhIT.webp",
+                            "showTldraw": true,
+                            "subQuestions": [
+                                {
+                                    "question": "Odredite y koordinatu točke $A(-5,y)$, ako točka A pripada pravcu p.",
+                                    "points": 1,
+                                    "answers": [
+                                        "-6"
+                                    ]
+                                },
+                                {
+                                    "question": "Koliko iznosi mjera kuta α prikazanoga na slici?",
+                                    "points": 1,
+                                    "answers": []
+                                }
+                            ],
+                            "fullSolutionOrUrl": "1. $-6$\n2. $59°2'10''$"
+                        },
+                        {
+                            "type": "SubBoard",
+                            "mainQuestion": "Geodet je na zemljištu u obliku trokuta izmjerio vrijednosti prikazane na skici.",
+                            "mediaUrl": "https://files.matura.top/2024/Jesen/Mat/B/63plw9xx5.webp",
+                            "showTldraw": true,
+                            "subQuestions": [
+                                {
+                                    "question": "Izračunajte površinu toga zemljišta.",
+                                    "points": 1,
+                                    "rightInput": "$m^{2}$",
+                                    "answers": [
+                                        "1281.34",
+                                        "1281,34"
+                                    ]
+                                },
+                                {
+                                    "question": "Koliko iznosi duljina b granice zemljišta?",
+                                    "points": 1,
+                                    "rightInput": "m",
+                                    "answers": [
+                                        "56.13",
+                                        "56,13"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "SubBoard",
+                            "mainQuestion": "Riješite zadatke.",
+                            "showTldraw": true,
+                            "subQuestions": [
+                                {
+                                    "question": "Izračunajte oplošje uspravnoga stošca kojemu je duljina visine 12 cm, a duljina izvodnice 13 cm.",
+                                    "points": 1,
+                                    "rightInput": "$cm^{2}$",
+                                    "answers": []
+                                },
+                                {
+                                    "question": "Koliko iznosi volumen kocke kojoj je oplošje jednako oplošju kvadra s bridovima duljina 3 cm, 12 cm i 15 cm?",
+                                    "points": 1,
+                                    "rightInput": "$cm^{3}$",
+                                    "answers": []
+                                }
+                            ],
+                            "fullSolutionOrUrl": "1. $90\\pi$\n2. $87\\sqrt{87}\\approx811.48$"
+                        },
+                        {
+                            "type": "SubBoard",
+                            "mainQuestion": "Kružnim su dijagramom prikazani podatci o ocjenama učenika nekoga razreda.",
+                            "showTldraw": true,
+                            "subQuestions": [
+                                {
+                                    "question": "U tablicu upišite podatak koji nedostaje.",
+                                    "points": 1,
+                                    "answers": [
+                                        "5"
+                                    ],
+                                    "mediaUrl": "https://files.matura.top/2024/Jesen/Mat/B/maWBbWKZh.webp"
+                                },
+                                {
+                                    "question": "Odredite mod podataka prikazanih kružnim dijagramom.",
+                                    "points": 1,
+                                    "answers": [
+                                        "2",
+                                        "dovoljan",
+                                        "dovoljan (2)"
+                                    ]
+                                }
+                            ],
+                            "mediaUrl": "https://files.matura.top/2024/Jesen/Mat/B/c841H7Zyi.webp"
+                        }
+                    ]
+                }
+            ],
+            "potentialPoints": 40,
+            "helpFiles": [
+                {
+                    "name": "1",
+                    "fileUrl": "https://files.matura.top/All/Mat/B/40yZbulUx.webp"
+                },
+                {
+                    "name": "2",
+                    "fileUrl": "https://files.matura.top/All/Mat/B/Q8gx7CGsR.webp"
+                }
+            ]
+        }
+    ]
+}

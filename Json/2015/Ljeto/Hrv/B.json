@@ -1,0 +1,1085 @@
+{
+    "name": "Hrvatski",
+    "level": "B",
+    "scale": {
+        "range1": [
+            0,
+            30.99
+        ],
+        "range2": [
+            31,
+            51.99
+        ],
+        "range3": [
+            52,
+            69
+        ],
+        "range4": [
+            70,
+            85.99
+        ],
+        "range5": [
+            86,
+            100
+        ]
+    },
+    "maxPoints": 160,
+    "sections": [
+        {
+            "name": "Književnost i jezik",
+            "predictedTime": 80,
+            "instructions": "Pozorno pročitajte sve upute i slijedite ih.\nIspit traje 80 minuta.\n\nIspred svake skupine zadataka je uputa za rješavanje. Pozorno je pročitajte.\n\nKada riješite zadatke, provjerite odgovore.\nŽelimo Vam mnogo uspjeha!",
+            "questionGroups": [
+                {
+                    "info": "I. Književnost.\n\nZadatci uz polazni tekst.\nZadatci višestrukoga izbora.\n\nU sljedećim zadatcima od više ponuđenih odgovora samo je jedan točan.\n\nPozorno pročitajte polazni tekst (prvi tekst) i riješite 1., 2., 3., 4. i 5. zadatak.\nZadatci 1. i 2. odnose se na polazni tekst, a zadatci 3., 4. i 5. odnose se i na polazni tekst i na teoriju književnosti.",
+                    "initialText": {
+                        "title": "Dragutin Tadijanović, Kasni žetelac",
+                        "text": "Kasni žetelac ne podiže glave\nIznad klasja dozrelog. On žanje,\nBrzo žanje; ne vidi da zlatan\nSunčani prah više ne lebdi\nNad poljem. Smrkava se. Kraj njega\nProlazi, lica ražarenog,\nDjevojka tamna sa cvijetom u kosi;\nDovikuje mu, uzdrhtalim glasom,\nVečernji pozdrav. Al on je ne čuje;\nSamo žanje, brzo žanje, sagnut\nNad crnom zemljom; i ne zna,\nKad noć se spusti da će djevojka\nVeć otići daleko i samo će njen miris\nLebdjeti nad strništem. A on će,\nRažalošćen, teškim se vraćati korakom,\nSâm, kasni žetelac."
+                    },
+                    "questions": [
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koji se motiv ponavlja u polaznome tekstu?",
+                            "choices": [
+                                "motiv cvijeta",
+                                "motiv odlaska",
+                                "motiv strništa",
+                                "motiv žetve"
+                            ],
+                            "correctChoice": "D"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Zašto žetelac ne čuje djevojku?",
+                            "choices": [
+                                "jer je djevojka daleko",
+                                "jer djevojci drhti glas",
+                                "jer je on ražalošćen",
+                                "jer on predano radi"
+                            ],
+                            "correctChoice": "D"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "shortText": "\t_...ne vidi da zlatan_\n_*Sunčani prah* više ne lebdi_\n_Nad poljem..._",
+                            "question": "Koja je od sljedećih stilskih figura upotrijebljena u podcrtanome primjeru?",
+                            "choices": [
+                                "antiteza",
+                                "eufemizam",
+                                "hiperbola",
+                                "metafora"
+                            ],
+                            "correctChoice": "D"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "shortText": "\t_...i samo će njen miris_\n_Lebdjeti nad strništem..._",
+                            "question": "Koji je osjetilni podražaj iskazan u sljedećim stihovima?",
+                            "choices": [
+                                "auditivni",
+                                "gustativni",
+                                "olfaktivni",
+                                "taktilni"
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Kojim se stilskim postupkom postiže ritam u polaznome tekstu?",
+                            "choices": [
+                                "stalnim brojem slogova u stihovima",
+                                "gomilanjem veznika",
+                                "opkoračenjem",
+                                "rimom"
+                            ],
+                            "correctChoice": "C"
+                        }
+                    ]
+                },
+                {
+                    "info": "Pozorno pročitajte polazni tekst (drugi tekst) i riješite 6., 7., 8., 9. i 10. zadatak.\nZadatci 6., 7. i 8. odnose se na polazni tekst, zadatak 9. odnosi se i na polazni tekst i na teoriju književnosti, a zadatak 10. odnosi se i na polazni tekst i na povijest književnosti.",
+                    "initialText": {
+                        "title": "Marko Marulić, Judita",
+                        "text": "KNJIGE MARKA MARULIĆA SPLIĆANINA\n\tU KIH SE UZDARŽI\n  ISTORIJA OD SVETE JUDITE\n  U ŠEST LIBRI RAZDILJENA\n  NA SLAVU BOŽJU POČINJU\n  LIBRO PARVO\nDike ter hvaljen’ja presvetoj Juditi,\n  Smina nje stvoren’ja hoću govoriti;\n  Zato ću moliti, Bože, tvoju svitlost,\n  Ne htij mi kratiti u tom punu milost.\nTi s’ on ki da kripost svakomu dilu nje\n  I nje kipu lipost s počten’jem čistinje;$^{1}$\n  Ti poni$^{2}$ sad mene tako jur napravi\n  Jazik da pomene ča misal pripravi.\nUdahni duh pravi u mni ljubav tvoja,\n  Da sobom ne travi$^{3}$ veće pamet moja,\n  Bludeći ozoja$^{4}$ z družbom starih poet,\n  Boge čtova koja, kimi svit biše spet.$^{5}$\nDa ti s’ nadasve svet, istinni Bože moj,\n  Ti daješ slatko pet$^{6}$, vernim si ti pokoj,\n  A ne skup tri krat troj divička okola,$^{7}$\n  Pridavši još u broj s kitarom Apola.\n\n\n$^{1}$ I nje kipu lipost s počten’jem čistinje - i njezinu tijelu ljepotu s poštenjem čistoće\n$^{2}$ poni - dakle\n$^{3}$ ne travi - ne budi u zabludi\n$^{4}$ Bludeći ozoja - lutajući\n$^{5}$ Boge čtova koja, kimi svit biše spet - koja štovaše bogove kojima svijet bijaše sapet\n$^{6}$ pet - pjevati\n$^{7}$ A ne skup tri krat troj divička okola - a ne skup od devet muza"
+                    },
+                    "questions": [
+                        {
+                            "type": "SingleChoice",
+                            "shortText": "_Ti poni sad mene tako jur napravi_\n_Jazik da pomene ča misal pripravi._",
+                            "question": "Što pripovjedač traži od Boga u sljedećim stihovima?",
+                            "choices": [
+                                "da mu pomogne misli prenijeti u riječi",
+                                "da ga obasja svojom svjetlošću",
+                                "da mu život bude krepostan",
+                                "da mu podari hrabrost"
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "U kojemu se od sljedećih stihova iskazuje da je Judita bila odvažna?",
+                            "choices": [
+                                "Dike ter hvaljen’ja presvetoj Juditi,",
+                                "Smina nje stvoren’ja hoću govoriti;",
+                                "Udahni duh pravi u mni ljubav tvoja,",
+                                "Ti daješ slatko pet, vernim si ti pokoj,"
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Što znači da je Judita u šest libri razdiljena?",
+                            "choices": [
+                                "da je podijeljena u šest stihova",
+                                "da je podijeljena u šest strofa",
+                                "da je podijeljena u šest pjevanja",
+                                "da je podijeljena u šest činova"
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Kako se naziva vrsta stiha kojim je ispjevan polazni tekst?",
+                            "choices": [
+                                "dvostrukorimovani dvanaesterac",
+                                "jampski pentametar",
+                                "epski deseterac",
+                                "heksametar"
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "shortText": "_Bludeći ozoja z družbom starih poet,_\n_Boge čtova koja, kimi svit biše spet._",
+                            "question": "Na koje se pjesnike odnosi sintagma starih poet u sljedećim stihovima?",
+                            "choices": [
+                                "na petrarkističke pjesnike",
+                                "na trubadurske pjesnike",
+                                "na antičke pjesnike",
+                                "na začinjavce"
+                            ],
+                            "correctChoice": "C"
+                        }
+                    ]
+                },
+                {
+                    "info": "Pozorno pročitajte polazni tekst (treći tekst) i riješite 11., 12., 13., 14. i 15. zadatak.\nZadatci 11., 12., 13. i 14. odnose se na polazni tekst, a zadatak 15. odnosi se i na djelo u cjelini i na teoriju književnosti.",
+                    "initialText": {
+                        "title": "Johann Wolfgang Goethe, Patnje mladoga Werthera",
+                        "text": "\tBaš sam dijete! Inatim se zbog jednog jedinog pogleda. Baš sam dijete! - Bili smo u Wahlheimu. Naišla je kočija s djevojkama, koje su nam se pridružile i kasnije se same vratile. Za vrijeme šetnje činilo mi se da u Lottinim crnim očima… budala sam, oprosti... ah, da samo vidiš te oči. Da skratim (oči mi se sklapaju od snenosti): djevojke se popeše u kočiju, oko koje smo stajali mladi W., Selstadt, Audran i ja. One su s vrata kočije ćaskale s tim momcima, površnim vjetrogonjama. - Tražio sam Lottine oči. Ona je svraćala pogled s jednog na drugog… Ali na mene? Na mene? Stajao sam tako sam, a njoj tako privržen - i nije me pogledala! - Srce moje joj je reklo tisuću puta „Zbogom!”, nije me pogledala! Kočija je krenula, osjetih suzu u svome oku. Gledao sam za kočijom, vidio sam na prozorčiću Lottinu krasno uređenu kosu, vidio sam kako se Lotta ogleda… Za kim? Za mnom? - Ah, dragi moj! Lebdim u toj neizvjesnosti. Tješim se: možda se ipak za mnom ogledala! Možda! - Laku noć! Zaista: pravo sam dijete!"
+                    },
+                    "questions": [
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koji je temeljni motiv polaznoga teksta?",
+                            "choices": [
+                                "susret s momcima",
+                                "šetnja prirodom",
+                                "Lottin pogled",
+                                "Lottina kosa"
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koji od sljedećih primjera govori o tome da je Werther odan Lotti?",
+                            "choices": [
+                                "_Ona je svraćala pogled s jednog na drugog..._",
+                                "_Stajao sam tako sam, a njoj tako privržen_",
+                                "_vidio sam kako se Lotta ogleda..._",
+                                "_Lebdim u toj neizvjesnosti._"
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Zašto pripovjedač želi skratiti svoju priču?",
+                            "choices": [
+                                "jer je neutješan",
+                                "jer je nestrpljiv",
+                                "jer je osamljen",
+                                "jer je pospan"
+                            ],
+                            "correctChoice": "D"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "shortText": "_ćaskale s tim momcima,_",
+                            "question": "Što znači riječ ćaskale u sljedećemu primjeru?",
+                            "choices": [
+                                "dopisivale se",
+                                "razgovarale",
+                                "smijale se",
+                                "pobjegle"
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "U kojemu je obliku napisan roman Patnje mladoga Werthera?",
+                            "choices": [
+                                "u obliku životopisa",
+                                "u obliku putopisa",
+                                "u obliku pisama",
+                                "u obliku eseja"
+                            ],
+                            "correctChoice": "C"
+                        }
+                    ]
+                },
+                {
+                    "info": "Pozorno pročitajte polazni tekst (četvrti tekst) i riješite 16., 17., 18., 19. i 20. zadatak.\nZadatci 16. i 17. odnose se na polazni tekst, zadatci 18. i 19. odnose se i na polazni tekst i na teoriju književnosti, a zadatak 20. odnosi se i na polazni tekst i na djelo u cjelini.",
+                    "initialText": {
+                        "title": "August Šenoa, Zlatarovo zlato",
+                        "text": "\t„(...) Doro! Čujte me. Zdrav ću biti i živ, ako od vas melema bude, jer” - skoči strastveno mladić - „moj život si ti, moje zdravlje si ti. Ne govori, oj ne govori dok ne izreknem šta mi srce davi.\nOd onoga dana kadno te sumrtvu iznijeh ispod bijesnoga kopita, kadno te zaniješe ove ruke pod očinski krov, odjekuje mi srce tvojim imenom, zrcali se u mojoj duši milo ti lice! Na pomolu smrti, sred ljuta boja, u groznoj vrućici kadno me je palila rana - samo tebe je spominjala moja pamet. Noćni sanak, jutarnji osvanak bijaše Dora. Ne sudi me što ti vrijednoj djevici govorim van reda i običaja. Gle čelo mi gori, mozak mi kuca, a krv mi ključa kao žeženo gvožđe. Ne dozivaj hladne pameti, srce neka sudi srcu. Doro, izbavih ti život, Doro, vrati mi milo za drago, izbavi ti meni život, reci, djevojko, riječcu, reci da sam ti srcu drag!” I srvanu mladiću klonu glava pred Doru.\n\tDjevojka skoči. Blijednu i planu. Kao da sniva. Krv da će joj raznijeti živce, srce skočiti iz njedara. Nestalnim plamom zasukljaše oči; rastvori drhtavice ruke i spustiv glavicu svoju na Pavlovu glavu zajeca i kroz plač i kroz smijeh:\n\t„Jao, Pavle, šta učini od mene, Pavle!”"
+                    },
+                    "questions": [
+                        {
+                            "type": "SingleChoice",
+                            "shortText": "_Jao, Pavle, šta učini od mene, Pavle!_",
+                            "question": "Što znači sljedeća rečenica?",
+                            "choices": [
+                                "Dora je zaljubljena u Pavla.",
+                                "Dora je zahvalna Pavlu.",
+                                "Pavao je uvrijedio Doru.",
+                                "Pavao je spasio Doru."
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "shortText": "_Na pomolu smrti, sred ljuta boja,_",
+                            "question": "Što znači riječ ljut u sljedećemu primjeru?",
+                            "choices": [
+                                "hladan",
+                                "viteški",
+                                "žalostan",
+                                "žestok"
+                            ],
+                            "correctChoice": "D"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koji se od sljedećih primjera temelji na kontrastnome odnosu?",
+                            "choices": [
+                                "Zdrav ću biti i živ,",
+                                "zrcali se u mojoj duši milo ti lice!",
+                                "Gle čelo mi gori, mozak mi kuca,",
+                                "Blijednu i planu."
+                            ],
+                            "correctChoice": "D"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "U kojoj je od sljedećih rečenica upotrijebljena hiperbola?",
+                            "choices": [
+                                "Noćni sanak, jutarnji osvanak bijaše Dora.",
+                                "Ne dozivaj hladne pameti, srce neka sudi srcu.",
+                                "I srvanu mladiću klonu glava pred Doru.",
+                                "Krv da će joj raznijeti živce, srce skočiti iz njedara."
+                            ],
+                            "correctChoice": "D"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Što je od sljedećega učinio Pavao van reda i običaja?",
+                            "choices": [
+                                "Nije dopustio Dori da govori o svojim osjećajima.",
+                                "Izjavio je Dori ljubav bez očeve nazočnosti.",
+                                "Predložio je Dori da napusti očevu kuću.",
+                                "Spriječio je da Doru usmrte konji."
+                            ],
+                            "correctChoice": "B"
+                        }
+                    ]
+                },
+                {
+                    "info": "Pozorno pročitajte polazni tekst (peti tekst) i riješite 21., 22., 23., 24. i 25. zadatak.\nZadatci 21. i 22. odnose se na polazni tekst, zadatak 23. odnosi se i na polazni tekst i na teoriju književnosti, zadatak 24. odnosi se i na polazni tekst i na djelo u cjelini, a zadatak 25. odnosi se na djelo u cjelini.",
+                    "initialText": {
+                        "title": "Fjodor Mihajlovič Dostojevski, Zločin i kazna",
+                        "text": "\tPočetkom mjeseca srpnja, po neobično toplom vremenu, pred veče, iziđe neki mladić na ulicu iz svoje sobice, koju je bio unajmio kod stanara u S-skoj uličici$^{1}$, te krene polagano, kao da se skanjuje, prema K-nu mostu$^{2}$.\n\tSretno je izbjegao susret sa svojom gazdaricom na stepenicama. Njegova sobica nalazila se pod samim krovom visoke četvorokatnice i ličila više na ormar nego na stan. Gazdarica pak, koja mu iznajmljivaše tu sobu s objedom i poslugom, stanovala je jedan kat niže, u zasebnu stanu, pa kad god bi izlazio na ulicu, morao bi svakako proći kraj gazdaričine kuhinje, koja je gotovo uvijek bila širom otvorena na stubište. I svaki put, kad god bi ovud prolazio, mladića bi podilazilo neko bolno, strašljivo čuvstvo, kojega se stidio i zbog kojeg se mrštio. Dužan je gazdarici i kosom na glavi, te ga je strah da se ne sretne s njom.\n\tNije on bojažljiv i zastrašen, nego baš obratno; no od nekoga je vremena bio u razdražljivu i napetu stanju, koje je ličilo na hipohondriju.\n\n\n$^{1}$ u S-skoj uličici - u Stolarskoj uličici\n$^{2}$ prema K-nu mostu - prema Kukuškinu mostu"
+                    },
+                    "questions": [
+                        {
+                            "type": "SingleChoice",
+                            "question": "Što znači da je mladić krenuo prema mostu kao da se skanjuje?",
+                            "choices": [
+                                "da je krenuo nepromišljeno",
+                                "da je krenuo neustrašivo",
+                                "da je krenuo neoprezno",
+                                "da je krenuo neodlučno"
+                            ],
+                            "correctChoice": "D"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Čega se mladić stidio?",
+                            "choices": [
+                                "svojih predviđanja",
+                                "svojih uvjerenja",
+                                "svojih osjećaja",
+                                "svojih želja"
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "U kojemu je od sljedećih primjera upotrijebljena metafora?",
+                            "choices": [
+                                "krene polagano, kao da se skanjuje,",
+                                "Sretno je izbjegao susret sa svojom gazdaricom",
+                                "mladića bi podilazilo neko bolno, strašljivo čuvstvo,",
+                                "Dužan je gazdarici i kosom na glavi,"
+                            ],
+                            "correctChoice": "D"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Tko je neki mladić o kojemu se govori u polaznome tekstu?",
+                            "choices": [
+                                "Lužin",
+                                "Raskoljnikov",
+                                "Razumihin",
+                                "Svidrigajlov"
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "U kojemu se gradu zbiva radnja romana Zločin i kazna?",
+                            "choices": [
+                                "u Kijevu",
+                                "u Moskvi",
+                                "u Petrogradu",
+                                "u Pragu"
+                            ],
+                            "correctChoice": "C"
+                        }
+                    ]
+                },
+                {
+                    "info": "Pozorno pročitajte polazni tekst (šesti tekst) i riješite 26., 27., 28., 29. i 30. zadatak.\nZadatci 26., 27. i 28. odnose se na polazni tekst, zadatak 29. odnosi se i na polazni tekst i na teoriju književnosti, a zadatak 30. odnosi se na djelo u cjelini.",
+                    "initialText": {
+                        "title": "Pavao Pavličić, Dunav",
+                        "text": "\tU drugoj polovici travnja, kad se proljeće već dobro uputi, i kad se u čamcu može skinuti i košulja, usprkos vjetru što pirka iz donjeg toka, na rijeci se pojave hobisti. U to doba godine oni su najživahniji, imaju najviše ideja i stalno se muvaju, pa se na rijeci dobro vide. To je razdoblje njihove najžešće aktivnosti.\n\tOni se dijele u tri skupine. U prvu spadaju manijaci inovacije, u drugu manijaci eksperimenta, a u treću manijaci organizacije. U svakoj od tih skupina ima različitih ljudi: vedrih i melankoličnih, visokih i malih, debelih i mršavih, bogatih i siromašnih, starih i mladih. Ipak, može se reći da su manijaci inovacije najčešće ljudi povučeni i zatvoreni, koji pate zbog takvog statusa, iskompleksirani i picajzle; da su manijaci eksperimenta ljudi vedri, mladi i neozbiljni, vjetropiri koji se kočopere pred djevojkama ili se odazivaju vabljenju neobičnog i novog; da su manijaci organizacije neostvareni umjetnici i učenjaci, ljudi humani i topli, željni ljudske blizine i nježni prema sebi i prema drugima."
+                    },
+                    "questions": [
+                        {
+                            "type": "SingleChoice",
+                            "question": "Što je zajedničko svim hobistima?",
+                            "choices": [
+                                "Skloni su žestokim svađama.",
+                                "Vole se družiti s djevojkama.",
+                                "Ističu svoj društveni status.",
+                                "Okupljaju se na rijeci."
+                            ],
+                            "correctChoice": "D"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Što je karakteristika manijaka eksperimenta?",
+                            "choices": [
+                                "Osjećaju se manje vrijednima.",
+                                "Neostvareni su umjetnici.",
+                                "Vole neobične stvari.",
+                                "Povučeni su."
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "shortText": "_vjetropiri koji se kočopere pred djevojkama_",
+                            "question": "Što znači podcrtana riječ u sljedećemu primjeru?",
+                            "choices": [
+                                "da se prave srdačni",
+                                "da se prave humani",
+                                "da se prave ozbiljni",
+                                "da se prave važni"
+                            ],
+                            "correctChoice": "D"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "shortText": "_U svakoj od tih skupina ima različitih ljudi: vedrih i melankoličnih, visokih i malih, debelih i mršavih, bogatih i siromašnih, starih i mladih._",
+                            "question": "Koja je od sljedećih stilskih figura upotrijebljena u sljedećoj rečenici?",
+                            "choices": [
+                                "antiteza",
+                                "gradacija",
+                                "hiperbola",
+                                "usporedba"
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koji se grad spominje u podnaslovu djela Dunav?",
+                            "choices": [
+                                "Ilok",
+                                "Osijek",
+                                "Vinkovci",
+                                "Vukovar"
+                            ],
+                            "correctChoice": "D"
+                        }
+                    ]
+                },
+                {
+                    "info": "Pozorno pročitajte polazni tekst (sedmi tekst) i riješite 31., 32., 33., 34. i 35. zadatak.\nZadatci 31. i 32. odnose se na polazni tekst, zadatak 33. odnosi se i na polazni tekst i na teoriju književnosti, zadatak 34. odnosi se i na polazni tekst i na djelo u cjelini, a zadatak 35. odnosi se na djelo u cjelini i na povijest književnosti.",
+                    "initialText": {
+                        "title": "Sofoklo, Antigona",
+                        "text": "ANTIGONA\nPoràzmisli, da l’ možeš skupa sa mnom poć.\nIZMENA\nZa kakvim poslom to? I što je naum tvoj?\nANTIGONA\nDa pomogneš mi mrtvom bratu nasut grob.\nIZMENA\nSahraniti ga kaniš mimo zapovijed?\nANTIGONA\nDakako, kao brata moga, a i tvog,\nkad nećeš ti. Jer ja ne mogu izdat njeg.\nIZMENA\nO jadnice! Iàko Kreont nè dā tog?\nANTIGONA\nOd dužnosti me mojih neće odbit on.\nIZMENA\nO jao, sestro moja, zar zaboravljaš\nna oca nam, što golem snašao ga rug,\nkad vlastitom je voljom otkrio svoj grijeh,\ni vlastitom si rukom oduzeo vid.\nA majka, s kojom bračni savio je log,\nspletenom omčom stvori kraj životu svom.\nI treće, oba brata, nesretnika dva,\nu istom času ista zàtekla je smrt,\nkad jedan protiv drugog podigoše mač.\nBez ikoga smo sad, i gledaj, kakav jad\nočekuje nas grozan, povrijedimo l’ vlast\ni odluku vladara prekršimo svog.\nI promisli, da mi smo ženski porod slab,\ns muškarcima nam nije lako biti boj.\nTa našom sudbom ravna uvijek netko jak,\npa podnijet valja to, a i još težu bol.\nPomolit ću se stoga svijetu podzemnom,\nnek oprost meni da, jer sili ustupam,\ni poslušat ću vlast. Ta nije mudar stvor,\ntko preko svojih snaga želi k cilju stić."
+                    },
+                    "questions": [
+                        {
+                            "type": "SingleChoice",
+                            "question": "Na što Antigona nagovara Izmenu?",
+                            "choices": [
+                                "da se zajedno pomole",
+                                "da poslušaju vlast",
+                                "da pokopaju brata",
+                                "da odu iz grada"
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Što se dogodilo s Antigoninom i Izmeninom majkom?",
+                            "choices": [
+                                "Pogubljena je.",
+                                "Prognana je.",
+                                "Otrovala se.",
+                                "Objesila se."
+                            ],
+                            "correctChoice": "D"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koji je od sljedećih primjera poslovičan?",
+                            "choices": [
+                                "O jao, sestro moja, zar zaboravljaš na oca nam, što golem snašao ga rug,",
+                                "kad vlastitom je voljom otkrio svoj grijeh, i vlastitom si rukom oduzeo vid.",
+                                "I treće, oba brata, nesretnika dva, u istom času ista zàtekla je smrt,",
+                                "Ta nije mudar stvor, tko preko svojih snaga želi k cilju stić."
+                            ],
+                            "correctChoice": "D"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Na koju se dužnost poziva Antigona?",
+                            "choices": [
+                                "na poštivanje domovine",
+                                "na poštivanje zaručnika",
+                                "na poštivanje obitelji",
+                                "na poštivanje vlasti"
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Tko je Antigonin i Izmenin otac?",
+                            "choices": [
+                                "Edip",
+                                "Eteoklo",
+                                "Kreont",
+                                "Polinik"
+                            ],
+                            "correctChoice": "A"
+                        }
+                    ]
+                },
+                {
+                    "info": "I. Književnost.\n\nZadatci bez polaznoga teksta.\nZadatci višestrukoga izbora.\n\nU sljedećim zadatcima od više ponuđenih odgovora samo je jedan točan.",
+                    "questions": [
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koja se od sljedećih tvrdnja odnosi na književno razdoblje romantizma?",
+                            "choices": [
+                                "Svjetska bol i potraga za smislom glavne su teme književnih djela.",
+                                "Književnici upotrebljavaju stilski postupak concetto.",
+                                "Književnost poput zrcala oponaša društvenu zbilju.",
+                                "Pisci u svojim djelima slijede antičke uzore."
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "shortText": "_*Kroz nas se ide* u grad sviju muka,_\n_*kroz nas se ide*, gdje se vječno plače,_\n_*kroz nas se ide* do propala puka._",
+                            "question": "Koja je stilska figura upotrijebljena u podcrtanim riječima sljedećih stihova?",
+                            "choices": [
+                                "anadiploza",
+                                "anafora",
+                                "epifora",
+                                "simploka"
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Što je ditiramb?",
+                            "choices": [
+                                "opsežno epsko djelo u stihovima složene kompozicije",
+                                "dramska vrsta s tematikom idiličnoga života u prirodi",
+                                "lirsko-epska pjesnička vrsta tužnoga ugođaja",
+                                "lirska pjesma u kojoj se veličaju životni užitci"
+                            ],
+                            "correctChoice": "D"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koja se od sljedećih rečenica odnosi na djelo Ivana Gundulića Dubravka?",
+                            "choices": [
+                                "To je religiozna poema koja obrađuje biblijsku priču o razmetnome sinu.",
+                                "To je povijesni ep koji započinje stihovima o ljudskoj oholosti.",
+                                "To je pastirska igra, alegorija dubrovačkoga društva.",
+                                "To je prerada pokorničkih psalama kralja Davida."
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "shortText": "_Ja ću živjeti slobodno, slobodno ću te ljubiti i obožavati. Ali u nikakvim, ni crkvenim, ni svjetovnim okovima, pa ovaj tren umrla naša ljubav! Nikada! Pamti! Nikada!_",
+                            "question": "Koji lik iz romana U registraturi Ante Kovačića izgovara sljedeće rečenice?",
+                            "choices": [
+                                "Ančica",
+                                "Justa Medonić",
+                                "Laura",
+                                "vila Dorica"
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "U kojemu se književnom djelu pojavljuje lik negromanta Dugoga Nosa?",
+                            "choices": [
+                                "u noveli Baraka Pet Be Miroslava Krleže",
+                                "u romanu Planine Petra Zoranića",
+                                "u komediji Dundo Maroje Marina Držića",
+                                "u spjevu Smrt Smail-age Čengića Ivana Mažuranića"
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "shortText": "_Bio sam pjesnik; stih moj slavu dade_\n_Eneji, što iz trojskog dođe grada,_\n_Ilion gordi pošto spaljen pade._",
+                            "question": "Tko u Danteovu djelu Božanstvena komedija izgovara sljedeće riječi?",
+                            "choices": [
+                                "Homer",
+                                "Horacije",
+                                "Ovidije",
+                                "Vergilije"
+                            ],
+                            "correctChoice": "D"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "shortText": "_O, zločin moj je gnusan, smrdi do neba;_\n_Na sebi nosi prvu najstariju kletvu:_\n_Umorstvo brata!_",
+                            "question": "Koji lik iz tragedije Hamlet Williama Shakespearea izgovara sljedeću rečenicu?",
+                            "choices": [
+                                "Hamlet",
+                                "Klaudije",
+                                "Laert",
+                                "Polonije"
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koji se od sljedećih likova pojavljuje u romanu Zločin i kazna Fjodora Mihajloviča Dostojevskoga?",
+                            "choices": [
+                                "Kristina Linde",
+                                "Ksenija Radajeva Bobočka",
+                                "Sonja Marmeladova",
+                                "Victorina Taufer"
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koje je od sljedećih djela španjolski nacionalni ep?",
+                            "choices": [
+                                "Beowulf",
+                                "Pjesan o Cidu",
+                                "Pjesma o Nibelunzima",
+                                "Pjesma o Rolandu"
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koja je drama Marina Držića prerada Plautove komedije Škrtac?",
+                            "choices": [
+                                "Dundo Maroje",
+                                "Novela od Stanca",
+                                "Pomet",
+                                "Skup"
+                            ],
+                            "correctChoice": "D"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koji je od sljedećih književnika u svojim komedijama karaktera kritizirao francusko društvo 17. stoljeća?",
+                            "choices": [
+                                "Voltaire",
+                                "Molière",
+                                "François Rabelais",
+                                "Honoré de Balzac"
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "shortText": "Njegove pripovijetke obilježavaju mistična tematika te halucinantni i fantastični svjetovi po uzoru na gotički roman.",
+                            "question": "Na kojega se od sljedećih književnika odnosi sljedeća rečenica?",
+                            "choices": [
+                                "na Edgara Allana Poea",
+                                "na Henrika Ibsena",
+                                "na Marcela Prousta",
+                                "na Miguela de Cervantesa"
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koje djelo Antuna Gustava Matoša pripada epskomu književnom rodu?",
+                            "choices": [
+                                "Jesenje veče",
+                                "Kip domovine leta 188*",
+                                "Utjeha kose",
+                                "1909."
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Tko je napisao dramu Bez trećeg?",
+                            "choices": [
+                                "Ivan Gundulić",
+                                "Ivo Brešan",
+                                "Milan Begović",
+                                "Miroslav Krleža"
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Tko je napisao pjesmu Majstore, ugasi svijeću?",
+                            "choices": [
+                                "Ivan Slamnig",
+                                "Josip Pupačić",
+                                "Jure Kaštelan",
+                                "Slavko Mihalić"
+                            ],
+                            "correctChoice": "D"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koje je od sljedećih djela napisano u razdoblju renesanse?",
+                            "choices": [
+                                "Osman Ivana Gundulića",
+                                "Ribanje i ribarsko prigovaranje Petra Hektorovića",
+                                "Satir iliti divji čovik Matije Antuna Reljkovića",
+                                "Smrt Smail-age Čengića Ivana Mažuranića"
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "U kojemu je književnom razdoblju napisana pjesma Horvatska domovina Antuna Mihanovića?",
+                            "choices": [
+                                "u renesansi",
+                                "u baroku",
+                                "u romantizmu",
+                                "u realizmu"
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "shortText": "Njegova je pripovijetka Moć savjesti 1892. označila početak hrvatske moderne.",
+                            "question": "Na kojega se pisca odnosi sljedeća rečenica?",
+                            "choices": [
+                                "na Antuna Gustava Matoša",
+                                "na Dinka Šimunovića",
+                                "na Janka Leskovara",
+                                "na Josipa Kozarca"
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "shortText": "_Moj prijatelju, mene više nema,_\n_Al nisam samo zemlja, samo trava,_\n_Jer knjiga ta, što držiš je u ruci,_\n_Samo je dio mene koji spava._",
+                            "question": "Tko je napisao sljedeće stihove?",
+                            "choices": [
+                                "Dobriša Cesarić",
+                                "Dragutin Tadijanović",
+                                "Silvije Strahimir Kranjčević",
+                                "Tin Ujević"
+                            ],
+                            "correctChoice": "A"
+                        }
+                    ]
+                },
+                {
+                    "info": "II. Hrvatski jezik.\n\nZadatci višestrukoga izbora.\n\nU sljedećim zadatcima od više ponuđenih odgovora samo je jedan točan.",
+                    "questions": [
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koja je od sljedećih riječi pravopisno točna?",
+                            "choices": [
+                                "isčetkati",
+                                "iščetkati",
+                                "izčetkati",
+                                "ižčetkati"
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koja je od sljedećih rečenica napisana u skladu s pravilima o pisanju velikoga i maloga početnog slova?",
+                            "choices": [
+                                "Oni su studenti Filozofskoga fakulteta sveučilišta u Zagrebu.",
+                                "Oni su studenti Filozofskoga Fakulteta sveučilišta u Zagrebu.",
+                                "Oni su studenti Filozofskoga fakulteta Sveučilišta u Zagrebu.",
+                                "Oni su studenti Filozofskoga Fakulteta Sveučilišta u Zagrebu."
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "U kojemu je od sljedećih primjera provedeno jednačenje po zvučnosti?",
+                            "choices": [
+                                "svjedočiti ˃ svjedodžba",
+                                "jabuka ˃ jabučica",
+                                "cvijet ˃ cvijeće",
+                                "nositi ˃ nošnja"
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "shortText": "momak ˃ momka",
+                            "question": "Koja je glasovna promjena provedena u sljedećemu primjeru?",
+                            "choices": [
+                                "jednačenje po mjestu tvorbe",
+                                "jednačenje po zvučnosti",
+                                "gubljenje suglasnika",
+                                "nepostojani a"
+                            ],
+                            "correctChoice": "D"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koliko je morfema u riječi predškolski?",
+                            "choices": [
+                                "dva",
+                                "tri",
+                                "četiri",
+                                "pet"
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koji je morfem gramatički u riječi kovačnica?",
+                            "choices": [
+                                "kov",
+                                "-ač",
+                                "-nic",
+                                "-a"
+                            ],
+                            "correctChoice": "D"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "U kojoj je od sljedećih rečenica upotrijebljen točan infinitiv?",
+                            "choices": [
+                                "Odlučio je *prijonuti* poslu.",
+                                "Odlučio je *prionuti* poslu.",
+                                "Odlučio je *prionut* poslu.",
+                                "Odlučio je *prioniti* poslu."
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koji je oblik imenice mačka u dativu jednine?",
+                            "choices": [
+                                "mačke",
+                                "mački",
+                                "mačku",
+                                "mačkom"
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "shortText": "_Kod večernjih lampa mi ćemo se kradom_\n_Pogledat ko stranci._",
+                            "question": "Kojoj vrsti riječi pripada podcrtana riječ u sljedećoj rečenici?",
+                            "choices": [
+                                "glagolima",
+                                "imenicama",
+                                "pridjevima",
+                                "prilozima"
+                            ],
+                            "correctChoice": "D"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "shortText": "Zlatne su joj vlasi na vjetru rasute.",
+                            "question": "U kojemu je padežu podcrtana riječ u sljedećoj rečenici?",
+                            "choices": [
+                                "u genitivu",
+                                "u dativu",
+                                "u akuzativu",
+                                "u lokativu"
+                            ],
+                            "correctChoice": "D"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koji je od sljedećih primjera točna umanjenica imenice orah?",
+                            "choices": [
+                                "orahćić",
+                                "orahčić",
+                                "oraščić",
+                                "oraščič"
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koji je točan dativ imena Ivana Brlić-Mažuranić?",
+                            "choices": [
+                                "Ivani Brlić-Mažuranić",
+                                "Ivani Brlićevoj-Mažuranić",
+                                "Ivani Brlić-Mažuranićevoj",
+                                "Ivani Brlićevoj-Mažuranićevoj"
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koja je od sljedećih riječi nepromjenjiva?",
+                            "choices": [
+                                "tko",
+                                "kako",
+                                "nešto",
+                                "svoj"
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "shortText": "Njegov *roman* negativno su ocijenili svi kritičari.",
+                            "question": "Što je po sintaktičkoj službi podcrtana riječ u sljedećoj rečenici?",
+                            "choices": [
+                                "atribut",
+                                "objekt",
+                                "subjekt",
+                                "priložna oznaka"
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Kojoj vrsti zavisnosloženih rečenica pripada sljedeća rečenica? Svima je jasno da se oni vole.",
+                            "choices": [
+                                "atributnima",
+                                "objektnima",
+                                "subjektnima",
+                                "uzročnima"
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koja je od sljedećih zavisnosloženih rečenica načinska rečenica?",
+                            "choices": [
+                                "Radio je u mladosti kako bi uživao u starosti.",
+                                "Rekla je kako vjeruje u bolju budućnost.",
+                                "Znalo se kako ona lijepo pjeva.",
+                                "Sagradio je kuću kako je znao."
+                            ],
+                            "correctChoice": "D"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koja je od sljedećih rečenica nezavisnosložena rečenica?",
+                            "choices": [
+                                "Ostajemo na terenu iako smo izgubili utakmicu.",
+                                "Da smo dobili utakmicu, ostali bismo na terenu.",
+                                "Utakmica je izgubljena, ali ostajemo na terenu.",
+                                "Tko izgubi utakmicu, odlazi tužan s terena."
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koja je od sljedećih riječi eponim?",
+                            "choices": [
+                                "futurizam",
+                                "klasicizam",
+                                "petrarkizam",
+                                "realizam"
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koja lingvistička disciplina proučava strukturu rečenice?",
+                            "choices": [
+                                "leksikografija",
+                                "morfologija",
+                                "semantika",
+                                "sintaksa"
+                            ],
+                            "correctChoice": "D"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koja je riječ sinonim riječi ortografija?",
+                            "choices": [
+                                "oblikotvorje",
+                                "pravogovor",
+                                "pravopis",
+                                "rječotvorje"
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "U kojemu su odnosu riječi bȏr (crnogorična vrsta) i bȏr (kemijski element)?",
+                            "choices": [
+                                "u odnosu antonimije",
+                                "u odnosu hiperonimije",
+                                "u odnosu homonimije",
+                                "u odnosu sinonimije"
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "shortText": "*Kmet* je neslobodan seljak vezan uza zemlju svojega feudalnoga gospodara.",
+                            "question": "Kojoj skupini leksema pripada podcrtana riječ u sljedećoj rečenici?",
+                            "choices": [
+                                "arhaizmima",
+                                "dijalektizmima",
+                                "historizmima",
+                                "neologizmima"
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "shortText": "Marko je *Milki* kupio knjigu.",
+                            "question": "Koji je kanonski oblik podcrtane riječi u sljedećoj rečenici?",
+                            "choices": [
+                                "Milci",
+                                "Milka",
+                                "Milko",
+                                "Milku"
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Što znači frazem kao riba na suhom?",
+                            "choices": [
+                                "živjeti u strahu",
+                                "biti u neprilici",
+                                "sporo plivati",
+                                "biti nijem"
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Tko je autor prvoga hrvatskog tiskanog rječnika?",
+                            "choices": [
+                                "Faust Vrančić",
+                                "Ivan Belostenec",
+                                "Jakov Mikalja",
+                                "Juraj Habdelić"
+                            ],
+                            "correctChoice": "A"
+                        }
+                    ]
+                }
+            ],
+            "potentialPoints": 80
+        },
+        {
+            "name": "Esej",
+            "predictedTime": 160,
+            "instructions": "Pozorno pročitajte sve upute i slijedite ih.\nIspit traje 160 minuta.\n\nU ovome dijelu ispita napišite školski esej slijedeći priložene upute i smjernice za pisanje školskoga eseja.\nŠkolski esej treba imati od 350 do 500 riječi.\n\nŽelimo Vam mnogo uspjeha!",
+            "questionGroups": [
+                {
+                    "info": "Pozorno pročitajte sljedeći tekst nakon kojega slijede upute i smjernice za pisanje školskoga eseja.",
+                    "initialText": {
+                        "title": "Antun Gustav Matoš, Mističan sonet",
+                        "text": "O ponoći, kad crne ruže snijevahu\nUz hihot zvijezda u šedrvána$^{1}$ pjeni,\nU gradu, kad me svi ismijevahu,\nO zlatnoj sjeni snatrih, o dragoj ženi.\nO kako čudno njene oči sijevahu\nKroz tajnu noći u slatkoj uspomeni!\nA dušom mojom, njenom harfom, pjevahu,\nJa ne znam kakvi zvuci, psalam meni.\nI zemlju, oblak, nebo i planete\nKo dragu gledah. Nađoh je ko Boga\nU suzi materije sakritoga,\nKroz zagonetku moje čežnje svete.\nLjepota, ljubav, sreća, sni i zánosi\nSu Bog, mistérij što u ženi zànosī.\n\n\n$^{1}$ šedrvan - vodoskok ili česma"
+                    },
+                    "questions": [
+                        {
+                            "type": "EssayWriting",
+                            "question": "Upute\n- Svoj školski esej oblikujte kao zaokruženu cjelinu s uvodom, razradom i zaključkom.\n- Pazite da Vaš školski esej bude pravopisno i gramatički točan.\n- Sve smjernice morate uvrstiti u svoj školski esej.\n- Redoslijed ponuđenih smjernica ne obvezuje Vas u oblikovanju školskoga eseja.\n\nSmjernice za pisanje školskoga eseja\n- Predstavite Antuna Gustava Matoša i njegovo stvaralaštvo.\n- Opišite tematske i stilske značajke Matoševe lirike.\n- Protumačite motive i stilske figure kojima se ostvaruju tema i ugođaj pjesme. Odredite ritam i oblik pjesme.\n- Objasnite poantu pjesme Mističan sonet.\n- Obrazložite svoje tvrdnje.",
+                            "minWords": 350,
+                            "maxWords": 500,
+                            "points": [
+                                {
+                                    "category": "A1 - Razumijevanje zadatka",
+                                    "points": 2
+                                },
+                                {
+                                    "category": "A2 - Obrazlaganje",
+                                    "points": 4
+                                },
+                                {
+                                    "category": "A3 - Struktura i organizacija",
+                                    "points": 6
+                                },
+                                {
+                                    "category": "A4 - Izvorni i kreativni doprinos",
+                                    "points": 4
+                                },
+                                {
+                                    "category": "A5 - Korištenje literarnih predložaka (ako je primjenjivo)",
+                                    "points": 4
+                                },
+                                {
+                                    "category": "B1 - Pravopis",
+                                    "points": 1
+                                },
+                                {
+                                    "category": "B2 - Gramatika",
+                                    "points": 4
+                                },
+                                {
+                                    "category": "B3 - Rječnik i izražajnost",
+                                    "points": 1
+                                },
+                                {
+                                    "category": "C1 - Stil i ton",
+                                    "points": 4
+                                },
+                                {
+                                    "category": "C2 - Kohezija i koherencija",
+                                    "points": 6
+                                },
+                                {
+                                    "category": "C3 - Retoričke figure i stilistički izrazi",
+                                    "points": 2
+                                },
+                                {
+                                    "category": "C4 - Povezanost s temom",
+                                    "points": 2
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "potentialPoints": 40
+        }
+    ]
+}

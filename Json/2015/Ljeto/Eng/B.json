@@ -1,0 +1,727 @@
+{
+    "name": "Engleski",
+    "level": "B",
+    "maxPoints": 60,
+    "scale": {
+        "range1": [
+            0,
+            34.99
+        ],
+        "range2": [
+            35,
+            54.99
+        ],
+        "range3": [
+            55,
+            74.99
+        ],
+        "range4": [
+            75,
+            86.99
+        ],
+        "range5": [
+            87,
+            100
+        ]
+    },
+    "sections": [
+        {
+            "name": "Čitanje i Pisanje",
+            "predictedTime": 60,
+            "instructions": "Pozorno pročitajte sve upute i slijedite ih.\nIspit Čitanja i pisanja traje 60 minuta bez stanke.\n\nIspit čitanja sastoji se od zadataka povezivanja, zadataka višestrukoga izbora i zadataka dopunjavanja.\n- U zadatcima povezivanja svaki sadržaj označen brojem povežite s odgovarajućim sadržajem koji je označen slovom (zadatci 1 i 4).\n- U zadatcima višestrukoga izbora od više ponuđenih odgovora odaberite samo jedan (zadatci 2 i 5).\n- U zadatcima dopunjavanja dopunite praznine upisivanjem sadržaja koji nedostaje (zadatci 3 i 6).\n\nIspit pisanja sastoji se od zadatka sastavka. Sastavak napišite slijedeći priloženu uputu (zadatak 7).\n\nDobro rasporedite vrijeme kako biste mogli riješiti sve zadatke.\nKada riješite zadatke, provjerite odgovore.\nŽelimo Vam mnogo uspjeha!",
+            "potentialPoints": 40,
+            "questionGroups": [
+                {
+                    "info": "Match the messages (1-5) and suggestions/statements (A-F).\nThere is one letter you do not need.\nMark your answer on the answer sheet.\nThere is an example at the beginning (0).",
+                    "questions": [
+                        {
+                            "type": "MatchThePairs",
+                            "whatFirst": "numbers",
+                            "options": [
+                                {
+                                    "id": "0",
+                                    "type": "number",
+                                    "textOrAudio": "When you come to London, there’s no need for you to book into a hotel. You can sleep at my place."
+                                },
+                                {
+                                    "id": "1",
+                                    "type": "number",
+                                    "textOrAudio": "It’s a government building and the guard will surely ask for some proof of who you are before he lets you in."
+                                },
+                                {
+                                    "id": "2",
+                                    "type": "number",
+                                    "textOrAudio": "You’d love this place. I’m so sorry you couldn’t take a few days off and join us."
+                                },
+                                {
+                                    "id": "3",
+                                    "type": "number",
+                                    "textOrAudio": "The castle is not far from our hotel. We can walk there. All you need are comfortable shoes."
+                                },
+                                {
+                                    "id": "4",
+                                    "type": "number",
+                                    "textOrAudio": "All the expenses are covered, but we should either take some sandwiches or have lunch in a local pub."
+                                },
+                                {
+                                    "id": "5",
+                                    "type": "number",
+                                    "textOrAudio": "Let’s go shopping this weekend. We can get some designer clothes at bargain prices."
+                                },
+                                {
+                                    "id": "A",
+                                    "type": "letter",
+                                    "textOrAudio": "Sales start on Saturday."
+                                },
+                                {
+                                    "id": "B",
+                                    "type": "letter",
+                                    "textOrAudio": "You need to take your ID."
+                                },
+                                {
+                                    "id": "C",
+                                    "type": "letter",
+                                    "textOrAudio": "Food is not included in the price."
+                                },
+                                {
+                                    "id": "D",
+                                    "type": "letter",
+                                    "textOrAudio": "We can go there on foot."
+                                },
+                                {
+                                    "id": "E",
+                                    "type": "letter",
+                                    "textOrAudio": "See you tomorrow."
+                                },
+                                {
+                                    "id": "F",
+                                    "type": "letter",
+                                    "textOrAudio": "Wish you were here."
+                                },
+                                {
+                                    "id": "G",
+                                    "type": "letter",
+                                    "textOrAudio": "Stay with me."
+                                }
+                            ],
+                            "pairs": [
+                                {
+                                    "letter": "G",
+                                    "number": "0",
+                                    "isExample": true
+                                },
+                                {
+                                    "letter": "B",
+                                    "number": "1"
+                                },
+                                {
+                                    "letter": "F",
+                                    "number": "2"
+                                },
+                                {
+                                    "letter": "D",
+                                    "number": "3"
+                                },
+                                {
+                                    "letter": "C",
+                                    "number": "4"
+                                },
+                                {
+                                    "letter": "A",
+                                    "number": "5"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "info": "You will read five emails.\nFor each question (6-10), choose the correct answer, A, B or C.\nMark your answer on the answer sheet.",
+                    "questions": [
+                        {
+                            "type": "SingleChoice",
+                            "shortText": "Hi Sally,\nWe need to change our plans. Today for some reason the shops don’t stay open until eight but close an hour earlier. I suggest we meet at six in front of the shopping mall because I don’t want to do the shopping quickly.\nGina",
+                            "question": "What time do the shops close today?",
+                            "choices": [
+                                "At 18:00.",
+                                "At 19:00.",
+                                "At 20:00."
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "shortText": "Hi,\nI presented my science project today. I was, excited about it, because I wanted to show the, class what I had done. Unfortunately, I had left, half of my drawings and photos at home. So it, was very boring for my classmates. And I had, such great expectations.\nMason",
+                            "question": "What was Mason’s school day like?",
+                            "choices": [
+                                "Boring.",
+                                "Exciting.",
+                                "Disappointing."
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "shortText": "Hi,\nI’ve joined a fitness club! There are lots of, people there trying to lose weight. But there, are some who just want to keep in good, condition, like me. Fortunately, it’s a good, atmosphere there, and I’m making new, friends.\nSam",
+                            "question": "Why did Sam join the fitness club?",
+                            "choices": [
+                                "To meet new people.",
+                                "To lose weight.",
+                                "To stay fit."
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "shortText": "Hi,\nI’ve got a tattoo on my shoulder now! My, parents won’t like that. There’s a lot they don’t, like. They don’t like loud music, so I use earphones when they’re home. They don’t like, my boyfriend - they say I’m crazy to be with, him. Do they really like ME?\nLex",
+                            "question": "What do Lexi’s parents have a problem with?",
+                            "choices": [
+                                "Her tattoo.",
+                                "Her music.",
+                                "Her boyfriend."
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "shortText": "Edward,\nThanks for the CD. Great music. I’ll bring, it to school tomorrow. Can you lend me, the DVD you told me about? I’d like to see, it. And can you bring me back my maths, book? I need it to prepare for a test. See, you tomorrow.\nIsaac",
+                            "question": "What did Isaac borrow from Edward?",
+                            "choices": [
+                                "A book.",
+                                "A CD.",
+                                "A DVD."
+                            ],
+                            "correctChoice": "B"
+                        }
+                    ]
+                },
+                {
+                    "info": "Read about Amber Searl.\nFor questions 11-15, complete the form with one or two words in each space.\nThere is an example at the beginning (0).",
+                    "initialText": {
+                        "title": "Amber Searl - Skateboarder",
+                        "text": "When Amber Searl was 9 years old, she was watching The Simpsons and saw Bart Simpson riding his green skateboard in the opening to the show. “That’s what inspired me to take up skateboarding,” she says.\n\nShe is a natural sportsperson. While growing up in the Garston area of Watford, she regularly played football on boys’ teams. She also did gymnastics, and she credits her skateboarding skill and fast progression to being good at it. Her skateboarding mates even called her ‘Jimmy’, short for ‘gymnastics’, and her old friends still do.\n\nAmber skates every evening and at weekends with her friend ‘Speedy’. As soon as she finishes her job as a sales assistant in a local sports shop, she’s on her board and skating through the streets or in the skate park on half-pipes. “I love skateboarding. It helps me to be me. It’s how I feel free.”\n\nAmber has won regional competitions and is now going to the national championship. “But we’re not really competing against each other. We’re just doing our own thing together.” At local competitions, she wears a T-shirt with Morton, the name of the sports shop where she works, on it. “They give me free gear, like Croft Boards, and time off before competitions,” she explains.\n\nWill she turn professional? “I don’t know. But I don’t see skateboarding as a career. I must say I’d love to be an astronaut and do space walks. But, until then, I might stay where I am.”"
+                    },
+                    "questions": [
+                        {
+                            "type": "ReadOutFromText",
+                            "questions": [
+                                {
+                                    "isExample": true,
+                                    "question": "Name:",
+                                    "answers": [
+                                        "Amber"
+                                    ]
+                                },
+                                {
+                                    "question": "Nickname:",
+                                    "answers": [
+                                        "Jimmy"
+                                    ]
+                                },
+                                {
+                                    "question": "Hometown:",
+                                    "answers": [
+                                        "Watford"
+                                    ]
+                                },
+                                {
+                                    "question": "Occupation:",
+                                    "answers": [
+                                        "sales assistant",
+                                        "saleswoman",
+                                        "salesperson",
+                                        "shop assistant"
+                                    ]
+                                },
+                                {
+                                    "question": "Dream job:",
+                                    "answers": [
+                                        "astronaut"
+                                    ]
+                                },
+                                {
+                                    "question": "Sponsor’s name:",
+                                    "answers": [
+                                        "Morton"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "info": "Read the text about family holidays with teenagers.\nFor questions 16-20, choose from A-F to complete the sentences.\nThere is one letter you do not need.\nThere is an example at the beginning (0).",
+                    "initialText": {
+                        "title": "Family Holiday With Teenagers!",
+                        "text": "Planning a family holiday is often a nightmare, especially if you have teenage kids. You may easily spend your entire holiday listening to (0) ___. So how can you keep everyone happy?\n\nIt’s always a good idea to organise a family meeting and ask everybody to suggest (16) ___. Teenagers usually like to get as far away from home as possible. They are often attracted to deserted tropical islands with sandy beaches, but make sure it’s the right place for everybody (17) ___. All you need is a comfortable place to rest, while teenagers need (18) ___.\n\nEvening entertainment is also very important. Watching TV every night might be good for you, but it’s not an option (19) ___. They need to keep themselves busy. Remember what it was like (20) ___. Why not try to be like one again?"
+                    },
+                    "questions": [
+                        {
+                            "type": "FillInChoices",
+                            "correctChoices": [
+                                {
+                                    "index": 19,
+                                    "letter": "A",
+                                    "answers": [
+                                        "for a teenager bursting with endless energy"
+                                    ]
+                                },
+                                {
+                                    "index": 17,
+                                    "letter": "B",
+                                    "answers": [
+                                        "before you make final arrangements"
+                                    ]
+                                },
+                                {
+                                    "index": 16,
+                                    "letter": "C",
+                                    "answers": [
+                                        "where they would like to go"
+                                    ]
+                                },
+                                {
+                                    "index": 20,
+                                    "letter": "D",
+                                    "answers": [
+                                        "when you were a teenager"
+                                    ]
+                                },
+                                {
+                                    "letter": "E",
+                                    "answers": [
+                                        "when you are on a family holiday"
+                                    ]
+                                },
+                                {
+                                    "index": 18,
+                                    "letter": "F",
+                                    "answers": [
+                                        "to be involved in various daily activities"
+                                    ]
+                                },
+                                {
+                                    "index": 0,
+                                    "letter": "G",
+                                    "answers": [
+                                        "how bored and unhappy they are"
+                                    ],
+                                    "isExample": true
+                                }
+                            ],
+                            "showAnswers": true
+                        }
+                    ]
+                },
+                {
+                    "info": "Read the text about body language.\nFor each gap (21-25), choose the correct answer, A, B or C.\nThere is an example at the beginning (0).",
+                    "initialText": {
+                        "title": "Body Language",
+                        "text": "Would you like to know if someone likes you or not, even before they (0) ___ a word? If your answer is “yes” to this question, you need to develop the ability to understand body language.\n\nHuman beings are social animals and nobody likes to be alone. We have the need to communicate (21) ___ each other. We speak, but we also communicate without using words. According to research, body language makes (22) ___ more than 50% of face-to-face communication. We can often understand how people feel even when they are not saying (23) ___.\n\nNowadays, teaching the basics of body language is big business. Hundreds of courses (24) ___ been designed to teach people not only how to recognise and interpret the signs of affection, anger or honesty, but also how to improve their own body language with just a (25) ___ changes."
+                    },
+                    "questions": [
+                        {
+                            "type": "SingleChoice",
+                            "isExample": true,
+                            "question": "0",
+                            "choices": [
+                                "speak",
+                                "say",
+                                "tell"
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "21",
+                            "choices": [
+                                "with",
+                                "by",
+                                "to"
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "22",
+                            "choices": [
+                                "out",
+                                "for",
+                                "up"
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "23",
+                            "choices": [
+                                "anything",
+                                "nothing",
+                                "something"
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "24",
+                            "choices": [
+                                "had",
+                                "has",
+                                "have"
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "25",
+                            "choices": [
+                                "little",
+                                "few",
+                                "some"
+                            ],
+                            "correctChoice": "B"
+                        }
+                    ]
+                },
+                {
+                    "info": "Complete this text.\nFor questions 26-30, write one word for each space.\nThere is an example at the beginning (0).",
+                    "initialText": {
+                        "title": "How to revise",
+                        "text": "It’s a bad idea to come to an exam unprepared. It’s essential to revise. However, there’s no “right” or “wrong” way to do it. It’s a question of (0) ___ suits you best. There are many methods you can use. They might include taking notes, writing summaries or learning facts (26) ___ heart. Switching methods can be very helpful. If you find it difficult (27) ___ get started, begin with something easy. If (28) ___ are things you don’t understand, ask somebody who knows the subject well. Don’t study for longer (29) ___ 45 to 60 minutes. Finally, after each revision, reward (30) ___ with something you like. A big piece of chocolate or a visit to the cinema would be nice."
+                    },
+                    "questions": [
+                        {
+                            "type": "FillInChoices",
+                            "correctChoices": [
+                                {
+                                    "index": 0,
+                                    "answers": [
+                                        "what"
+                                    ],
+                                    "isExample": true
+                                },
+                                {
+                                    "index": 26,
+                                    "answers": [
+                                        "by"
+                                    ]
+                                },
+                                {
+                                    "index": 27,
+                                    "answers": [
+                                        "to"
+                                    ]
+                                },
+                                {
+                                    "index": 28,
+                                    "answers": [
+                                        "there"
+                                    ]
+                                },
+                                {
+                                    "index": 29,
+                                    "answers": [
+                                        "than"
+                                    ]
+                                },
+                                {
+                                    "index": 30,
+                                    "answers": [
+                                        "yourself",
+                                        "yourselves"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "info": "Read the message from Susan.",
+                    "initialText": {
+                        "text": "Hi!\nThanks for your email. I would also like to know\nsomething about your best friend.\n\nHow did you meet? What do you like most about your best friend? What do you usually do when you are together?\n\nWrite back soon.\nLove\n\nSusan"
+                    },
+                    "questions": [
+                        {
+                            "type": "EssayWriting",
+                            "points": [
+                                {
+                                    "category": "Bodovi",
+                                    "points": 10
+                                }
+                            ],
+                            "question": "Write Susan a reply. Answer ALL her questions.\nWrite 50-70 words.",
+                            "minWords": 50,
+                            "maxWords": 70
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Slušanje",
+            "predictedTime": 25,
+            "instructions": "Pozorno pročitajte sve upute i slijedite ih.\nIspit Slušanja traje 25 minuta.\n\nIspit se sastoji od zadatka povezivanja i zadataka višestrukoga izbora.\n- U zadatku povezivanja svaki sadržaj označen brojem povežite s odgovarajućim sadržajem koji je označen slovom (zadatak 1).\n- U zadatcima višestrukoga izbora od više ponuđenih odgovora odaberite samo jedan (zadatci 2, 3 i 4).\n\nKada riješite zadatke, provjerite odgovore.\nŽelimo Vam mnogo uspjeha!",
+            "potentialPoints": 20,
+            "questionGroups": [
+                {
+                    "info": "You will hear 5 phone messages.\nMatch the messages (1-5) and the statements/questions (A-F).\nThere is one letter that you do not need.",
+                    "initialAudio": "https://files.matura.top/2015/Ljeto/Eng/B/Task1.opus",
+                    "questions": [
+                        {
+                            "type": "MatchThePairs",
+                            "whichToHide": [
+                                "numbers"
+                            ],
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "type": "number",
+                                    "textOrAudio": "Speaker 1"
+                                },
+                                {
+                                    "id": "2",
+                                    "type": "number",
+                                    "textOrAudio": "Speaker 2"
+                                },
+                                {
+                                    "id": "3",
+                                    "type": "number",
+                                    "textOrAudio": "Speaker 3"
+                                },
+                                {
+                                    "id": "4",
+                                    "type": "number",
+                                    "textOrAudio": "Speaker 4"
+                                },
+                                {
+                                    "id": "5",
+                                    "type": "number",
+                                    "textOrAudio": "Speaker 5"
+                                },
+                                {
+                                    "id": "A",
+                                    "type": "letter",
+                                    "textOrAudio": "Have a good time."
+                                },
+                                {
+                                    "id": "B",
+                                    "type": "letter",
+                                    "textOrAudio": "It’s all right."
+                                },
+                                {
+                                    "id": "C",
+                                    "type": "letter",
+                                    "textOrAudio": "I’m sorry."
+                                },
+                                {
+                                    "id": "D",
+                                    "type": "letter",
+                                    "textOrAudio": "Are you okay?"
+                                },
+                                {
+                                    "id": "E",
+                                    "type": "letter",
+                                    "textOrAudio": "Let’s meet earlier."
+                                },
+                                {
+                                    "id": "F",
+                                    "type": "letter",
+                                    "textOrAudio": "Be careful."
+                                }
+                            ],
+                            "pairs": [
+                                {
+                                    "letter": "F",
+                                    "number": "1"
+                                },
+                                {
+                                    "letter": "D",
+                                    "number": "2"
+                                },
+                                {
+                                    "letter": "A",
+                                    "number": "3"
+                                },
+                                {
+                                    "letter": "B",
+                                    "number": "4"
+                                },
+                                {
+                                    "letter": "E",
+                                    "number": "5"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "info": "You will hear five short conversations/monologues.\nFor questions 6-10, choose the correct answer, A, B or C.",
+                    "initialAudio": "https://files.matura.top/2015/Ljeto/Eng/B/Task2.opus",
+                    "questions": [
+                        {
+                            "type": "SingleChoice",
+                            "question": "You hear a man talking to a receptionist in an office building. What’s the man’s name?",
+                            "choices": [
+                                "Mr. Tikue.",
+                                "Mr. Tique.",
+                                "Mr. Tyque."
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "You hear Scarlett talking to a friend about her test results. In which subject did Scarlett get the best mark?",
+                            "choices": [
+                                "Biology.",
+                                "Chemistry.",
+                                "Physics."
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "You hear two friends talking in the street. Where are they going first?",
+                            "choices": [
+                                "To a cinema.",
+                                "To a restaurant.",
+                                "Home."
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "You hear Amy talking about her trip to town. Why did she go to town?",
+                            "choices": [
+                                "To buy some clothes.",
+                                "To buy trainers.",
+                                "To meet a friend."
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "You hear part of a radio programme about places of interest. What do visitors to Brandon House have to do?",
+                            "choices": [
+                                "Pay to enter.",
+                                "Have a guide.",
+                                "Make a reservation."
+                            ],
+                            "correctChoice": "C"
+                        }
+                    ]
+                },
+                {
+                    "info": "You will hear a radio interview with Adrienne Payot about her experience as an ‘au pair’ in England.\nFor questions 11-15, choose the correct answer, A, B or C.",
+                    "initialAudio": "https://files.matura.top/2015/Ljeto/Eng/B/Task3.opus",
+                    "questions": [
+                        {
+                            "type": "SingleChoice",
+                            "question": "Adrienne decided to be an ‘au pair’",
+                            "choices": [
+                                "to experience a new culture.",
+                                "to learn a new language.",
+                                "to get away from home."
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Adrienne stayed with",
+                            "choices": [
+                                "a single mother.",
+                                "a married couple.",
+                                "an extended family."
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Adrienne worked",
+                            "choices": [
+                                "4 days a week.",
+                                "5 days a week.",
+                                "6 days a week."
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Adrienne felt like",
+                            "choices": [
+                                "a servant.",
+                                "a guest.",
+                                "a friend."
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Adrienne says her stay was",
+                            "choices": [
+                                "happy.",
+                                "useful.",
+                                "well-paid."
+                            ],
+                            "correctChoice": "B"
+                        }
+                    ]
+                },
+                {
+                    "info": "You will hear a radio announcement about Elmdon Leisure Centre.\nFor questions 16-20, choose the correct answer, A, B or C.",
+                    "initialAudio": "https://files.matura.top/2015/Ljeto/Eng/B/Task4.opus",
+                    "questions": [
+                        {
+                            "type": "SingleChoice",
+                            "question": "At what time does the Leisure Centre close on Wednesdays?",
+                            "choices": [
+                                "18:00.",
+                                "19:00.",
+                                "20:00."
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Which course is for beginners?",
+                            "choices": [
+                                "Step classes.",
+                                "Fitness yoga.",
+                                "Body attack."
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "The body attack classes give a discount for",
+                            "choices": [
+                                "retired persons.",
+                                "students.",
+                                "groups."
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "choices": [
+                                "drink alcohol.",
+                                "have cooked food.",
+                                "watch sports."
+                            ],
+                            "question": "In the Sports Café, you cannot",
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Local businesses help the Leisure Centre by",
+                            "choices": [
+                                "advertising it.",
+                                "sponsoring it.",
+                                "donating equipment."
+                            ],
+                            "correctChoice": "B"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

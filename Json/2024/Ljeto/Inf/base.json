@@ -1,0 +1,528 @@
+{
+    "name": "Informatika",
+    "scale": {
+        "range1": [
+            0,
+            27.99
+        ],
+        "range2": [
+            28,
+            45.99
+        ],
+        "range3": [
+            46,
+            65.99
+        ],
+        "range4": [
+            66,
+            81.99
+        ],
+        "range5": [
+            82,
+            100
+        ]
+    },
+    "maxPoints": 50,
+    "sections": [
+        {
+            "name": "Osnovno",
+            "predictedTime": 100,
+            "instructions": "Pozorno pročitajte sve upute i slijedite ih.\nIspit traje 100 minuta bez stanke.\n\nIspred svake skupine zadataka uputa je za rješavanje. Pozorno je pročitajte.\nMožete upotrebljavati priloženu pomoćnu knjižicu.\n\nKada riješite zadatke, provjerite odgovore.\nŽelimo Vam mnogo uspjeha!",
+            "questionGroups": [
+                {
+                    "info": "I. Zadatci višestrukoga izbora.\n\nU sljedećim zadatcima od više ponuđenih odgovora samo je jedan točan.\nTočan odgovor donosi jedan bod.",
+                    "questions": [
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koja je komponenta računala odgovorna za obradu grafičkih podataka?",
+                            "choices": [
+                                "RAM",
+                                "CPU",
+                                "GPU",
+                                "HDD"
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Što od navedenoga nije komponenta današnjih centralnih procesora?",
+                            "choices": [
+                                "radna memorija",
+                                "upravljačka jedinica",
+                                "brza priručna memorija",
+                                "aritmetičko-logička jedinica"
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Što od navedenoga povezuje sve dijelove računala?",
+                            "choices": [
+                                "RAM",
+                                "ROM",
+                                "sabirnice",
+                                "procesor"
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Što se događa s podatcima pohranjenim u RAM-u kada se isključi napajanje?",
+                            "choices": [
+                                "Podatci se trajno brišu.",
+                                "Podatci se prenose u ROM.",
+                                "Podatci ostaju pohranjeni u RAM-u.",
+                                "Podatci se premještaju na tvrdi disk radi pohrane."
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Bitno je svojstvo LCD monitora frekvencija osvježavanja zaslona. Što predstavlja to svojstvo?",
+                            "choices": [
+                                "broj iscrtanih linija u sekundi",
+                                "broj iscrtanih točkica u sekundi",
+                                "broj iscrtanih zaslona u sekundi",
+                                "broj iscrtanih stupaca u sekundi"
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koji je program prvenstveno namijenjen radu s datotekama s nastavkom .docx?",
+                            "choices": [
+                                "Word",
+                                "Excel",
+                                "Access",
+                                "PowerPoint"
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Broj -32 zapisan je metodom dvojnoga komplementa u registru duljine 8 bitova. Koliko nula ima takav zapis broja?",
+                            "choices": [
+                                "jednu",
+                                "tri",
+                                "pet",
+                                "sedam"
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Kontradikcija je logički izraz koji je uvijek lažan. Koji je od navedenih izraza kontradikcija bez obzira na vrijednost varijable A?",
+                            "choices": [
+                                "$A * A$",
+                                "$A * \\overline{A}$",
+                                "$A + \\overline{A}$",
+                                "$A + A$"
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "shortText": "Miro želi ići na Europsko prvenstvo u nogometu koje se održava u Njemačkoj. Problem je činjenica da se utakmice održavaju sve dane u tjednu i u raznim gradovima. Odlučio je ići na utakmicu ako se održava u subotu pod uvjetom da je grad bliži od 800 km. Ako ti uvjeti nisu ispunjeni mora imati bar tri slobodna dana na poslu.\n\nPretpostavimo da su zadane varijable:\nA - dan odigravanja utakmice\nB - udaljenost grada\nC - broj slobodnih dana.",
+                            "question": "Koji od navedenih logičkih izraza zadovoljava zadane uvjete?",
+                            "choices": [
+                                "A = \"SUBOTA\" I B < 800 I C >= 3",
+                                "A = \"SUBOTA\" I B < 800 ILI C >= 3",
+                                "A = \"SUBOTA\" ILI B < 800 I C >= 3",
+                                "A = \"SUBOTA\" ILI B < 800 ILI C >= 3"
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koji je izraz, zapisan u programskome jeziku, ekvivalentan matematičkomu izrazu?",
+                            "shortText": "$y = \\frac{a-b}{a+1}+\\frac{a}{a-1}$",
+                            "choices": [
+                                "y = a - b / a + 1 + a / (a - 1)",
+                                "y = (a - b) / a + 1 + a / (a - 1)",
+                                "y = (a - b) / (a + 1) + a / (a - 1)",
+                                "y = a - b / (a + 1) + (a / (a - 1))"
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koliko će se puta izvesti petlja u zadanome programu?",
+                            "shortText": "int i, n, s, a;\nn = 25;\ni = 2;\ns = 0;\na = 0;\nwhile (n != 0){\n s = s + n;\n n = n - i;\n a = a + 1;\n}",
+                            "choices": [
+                                "11",
+                                "12",
+                                "13",
+                                "∞"
+                            ],
+                            "correctChoice": "D"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koju liniju koda treba napisati na praznu crtu ako zadani program treba učitati prirodan broj n i ispisati sve djelitelje toga broja?",
+                            "shortText": "int i, n;\nscanf(\"%d\", &n);\n______________\n if (n % i == 0)\n printf(\"%d\", i);",
+                            "choices": [
+                                "for (i=1; i<n; i++)",
+                                "for (i=1; i<n+1; i++)",
+                                "for (i=0; i<n; i++)",
+                                "for (i=0; i<n+1; i++)"
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Za koji će se testni primjer while petlja izvesti samo jednom?",
+                            "shortText": "int b;\nscanf(\"%d\", &b);\nwhile (b > 8)\n if (b % 2 == 0)\n b = b - 3;\n else\n b = b - 2;",
+                            "choices": [
+                                "b = 8",
+                                "b = 10",
+                                "b = 11",
+                                "b = 12"
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "shortText": "Poznati detektiv Herkules Poirot često piše poruke svojim suradnicima, no kako se boji da bi važne informacije mogle doći u pogrešne ruke, na omotnici uvijek napiše troznamenkasti broj.\nBroj daje informaciju pravomu primatelju je li tekst u poruci istinit, lažan ili je baš sve što piše upravo suprotno.\nProgram treba učitati troznamenkasti broj. Ako je broj paran i ako je njegov zbroj znamenaka paran, program treba ispisati ISTINA, ako je broj neparan i ako je njegov zbroj znamenaka paran, treba ispisati LAŽ, a u svim drugim slučajevima treba ispisati SUPROTNO.",
+                            "question": "Koji će od ponuđenih programa ispisati jednoznačnu i ispravnu poruku Poirotovu suradniku?",
+                            "mediaUrl": "https://files.matura.top/2024/Ljeto/Inf/stVHkVw1q6.webp",
+                            "choices": [
+                                "A",
+                                "B",
+                                "C",
+                                "D"
+                            ],
+                            "correctChoice": "D"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koje će sve vrijednosti poprimiti varijabla z prilikom izvođenja zadanoga dijela programa?",
+                            "shortText": "int i=0, j, z=0;\nwhile (i < 4){\n for (j=0; j<3; j++)\n z = i + j;\n i = i + 2;\n}",
+                            "choices": [
+                                "0 0 1 2 2 3 4",
+                                "0 0 1 1 1 3 3 3",
+                                "0 0 1 2 1 2 3 2 3 4 3 4 5",
+                                "0 0 1 2 3 1 2 3 1 2 3 1 2 3"
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koji je od navedenih postupaka najrizičniji za instaliranje zlonamjernih programa?",
+                            "choices": [
+                                "redovno ažuriranje programa",
+                                "postavljanje sigurnosne stijene",
+                                "korištenje licenciranih programa",
+                                "otvaranje privitaka u elektroničkoj pošti"
+                            ],
+                            "correctChoice": "D"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "U programu za obradu teksta MS Word kliknuli smo na ikonu Prikaz i skrivanje (¶) koja prikazuje skrivene simbole oblikovanja. Koji ćemo simbol oblikovanja (znak) vidjeti ako pritisnemo tipku Enter?",
+                            "mediaUrl": "https://files.matura.top/2024/Ljeto/Inf/O6a59Z4c9Q.webp",
+                            "choices": [
+                                "A",
+                                "B",
+                                "C",
+                                "D"
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koji se od ponuđenih grafikona može kreirati na temelju priložene tablice?",
+                            "mediaUrl": "https://files.matura.top/2024/Ljeto/Inf/It33M9JiZk.webp",
+                            "choices": [
+                                "A",
+                                "B",
+                                "C",
+                                "D"
+                            ],
+                            "correctChoice": "A"
+                        }
+                    ]
+                },
+                {
+                    "info": "II. Zadatci kratkoga odgovora i dopunjavanja.\n\nU sljedećim zadatcima odgovorite kratkim odgovorom (jednom riječju, dvjema riječima ili brojem), dopunite tablicu upisivanjem sadržaja koji nedostaje ili označite točan odgovor na slici.\nTočan odgovor donosi jedan ili dva boda.",
+                    "questions": [
+                        {
+                            "type": "ShortAnswer",
+                            "question": "Učenik treba predati mapu koja sadrži slike s terenske nastave u Vukovaru. Mapa može zauzimati najviše 16 MiB. Svaka slika ima rezoluciju 512 x 512 piksela, a za zapis jednoga piksela koristi se 16 bitova. Koliko najviše slika može predati učenik?",
+                            "answers": [
+                                "23"
+                            ]
+                        },
+                        {
+                            "type": "ShortAnswer",
+                            "question": "Odredite tablicu istinitosti za složeni logički izraz $R=A*\\overline{B+C}+A+C+\\overline{B}$.",
+                            "mediaUrl": "https://files.matura.top/2024/Ljeto/Inf/vSeMOgHPfi.webp",
+                            "answers": [
+                                "1 1 0 1 1 1 1 1",
+                                "11011111"
+                            ]
+                        },
+                        {
+                            "type": "ShortAnswer",
+                            "question": "Koliko se različitih znakova može zapisati proširenim ASCII kodom?",
+                            "answers": [
+                                "256"
+                            ]
+                        },
+                        {
+                            "type": "ShortAnswer",
+                            "question": "Što će ispisati zadani program?",
+                            "shortText": "int c, d;\nc = 10;\nd = 11;\nd = c * d;\nif (c < d && d < 20)\n printf(\"%d\", 2 * d);\nelse if (c >= 10)\n printf(\"%d\", d);\nelse\n printf(\"%d\", 2 * c);",
+                            "answers": [
+                                "110"
+                            ]
+                        },
+                        {
+                            "type": "ShortAnswer",
+                            "question": "Koja će biti vrijednost varijable x nakon izvođenja zadanoga programa?",
+                            "shortText": "int i=0, x=1, j;\nwhile (i < 3){\n for (j=0; j<3; j++)\n x = x + i + j;\n i = i + 1;\n}",
+                            "answers": [
+                                "19"
+                            ]
+                        },
+                        {
+                            "type": "ShortAnswer",
+                            "shortText": "Jurica voli gledati serije putem internetskoga prijenosa. U internetskoj pretplati, koju mu roditelji plaćaju 10 eura mjesečno, uključeno je 6000 MiB internetskoga prometa, dok se svaki dodatni potrošeni MiB iznad 6000 MiB naplaćuje po 1 cent. Jurica je u tekućemu mjesecu pogledao 20,48 sati serija koje su se prenosile brzinom 2,048 Mbps.",
+                            "question": "Koliko će ukupno eura platiti Juričini roditelji njegovu potrošnju podataka u tekućemu mjesecu (računajući i pretplatu i dodatnu potrošnju)?",
+                            "answers": [
+                                "130"
+                            ]
+                        },
+                        {
+                            "type": "ShortAnswer",
+                            "shortText": "Lovro je glazbenik koji je snimio pjesmu koju želi podijeliti s drugima i omogućiti im da se njom koriste u vlastitim projektima pod uvjetom da je ne mijenjaju. Međutim, ne želi dopustiti komercijalnu upotrebu. Kojom licencom treba biti označena Lovrina snimka pjesme ako znamo da Creative Commons licenca počinje s CC BY?",
+                            "question": "Napišite punu oznaku licence.",
+                            "answers": [
+                                "CC BY-NC-ND"
+                            ]
+                        },
+                        {
+                            "type": "SubBoard",
+                            "mainQuestion": "Marko piše knjigu i pohranio ju je u memoriju računala.",
+                            "subQuestions": [
+                                {
+                                    "question": "Koliko znakova stane na jednu stranicu ako stranica zauzima 3 KiB, a svaki je znak kodiran sa 16 bitova?",
+                                    "points": 1,
+                                    "answers": [
+                                        "1536"
+                                    ]
+                                },
+                                {
+                                    "question": "Markova knjiga može zauzeti 1 MiB. Na jednu stranicu može stati 4096 znakova kodiranih proširenim ASCII kodom. Koliko će najviše stranica imati ta knjiga?",
+                                    "points": 1,
+                                    "answers": [
+                                        "256"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "SubBoard",
+                            "mainQuestion": "Zadani su binarni brojevi x = 11100101 i y = 1011101.",
+                            "subQuestions": [
+                                {
+                                    "question": "Koji je rezultat zbrajanja tih brojeva u binarnome brojevnom sustavu?",
+                                    "points": 1,
+                                    "answers": [
+                                        "101000010"
+                                    ]
+                                },
+                                {
+                                    "question": "Sadržaj je 8-bitovnoga registra 11100101. O kojemu je dekadskom broju riječ ako se za zapis broja koristi metoda dvojnoga komplementa?",
+                                    "points": 2,
+                                    "answers": [
+                                        "-27"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "SubBoard",
+                            "mainQuestion": "Broj 3F zapisan je u heksadekadskome brojevnom sustavu.",
+                            "subQuestions": [
+                                {
+                                    "question": "Kako glasi taj broj u binarnome brojevnom sustavu?",
+                                    "points": 1,
+                                    "answers": [
+                                        "111111"
+                                    ]
+                                },
+                                {
+                                    "question": "Koji je broj sljedbenik broja 3F u heksadekadskome brojevnom sustavu?",
+                                    "points": 1,
+                                    "answers": [
+                                        "40"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "SubBoard",
+                            "mainQuestion": "Zadan je programski odsječak.",
+                            "subQuestions": [
+                                {
+                                    "question": "Koja će biti vrijednost varijable c nakon izvođenja zadanoga programskog odsječka?",
+                                    "points": 1,
+                                    "answers": [
+                                        "5"
+                                    ]
+                                },
+                                {
+                                    "question": "Koja će biti vrijednost varijable b nakon izvođenja zadanoga programskog odsječka?",
+                                    "points": 1,
+                                    "answers": [
+                                        "39"
+                                    ]
+                                }
+                            ],
+                            "shortText": "int a, b, c, d;\na = 24;\nb = 29;\nc = a/b + b%a;\nd = b + c;\nb = d + c;"
+                        },
+                        {
+                            "type": "SubBoard",
+                            "subQuestions": [
+                                {
+                                    "question": "Koja će biti vrijednost varijable a nakon izvođenja zadanoga programskog odsječka?",
+                                    "points": 1,
+                                    "answers": [
+                                        "3"
+                                    ]
+                                },
+                                {
+                                    "question": "Koja će biti vrijednost varijable b nakon izvođenja zadanoga programskog odsječka?",
+                                    "points": 1,
+                                    "answers": [
+                                        "32"
+                                    ]
+                                }
+                            ],
+                            "mainQuestion": "Zadan je programski odsječak.",
+                            "shortText": "int a, b, i;\na = 1;\nb = -1;\nfor (i=2; i<5; i++){\n b = b + 2;\n a = a * b;\n b = b + i;\n}"
+                        },
+                        {
+                            "type": "SubBoard",
+                            "subQuestions": [
+                                {
+                                    "question": "Koja će biti vrijednost varijable br1 nakon izvođenja zadanoga programa?",
+                                    "points": 1,
+                                    "answers": [
+                                        "2"
+                                    ]
+                                },
+                                {
+                                    "question": "Koja će biti vrijednost varijable br2 nakon izvođenja zadanoga programa?",
+                                    "points": 1,
+                                    "answers": [
+                                        "48"
+                                    ]
+                                }
+                            ],
+                            "mainQuestion": "Zadani program učitava redom brojeve: 24, 23, 6, 7, 10, 8.",
+                            "shortText": "int br1=0, br2=0, i, a;\nfor (i=0; i<6; i++){\n scanf(\"%d\", &a);\n if (a % 2 == 1)\n br1 = br1 + 1;\n else\n br2 = br2 + a;\n}"
+                        },
+                        {
+                            "type": "SubBoard",
+                            "mainQuestion": "Zadan je program.",
+                            "shortText": "int x, y;\nx = 19;\ny = 0;\nwhile (x >= 0){\n if (x % 5 == 1)\n x = x - 5;\n else\n x = x + 1;\n y = y + 1;\n}",
+                            "subQuestions": [
+                                {
+                                    "question": "Koja će biti vrijednost varijable x nakon izvođenja zadanoga dijela programa?",
+                                    "points": 1,
+                                    "answers": [
+                                        "-4"
+                                    ]
+                                },
+                                {
+                                    "question": "Koja će biti vrijednost varijable y nakon izvođenja zadanoga dijela programa?",
+                                    "points": 1,
+                                    "answers": [
+                                        "7"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "info": "III. Zadatci produženoga odgovora.\n\nU sljedećim zadatcima trebate napisati program u programskome jeziku Python ili C/C++.\nSvaku liniju koda napišite na jednu crtu pazeći na redoslijed.\n\nTočan odgovor donosi tri boda.",
+                    "questions": [
+                        {
+                            "type": "SubBoard",
+                            "mainQuestion": "Potrebno je nacrtati kružnice kao na slici 34.1.\nKružnice su smještene oko središta ekrana kao na slici 34.2.",
+                            "shortText": "U odabranome programskom jeziku definiran je modul crtaj (nije ga potrebno pozivati).\nU modulu postoje sljedeće funkcije:\n\nnaprijed(točaka)\nnazad(točaka)\nzakreni_udesno(kut)\nzakreni_ulijevo(kut)\ndigni_olovku()\nspusti_olovku()\nsakrij_olovku()\nkrug(r) -> crta kružnicu polumjera r sa središtem u točki u kojoj se nalazi olovka.\n\nNa početku je olovka u sredini ekrana, spuštena i okrenuta udesno.\nKut se zadaje u stupnjevima. Nakon crtanja olovka ne smije biti vidljiva.",
+                            "mediaUrl": "https://files.matura.top/2024/Ljeto/Inf/d4Sqiig4xk.webp",
+                            "subQuestions": [
+                                {
+                                    "question": "Ako prvo crtamo kružnicu sa središtem u središtu ekrana, za koliko najmanje stupnjeva trebamo zakrenuti olovku za crtanje sljedeće kružnice?",
+                                    "points": 1,
+                                    "answers": [
+                                        "45"
+                                    ]
+                                },
+                                {
+                                    "question": "Napišite program koji će crtati četiri kružnice polumjera r kao na slici koristeći se funkcijama zadanoga modula i naredbama odabranoga programskog jezika. Vrijednost polumjera upisuje se s tipkovnice. ",
+                                    "points": 2,
+                                    "inputType": "programming",
+                                    "implementation": [
+                                        {
+                                            "code": "r = int(input())\nzakreni_ulijevo(45)\nfor i in range(4):\n krug(r)\n digni_olovku()\n naprijed(2*r)\n spusti_olovku()\n zakreni_ulijevo(90)\nsakrij_olovku()",
+                                            "language": "py"
+                                        },
+                                        {
+                                            "code": "int r;\nscanf(\"%d\", &r);\nzakreni_ulijevo(45);\nfor (int i=0; i<4; i++) {\n krug(r);\ndigni_olovku();\nnaprijed(2*r);\nspusti_olovku();\nzakreni_ulijevo(90);\n}\nsakrij_olovku();",
+                                            "language": "cpp"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Programming",
+                            "question": "Maja i Vedrana često igraju igru „Ulovi me, ako možeš”. Napišite program koji učitava broj koji je zamislila Maja, a nakon toga učitava redom brojeve koje nabraja Vedrana tako dugo dok je njihov zbroj manji od Majina broja. Program ispisuje koliko je brojeva nabrojila Vedrana te razliku zbroja tih brojeva i Majina zamišljenoga broja.",
+                            "points": [
+                                {
+                                    "category": "Bodovi",
+                                    "points": 3
+                                }
+                            ],
+                            "implementation": [
+                                {
+                                    "code": "N = int(input())\nukupno = 0\nbrojeva = 0\nwhile ukupno < N:\n broj = int(input())\n brojeva += 1\n ukupno += broj\nprint(brojeva)\nprint(ukupno - N)",
+                                    "language": "py"
+                                },
+                                {
+                                    "code": "int N;\nscanf(\"%d\", &N);\nint ukupno = 0;\nint brojeva = 0;\nwhile (ukupno < N) {\n int broj;\n scanf(\"%d\", &broj);\n brojeva++;\n ukupno += broj;\n}\nprintf(\"%d\\n\", brojeva);\nprintf(\"%d\", ukupno - N);",
+                                    "language": "cpp"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Programming",
+                            "question": "Irena uzgaja voće i povrće i bilježi koliko vremena provodi u svojemu vrtu. Napišite program koji učitava broj dana koliko Irena provodi u vrtu. Zatim program za svaki dan učitava broj minuta koje provede u vrtu. Program treba ispisati koliko prosječno minuta Irena dnevno provede u vrtu i broj dana u kojima je u vrtu više od 2 sata.",
+                            "points": [
+                                {
+                                    "category": "Bodovi",
+                                    "points": 3
+                                }
+                            ],
+                            "implementation": [
+                                {
+                                    "code": "n = int(input())\nzb = 0\ndan = 0\nfor k in range(n):\n x = int(input())\n zb = zb + x\n if x > 120:\n dan = dan+1\npr = zb/n\nprint(pr, dan)",
+                                    "language": "py"
+                                },
+                                {
+                                    "code": "int n;\nscanf(\"%d\", &n);\nint zb = 0, dan = 0;\nfor (int i = 0; i < n; i++) {\n int x;\n scanf(\"%d\", &x);\n zb += x;\n if (x > 120)\n dan++;\n }\nfloat pr = (float)zb / n;\nprintf(\"%f %d\", pr, dan);",
+                                    "language": "cpp"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "potentialPoints": 50
+        }
+    ]
+}

@@ -1,0 +1,884 @@
+{
+    "name": "Hrvatski Jezik",
+    "maxPoints": 110,
+    "scale": {
+        "range1": [
+            0,
+            34.99
+        ],
+        "range2": [
+            35,
+            51.99
+        ],
+        "range3": [
+            52,
+            67.49
+        ],
+        "range4": [
+            67.5,
+            80.99
+        ],
+        "range5": [
+            81,
+            100
+        ]
+    },
+    "sections": [
+        {
+            "name": "Čitanje, Književnost i Hrvatski Jezik",
+            "predictedTime": 100,
+            "instructions": "Pozorno pročitajte sve upute i slijedite ih.\nIspit traje 100 minuta.\n\nKada riješite zadatke, provjerite odgovore.\nŽelimo Vam mnogo uspjeha!",
+            "potentialPoints": 62,
+            "questionGroups": [
+                {
+                    "info": "I. Čitanje\n\nZadatci s polaznim tekstom.\nZadatci višestrukoga izbora.\n\nU zadatcima višestrukoga izbora od više ponuđenih odgovora samo je jedan točan.\nTočan odgovor donosi jedan bod.\nZadatci od 1. do 30. odnose se na polazne tekstove.",
+                    "initialText": {
+                        "title": "August Šenoa, Prijan Lovro",
+                        "text": "\tLovro je dakako od svega toga malo razumio. Znao je da ide u velik grad kumu. I veselilo ga. Al kad je vidio kako je iz majčinih očiju udarila kiša, svilo mu se oko srca pa udri i on plakati. Nu otac otkinu sinka od majčine grudi te povede Lovru kumu zvonaru.\n\tTu je dakako drukče bilo. Kad je Lovro vidio velike kuće, silu ljudi, visoke tornjeve, kad su mu prvi put zagrmile velike orgulje, razigra mu se mlado srce preko reda. Nije se Lovro plašio kao drugi seoski dječaci. Hitra mu pamet primila se brzo svega. Dadoše mu i knjige. Eto veselja. Po vas dan sjedio maličak u školi, samo večerom zvonio bi mjesto kuma „Zdravomarijuˮ. Ne bijaše mu to dužnost, to bijaše njegovo pravo kojim se je ponosio.\n\tUz glasove zvonova, razlijegajućih se u daleki svijet, kanda se okrilio Lovrin duh prezajući sve dalje i dalje. Za ono doba dočepala bi se slave školske samo gospodska djeca; ta kako da ne budu pametna, dobra, kad su gospodska, mišljahu učitelji. Seljačko bokče$^{1}$, ne znajući ni zapeti njemački, moralo se stisnuti u kut ma i kako pametno bilo. I Lovro bijaše takvo bokče, al se on nije dao. Mali taj bokčić oborio oštrim umom, zrelim i smjelim sudom utoliko predsude svoga doba da mu se učitelji čuđahu, gospodska djeca klanjahu, da, neki učitelj reče o njem: „Nad glavom toga dječarca sjaji vatreni jezik Svetoga Duha.ˮ Svaki zavod ima đaka koji se i poslije spominju kao neobičan pojav. Takov bijaše i Lovro. Nu dosta o tom đakovanju. Svršiv srednje škole, znao je Lovro više nego većina njegovih učitelja, pa ako je nekad majčica mu mislila da će joj sin dočekati župničku slavu, tvrdili su sad i pismeni ljudi da će jamačno postati mladim kanonikom. Dođe hora da se Lovro zapopi. Srce ne kucaše mu veselo; žarkomu srcu mladića bijaše i svijet preuzan, prezalo ono preletit preko svijeta, više svijeta, a ovamo ustadoše kidat ga od svijeta, zatvorit ga u sebe. Ima duša mirnih krotkih, pobožnih u kojih je snage da metnu sav svoj život na oltar božji, a da ne požale nikada žrtve. Al ne bijaše Lovro tolik junak. U njem je sve kipilo, vrilo, plamtilo. Bijaše preslab da si sam slomi krila. A ipak se dao zapopiti. Navukoše mu crnu halju, obrijaše tjeme. Neizmjerna žalost osvoji mu srce. Pamet bludila mu u sumraku. Crna haljina činjaše mu se oklopom orijaša na prsima patuljka. Al junački sprezao on svoje jade, zakopao ih na dnu srca svoga. Nu ne bijaše to junačtvo oduševljena ratnika koj plamnim srcem srće u boj; bijaše to nijema odvažnost vojnika koj,  prisiljen nositi pušku, mirno izlazi pred neprijatelja, ne mareći hoće li ga probosti sablja il sa zemljom sastaviti zrno. A tko ga je silio na to neželjeno zvanje, na taj sveti, za njega preteški jaram? Tko me sili? upitao bi se često i sam Lovro. Ta nitko, baš nitko. A zašto da ne raskinem svetih veriga$^{2}$? Sililo ga, silio posmijeh majčin, majčine suze radosnice. Pred tim osmijehom nabranog starog lica, pred tim sjajnim biserom spalo mu sve junaštvo na ništa.\n\n$^{1}$ bokče - mali siromah\n$^{2}$ verige - okovi"
+                    },
+                    "questions": [
+                        {
+                            "type": "SingleChoice",
+                            "question": "Kako je dolazak u grad utjecao na Lovru?",
+                            "choices": [
+                                "Stvorio mu je osjećaj manje vrijednosti.",
+                                "Ispunio ga je čežnjom za domom.",
+                                "Djelovao je poticajno na njega.",
+                                "Izazvao je u njemu strah."
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koju je predrasudu Lovro opovrgnuo?",
+                            "choices": [
+                                "Upotreba njemačkoga jezika znak je obrazovanosti svakoga pojedinca.",
+                                "Gospodska djeca pametnija su i sposobnija od seoske djece.",
+                                "Uspješna su djeca ona koja poslušaju savjete svojih učitelja.",
+                                "Odluku o školovanju djeteta donosi otac."
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Što znači da ne bijaše Lovro tolik junak?",
+                            "choices": [
+                                "Nije se izborio za prava seljačke djece.",
+                                "Nije uspio završiti srednju školu.",
+                                "Nije bio ponizan pred učiteljima.",
+                                "Nije bio predan božjoj službi."
+                            ],
+                            "correctChoice": "D"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Kojim je stilskim postupkom iskazan pripovjedačev stav prema Lovri?",
+                            "choices": [
+                                "kronološkim iznošenjem događaja iz njegova života",
+                                "retoričkim pitanjima u iskazivanju njegovih dvojba",
+                                "upotrebom umanjenica u njegovu prikazu",
+                                "upotrebom aorista i imperfekta"
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koja je situacija u djelu u cjelini bila presudna da Lovro raskine svetih veriga?",
+                            "choices": [
+                                "zapošljavanje kod vladina predsjednika",
+                                "odlazak na školovanje u Prag",
+                                "čitanje Petrarcinih pjesama",
+                                "susret s Malvinom"
+                            ],
+                            "correctChoice": "D"
+                        }
+                    ]
+                },
+                {
+                    "info": "Pozorno pročitajte polazni tekst (drugi tekst) i riješite 6., 7., 8., 9. i 10. zadatak.",
+                    "initialText": {
+                        "title": "Fjodor Mihajlovič Dostojevski, Zločin i kazna",
+                        "text": "\tMeđutim, ovoga puta, bojazan od susreta sa svojom vjerovnicom prenerazi čak i njega samoga kad je izišao na ulicu. „Na ovakvo se djelo hoću odvažiti, a ovamo se bojim takvih sitnica!ˮ pomisli on čudno se smiješeći. „Hm!... da... sve je u rukama čovjeka, a uvijek mu izmakne ispred nosa jedino zbog plašljivosti... takav je već aksiom$^{1}$ ... Zanimljivo je čega se ljudi najviše boje? Novoga koraka, nove svoje riječi boje se oni najviše... Uostalom, ja brbljam previše. Zato i ne radim ništa jer brbljam. Ali je možda i ovako: zato brbljam jer ništa ne radim. Naučio sam se brbljati za ovih posljednjih dana, ležeći dane i noći u kutu i premišljajući... o tricama i kučinama. Onda, zašto ja sada idem? Zar sam ja sposoban za to? Zar je to ozbiljno? (...)ˮ\n\tNa ulici je bila strašna žega, a uz to i zapara, tišina, posvuda vapno, skele, opeke, prašina i onaj osobiti ljetni smrad, tako poznat svakom Peterburžaninu koji nije kadar unajmiti ljetnikovac - sve je to u jedan mah potreslo u mladiću i onako već rastrojene živce. Oduran zadah iz krčama, kojih baš u ovom dijelu grada ima sva sila, i pijanci koje je svaki čas sretao, iako bijaše radno vrijeme, dopunjavali su gadan i tužan kolorit slike. Osjećaj strašnog gađenja pojavi se na trenutak na finim mladićevim crtama. Uzgred budi rečeno, on bijaše osobito lijep, krasnih tamnih očiju, tamnoplave kose, viši od srednjeg rasta, vitak i stasit. Ali ubrzo zapadne u duboku zamišljenost, gotovo kao u neku otupjelost, te je hodao ne primjećujući ništa oko sebe, a i ne želeći išta primjećivati. (...)\n\tTako je bijedno bio odjeven da bi se drugi čovjek, čak i naviknut, ustručavao po bijelu danu izlaziti na ulicu u takvim dronjcima. (...) Ali u mladićevoj se duši nagomilalo već toliko zlobna prezira da se on, uza svu svoju, gdjekad jaku, mladu osjetljivost, nije na ulici ni najmanje stidio svojih prnja. Drugačije je bilo kad se sretne s kojim znancem ili s prijašnjim drugovima, s kojima se uopće nije volio sretati... Ali kad su taj čas, bogzna zašto i kamo, provezli ulicom pijanca u ogromnim taljigama$^{2}$, u koje je bio upregnut golem teretni konj, i pijanac mu na prolasku iznenada doviknu: „Ej ti, njemački klobučaru,ˮ i razderao se u sav glas pokazujući na njega rukom - mladić naglo zastane i grčevito zgrabi svoj šešir. Bio je to visok, okrugao Cimermanov šešir, ali već posve iznošen, olinjao, izrupčan i izmrljan, bez oboda i sasvim nepodobno naheren. Ali ga nije prožimao stid, nego sasvim drugi osjećaj, nalik na zaplašenost.\n\t- Ja sam to i znao! - šaptao je zbunjen. - Tako sam i mislio! To je najgadnije! Evo ovakva nekakva glupost, ma kakva tričava sitnica može pokvariti cijelu zamisao! Jest, suviše je upadljiv šešir... Smiješan pa zato i upadljiv... Uz moje dronjke treba svakako kapa, kakva god plosnata pogača, a ne ova nakaza. Nitko ne nosi ovakav šešir, primijetit će me na vrstu$^{3}$ daleko i zapamtiti... glavno, zapamtit će onda, i eto dokaza. Treba tu biti što neupadljiviji...\n\n$^{1}$ aksiom - tvrdnja koja se bez dokazivanja prihvaća kao istinita\n$^{2}$ taljige - zaprežna kola koja vuče jedan konj\n$^{3}$ vrsta - ruska mjera za dužinu, 1,06 km"
+                    },
+                    "questions": [
+                        {
+                            "type": "SingleChoice",
+                            "question": "Na što se iz djela u cjelini odnosi zamjenica to u sljedećim rečenicama?",
+                            "choices": [
+                                "na pisanje pisma kojim odbija sestrinu žrtvu",
+                                "na pisanje članka o odabranim pojedincima",
+                                "na plaćanje sprovoda posljednjim novcem",
+                                "na ubojstvo stare lihvarice"
+                            ],
+                            "shortText": "_Zar sam ja sposoban za to? Zar je to ozbiljno?_",
+                            "correctChoice": "D"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koja je temeljna misao Raskoljnikovljeva monologa u drugome odlomku polaznoga teksta?",
+                            "choices": [
+                                "da može pobijediti strah ako se s njim suoči",
+                                "da je sumnja pokretač svakoga napretka",
+                                "da se smisao života nalazi u sitnicama",
+                                "da razmišljanjem usporava djelovanje"
+                            ],
+                            "correctChoice": "D"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Kako je Raskoljnikov reagirao na pijančeve riječi?",
+                            "choices": [
+                                "Razljutio se na pijanca jer ga je on javno ismijao.",
+                                "Posramio se jer si ne može priuštiti nov šešir.",
+                                "Uplašio se da će mu pijanac ukrasti šešir.",
+                                "Shvatio je da je previše primjetan."
+                            ],
+                            "correctChoice": "D"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koje je od sljedećih obilježja polaznoga teksta tipično za realističku poetiku?",
+                            "choices": [
+                                "prostor u službi karakterizacije lika",
+                                "upotreba retoričkih pitanja",
+                                "upotreba grafostilema",
+                                "unutarnji monolog"
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koja je od sljedećih rečenica primjer pripovjedačeva komentara?",
+                            "choices": [
+                                "_Na ovakvo se djelo hoću odvažiti, a ovamo se bojim takvih sitnica!_",
+                                "_Uzgred budi rečeno, on bijaše osobito lijep, krasnih tamnih očiju, tamnoplave kose, viši od srednjeg rasta, vitak i stasit._",
+                                "_Drugačije je bilo kad se sretne s kojim znancem ili s prijašnjim drugovima, s kojima se uopće nije volio sretati..._",
+                                "_Evo ovakva nekakva glupost, ma kakva tričava sitnica može pokvariti cijelu zamisao!_"
+                            ],
+                            "correctChoice": "B"
+                        }
+                    ]
+                },
+                {
+                    "info": "Pozorno pročitajte polazni tekst (treći tekst) i riješite 11., 12., 13., 14. i 15 zadatak.",
+                    "initialText": {
+                        "title": "Ksaver Šandor Gjalski, Illustrissimus$^{1}$ Battorych",
+                        "text": "Bili smo jednom u lovu pod konac veljače (zakon tada nije još nalagao lovostaje). Dan svijetao i jasan da pogodnijega ne možeš poželjeti za lov. Tanak, sitan mraz razastro se poljem, a psi to lakše tjerali zeca za zecom. Kako se uvijek, kad je sreće, i lakše gađa, naši su lugari imali za nama što i nositi. (...) Vraćajući se poslije podne k domu, veselo smo koračali, a stari nam je lugar Janko pripovijedao kroniku malne svih lovskih zgoda brezovičkih iz posljednjih pedeset godina.\nUto dođosmo k zlosretnomu lugu. Starac nam Janko javi da je u njemu ogromna lisica. Kako je u nas lov na lisice osobito zanimljiv i ugodan, premda smo bili sustali, ipak se podadosmo radosno novoj zadaći. Ivanča, drugi lugar Batorićev, odredi mi dobro mjesto, baš na raskršću na malom vršku. Preda mnom sav se rasprostro daleki niski lug, sav još uspavan. Ipak, kao da se budio, pa tiho i lagodno u nekoj prelesti$^{2}$ talasao od lahorenja topla i mirna vjetrića. Brezovina se bjelasala u svjetlosti duljega dana, sve drveće u šumi treptjelo, a pokoji suhi list, što je još na njem ostao, s tajnovitim je šuštanjem padao mirno, bez prestanka, bez težine, na svježu zemlju, gdje su se pokoji još posljednji ostatci siječanjskoga snijega topili od toplijega uzduha. Začas me je osvojio čar divna prizora tihe prirode te sam zaboravio lov. No blizu mene zagrakta svraka, a to je siguran znak svakomu lovcu. Brzo shvatim situaciju, pa se dadem na čekanje. (...) Znao sam da je kod mene. Začas zbilja provuče se iz grmlja ogromna lisica, a onda odskoči. Ja u taj par odapnem i ona bude moja. „Hop, hop!”; zaorim glasno i pobjedno; no prije nego mi ostali lovci uzmogoše odgovoriti, začujem kriku i viku. (...) Usred kojih pedeset seljaka, oboružanih sjekirama, kosama i batovima, stajao je Batorić sav crven i ljut. Psovao je i grozio se toj razjarenoj četi: „Vi tati, vi razbojnici, to bute vi meni platili! Navčil bum vas ja kak se Bog moli - vi tepčeta$^{3}$ muška!ˮ\n(...) Skočim brzo do Batorića da ga odvedem jer mu se razjareni seljaci sve više primicahu. Tada saznadoh umah kako se zametnula svađa. Pred Batorićem je ležao mrtav najmiliji mu pas Nimrod, sasječen na nekoliko komada; a među seljacima vidjele se krvave sjekire.\n„Čakaj čakaj, stari vrag, samo još jenput dojdi na našu zemlju vu lov, sve ti bumo potukli, pak i tebe! Kaj misliš da te se bojimo i da morebiti ne znamo da je to naša zemlja? Znamo mi kaj je vu pismu i zakonu; kazala su nam gospoda vu Beču. Zel vam je presvetli kralj vaše pravice. Kaj bi nam ti zapovedal, zbacil te je kralj s tvoje komeške (županske) stolice; vsi smo sada jednaki (...).ˮ Rulja počela i još gore vikati, a Batorić od ljutosti zanijemio. Ja sam ga na silu pograbio i odveo. Bijahu to njegovi negdašnji kmetovi kojima bijaše nekoć sve i sva.\n\n$^{1}$ illustrissimus - pov. feudalna titula, počasni naslov; presvijetli, velecijenjeni\n$^{2}$ prelest - ugoda\n$^{3}$ tepče - umanjenica od tepec: vragolan, bitanga "
+                    },
+                    "questions": [
+                        {
+                            "type": "SingleChoice",
+                            "question": "Kakav je ugođaj ostvaren opisom brezovine?",
+                            "choices": [
+                                "ditirampski",
+                                "elegični",
+                                "idilični",
+                                "satirični"
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Što je pripovjedač zaključio na temelju glasanja svrake?",
+                            "choices": [
+                                "da su se Batorić i seljaci sukobili",
+                                "da mu se približava lovina",
+                                "da će morati prekinuti lov",
+                                "da su drugi lovci u blizini"
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Što je uzrok sukoba seljaka i Batorića?",
+                            "choices": [
+                                "I jedni i drugi nastoje zadobiti blagonaklonost bečkoga dvora.",
+                                "Seljaci se žele pred pripovjedačem pokazati kao bolji lovci.",
+                                "Batorić se nije prilagodio ukidanju kmetstva.",
+                                "Batorić je počeo vrijeđati seljake."
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Na kojemu se postupku temelji polazni tekst?",
+                            "choices": [
+                                "na alegoriji",
+                                "na hiperboli",
+                                "na ironiji",
+                                "na kontrastu"
+                            ],
+                            "correctChoice": "D"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koja je od sljedećih tvrdnja o stilskim obilježjima teksta točna?",
+                            "choices": [
+                                "O događajima se pripovijeda iz perspektive sveznajućega pripovjedača.",
+                                "Govorna karakterizacija likova temelji se na poetizmima.",
+                                "Opis prirode u službi je socijalne karakterizacije likova.",
+                                "Jezik pripovjedača razlikuje se od jezika likova."
+                            ],
+                            "correctChoice": "D"
+                        }
+                    ]
+                },
+                {
+                    "info": "Pozorno pročitajte polazni tekst (četvrti tekst) i riješite 16., 17., 18., 19. i 20. zadatak.",
+                    "initialText": {
+                        "title": "Sofoklo, Antigona",
+                        "text": "**Kreont**\nOj ljudi, grad nam silnom trešnjom bozi su\nPotresli, al' ga opet čvrsto pridigli.\nA samo vas sam glasnicima pozvao\nDa dođete jer, s jedne strane, dobro znam\nDa Lajev tron i vlast ste uvijek štovali,\nA s druge, kad je Edip gradom vladao,\nVi njemu, a kad pade, djeci njegovoj\nJoš ostali ste srca vjerna jednako.\nAl' otkad oni, evo, kobi dvostrukom\nU jedan izginuše dan - da, proliše\nKrv rukom vlastitom, na udar udarom\nUzvrativši - svu vlast ja držim otada\nJer poginulima sam rodom najbliži.\nA dušu, srce, pamet svakog čovjeka\nUpoznati se ne može dok nè vidiš\nGdje oko vlasti i zakona trudi se.\nTko cijelim gradom ravna, ali nè mari\nZa savjet najbolji, već strah mu nekakav\nZapečatio usta, taj se meni sad\nI odavno već čini da je najgori.\nNi onog kome više znači prijatelj\nNo vlastit zavičaj ne cijenim nimalo.\nSvjedokom nek' mi bude Zeus što vidi sve\nDa šutio ja ne bih kad bih vidio\nGdje propast mjesto spasa gradu bliži se.\nNit' neprijatelja bih zemlje uzeo\nZa prijatelja, jer znam: ona štiti nas;\nPod njenim jedrima dok sretno plovimo,\nMi prijatelje stječemo. Po takvim ja\nNačelima za sreću radim grada tog.\nPa s tim u skladu građanima sada sam\nOglasio za Edipove sinove:\nEtèokla, što pade grad naš braneći\nA bio je u boju junak najveći,\nNek' sahrane i čast mu svaku ìskažu\nŠto pokojnicima pod zemljom pripada.\nA brata njegova, to jest Polìnika,\nŠto ko bjegunac vrativ se, svoj zavičaj\nI roda našeg bogove do temelja\nPopalit vatrom htjede, krvi naše se\nNasititi, nas kao roblje odvesti -\nZa njega gradu evo ja proglasih sad\nDa grob mu nitko ne spravi ni òžali:\nBez groba nek' mu tijelo puste pticama\nI psima kao plijen, sramotu najveću.\nTo volja moja je i neće nikada\nČast veću imat zločinci od čestitih.\nAl' tko je našem gradu odan, mrtva ću\nI živa ja ga poštivati jednako.\n\n**Zbor**\nTo tebi s neprijateljem se svidjelo\nI s prijateljem grada tog uraditi.\nTi služiti se smiješ svakim zakonom\nZa mrtve ko i zà nas što još živi smo.\n\n**Kreont**\nČuvari zapovijedi vi mi budite!\n\n**Zbor**\nDaj mlađem nekom reci neka bude to!\n\n**Kreont**\nAl' straža stoji ondje kod mrtvaca već.\n\n**Zbor**\nPa što još drugo onda ti naređuješ?\n\n**Kreont**\nNe pòpuštaj ni ù čem nepokornima!\n\n**Zbor**\nTe lude nema tko bi mrijeti volio.\n\n**Kreont**\nPa to i plaća bit će mu. Al' nadanje\nU dobit često čovjeka upròpasti.\n\n(Dolazi stražar.)"
+                    },
+                    "questions": [
+                        {
+                            "type": "SingleChoice",
+                            "question": "S kojom se namjerom Kreont obraća Zboru?",
+                            "choices": [
+                                "da bi obavijestio Zbor o smrti Edipovih sinova",
+                                "da bi ga Zbor podupro u njegovim odlukama",
+                                "da bi Zboru objasnio kako je oslobodio grad",
+                                "da bi mu Zbor pomogao obnoviti grad"
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koje načelo Kreont ističe kao temelj svoje vladavine?",
+                            "choices": [
+                                "savjetovanje s glasnicima",
+                                "rad za dobrobit grada",
+                                "poštovanje obitelji",
+                                "štovanje Zeusa"
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Što Zbor govori Kreontu?",
+                            "choices": [
+                                "da mora razlikovati prijatelja od neprijatelja",
+                                "da se mora brinuti za žive sugrađane",
+                                "da mora pridobiti narod za sebe",
+                                "da je njegova vlast neupitna"
+                            ],
+                            "correctChoice": "D"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koji je motiv iz Kreontova govora metafora za domovinu?",
+                            "choices": [
+                                "Lajev tron",
+                                "jedra",
+                                "vatra",
+                                "grob"
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koje je od sljedećih obilježja tragedije prisutno u polaznome tekstu?",
+                            "choices": [
+                                "Tekst je napisan u stihovima uzvišenim stilom.",
+                                "Prisutna je tehnika deus ex machina.",
+                                "Zbor najavljuje buduće događaje.",
+                                "Prikazan je tragični završetak."
+                            ],
+                            "correctChoice": "A"
+                        }
+                    ]
+                },
+                {
+                    "info": "Pozorno pročitajte polazni tekst (peti tekst) i riješite 21., 22., 23., 24. i 25. zadatak.",
+                    "initialText": {
+                        "title": "Znate li zašto su se u Varaždinu dječje cipelice uzidavale u zid kuće?",
+                        "text": "**3. siječnja 2021.**\n\n_U Varaždinu traje zanimljiva izložba o šošteraju ili povijesti obućarstva i cipela, a izložene su i najstarije hrvatske pancerice iz 1930-ih_\n\tŠoštar je postolar, obućar... Negdje su ih nazivali i šusterima. Germanizmi su to poput malera (ličioca) ili šnajdera (krojača). Sad kad smo to razjasnili, možemo na priču o zanimljivoj izložbi u Gradskom muzeju Varaždin, nazvanoj „Šošteraj / Priče o cipelama iz GMV-a”, otvorenoj u Starom gradu u sklopu ciklusa „Nešto staro, nešto novo”.\n\tNastala je zahvaljujući suradnji muzejske kustosice i više predavačice na Tekstilno-tehnološkom fakultetu (TTF-u) u Zagrebu. Šoštari su razvojem industrije otjerani na popise starih zanata, no proces oblikovanja i konstrukcije obuće u osnovi je ostao sličan. Iz muzejskog fundusa izdvojili su predmete koji govore o cehovskoj i obrtničkoj proizvodnji cipela, postolarskom alatu i priručnicima. Naravno, izložili su i probrane primjerke cipela.\n\t- Kada smo osmišljavali izložbe za podrumski prostor Staroga grada, zamislili smo niz izložbi pod nazivom „Nešto staro, nešto novo”, kojim bismo prikazali promjene, ali i kontinuitet u umjetničkoj i obrtnoj proizvodnji uporabnih predmeta u Varaždinu i okolici. Cipele su se gotovo same nametnule kao logičan izbor za izložbu jer u Varaždinu postoji duga tradicija obućarstva, a i danas su sjeverna Hrvatska i Varaždin kraj u kojem je 80 posto obućarske i kožarsko-prerađivačke industrije. Osim toga u sklopu TTF-a u Varaždinu postoji i stručni preddiplomski studij Odjevne, tekstilne i obućarske tehnologije te Dizajn obuće. Na izložbi su predstavljeni predmeti iz cehovske baštine, umjetnička djela s prikazima obućarstva, cilinderica ili postolarski šivaći stroj, stari postolarski tronožac i alat te cipele iz fundusa, kroz čije priče saznajemo nešto o ulogama cipela, njihovoj simbolici, povijesti sporta i rekreacije, modi - kaže kustosica.\n\tIzložene su tako i cipele pronađene između greda u podu tavana pri rekonstrukciji barokne kuće u Varaždinu nastale sredinom 19. st. Primjer su učestale prakse uzidavanja cipela, osobito dječjih zbog velike smrtnosti, u dimnjake ili potkrovlja za zaštitu kuće od zlih sila. Izdvojila je i metaliziranu cipelicu kao primjer prakse čuvanja uspomene na prve dječje korake s kraja 19. i početka 20. st.\n\t- Prva cipelica bi se galvanizacijom prevukla bakrom i čuvala uz fotografije djeteta u vitrini - pojašnjava. Tu su i prve pancerice iz 1930-ih godina. Može se razgledati i ilustracija Pepeka Trpića, tamošnjeg „šegrta Hlapića”, koji se sa zebnjom priprema za tzv. frajšprehung, odnosno ispit za djetića koji se polagao pred majstorom. Djetići su bili pomoćnici obrtnika, kalfe ili šegrti. Izložene su i galoše koje su gospođe za blatnog vremena navlačile na fine cipele, a izuvale ih pred kavanama.\n\tU sklopu izložbe prikazuje se i film Vedrana Hunjeka kojim se predstavlja studij dizajna obuće u Varaždinu i u kojem se vidi proces nastanka cipela u tvornici danas. Povjesnice pak pokazuju da je do prvog organiziranja varaždinskog obrtništva došlo još u 15. st., kad se spominju bratovštine, preteče cehova. Varaždin je procvat doživio u drugoj polovini 18. st. Zvali su ga Mali Beč. Cehovi su privilegije izgubili nakon reformi Marije Terezije 1872. Podsjetnici na cehove danas su cimeri, reklamne ploče i figurice iznad ulaza u obrtničke radnje. U jezgri se još može vidjeti „železni čovek” koji je reklamirao trgovinu željeznom robom ili sirena kao oznaka za trgovinu prekooceanskom robom. Izložba o šošteraju traje do 16. travnja."
+                    },
+                    "questions": [
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koja je namjena polaznoga teksta?",
+                            "choices": [
+                                "objasniti javnosti zašto je u Varaždinu razvijena obućarska industrija",
+                                "potaknuti mlade ljude da se upišu na Tekstilno-tehnološki fakultet",
+                                "podučiti javnost o podrijetlu naziva čestih obrtničkih zanimanja",
+                                "informirati javnost o novopostavljenoj povijesnoj izložbi"
+                            ],
+                            "correctChoice": "D"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koji je cilj niza izložaba Nešto staro, nešto novo?",
+                            "choices": [
+                                "prikazati svakom izložbom jedno područje razvoja obućarskoga obrta",
+                                "prikazati da je Varaždin grad s dugom obrtničkom tradicijom",
+                                "omogućiti posjetiteljima da kupe proizvode lokalnih obrtnika",
+                                "potaknuti studente dizajna da i oni izlože svoje radove"
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Zašto su se u Varaždinu cipele uzidavale u zidove kuća?",
+                            "choices": [
+                                "jer se htjelo ovjekovječiti trenutak kad je dijete koje živi u toj kući prohodalo",
+                                "jer se tako simbolično opraštalo od pokojnika koji je umro u toj kući",
+                                "jer se željelo ostaviti trag o načinu života budućim generacijama",
+                                "jer se vjerovalo da će se na taj način ukućani spasiti od nesreće"
+                            ],
+                            "correctChoice": "D"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Gdje se prema autorovim riječima nalazi železni čovek?",
+                            "choices": [
+                                "na tavanu jedne barokne kuće u Varaždinu",
+                                "u središtu grada Varaždina",
+                                "u filmu Vedrana Hunjeka",
+                                "na izložbi o cipelama"
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "U kojemu se od sljedećih primjera uočava subjektivnost autora polaznoga teksta?",
+                            "choices": [
+                                "_Sad kad smo to razjasnili, možemo na priču o zanimljivoj izložbi (...)._",
+                                "_Cipele su se gotovo same nametnule kao logičan izbor za izložbu (...)._",
+                                "_Djetići su bili pomoćnici obrtnika, kalfe ili šegrti._",
+                                "_Zvali su ga Mali Beč_"
+                            ],
+                            "correctChoice": "A"
+                        }
+                    ]
+                },
+                {
+                    "info": "Pozorno pročitajte polazni tekst (šesti tekst) i riješite 26., 27., 28., 29. i 30. zadatak.",
+                    "initialText": {
+                        "title": "Vijenac 315, 30. ožujka 2006. Marginekologija, Razgovori",
+                        "text": "**Knjiški moljac - B(l)ožidarev blog**\nBožidar Alajbegović autor je bloga Knjiški moljac, vjerojatno najposjećenijeg i najdinamičnijeg internetskog foruma za književnost, književni kritičar, novinar...\n\n**Jedan si od kritičara koji svoju širu afirmaciju zahvaljuju internetu. Što misliš, koliko je elektronička forma formirala tvoj kritički rukopis, bi li on bio drukčiji da si matično bio vezan uz tiskane medije?**\nKod elektroničke forme nema ograničenja u pogledu opsega teksta, broja znakova ili kartica, što je redovit slučaj kod tiskanih medija (posebno dnevnih novina), koji zbog prostora za reklame ili za neke atraktivnije sadržaje od onih kulturnih zakidaju kritičare. Osim te vrste slobode internet je kao medij demokratskiji, urednici su mlađe dobi i dopuštaju slobodnije izražavanje, uporabu slenga, žargona. Pri objavljivanju na internetu autor ima i izravan uvid u posjećenost stranice, odnosno čitanost teksta, što vrlo motivira, baš kao što je često jako poticajan i kontakt s publikom koji autor na internetskim portalima, putem rubrike komentara, ostvaruje. Ne vjerujem da bi moj kritički rukopis bio bitnije drukčiji da sam matično bio vezan uz tiskane medije jer urednici tiskanih medija s kojima sam nakon afirmacije na internetu uspostavio suradnju u pravilu ne skraćuju niti na bilo kakav način interveniraju u moje tekstove.\n\n**Autor si bloga Knjiški moljac. Što kaže statistika, koliko imaš učitavanja, koliko se dugo prosječan čitatelj zadrži na stranici... broj likova koji ostavljaju postove... Razmišljaš li o sponzorima?**\nKnjiški moljac blog je posvećen isključivo književnosti, na njemu objavljujem svoje književne kritike. Iz drugih medija svakodnevno prenosim vijesti o knjigama, otvaram teme za raspravu, predstavljam nova izdanja te donosim poeziju i prozu domaćih autora i intervjue s piscima, prevoditeljima, urednicima. Moj blog postoji otprilike dvadeset mjeseci, a statistika kaže da ga svakodnevno posjećuje između petsto i šesto ljudi. Time sam vrlo zadovoljan, s obzirom na popularnost književnosti u nas. Uvid u duljinu zadržavanja na stranici svakoga posjetitelja nemam, ali uvidom u komentare i njihov karakter zaključio sam da je velik broj knjigoljubaca moj blog prihvatio kao svojevrstan forum na kojemu se raspravlja o temama vezanim uz knjigu. Mislim da pravila Blog.hr sponzoriranje ne dopuštaju. Sumnjam da u nas uopće i postoje mecene koje bi takvu vrstu truda honorirale. Slobodno neka me nekim konkretnim potezom opovrgnu, nitko sretniji od mene...\n\n**Fenomen bloga. Možeš li nam reći nešto više o utjecaju blogova na tiskanu književnost te, što mi je osobno zanimljivije, na pismenost uopće.**\nU blogosferi velik je broj neafirmiranih pisaca koji tako objavljuju prozu i poeziju te kvalitetom svakako zaslužuju pozornost, a neki od njih i ukoričenje. Među njima su i pojedinci skloni stilskim i verbalnim igrarijama i eksperimentima i čiji bi rukopisi osjetno osvježili domaću proznu scenu. No, nakladnici su nam inertni, svikli na državne dotacije i neskloni samostalnu traganju za novim imenima, pa slijedom toga blogomanija još nije ostavila bitnijega traga na tiskanu književnost. U posljednje vrijeme stvari se ipak pokreću - neki su ugovori potpisani, Naklada Zoro otvorila je natječaj za zbirku priča objavljenih na blogovima, i ona imena koja zaslužuju ukoričenje, to će valjda i doživjeti. Iako sam svjestan kreativnosti koju u mladih blogovi potiču, bojim se da bi utjecaj blogova na pismenost mogao biti negativniji nego što se misli. Svi se bjesomučno prihvatili tipkovnica, i pišu li ga pišu... a ono malo vremena što im ostaje za čitanje troše na konzumaciju blogovskih uradaka ekipe iz svog i susjednog im razreda. A knjige, nepročitane, skupljaju prašinu...\n\n**Koje blogove najradije posjećuješ?**\nKoga to zanima, može to saznati uvidom u linkove na mom blogu Knjiški moljac (http://ljubiteljknjiga.blog.hr). Razgovarao Kruno Lokotar"
+                    },
+                    "questions": [
+                        {
+                            "type": "SingleChoice",
+                            "question": "U kojemu je dijelu teksta prisutna jezična igra?",
+                            "choices": [
+                                "u tekstu kojim se sugovornika ukratko predstavlja",
+                                "u pitanjima upućenim sugovorniku",
+                                "u poveznici na sugovornikov blog",
+                                "u naslovnome dijelu intervjua"
+                            ],
+                            "correctChoice": "D"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Kako autor intervjua postiže prisnost sa sugovornikom?",
+                            "choices": [
+                                "Upotrebljava superlative kad ga predstavlja.",
+                                "Postavlja mu sugestivna pitanja.",
+                                "Obraća mu se u 2. licu jednine.",
+                                "Naziva ga knjiškim moljcem."
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "U kojemu od sljedećih primjera sugovornik kritizira društvo koje ne podupire književnost s foruma i blogova?",
+                            "choices": [
+                                "_Sumnjam da u nas uopće i postoje mecene koje bi takvu vrstu truda honorirale._",
+                                "_U blogosferi velik je broj neafirmiranih pisaca koji tako objavljuju prozu i poeziju te kvalitetom svakako zaslužuju pozornost, a neki od njih i ukoričenje._",
+                                "_Iako sam svjestan kreativnosti koju u mladih blogovi potiču, bojim se da bi utjecaj blogova na pismenost mogao biti negativniji nego što se misli._",
+                                "_... a ono malo vremena što im ostaje za čitanje troše na konzumaciju blogovskih uradaka ekipe iz svog i susjednog im razreda._"
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koja je uloga poveznice u intervjuu?",
+                            "choices": [
+                                "Upućuje na podatke o posjećenosti internetske stranice Matice hrvatske.",
+                                "Čitatelju omogućuje prostor u koji će napisati svoj komentar intervjua.",
+                                "Čitatelju otkriva s kojim je tiskanim medijima autor sklopio suradnju.",
+                                "Upućuje na sadržaj koji otkriva sugovornikove interese."
+                            ],
+                            "correctChoice": "D"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Na što upućuje sugovornik sljedećom tvrdnjom?",
+                            "choices": [
+                                "Zadovoljan je jer ne mora tražiti novčanu potporu za svoj blog.",
+                                "Književne kritike često su popularnije od samih književnih djela.",
+                                "Drago mu je što je njegov blog mjesto afirmacije mladih proznih pisaca.",
+                                "Posjećenost njegova bloga dokaz je da je njegov blog promicatelj književnosti."
+                            ],
+                            "shortText": "_Time sam vrlo zadovoljan, s obzirom na popularnost književnosti u nas._",
+                            "correctChoice": "D"
+                        }
+                    ]
+                },
+                {
+                    "info": "II. Književnost\n\nZadatci bez polaznoga teksta.\nZadatci višestrukoga izbora.\n\nU zadatcima višestrukoga izbora od više ponuđenih odgovora samo je jedan točan.\nTočan odgovor donosi jedan bod.",
+                    "questions": [
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koji se oblik ponašanja ironizira u sljedećim stihovima Silvija Strahimira Kranjčevića?",
+                            "choices": [
+                                "hvalisanje",
+                                "lakovjernost",
+                                "skromnost",
+                                "ulizivanje"
+                            ],
+                            "shortText": "_Prvi vam korak bješe da svojoj gospođi bajnoj_\n_Laznete skromno gospodsku petu._\n\n_Zlatna metoda! Cjelovom tijem shvatiste život!_",
+                            "correctChoice": "D"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Na kojoj je stilskoj figuri utemeljena sljedeća pjesma Stanka Vraza?",
+                            "choices": [
+                                "na alegoriji",
+                                "na antitezi",
+                                "na poredbi",
+                                "na sarkazmu"
+                            ],
+                            "shortText": "_Ni za što_\n\n_Tvoja j' glava tvrda_\n_Ko Stubički kam,_\n_Nu i tupa, na njoj_\n_Da ne mož nabrusti_\n_Ni jedan epigram._",
+                            "correctChoice": "D"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "S kojim je književnim razdobljem Ivan Slamnig ostvario intertekstualnu vezu u sljedećoj pjesmi?",
+                            "choices": [
+                                "s renesansom",
+                                "s klasicizmom",
+                                "s romantizmom",
+                                "s realizmom"
+                            ],
+                            "shortText": "_Neharnu služim gospoju_\n\n_Ne mogu te potpuno zadovoljiti_\n_među ostalim zato što neću._\n_Možeš li uzu oblagčati?_\n_ako možeš, dobit ćeš veću._\n\n_Ah ne znam ti se u životu snaći_\n_ni naručiti piće ko dasa!_\n_Al kad godijer zapitaš; „Tko je?ˮ_\n_čuti ćeš jasno: „Ja sam.ˮ_",
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Na koje se književnopovijesno razdoblje odnosi sljedeća rečenica?",
+                            "choices": [
+                                "na srednjovjekovlje",
+                                "na barok",
+                                "na romantizam",
+                                "na modernizam"
+                            ],
+                            "shortText": "Književnici pišu pod utjecajem katoličke obnove, u djelima se uočava podvojenost između svjetovnosti i onostranoga, a djela se odlikuju kićenošću izraza.",
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koje se od sljedećih obilježja odnosi na razdoblje hrvatskoga romantizma?",
+                            "choices": [
+                                "važnost kolektivnoga duha u buđenju nacionalne svijesti",
+                                "socijalno-psihološka motivacija likova",
+                                "kriterij doličnosti u oblikovanju likova",
+                                "pluralizam stilova"
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Na koje se pjesništvo odnose sljedeće tvrdnje?",
+                            "choices": [
+                                "na egzistencijalističko",
+                                "na ekspresionističko",
+                                "na petrarkističko",
+                                "na simbolističko"
+                            ],
+                            "shortText": "Jezik toga pjesništva vrlo je sugestivan, ritam i zvuk stiha razbijaju svakodnevna značenja upotrijebljenih riječi. U djelima se ističe kult ljepote i slijedi se načelo umjetnosti radi umjetnosti.",
+                            "correctChoice": "D"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koja se od sljedećih tvrdnja odnosi na ep Eneida?",
+                            "choices": [
+                                "U središtu je radnje židovska udovica koja se žrtvovala za svoj narod i ubila neprijateljskoga vojskovođu.",
+                                "U središtu je radnje junak koji se zahvaljujući svojemu lukavstvu uspije vratiti kući nakon deset godina ratovanja.",
+                                "Glavni junak nakon propasti Troje zajedno s ocem i sinom traži mjesto gdje će stvoriti novu državu.",
+                                "Ep je utemeljen na povijesnoj temi o pobuni janjičara u Osmanskome Carstvu."
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koji književni lik o sebi promišlja slično kao što Raskoljnikov promišlja o sebi u sljedećemu primjeru?",
+                            "choices": [
+                                "Gregor Samsa",
+                                "Hamlet",
+                                "Leone Glembaj",
+                                "Meursault"
+                            ],
+                            "shortText": "_Uostalom, ja brbljam previše. Zato i ne radim ništa jer brbljam. Ali je možda i ovako: zato brbljam jer ništa ne radim. Naučio sam se brbljati za ovih posljednjih dana, ležeći dane i noći u kutu i premišljajući... o tricama i kučinama. Onda, zašto ja sada idem? Zar sam ja sposoban za to?_",
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koja se od sljedećih tvrdnja odnosi na Jurja iz romana Posljednji Stipančići?",
+                            "choices": [
+                                "U pismima prijatelju otkriva svoj odnos prema ljubavi, prirodi i svijetu koji ga okružuje.",
+                                "Svoju bešćutnost prema sestri i majci otkriva pišući pisma prijatelju Mukiju.",
+                                "Majčino pismo o sestrinoj udaji motivirat će ga na daljnje postupke.",
+                                "Promijenio je sadržaj Klaudijeva pisma i tako izbjegao smrt."
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Na koje se književno djelo odnose sljedeće rečenice?",
+                            "choices": [
+                                "na Dubravku",
+                                "na Juditu",
+                                "na Novelu od Stanca",
+                                "na Osmana"
+                            ],
+                            "shortText": "U svojoj je sažetosti najčistije djelo dubrovačke komediografije. Ostvaren je sklad forme i vjerne reprodukcije slike gradskoga života u kasnim noćnim satima u kojoj dominiraju raspojasani gradski mladići okupljeni oko seljaka koji dolazi u grad prodati svoje proizvode.",
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koja se od sljedećih rečenica odnosi na Maestra iz Marinkovićeva Kiklopa?",
+                            "choices": [
+                                "Novinar je i cinik koji prezire društveni napredak.",
+                                "Kritičar je koji se izgladnjuje kako bi izbjegao poziv u vojsku.",
+                                "Pisac je koji je osmislio teoriju o preventivnoj dehumanizaciji.",
+                                "Boem je i lakrdijaš čije se djelovanje svodi na acte gratuit - bezrazložni čin."
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Što je od sljedećega iskazano o Smail-agi Čengiću u sljedećemu primjeru?",
+                            "choices": [
+                                "Aga se slušajući pjesmu prisjeća bitaka u kojima je sudjelovao.",
+                                "Aga ne voli slušati pjesme o stradanjima crnogorske vojske.",
+                                "Aga zaboravlja svoje muke slušajući pjesmu.",
+                                "Aga ne želi da ga se pamti po neuspjehu."
+                            ],
+                            "shortText": "_Gvožđa, otrov, konop, nože,_\n_Palu, oganj, kolac grozni,_\n_Ulje vrelo i sto muka_\n_U čas jedan junak smišlja,_\n_Za izgladit gorkoj bruci trage_\n_I sačuvat uspomenu čistu,_\n_Čisto ime uz glas strune blage._",
+                            "correctChoice": "D"
+                        }
+                    ]
+                },
+                {
+                    "info": "III. Hrvatski jezik\n\nZadatci višestrukoga izbora.\n\nU zadatcima višestrukoga izbora od više ponuđenih odgovora samo je jedan točan.\nTočan odgovor donosi jedan bod.",
+                    "questions": [
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koja je od sljedećih rečenica napisana u skladu s pravilima o pisanju velikoga i maloga početnog slova?",
+                            "choices": [
+                                "Razdoblje kojemu obilježje daje uporaba bronce naziva se Brončano doba.",
+                                "Ugostitelji potvrđuju da je njihovim gostima sve važniji bežični Internet.",
+                                "Uz zamolbu za posao treba priložiti presliku Radne knjižice i Rodni list.",
+                                "Mjesec je jedini Zemljin prirodni satelit i najbliže joj nebesko tijelo."
+                            ],
+                            "correctChoice": "D"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "U kojoj je od sljedećih rečenica podcrtana riječ pravopisno točna?",
+                            "choices": [
+                                "Kupila je plakat s prikazom *zvijezdanoga* neba.",
+                                "Putovanje je odgođeno za *slijedeći* dan.",
+                                "Tvrdili su da je vrlo *savijesna* osoba.",
+                                "Pred nama je *svijetla* budućnost."
+                            ],
+                            "correctChoice": "D"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "U kojoj je od sljedećih rečenica upotrijebljen arhaizam?",
+                            "choices": [
+                                "Magellanova ekspedicija oplovila je svijet karakom _Victoria_, prvim jedrenjakom kojim se mogao preploviti ocean.",
+                                "Školovanje u preparandiji, učiteljskoj školi u drugoj polovini 19. stoljeća, trajalo je tri godine.",
+                                "Udžbenik nosi naslov _Lučba_, a taj se naziv za kemiju upotrebljavao krajem 19. st.",
+                                "Osnovna jedinica za srebrni novac u Dubrovačkoj Republici bila je dinar"
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koja je rečenica u sljedećemu tekstu značenjski besmislena?",
+                            "choices": [
+                                "Nakon teških pandemijskih godina Europa ima još jedno kataklizmično ljeto.",
+                                "Zbog izostanka kiše suša je pod udarom u Europi već dva mjeseca.",
+                                "Suša je već smanjila proizvodnju električne energije i hrane, pojačavajući tržišni pritisak koji već postoji zbog rata u Ukrajini.",
+                                "Iako postoji mogućnost da eventualno kišni kolovoz donese dašak olakšanja, najtopliji dio godine tek je počeo."
+                            ],
+                            "shortText": "Nakon teških pandemijskih godina Europa ima još jedno kataklizmično ljeto. Zbog izostanka kiše suša je pod udarom u Europi već dva mjeseca. Suša je već smanjila proizvodnju električne energije i hrane, pojačavajući tržišni pritisak koji već postoji zbog rata u Ukrajini. Iako postoji mogućnost da eventualno kišni kolovoz donese dašak olakšanja, najtopliji dio godine tek je počeo.",
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koji je od sljedećih primjera ktetik imena Jabuka?",
+                            "choices": [
+                                "jabučni",
+                                "jabučki",
+                                "jabukov",
+                                "jabukovački"
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koja je od sljedećih sintagma nesročna atributna sintagma?",
+                            "choices": [
+                                "imala je madež",
+                                "lijevoga ramena",
+                                "imala je ispod ramena",
+                                "madež poput zvjezdice"
+                            ],
+                            "shortText": "Ispod lijevoga ramena oduvijek je imala madež poput zvjezdice.",
+                            "correctChoice": "D"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "U kojoj je od sljedećih rečenica riječ ples u službi izravnoga objekta?",
+                            "choices": [
+                                "Dok sam bila na plesu, ukrali su mi torbicu s dokumentima.",
+                                "Neprekidno sanjarim o našemu maturalnom plesu.",
+                                "Tko ne smatra romantičnim ples na kiši?",
+                                "Kupila sam cipele za ples."
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "U kojoj je od sljedećih rečenica upotrijebljen točan veznik?",
+                            "choices": [
+                                "S obzirom da rano krećem na put, moram na spavanje.",
+                                "Moram na spavanje radi toga jer rano krećem na put.",
+                                "Budući da rano krećem na put, moram na spavanje.",
+                                "Moram na spavanje zato jer rano krećem na put."
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koja je od sljedećih rečenica gramatički točna?",
+                            "choices": [
+                                "Posjetom muzejima naša nam je nastavnica oblikovala ukus u slikarstvo.",
+                                "Vozila se s biciklom do glavnoga trga.",
+                                "Problem se na koncu pokazao neznatnim.",
+                                "Rock-opera pripada u novijem žanru glazbe."
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koji morfem u riječi ravnateljičin ima značenje pripadnosti?",
+                            "choices": [
+                                "-telj",
+                                "-ič",
+                                "-in",
+                                "-Ø"
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "U kojemu je od sljedećih primjera točno tvoren glagolski prilog sadašnji?",
+                            "choices": [
+                                "gristi > grizeći",
+                                "peći > pečući",
+                                "pisati > pisajući",
+                                "vući > vukući"
+                            ],
+                            "correctChoice": "D"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koji je pridjev u sljedećoj rečenici u instrumentalu?",
+                            "choices": [
+                                "najboljim",
+                                "hrvatskim",
+                                "tropskim",
+                                "neobičnim"
+                            ],
+                            "shortText": "Najboljim studentima na hrvatskim sveučilištima pružila se prilika da istražuju ekosustave u tropskim morima nastanjenim neobičnim organizmima.",
+                            "correctChoice": "D"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koja je od sljedećih tvorenica nastala prefiksalno-sufiksalnom tvorbom?",
+                            "choices": [
+                                "bezemljaš",
+                                "biljožder",
+                                "bioenergija",
+                                "brodolomac"
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "U kojoj je od sljedećih riječi epentetski l?",
+                            "choices": [
+                                "izmišljen",
+                                "nauljen",
+                                "usamljen",
+                                "zaobljen"
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Što je etimološka odrednica sljedećega rječničkog članka?",
+                            "choices": [
+                                "im. m G -bra, N mn -bri",
+                                "arh. jez. knjiž. knjiga",
+                                "tal. libro ← lat. liber",
+                                "na libar reg. pritvoriti (grilje, škure) slično otvorenoj knjizi i tako regulirati količinu svježega zraka i potrebnoga svjetla"
+                            ],
+                            "shortText": "**lȋbar**, im. m G -bra, N mn -bri arh. jez. knjiž. knjiga; tal. libro ← lat. liber; na libar reg. pritvoriti (grilje, škure) slično otvorenoj knjizi i tako regulirati količinu svježega zraka i potrebnoga svjetla",
+                            "correctChoice": "C"
+                        }
+                    ]
+                },
+                {
+                    "info": "Zadatak višestrukoga izbora s nadopunjavanjem\n\nU zadatku višestrukoga izbora s nadopunjavanjem (58.1. - 58.5.) od više ponuđenih odgovora samo je jedan točan.\nSvaki točan odgovor donosi jedan bod. U zadatku višestrukoga izbora s nadopunjavanjem (58.1. - 58.5.) moguće je ostvariti 5 bodova.",
+                    "initialText": {
+                        "text": "Napokon želite baciti (1.) ___ nepodnošljivoj nadutosti? U tome vam može pomoći Mile Mandarić, vlasnik poznatoga slavonskog OPG-a. Domaći čaj gospodina (2.) ___ čini čuda za vašu probavu! Za (3.) ___ čaja potrebna vam je samo adresa (4.) ___ pošte. Ne zaboravite: posebna akcija na kojoj možete kupiti dva pakiranja za cijenu jednoga (5.) ___ u petak! Požurite se i ne propustite odličnu priliku!"
+                    },
+                    "questions": [
+                        {
+                            "type": "SingleChoice",
+                            "question": "1.",
+                            "choices": [
+                                "rukavicu u lice",
+                                "pijesak u oči",
+                                "ulje na vatru",
+                                "bubu u uho"
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "2.",
+                            "choices": [
+                                "Mila",
+                                "Mile",
+                                "Milea",
+                                "Mileta"
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "3.",
+                            "choices": [
+                                "naručbu",
+                                "narućbu",
+                                "narudžbu",
+                                "naruđbu"
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "4.",
+                            "choices": [
+                                "električke",
+                                "električne",
+                                "elektroničke",
+                                "elektronske"
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "5.",
+                            "choices": [
+                                "istače",
+                                "isteče",
+                                "ističe",
+                                "istječe"
+                            ],
+                            "correctChoice": "D"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Sažetak",
+            "predictedTime": 80,
+            "instructions": "Pozorno pročitajte sve upute i slijedite ih.\n\nIspit traje 80 minuta.\nSažetak treba imati 200 - 250 riječi.\nSažetak će se bodovati s nula (0) bodova ako nema dovoljan broj riječi, ako ima prevelik broj riječi, ako je pisan velikim tiskanim slovima ili ako je nečitko napisan.\n\nŽelimo Vam mnogo uspjeha!",
+            "potentialPoints": 18,
+            "questionGroups": [
+                {
+                    "info": "Pročitajte polazni tekst.\nSažetak oblikujte kao zaokruženu cjelinu s uvodom, razradom i zaključkom.\nPazite da Vaš sažetak bude pravopisno, gramatički i leksički točan.\nU sažetak morate uvrstiti sve smjernice.\nSažetak mora imati 200 - 250 riječi.",
+                    "initialText": {
+                        "title": "Iris Jerončić Tomić i suradnici, *Društvene mreže i samopoštovanje* ",
+                        "text": "\tSamopoštovanje se odnosi na osobnu prosudbu vlastite vrijednosti. Odnosi se na pozitivnu ili negativnu procjenu svojega „ja” i na to koliko pojedinac smatra sebe vrijednim i kompetentnim. Uglavnom je stabilna osobina koja se razvija tijekom vremena i koja reagira na dnevne događaje i kontekste. Upotreba društvenih mreža i razina samopoštovanja dva su međusobno povezana konstrukta. Ono što radimo na internetu, osobito na društvenim mrežama, utječe na naše samopoštovanje jer ljudi žive dio svog života na društvenim mrežama.\n\tOsoba ima priliku oblikovati sliku o sebi upotrebljavajući društvene mreže poput Facebooka i Twittera. Objave odražavaju emocije i način na koji se osobe predstavljaju te mogu poslužiti za ispitivanje njihove osobnosti i razine samopoštovanja u mrežnim okruženjima. Društvene mreže mogu poboljšati samopoštovanje, uključujući percepciju fizičkog izgleda, odnosa s drugima i romantičnih veza, pogotovo kad osoba primi pozitivne povratne informacije od svojih vršnjaka i prijatelja na društvenim mrežama. Osim toga, profil na društvenoj mreži omogućuje korisnicima kontrolu nad onim što objavljuju na mreži i kako se žele predstaviti drugima. Dakle, profil pomaže zadovoljiti potrebe pojedinca za očuvanjem vlastite vrijednosti i integriteta, što dovodi do pozitivnih osjećaja i više razine samopoštovanja.\n\tSvaki pojedinac, bez obzira na razinu samopoštovanja, ima potrebu pripadati društvenoj skupini, što postiže aktivnošću na društvenim mrežama. Pripadnost grupi potiče razvoj kolektivnog samopoštovanja i pojedincu predstavlja značajnu emocionalnu vrijednost. Komunikacija na društvenim mrežama može biti korisna za osobe s niskom razinom samopoštovanja jer im pomaže da se prilagode novoj sredini i da podignu razinu samopoštovanja. Pojedinci koji upotrebljavaju društvene mreže mogu doživjeti osjećaj pripadnosti i socijalnu podršku drugih. Osobe s nižom razinom samopoštovanja pokušavaju nadoknaditi nedostatak samopoštovanja povećanjem broja online prijatelja kako bi uspostavili osjećaj pripadnosti i naglasili doživljaj popularnosti. Prihvaćajući više zahtjeva za prijateljstvom, osobe s niskom razinom samopoštovanja nastoje ostvariti socijalnu interakciju. Osobe s nižom razinom samopoštovanja provode više vremena na mreži i imaju više promotivnih sadržaja na svojim profilima. Za razliku od njih osobe s višom razinom samopoštovanja češće upotrebljavaju društvene mreže za poboljšanje odnosa s ljudima koje poznaju nego za stjecanje novih prijatelja. Korisne su im za održavanje postojećih prijateljstava ili bliskih odnosa. Pojedinci s višom razinom samopoštovanja preferiraju dijeljenje fotografija, misli i ideja s drugima te pridaju manje važnosti online interakciji putem društvenih mreža.\n\tPored pozitivnog učinka na razinu samopoštovanja komunikacija na društvenim mrežama može imati i negativne učinke. Kad se govori o povezanosti upotrebe društvenih mreža i razine samopoštovanja, onda se ispituje njihov utjecaj na poštovanje tijela, osobito među adolescentima. Društvene mreže mogu doprinijeti nezadovoljstvu vlastitim tijelom kod oba spola. Okupiranost vlastitim tijelom, pa tako i nezadovoljstvo, razvijaju se relativno rano. To je primijećeno već kod djevojčica u dobi od sedam godina. Idealno žensko tijelo prikazano u masovnim medijima utjelovljuje ideju mršave žene kao privlačne i poželjne. Nezadovoljstvo vlastitim tijelom i ulaganje u izgled važni su čimbenici rizika za probleme mentalnog zdravlja, prije svega poremećaja prehrane i depresije, a negativno se odražavaju na dobrobit i samopoštovanje adolescenata. U ovom kontekstu viša razina izloženosti masovnim medijima povezana je s višom razinom nezadovoljstva vlastitim tijelom i poremećajem prehrane. Stope poremećaja prehrane među ženama, kao što su anoreksija, ortoreksija nervosa i bulimija, rastu. Sve više muškaraca zabrinuto je zbog oblika tijela i težine jer su svakodnevno izloženi medijskom pritisku. Ulaganje u vanjski izgled pretpostavlja aktivnosti koje iziskuju mnogo vremena, energije i novca, a također mogu biti štetne za školski i akademski uspjeh, međuljudske odnose i tjelesno zdravlje. Isto tako, na društvenim mrežama drugi prosuđuju objavljene fotografije i vrednuju ih lajkovima i komentarima što može dovesti do osjećaja prihvaćenosti ili odbijenosti.\n\tDruštvene mreže čest su predmet istraživanja i neslaganja oko uzroka i posljedica njihova odnosa prema samopoštovanju i dobrobiti ljudi. Njihova upotreba može imati društvene i psihološki negativne učinke na ljude, ali s druge strane one mogu biti i vrlo korisne u kontekstu društvene povezanosti i pripadnosti."
+                    },
+                    "questions": [
+                        {
+                            "type": "EssayWriting",
+                            "points": [
+                                {
+                                    "category": "Sadržaj",
+                                    "points": 6
+                                },
+                                {
+                                    "category": "Organizacija teksta i stil",
+                                    "points": 6
+                                },
+                                {
+                                    "category": "Jezična točnost",
+                                    "points": 6
+                                }
+                            ],
+                            "question": "Smjernice za pisanje sažetka\nPročitajte zadani tekst.\nSažmite polazni tekst svojim riječima:\n• tako da navedete opće podatke o polaznome tekstu\n• tako da odredite namjenu i temu teksta\n• tako da navedete osnovne misli teksta i pojedinosti koje ih podupiru\n• tako da odredite autorov stav o temi.",
+                            "minWords": 200,
+                            "maxWords": 250
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Školski Esej",
+            "predictedTime": 160,
+            "instructions": "Pozorno pročitajte sve upute i slijedite ih.\n\nIspit traje 160 minuta.\nNapišite školski esej slijedeći priložene upute i smjernice za pisanje školskoga eseja.\n\nŠkolski esej treba imati najmanje 440 riječi.\nŠkolski esej bodovat će se s nula (0) bodova ako nema dovoljan broj riječi, ako je pisan velikim tiskanim slovima ili ako je nečitko napisan.\n\nŽelimo Vam mnogo uspjeha!",
+            "potentialPoints": 30,
+            "questionGroups": [
+                {
+                    "info": "Pozorno pročitajte sljedeće tekstove nakon kojih slijede upute i smjernice za pisanje školskoga eseja.\n\nZADATAK ZA PISANJE ŠKOLSKOGA ESEJA\nVjenceslav Novak, Posljednji Stipančići\n\nPolazno pitanje\nKako Juraj Stipančić utječe na živote ženskih članova svoje obitelji?",
+                    "initialText": {
+                        "text": "**Prvi polazni tekst**\nDragi Muki!\n(...)\nTa moja dobroćudna i neuka mati vjeruje i s nekakvim nadama spaja u sebi uvjerenje da se Fedica zaljubio. (...) A znaš li što će biti konac svega: zaludit će sirotu djevojku, pa će se i u njezinoj glavi početi razvijati kojekakve romantične ludorije, dosadit će joj post i krunica, a kuća postati tijesna... Ali bijesa bi sebi Fedica o tome razbijao glavu!\nA najposlije: zašto joj ne bi Fedica tu radost priuštio? Mi smo veseljaci dobra srca - rekao si ti jedne noći kad smo ono jednog pijanoga starca digli iz snijega i odnijeli u kavanu da na biljaru prespava noć. Zašto ne bi dakle naš Fedica vršio samaritansku dužnost naprama siroti osamljenoj i boležljivoj djevici?\n- Zašto bih ja dakle otkrio pred majkom ili pred sestrom sa Fedice koprenu u kojoj im se predstavio, kako iz majčinih riječi razabiram, u nekakvoj djevičanskoj slici? Uopće, kad o njem slušam govoriti svoju majku, sve mislim u sebi: vidiš ti našega Fedicu kako on umije lijepo glumiti! (...)\nTvoj *György*\n\n**Drugi polazni tekst**\nDragi Muki!\n(...)\nBio sam prisiljen upotrijebiti sredstvo što si ga ti kod svoje stare tetke s uspjehom prakticirao. Uzeo sam pištolj: „Ili pet stotina, ili ćete me naći u ovoj sobi prostrijeljene glave.” Neću ti opisivati kakvim je očima gledala na pištolj u mojoj ruci; znam da nije bila rumenija nego tvoja tetka kad si se s njome ovako našalio. Sve je htjela nešto govoriti, ali su joj usta bila ukočena... „Žao mi je, rekoh joj, ali meni drugo ne preostaje.” „Pa dobit ćeš, dat će ti se”, reče napokon, „kakav si ti to, zaboga!\nDobit ćeš...” A jutros mi je već donijela novce: „Eto ti, prodala sam kuću.” (...)\nTvoj *György*"
+                    },
+                    "questions": [
+                        {
+                            "type": "EssayWriting",
+                            "points": [
+                                {
+                                    "category": "Središnja tvrdnja",
+                                    "points": 6
+                                },
+                                {
+                                    "category": "Argumentacija",
+                                    "points": 6
+                                },
+                                {
+                                    "category": "Povezanost teksta",
+                                    "points": 6
+                                },
+                                {
+                                    "category": "Upotreba rječnika",
+                                    "points": 6
+                                },
+                                {
+                                    "category": "Pravopisna i gramatička točnost",
+                                    "points": 6
+                                }
+                            ],
+                            "question": "Smjernice\n• U uvodu:\n- ukratko predstavite autora i djelo\n- u jednoj ili više rečenica oblikujte tvrdnju kojom ćete odgovoriti na polazno pitanje i tako najaviti ono o čemu ćete pisati u središnjemu dijelu eseja.\n\n• U središnjemu dijelu eseja razradite i argumentirajte svoju tvrdnju kojom ste odgovorili na polazno pitanje tako da argumentacija:\n- proizlazi iz razumijevanja pjesničkoga opusa Tina Ujevića\n- proizlazi iz sadržajne i stilske analize polaznih pjesama i njihove uloge u pjesničkome opusu\n- bude povezana s književnopovijesnim kontekstom u kojemu su pjesme nastale.\n\nSvoj tekst rasporedite u odlomke koji su jasno, logično i smisleno povezani.\n• U zaključku sažeto istaknite ono najvažnije o čemu ste pisali u središnjemu dijelu eseja.",
+                            "minWords": 440
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
