@@ -249,7 +249,7 @@
                             "type": "ShortAnswer",
                             "question": "Učenik treba predati mapu koja sadrži slike s terenske nastave u Vukovaru. Mapa može zauzimati najviše 16 MiB. Svaka slika ima rezoluciju 512 x 512 piksela, a za zapis jednoga piksela koristi se 16 bitova. Koliko najviše slika može predati učenik?",
                             "answers": [
-                                "23"
+                                "32"
                             ]
                         },
                         {
