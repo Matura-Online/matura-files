@@ -1,0 +1,532 @@
+{
+    "name": "Informatika",
+    "scale": {
+        "range1": [
+            0,
+            27.99
+        ],
+        "range2": [
+            28,
+            45.99
+        ],
+        "range3": [
+            46,
+            65.99
+        ],
+        "range4": [
+            66,
+            81.99
+        ],
+        "range5": [
+            82,
+            100
+        ]
+    },
+    "maxPoints": 50,
+    "sections": [
+        {
+            "name": "Osnovno",
+            "predictedTime": 100,
+            "instructions": "Pozorno pročitajte sve upute i slijedite ih.\nIspit traje 100 minuta bez stanke.\n\nIspred svake skupine zadataka uputa je za rješavanje. Pozorno je pročitajte.\nMožete upotrebljavati priloženu pomoćnu knjižicu.\n\nKada riješite zadatke, provjerite odgovore.\nŽelimo Vam mnogo uspjeha!",
+            "questionGroups": [
+                {
+                    "info": "I. Zadatci višestrukoga izbora.\n\nU sljedećim zadatcima od više ponuđenih odgovora samo je jedan točan.\nTočan odgovor donosi jedan bod.",
+                    "questions": [
+                        {
+                            "type": "SingleChoice",
+                            "question": "Što je od navedenoga kratica za neku od optičkih memorija?",
+                            "choices": [
+                                "SSD",
+                                "RAM",
+                                "HDD",
+                                "DVD"
+                            ],
+                            "correctChoice": "D"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Što je od navedenoga karakteristika procesora?",
+                            "choices": [
+                                "broj jezgri",
+                                "razlučivost",
+                                "rpm",
+                                "dpi"
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Što od navedenoga nije priključak na računalu?",
+                            "choices": [
+                                "USB",
+                                "SSD",
+                                "HDMI",
+                                "Ethernet"
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koju od navedenih skupina nastavaka datoteka čine samo audiodatoteke?",
+                            "choices": [
+                                ".mp3, .midi, .wmv",
+                                ".wav, .mp4, .midi",
+                                ".wma, .mp3, .wav",
+                                ".midi, .wmv, .wav"
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Škola ima 600 učenika. Koliko će najmanje mjesta zauzimati binarna šifra pojedinoga učenika ako su sve šifre jednako dugačke?",
+                            "choices": [
+                                "8",
+                                "10",
+                                "16",
+                                "600"
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koji od navedenih odgovora predstavlja memoriju najmanjega kapaciteta?",
+                            "choices": [
+                                "1 GiB",
+                                "2 ∙ 10$^{9}$ B",
+                                "2500 MiB",
+                                "300000 KiB"
+                            ],
+                            "correctChoice": "D"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koja od navedenih monokromatskih slika ima sljedeći heksadekadski zapis: 3C 7E 10 66 24 81 18 3C? ",
+                            "shortText": "Napomena: Bijelo polje predstavlja 0, a crno 1.",
+                            "mediaUrl": "https://files.matura.top/2024/Probna/Inf/u5hwr9ksu.webp",
+                            "choices": [
+                                "A.",
+                                "B.",
+                                "C.",
+                                "D."
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "shortText": "Maja želi organizirati zajedničko druženje prijatelja iz razreda. Druženje će se održati ako više od 20 učenika želi sudjelovati u troškovima, ako udaljenost od škole nije veća od 2 km i ako troškovi nisu veći od 10 eura po učeniku.\nNeka su dane sljedeće varijable:\n\nA - broj učenika\nB - udaljenost od škole\nC - troškovi po učeniku",
+                            "question": "Koji će od navedenih logičkih izraza biti istinit samo ako će se druženje održati?",
+                            "choices": [
+                                "A > 20 I B <=2 I C <= 10",
+                                "A > 20 ILI B <= 2 I C < 10",
+                                "A > 20 I B <= 2 ILI C < 10",
+                                "A > 20 ILI B <= 2 ILI C <= 10"
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koja je putanja do datoteke Python.docx?",
+                            "shortText": "Na računalu su kreirane mape kako bi se brzo i lako mogle pronaći odgovarajuće datoteke.",
+                            "choices": [
+                                "Vanja>Informatika>Python>Petlje",
+                                "Vanja>Informatika>Internet>Python",
+                                "Vanja>Informatika>Python>Grananje",
+                                "Vanja>Informatika>Internet>Pretraživanje"
+                            ],
+                            "correctChoice": "D",
+                            "mediaUrl": "https://files.matura.top/2024/Probna/Inf/AdRBOXgBNy.webp"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koji je izraz, zapisan u programskome jeziku, ekvivalentan zadanomu matematičkom izrazu?",
+                            "shortText": "$y=\\frac{a-b}{2d}\\times{\\sqrt{c}}$",
+                            "choices": [
+                                "y = a - b / (2 * d) * sqrt(c);",
+                                "y = (a - b) / 2 * d * sqrt(c);",
+                                "y = (a - b) / (2 * d) * sqrt(c);",
+                                "y = a - b * sqrt(c) / (2 * d);"
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Što će ispisati zadani program?",
+                            "mediaUrl": "https://files.matura.top/2024/Probna/Inf/QGoGnjaQmf.webp",
+                            "choices": [
+                                "2",
+                                "5",
+                                "48",
+                                "50"
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Odredite što radi zadani program ako se učitava prirodni broj n.",
+                            "mediaUrl": "https://files.matura.top/2024/Probna/Inf/FfGcskSJLT.webp",
+                            "choices": [
+                                "Ispisuje binarni zapis učitanoga broja.",
+                                "Ispisuje ostatke dijeljenja učitanoga broja s 2.",
+                                "Ispisuje broj nula u binarnome zapisu učitanoga broja.",
+                                "Ispisuje broj jedinica u binarnome zapisu učitanoga broja."
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Zadani program učitava broj n za koji vrijedi n > 2 i zatim n različitih cijelih brojeva. Program treba ispisati drugi najveći broj od učitanih brojeva. Koji će od navedenih algoritama ispravno ispisati traženi rezultat?",
+                            "mediaUrl": "https://files.matura.top/2024/Probna/Inf/86pj9orMKC.webp",
+                            "choices": [
+                                "A.",
+                                "B.",
+                                "C.",
+                                "D."
+                            ],
+                            "correctChoice": "D"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "mediaUrl": "https://files.matura.top/2024/Probna/Inf/UqMbdcr7nQ.webp",
+                            "question": "Koju liniju kôda treba napisati na praznu crtu ako zadani program treba učitati prirodni broj i ispisati zbroj svih njegovih znamenaka osim vodeće (prve) znamenke?",
+                            "choices": [
+                                "while (n > 0) {",
+                                "while (n > 1) {",
+                                "while (n < 10) {",
+                                "while (n > 10) {"
+                            ],
+                            "correctChoice": "D"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "mediaUrl": "https://files.matura.top/2024/Probna/Inf/W8svyEYrK2.webp",
+                            "question": "Za koji će se testni primjer while petlja izvesti samo jednom?",
+                            "choices": [
+                                "b = 7",
+                                "b = 9",
+                                "b = 10",
+                                "b = 11"
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "mediaUrl": "https://files.matura.top/2024/Probna/Inf/BJer12BmMW.webp",
+                            "question": "Koju ikonu treba odabrati kako bi se kopirani tekst zalijepio kao slika?",
+                            "choices": [
+                                "A.",
+                                "B.",
+                                "C.",
+                                "D."
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koja se od navedenih vrsta programa može besplatno koristiti ograničeno vrijeme ili ograničeni broj puta?",
+                            "choices": [
+                                "freeware",
+                                "shareware",
+                                "open source",
+                                "komercijalni"
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koja od navedenih opcija označava da treba imenovati autora te da se djelo ne smije prerađivati i da ga treba dijeliti pod istim uvjetima? ",
+                            "choices": [
+                                "CC BY ND",
+                                "CC BY ND SA",
+                                "CC BY SA NC",
+                                "CC BY NC ND"
+                            ],
+                            "correctChoice": "B"
+                        }
+                    ]
+                },
+                {
+                    "info": "II. Zadatci kratkoga odgovora i dopunjavanja\n\nU sljedećim zadatcima odgovorite kratkim odgovorom (jednom riječju, dvjema riječima ili brojem), dopunite tablicu upisivanjem sadržaja koji nedostaje ili označite točan odgovor na slici.\nTočan odgovor donosi jedan ili dva boda.",
+                    "questions": [
+                        {
+                            "type": "ShortAnswer",
+                            "question": "Koliko će slobodnoga prostora ostati nakon pohranjivanja seminarskih radova?",
+                            "shortText": "Pavo je napisao dva seminarska rada koji se sastoje samo od teksta. Na svakoj se stranici nalazi 2000 znakova koji su kodirani 16-bitnim kôdom. Svaki seminarski rad ima 16 stranica.\nPavo će datoteke pohraniti na memorijski ključić te ga brine hoće li mu ostati slobodnoga mjesta ako je trenutačno slobodno samo 1 MiB prostora.\nRezultat prikažite u KiB.",
+                            "answers": [
+                                "899"
+                            ]
+                        },
+                        {
+                            "type": "ShortAnswer",
+                            "question": "Odredite tablicu istinitosti za složeni logički izraz $R=\\overline{X+\\overline{Y} \\cdot Z} \\cdot \\overline{X} \\cdot Y$.",
+                            "answers": [
+                                "00110000",
+                                "0 0 1 1 0 0 0 0",
+                                "0, 0, 1, 1, 0, 0, 0, 0"
+                            ],
+                            "mediaUrl": "https://files.matura.top/2024/Probna/Inf/29hFqQWNaf.webp"
+                        },
+                        {
+                            "type": "ShortAnswer",
+                            "question": "Ispišite naredbu koju Maja treba odabrati.",
+                            "shortText": "Maja želi komprimirati mapu sa zadatcima.\nSjetila se da su se na satu Informatike prilikom komprimiranja mape koristili desnom tipkom miša.",
+                            "answers": [
+                                "Pošalji"
+                            ],
+                            "mediaUrl": "https://files.matura.top/2024/Probna/Inf/29hFqQWNaf.webp"
+                        },
+                        {
+                            "type": "ShortAnswer",
+                            "mediaUrl": "https://files.matura.top/2024/Probna/Inf/tECp9wUzCi.webp",
+                            "question": "Koja će biti vrijednost varijabla a, b i c nakon izvođenja zadanoga dijela programa?",
+                            "answers": [
+                                "a = 3, b = 8, c = 24",
+                                "3 8 24",
+                                "3, 8, 24",
+                                "a=3, b=8, c=24"
+                            ]
+                        },
+                        {
+                            "type": "ShortAnswer",
+                            "question": "Što treba pisati umjesto zvjezdica (****) da bi prikazani program ispisivao DESETICA ako je znamenka desetica veća od znamenke jedinica učitanoga dvoznamenkastog broja x?",
+                            "mediaUrl": "https://files.matura.top/2024/Probna/Inf/x5S0PO5Oka.webp",
+                            "answers": [
+                                "x // 10 > x % 10",
+                                "x / 10 > x % 10"
+                            ]
+                        },
+                        {
+                            "type": "SubBoard",
+                            "mainQuestion": "Zapišite u tablicu odgovarajuće podatke iz teksta zadatka o prikazu broja muških jedinki prema pasminama tako da je popunjen najmanji mogući broj ćelija. Pritom podatci u tablici moraju biti prikazani tako da su pogodni za kvalitetni grafički prikaz s odgovarajućim oznakama.",
+                            "shortText": "U Hrvatskoj sve češće govorimo o ekološkoj proizvodnji i veliki broj naših stočara pokušava postići ekonomski učinak uzgojem naših (autohtonih) pasmina goveda. Prema dostupnim podatcima za 2021. naša buša (B) zastupljena je s 234 muške jedinke i 2670 ženskih jedinki, zatim slavonsko srijemski podolac (SSP) s 15 muških jedinki i 294 ženske jedinke te istarsko govedo (IG) sa 68 muških jedinki.",
+                            "mediaUrl": "https://files.matura.top/2024/Probna/Inf/i9OaYn4p7V.webp",
+                            "fullSolutionOrUrl": "https://files.matura.top/2024/Probna/Inf/he4gkMmXgL.webp",
+                            "points": 1
+                        },
+                        {
+                            "type": "ShortAnswer",
+                            "shortText": "Sara je od fotografija s maturalnoga putovanja napravila infografiku koju želi poslati urednicima školskoga ljetopisa.\nRezultat izrazite u KiB.",
+                            "question": "Koliko prostora zauzima infografika ako je prijenos trajao 1 sekundu, a brzina je prijenosa 20,48 Mb/s?",
+                            "answers": [
+                                "2500",
+                                "2500 KiB",
+                                "2500KiB"
+                            ]
+                        },
+                        {
+                            "type": "SubBoard",
+                            "mainQuestion": "Zadan je broj $1FF_{16}$.",
+                            "subQuestions": [
+                                {
+                                    "question": "Koja je dekadska vrijednost toga broja?",
+                                    "points": 1,
+                                    "answers": [
+                                        "511"
+                                    ]
+                                },
+                                {
+                                    "question": "Koji je heksadekadski sljedbenik toga broja?",
+                                    "points": 1,
+                                    "answers": [
+                                        "200"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "SubBoard",
+                            "mainQuestion": "Zadani su binarni brojevi x = 11100101 i y = 100101.",
+                            "subQuestions": [
+                                {
+                                    "question": "Koji je rezultat zbrajanja tih brojeva u binarnome brojevnom sustavu?",
+                                    "points": 1,
+                                    "answers": [
+                                        "100001010"
+                                    ]
+                                },
+                                {
+                                    "question": "Ako je broj x zapisan metodom dvojnoga komplementa u 8-bitovnome registru, o kojemu je dekadskome broju riječ?",
+                                    "points": 1,
+                                    "answers": [
+                                        "-27"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "SubBoard",
+                            "mainQuestion": "Slika dimenzija 1024 × 1024 zauzima 3 MiB.\n",
+                            "subQuestions": [
+                                {
+                                    "question": "Koliko bitova zauzima 1 piksel?",
+                                    "points": 1,
+                                    "answers": [
+                                        "24",
+                                        "24",
+                                        "24 b"
+                                    ]
+                                },
+                                {
+                                    "question": "Ako bi jedan piksel zauzimao 1 bit, koliko bi memorije zauzimala slika u KiB?\n",
+                                    "points": 1,
+                                    "answers": [
+                                        "128"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "SubBoard",
+                            "mainQuestion": "Zadan je programski odsječak.",
+                            "mediaUrl": "https://files.matura.top/2024/Probna/Inf/beMCFXx1cT.webp",
+                            "subQuestions": [
+                                {
+                                    "question": "Koja će biti vrijednost varijable c nakon izvođenja zadanoga programskog odsječka?",
+                                    "points": 1,
+                                    "answers": [
+                                        "46"
+                                    ]
+                                },
+                                {
+                                    "question": "Koja će biti vrijednost varijable d nakon izvođenja zadanoga programskog odsječka?",
+                                    "points": 1,
+                                    "answers": [
+                                        "1"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "SubBoard",
+                            "mainQuestion": "Zadan je programski odsječak.",
+                            "mediaUrl": "https://files.matura.top/2024/Probna/Inf/KqcYPkGc5E.webp",
+                            "subQuestions": [
+                                {
+                                    "question": "Koja će biti vrijednost varijable a nakon izvođenja zadanoga programskog odsječka?",
+                                    "points": 1,
+                                    "answers": [
+                                        "32"
+                                    ]
+                                },
+                                {
+                                    "question": "Koja će biti vrijednost varijable b nakon izvođenja zadanoga programskog odsječka?",
+                                    "points": 1,
+                                    "answers": [
+                                        "12"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "SubBoard",
+                            "mainQuestion": "Zadan je program.",
+                            "mediaUrl": "https://files.matura.top/2024/Probna/Inf/M7x6C3SnNT.webp",
+                            "subQuestions": [
+                                {
+                                    "question": "Koja će biti vrijednost varijable x nakon izvođenja zadanoga programa?",
+                                    "points": 1,
+                                    "answers": [
+                                        "11"
+                                    ]
+                                },
+                                {
+                                    "question": "Koja će biti vrijednost varijable y nakon izvođenja zadanoga programa?",
+                                    "points": 1,
+                                    "answers": [
+                                        "16"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "SubBoard",
+                            "mediaUrl": "https://files.matura.top/2024/Probna/Inf/pE07ZoC6hv.webp",
+                            "mainQuestion": "Zadan je programski odsječak.",
+                            "subQuestions": [
+                                {
+                                    "question": "Koja će biti vrijednost varijable n nakon izvođenja zadanoga programskog odsječka?",
+                                    "points": 1,
+                                    "answers": [
+                                        "4"
+                                    ]
+                                },
+                                {
+                                    "question": "Koja će biti vrijednost varijable k nakon izvođenja zadanoga programskog odsječka?",
+                                    "points": 1,
+                                    "answers": [
+                                        "3"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "SubBoard",
+                            "mainQuestion": "Trener odbojkaške ekipe upisuje u program broj odbojkaša i njihove visine.",
+                            "shortText": "Zanima ga prosječna visina odbojkaša čije su visine unutar očekivanoga intervala [170, 200]. Sigurno je barem jedna visina u tome intervalu i barem jedna izvan toga intervala. Program u koji se upisuju podatci je u nastavku, no prilikom izvođenja ne ispisuje točnu prosječnu visinu.",
+                            "mediaUrl": "https://files.matura.top/2024/Probna/Inf/Kl0Ox5W3k2.webp",
+                            "subQuestions": [
+                                {
+                                    "question": "Napišite broj retka koji treba ispraviti da bi program ispravno radio.",
+                                    "points": 1,
+                                    "answers": [
+                                        "8"
+                                    ]
+                                },
+                                {
+                                    "question": "Napišite taj cijeli redak tako da program daje  točan rezultat.",
+                                    "points": 1,
+                                    "answers": [
+                                        "z = z + v",
+                                        "z=z+v"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "info": "III. Zadatci produženoga odgovora\n\nU sljedećim zadatcima trebate napisati program u programskome jeziku Python ili C/C++.\nSvaku liniju kôda napišite na jednu crtu pazeći na redoslijed.\nTočan odgovor donosi tri boda.",
+                    "questions": [
+                        {
+                            "type": "SubBoard",
+                            "mainQuestion": "U odabranome programskom jeziku definiran je modul crtaj (nije ga potrebno pozivati).\n",
+                            "shortText": "U modulu postoje sljedeće funkcije:\n\nnaprijed(točaka)\nnazad(točaka)\nzakreni_udesno(kut)\nzakreni_ulijevo(kut)\ndigni_olovku()\nspusti_olovku()\nsakrij_olovku()\nNa početku je olovka u sredini ekrana, spuštena i okrenuta udesno. Kut se zadaje u stupnjevima.\nNakon crtanja olovka ne smije biti vidljiva.\nPotrebno je nacrtati romb koji će biti smješten u trećemu kvadrantu kao na slici.\nPodatci za šiljasti kut alfa (u stupnjevima) čiji je vrh u središtu ekrana i duljina stranice a učitavaju se s tipkovnice.",
+                            "subQuestions": [
+                                {
+                                    "question": "Napišite izraz kojim ćete odrediti iznos kuta beta za koji će se olovka morati zakretati kako bi se nacrtao romb.",
+                                    "points": 1,
+                                    "answers": [
+                                        "beta = 180 - alfa",
+                                        "beta = 180 - alfa",
+                                        "beta=180-alfa"
+                                    ]
+                                },
+                                {
+                                    "question": "Napišite program koji će crtati romb duljine stranice a kao na slici koristeći se funkcijama zadanoga modula i naredbama odabranoga programskog jezika.\nCrtanje počinje iz sredine ekrana.\n",
+                                    "points": 2,
+                                    "answers": []
+                                }
+                            ],
+                            "mediaUrl": "https://files.matura.top/2024/Probna/Inf/tJhbnuVCl3.webp",
+                            "fullSolutionOrUrl": "int a, alfa, beta;\nscanf(\"%d\", &a);\nscanf(\"%d\", &alfa);\nbeta = 180 - alfa;\nzakreni_ulijevo(180);\nnaprijed(a);\nzakreni_ulijevo(alfa);\nnaprijed(a);\nzakreni_ulijevo(beta);\nnaprijed(a);\nzakreni_ulijevo(alfa);\nnaprijed(a);\nsakrij_olovku();"
+                        },
+                        {
+                            "type": "SubBoard",
+                            "mainQuestion": "Napišite program koji učitava ukupan broj minuta M pranja zubi u mjesecu.",
+                            "shortText": "Katarina je pročitala da zube treba prati svaki dan barem dva puta i to po 3 minute. Svaki dan mjeri koliko je minuta prala zube. Program treba ispisati poruku SUPER ako je Katarina stvarno mogla prati zube svaki dan najmanje 6 minuta, a poruku DOBRO ako je u prosjeku prala zube barem 4 minute dnevno. Ako je iz navedenoga vremena vidljivo da nije mogla u prosjeku svaki dan prati zube barem 4 minute, onda program treba ispisati koliko je najviše dana mogla prati zube najmanje 4 minute. Pretpostavimo da je taj mjesec imao 30 dana.\nNapomena: Sve su vrijednosti cjelobrojne.",
+                            "fullSolutionOrUrl": "int M, d;\nscanf(\"%d\", &M);\nd = M / 30;\nif (d >= 6)\n printf(\"SUPER\");\nelse if (D >= 4)\n printf(\"DOBRO\");\nelse\n printf(\"%d\", M / 4);",
+                            "points": 3
+                        },
+                        {
+                            "type": "SubBoard",
+                            "mainQuestion": "Napišite program koji će za svaku partiju učitavati osvojene bodove za svaki par.",
+                            "shortText": "Zlatka i Smiljana (ZS) igraju kartašku igru protiv Mihaela i Bojana (MB) koja se igra na bodove kroz više partija dok jedan od parova ne osvoji barem 1001 bod. Par koji prvi osvoji 1001 bod pobjeđuje. Napišite program koji će za svaku partiju učitavati osvojene bodove za svaki par. Program ispisuje pobjednika (ZS ili MB) ili poruku REMI ako imaju jednak broj bodova većih od 1001.",
+                            "points": 3,
+                            "fullSolutionOrUrl": "int uzs=0,umb=0, zs, mb;\nwhile (uzs < 1001 &&\numb < 1001):\n scanf(\"%d\", &zs);\n scanf(\"%d\", &mb);\nuzs = uzs + zs;\n umb = umb + mb;\nif (uzs == umb)\n printf(\"REMI\");\nelse if (uzs > umb)\n printf(\"ZS\");\nelse\n printf(\"MB\");"
+                        }
+                    ]
+                }
+            ],
+            "potentialPoints": 50
+        }
+    ]
+}
