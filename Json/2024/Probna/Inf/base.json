@@ -141,10 +141,10 @@
                             "question": "Koji je izraz, zapisan u programskome jeziku, ekvivalentan zadanomu matematičkom izrazu?",
                             "shortText": "$y=\\frac{a-b}{2d}\\times{\\sqrt{c}}$",
                             "choices": [
-                                "y = a - b / (2 * d) * sqrt(c);",
-                                "y = (a - b) / 2 * d * sqrt(c);",
-                                "y = (a - b) / (2 * d) * sqrt(c);",
-                                "y = a - b * sqrt(c) / (2 * d);"
+                                "y = a - b / (2 \\* d) \\* sqrt(c);",
+                                "y = (a - b) / 2 \\* d \\* sqrt(c);",
+                                "y = (a - b) / (2 \\* d) \\* sqrt(c);",
+                                "y = a - b \\* sqrt(c) / (2 \\* d);"
                             ],
                             "correctChoice": "C"
                         },
