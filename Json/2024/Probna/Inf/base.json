@@ -287,7 +287,7 @@
                         },
                         {
                             "type": "ShortAnswer",
-                            "question": "Što treba pisati umjesto zvjezdica (****) da bi prikazani program ispisivao DESETICA ako je znamenka desetica veća od znamenke jedinica učitanoga dvoznamenkastog broja x?",
+                            "question": "Što treba pisati umjesto zvjezdica (*) da bi prikazani program ispisivao DESETICA ako je znamenka desetica veća od znamenke jedinica učitanoga dvoznamenkastog broja x?",
                             "mediaUrl": "https://files.matura.top/2024/Probna/Inf/x5S0PO5Oka.webp",
                             "answers": [
                                 "x // 10 > x % 10",
@@ -354,7 +354,7 @@
                         },
                         {
                             "type": "SubBoard",
-                            "mainQuestion": "Slika dimenzija 1024 × 1024 zauzima 3 MiB.\n",
+                            "mainQuestion": "Slika dimenzija 1024 × 1024 zauzima 3 MiB.",
                             "subQuestions": [
                                 {
                                     "question": "Koliko bitova zauzima 1 piksel?",
@@ -366,7 +366,7 @@
                                     ]
                                 },
                                 {
-                                    "question": "Ako bi jedan piksel zauzimao 1 bit, koliko bi memorije zauzimala slika u KiB?\n",
+                                    "question": "Ako bi jedan piksel zauzimao 1 bit, koliko bi memorije zauzimala slika u KiB?",
                                     "points": 1,
                                     "answers": [
                                         "128"
@@ -488,8 +488,9 @@
                     "questions": [
                         {
                             "type": "SubBoard",
-                            "mainQuestion": "U odabranome programskom jeziku definiran je modul crtaj (nije ga potrebno pozivati).\n",
-                            "shortText": "U modulu postoje sljedeće funkcije:\n\nnaprijed(točaka)\nnazad(točaka)\nzakreni_udesno(kut)\nzakreni_ulijevo(kut)\ndigni_olovku()\nspusti_olovku()\nsakrij_olovku()\nNa početku je olovka u sredini ekrana, spuštena i okrenuta udesno. Kut se zadaje u stupnjevima.\nNakon crtanja olovka ne smije biti vidljiva.\nPotrebno je nacrtati romb koji će biti smješten u trećemu kvadrantu kao na slici.\nPodatci za šiljasti kut alfa (u stupnjevima) čiji je vrh u središtu ekrana i duljina stranice a učitavaju se s tipkovnice.",
+                            "mainQuestion": "U odabranome programskom jeziku definiran je modul crtaj (nije ga potrebno pozivati).",
+                            "shortText": "U modulu postoje sljedeće funkcije:\n\nnaprijed(točaka)\nnazad(točaka)\nzakreni_udesno(kut)\nzakreni_ulijevo(kut)\ndigni_olovku()\nspusti_olovku()\nsakrij_olovku()\n\nNa početku je olovka u sredini ekrana, spuštena i okrenuta udesno.\n\nKut se zadaje u stupnjevima.\nNakon crtanja olovka ne smije biti vidljiva.\nPotrebno je nacrtati romb koji će biti smješten u trećemu kvadrantu kao na slici.\nPodatci za šiljasti kut alfa (u stupnjevima) čiji je vrh u središtu ekrana i duljina stranice a učitavaju se s tipkovnice.",
+                            "mediaUrl": "https://files.matura.top/2024/Probna/Inf/tJhbnuVCl3.webp",
                             "subQuestions": [
                                 {
                                     "question": "Napišite izraz kojim ćete odrediti iznos kuta beta za koji će se olovka morati zakretati kako bi se nacrtao romb.",
@@ -501,27 +502,50 @@
                                     ]
                                 },
                                 {
-                                    "question": "Napišite program koji će crtati romb duljine stranice a kao na slici koristeći se funkcijama zadanoga modula i naredbama odabranoga programskog jezika.\nCrtanje počinje iz sredine ekrana.\n",
+                                    "question": "Napišite program koji će crtati romb duljine stranice a kao na slici koristeći se funkcijama zadanoga modula i naredbama odabranoga programskog jezika. Crtanje počinje iz sredine ekrana.",
+                                    "inputType": "programming",
                                     "points": 2,
-                                    "answers": []
+                                    "answers": [],
+                                    "implementation": [
+                                        {
+                                            "code": "int a, alfa, beta;\nscanf(\"%d\", &a);\nscanf(\"%d\", &alfa);\nbeta = 180 - alfa;\nzakreni_ulijevo(180);\nnaprijed(a);\nzakreni_ulijevo(alfa);\nnaprijed(a);\nzakreni_ulijevo(beta);\nnaprijed(a);\nzakreni_ulijevo(alfa);\nnaprijed(a);\nsakrij_olovku();",
+                                            "language": "pseudo"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Programming",
+                            "question": "Katarina je pročitala da zube treba prati svaki dan barem dva puta i to po 3 minute. Svaki dan mjeri koliko je minuta prala zube. Program treba ispisati poruku SUPER ako je Katarina stvarno mogla prati zube svaki dan najmanje 6 minuta, a poruku DOBRO ako je u prosjeku prala zube barem 4 minute dnevno. Ako je iz navedenoga vremena vidljivo da nije mogla u prosjeku svaki dan prati zube barem 4 minute, onda program treba ispisati koliko je najviše dana mogla prati zube najmanje 4 minute. Pretpostavimo da je taj mjesec imao 30 dana.\nNapomena: Sve su vrijednosti cjelobrojne.\n\nNapišite program koji učitava ukupan broj minuta M pranja zubi u mjesecu.",
+                            "points": [
+                                {
+                                    "category": "Bodovi",
+                                    "points": 3
                                 }
                             ],
-                            "mediaUrl": "https://files.matura.top/2024/Probna/Inf/tJhbnuVCl3.webp",
-                            "fullSolutionOrUrl": "int a, alfa, beta;\nscanf(\"%d\", &a);\nscanf(\"%d\", &alfa);\nbeta = 180 - alfa;\nzakreni_ulijevo(180);\nnaprijed(a);\nzakreni_ulijevo(alfa);\nnaprijed(a);\nzakreni_ulijevo(beta);\nnaprijed(a);\nzakreni_ulijevo(alfa);\nnaprijed(a);\nsakrij_olovku();"
+                            "implementation": [
+                                {
+                                    "code": "int M, d;\nscanf(\"%d\", &M);\nd = M / 30;\nif (d >= 6)\n printf(\"SUPER\");\nelse if (d >= 4)\n printf(\"DOBRO\");\nelse\n printf(\"%d\", M / 4);",
+                                    "language": "pseudo"
+                                }
+                            ]
                         },
                         {
-                            "type": "SubBoard",
-                            "mainQuestion": "Napišite program koji učitava ukupan broj minuta M pranja zubi u mjesecu.",
-                            "shortText": "Katarina je pročitala da zube treba prati svaki dan barem dva puta i to po 3 minute. Svaki dan mjeri koliko je minuta prala zube. Program treba ispisati poruku SUPER ako je Katarina stvarno mogla prati zube svaki dan najmanje 6 minuta, a poruku DOBRO ako je u prosjeku prala zube barem 4 minute dnevno. Ako je iz navedenoga vremena vidljivo da nije mogla u prosjeku svaki dan prati zube barem 4 minute, onda program treba ispisati koliko je najviše dana mogla prati zube najmanje 4 minute. Pretpostavimo da je taj mjesec imao 30 dana.\nNapomena: Sve su vrijednosti cjelobrojne.",
-                            "fullSolutionOrUrl": "int M, d;\nscanf(\"%d\", &M);\nd = M / 30;\nif (d >= 6)\n printf(\"SUPER\");\nelse if (D >= 4)\n printf(\"DOBRO\");\nelse\n printf(\"%d\", M / 4);",
-                            "points": 3
-                        },
-                        {
-                            "type": "SubBoard",
-                            "mainQuestion": "Napišite program koji će za svaku partiju učitavati osvojene bodove za svaki par.",
-                            "shortText": "Zlatka i Smiljana (ZS) igraju kartašku igru protiv Mihaela i Bojana (MB) koja se igra na bodove kroz više partija dok jedan od parova ne osvoji barem 1001 bod. Par koji prvi osvoji 1001 bod pobjeđuje. Napišite program koji će za svaku partiju učitavati osvojene bodove za svaki par. Program ispisuje pobjednika (ZS ili MB) ili poruku REMI ako imaju jednak broj bodova većih od 1001.",
-                            "points": 3,
-                            "fullSolutionOrUrl": "int uzs=0,umb=0, zs, mb;\nwhile (uzs < 1001 &&\numb < 1001):\n scanf(\"%d\", &zs);\n scanf(\"%d\", &mb);\nuzs = uzs + zs;\n umb = umb + mb;\nif (uzs == umb)\n printf(\"REMI\");\nelse if (uzs > umb)\n printf(\"ZS\");\nelse\n printf(\"MB\");"
+                            "type": "Programming",
+                            "question": "Zlatka i Smiljana (ZS) igraju kartašku igru protiv Mihaela i Bojana (MB) koja se igra na bodove kroz više partija dok jedan od parova ne osvoji barem 1001 bod. Par koji prvi osvoji 1001 bod pobjeđuje. Napišite program koji će za svaku partiju učitavati osvojene bodove za svaki par. Program ispisuje pobjednika (ZS ili MB) ili poruku REMI ako imaju jednak broj bodova većih od 1001.\n\nNapišite program koji će za svaku partiju učitavati osvojene bodove za svaki par.",
+                            "points": [
+                                {
+                                    "category": "Bodovi",
+                                    "points": 3
+                                }
+                            ],
+                            "implementation": [
+                                {
+                                    "code": "int uzs=0, umb=0, zs, mb;\nwhile (uzs < 1001 && umb < 1001):\n scanf(\"%d\", &zs);\n scanf(\"%d\", &mb);\nuzs = uzs + zs;\numb = umb + mb;\nif (uzs == umb)\n printf(\"REMI\");\nelse if (uzs > umb)\n printf(\"ZS\");\nelse\n printf(\"MB\");",
+                                    "language": "pseudo"
+                                }
+                            ]
                         }
                     ]
                 }
