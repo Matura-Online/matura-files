@@ -568,6 +568,7 @@
                             "mainQuestion": "Na slici je prikazan graf polinoma četvrtoga stupnja $y=f(x)$. Ako je funkcija $g(x)=\\frac{5x-4}{x-4}$, riješite sustav nejednadžba $\\begin{cases}f^{\\prime}(x)\\leq0\\\\g(x)+g^{\\prime}(x)<0&\\end{cases}$. Postupak i odgovor.",
                             "mediaUrl": "https://files.matura.top/2025/Probna/Mat/A/Wc0ysx4TW.webp",
                             "points": 2,
+                            "showTldraw": true,
                             "fullSolutionOrUrl": "https://files.matura.top/2025/Probna/Mat/A/VpDbitDK4.webp"
                         }
                     ]
