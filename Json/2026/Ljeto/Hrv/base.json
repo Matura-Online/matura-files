@@ -1,0 +1,137 @@
+{
+  "name": "Hrvatski Jezik",
+  "maxPoints": 110,
+  "scale": {
+    "range1": [0, 32.99],
+    "range2": [33, 54.99],
+    "range3": [55, 76.89],
+    "range4": [77, 93.49],
+    "range5": [93.5, 110]
+  },
+  "sections": [
+    {
+      "name": "Čitanje, Književnost i Hrvatski Jezik",
+      "predictedTime": 100,
+      "potentialPoints": 62,
+      "instructions": "Pozorno pročitajte sve upute i slijedite ih.\nIspit traje 100 minuta.\n\nKada riješite zadatke, provjerite odgovore.\nŽelimo Vam mnogo uspjeha!",
+      "questionGroups": [
+        {
+          "info": "I. Čitanje\n\nZadatci s polaznim tekstom.\nZadatci višestrukoga izbora.\n\nU zadatcima višestrukoga izbora od više ponuđenih odgovora samo je jedan točan. Točan odgovor donosi jedan bod. Zadatci od 1. do 30. odnose se na polazne tekstove.",
+          "questions": [
+            {"type":"SingleChoice","question":"Kojoj vrsti lirske pjesme prema temi pripada pjesma Campo dei Fiori?","choices":["domoljubnoj pjesmi","pejzažnoj pjesmi","refleksivnoj pjesmi","socijalnoj pjesmi"],"correctChoice":"C"},
+            {"type":"SingleChoice","question":"Na čiju se retrospekciju odnosi prva strofa pjesme?","choices":["na retrospekciju Giordana Bruna","na retrospekciju lirskoga subjekta","na retrospekciju rimskih prodavača","na retrospekciju stanovnika Varšave"],"correctChoice":"B"},
+            {"type":"SingleChoice","question":"Koju od sljedećih ljudskih osobina lirski subjekt kritizira u pjesmi?","choices":["ravnodušnost","raskalašenost","strah od prolaznosti","sklonost moraliziranju"],"correctChoice":"A"},
+            {"type":"SingleChoice","question":"Koja je temeljna misao o pjesnicima iskazana u pjesmi?","choices":["Zabavljaju se uz glasnu glazbu.","Umiru u samoći zaboravljeni od svih.","Jezik ih sputava da izraze svoje osjećaje.","Njihove riječi mogu potaknuti važne događaje."],"correctChoice":"D"},
+            {"type":"SingleChoice","question":"Na što se odnosi podcrtana riječ u sljedećemu stihu u pretposljednjoj strofi?","shortText":"Na njegov let u požaru.","choices":["na jezik","na vrtuljak","na Giordana Bruna","na Campo dei Fiori"],"correctChoice":"C"}
+          ]
+        },
+        {
+          "info": "Zadatci 6. – 10. odnose se na ulomak iz djela Bistri vitez don Quijote od Manche Miguela de Cervantesa.",
+          "questions": [
+            {"type":"SingleChoice","question":"Na kojoj je od sljedećih antiteza utemeljen razgovor između don Quijotea i Sancha Panze?","choices":["dobro – zlo","ljubav – mržnja","privid – stvarnost","bogatstvo – siromaštvo"],"correctChoice":"C"},
+            {"type":"SingleChoice","question":"Na što se od sljedećega odnosi podcrtani izraz u sljedećemu primjeru?","shortText":"onakvu gadnu pasminu zbrisati zemlji s lica","choices":["na čarobnjake","na divove","na konje","na vitezove"],"correctChoice":"B"},
+            {"type":"SingleChoice","question":"Za koji od sljedećih predmeta nije iskazano da je don Quijoteovo potencijalno oružje?","choices":["za kamen","za koplje","za mač","za granu"],"correctChoice":"A"},
+            {"type":"SingleChoice","question":"Na koji se viteški zakon poziva don Quijote objašnjavajući razliku između sebe i Sancha Panze?","choices":["Vitez mora biti u službi Boga.","Vitez mora sakriti svoje slabosti.","Vitez svoja junaštva čini u ime svoje odabranice.","Vitez treba imati konja, perjanika i odgovarajuću opremu."],"correctChoice":"B"},
+            {"type":"SingleChoice","question":"U kojemu se od sljedećih primjera izriče fatalistički stav prema životu?","choices":["A ako te je strah, skloni se, pa se moli dok ja budem s njima bio ljut i nejednak boj.","a tko ne vidi šta su, valjda mu se i samom u glavi vrti.","bojni su poslovi, više nego ikoji, izvrgnuti neprestanoj mijeni","Neka Bog učini kako može"],"correctChoice":"D"}
+          ]
+        },
+        {
+          "info": "Zadatci 11. – 15. odnose se na ulomak iz djela U registraturi Ante Kovačića.",
+          "questions": [
+            {"type":"SingleChoice","question":"Na koji od sljedećih načina čitatelj saznaje o događajima koji su prethodili planiranoj svadbi?","choices":["iz seoskih glasina","iz Medonićeva unutarnjeg monologa","iz pripovijedanja sveznajućega pripovjedača","iz dijaloga likova koji su glavni akteri tih događaja"],"correctChoice":"A"},
+            {"type":"SingleChoice","question":"U kojemu je od sljedećih primjera iskazano da je Justa fizički neprivlačna žena?","choices":["lica joj baš nijesu pisanica","nalik više muškarcu nego ženi","Obla su tvoja ramena","Nije takve sunce rodilo"],"correctChoice":"A"},
+            {"type":"SingleChoice","question":"Na što se od sljedećega odnosi podcrtani primjer u sljedećoj rečenici?","shortText":"Mali „kanonikˮ pak da je živo razmahao svoj jezik po krčmama, otkale leti zao glas brže od puščana zrna...","choices":["Medonić je izgubio vid.","Margarita ima ljubavnika.","Stipe se zaposlio u drugoj kući.","Miha će se priženiti u Justin dom."],"correctChoice":"B"},
+            {"type":"SingleChoice","question":"Koja se od sljedećih tvrdnja odnosi na maloga „kanonikaˮ?","choices":["Ima više djece iz dvaju različitih brakova.","Sažalijeva Medonića jer ovaj nema muškoga potomka.","Seljani njegovu suprugu smatraju ženom koja ne govori mnogo.","Teško se miri s činjenicom da mu sin neće dovesti snahu u kuću."],"correctChoice":"C"},
+            {"type":"SingleChoice","question":"Koji književni lik izgovara sljedeće rečenice?","shortText":"Pa sve je u redu! Neka, neka! Godine su duge, a ljudski život je kratak!","choices":["„duga Kataˮ","gavan Medonić","mali „kanonik”","snaha Marta"],"correctChoice":"D"}
+          ]
+        },
+        {
+          "info": "Zadatci 16. – 20. odnose se na ulomak iz drame Gospoda Glembajevi Miroslava Krleže.",
+          "questions": [
+            {"type":"SingleChoice","question":"Koja je uloga polaznoga teksta u strukturi drame Gospoda Glembajevi?","choices":["Najavljuje konačni rasplet dramske radnje.","Dio je kvantitativne scene odlaska gostiju iz kuće Glembajevih.","Predstavlja vrhunac sukoba između barunice Castelli i sestre Angelike.","Iznosi se baruničin unutarnji sukob između materijalnih i duhovnih vrijednosti."],"correctChoice":"A"},
+            {"type":"SingleChoice","question":"Zbog kojega razloga, u kontekstu djela u cjelini, barunica Castelli cvili od očaja i od srdžbe?","choices":["Tuguje zbog Ignjatove smrti.","Bijesna je zbog materijalne propasti.","Ljubomorna je jer je zatekla Leonea s Angelikom.","Prestravljena je jer se ostvarila barbocijevska legenda."],"correctChoice":"B"},
+            {"type":"SingleChoice","question":"Na koji se dramski lik, u kontekstu djela u cjelini, odnosi sljedeća rečenica?","shortText":"Elender Hochstapler!","choices":["na Ignjata","na Leonea","na Pubu","na Silberbrandta"],"correctChoice":"A"},
+            {"type":"SingleChoice","question":"Koje je značenje sljedećega primjera?","shortText":"a jutros pustili ste oko sebe tintu","choices":["Barunica je svjesno razotkrila svoje motive.","Barunica je pokušala zavesti kardinala Montenuova.","Barunica je lažirala suprugov potpis kako bi ga pokrala.","Barunica je prikrila svoju pravu narav želeći da Leone o njoj promijeni mišljenje."],"correctChoice":"D"},
+            {"type":"SingleChoice","question":"Što je od sljedećega barunica Castelli neizravno iskazala o sestri Angeliki?","choices":["da je bludnica","da je rasipnica","da je mučenica","da je kradljivica"],"correctChoice":"A"}
+          ]
+        },
+        {
+          "info": "Zadatci 21. – 25. odnose se na tekst Lucije Vargović Prastaro jezerce na slavonskome brdu.",
+          "questions": [
+            {"type":"SingleChoice","question":"Koja je namjena polaznoga teksta?","choices":["promovirati rad Šumarije Čaglin","potaknuti čitatelje na boravak u prirodi","informirati čitatelje o ljepoti i važnosti jezera","educirati čitatelje o biljnome i životinjskome svijetu u jezeru"],"correctChoice":"C"},
+            {"type":"SingleChoice","question":"Koja se od sljedećih tvrdnja odnosi na Sovsko jezero?","choices":["Postoje nepobitni dokazi o njegovu podrijetlu.","Iste je površine neovisno o vremenskim prilikama.","Zbog brojnosti različitih vrsta ptica ima status ornitološkoga rezervata.","Osim prirodnih ljepota posjetitelji uz njega mogu vidjeti i spomen‑obilježja."],"correctChoice":"D"},
+            {"type":"SingleChoice","question":"S kojim su ciljem mještani i odgovorne institucije povećali razinu vode u jezeru?","choices":["kako bi spriječili daljnju devastaciju jezera","kako bi se potaknuo razvoj turizma u njihovu kraju","kako bi obrađivanje zemlje uz jezero bilo jednostavnije","kako bi se šumska vegetacija lakše razvijala i bila bujnija"],"correctChoice":"A"},
+            {"type":"SingleChoice","question":"Koji od sljedećih primjera potvrđuje da je polazni tekst napisan znanstvenim stilom?","choices":["malo je uzvišenje na vrhu kojega je vidikovac.","Kompleks jezerskih uslojenih sedimenata čuva brojne fosile školjaka","izgrađen zdenac u spomen Dragutinu Tadijanoviću, znamenitomu pjesniku iz Rastušja","uz pejzažnu ljepotu imaju i edukativnu vrijednost, što privlači i brojne izletnike i učenike."],"correctChoice":"B"},
+            {"type":"SingleChoice","question":"Koja od sljedećih obilježja tekstnih vrsta nisu prisutna u polaznome tekstu?","choices":["obilježja opisnoga teksta","obilježja izlagačkoga teksta","obilježja upućivačkoga teksta","obilježja pripovjednoga teksta"],"correctChoice":"C"}
+          ]
+        },
+        {
+          "info": "Zadatci 26. – 30. odnose se na tekst Borisa Becka Kako se čita Soo Shi.",
+          "questions": [
+            {"type":"SingleChoice","question":"Koja je namjena polaznoga teksta?","choices":["promovirati proizvode i brendove široke potrošnje","prikazati suvremene tendencije u pisanoj komunikaciji","istaknuti razlike između hrvatskoga i engleskoga pravopisa","potaknuti čitatelje na primjenjivanje pravopisne norme u pisanoj komunikaciji"],"correctChoice":"B"},
+            {"type":"SingleChoice","question":"Za koji je od sljedećih primjera karakterističan ton na kojemu je utemeljen polazni tekst?","choices":["poruke, postovi i e-mailovi pisani su uglavnom malim slovima.","Kapitala nestaje iz naše komunikacije koja je postala digitalna i virtualna","danas se maloslovnim mladima malim slovima obraćaju i njihovi umjetnici i brendovi.","Isti pravopisni problem imamo i s pomodnim riječima kao što su e‑vozilo,"],"correctChoice":"C"},
+            {"type":"SingleChoice","question":"Kakav je autorov odnos prema upotrebi velikoga i maloga početnog slova u današnjoj komunikaciji?","choices":["Ima razumijevanja za otklon od pravila standardnoga jezika.","Osjeća se nedovoljno mladim da bi se uklopio u suvremene jezične trendove.","Smatra da bi poznati brendovi trebali poticati razvoj jezične kulture i pismenosti.","Savjetuje da u online komunikaciji trebaju vrijediti ista pravila kao u tradicionalnoj pisanoj komunikaciji."],"correctChoice":"A"},
+            {"type":"SingleChoice","question":"Kojim se od sljedećih rečeničnih znakova autor koristi kako bi odvajao rečenice u svojim porukama?","choices":["crticom","točkom","točkom sa zarezom","zarezom"],"correctChoice":"C"},
+            {"type":"SingleChoice","question":"Koja se od sljedećih tvrdnja odnosi na slova o kojima se govori u polaznome tekstu?","choices":["Pridaju im se ljudske osobine.","Sve se manje njima služi u marketinške svrhe.","Tvorci reklama izbjegavaju ih rabiti kao grafostileme.","Način njihova korištenja propisuju priručnici za digitalne medije."],"correctChoice":"A"}
+          ]
+        },
+        {
+          "info": "II. Književnost\n\nZadatci bez polaznoga teksta. Zadatci višestrukoga izbora.",
+          "questions": [
+            {"type":"SingleChoice","question":"U kojima je od sljedećih stihova upotrijebljena elipsa?","choices":["I opet usna dršće i bludi i drugu usnu želi da nađe;\ni opet mišca puca i živci pjene žuborne žile;","Svi vi! Svi vi! Amo! Amo! Vi bjedniji same bijede!\nVi jadniji samog jada! – prazna jeka praznom zvonu,","Po njoj postah pjesnik blata, pjesnik mržnje, pjesnik psosti,\nRazdraženi hat na gori, što sve lomi, kida, ruši","svijat ćemo se ko zmija i plaziti ko ideal – i tragika će biti očajna pjesma naša;\nzatravit će nas ljubav naša – šibat će nas strahotom i bol će biti grozna pjesma naša;"],"correctChoice":"B"},
+            {"type":"SingleChoice","question":"Koja se od sljedećih tvrdnja odnosi na ditiramb?","choices":["Započinje invokacijom.","Ima neočekivani završetak.","Iz njega se razvila grčka tragedija.","Izražava čežnju za nečim nedostižnim."],"correctChoice":"C"},
+            {"type":"SingleChoice","question":"Na koju se od sljedećih vrsta komedije odnosi sljedeća tvrdnja? Efekt smiješnoga u najvećoj se mjeri izaziva duhovitim dosjetkama i replikama.","choices":["na komediju intrige","na komediju situacije","na komediju karaktera","na komediju konverzacije"],"correctChoice":"D"},
+            {"type":"SingleChoice","question":"Koje književnopovijesno razdoblje neposredno prethodi Šenoinu dobu?","choices":["klasicizam","romantizam","realizam","modernizam"],"correctChoice":"B"},
+            {"type":"SingleChoice","question":"Koja se od sljedećih tvrdnja odnosi na književnopovijesno razdoblje antike?","choices":["Razvili su se tradicionalni lirski oblici.","Predstavlja opreku racionalističkoj filozofiji.","Pod snažnim je utjecajem protureformacije.","Roman postaje najvažnijom književnom vrstom."],"correctChoice":"A"},
+            {"type":"SingleChoice","question":"Koja situacija iz djela Prijan Lovro Augusta Šenoe pripada kompozicijskomu okviru pripovijetke?","choices":["odlazak Lovre u sjemenište","prvi susret pripovjedača i Lovre","druženje hrvatskih studenata u Pragu","razgovor pripovjedača i mlade udovice o čitanju"],"correctChoice":"D"},
+            {"type":"SingleChoice","question":"Koja se od sljedećih tvrdnja odnosi na djelo Novela od Stanca Marina Držića?","choices":["Pisano je u prozi.","Nedostaje mu završetak.","Kompozicijski je jednočinka.","Pripada književnomu rodu epici."],"correctChoice":"C"},
+            {"type":"SingleChoice","question":"Kojemu se književnom liku Lebezjatnikov iz djela Zločin i kazna Fjodora Mihajloviča Dostojevskoga obraća u sljedećemu tekstu?","shortText":"Premda je protiv mojih principa da se kunem, voljan sam ovog časa zakleti se pred sudom bilo kakvom zakletvom. Jer sam vidio kako ste joj je kradom tutnuli!","choices":["Arkadiju Ivanoviču Svidrigajlovu","Dimitriju Razumihinu","Petru Petroviču Lužinu","Porfiriju Petroviču"],"correctChoice":"C"},
+            {"type":"SingleChoice","question":"Na kojega se od sljedećih pjesnika odnosi sljedeća tvrdnja? Njegova je pjesnička zbirka sastavljena od šest ciklusa te obiluje motivima koji su bili šokantni za društveni ukus vremena u kojemu je nastala.","choices":["na Antuna Branka Šimića","na Charlesa Baudelairea","na Francesca Petrarcu","na Silvija Strahimira Kranjčevića"],"correctChoice":"B"},
+            {"type":"SingleChoice","question":"Koji je događaj iz djela Dubravka Ivana Gundulića prikazan postupkom deus ex machina?","choices":["potkupljivanje sudaca","zahvaljivanje za slobodu Dubrave","potres i promjena boje plamena u crkvi","usporedba života u Dubravi nekad i sad"],"correctChoice":"C"},
+            {"type":"SingleChoice","question":"Koji književni lik izgovara svoje ime kao odgovor na postavljeno pitanje u sljedećemu tekstu?","shortText":"– Danas je prvi put u mom životu te se odšuljah iz dvora. Miss Maud, moja čitateljica i paziteljica, zadrijemala, otac nekamo otišao, a ja izađoh prvi put u svijet sa vjernim mojim Fidom. (...) Ko ste, kako vam ime? – Ime mi, ime mi...","choices":["Gregor","Meursault","Sigismund","Solus"],"correctChoice":"D"},
+            {"type":"SingleChoice","question":"Iz kojega je književnog djela sljedeća rečenica?","shortText":"– On je, da znate, gospodo – obrati se Ugo cijelom buffetu – on je specijalist za životinje u Dostojevskoga.","choices":["iz djela Stranac Alberta Camusja","iz djela Kiklop Ranka Marinkovića","iz djela Cvijet sa raskršća Antuna Gustava Matoša","iz djela Zločin i kazna Fjodora Mihajloviča Dostojevskoga"],"correctChoice":"B"}
+          ]
+        },
+        {
+          "info": "III. Hrvatski jezik\n\nZadatci višestrukoga izbora.",
+          "questions": [
+            {"type":"SingleChoice","question":"Koja je od sljedećih rečenica napisana u skladu s pravilima o pisanju velikoga i maloga početnog slova?","choices":["Kvartovi su koje rado posjećujem donji grad u Osijeku i gornji grad u Zagrebu.","Željela sam se zaručiti ili u Nacionalnom Parku Brijuni ili u Parku Prirode Biokovo.","Nakon izleta u Gorski Kotar planiram ostatak odmora provesti u Hrvatskome Zagorju.","Pariz (Grad Svjetlosti) i New York (Velika Jabuka) nalaze se na različitim kontinentima."],"correctChoice":"D"},
+            {"type":"SingleChoice","question":"Koja je od sljedećih riječi napisana u skladu s normom hrvatskoga standardnog jezika?","choices":["djevojćićin","jaućući","posrćući","sandućić"],"correctChoice":"C"},
+            {"type":"SingleChoice","question":"Koja je riječ u sljedećoj rečenici naglasno točno obilježena u skladu s pravilima o položaju i vrsti naglaska u hrvatskome standardnom jeziku? Njegov asistent pokazuje razumijevanje dok sluša da je kralj pokrenuo teški rat.","choices":["asistȅnt","pokȁzuje","razumijévanje","králj"],"correctChoice":"C"},
+            {"type":"SingleChoice","question":"U kojoj je od sljedećih rečenica podcrtani glagol u aoristu?","choices":["Probijasmo se zaraslim šumskim stazama.","Za nepuni sat dođoše na obalu rijeke Save.","Spuštahu se kamenim ulicama maloga grada.","On snažno doživljavaše riječi čudnoga govornika."],"correctChoice":"B"},
+            {"type":"SingleChoice","question":"Koja se od sljedećih imenica sklanja po e‑sklonidbi?","choices":["mati","mladost","momak","more"],"correctChoice":"C"},
+            {"type":"SingleChoice","question":"Od koliko se morfema sastoji riječ ispreskakati?","choices":["od četiriju","od pet","od šest","od sedam"],"correctChoice":"B"},
+            {"type":"SingleChoice","question":"Koja je sintagma u sljedećoj rečenici rezultat pridruživanja? Profesor je analizirao stihove o ljubavi i o njima gorljivo govorio na književnoj tribini.","choices":["je analizirao stihove","stihove o ljubavi","gorljivo govorio","književnoj tribini"],"correctChoice":"C"},
+            {"type":"SingleChoice","question":"U kojoj je od sljedećih rečenica riječ igračka u službi imenskoga predikata?","choices":["Prostorija je bila zatrpana brojnim igračkama.","Drveni konjići bili su najprodavanije igračke na sajmu.","Ujevićeva pjesma Igračka vjetrova objavljena je 1933. godine.","Zbirka igračaka najmlađa je zbirka Hrvatskoga školskog muzeja."],"correctChoice":"B"},
+            {"type":"SingleChoice","question":"Koja je od sljedećih rečenica napisana u skladu s normom hrvatskoga standardnog jezika?","choices":["Osjećao se sigurnim i zadovoljnim čim je ugledao svoju obitelj.","Njegova prezentacija završnoga rada dojmila se svima članovima komisije.","Zasmetalo ga je to što se njegovi prijatelji nisu pojavili na početku obrane rada.","Lagao je profesora da se tijekom izrade završnoga rada služio najnovijim istraživanjima."],"correctChoice":"A"},
+            {"type":"SingleChoice","question":"Koja je od sljedećih tvorenica nastala sufiksalnom tvorbom?","choices":["brodogradnja","brodograditelj","brodogradilište","brodograditeljev"],"correctChoice":"D"},
+            {"type":"SingleChoice","question":"Koji je izraz u sljedećemu tekstu kohiponim imenice jednakostranični trokut? Nikola se oduševio novim spoznajama o geometrijskim likovima. Kaže da su crtali trokute – najprije jednakostranični, a potom raznostranični trokut.","choices":["geometrijski likovi","raznostranični trokut","geometrijska tijela","geometrija"],"correctChoice":"B"},
+            {"type":"SingleChoice","question":"Koji od sljedećih frazema ima značenje uputiti izazov?","choices":["baciti karte na stol","baciti koplje u trnje","baciti prašinu u oči","baciti rukavicu u lice"],"correctChoice":"D"},
+            {"type":"SingleChoice","question":"Kojemu je od sljedećih značenja riječi plemenit prema sljedećoj leksikografskoj jedinici antonim riječ divlji?","shortText":"plemènit prid. 1. koji je dobar i pošten 2. koji je svojstvo plemstva 3. biol. kojemu je čovjek svjesnim odabirom odredio obilježja vrste 4. kem. koji je kemijski slabo reaktivan","choices":["koji je dobar i pošten","koji je svojstvo plemstva","kojemu je čovjek svjesnim odabirom odredio obilježja vrste","koji je kemijski slabo reaktivan"],"correctChoice":"C"},
+            {"type":"SingleChoice","question":"Kojoj vrsti posuđenica pripada podcrtana riječ u sljedećoj rečenici?","shortText":"Naručili smo u restoranu veliki šnicl.","choices":["prevedenicama (leksičkomu kalku)","tuđicama","usvojenicama","značenjskim (semantičkim) posuđenicama"],"correctChoice":"B"},
+            {"type":"SingleChoice","question":"Na koji se rječnik odnosi sljedeća tvrdnja? Osim po bogatstvu riječi (oko 40 000 riječi na 2000 stranica teksta) taj je rječnik važan i po tronarječnoj (kajkavsko‑čakavsko‑štokavskoj) jezičnoj koncepciji karakterističnoj za pripadnike ozaljskoga književno‑jezičnog kruga.","choices":["Blago jezika slovinskoga","Dictionar ili réchi szlovenszke","Gazophylacium seu Latino‑Illyricorum onomatum aerarium","Dictionarium quinque nobilissimarum Europae linguarum"],"correctChoice":"C"},
+            {"type":"SingleChoice","question":"Jedna od vrlo važnih odluka u svakome istraživanju jest (1.) ___ uzorka.","choices":["alokacija","distinkcija","evokacija","selekcija"],"correctChoice":"D"},
+            {"type":"SingleChoice","question":"Odabrani uzorak mora biti (2.) ___ za populaciju, to jest, mora sadržavati bitne karakteristike populacije.","choices":["redundantan","regulativan","reprezentativan","rezolutan"],"correctChoice":"C"},
+            {"type":"SingleChoice","question":"(3.) ___, cilj je da uzorak, odnosno podskup odabran iz populacije, na najbolji mogući način predstavlja cijelu populaciju.","choices":["Dakle","Ipak","Međutim","Zatim"],"correctChoice":"A"},
+            {"type":"SingleChoice","question":"(4.) ___, rezultati dobiveni analizom mogu biti pristrani ili pogrešni, a zaključci doneseni iz takva uzorka (5.) ___ su na cijelu populaciju.","choices":["Drugim riječima","Nasuprot tomu","Oprečno navedenomu","U protivnome"],"correctChoice":"D"},
+            {"type":"SingleChoice","question":"Rezultati dobiveni analizom mogu biti pristrani ili pogrešni, a zaključci doneseni iz takva uzorka (5.) ___ su na cijelu populaciju.","choices":["neprimjenjivi","neupotrebljivi","niječni","ništavni"],"correctChoice":"A"}
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sažetak",
+      "predictedTime": 80,
+      "potentialPoints": 18,
+      "instructions": "Pozorno pročitajte sve upute i slijedite ih.\n\nIspit traje 80 minuta.\nSažetak treba imati 200 - 250 riječi.\nSažetak će se bodovati s nula (0) bodova ako nema dovoljan broj riječi, ako ima prevelik broj riječi, ako je pisan velikim tiskanim slovima ili ako je nečitko napisan.\n\nŽelimo Vam mnogo uspjeha!",
+      "questionGroups": [{"info":"Pročitajte polazni tekst.\nSažetak oblikujte kao zaokruženu cjelinu s uvodom, razradom i zaključkom.\nPazite da Vaš sažetak bude pravopisno, gramatički i leksički točan.\nU sažetak morate uvrstiti sve smjernice.\nSažetak mora imati 200 - 250 riječi.","initialText":{"title":"Apolonija Nucić, Priroda liječi","text":"U suvremenome društvu obilježenom ubrzanim životnim ritmom, stresom i dominacijom tehnologije čovjek se sve više udaljava od prirode. Naš svakodnevni život često se odvija između zidova, pred ekranima u zatvorenim prostorima. Ipak, čovjek je biće koje je oduvijek živjelo u dodiru s tlom, biljkama i prirodnim ciklusima. Stoga vjerujem da je vrtlarenje prilika za povratak prirodi i da može ponuditi rješenja za mnoge izazove današnjice. Vrtlarenje nije samo uzgoj hrane, nego i istinsko ulaganje u zdravlje, obrazovanje i budućnost našega planeta."},"questions":[{"type":"EssayWriting","question":"Smjernice za pisanje sažetka\nPročitajte zadani tekst.\nSažmite polazni tekst svojim riječima:\n• tako da navedete opće podatke o polaznome tekstu\n• tako da odredite namjenu i temu teksta\n• tako da navedete osnovne misli teksta i pojedinosti koje ih podupiru\n• tako da odredite autorov stav o temi.","minWords":200,"maxWords":250,"points":[{"category":"Sadržaj","points":6},{"category":"Organizacija teksta i stil","points":6},{"category":"Jezična točnost","points":6}]}]}]
+    },
+    {
+      "name": "Školski Esej",
+      "predictedTime": 160,
+      "potentialPoints": 30,
+      "instructions": "Pozorno pročitajte sve upute i slijedite ih.\n\nIspit traje 160 minuta.\nNapišite školski esej slijedeći priložene upute i smjernice za pisanje školskoga eseja.\n\nŠkolski esej treba imati najmanje 440 riječi.\nŠkolski esej bodovat će se s nula (0) bodova ako nema dovoljan broj riječi, ako je pisan velikim tiskanim slovima ili ako je nečitko napisan.\n\nŽelimo Vam mnogo uspjeha!",
+      "questionGroups": [{"info":"Pozorno pročitajte sljedeće tekstove nakon kojih slijede upute i smjernice za pisanje školskoga eseja.\n\nZADATAK ZA PISANJE ŠKOLSKOGA ESEJA\nPedro Calderón de la Barca, Život je san\n\nPolazno pitanje\nKako se Sigismundov lik mijenja tijekom dramske radnje?","questions":[{"type":"EssayWriting","question":"Smjernice\n• U uvodu:\n- ukratko predstavite autora i djelo\n- u jednoj ili više rečenica oblikujte tvrdnju kojom ćete odgovoriti na polazno pitanje i tako najaviti ono o čemu ćete pisati u središnjemu dijelu eseja.\n\n• U središnjemu dijelu eseja razradite i argumentirajte svoju tvrdnju kojom ste odgovorili na polazno pitanje tako da argumentacija:\n- proizlazi iz razumijevanja djela u cjelini\n- proizlazi iz sadržajne i stilske analize polaznog teksta i njegove uloge u djelu u cjelini\n- bude povezana s književnopovijesnim kontekstom u kojemu je djelo nastalo.\n\nSvoj tekst rasporedite u odlomke koji su jasno, logično i smisleno povezani.\n• U zaključku sažeto istaknite ono najvažnije o čemu ste pisali u središnjemu dijelu eseja.","minWords":440,"points":[{"category":"Središnja tvrdnja","points":6},{"category":"Argumentacija","points":6},{"category":"Povezanost teksta","points":6},{"category":"Upotreba rječnika","points":6},{"category":"Pravopisna i gramatička točnost","points":6}]}]}]
+    }
+  ]
+}
