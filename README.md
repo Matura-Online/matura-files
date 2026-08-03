@@ -7,6 +7,8 @@ Static source files for the Matura application: converted exam JSON, task images
 ```text
 source/
   Json/<year>/<term>/<subject>/<level>.json
+  Raw/<year>/<term>/<subject>/<level>/exam.pdf
+  Raw/<year>/<term>/<subject>/<level>/answers.pdf
   <year>/<term>/<subject>/<level>/     # media for one paper
   All/<subject>/                       # material shared between papers
   files.json                           # generated source-tree index
@@ -30,6 +32,8 @@ source/All/Mat/
 - Store only task-relevant media beside its paper. Images are WebP and audio is Opus.
 - English listening assets are named `Task1.opus`, `Task2.opus`, and so on. Archive introductions, pauses, and outros are not task assets.
 - Shared assets belong in `source/All/<subject>/`, not duplicated into every year.
+- Optimized official booklets and answer keys belong in `source/Raw/`; the site’s
+  developer raw view embeds `exam.pdf` and opens `answers.pdf` in a drawer.
 - Fill-in answer slots use exactly `___`.
 - Do not store NCVVO logos, answer sheets, marking keys, or other non-task material as assets.
 
@@ -48,7 +52,8 @@ The application schema is defined in `matura-site/app/other/zod.ts`; it should b
 On every push to `main`, GitHub Actions:
 
 1. Runs `go run .`.
-2. Converts any PNG/JPEG files to WebP and MP3/WAV files to Opus.
+2. Converts any PNG/JPEG files to WebP, MP3/WAV files to Opus, and PDF files to
+   Ghostscript `/ebook`-optimized PDFs in place.
 3. Regenerates `source/files.json`.
 4. Copies `html/` into `source/` and deploys `source/` to the `gh-pages` branch.
 

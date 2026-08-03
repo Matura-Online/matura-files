@@ -41,6 +41,11 @@ func main() {
 			}
 		}
 
+		if strings.HasSuffix(strings.ToLower(path), ".pdf") {
+			wg.Add(1)
+			go optimizePDFInPlace(path, &wg)
+		}
+
 		return nil
 	})
 
@@ -68,6 +73,34 @@ func main() {
 	if err := encoder.Encode(root.Children); err != nil {
 		fmt.Printf("Error encoding JSON: %v\n", err)
 	}
+}
+
+func optimizePDFInPlace(path string, wg *sync.WaitGroup) {
+	defer wg.Done()
+
+	tmp, err := os.CreateTemp(filepath.Dir(path), ".pdf-optimized-*.pdf")
+	if err != nil {
+		fmt.Printf("Error creating temporary PDF for %s: %v\n", path, err)
+		return
+	}
+	tmpPath := tmp.Name()
+	if err := tmp.Close(); err != nil {
+		_ = os.Remove(tmpPath)
+		fmt.Printf("Error closing temporary PDF for %s: %v\n", path, err)
+		return
+	}
+	defer os.Remove(tmpPath)
+
+	cmd := exec.Command("gs", "-sDEVICE=pdfwrite", "-dCompatibilityLevel=1.4", "-dPDFSETTINGS=/ebook", "-dNOPAUSE", "-dQUIET", "-dBATCH", "-sOutputFile="+tmpPath, path)
+	if output, err := cmd.CombinedOutput(); err != nil {
+		fmt.Printf("Error optimizing PDF %s: %v (%s)\n", path, err, strings.TrimSpace(string(output)))
+		return
+	}
+	if err := os.Rename(tmpPath, path); err != nil {
+		fmt.Printf("Error replacing PDF %s: %v\n", path, err)
+		return
+	}
+	fmt.Printf("Optimized %s.\n", path)
 }
 
 func convertAndRemoveFile(path, targetFormat string, convertFunc func(string) error, wg *sync.WaitGroup) {
