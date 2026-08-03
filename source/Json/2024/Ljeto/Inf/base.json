@@ -159,7 +159,7 @@
                         {
                             "type": "SingleChoice",
                             "question": "Koju liniju koda treba napisati na praznu crtu ako zadani program treba učitati prirodan broj n i ispisati sve djelitelje toga broja?",
-                            "shortText": "int i, n;\nscanf(\"%d\", &n);\n______________\n if (n % i == 0)\n printf(\"%d\", i);",
+                            "shortText": "int i, n;\nscanf(\"%d\", &n);\n___\n if (n % i == 0)\n printf(\"%d\", i);",
                             "choices": [
                                 "for (i=1; i<n; i++)",
                                 "for (i=1; i<n+1; i++)",
