@@ -70,67 +70,67 @@
                                 {
                                     "id": "0",
                                     "type": "number",
-                                    "textOrAudio": "Which person had always regretted not going somewhere?"
+                                    "textOrAudio": "had always regretted not going somewhere? → A"
                                 },
                                 {
                                     "id": "1",
                                     "type": "number",
-                                    "textOrAudio": "Which person is going on the holiday they normally take?"
+                                    "textOrAudio": "is going on the holiday they normally take?"
                                 },
                                 {
                                     "id": "2",
                                     "type": "number",
-                                    "textOrAudio": "Which person is anticipating cold temperatures?"
+                                    "textOrAudio": "is anticipating cold temperatures?"
                                 },
                                 {
                                     "id": "3",
                                     "type": "number",
-                                    "textOrAudio": "Which person won their holiday in a competition?"
+                                    "textOrAudio": "won their holiday in a competition?"
                                 },
                                 {
                                     "id": "4",
                                     "type": "number",
-                                    "textOrAudio": "Which person considers their holiday the ultimate choice?"
+                                    "textOrAudio": "considers their holiday the ultimate choice?"
                                 },
                                 {
                                     "id": "5",
                                     "type": "number",
-                                    "textOrAudio": "Which person is surprised at the medical requirements for the holiday?"
+                                    "textOrAudio": "is surprised at the medical requirements for the holiday?"
                                 },
                                 {
                                     "id": "6",
                                     "type": "number",
-                                    "textOrAudio": "Which person considers their holiday comparatively cheap?"
+                                    "textOrAudio": "considers their holiday comparatively cheap?"
                                 },
                                 {
                                     "id": "7",
                                     "type": "number",
-                                    "textOrAudio": "Which person is anxious about ascents?"
+                                    "textOrAudio": "is anxious about ascents?"
                                 },
                                 {
                                     "id": "8",
                                     "type": "number",
-                                    "textOrAudio": "Which person only spent a short time considering their booking?"
+                                    "textOrAudio": "only spent a short time considering their booking?"
                                 },
                                 {
                                     "id": "9",
                                     "type": "number",
-                                    "textOrAudio": "Which person is taking a holiday on a small vessel?"
+                                    "textOrAudio": "is taking a holiday on a small vessel?"
                                 },
                                 {
                                     "id": "10",
                                     "type": "number",
-                                    "textOrAudio": "Which person is hoping the holiday will have medical benefits?"
+                                    "textOrAudio": "is hoping the holiday will have medical benefits?"
                                 },
                                 {
                                     "id": "11",
                                     "type": "number",
-                                    "textOrAudio": "Which person will stay in different places over the holiday?"
+                                    "textOrAudio": "will stay in different places over the holiday?"
                                 },
                                 {
                                     "id": "12",
                                     "type": "number",
-                                    "textOrAudio": "Which person is concerned about the food that will be available?"
+                                    "textOrAudio": "is concerned about the food that will be available?"
                                 }
                             ],
                             "pairs": [
@@ -162,6 +162,10 @@
                                 {
                                     "number": "6",
                                     "letter": "A"
+                                },
+                                {
+                                    "number": "7",
+                                    "letter": "F"
                                 },
                                 {
                                     "number": "8",
@@ -348,7 +352,7 @@
                     "questions": [
                         {
                             "type": "SingleChoice",
-                            "question": "0",
+                            "question": "Listening to accents we can immediately make (0) ___ about our interlocutors.",
                             "choices": [
                                 "assumptions",
                                 "allowances",
@@ -359,7 +363,7 @@
                         },
                         {
                             "type": "SingleChoice",
-                            "question": "25",
+                            "question": "The way someone talks (25) ___ to their identity.",
                             "choices": [
                                 "contrasts",
                                 "consents",
@@ -370,7 +374,7 @@
                         },
                         {
                             "type": "SingleChoice",
-                            "question": "26",
+                            "question": "So why is it that some people lose their regional or national accent, (26) ___ for others it remains firmly in place?",
                             "choices": [
                                 "as",
                                 "while",
@@ -381,7 +385,7 @@
                         },
                         {
                             "type": "SingleChoice",
-                            "question": "27",
+                            "question": "You may consider your accent to be immutable, but research shows that at any point in our lives the need to conform may alter - on a conscious or subconscious level - our vocal production, (27) ___ we like it or not.",
                             "choices": [
                                 "whether",
                                 "although",
@@ -392,7 +396,7 @@
                         },
                         {
                             "type": "SingleChoice",
-                            "question": "28",
+                            "question": "In the case of those whose accents do shift, the way (28) ___ which they speak may be of less importance to their sense of identity, or it may be that it is their need to belong to a social or professional group that causes the change.",
                             "choices": [
                                 "by",
                                 "of",
@@ -403,7 +407,7 @@
                         },
                         {
                             "type": "SingleChoice",
-                            "question": "29",
+                            "question": "As we encounter wider societal groupings this same instinct to assimilate (29) ___ us to modify our speech patterns accordingly.",
                             "choices": [
                                 "would cause",
                                 "might cause",
@@ -414,7 +418,7 @@
                         },
                         {
                             "type": "SingleChoice",
-                            "question": "30",
+                            "question": "Of course, there are others (30) ___ voices remain impervious to change.",
                             "choices": [
                                 "who’s",
                                 "where",
@@ -425,7 +429,7 @@
                         },
                         {
                             "type": "SingleChoice",
-                            "question": "31",
+                            "question": "In addition, (31) ___ a person possess the accent of what is deemed to be a prestigious group in society, they will consequently feel (32) ___ pressure to abandon that advantage.",
                             "choices": [
                                 "could",
                                 "shall",
@@ -436,7 +440,7 @@
                         },
                         {
                             "type": "SingleChoice",
-                            "question": "32",
+                            "question": "In addition, (31) ___ a person possess the accent of what is deemed to be a prestigious group in society, they will consequently feel (32) ___ pressure to abandon that advantage.",
                             "choices": [
                                 "low",
                                 "high",
@@ -602,14 +606,15 @@
             "instructions": "Pozorno pročitajte sve upute i slijedite ih.\nIspit slušanja traje 35 minuta.\n\nIspit se sastoji od zadataka povezivanja i zadataka višestrukoga izbora.\n- U zadatcima povezivanja svaki sadržaj označen brojem povežite samo s jednim odgovarajućim sadržajem koji je označen slovom (zadatci 1 i 3).\n- U zadatcima višestrukoga izbora od više ponuđenih odgovora odaberite samo jedan (zadatci 2 i 4).\n\nŽelimo Vam mnogo uspjeha!",
             "questionGroups": [
                 {
-                    "info": "You will hear five people talking about priorities in life.\nMatch each speaker (1-5) with one option from A-H.\nThere are three options that you do not need.\nYou will hear the recording twice.",
+                    "info": "Listening Task 1 (questions 1-5).",
+                    "initialText": {
+                        "text": "Task 1\n        Questions 1-5\n\n        You will hear five people talking about priorities in life.\n        Match each speaker (1-5) with one option from A-H.\n        There are three options that you do not need.\n        You will hear the recording twice.\n\n\n    What is each person’s top priority?\n\n    A Romantic relationships.\n\n    B Family.\n\n    C Job fulfilment.\n\n    D Freedom.\n\n    E Status.\n\n    F     Money.\n\n    G Health.\n\n    H Friendship.\n\n\n\n\n4                                                                     ENG A IK-2 D-S066\n\nListening Paper                                                               Engleski jezik"
+                    },
+                    "initialAudio": "https://files.matura.top/2024/Ljeto/Eng/A/Task1.opus",
                     "questions": [
                         {
                             "type": "MatchThePairs",
-                            "question": "What is each person’s top priority?",
-                            "whichToHide": [
-                                "numbers"
-                            ],
+                            "whatFirst": "letters",
                             "options": [
                                 {
                                     "id": "A",
@@ -654,37 +659,37 @@
                                 {
                                     "id": "1",
                                     "type": "number",
-                                    "textOrAudio": "Speaker 1"
+                                    "textOrAudio": "is going on the holiday they normally take?"
                                 },
                                 {
                                     "id": "2",
                                     "type": "number",
-                                    "textOrAudio": "Speaker 2"
+                                    "textOrAudio": "is anticipating cold temperatures?"
                                 },
                                 {
                                     "id": "3",
                                     "type": "number",
-                                    "textOrAudio": "Speaker 3"
+                                    "textOrAudio": "won their holiday in a competition?"
                                 },
                                 {
                                     "id": "4",
                                     "type": "number",
-                                    "textOrAudio": "Speaker 4"
+                                    "textOrAudio": "considers their holiday the ultimate choice?"
                                 },
                                 {
                                     "id": "5",
                                     "type": "number",
-                                    "textOrAudio": "Speaker 5"
+                                    "textOrAudio": "is surprised at the medical requirements for the holiday?"
                                 }
                             ],
                             "pairs": [
                                 {
                                     "number": "1",
-                                    "letter": "D"
+                                    "letter": "C"
                                 },
                                 {
                                     "number": "2",
-                                    "letter": "G"
+                                    "letter": "A"
                                 },
                                 {
                                     "number": "3",
@@ -692,113 +697,110 @@
                                 },
                                 {
                                     "number": "4",
-                                    "letter": "C"
+                                    "letter": "B"
                                 },
                                 {
                                     "number": "5",
-                                    "letter": "E"
+                                    "letter": "C"
                                 }
                             ]
                         }
-                    ],
-                    "initialAudio": "https://files.matura.top/2024/Ljeto/Eng/A/Task1.opus"
+                    ]
                 },
                 {
-                    "info": "You will hear people talking in eight situations.\nFor each question (6-13), choose the correct answer (A, B or C).\nYou will hear each recording twice.",
+                    "info": "Listening Task 2 (questions 6-13).",
+                    "initialText": {
+                        "text": "Task 2\n      Questions 6-13\n\n      You will hear people talking in eight situations.\n      For each question (6-13), choose the correct answer (A, B or C).\n      You will hear each recording twice.\n\n\n  6     You hear Terry talking to a friend about a walking club.\n        Why did Terry join the club?\n\n        A For something to do at weekends.\n        B To discover new places.\n        C To lose weight.\n\n\n\n  7     You hear David talking to a friend about his plans for the weekend.\n        What is David going to do?\n\n        A He’s going to work.\n        B He’s going to the flea market.\n        C He’s going to his aunt’s.\n\n\n\n  8     You hear a man and a woman discussing her new TV.\n        What is the woman’s complaint about it?\n\n        A It’s too loud.\n        B It’s too expensive.\n        C It’s too big.\n\n\n\n  9     You hear two people discussing the recent election.\n        What is the main topic of discussion?\n\n        A The numbers of people voting.\n        B The role the environment played.\n        C The influence of the youth vote.\n\n\n\n\nENG A IK-2 D-S066                                                                          5\n\nEngleski jezik                                                                      Listening Paper\n\n\n\n    10   You hear a man asking Sarah about her recent holiday.\n         What is Sarah’s main emotion after the holiday?\n\n         A Enthusiasm.\n         B Irritation.\n         C Indifference.\n\n\n\n    11   You hear Pat talking to a friend about his work as a delivery rider.\n         Why did Pat take on the job?\n\n         A For financial reasons.\n         B For domestic reasons.\n         C For health reasons.\n\n\n\n    12   You hear a woman describing her business colleague Greg.\n         What does she admire most about Greg?\n\n         A His charm.\n         B His determination.\n         C His adaptability.\n\n\n\n    13   You hear a man talking about an apartment he has been to view.\n         What made him decide against it?\n\n         A The location.\n         B The cost.\n         C The view.\n\n\n\n\n6                                                                               ENG A IK-2 D-S066\n\nListening Paper                                                           Engleski jezik"
+                    },
+                    "initialAudio": "https://files.matura.top/2024/Ljeto/Eng/A/Task2.opus",
                     "questions": [
                         {
                             "type": "SingleChoice",
-                            "shortText": "Why did Terry join the club?",
-                            "question": "You hear Terry talking to a friend about a walking club.",
+                            "question": "You hear Terry talking to a friend about a walking club. Why did Terry join the club?",
                             "choices": [
-                                "For something to do at weekends.",
-                                "To discover new places.",
-                                "To lose weight."
-                            ],
-                            "correctChoice": "C"
-                        },
-                        {
-                            "type": "SingleChoice",
-                            "shortText": "What is David going to do?",
-                            "question": "You hear David talking to a friend about his plans for the weekend.",
-                            "choices": [
-                                "He’s going to work.",
-                                "He’s going to the flea market.",
-                                "He’s going to his aunt’s."
+                                "A For something to do at weekends.",
+                                "B To discover new places.",
+                                "C To lose weight."
                             ],
                             "correctChoice": "A"
                         },
                         {
                             "type": "SingleChoice",
-                            "shortText": "What is the woman’s complaint about it?",
-                            "question": "You hear a man and a woman discussing her new TV.",
+                            "question": "You hear David talking to a friend about his plans for the weekend. What is David going to do?",
                             "choices": [
-                                "It’s too loud.",
-                                "It’s too expensive.",
-                                "It’s too big."
+                                "A He’s going to work.",
+                                "B He’s going to the flea market.",
+                                "C He’s going to his aunt’s."
                             ],
-                            "correctChoice": "C"
+                            "correctChoice": "B"
                         },
                         {
                             "type": "SingleChoice",
-                            "shortText": "What is the main topic of discussion?",
-                            "question": "You hear two people discussing the recent election.",
+                            "question": "You hear a man and a woman discussing her new TV. What is the woman’s complaint about it?",
                             "choices": [
-                                "The numbers of people voting.",
-                                "The role the environment played.",
-                                "The influence of the youth vote."
+                                "A It’s too loud.",
+                                "B It’s too expensive.",
+                                "C It’s too big."
                             ],
                             "correctChoice": "A"
                         },
                         {
                             "type": "SingleChoice",
-                            "shortText": "What is Sarah’s main emotion after the holiday?",
-                            "question": "You hear a man asking Sarah about her recent holiday.",
+                            "question": "You hear two people discussing the recent election. What is the main topic of discussion?",
                             "choices": [
-                                "Enthusiasm.",
-                                "Irritation.",
-                                "Indifference."
+                                "A The numbers of people voting.",
+                                "B The role the environment played.",
+                                "C The influence of the youth vote."
                             ],
-                            "correctChoice": "C"
+                            "correctChoice": "A"
                         },
                         {
                             "type": "SingleChoice",
-                            "shortText": "Why did Pat take on the job?",
-                            "question": "You hear Pat talking to a friend about his work as a delivery rider.",
+                            "question": "You hear a man asking Sarah about her recent holiday. What is Sarah’s main emotion after the holiday?",
                             "choices": [
-                                "For financial reasons.",
-                                "For domestic reasons.",
-                                "For health reasons."
+                                "A Enthusiasm.",
+                                "B Irritation.",
+                                "C Indifference."
                             ],
-                            "correctChoice": "B"
+                            "correctChoice": "A"
                         },
                         {
                             "type": "SingleChoice",
-                            "shortText": "What does she admire most about Greg?",
-                            "question": "You hear a woman describing her business colleague Greg.",
+                            "question": "You hear Pat talking to a friend about his work as a delivery rider. Why did Pat take on the job?",
                             "choices": [
-                                "His charm.",
-                                "His determination.",
-                                "His adaptability."
+                                "A For financial reasons.",
+                                "B For domestic reasons.",
+                                "C For health reasons."
                             ],
-                            "correctChoice": "B"
+                            "correctChoice": "A"
                         },
                         {
                             "type": "SingleChoice",
-                            "shortText": "What made him decide against it?",
-                            "question": "You hear a man talking about an apartment he has been to view.",
+                            "question": "You hear a woman describing her business colleague Greg. What does she admire most about Greg?",
                             "choices": [
-                                "The location.",
-                                "The cost.",
-                                "The view."
+                                "A His charm.",
+                                "B His determination.",
+                                "C His adaptability."
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "You hear a man talking about an apartment he has been to view. What made him decide against it?",
+                            "choices": [
+                                "A The location.",
+                                "B The cost.",
+                                "C The view."
                             ],
                             "correctChoice": "A"
                         }
-                    ],
-                    "initialAudio": "https://files.matura.top/2024/Ljeto/Eng/A/Task2.opus"
+                    ]
                 },
                 {
-                    "info": "You will hear two friends talking about three eBooks.\nFor each question (14-19), choose the correct answer (A, B or C) from the list of eBooks.\nMark A for Alfa, B for Bravo or C for Charlie.",
+                    "info": "Listening Task 3 (questions 14-19).",
+                    "initialText": {
+                        "text": "Task 3\n    Questions 14-19\n\n    You will hear two friends talking about three eBooks.\n    For each question (14-19), choose the correct answer (A, B or C) from the list of eBooks.\n\n    Mark A for Alfa\n          B for Bravo\n    or   C for Charlie.\n\n    You will hear the recording twice.\n\n\n  Which eBook…\n\n  14 is slightly off-topic?\n\n  15 is clearly and logically written?\n\n  16 is the most creative?\n\n  17 uses references properly?\n\n  18 has photos linked to the topic?\n\n  19 will have the greatest impact on its readers?\n\n\n\n\nENG A IK-2 D-S066                                                                               7\n\nEngleski jezik                                                                              Listening Paper"
+                    },
                     "initialAudio": "https://files.matura.top/2024/Ljeto/Eng/A/Task3.opus",
                     "questions": [
                         {
@@ -808,47 +810,72 @@
                                 {
                                     "id": "A",
                                     "type": "letter",
-                                    "textOrAudio": "Alfa"
+                                    "textOrAudio": "Romantic relationships."
                                 },
                                 {
                                     "id": "B",
                                     "type": "letter",
-                                    "textOrAudio": "Bravo"
+                                    "textOrAudio": "Family."
                                 },
                                 {
                                     "id": "C",
                                     "type": "letter",
-                                    "textOrAudio": "Charlie"
+                                    "textOrAudio": "Job fulfilment."
+                                },
+                                {
+                                    "id": "D",
+                                    "type": "letter",
+                                    "textOrAudio": "Freedom."
+                                },
+                                {
+                                    "id": "E",
+                                    "type": "letter",
+                                    "textOrAudio": "Status."
+                                },
+                                {
+                                    "id": "F",
+                                    "type": "letter",
+                                    "textOrAudio": "Money."
+                                },
+                                {
+                                    "id": "G",
+                                    "type": "letter",
+                                    "textOrAudio": "Health."
+                                },
+                                {
+                                    "id": "H",
+                                    "type": "letter",
+                                    "textOrAudio": "Friendship."
                                 },
                                 {
                                     "id": "14",
                                     "type": "number",
-                                    "textOrAudio": "Which eBook is slightly off-topic?"
+                                    "textOrAudio": "is slightly off-topic?"
                                 },
                                 {
                                     "id": "15",
                                     "type": "number",
-                                    "textOrAudio": "Which eBook is clearly and logically written?"
+                                    "textOrAudio": "is clearly and logically written?"
                                 },
                                 {
                                     "id": "16",
                                     "type": "number",
-                                    "textOrAudio": "Which eBook is the most creative?"
+                                    "textOrAudio": "is the most creative?"
                                 },
                                 {
                                     "id": "17",
                                     "type": "number",
-                                    "textOrAudio": "Which eBook uses references properly?"
+                                    "textOrAudio": "uses references properly?"
                                 },
                                 {
                                     "id": "18",
                                     "type": "number",
-                                    "textOrAudio": "Which eBook has photos linked to the topic?"
+                                    "textOrAudio": "has photos linked to the topic?"
                                 },
                                 {
                                     "id": "19",
                                     "type": "number",
-                                    "textOrAudio": "Which eBook will have the greatest impact on its readers?"
+                                    "textOrAudio": "will have the greatest impact on its readers?"
                                 }
                             ],
                             "pairs": [
@@ -881,26 +908,29 @@
                     ]
                 },
                 {
-                    "info": "You will hear a radio interview with Patrick Ahmadi, a pickleball player.\nFor each question (20-25), choose the correct answer (A, B or C).\nYou will hear the recording twice.",
+                    "info": "Listening Task 4 (questions 20-25).",
+                    "initialText": {
+                        "text": "Task 4\n         Questions 20-25\n\n         You will hear a radio interview with Patrick Ahmadi, a pickleball player.\n         For each question (20-25), choose the correct answer (A, B or C).\n         You will hear the recording twice.\n\n\n    20     Why did Patrick take up pickleball?\n\n           A Because of his interest in athletics.\n           B Because he wanted to learn something new.\n           C Because he was fascinated by the game.\n\n\n\n    21     Who was pickleball originally intended for?\n\n           A Ageing adults.\n           B Children and teenagers.\n           C All age groups.\n\n\n\n    22     What has, according to Patrick, made pickleball spread so quickly?\n\n           A It requires little instruction.\n           B It is taught at school.\n           C It is a family game.\n\n\n\n    23     What are the disadvantages of pickleball for Patrick?\n\n           A Hours-long training.\n           B Lack of pickleball facilities.\n           C Absence of social interaction.\n\n\n\n    24     What should be done, according to Patrick, to help develop pickleball further?\n\n           A More pickleball clubs ought to be established.\n           B Young players should get support to become professionals.\n           C More international championships should be organised.\n\n\n\n\n8                                                                                       ENG A IK-2 D-S066\n\nListening Paper                                                   Engleski jezik\n 25   What are Patrick’s immediate goals in the future?\n\n      A To enter more competitions.\n      B To be an ambassador of the sport.\n      C To represent his country at the Olympics.\n\n\n\n\n            You now have five minutes to copy your answers onto the answer sheet.\n\n\n\n\nENG A IK-2 D-S066                                                                   9\n\nEngleski jezik\n\n\n\n\n                      ca\n                     ni\n                     ra\n                 st\n                 a\n         zn\n      ra\n     P\n\n\n\n\n10                        ENG A IK-2 D-S066"
+                    },
                     "initialAudio": "https://files.matura.top/2024/Ljeto/Eng/A/Task4.opus",
                     "questions": [
                         {
                             "type": "SingleChoice",
                             "question": "Why did Patrick take up pickleball?",
                             "choices": [
-                                "Because of his interest in athletics.",
-                                "Because he wanted to learn something new.",
-                                "Because he was fascinated by the game."
+                                "A Because of his interest in athletics.",
+                                "B Because he wanted to learn something new.",
+                                "C Because he was fascinated by the game."
                             ],
-                            "correctChoice": "C"
+                            "correctChoice": "A"
                         },
                         {
                             "type": "SingleChoice",
                             "question": "Who was pickleball originally intended for?",
                             "choices": [
-                                "Ageing adults.",
-                                "Children and teenagers.",
-                                "All age groups."
+                                "A Ageing adults.",
+                                "B Children and teenagers.",
+                                "C All age groups."
                             ],
                             "correctChoice": "A"
                         },
@@ -908,39 +938,39 @@
                             "type": "SingleChoice",
                             "question": "What has, according to Patrick, made pickleball spread so quickly?",
                             "choices": [
-                                "It requires little instruction.",
-                                "It is taught at school.",
-                                "It is a family game."
+                                "A It requires little instruction.",
+                                "B It is taught at school.",
+                                "C It is a family game."
                             ],
-                            "correctChoice": "B"
+                            "correctChoice": "A"
                         },
                         {
                             "type": "SingleChoice",
                             "question": "What are the disadvantages of pickleball for Patrick?",
                             "choices": [
-                                "Hours-long training.",
-                                "Lack of pickleball facilities.",
-                                "Absence of social interaction."
+                                "A Hours-long training.",
+                                "B Lack of pickleball facilities.",
+                                "C Absence of social interaction."
                             ],
-                            "correctChoice": "B"
+                            "correctChoice": "A"
                         },
                         {
                             "type": "SingleChoice",
                             "question": "What should be done, according to Patrick, to help develop pickleball further?",
                             "choices": [
-                                "More pickleball clubs ought to be established.",
-                                "Young players should get support to become professionals.",
-                                "More international championships should be organised."
+                                "A More pickleball clubs ought to be established.",
+                                "B Young players should get support to become professionals.",
+                                "C More international championships should be organised."
                             ],
-                            "correctChoice": "C"
+                            "correctChoice": "A"
                         },
                         {
                             "type": "SingleChoice",
                             "question": "What are Patrick’s immediate goals in the future?",
                             "choices": [
-                                "To enter more competitions.",
-                                "To be an ambassador of the sport.",
-                                "To represent his country at the Olympics."
+                                "A To enter more competitions.",
+                                "B To be an ambassador of the sport.",
+                                "C To represent his country at the Olympics."
                             ],
                             "correctChoice": "A"
                         }

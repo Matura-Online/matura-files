@@ -1,4 +1,740 @@
-{"name":"Engleski","level":"B","maxPoints":85,"scale":{"range1":[0,35.99],"range2":[36,55.99],"range3":[56,73.99],"range4":[74,86.99],"range5":[87,100]},"sections":[{"name":"Čitanje i Pisanje","predictedTime":75,"potentialPoints":60,"questionGroups":[
-{"info":"Reading Tasks 1-6; official answers for questions 1-30.","questions":[{"type":"FillInChoices","correctChoices":[{"index":1,"letter":"C","answers":["C"]},{"index":2,"letter":"F","answers":["F"]},{"index":3,"letter":"E","answers":["E"]},{"index":4,"letter":"A","answers":["A"]},{"index":5,"letter":"B","answers":["B"]},{"index":6,"letter":"B","answers":["B"]},{"index":7,"letter":"A","answers":["A"]},{"index":8,"letter":"C","answers":["C"]},{"index":9,"letter":"B","answers":["B"]},{"index":10,"letter":"A","answers":["A"]},{"index":11,"letter":"C","answers":["C"]},{"index":12,"letter":"B","answers":["B"]},{"index":13,"letter":"A","answers":["A"]},{"index":14,"letter":"A","answers":["A"]},{"index":15,"letter":"C","answers":["C"]},{"index":16,"letter":"E","answers":["E"]},{"index":17,"letter":"F","answers":["F"]},{"index":18,"letter":"A","answers":["A"]},{"index":19,"letter":"D","answers":["D"]},{"index":20,"letter":"B","answers":["B"]},{"index":21,"letter":"B","answers":["B"]},{"index":22,"letter":"A","answers":["A"]},{"index":23,"letter":"C","answers":["C"]},{"index":24,"letter":"C","answers":["C"]},{"index":25,"letter":"B","answers":["B"]},{"index":26,"letter":"E","answers":["E"]},{"index":27,"letter":"C","answers":["C"]},{"index":28,"letter":"H","answers":["H"]},{"index":29,"letter":"A","answers":["A"]},{"index":30,"letter":"F","answers":["F"]}]}]},{"info":"Official B-level writing task.","questions":[{"type":"EssayWriting","question":"Write the required 80-100 word response from the official 2024 Ljeto B writing paper.","minWords":80,"maxWords":100,"points":[{"category":"Writing","points":20}]}]}]},
-{"name":"Slušanje","predictedTime":25,"potentialPoints":25,"questionGroups":[{"info":"Listening Tasks 1-4, questions 1-20.","initialAudio":"https://files.matura.top/2024/Ljeto/Eng/B/Task1.opus","questions":[{"type":"FillInChoices","correctChoices":[{"index":1,"letter":"C","answers":["C"]},{"index":2,"letter":"A","answers":["A"]},{"index":3,"letter":"F","answers":["F"]},{"index":4,"letter":"E","answers":["E"]},{"index":5,"letter":"B","answers":["B"]},{"index":6,"letter":"B","answers":["B"]},{"index":7,"letter":"A","answers":["A"]},{"index":8,"letter":"B","answers":["B"]},{"index":9,"letter":"A","answers":["A"]},{"index":10,"letter":"C","answers":["C"]},{"index":11,"letter":"C","answers":["C"]},{"index":12,"letter":"A","answers":["A"]},{"index":13,"letter":"B","answers":["B"]},{"index":14,"letter":"C","answers":["C"]},{"index":15,"letter":"C","answers":["C"]},{"index":16,"letter":"C","answers":["C"]},{"index":17,"letter":"C","answers":["C"]},{"index":18,"letter":"A","answers":["A"]},{"index":19,"letter":"C","answers":["C"]},{"index":20,"letter":"B","answers":["B"]}]}]}]}
-]}
+{
+    "name": "Engleski",
+    "level": "B",
+    "maxPoints": 85,
+    "scale": {
+        "range1": [
+            0,
+            35.99
+        ],
+        "range2": [
+            36,
+            55.99
+        ],
+        "range3": [
+            56,
+            73.99
+        ],
+        "range4": [
+            74,
+            86.99
+        ],
+        "range5": [
+            87,
+            100
+        ]
+    },
+    "sections": [
+        {
+            "name": "Čitanje i Pisanje",
+            "predictedTime": 75,
+            "potentialPoints": 60,
+            "questionGroups": [
+                {
+                    "info": "Reading Task 1 (questions 1-5).",
+                    "initialText": {
+                        "title": "Task 1",
+                        "text": "Match each message (1-5) and its meaning (A-F). There is one letter that you do not need. There is an example at the beginning (0→G).\n\n0 When the siren sounds, passengers will please make their way to the assembly point without delay. The ship will remain at anchor during the drill.\n\n1 Would staff please remain at their desks today until midday while preparations for today’s IT system intensive monitoring check are being made by our technical team.\n\n2 Please give all of the material a very intensive examination: if we make a mistake at this point, this is what people will remember us for until the end of time.\n\n3 In appearance, these two spiders are remarkably similar, almost identical, both in markings and dimensions; caution is required, as a mistake in handling could prove to be a memorable experience.\n\n4 You must keep in mind that someone has to look after grandma this weekend. Her care schedule is not difficult, and I’ve already prepared everything. She mustn’t leave the house!\n\n5 This examination is very important and the outcome is going to remain with you for the rest of your life so make sure your preparation is thorough.\n\nA Don’t forget.\nB Get ready.\nC Stay there.\nD Don’t worry.\nE Watch out.\nF Look closely.\nG Come quickly."
+                    },
+                    "questions": [
+                        {
+                            "type": "MatchThePairs",
+                            "options": [
+                                {
+                                    "id": "A",
+                                    "type": "letter",
+                                    "textOrAudio": "Don’t forget."
+                                },
+                                {
+                                    "id": "B",
+                                    "type": "letter",
+                                    "textOrAudio": "Get ready."
+                                },
+                                {
+                                    "id": "C",
+                                    "type": "letter",
+                                    "textOrAudio": "Stay there."
+                                },
+                                {
+                                    "id": "D",
+                                    "type": "letter",
+                                    "textOrAudio": "Don’t worry."
+                                },
+                                {
+                                    "id": "E",
+                                    "type": "letter",
+                                    "textOrAudio": "Watch out."
+                                },
+                                {
+                                    "id": "F",
+                                    "type": "letter",
+                                    "textOrAudio": "Look closely."
+                                },
+                                {
+                                    "id": "G",
+                                    "type": "letter",
+                                    "textOrAudio": "Come quickly."
+                                },
+                                {
+                                    "id": "0",
+                                    "type": "number",
+                                    "textOrAudio": "When the siren sounds, passengers will please make their way to the assembly point without delay. The ship will remain at anchor during the drill."
+                                },
+                                {
+                                    "id": "1",
+                                    "type": "number",
+                                    "textOrAudio": "Would staff please remain at their desks today until midday while preparations for today’s IT system intensive monitoring check are being made by our technical team."
+                                },
+                                {
+                                    "id": "2",
+                                    "type": "number",
+                                    "textOrAudio": "E PRITISNUTI OVDJE I OTRGNUTI! 123457890 N Identiﬁkacijska naljepnica G DRŽAVNA MATURA PAŽLJIVO NALIJEPITI!"
+                                },
+                                {
+                                    "id": "3",
+                                    "type": "number",
+                                    "textOrAudio": "In appearance, these two spiders are remarkably similar, almost identical, both in markings and dimensions; caution is required, as a mistake in handling could prove to be a memorable experience."
+                                },
+                                {
+                                    "id": "4",
+                                    "type": "number",
+                                    "textOrAudio": "You must keep in mind that someone has to look after grandma this weekend. Her care schedule is not difficult, and I’ve already prepared everything. She mustn’t leave the house!"
+                                },
+                                {
+                                    "id": "5",
+                                    "type": "number",
+                                    "textOrAudio": "This examination is very important and the outcome is going to remain with you for the rest of your life so make sure your preparation is thorough."
+                                }
+                            ],
+                            "pairs": [
+                                {
+                                    "letter": "G",
+                                    "number": "0",
+                                    "isExample": true
+                                },
+                                {
+                                    "letter": "C",
+                                    "number": "1"
+                                },
+                                {
+                                    "letter": "F",
+                                    "number": "2"
+                                },
+                                {
+                                    "letter": "E",
+                                    "number": "3"
+                                },
+                                {
+                                    "letter": "A",
+                                    "number": "4"
+                                },
+                                {
+                                    "letter": "B",
+                                    "number": "5"
+                                }
+                            ],
+                            "whatFirst": "letters"
+                        }
+                    ]
+                },
+                {
+                    "info": "Reading Task 2 (questions 6-10).",
+                    "initialText": {
+                        "title": "Task 2",
+                        "text": "You will read five emails. For each question (6-10), choose the correct answer (A, B or C).\n\n6 Tara is spending the weekend cleaning her grandmother’s beach house with her mother.\n\n7 Jim says the recommended video game is fun and entertaining, although complex.\n\n8 Manny will travel to work by tube because it is the closest station.\n\n9 Donna has a fever and cannot go to the party.\n\n10 Salma and the others choose a necklace for Susanna because she dislikes wearing things around her wrists."
+                    },
+                    "questions": [
+                        {
+                            "type": "SingleChoice",
+                            "question": "Where is Tara going to spend her weekend?",
+                            "choices": [
+                                "A At home.",
+                                "B At the seaside.",
+                                "C At Jemma’s house."
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "How does Jim feel about the video game?",
+                            "choices": [
+                                "A It’s entertaining.",
+                                "B It’s difficult.",
+                                "C It’s boring."
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "How is Manny going to travel to work tomorrow?",
+                            "choices": [
+                                "A By car.",
+                                "B By bus.",
+                                "C By train."
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Why isn’t Donna going to the party?",
+                            "choices": [
+                                "A She isn’t allowed to.",
+                                "B She isn’t feeling well.",
+                                "C She has to do her homework."
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "What is Susanna getting for her birthday?",
+                            "choices": [
+                                "A A necklace.",
+                                "B A bracelet.",
+                                "C Earrings."
+                            ],
+                            "correctChoice": "A"
+                        }
+                    ]
+                },
+                {
+                    "info": "Reading Task 3 (questions 11-15).",
+                    "initialText": {
+                        "title": "The Silent Hero",
+                        "text": "Marcel Marceau, born into a Jewish family in 1923 in Strasbourg, was one of the most famous mime performers in the world. Best known for his iconic stage persona ‘Bip the Clown’, whose name is based on Pip, a character from Dickens’ novel ‘Great Expectations’, he revolutionised the art of mime and brought it to international prominence.\n\nSome of his most important work occurred before his stage success. During the Second World War he changed his name from Mangel to Marceau and became active in the French Resistance. He was recruited by his cousin Georges Loinger, commander of a secret Jewish relief group that smuggled Jewish children from occupied France to neutral countries.\n\nThe group evacuated Jewish children hidden in a French orphanage and took them to the Swiss border. Marceau used mime to keep them quiet while escaping. Once he disguised himself as a boy scout leader and took 24 Jewish children through the forests. When he met German soldiers, he pretended to be a member of the French Army and convinced all 30 to surrender. After the war he became famous because mime, like music, knows neither borders nor nationalities."
+                    },
+                    "questions": [
+                        {
+                            "type": "SingleChoice",
+                            "question": "Who was ‘Bip the Clown’?",
+                            "choices": [
+                                "A A character from a novel.",
+                                "B A cartoon character.",
+                                "C A mime character."
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "What did Marcel do thanks to his cousin?",
+                            "choices": [
+                                "A He changed his name.",
+                                "B He joined the French Resistance.",
+                                "C He became the leader of the Resistance."
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "What was the purpose of the Jewish relief group?",
+                            "choices": [
+                                "A To transport children to a safe place.",
+                                "B To take a group of children on holiday.",
+                                "C To hide children in a French orphanage."
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "How did Marcel avoid being killed by a group of German soldiers?",
+                            "choices": [
+                                "A By pretending to be a French soldier.",
+                                "B By wearing a boy scout uniform.",
+                                "C By surrendering to them."
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Why did audiences across the world love Marcel’s performances?",
+                            "choices": [
+                                "A Because of the music he played.",
+                                "B Because everyone would do them.",
+                                "C Because everyone could understand them."
+                            ],
+                            "correctChoice": "C"
+                        }
+                    ]
+                },
+                {
+                    "info": "Reading Task 4 (questions 16-20).",
+                    "initialText": {
+                        "title": "Generation Alpha",
+                        "text": "Generation Alpha, born from 2010 onwards and raised in an era of rapid technological advancement, (0) ___. Daily life has become more digital than ever before, (16) ___ – comfortable with changing technologies from an early age. Furthermore, thanks to global connectivity, (17) ___. Numerous cultures, ideas, and perspectives have shaped who they are: an open-minded generation of people tolerant towards differences. Education for Generation Alpha is also evolving. The traditional learning environment is being combined with online platforms, (18) ___. Their strong IT skills will be the main advantage in using this hybrid learning method. As the first generation to live entirely in the 21st century, (19) ___. Climate change, ethical dilemmas in technology, and changing job markets are just some of the issues they’ll come across. However, being techy, flexible and globally focused, they will find innovative solutions and bring about positive change. Basically, Generation Alpha carries the potential to break barriers and introduce new social norms, (20) ___.\n\nA which allows for a personalised academic experience\nB as they find themselves at the beginning of a new era\nC despite the fact that the old system is crumbling down\nD they will likely face serious challenges\nE which makes them true digital natives\nF they are the product of a universal upbringing\nG are kids destined to shape the future in unique ways"
+                    },
+                    "questions": [
+                        {
+                            "type": "FillInChoices",
+                            "showAnswers": true,
+                            "correctChoices": [
+                                {
+                                    "index": 0,
+                                    "letter": "G",
+                                    "answers": [
+                                        "G"
+                                    ],
+                                    "isExample": true
+                                },
+                                {
+                                    "index": 16,
+                                    "letter": "E",
+                                    "answers": [
+                                        "E"
+                                    ]
+                                },
+                                {
+                                    "index": 17,
+                                    "letter": "F",
+                                    "answers": [
+                                        "F"
+                                    ]
+                                },
+                                {
+                                    "index": 18,
+                                    "letter": "A",
+                                    "answers": [
+                                        "A"
+                                    ]
+                                },
+                                {
+                                    "index": 19,
+                                    "letter": "D",
+                                    "answers": [
+                                        "D"
+                                    ]
+                                },
+                                {
+                                    "index": 20,
+                                    "letter": "B",
+                                    "answers": [
+                                        "B"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "info": "Reading Task 5 (questions 21-25).",
+                    "initialText": {
+                        "title": "Fairy Tales as Old as Time",
+                        "text": "No matter your year of birth, chances are that you were introduced to stories and fairy tales from an early (0) ___. For most children in the so-called Western world that meant they were listening to or reading stories written down by one of (21) ___ three most famous authors of fairy tales – the Brothers Grimm, Hans Christian Andersen or Charles Perrault. Naturally, there are also other authors and sources of stories, depending (22) ___ where in the world you were born, but these well-known tales written between the 17th and 19th centuries have been the influence behind most storylines we find in today’s children’s books, cartoons, and films. A recent study, (23) ___, has found that the sources behind these stories date back further than the 16th century that we had previously assumed they originated in. According to the findings of the study, most of the stories we base our fairy tales on are (24) ___ 4,000 and 5,000 years old. Incredibly, researchers have even managed to trace a story called ‘The Smith and the Devil’ to as far back as 6,000 years (25) ___.\n\nA age\nB year\nC time\n\n21 A a / B the / C Ø\n22 A on / B of / C by\n23 A but / B although / C however\n24 A about / B around / C between\n25 A long / B ago / C before"
+                    },
+                    "questions": [
+                        {
+                            "type": "SingleChoice",
+                            "isExample": true,
+                            "question": "You were introduced to stories and fairy tales from an early (0) ___.",
+                            "choices": [
+                                "A age",
+                                "B year",
+                                "C time"
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "written down by one of (21) ___ three most famous authors",
+                            "choices": [
+                                "A a",
+                                "B the",
+                                "C Ø"
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "depending (22) ___ where in the world you were born",
+                            "choices": [
+                                "A on",
+                                "B of",
+                                "C by"
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "A recent study, (23) ___, has found",
+                            "choices": [
+                                "A but",
+                                "B although",
+                                "C however"
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "stories are (24) ___ 4,000 and 5,000 years old",
+                            "choices": [
+                                "A about",
+                                "B around",
+                                "C between"
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "as far back as 6,000 years (25) ___",
+                            "choices": [
+                                "A long",
+                                "B ago",
+                                "C before"
+                            ],
+                            "correctChoice": "B"
+                        }
+                    ]
+                },
+                {
+                    "info": "Reading Task 6 (questions 26-30).",
+                    "initialText": {
+                        "title": "Harriet Tubman",
+                        "text": "Harriet Tubman was a true American heroine. She was born (0) ___ slavery in Maryland in 1820. Fearing being sold to another owner in the deep South, (26) ___ the age of 29 she fled to Philadelphia, where slavery had already been abolished, leaving her family behind. The following year, she returned, leading her sister and two children to freedom. Over the next decade, she made twelve more trips, along (27) ___ was known as the ‘Underground Railroad’: a network of people who (28) ___ shelter escaping slaves. During this time, she settled 70 enslaved people (29) ___ Canada, including her parents, whom she later placed on a small farm she bought in New York State. During the American Civil War, Tubman acted as a scout and spy for the Union Army. After the war, Tubman lived on her farm, (30) ___ was a refuge for elderly people and orphans.\n\nA in\nB to\nC what\nD can\nE at\nF which\nG where\nH would\nI it\nJ into"
+                    },
+                    "questions": [
+                        {
+                            "type": "FillInChoices",
+                            "showAnswers": true,
+                            "correctChoices": [
+                                {
+                                    "index": 0,
+                                    "letter": "J",
+                                    "answers": [
+                                        "J"
+                                    ],
+                                    "isExample": true
+                                },
+                                {
+                                    "index": 26,
+                                    "letter": "E",
+                                    "answers": [
+                                        "E"
+                                    ]
+                                },
+                                {
+                                    "index": 27,
+                                    "letter": "C",
+                                    "answers": [
+                                        "C"
+                                    ]
+                                },
+                                {
+                                    "index": 28,
+                                    "letter": "H",
+                                    "answers": [
+                                        "H"
+                                    ]
+                                },
+                                {
+                                    "index": 29,
+                                    "letter": "A",
+                                    "answers": [
+                                        "A"
+                                    ]
+                                },
+                                {
+                                    "index": 30,
+                                    "letter": "F",
+                                    "answers": [
+                                        "F"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "info": "Official B-level writing task.",
+                    "questions": [
+                        {
+                            "type": "EssayWriting",
+                            "question": "Write the required 80-100 word response from the official 2024 Ljeto B writing paper.",
+                            "minWords": 80,
+                            "maxWords": 100,
+                            "points": [
+                                {
+                                    "category": "Writing",
+                                    "points": 20
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Slušanje",
+            "predictedTime": 25,
+            "potentialPoints": 25,
+            "questionGroups": [
+                {
+                    "info": "Listening Task 1 (questions 1-5).",
+                    "initialText": {
+                        "text": "Task 1\n        Questions 1-5\n\n        You will hear five voice messages.\n        Match each message (1-5) and its meaning (A-F).\n        There is one letter that you do not need.\n        You will hear the recording twice.\n\n\n    A I’ll make it.\n\n    B Try again.\n\n    C Pick me up.\n\n    D Come over.\n\n    E Hurry up.\n\n    F     It’s not allowed.\n\n\n\n\n4                                                         ENG B IK-2 D-S068\n\nListening Paper                                                            Engleski jezik"
+                    },
+                    "initialAudio": "https://files.matura.top/2024/Ljeto/Eng/B/Task1.opus",
+                    "questions": [
+                        {
+                            "type": "MatchThePairs",
+                            "whatFirst": "letters",
+                            "options": [
+                                {
+                                    "id": "A",
+                                    "type": "letter",
+                                    "textOrAudio": "I’ll make it."
+                                },
+                                {
+                                    "id": "B",
+                                    "type": "letter",
+                                    "textOrAudio": "Try again."
+                                },
+                                {
+                                    "id": "C",
+                                    "type": "letter",
+                                    "textOrAudio": "Pick me up."
+                                },
+                                {
+                                    "id": "D",
+                                    "type": "letter",
+                                    "textOrAudio": "Come over."
+                                },
+                                {
+                                    "id": "E",
+                                    "type": "letter",
+                                    "textOrAudio": "Hurry up."
+                                },
+                                {
+                                    "id": "F",
+                                    "type": "letter",
+                                    "textOrAudio": "It’s not allowed."
+                                },
+                                {
+                                    "id": "1",
+                                    "type": "number",
+                                    "textOrAudio": "Would staff please remain at their desks today until midday while preparations for today’s IT system intensive monitoring check are being made by our technical team."
+                                },
+                                {
+                                    "id": "2",
+                                    "type": "number",
+                                    "textOrAudio": "E PRITISNUTI OVDJE I OTRGNUTI! 123457890 N Identiﬁkacijska naljepnica G DRŽAVNA MATURA PAŽLJIVO NALIJEPITI! 1 Ispit čitanja B List za odgovore D-S068 A B C D E F A B C D E F 1. 16. 2. 17. 3. 18. 4. 19. 5. 20. 6. A B C 21. A B C 7. A B C 22. A B C 8. A B C 23. A B C 9. A B C 24. A B C 10. A B C 25. A B C 11. A B C A B C D E F G H I 26. 12. A B C 27. 13. A B C 28. 14. A B C 29. 15. A B C 30. ENGB.68.HR.R.L1.01 NE FOTOKOPIRATI N E P I S A T I PREKO OBRAZAC SE ČITA OPTIČKI POLJA ZA ODGOVORE Označavati ovako: ENG1B E PRITISNUTI OVDJE I OTRGNUTI! 123457890 N Identiﬁkacijska naljepnica G DRŽAVNA MATURA PAŽLJIVO NALIJEPITI! 2 Ispit pisanja OCJENJIVAČ 1 B PRAZAN LIST D-S068 Broj bodova 0 1 2 3 4 5 6 7 8 9 10 Pisani su komentari ocjenjivača detaljnije objašnjeni u Ispitnome katalogu iz Engleskoga jezika. ENGB.68.HR.R.E2.01 Šifra ocjenjivača: ___ NE FOTOKOPIRATI N E P I S A T I PREKO OBRAZAC SE ČITA OPTIČKI POLJA ZA ODGOVORE Označavati ovako: ENG2B E PRITISNUTI OVDJE I OTRGNUTI! 123457890 N Identiﬁkacijska naljepnica G DRŽAVNA MATURA PAŽLJIVO NALIJEPITI! 2 Ispit pisanja OCJENJIVAČ 2 B PRAZAN LIST D-S068 Broj bodova 0 1 2 3 4 5 6 7 8 9 10 Pisani su komentari ocjenjivača detaljnije objašnjeni u Ispitnome katalogu iz Engleskoga jezika. ENGB.68.HR.R.F2.01 Šifra ocjenjivača: ___ NE FOTOKOPIRATI N E P I S A T I PREKO OBRAZAC SE ČITA OPTIČKI POLJA ZA ODGOVORE Označavati ovako: ENG2B OPĆE UPUTE Pozorno pročitajte sve upute i slijedite ih. Ne okrećite stranicu i ne rješavajte zadatke dok to ne odobri voditelj ispitne prostorije. Ispit čitanja i pisanja traje 75 minuta bez stanke. Dobro rasporedite vrijeme kako biste mogli riješiti sve zadatke. Ispit čitanja sastoji se od zadataka povezivanja, zadataka višestrukoga izbora i kombiniranih zadataka dopunjavanja.  zadatcima povezivanja svaki sadržaj označen brojem povežite samo s jednim odgovarajućim •U sadržajem koji je označen slovom (zadatak 1). • U zadatcima višestrukoga izbora od više ponuđenih odgovora odaberite samo jedan (zadatci 2 i 3). • U kombiniranim zadatcima odaberite samo jedan sadržaj koji najbolje nadopunjava tekst (zadatci 4, 5 i 6). Pri rješavanju ovih zadataka možete pisati po stranicama ove ispitne knjižice. Odgovore morate označiti znakom X na listu za odgovore. Kada riješite zadatke, provjerite odgovore. Svaki točan odgovor donosi jedan bod.1 Ispit pisanja sastoji se od zadatka pisanoga teksta. Pisani tekst oblikujte slijedeći priloženu uputu te ga obvezno napišite na list za čistopis u ovoj ispitnoj knjižici. Možete pisati po listu za koncept, ali se njegov sadržaj neće bodovati. Pišite čitko. Tekst će se bodovati s nula (0) bodova ako je pisan velikim tiskanim slovima ili ako je nečitko napisan. Na 2. stranici ove ispitne knjižice prikazan je način označavanja odgovora i načini ispravljanja pogrešaka. Pri ispravljanju pogrešaka potrebno je staviti paraf (isključivo skraćeni potpis, a ne puno ime i prezime). Upotrebljavajte isključivo kemijsku olovku kojom se piše plavom ili crnom bojom. Provjerite jeste li zalijepili identifikacijske naljepnice na sve ispitne materijale. Želimo Vam mnogo uspjeha! 1 Bodovi u svakoj od triju ispitnih cjelina imaju određeni udio u konačnome rezultatu. Ova ispitna knjižica ima 22 stranice, od toga 4 prazne. Match each message (1-5) and its meaning (A-F). There is one letter that you do not need. Mark your answer on the answer sheet. There is an example at the beginning (0→G)."
+                                },
+                                {
+                                    "id": "3",
+                                    "type": "number",
+                                    "textOrAudio": "In appearance, these two spiders are remarkably similar, almost identical, both in markings and dimensions; caution is required, as a mistake in handling could prove to be a memorable experience."
+                                },
+                                {
+                                    "id": "4",
+                                    "type": "number",
+                                    "textOrAudio": "You must keep in mind that someone has to look after grandma this weekend. Her care schedule is not difficult, and I’ve already prepared everything. She mustn’t leave the house!"
+                                },
+                                {
+                                    "id": "5",
+                                    "type": "number",
+                                    "textOrAudio": "This examination is very important and the outcome is going to remain with you for the rest of your life so make sure your preparation is thorough."
+                                }
+                            ],
+                            "pairs": [
+                                {
+                                    "number": "1",
+                                    "letter": "C"
+                                },
+                                {
+                                    "number": "2",
+                                    "letter": "A"
+                                },
+                                {
+                                    "number": "3",
+                                    "letter": "F"
+                                },
+                                {
+                                    "number": "4",
+                                    "letter": "E"
+                                },
+                                {
+                                    "number": "5",
+                                    "letter": "B"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "info": "Listening Task 2 (questions 6-10).",
+                    "initialText": {
+                        "text": "Task 2\n      Questions 6-10\n\n      You will hear people talking in five situations.\n      For each question (6-10), choose the correct answer (A, B or C).\n      You will hear each recording twice.\n\n\n  6     You hear a patient making an appointment at the doctor’s office.\n        What is the patient’s surname?\n\n        A Ngyuen.\n        B Nguyen.\n        C Ngiuen.\n\n\n\n  7     You hear a boy talking about his upcoming maths exam.\n        How does he feel about it?\n\n        A Worried.\n        B Confident.\n        C Angry.\n\n\n\n  8     You hear a student talking about going to the seaside.\n        What is her main reason for going there?\n\n        A Entertainment.\n        B Employment.\n        C Shopping.\n\n\n\n  9     You hear a man discussing the finding of a survey.\n        What proportion of the people surveyed would buy the organic selection again?\n\n        A 50%.\n        B 75%.\n        C 90%.\n\n\n\n\nENG B IK-2 D-S068                                                                       5\n\nEngleski jezik                                            Listening Paper\n\n\n\n    10   You hear a woman talking about her garden.\n         What is her favourite flower?\n\n         A The tulip.\n         B The sunflower.\n         C The daisy.\n\n\n\n\n6                                                     ENG B IK-2 D-S068\n\nListening Paper                                                               Engleski jezik"
+                    },
+                    "initialAudio": "https://files.matura.top/2024/Ljeto/Eng/B/Task2.opus",
+                    "questions": [
+                        {
+                            "type": "SingleChoice",
+                            "question": "You hear a patient making an appointment at the doctor’s office. What is the patient’s surname?",
+                            "choices": [
+                                "A Ngyuen.",
+                                "B Nguyen.",
+                                "C Ngiuen."
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "You hear a boy talking about his upcoming maths exam. How does he feel about it?",
+                            "choices": [
+                                "A Worried.",
+                                "B Confident.",
+                                "C Angry."
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "You hear a student talking about going to the seaside. What is her main reason for going there?",
+                            "choices": [
+                                "A Entertainment.",
+                                "B Employment.",
+                                "C Shopping."
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "You hear a man discussing the finding of a survey. What proportion of the people surveyed would buy the organic selection again?",
+                            "choices": [
+                                "A 50%.",
+                                "B 75%.",
+                                "C 90%."
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "You hear a woman talking about her garden. What is her favourite flower?",
+                            "choices": [
+                                "A The tulip.",
+                                "B The sunflower.",
+                                "C The daisy."
+                            ],
+                            "correctChoice": "C"
+                        }
+                    ]
+                },
+                {
+                    "info": "Listening Task 3 (questions 11-15).",
+                    "initialText": {
+                        "text": "Task 3\n      Questions 11-15\n\n      You will hear a radio interview with Janine Sutton about her floating restaurant.\n      For each question (11-15), choose the correct answer (A, B or C).\n      You will hear the recording twice.\n\n\n  11 Why did Janine start the floating restaurant?\n\n        A She was bored of working in a bank.\n        B To work with her friend.\n        C She inherited a boat.\n\n\n\n 12     Who are Janine’s customers, for the most part?\n\n        A Regular clients.\n        B People who want a new experience.\n        C Vegans.\n\n\n\n 13     What is the most difficult part of Janine’s job?\n\n        A Dealing with customer complaints.\n        B Managing the finances.\n        C Making sure the menu has variety.\n\n\n\n 14     What is the hardest part of daily management?\n\n        A The relationship with the chef.\n        B Applying for a licence.\n        C Checking there are enough ingredients.\n\n\n\n 15     What are Janine’s plans for the future?\n\n        A To grow the business.\n        B To change location.\n        C To keep things as they are.\n\n\n\n\nENG B IK-2 D-S068                                                                          7\n\nEngleski jezik                                                                                Listening Paper"
+                    },
+                    "initialAudio": "https://files.matura.top/2024/Ljeto/Eng/B/Task3.opus",
+                    "questions": [
+                        {
+                            "type": "SingleChoice",
+                            "question": "Why did Janine start the floating restaurant?",
+                            "choices": [
+                                "A She was bored of working in a bank.",
+                                "B To work with her friend.",
+                                "C She inherited a boat."
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Who are Janine’s customers, for the most part?",
+                            "choices": [
+                                "A Regular clients.",
+                                "B People who want a new experience.",
+                                "C Vegans."
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "What is the most difficult part of Janine’s job?",
+                            "choices": [
+                                "A Dealing with customer complaints.",
+                                "B Managing the finances.",
+                                "C Making sure the menu has variety."
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "What is the hardest part of daily management?",
+                            "choices": [
+                                "A The relationship with the chef.",
+                                "B Applying for a licence.",
+                                "C Checking there are enough ingredients."
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "What are Janine’s plans for the future?",
+                            "choices": [
+                                "A To grow the business.",
+                                "B To change location.",
+                                "C To keep things as they are."
+                            ],
+                            "correctChoice": "C"
+                        }
+                    ]
+                },
+                {
+                    "info": "Listening Task 4 (questions 16-20).",
+                    "initialText": {
+                        "text": "Task 4\n         Questions 16-20\n\n         You will hear a speaker talking about ‘Sunny Lingua’, a language learning app.\n         For each question (16-20), choose the correct answer (A, B or C).\n         You will hear the recording twice.\n\n\n    16     How do learners start using the ‘Sunny Lingua’ app?\n\n           A By giving information about themselves.\n           B By reviewing basic expressions.\n           C By learning to describe their family.\n\n\n    17     What’s the best way for beginners to start learning a language?\n\n           A Refresh the knowledge from before.\n           B Start with some basic language.\n           C Choose your own learning method.\n\n\n    18     How much daily practice does the speaker recommend?\n\n           A 15 minutes.\n           B 1 hour.\n           C 2 hours.\n\n\n    19     What does the app help users do best?\n\n           A Understand what they read.\n           B Listen to native speakers.\n           C Join in conversations.\n\n\n    20     What makes the app stand out?\n\n           A It helps you produce elegant phrases.\n           B It generates a vocabulary list.\n           C It connects you with other students.\n\n                  You now have five minutes to copy your answers onto the answer sheet.\n\n\n\n\n8                                                                                         ENG B IK-2 D-S068\n\n                             Engleski jezik\n\n\n\n\n                         ca\n                        ni\n                        ra\n                    st\n                    a\n                zn\n        ra\n   P\n\n\n\n\nENG B IK-2 D-S068                         9\n\nEngleski jezik\n\n\n\n\n                      ca\n                     ni\n                     ra\n                 st\n                 a\n         zn\n      ra\n     P\n\n\n\n\n10                        ENG B IK-2 D-S068"
+                    },
+                    "initialAudio": "https://files.matura.top/2024/Ljeto/Eng/B/Task4.opus",
+                    "questions": [
+                        {
+                            "type": "SingleChoice",
+                            "question": "How do learners start using the ‘Sunny Lingua’ app?",
+                            "choices": [
+                                "A By giving information about themselves.",
+                                "B By reviewing basic expressions.",
+                                "C By learning to describe their family."
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "What’s the best way for beginners to start learning a language?",
+                            "choices": [
+                                "A Refresh the knowledge from before.",
+                                "B Start with some basic language.",
+                                "C Choose your own learning method."
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "How much daily practice does the speaker recommend?",
+                            "choices": [
+                                "A 15 minutes.",
+                                "B 1 hour.",
+                                "C 2 hours."
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "What does the app help users do best?",
+                            "choices": [
+                                "A Understand what they read.",
+                                "B Listen to native speakers.",
+                                "C Join in conversations."
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "What makes the app stand out?",
+                            "choices": [
+                                "A It helps you produce elegant phrases.",
+                                "B It generates a vocabulary list.",
+                                "C It connects you with other students."
+                            ],
+                            "correctChoice": "B"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

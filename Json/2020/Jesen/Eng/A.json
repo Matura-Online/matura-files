@@ -1,0 +1,721 @@
+{
+    "name": "Engleski",
+    "level": "A",
+    "maxPoints": 85,
+    "scale": {
+        "range1": [
+            0,
+            35.99
+        ],
+        "range2": [
+            36,
+            55.99
+        ],
+        "range3": [
+            56,
+            73.99
+        ],
+        "range4": [
+            74,
+            86.99
+        ],
+        "range5": [
+            87,
+            100
+        ]
+    },
+    "sections": [
+        {
+            "name": "Čitanje",
+            "predictedTime": 70,
+            "potentialPoints": 40,
+            "questionGroups": [
+                {
+                    "info": "Reading Task 1 (questions 1-12).",
+                    "initialText": {
+                        "text": "Task 1\n   Questions 1-12\n\n   You are going to read an article in which people talk about childhood friends.\n   For questions 1-12, choose from the people A-F.\n   Mark your answer on the answer sheet.\n   There is an example at the beginning (0).\n\n\n                                             Childhood Friends\n\n      A\t\tArchie                                          B\t\tBecky\n       As a young kid, I used to hang out with            Clara is by far my oldest friend, going\n       Gavin, or rather, follow him around. Gavin         back to my first day at primary school.\n       was sort of my hero, self-confident and            She had a strange way of walking. She\n       strong, and I guess I felt he could protect        said she’d been shot in the hip by Imperial\n       me. But one day he talked me into going            Stormtroopers while defending Princess\n       into a derelict garden with an old house,          Leia. From then on, we were Jedi Knights,\n       and there was a sign that said ‘NO ENTRY.          or Pirates of the Caribbean, or medics in a\n       Trespassers Will Be Prosecuted’. He                war zone. She couldn’t run down the street,\n       started throwing stones at the house and           but she could race through worlds in her\n       one broke a window with a loud ‘crash’.            head. There was never a moment’s silence\n       Suddenly a guard appeared and Gavin ran            with her; stories poured out of her. Every\n       off, leaving me behind. He wasn’t my hero          day was an adventure, and every day a\n       after that, I can tell you.                        new victory.\n      C\t\tCaryn                                           D\t\tDaren\n       I thought Jenny attached herself to me             We had great fun, Robert and I. We’d be\n       because I didn’t make fun of the way she           walking along the street when I’d say ‘Race\n       talked. She had moved to our town from the         you to the corner’, and off we’d sprint.\n       country and people sometimes didn’t know           Or we’d be in a park and I’d dare him who\n       what she was trying to say, and this gave          could climb higher. He once got stuck in a\n       her a complex. Also, we played handball            tree and I had to help him down. In football,\n       together and built up a great understanding        he supported his home team, Bayern\n       on the court, so we were put in the school         Munich, and I the local team, Manchester\n       team to compete against other schools in           United. But then his father got a job in\n       the region. But when I got a boyfriend, she        Saudi Arabia and we lost contact. Years\n       completely changed towards me, and I               later, we found each other again through\n       decided we shouldn’t hang out any more.            Facebook.\n\n\n\n\n     ENG A IK-1 D-S048\n                                                                                                      00\n\n                                                     4\n\nEngleski jezik\nReading Paper\n\n\n    E\t\tEdmund                                            F\t\tFrieda\n     Gustav was a special person. He stood out,           This stranger just exploded into our lives.\n     and not just because of the birthmark on             Her family had moved to our town and she\n     his face which embarrassed him so, though            joined our class mid-term. When she burst\n     I thought he looked like a pirate. He was            into our classroom, it was like an alien\n     kind and gentle. We could talk together for          landing, like she was from another planet.\n     hours. I think he was the only person who            There was no controlling her. We would\n     understood me at the time. My parents said           never think of walking along the canal after\n     that I wasn’t to see him. They thought it was        dark, until we saw her do that. We would\n     weird that he’d want to be with someone so           walk in the park like young ladies, and I’d\n     much younger. But I didn’t care. Then he got         look up and see her up in a tree. She was,\n     a place at university in another city, and he        for all of us, an enigma.\n     disappeared from my life.\n\n   Which person had a friend who…\n\n    0 was good at sport?\n    1 they broke up with?\n    2 they have lost touch with?\n    3 they couldn’t understand?\n    4 was much older than them?\n                                                                       A   B   C   D   E    F\n    5 they were forbidden to be with?\n                                                                  0            X\n    6 they looked up to?                                          1\n    7 they were competitive with?                                 2\n    8 was daring?                                                 3\n\n    9 had a physical disability?                                  4\n                                                                  5\n   10 let them down?\n                                                                  6\n   11 was talkative?\n                                                                  7\n   12 was a foreigner?\n                                                                  8\n                                                                  9\n                                                                  10\n                                                                  11\n                                                                  12\n\n\n     ENG A IK-1 D-S048\n                                                                                                         05\n\n                                                     5\n\nEngleski jezik\nReading Paper"
+                    },
+                    "questions": [
+                        {
+                            "type": "FillInChoices",
+                            "correctChoices": [
+                                {
+                                    "index": 1,
+                                    "letter": "C",
+                                    "answers": [
+                                        "C"
+                                    ]
+                                },
+                                {
+                                    "index": 2,
+                                    "letter": "E",
+                                    "answers": [
+                                        "E"
+                                    ]
+                                },
+                                {
+                                    "index": 3,
+                                    "letter": "F",
+                                    "answers": [
+                                        "F"
+                                    ]
+                                },
+                                {
+                                    "index": 4,
+                                    "letter": "E",
+                                    "answers": [
+                                        "E"
+                                    ]
+                                },
+                                {
+                                    "index": 5,
+                                    "letter": "E",
+                                    "answers": [
+                                        "E"
+                                    ]
+                                },
+                                {
+                                    "index": 6,
+                                    "letter": "A",
+                                    "answers": [
+                                        "A"
+                                    ]
+                                },
+                                {
+                                    "index": 7,
+                                    "letter": "D",
+                                    "answers": [
+                                        "D"
+                                    ]
+                                },
+                                {
+                                    "index": 8,
+                                    "letter": "F",
+                                    "answers": [
+                                        "F"
+                                    ]
+                                },
+                                {
+                                    "index": 9,
+                                    "letter": "B",
+                                    "answers": [
+                                        "B"
+                                    ]
+                                },
+                                {
+                                    "index": 10,
+                                    "letter": "A",
+                                    "answers": [
+                                        "A"
+                                    ]
+                                },
+                                {
+                                    "index": 11,
+                                    "letter": "B",
+                                    "answers": [
+                                        "B"
+                                    ]
+                                },
+                                {
+                                    "index": 12,
+                                    "letter": "D",
+                                    "answers": [
+                                        "D"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "info": "Reading Task 2 (questions 13-18).",
+                    "initialText": {
+                        "text": "Task 2\n   Questions 13-18\n\n   Read the text below.\n   For questions 13-18, choose the correct answer (A, B, C or D).\n   Mark your answer on the answer sheet.\n\n\n\n                            British teenage app designer wins investment\n\n   16-year-old South Londoner Kent Dallaglio has developed an app which has made international\n   headlines and attracted a big investment from a Hong Kong-based billionaire. It is an iPhone app\n   which summarises the content of web pages.\n\n   Dallaglio was nine years old when he begged his parents for a Macintosh laptop and set about\n   teaching himself animation software before progressing through iMovie, Final Cut Express and\n   Final Cut Pro. “I was doing it for fun,” he says, “just playing around.” He is no computer addict –\n   he enjoys playing rugby and cricket and regularly goes jogging. “I get my best ideas while jogging\n   through the park,” he says.\n\n   The idea for the app came while he was revising for a history exam. “It was late and I had a lot of\n   work to do for school, preparing for the national exams, and was using Google, clicking in and out\n   of search results, and it was taking too much time. If I found myself on a site that was interesting,\n   I was reading it and that was wasting time,” he said. “It was then that I had the brainwave for this\n   app. I thought that what I needed was a way of simplifying and summarising these web searches.\n   What I wanted was a content preview.” This app is going to make Dallaglio a wealthy man. The first\n   version of the app recorded 100,000 downloads and caught the eye of a private investment firm\n   controlled by a Chinese billionaire that has put $250,000 (£159,000) into the project.\n\n   Dallaglio says that learning to program “wasn’t that difficult.” He didn’t even take computing at\n   school. “I really enjoy humanities, arts and philosophy. I also study Mandarin and would like to visit\n   Asia.” He has been granted time off to travel to San Francisco for a meeting with his backers, but\n   he quickly adds that he has no intention of turning his back on school. “I enjoy it, seeing my friends,\n   the sport, the whole thing,” he says.\n\n   Dallaglio considers the media attention to be a completely surreal experience. “I don’t think\n   it’s quite hit me that I’m going to Silicon Valley next month with something that began in my London\n   bedroom. I just happened to be in the right place at the right time. My lucky break came when the\n   investment firm found me – before that I was completely unknown. If you think you have\n\n\n\n\n     ENG A IK-1 D-S048\n                                                                                                       00\n\n                                                     6\n\nEngleski jezik\nReading Paper\n\n   a good idea, you should try it out. It might not work, but on the other hand, it might. When you are\n   completely unknown, you have nothing to lose, so just go and take a risk.”\n\n   Dallaglio goes to a school that is known for academic excellence, but he is an all-rounder, not just\n   in the classroom but also on the football field: according to his gym teacher, he has a natural talent.\n   He has already surpassed his parents’ expectations. After teaching himself software, he started\n   experimenting with apps. It was his hobby that took him to the world of algorithms, and provided\n   the IT skills needed for designing his app.\n\n   Currently, his app can condense reference pages, news articles and reviews but has the potential\n   to go a lot further. Dallaglio says it is a journey that has only just started. I believe we will be hearing\n   about the exploits of this young man for a very long time.\n\n\n\n\n   13 Where did Dallaglio think up the app?                                                           A.\n                                                                                                      B.\n        A   At work.\n                                                                                                      C.\n        B   At school.\n        C   At home.                                                                                  D.\n        D   Outside.\n\n\n\n   14 According to Dallaglio, his invention of the app was                                            A.\n                                                                                                      B.\n        A   a moment of inspiration.\n        B   a piece of luck.                                                                          C.\n        C   the result of hard work.                                                                  D.\n        D   just a game.\n\n\n\n   15 Why did Dallaglio create the app?                                                               A.\n\n        A   To improve his exam results.                                                              B.\n        B   To make his revision more efficient.                                                      C.\n        C   To avoid doing his homework.\n                                                                                                      D.\n        D   To make his fortune.\n\n\n\n\n     ENG A IK-1 D-S048\n                                                                                                            01\n\n                                                        7\n\nEngleski jezik\nReading Paper\n\n\n   16 What advice does Dallaglio give?                                           A.\n                                                                                 B.\n       A   Don’t worry about failing.\n                                                                                 C.\n       B   Work hard and you’ll succeed.\n       C   You’ll make money if you follow your interests.                       D.\n       D   You need luck to succeed.\n\n\n\n   17 According to the reporter, Dallaglio’s computer knowledge is a result of   A.\n                                                                                 B.\n       A   his schooling.\n                                                                                 C.\n       B   his inborn brilliance.\n       C   his free time activities.                                             D.\n       D   his parents’ ambitions for him.\n\n\n                                                                                 A.\n   18 Dallaglio thinks his app\n                                                                                 B.\n       A   is nothing special.                                                   C.\n       B   will change his life.\n       C   is a big investment.                                                  D.\n       D   is only the beginning.\n\n\n\n\n     ENG A IK-1 D-S048\n                                                                                      01\n\n                                                    8\n\nEngleski jezik\nReading Paper"
+                    },
+                    "questions": [
+                        {
+                            "type": "SingleChoice",
+                            "question": "Where did Dallaglio think up the app?",
+                            "choices": [
+                                "A At work.",
+                                "B At school.",
+                                "C At home.",
+                                "D Outside."
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "According to Dallaglio, his invention of the app was",
+                            "choices": [
+                                "A a moment of inspiration.",
+                                "B a piece of luck.",
+                                "C the result of hard work.",
+                                "D just a game."
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Why did Dallaglio create the app?",
+                            "choices": [
+                                "A To improve his exam results.",
+                                "B To make his revision more efficient.",
+                                "C To avoid doing his homework.",
+                                "D To make his fortune."
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "What advice does Dallaglio give?",
+                            "choices": [
+                                "A Don’t worry about failing.",
+                                "B Work hard and you’ll succeed.",
+                                "C You’ll make money if you follow your interests.",
+                                "D You need luck to succeed."
+                            ],
+                            "correctChoice": "D"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "According to the reporter, Dallaglio’s computer knowledge is a result of",
+                            "choices": [
+                                "A his schooling.",
+                                "B his inborn brilliance.",
+                                "C his free time activities.",
+                                "D his parents’ ambitions for him."
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Dallaglio thinks his app",
+                            "choices": [
+                                "A is nothing special.",
+                                "B will change his life.",
+                                "C is a big investment.",
+                                "D is only the beginning."
+                            ],
+                            "correctChoice": "D"
+                        }
+                    ]
+                },
+                {
+                    "info": "Reading Task 3 (questions 19-24).",
+                    "initialText": {
+                        "text": "Task 3\n   Questions 19-24\n\n   Read the text on the next page.\n   For questions 19-24, choose from the sentences A-H the one which best fits the gap.\n   There are two sentences that you do not need. Mark your answer on the answer sheet.\n   There is an example at the beginning (0).\n\n\n\n\n     ENG A IK-1 D-S048\n                                                                                         05\n\n                                                 9\n\nEngleski jezik\nReading Paper\n\n\n                                               Decision time\n\n   Ever since Plato, we have thought of ourselves as rational creatures. (0) ___. We say we are not\n   slaves to our emotions but can put them aside and think logically. Over time, our rationality came\n   to define us. (19) ___. It was considered a characteristic that put us above animals. However,\n   there’s a problem with the idea that we can be totally rational in our thinking – our minds don’t work\n   that way.\n\n   It turns out that we weren’t made to be particularly rational or logical. Our mind is a network of\n   different areas, many of which are involved with emotions. (20) ___. Even when we try to be\n   reasonable, these emotional impulses influence our judgement.\n\n   Some of the first evidence for this theory came from the work of the neurologist Antonio Damasio.\n   In the early 1980s, Damasio began studying a patient named Elliot, who, after a brain tumour,\n   lost the ability to experience any emotion at all. (21) ___. It followed that a person without any\n   emotions – like Elliot – should make completely rational decisions. But that isn’t what happened to\n   Elliot. Instead, he just couldn’t make up his mind.\n\n   Elliot endlessly deliberated over irrelevant details, like whether to use a blue or black pen, or what\n   radio station to listen to, or where to park his car. When choosing where to eat lunch, he would\n   carefully consider the restaurant’s menu, seating plan and lighting scheme. He would then drive to\n   each restaurant to see how busy it was. But all this analysis was for nothing. (22) ___. It turns out\n   that emotions are necessary for decision making.\n\n   And yet, this doesn’t mean that we should always trust our emotions. Although our gut feeling can\n   often be astonishingly wise, it can also lead us to make decision-making mistakes. Why do we eat\n   too much food, or spend too much money on our credit card, or make bad investment decisions?\n   (23) ___. When our emotions get out of control, the result can be just as devastating as having\n   no emotions at all.\n\n   Another example of emotions affecting our decision making is what is known as ‘loss aversion’.\n   This was first identified by psychologists Daniel Kahneman and Amos Tversky. They noticed\n   that when people were offered a gamble on the toss of a coin in which they might lose $20, they\n   demanded an average payoff of at least $40 if they won. The pain of a loss was roughly twice as\n   strong as the pleasure of a gain. (24) ___. As Kahneman and Tversky put it, “In human decision\n   making, losses loom larger than gains.”\n\n   It is common sense to assume that too much emotion causes us to make poor decisions. However,\n   a reduced level of emotion is just as damaging to rational thought as heightened emotion.\n   Therefore, emotion is as important as logic in making decisions.\n\n\n     ENG A IK-1 D-S048\n                                                                                                        05\n\n                                                     10\n\nEngleski jezik\nReading Paper\n\n\n   A    It’s because we’re listening to our emotional brain instead of thinking rationally.\n\n   B    A rational decision-making model provides a structured approach to decision making.\n\n   C    At the time, scientists assumed that our emotions were irrational.\n\n   D    It was, simply put, what made us human.\n\n   E    He still didn’t know what to do.\n\n   F    Whenever we make a decision, the brain is subject to feelings and passions.\n\n   G    People’s decisions seemed to be determined by these feelings.\n\n   H    The case of Elliot, however, led Damasio to the conclusion that the age-old dichotomy\n        between emotions and reason is false.\n\n   I    When we make a decision, we are supposed to carefully weigh the pros and cons.\n\n\n\n\n                                                                         A   B   C   D   E    F   G   H    I\n                                                                     0                                     X\n                                                                    19\n                                                                    20\n                                                                    21\n                                                                    22\n                                                                    23\n                                                                    24\n\n\n       ENG A IK-1 D-S048\n                                                                                                          05\n\n                                                      11\n\nEngleski jezik\nReading Paper"
+                    },
+                    "questions": [
+                        {
+                            "type": "FillInChoices",
+                            "correctChoices": [
+                                {
+                                    "index": 19,
+                                    "letter": "D",
+                                    "answers": [
+                                        "D"
+                                    ]
+                                },
+                                {
+                                    "index": 20,
+                                    "letter": "F",
+                                    "answers": [
+                                        "F"
+                                    ]
+                                },
+                                {
+                                    "index": 21,
+                                    "letter": "C",
+                                    "answers": [
+                                        "C"
+                                    ]
+                                },
+                                {
+                                    "index": 22,
+                                    "letter": "E",
+                                    "answers": [
+                                        "E"
+                                    ]
+                                },
+                                {
+                                    "index": 23,
+                                    "letter": "A",
+                                    "answers": [
+                                        "A"
+                                    ]
+                                },
+                                {
+                                    "index": 24,
+                                    "letter": "G",
+                                    "answers": [
+                                        "G"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "info": "Reading Task 4 (questions 25-32).",
+                    "initialText": {
+                        "text": "Task 4\n   Questions 25-32\n\n   Read the text below.\n   For questions 25-32, choose the answer (A, B, C or D) that best completes each sentence.\n   Mark your answer on the answer sheet.\n   There is an example at the beginning (0).\n\n\n                                     Tough Job Market For Teens\n\n   Delaney Allen-Mills, 17, and Juan Iraheta, 19, have (0) ___ in common. Allen-Mills is a senior\n   in high school; Iraheta (25) ___ out of school in 10th grade. What the two teens share is a\n   (26) ___ of employment opportunities – both are struggling to find a full-time job. But teen hiring\n   is sparse.\n\n   The job market is tough for everyone. But this recession has become a jobs disaster for\n   16-to-19-year-olds. (27) ___ most accounts, they would be better off staying in school than\n   entering the workforce. Proportionally, more kids have lost jobs in the (28) ___ few years than\n   the entire country lost in the Great Depression. In 2000, teen employment was a relatively high\n   45%; nearly 7.3 million teens were getting a regular paycheck. Then something (29) ___.\n   By early 2008, teen employment had dropped (30) ___ more than 1.5 million to well below\n   6 million.\n\n   The problem is that older workers are crowding out kids. Teens in job-training programs\n   are unlikely to land positions even in the mall – (31) ___ they are up against much more\n   experienced workers. In 2009, 42 teens enrolled in Jubilee’s job-search program; (32) ___,\n   only 11 found jobs.\n\n   No one is sure what to do about the problem. However, growing teen unemployment could lead to\n   an American workforce that lacks the skills to compete with the rest of the world.\n\n\n\n\n   0                                                                                             A.    X\n                                                                                                 B.\n         A   little\n         B   lots                                                                                C.\n         C   much                                                                                D.\n         D   nothing\n\n\n\n\n       ENG A IK-1 D-S048\n                                                                                                       01\n\n                                                    12\n\nEngleski jezik\nReading Paper\n\n\n   25                                A.\n                                     B.\n        A   dropped\n                                     C.\n        B   left\n        C   passed                   D.\n        D   went\n\n\n\n   26                                A.\n                                     B.\n        A   knowledge\n        B   lack                     C.\n        C   need                     D.\n        D   range\n\n\n\n   27                                A.\n                                     B.\n        A   By\n        B   From                     C.\n        C   In                       D.\n        D   On\n\n\n\n   28                                A.\n                                     B.\n        A   latest\n                                     C.\n        B   recent\n        C   past                     D.\n        D   very\n\n\n\n   29                                A.\n                                     B.\n        A   changed\n                                     C.\n        B   has changed\n        C   had changed              D.\n        D   will have changed\n\n\n\n\n     ENG A IK-1 D-S048\n                                          01\n\n                                13\n\nEngleski jezik\nReading Paper\n\n\n   30                          A.\n                               B.\n        A   at\n                               C.\n        B   by\n        C   for                D.\n        D   to\n\n\n\n   31                          A.\n                               B.\n        A   although\n                               C.\n        B   because\n        C   so                 D.\n        D   whereas\n\n\n\n   32                          A.\n                               B.\n        A   as a result\n                               C.\n        B   as opposed\n        C   moreover           D.\n        D   nonetheless\n\n\n\n\n     ENG A IK-1 D-S048\n\n                                    01\n\n                          14\n\nEngleski jezik\nReading Paper"
+                    },
+                    "questions": [
+                        {
+                            "type": "SingleChoice",
+                            "question": "in high school; Iraheta (25) ___ out of school in 10th grade.",
+                            "choices": [
+                                "A dropped",
+                                "B left",
+                                "C passed",
+                                "D went"
+                            ],
+                            "correctChoice": "D"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "(26) ___ of employment opportunities – both are struggling to find a full-time job.",
+                            "choices": [
+                                "A knowledge",
+                                "B lack",
+                                "C need",
+                                "D range"
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "(27) ___ most accounts, they would be better off staying in school than entering the workforce.",
+                            "choices": [
+                                "A By",
+                                "B From",
+                                "C In",
+                                "D On"
+                            ],
+                            "correctChoice": "D"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Proportionally, more kids have lost jobs in the (28) ___ few years than the entire country lost in the Great Depression.",
+                            "choices": [
+                                "A latest",
+                                "B recent",
+                                "C past",
+                                "D very"
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Then something (29) ___.",
+                            "choices": [
+                                "A changed",
+                                "B has changed",
+                                "C had changed",
+                                "D will have changed"
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "By early 2008, teen employment had dropped (30) ___ more than 1.",
+                            "choices": [
+                                "A at",
+                                "B by",
+                                "C for",
+                                "D to"
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Teens in job-training programs are unlikely to land positions even in the mall – (31) ___ they are up against much more experienced workers.",
+                            "choices": [
+                                "A although",
+                                "B because",
+                                "C so",
+                                "D whereas"
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "In 2009, 42 teens enrolled in Jubilee’s job-search program; (32) ___, only 11 found jobs.",
+                            "choices": [
+                                "A as a result",
+                                "B as opposed",
+                                "C moreover",
+                                "D nonetheless"
+                            ],
+                            "correctChoice": "D"
+                        }
+                    ]
+                },
+                {
+                    "info": "Reading Task 5 (questions 33-40).",
+                    "initialText": {
+                        "text": "Task 5\n   Questions 33-40\n\n   Read the text below.\n   For questions 33-40, write one word that best completes each sentence.\n   Write your answer on the lines below the text.\n   There is an example at the beginning (0).\n\n\n                                 Can a cup of coffee help you live longer?\n\n   Too much coffee (0) ___ to be considered a bad thing. Now researchers say drinking coffee\n   could extend your life as you are less (33) ___ to die from a number of different ailments. These\n   include heart disease, respiratory disease, stroke, diabetes and infections, (34) ___ not cancer.\n   Researchers say they cannot establish whether coffee is really the cause of a lowered risk of\n   death, but they have found a link. The research followed a large number of people taking\n   (35) ___ in a diet and health study. Participants were classified into 3 groups (36) ___ to\n   the amount of coffee they drank: those drinking (37) ___ to six cups a day, those drinking\n   more than six cups a day and non-coffee drinkers.\n   The research found an ‘inverse association’ between coffee consumption and death, (38) ___\n   means those drinking greater amounts of coffee had a reduced risk of dying. Experts say it is\n   not caffeine that gives health benefits, but (39) ___ are biological effects from antioxidants\n   and magnesium contained in coffee.\n   Does all this mean that the (40) ___ coffee you drink, the longer you will live? Dr Euan Paul, executive\n   director of the British Coffee Association, says “This research provides evidence that only moderate\n   consumption of 4-5 cups of coffee per day is safe and may be associated with certain health benefits”.\n          used\n    0 ___\n\n   33 ___\n\n   34 ___\n\n   35 ___\n\n   36 ___\n\n   37 ___\n\n   38 ___\n\n   39 ___\n   40 ___\n\n\n\n     ENG A IK-1 D-S048\n                                                                                                                02\n\n                                                        15\n\nEngleski jezik\n\n\n\n\n                               ca\n                               ni\n                          ra\n                      st\n                      a\n              zn\n      ra\n  P\n\n\n\n\n  ENG A IK-1 D-S048\n                                    99\n\n                          16"
+                    },
+                    "questions": [
+                        {
+                            "type": "FillInChoices",
+                            "correctChoices": [
+                                {
+                                    "index": 33,
+                                    "letter": "likely",
+                                    "answers": [
+                                        "likely"
+                                    ]
+                                },
+                                {
+                                    "index": 34,
+                                    "letter": "but",
+                                    "answers": [
+                                        "but"
+                                    ]
+                                },
+                                {
+                                    "index": 35,
+                                    "letter": "part",
+                                    "answers": [
+                                        "part"
+                                    ]
+                                },
+                                {
+                                    "index": 36,
+                                    "letter": "according",
+                                    "answers": [
+                                        "according"
+                                    ]
+                                },
+                                {
+                                    "index": 37,
+                                    "letter": "up",
+                                    "answers": [
+                                        "up"
+                                    ]
+                                },
+                                {
+                                    "index": 38,
+                                    "letter": "which",
+                                    "answers": [
+                                        "which"
+                                    ]
+                                },
+                                {
+                                    "index": 39,
+                                    "letter": "there",
+                                    "answers": [
+                                        "there"
+                                    ]
+                                },
+                                {
+                                    "index": 40,
+                                    "letter": "more",
+                                    "answers": [
+                                        "more"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Pisanje",
+            "predictedTime": 75,
+            "potentialPoints": 20,
+            "questionGroups": [
+                {
+                    "info": "Official A-level writing task.",
+                    "questions": [
+                        {
+                            "type": "EssayWriting",
+                            "question": "Official 2020 Jesen A writing task.",
+                            "minWords": 80,
+                            "maxWords": 100,
+                            "points": [
+                                {
+                                    "category": "Writing",
+                                    "points": 20
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Slušanje",
+            "predictedTime": 30,
+            "potentialPoints": 25,
+            "questionGroups": [
+                {
+                    "info": "Listening Task 1 (questions 1-5).",
+                    "initialText": {
+                        "text": "Task 1\n   Questions 1-5\n\n   You will hear 5 people talking about their problems when they were teenagers.\n   Decide what each person’s main problem area was. Match the speakers 1-5 with the options A-H.\n   Use each letter only once. There are three letters that you do not need.\n   You will hear the recording twice.\n\n\n   What was each person’s main problem area?\n\n\n   A    Classmates.\n\n   B    Parents.\n\n   C    Teachers.\n\n   D    Physical disability.\n\n   E    Religion.                                                A   B   C   D   E   F   G   H\n                                                             1\n   F    Lack of money.\n                                                             2\n   G    Lack of friends.\n                                                             3\n   H    Lack of confidence.\n                                                             4\n                                                             5\n\n\n\n\n       ENG A IK-2 D-S048\n                                                                                                 05\n\n                                                 4\n\nEngleski jezik\nListening Paper"
+                    },
+                    "questions": [
+                        {
+                            "type": "FillInChoices",
+                            "correctChoices": [
+                                {
+                                    "index": 1,
+                                    "letter": "F",
+                                    "answers": [
+                                        "F"
+                                    ]
+                                },
+                                {
+                                    "index": 2,
+                                    "letter": "D",
+                                    "answers": [
+                                        "D"
+                                    ]
+                                },
+                                {
+                                    "index": 3,
+                                    "letter": "H",
+                                    "answers": [
+                                        "H"
+                                    ]
+                                },
+                                {
+                                    "index": 4,
+                                    "letter": "A",
+                                    "answers": [
+                                        "A"
+                                    ]
+                                },
+                                {
+                                    "index": 5,
+                                    "letter": "G",
+                                    "answers": [
+                                        "G"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "initialAudio": "https://files.matura.top/2020/Jesen/Eng/A/Task1.opus"
+                },
+                {
+                    "info": "Listening Task 2 (questions 6-13).",
+                    "initialText": {
+                        "text": "Task 2\n   Questions 6-13\n\n   You will hear people talking in eight situations.\n   For questions 6-13, choose the correct answer (A, B or C).\n   You will hear each recording twice.\n\n\n\n   6    You hear a girl talking to her friend about Tom.        A.\n        Why is she complaining?                                 B.\n                                                                C.\n         A Because Tom lies a lot.\n         B Because Tom is rude.                                 D.\n         C Because Tom embarrasses her.\n\n\n                                                                A.\n   7    You hear Louie talking about writing a report.\n        Why is he unhappy about doing it?                       B.\n                                                                C.\n         A It’s taking longer than he expected.\n                                                                D.\n         B It’s difficult to do.\n         C He wasn’t prepared for it.\n\n\n                                                                A.\n   8    You hear Hollie talking about her job.\n        What does she say about it?                             B.\n                                                                C.\n         A It’s well paid.\n         B It’s difficult.                                      D.\n         C It’s rewarding.\n\n\n                                                                A.\n   9    You hear two people talking.\n        What is the main topic of their conversation?           B.\n                                                                C.\n         A Looks.\n                                                                D.\n         B Money.\n         C Being famous.\n\n\n\n\n       ENG A IK-2 D-S048\n                                                                     01\n\n                                                     5\n\nEngleski jezik\nListening Paper\n\n                                                             A.\n   10 You hear Ashton talking about his new job.\n       Why did he choose this job?                           B.\n                                                             C.\n       A For the money.\n       B For the experience.                                 D.\n       C In order to travel.\n\n\n                                                             A.\n   11 You hear Marnie talking about a hotel she stayed at.\n       What does she say about the hotel?                    B.\n                                                             C.\n       A It was comfortable.\n       B It was shabby.                                      D.\n       C It was inexpensive.\n\n\n                                                             A.\n   12 You hear Harry talking about a film.\n       What can you learn about the film?                    B.\n                                                             C.\n       A It was a comedy.\n                                                             D.\n       B The plot was unpredictable.\n       C It was a foreign film.\n\n\n                                                             A.\n   13 You hear Nicole talking about her exam result.\n       How did she manage to do so well?                     B.\n                                                             C.\n       A She had prepared a lot.\n                                                             D.\n       B She was lucky with the questions.\n       C She is gifted in this subject.\n\n\n\n\n     ENG A IK-2 D-S048\n                                                                  01\n\n                                                   6\n\nEngleski jezik\nListening Paper"
+                    },
+                    "questions": [
+                        {
+                            "type": "SingleChoice",
+                            "question": "You hear a girl talking to her friend about Tom. Why is she complaining?",
+                            "choices": [
+                                "A Because Tom lies a lot.",
+                                "B Because Tom is rude.",
+                                "C Because Tom embarrasses her."
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "You hear Louie talking about writing a report. Why is he unhappy about doing it?",
+                            "choices": [
+                                "A It’s taking longer than he expected.",
+                                "B It’s difficult to do.",
+                                "C He wasn’t prepared for it."
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "You hear Hollie talking about her job. What does she say about it?",
+                            "choices": [
+                                "A It’s well paid.",
+                                "B It’s difficult.",
+                                "C It’s rewarding."
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "You hear two people talking. What is the main topic of their conversation?",
+                            "choices": [
+                                "A Looks.",
+                                "B Money.",
+                                "C Being famous."
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "You hear Ashton talking about his new job. Why did he choose this job?",
+                            "choices": [
+                                "A For the money.",
+                                "B For the experience.",
+                                "C In order to travel."
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "You hear Marnie talking about a hotel she stayed at. What does she say about the hotel?",
+                            "choices": [
+                                "A It was comfortable.",
+                                "B It was shabby.",
+                                "C It was inexpensive."
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "You hear Harry talking about a film. What can you learn about the film?",
+                            "choices": [
+                                "A It was a comedy.",
+                                "B The plot was unpredictable.",
+                                "C It was a foreign film."
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "You hear Nicole talking about her exam result. How did she manage to do so well?",
+                            "choices": [
+                                "A She had prepared a lot.",
+                                "B She was lucky with the questions.",
+                                "C She is gifted in this subject."
+                            ],
+                            "correctChoice": "B"
+                        }
+                    ],
+                    "initialAudio": "https://files.matura.top/2020/Jesen/Eng/A/Task2.opus"
+                },
+                {
+                    "info": "Listening Task 3 (questions 14-19).",
+                    "initialText": {
+                        "text": "Task 3\n   Questions 14-19\n\n   You will hear a couple preparing for a visit by three people.\n   For questions 14-19, choose the correct answer (A, B or C) from the list of people.\n\n        A for Alex\n   Mark\t\n        B for Bruce\n   or\t\t C for Curt.\n\n   You will hear the recording twice.\n\n\n   Which person…\n\n\n   14 is a foreigner?\n   15 is on a special diet?\n   16 is on vacation?\n   17 is a teacher?\n   18 does a sport?\n   19 is single?\n                                                                      A   B   C\n                                                                 14\n                                                                 15\n                                                                 16\n                                                                 17\n                                                                 18\n                                                                 19\n\n\n\n\n     ENG A IK-2 D-S048\n                                                                                         05\n\n                                                    7\n\nEngleski jezik\nListening Paper"
+                    },
+                    "questions": [
+                        {
+                            "type": "FillInChoices",
+                            "correctChoices": [
+                                {
+                                    "index": 14,
+                                    "letter": "A",
+                                    "answers": [
+                                        "A"
+                                    ]
+                                },
+                                {
+                                    "index": 15,
+                                    "letter": "B",
+                                    "answers": [
+                                        "B"
+                                    ]
+                                },
+                                {
+                                    "index": 16,
+                                    "letter": "C",
+                                    "answers": [
+                                        "C"
+                                    ]
+                                },
+                                {
+                                    "index": 17,
+                                    "letter": "C",
+                                    "answers": [
+                                        "C"
+                                    ]
+                                },
+                                {
+                                    "index": 18,
+                                    "letter": "C",
+                                    "answers": [
+                                        "C"
+                                    ]
+                                },
+                                {
+                                    "index": 19,
+                                    "letter": "B",
+                                    "answers": [
+                                        "B"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "initialAudio": "https://files.matura.top/2020/Jesen/Eng/A/Task3.opus"
+                },
+                {
+                    "info": "Listening Task 4 (questions 20-25).",
+                    "initialText": {
+                        "text": "Task 4\n   Questions 20-25\n\n   You will hear a radio interview with singer Ben Preston.\n   For questions 20-25, choose the correct answer (A, B or C).\n   You will hear the recording twice.\n\n\n\n   20 Ben                                                        A.\n                                                                 B.\n       A was an only child.\n                                                                 C.\n       B came from a single-parent family.\n       C grew up in a poor neighbourhood.                        D.\n\n\n\n\n                                                                 A.\n   21 Ben took up playing the guitar\n                                                                 B.\n       A because it was easy to play.                            C.\n       B to be like his role models.\n       C so he would be popular.                                 D.\n\n\n\n\n                                                                 A.\n   22 Ben left school\n                                                                 B.\n       A because he could.                                       C.\n       B due to his grades.\n                                                                 D.\n       C to work.\n\n\n\n\n                                                                 A.\n   23 As a teenager, Ben felt\n                                                                 B.\n       A lonely.                                                 C.\n       B depressed.\n                                                                 D.\n       C frustrated.\n\n\n\n\n     ENG A IK-2 D-S048\n                                                                      01\n\n                                                  8\n\nEngleski jezik\nListening Paper\n\n\n   24 Ben’s first step towards success came through   A.\n                                                      B.\n       A a friend of his.\n                                                      C.\n       B an advert he saw.\n       C an agent.                                    D.\n\n\n\n\n   25 Ben says that his success                       A.\n                                                      B.\n       A is like a dream come true.\n                                                      C.\n       B makes him feel uneasy.\n       C has not changed him.                         D.\n\n\n\n\n     ENG A IK-2 D-S048\n                                                           01\n\n                                                9\n\nEngleski jezik\n\n\n\n\n                               ca\n                               ni\n                          ra\n                      st\n                      a\n              zn\n      ra\n  P\n\n\n\n\n  ENG A IK-2 D-S048\n                                    99\n\n                          10\n\nEngleski jezik\n\n\n\n\n                               ca\n                               ni\n                          ra\n                      st\n                      a\n              zn\n      ra\n  P\n\n\n\n\n  ENG A IK-2 D-S048\n                                    99\n\n                          11\n\nEngleski jezik\n\n\n\n\n                               ca\n                               ni\n                          ra\n                      st\n                      a\n              zn\n      ra\n  P\n\n\n\n\n  ENG A IK-2 D-S048\n                                    99\n\n                          12"
+                    },
+                    "questions": [
+                        {
+                            "type": "SingleChoice",
+                            "question": "Ben",
+                            "choices": [
+                                "A was an only child.",
+                                "B came from a single-parent family.",
+                                "C grew up in a poor neighbourhood."
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Ben took up playing the guitar",
+                            "choices": [
+                                "A because it was easy to play.",
+                                "B to be like his role models.",
+                                "C so he would be popular."
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Ben left school",
+                            "choices": [
+                                "A because he could.",
+                                "B due to his grades.",
+                                "C to work."
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "As a teenager, Ben felt",
+                            "choices": [
+                                "A lonely.",
+                                "B depressed.",
+                                "C frustrated."
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Ben’s first step towards success came through",
+                            "choices": [
+                                "A a friend of his.",
+                                "B an advert he saw.",
+                                "C an agent."
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Ben says that his success",
+                            "choices": [
+                                "A is like a dream come true.",
+                                "B makes him feel uneasy.",
+                                "C has not changed him."
+                            ],
+                            "correctChoice": "B"
+                        }
+                    ],
+                    "initialAudio": "https://files.matura.top/2020/Jesen/Eng/A/Task4.opus"
+                }
+            ]
+        }
+    ]
+}

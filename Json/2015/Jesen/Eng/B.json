@@ -136,6 +136,9 @@
                 },
                 {
                     "info": "You will read five emails.\nFor each question (6-10), choose the correct answer, A, B or C.\nMark your answer on the answer sheet.",
+                    "initialText": {
+                        "text": "You will read five emails. The source messages are included in the five questions below."
+                    },
                     "questions": [
                         {
                             "type": "SingleChoice",

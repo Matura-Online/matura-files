@@ -1,0 +1,680 @@
+{
+    "name": "Engleski",
+    "level": "B",
+    "maxPoints": 85,
+    "scale": {
+        "range1": [
+            0,
+            35.99
+        ],
+        "range2": [
+            36,
+            55.99
+        ],
+        "range3": [
+            56,
+            73.99
+        ],
+        "range4": [
+            74,
+            86.99
+        ],
+        "range5": [
+            87,
+            100
+        ]
+    },
+    "sections": [
+        {
+            "name": "Čitanje i Pisanje",
+            "predictedTime": 75,
+            "potentialPoints": 30,
+            "questionGroups": [
+                {
+                    "info": "Reading Task 1 (questions 1-5).",
+                    "initialText": {
+                        "text": "Task 1\n   Questions 1-5\n\n   Match each message (1-5) and its meaning (A-F).\n   There is one letter that you do not need.\n   Mark your answer on the answer sheet.\n   There is an example at the beginning (0).\n\n\n   0    When you come to London, there’s no need for you to book into a hotel. You can sleep\n        at my place.\n\n   1    About this evening. I’ve got a lot of work to do, so you’ll just have to go without me. Enjoy.\n\n   2    I’m so sorry to hear you’re leaving. Can’t you possibly stay? I’ll miss you terribly.\n        You’re simply the best.\n\n   3    You have to see the Batman movie. It’s only on for a few more days, and you’ll be sorry if you\n        don’t see it.\n\n   4    I know it hurts that you broke up with Dan, but you shouldn’t feel bad about it. I’m sure it was\n        for the best.\n\n   5    Hi. Here’s the essay I promised you. It’s not perfect, I know, but I tried really hard and I couldn’t\n        write anything better.\n\n\n\n\n   A    Don’t be sorry.\n\n   B    It’s the best I could do.                                        A   B   C    D   E     F   G\n   C    It’s hard to do.                                             0                              X\n   D    Don’t go.                                                    1\n                                                                     2\n   E    I’m not coming.\n                                                                     3\n   F    Don’t miss it.\n                                                                     4\n   G    Stay with me.\n                                                                     5\n\n\n\n       ENG B IK-1 D-S045\n                                                                                                          02\n\n                                                      4\n\nEngleski jezik\nReading Paper"
+                    },
+                    "questions": [
+                        {
+                            "type": "MatchThePairs",
+                            "options": [
+                                {
+                                    "id": "A",
+                                    "type": "letter",
+                                    "textOrAudio": "Don’t be sorry."
+                                },
+                                {
+                                    "id": "B",
+                                    "type": "letter",
+                                    "textOrAudio": "It’s the best I could do.                                        A   B   C    D   E     F   G"
+                                },
+                                {
+                                    "id": "C",
+                                    "type": "letter",
+                                    "textOrAudio": "It’s hard to do.                                             0                              X"
+                                },
+                                {
+                                    "id": "D",
+                                    "type": "letter",
+                                    "textOrAudio": "Don’t go.                                                    1"
+                                },
+                                {
+                                    "id": "E",
+                                    "type": "letter",
+                                    "textOrAudio": "I’m not coming."
+                                },
+                                {
+                                    "id": "F",
+                                    "type": "letter",
+                                    "textOrAudio": "Don’t miss it."
+                                },
+                                {
+                                    "id": "1",
+                                    "type": "number",
+                                    "textOrAudio": "About this evening. I’ve got a lot of work to do, so you’ll just have to go without me. Enjoy."
+                                },
+                                {
+                                    "id": "2",
+                                    "type": "number",
+                                    "textOrAudio": "I’m so sorry to hear you’re leaving. Can’t you possibly stay? I’ll miss you terribly. You’re simply the best."
+                                },
+                                {
+                                    "id": "3",
+                                    "type": "number",
+                                    "textOrAudio": "You have to see the Batman movie. It’s only on for a few more days, and you’ll be sorry if you don’t see it."
+                                },
+                                {
+                                    "id": "4",
+                                    "type": "number",
+                                    "textOrAudio": "I know it hurts that you broke up with Dan, but you shouldn’t feel bad about it. I’m sure it was for the best."
+                                },
+                                {
+                                    "id": "5",
+                                    "type": "number",
+                                    "textOrAudio": "Hi. Here’s the essay I promised you. It’s not perfect, I know, but I tried really hard and I couldn’t write anything better."
+                                }
+                            ],
+                            "pairs": [
+                                {
+                                    "letter": "E",
+                                    "number": "1"
+                                },
+                                {
+                                    "letter": "D",
+                                    "number": "2"
+                                },
+                                {
+                                    "letter": "F",
+                                    "number": "3"
+                                },
+                                {
+                                    "letter": "A",
+                                    "number": "4"
+                                },
+                                {
+                                    "letter": "B",
+                                    "number": "5"
+                                }
+                            ],
+                            "whatFirst": "letters"
+                        }
+                    ]
+                },
+                {
+                    "info": "Reading Task 2 (questions 6-10).",
+                    "initialText": {
+                        "text": "Task 2\n   Questions 6-10\n\n   You will read five emails.\n   For each question (6-10), choose the correct answer (A, B or C).\n   Mark your answer on the answer sheet.\n\n\n\n\n   6    Hi\n        Have you seen my new neighbour? The minute I saw him I thought he was really\n        attractive. I think he’s interested in art like me. So we already have something in\n        common. I also find it easy to talk to him because he’s so relaxed. I’m sure we’ll get\n        on well.\n        Serena\n\n        What does Serena say about her new neighbour?\n                                                                                                 A.\n         A He’s interesting.                                                                     B.\n         B He’s good-looking.\n                                                                                                 C.\n         C He’s talkative.\n\n\n\n\n   7    Hi!\n        I was wondering if you’d like to come over to my place after school today. A couple\n        of friends will be there and a guy from the flat upstairs. We sometimes hang out\n        there because he’s got this amazing home cinema. And I’ve ordered in some food\n        for dinner from a nice Chinese restaurant just a block away. It’ll be fun.\n        Noah\n\n        Where will Noah spend the evening?\n                                                                                                 A.\n         A At home.                                                                              B.\n         B At a neighbour’s flat.\n         C At a restaurant.                                                                      C.\n\n\n\n\n       ENG B IK-1 D-S045\n                                                                                                      01\n\n                                                     5\n\nEngleski jezik\nReading Paper\n\n\n   8    Hi\n        My aunt has bought me the weirdest sweater you can imagine. You’d probably\n        never wear it. At first it seemed the right size. Then I tried it on and I realised it was\n        only big enough for my baby sister, not me. So, you won’t see me wearing it either.\n        Layla\n\n        Why won’t Layla wear her new sweater?\n\n         A It’s too big.                                                                             A.\n         B It’s too small.                                                                           B.\n         C It’s unusual.\n                                                                                                     C.\n\n\n\n\n   9    Hi\n        I’ve finally bought a tablet! So now I’m able to keep in touch with all my friends\n        wherever I am. I can download movies on it, though personally I think the screen’s\n        too small for that. As for reading, for me nothing can replace holding a proper book\n        in my hands.\n        David\n\n        Why did David buy a tablet?\n                                                                                                     A.\n         A To contact people.\n                                                                                                     B.\n         B To watch films.\n         C To read.                                                                                  C.\n\n\n\n\n       ENG B IK-1 D-S045\n                                                                                                          01\n\n                                                        6\n\nEngleski jezik\nReading Paper\n\n\n   10 Robert\n       Last night I went to the restaurant you’d told me about. It’s a really nice place. I tried\n       the prawn cocktail as you’d recommended and it was excellent. The mushroom\n       soup was a bit disappointing. However, I have never tasted such delicious seafood\n       risotto. You should try it the next time you go there.\n       Liam\n\n       What does Liam recommend?\n                                                                                                    A.\n       A\t\t The soup.                                                                                B.\n       B\t\t The prawns.\n                                                                                                    C.\n       C\t\t The risotto.\n\n\n\n\n     ENG B IK-1 D-S045\n                                                                                                         01\n\n                                                      7\n\nEngleski jezik\nReading Paper"
+                    },
+                    "questions": [
+                        {
+                            "type": "SingleChoice",
+                            "question": "What does Serena say about her new neighbour?",
+                            "choices": [
+                                "A He’s interesting.",
+                                "B He’s good-looking.",
+                                "C He’s talkative."
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Where will Noah spend the evening?",
+                            "choices": [
+                                "A At home.",
+                                "B At a neighbour’s flat.",
+                                "C At a restaurant."
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Why won’t Layla wear her new sweater?",
+                            "choices": [
+                                "A It’s too big.",
+                                "B It’s too small.",
+                                "C It’s unusual."
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Why did David buy a tablet?",
+                            "choices": [
+                                "A To contact people.",
+                                "B To watch films.",
+                                "C To read."
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "What does Liam recommend?",
+                            "choices": [
+                                "A The soup.",
+                                "B The prawns.",
+                                "C The risotto."
+                            ],
+                            "correctChoice": "C"
+                        }
+                    ]
+                },
+                {
+                    "info": "Reading Task 3 (questions 11-15).",
+                    "initialText": {
+                        "text": "Task 3\n   Questions 11-15\n\n   Read the text below.\n   For questions 11-15, write one or two words, or a number.\n   Write your answers on the lines below the text.\n   There is an example at the beginning (0).\n\n\n                                    Scott Flansburg – the maths genius\n\n\n   Imagine being able to calculate 385+742-639 divided by 219 – all in your head in a matter of seconds.\n   Actually, there is a man who can really do that and more. He is Scott Flansburg.\n   He can subtract, multiply, divide and find square and cube roots in his head instantly without a\n   calculator and has been entertaining people with his maths skills all over America for 20 years.\n   It all started 40 years ago when, at the age of nine, he discovered his remarkable ability: he was able\n   to solve his teacher’s maths question without needing to write down calculations.\n   Everybody in his hometown in Canada thought that he would become a maths teacher. And in a way\n   he has. He is an edutainer, a person who educates and entertains at the same time. He is dedicated\n   to helping adults and students get over their fear of maths.\n   Because of his skills, the Guinness Book of Records listed him in the category of the “Fastest\n   Calculator” among humans in 2001. He is also the author of Math Magic for Kids and Math Magic.\n   Scott has appeared on many television shows all over America, such as The Oprah Winfrey Show\n   and Larry King Live. But it was after his appearance on Regis Philbin’s talk show that he became\n   known as the “Human Calculator”.\n   It is hard to explain how brains like his work. But if you are interested in the subject, you can find out\n   more in the recently published book The Mathematician’s Brain.\n\n\n\n\n    0 Name:                                   Scott Flansburg\n                                            ___\n   11 Nickname:                             ___\n   12 Age:                                  ___\n   13 Occupation:                           ___\n   14 Country of origin:                    ___\n   15 Number of books he has written: ___\n\n\n\n\n     ENG B IK-1 D-S045\n                                                                                                          02\n\n                                                      8\n\nEngleski jezik\nReading Paper"
+                    },
+                    "questions": [
+                        {
+                            "type": "FillInChoices",
+                            "correctChoices": [
+                                {
+                                    "index": 11,
+                                    "letter": "Human Calculator",
+                                    "answers": [
+                                        "Human Calculator"
+                                    ]
+                                },
+                                {
+                                    "index": 12,
+                                    "letter": "forty-nine",
+                                    "answers": [
+                                        "forty-nine"
+                                    ]
+                                },
+                                {
+                                    "index": 13,
+                                    "letter": "edutainer",
+                                    "answers": [
+                                        "edutainer"
+                                    ]
+                                },
+                                {
+                                    "index": 14,
+                                    "letter": "Canada",
+                                    "answers": [
+                                        "Canada"
+                                    ]
+                                },
+                                {
+                                    "index": 15,
+                                    "letter": "two",
+                                    "answers": [
+                                        "two"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "info": "Reading Task 4 (questions 16-20).",
+                    "initialText": {
+                        "text": "Task 4\n   Questions 16-20\n\n   Read the text below.\n   For questions 16-20, choose from A-F to complete the sentences.\n   There is one letter that you do not need. Mark your answer on the answer sheet.\n   There is an example at the beginning (0).\n\n\n                                                Lipreading\n   People with hearing problems often feel excluded from everyday activities or frustrated (0) ___.\n   Most people misunderstand deafness. It’s invisible and doesn’t change the way you appear to other\n   people, (16) ___.\n   When a person loses their hearing, speech sounds quieter and unclear. Learning to lipread not only\n   helps with communication, (17) ___. It makes people with hearing problems feel less insecure\n   during everyday communication.\n   Some people do find lipreading difficult, but they should not be discouraged. Once they develop\n   their lipreading skills, (18) ___. Taking part in conversations they used to avoid is not impossible\n   any more.\n   Since some people talk very fast, or mumble, or cover their mouths when they speak, (19) ___.\n   Everybody uses facial expressions and body language often without realising it. To lipreaders,\n   these are clues to how someone is feeling: happy, sad, cross, etc.\n   Although learning to lipread takes time, patience and understanding, (20) ___. While you learn,\n   you’re developing your confidence, you feel less isolated, and your communication ability becomes\n   stronger.\n\n\n\n\n   A    they can be understood\n\n   B    but it also improves self-confidence                             A   B   C   D   E   F   G\n   C    but it does the way you feel                                 0                           X\n                                                                   16\n   D    they become active in everyday communication\n                                                                   17\n   E    its rewards are immense\n                                                                   18\n   F    other strategies have to be used\n                                                                   19\n   G    when trying to communicate                                 20\n\n\n\n       ENG B IK-1 D-S045\n                                                                                                       02\n\n                                                     9\n\nEngleski jezik\nReading Paper"
+                    },
+                    "questions": [
+                        {
+                            "type": "FillInChoices",
+                            "correctChoices": [
+                                {
+                                    "index": 16,
+                                    "letter": "C",
+                                    "answers": [
+                                        "C"
+                                    ]
+                                },
+                                {
+                                    "index": 17,
+                                    "letter": "B",
+                                    "answers": [
+                                        "B"
+                                    ]
+                                },
+                                {
+                                    "index": 18,
+                                    "letter": "D",
+                                    "answers": [
+                                        "D"
+                                    ]
+                                },
+                                {
+                                    "index": 19,
+                                    "letter": "F",
+                                    "answers": [
+                                        "F"
+                                    ]
+                                },
+                                {
+                                    "index": 20,
+                                    "letter": "E",
+                                    "answers": [
+                                        "E"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "info": "Reading Task 5 (questions 21-25).",
+                    "initialText": {
+                        "text": "Task 5\n   Questions 21-25\n\n   Read the text below.\n   For questions 21-25, choose the answer (A, B, or C) which best completes each sentence.\n   Mark your answer on the answer sheet.\n   There is an example at the beginning (0).\n\n\n   Hi\n\n   I didn’t ring you last night because I was out (0) ___ a date with Ryan. You see, we (21) ___\n   together for a month, so it was a kind of anniversary. But it all started really badly. First of all, I had to\n   do my homework for school today – I didn’t want to leave it for when I got home in the evening. Then,\n   I had a few things to do before I (22) ___ leave home, like washing my hair and choosing my\n   clothes, (23) ___ took me longer than I expected. As a result, I left home late, (24) ___ I had\n   to hurry. I walked quickly through the streets, but my shoes don’t (25) ___ me properly and soon\n   my feet were hurting. Finally, it started to rain, so I arrived completely wet. But when I saw Ryan, and\n   looked into his eyes, I felt wonderful.\n\n   Keira\n\n\n\n\n                                                                                                      A.\n   0\n                                                                                                      B.    X\n          A for                                                                                       C.\n          B on\n          C with\n\n\n\n\n                                                                                                      A.\n   21\n                                                                                                      B.\n          A are                                                                                       C.\n          B have been\n          C were\n\n\n\n\n        ENG B IK-1 D-S045\n                                                                                                            01\n\n                                                       10\n\nEngleski jezik\nReading Paper\n\n\n   22                         A.\n                              B.\n        A am able to\n                              C.\n        B can\n        C could\n\n\n\n\n                              A.\n   23\n                              B.\n        A which               C.\n        B that\n        C what\n\n\n\n                              A.\n   24\n                              B.\n        A when                C.\n        B so\n        C because\n\n\n\n\n                              A.\n   25\n                              B.\n        A suit                C.\n        B match\n        C fit\n\n\n\n\n     ENG B IK-1 D-S045\n                                   01\n\n                         11\n\nEngleski jezik\nReading Paper"
+                    },
+                    "questions": [
+                        {
+                            "type": "SingleChoice",
+                            "question": "You see, we (21) ___ together for a month, so it was a kind of anniversary.",
+                            "choices": [
+                                "A are",
+                                "B have been",
+                                "C were"
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Then, I had a few things to do before I (22) ___ leave home, like washing my hair and choosing my clothes, (23) ___ took me longer than I expected.",
+                            "choices": [
+                                "A am able to",
+                                "B can",
+                                "C could"
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "clothes, (23) ___ took me longer than I expected.",
+                            "choices": [
+                                "A which",
+                                "B that",
+                                "C what"
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "As a result, I left home late, (24) ___ I had to hurry.",
+                            "choices": [
+                                "A when",
+                                "B so",
+                                "C because"
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "I walked quickly through the streets, but my shoes don’t (25) ___ me properly and soon my feet were hurting.",
+                            "choices": [
+                                "A suit",
+                                "B match",
+                                "C fit"
+                            ],
+                            "correctChoice": "C"
+                        }
+                    ]
+                },
+                {
+                    "info": "Reading Task 6 (questions 26-30).",
+                    "initialText": {
+                        "text": "Task 6\n   Questions 26-30\n\n   Read the text below.\n   For questions 26-30, write one word that best completes each sentence.\n   Write your answers on the lines below the text.\n   There is an example at the beginning (0).\n\n\n   Dear Judy,\n\n      It was great to hear from you. Sorry it’s taken (0) ___ a while to reply, but I’ve been up to my\n   eyes in studying recently. I’m pleased to hear that you (26) ___ made loads of new friends at\n   college. Patrick sounds nice. I’d like to meet (27) ___.\n      Actually, I’m writing to ask you what you are doing the last weekend in June. I was wondering\n   (28) ___ you’d like to come down and spend a few days with me and my family. How\n   (29) ___ bringing Patrick with you? Please try to come. I’m really looking (30) ___ to seeing\n   you.\n      Write soon and let me know.\n\n      Love,\n      Daisy\n\n\n\n\n           me\n    0 ___\n\n   26 ___\n\n   27 ___\n\n   28 ___\n\n   29 ___\n\n   30 ___\n\n\n\n\n     ENG B IK-1 D-S045\n                                                                                                       02\n\n                                                    12\n\nEngleski jezik\nWriting Paper\n\n\n\n\n                         ISPIT PISANJA\n                         (Writing Paper)\n\n\n\n\n     ENG B IK-1 D-S045\n                                           00\n\n                                13\n\nEngleski jezik\nWriting Paper\n\n\n\n\n   Read the message from Sarah.\n   Write Sarah a reply. Answer all her questions.\n   Write 50-70 words. Write your reply on the next page.\n   Do not sign your full name.\n\n\n\n\n   Hi,\n\n   Hooray! Summer is finally here! It is my favourite season. I have so many plans!\n   What did you do last summer? Where would you like to spend your ideal holiday and why?\n   Who would you like to go there with and why?\n   I hope you’ll have a great time no matter what you do this summer!\n\n   Love,\n   Sarah\n\n\n\n\n                            Sastavak obvezatno napišite na list za čistopis.\n\n\n\n\n     ENG B IK-1 D-S045\n                                                                                            00\n\n                                                   14\n\nEngleski jezik\nList za čistopis\n\n\n\n\n      ENG B IK-1 D-S045\n                               03\n\n                          15\n\nEngleski jezik\n\n\n\n\n                               ca\n                               ni\n                          ra\n                      st\n                      a\n              zn\n      ra\n  P\n\n\n\n\n  ENG B IK-1 D-S045\n                                    99\n\n                          16"
+                    },
+                    "questions": [
+                        {
+                            "type": "FillInChoices",
+                            "correctChoices": [
+                                {
+                                    "index": 26,
+                                    "letter": "have",
+                                    "answers": [
+                                        "have"
+                                    ]
+                                },
+                                {
+                                    "index": 27,
+                                    "letter": "him",
+                                    "answers": [
+                                        "him"
+                                    ]
+                                },
+                                {
+                                    "index": 28,
+                                    "letter": "if",
+                                    "answers": [
+                                        "if"
+                                    ]
+                                },
+                                {
+                                    "index": 29,
+                                    "letter": "about",
+                                    "answers": [
+                                        "about"
+                                    ]
+                                },
+                                {
+                                    "index": 30,
+                                    "letter": "forward",
+                                    "answers": [
+                                        "forward"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "info": "Official B-level writing task.",
+                    "questions": [
+                        {
+                            "type": "EssayWriting",
+                            "question": "Official 2020 Ljeto B writing task.",
+                            "minWords": 80,
+                            "maxWords": 100,
+                            "points": [
+                                {
+                                    "category": "Writing",
+                                    "points": 20
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Slušanje",
+            "predictedTime": 30,
+            "potentialPoints": 20,
+            "questionGroups": [
+                {
+                    "info": "Listening Task 1 (questions 1-5).",
+                    "initialText": {
+                        "text": "Task 1\n   Questions 1-5\n\n   You will hear five phone messages.\n   Match each message (1-5) and its meaning (A-F).\n   There is one letter that you do not need.\n   You will hear the recording twice.\n\n\n                                                                   A   B   C   D   E   F\n   A    The meeting has been cancelled.\n   B    The meeting has been postponed.                        1\n\n   C    The meeting will start earlier.                        2\n   D    The meeting has been scheduled.                        3\n   E    The meeting will take place at a different location.   4\n   F    The meeting took longer than expected.                 5\n\n\n\n\n       ENG B IK-2 D-S045\n                                                                                           05\n\n                                                      5\n\nEngleski jezik\nListening Paper"
+                    },
+                    "questions": [
+                        {
+                            "type": "MatchThePairs",
+                            "options": [
+                                {
+                                    "id": "A",
+                                    "type": "letter",
+                                    "textOrAudio": "The meeting has been cancelled."
+                                },
+                                {
+                                    "id": "B",
+                                    "type": "letter",
+                                    "textOrAudio": "The meeting has been postponed.                        1"
+                                },
+                                {
+                                    "id": "C",
+                                    "type": "letter",
+                                    "textOrAudio": "The meeting will start earlier.                        2"
+                                },
+                                {
+                                    "id": "D",
+                                    "type": "letter",
+                                    "textOrAudio": "The meeting has been scheduled.                        3"
+                                },
+                                {
+                                    "id": "E",
+                                    "type": "letter",
+                                    "textOrAudio": "The meeting will take place at a different location.   4"
+                                },
+                                {
+                                    "id": "F",
+                                    "type": "letter",
+                                    "textOrAudio": "The meeting took longer than expected.                 5"
+                                },
+                                {
+                                    "id": "1",
+                                    "type": "number",
+                                    "textOrAudio": "About this evening. I’ve got a lot of work to do, so you’ll just have to go without me. Enjoy."
+                                },
+                                {
+                                    "id": "2",
+                                    "type": "number",
+                                    "textOrAudio": "I’m so sorry to hear you’re leaving. Can’t you possibly stay? I’ll miss you terribly. You’re simply the best."
+                                },
+                                {
+                                    "id": "3",
+                                    "type": "number",
+                                    "textOrAudio": "You have to see the Batman movie. It’s only on for a few more days, and you’ll be sorry if you don’t see it."
+                                },
+                                {
+                                    "id": "4",
+                                    "type": "number",
+                                    "textOrAudio": "I know it hurts that you broke up with Dan, but you shouldn’t feel bad about it. I’m sure it was for the best."
+                                },
+                                {
+                                    "id": "5",
+                                    "type": "number",
+                                    "textOrAudio": "Hi. Here’s the essay I promised you. It’s not perfect, I know, but I tried really hard and I couldn’t write anything better. A Don’t be sorry. B It’s the best I could do. A B C D E F G C It’s hard to do. 0 X D Don’t go. 1 2 E I’m not coming. 3 F Don’t miss it. 4 G Stay with me. 5 02 4"
+                                }
+                            ],
+                            "pairs": [
+                                {
+                                    "letter": "F",
+                                    "number": "1"
+                                },
+                                {
+                                    "letter": "A",
+                                    "number": "2"
+                                },
+                                {
+                                    "letter": "D",
+                                    "number": "3"
+                                },
+                                {
+                                    "letter": "B",
+                                    "number": "4"
+                                },
+                                {
+                                    "letter": "E",
+                                    "number": "5"
+                                }
+                            ],
+                            "whatFirst": "letters"
+                        }
+                    ],
+                    "initialAudio": "https://files.matura.top/2020/Ljeto/Eng/B/Task1.opus"
+                },
+                {
+                    "info": "Listening Task 2 (questions 6-10).",
+                    "initialText": {
+                        "text": "Task 2\n   Questions 6-10\n\n   You will hear people talking in five situations.\n   For questions 6-10, choose the correct answer (A, B or C).\n   You will hear each recording twice.\n\n\n\n\n   6    You hear two friends talking about Amy.                             A.\n        When did they last see her?                                         B.\n\n         A Four months ago.                                                 C.\n         B Five months ago.\n         C Six months ago.\n\n\n\n\n   7    You hear a man talking to a nurse at the doctor’s reception desk.   A.\n        What is the man’s name?                                             B.\n\n         A Brianty.                                                         C.\n         B Bryante.\n         C Bryenti.\n\n\n\n\n   8    You hear a man and a woman talking about his trip to Paris.         A.\n        Why is he going there?                                              B.\n\n         A To visit his sister.                                             C.\n         B On business.\n         C For a holiday.\n\n\n\n\n   9    You hear two friends talking on the phone.                          A.\n        Why isn’t Lucy going to the party?                                  B.\n         A She is busy.                                                     C.\n         B She is ill.\n         C She is tired.\n\n\n\n\n       ENG B IK-2 D-S045\n                                                                                 01\n\n                                                     6\n\nEngleski jezik\nListening Paper\n\n\n   10 You hear a father and daughter talking.          A.\n       What time does she have to be at the station?   B.\n       A At 1.30.                                      C.\n       B At 2.30.\n       C At 3.30.\n\n\n\n\n     ENG B IK-2 D-S045\n                                                            01\n\n                                                  7\n\nEngleski jezik\nListening Paper"
+                    },
+                    "questions": [
+                        {
+                            "type": "SingleChoice",
+                            "question": "You hear two friends talking about Amy. When did they last see her?",
+                            "choices": [
+                                "A Four months ago.",
+                                "B Five months ago.",
+                                "C Six months ago."
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "You hear a man talking to a nurse at the doctor’s reception desk. What is the man’s name?",
+                            "choices": [
+                                "A Brianty.",
+                                "B Bryante.",
+                                "C Bryenti."
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "You hear a man and a woman talking about his trip to Paris. Why is he going there?",
+                            "choices": [
+                                "A To visit his sister.",
+                                "B On business.",
+                                "C For a holiday."
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "You hear two friends talking on the phone. Why isn’t Lucy going to the party?",
+                            "choices": [
+                                "A She is busy.",
+                                "B She is ill.",
+                                "C She is tired."
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "You hear a father and daughter talking. What time does she have to be at the station?",
+                            "choices": [
+                                "A At 1.30.",
+                                "B At 2.30.",
+                                "C At 3.30."
+                            ],
+                            "correctChoice": "B"
+                        }
+                    ],
+                    "initialAudio": "https://files.matura.top/2020/Ljeto/Eng/B/Task2.opus"
+                },
+                {
+                    "info": "Listening Task 3 (questions 11-15).",
+                    "initialText": {
+                        "text": "Task 3\n   Questions 11-15\n\n   You will hear a radio interview with Logan Peterson, a wave surfer.\n   For questions 11-15, choose the correct answer (A, B or C).\n   You will hear the recording twice.\n\n\n\n\n   11 What do we learn about the sport he does?                          A.\n                                                                         B.\n       A He doesn’t enjoy it as much as before.\n       B It’s difficult to find sponsors now.                            C.\n       C It’s become his career.\n\n\n\n\n   12 What has taught him most in life so far?                           A.\n                                                                         B.\n       A Learning to cook.\n       B Travelling experiences.                                         C.\n       C Studying at university.\n\n\n\n\n   13 What is he most proud of?                                          A.\n                                                                         B.\n       A Taking part in the world championship.\n       B Surfing the biggest wave of his career.                         C.\n       C Winning the European championship.\n\n\n\n\n   14 Who does he admire most?                                           A.\n                                                                         B.\n       A His older brother.\n       B His friends.                                                    C.\n       C His manager.\n\n\n\n\n     ENG B IK-2 D-S045\n                                                                              01\n\n                                                    8\n\nEngleski jezik\nListening Paper\n\n\n   15 What are his plans for the future?       A.\n                                               B.\n       A To continue surfing.\n       B To get financial support.             C.\n       C To graduate from university.\n\n\n\n\n     ENG B IK-2 D-S045\n                                                    01\n\n                                           9\n\nEngleski jezik\nListening Paper"
+                    },
+                    "questions": [
+                        {
+                            "type": "SingleChoice",
+                            "question": "What do we learn about the sport he does?",
+                            "choices": [
+                                "A He doesn’t enjoy it as much as before.",
+                                "B It’s difficult to find sponsors now.",
+                                "C It’s become his career."
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "What has taught him most in life so far?",
+                            "choices": [
+                                "A Learning to cook.",
+                                "B Travelling experiences.",
+                                "C Studying at university."
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "What is he most proud of?",
+                            "choices": [
+                                "A Taking part in the world championship.",
+                                "B Surfing the biggest wave of his career.",
+                                "C Winning the European championship."
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Who does he admire most?",
+                            "choices": [
+                                "A His older brother.",
+                                "B His friends.",
+                                "C His manager."
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "What are his plans for the future?",
+                            "choices": [
+                                "A To continue surfing.",
+                                "B To get financial support.",
+                                "C To graduate from university."
+                            ],
+                            "correctChoice": "A"
+                        }
+                    ],
+                    "initialAudio": "https://files.matura.top/2020/Ljeto/Eng/B/Task3.opus"
+                },
+                {
+                    "info": "Listening Task 4 (questions 16-20).",
+                    "initialText": {
+                        "text": "Task 4\n   Questions 16-20\n\n   You will hear a teacher talking to students about an excursion they are going on.\n   For questions 16-20, choose the correct answer (A, B or C).\n   You will hear the recording twice.\n\n\n\n\n   16 The students will stay at Glendale Park                                          A.\n                                                                                       B.\n       A from Wednesday to Saturday.\n       B from Wednesday to Monday.                                                     C.\n       C from Saturday to Monday.\n\n\n\n\n   17 The students’ rooms are                                                          A.\n                                                                                       B.\n       A on the 1st floor.\n       B on the 2nd floor.                                                             C.\n       C on the 3rd floor.\n\n\n\n\n   18 From their windows, the students will see                                        A.\n                                                                                       B.\n       A the mountains.\n       B the playground.                                                               C.\n       C the golf course.\n\n\n\n\n   19 When they get there, the students will first                                     A.\n                                                                                       B.\n       A go on a tour.\n       B have a meal.                                                                  C.\n       C sign up for activities.\n\n\n\n\n     ENG B IK-2 D-S045\n                                                                                            01\n\n                                                     10\n\nEngleski jezik\nListening Paper\n\n\n   20 The students will pay extra for        A.\n                                             B.\n       A the coach.\n       B the entrance to the castle.         C.\n       C the climbing gear.\n\n\n\n\n     ENG B IK-2 D-S045\n                                                  01\n\n                                        11\n\nEngleski jezik\n\n\n\n\n                               ca\n                               ni\n                          ra\n                      st\n                      a\n              zn\n      ra\n  P\n\n\n\n\n  ENG B IK-2 D-S045\n                                    99\n\n                          12"
+                    },
+                    "questions": [
+                        {
+                            "type": "SingleChoice",
+                            "question": "The students will stay at Glendale Park",
+                            "choices": [
+                                "A from Wednesday to Saturday.",
+                                "B from Wednesday to Monday.",
+                                "C from Saturday to Monday."
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "The students’ rooms are",
+                            "choices": [
+                                "A on the 1st floor.",
+                                "B on the 2nd floor.",
+                                "C on the 3rd floor."
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "From their windows, the students will see",
+                            "choices": [
+                                "A the mountains.",
+                                "B the playground.",
+                                "C the golf course."
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "When they get there, the students will first",
+                            "choices": [
+                                "A go on a tour.",
+                                "B have a meal.",
+                                "C sign up for activities."
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "The students will pay extra for",
+                            "choices": [
+                                "A the coach.",
+                                "B the entrance to the castle.",
+                                "C the climbing gear."
+                            ],
+                            "correctChoice": "C"
+                        }
+                    ],
+                    "initialAudio": "https://files.matura.top/2020/Ljeto/Eng/B/Task4.opus"
+                }
+            ]
+        }
+    ]
+}
