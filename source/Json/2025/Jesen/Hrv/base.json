@@ -1,102 +1,833 @@
 {
-  "name": "Hrvatski Jezik",
-  "maxPoints": 110,
-  "scale": {"range1":[0,32.99],"range2":[33,54.99],"range3":[55,76.89],"range4":[77,93.49],"range5":[93.5,110]},
-  "sections": [
-    {
-      "name": "Čitanje, Književnost i Hrvatski Jezik",
-      "predictedTime": 100,
-      "potentialPoints": 30,
-      "instructions": "Pozorno pročitajte sve upute i slijedite ih. Ispit traje 100 minuta.",
-      "questionGroups": [
-        {"info":"I. Čitanje — Žene među kraljicama, Tin Ujević (zadatci 1. – 5.).","initialText":{"title":"Žene među kraljicama","text":"Božanske žene, sva ljepota svijeta\ni lavska gordost i plahota srne,\nkroz Vaše čari uzvišene cvjeta\nu plave dane, i u noći crne.\n\nI, kada stopom punom svetog mira\nbudite zemlji ritam svih otkrića,\nslutim Vas srcem plamenim svemira,\nslutim i ištem tajnu Vaših bića.\n\nSvaka je od Vas rođena da vlada,\ni da za prijesto pruži mliječno dijete;\ncarice tijela, samo usnom sklada\ni usnom želje pitam: što hoćete?\n\nTko će mi dati ključe Vašeg čuda\ni odgonetku Vaše zagonetke?\nKakvo tajanstvo kriju Vaša uda\ni koje nade statue Vam rijetke?\n\nBožanske žene, što u snu i slavi\nčekate zoru pravednih oltara,\npred Vašim likom koljeno se savi,\na srce, zvučni plamen, već izgara.\n\nSunčane duše, zjeni poklonika\nzaman Vas skriva zločinačka tama;\npobožnu ljudstvu fali Vaša slika,\njer Vi ste Žene među Kraljicama.\n\nTin Ujević"},"questions":[
-          {"type":"SingleChoice","question":"Koja se tvrdnja odnosi na žene?","choices":["Nedostižne su.","Bogobojazne su.","Zalažu se za pravdu.","Imaju izražen majčinski instinkt."],"correctChoice":"A"},
-          {"type":"SingleChoice","question":"Kojim se stihom iskazuje poniznost lirskoga subjekta pred ženama?","choices":["slutim Vas srcem plamenim svemira","Tko će mi dati ključe Vašeg čuda","pred Vašim likom koljeno se savi","pobožnu ljudstvu fali Vaša slika"],"correctChoice":"C"},
-          {"type":"SingleChoice","question":"Koji je motiv ostvaren sinestezijom?","choices":["tajne","zagonetke","zore","srca"],"correctChoice":"D"},
-          {"type":"SingleChoice","question":"Na kojoj se stilskoj figuri temelji pjesma?","choices":["alegoriji","apostrofi","oksimoronu","onomatopeji"],"correctChoice":"B"},
-          {"type":"SingleChoice","question":"Koji je stilski utjecaj prisutan u pjesmi?","choices":["angažirane lirike","trubadurske lirike","antičke korske lirike","moderne ekspresionističke lirike"],"correctChoice":"B"}
-        ]},
-        {"info":"Zadatci 6. – 10. odnose se na ulomak iz Zločina i kazne Fjodora Mihajloviča Dostojevskoga.","questions":[
-          {"type":"SingleChoice","question":"Što pripovjedač zamjera Dunji?","choices":["bila je ljubavnica oženjenu muškarcu","zaljubila se u osobu druge boje kože","namjerava se udati za nedostojna čovjeka","spremna je na brak radi lagodna života"],"correctChoice":"C"},
-          {"type":"SingleChoice","question":"Koju osobinu pripovjedač pridaje Lužinu?","choices":["požrtvovnost","proračunatost","skromnost","škrtost"],"correctChoice":"B"},
-          {"type":"SingleChoice","question":"U kojoj je rečenici iskazana ironija?","choices":["Bilo vam je već dvadeset godina...","Ona bi živjela o kruhu i vodi...","Od toga neće biti ništa...","Kako ćeš ih očuvati ... ti budući milijunašu, Zeuse..."],"correctChoice":"D"},
-          {"type":"SingleChoice","question":"Koja pripovjedna tehnika prevladava u tekstu?","choices":["dijalog","pripovijedanje","unutarnji monolog","slobodni neupravni govor"],"correctChoice":"C"},
-          {"type":"SingleChoice","question":"Na koji se lik odnosi riječ u rečenici Prodat će se radi dragog, obožavanog čovjeka?","choices":["Lebezjatnikova","Marmeladova","Raskoljnikova","Razumihina"],"correctChoice":"C"}
-        ]},
-        {"info":"Zadatci 11. – 15. odnose se na ulomak iz Dekamerona Giovannija Boccaccia.","questions":[
-          {"type":"SingleChoice","question":"U kojem je primjeru iskazana pripovjedačeva bliskost s osobama kojima se obraća?","choices":["Valja da znate...","Među tim družbama...","Hajde da ga malo bocnemo!","On nam je ... odbrusio."],"correctChoice":"A"},
-          {"type":"SingleChoice","question":"Zašto su se Betto i prijatelji našalili s Guidom?","choices":["bio je ateist","bavio se znanošću","nije se htio družiti s njima","nije htio trošiti bogatstvo"],"correctChoice":"C"},
-          {"type":"SingleChoice","question":"Gdje se Guido susreo s Bettom i družinom?","choices":["u crkvi Or San Michele","na šetalištu degli Adimari","ispred crkve San Giovanni","na trgu Santa Reparata"],"correctChoice":"C"},
-          {"type":"SingleChoice","question":"Koja je karakterizacija, uz socijalnu, prisutna u rečenici o škrtosti?","choices":["biološka","etička","govorna","psihološka"],"correctChoice":"B"},
-          {"type":"SingleChoice","question":"Kojim postupkom završava tekst?","choices":["poantom","katarzom","in medias res","obraćanjem čitatelju"],"correctChoice":"A"}
-        ]},
-        {"info":"Zadatci 16. – 20. odnose se na Predstavu Hamleta u selu Mrduša Donja Ive Brešana.","questions":[
-          {"type":"SingleChoice","question":"Koja je tema teksta?","choices":["ljubav prema književnosti","uprizorenje kazališnoga komada","važnost Shakespeareova opusa","utjecaj književnosti na običnoga čovjeka"],"correctChoice":"B"},
-          {"type":"SingleChoice","question":"Kakvo je Bukarino mišljenje o Shakespeareovu tekstu?","choices":["poučan je","vulgaran je","nerazumljiv je","humorističan je"],"correctChoice":"C"},
-          {"type":"SingleChoice","question":"Koju je Hamletovu ulogu učitelj dodijelio Bukari?","choices":["Hamleta","Horacija","Klaudija","Polonija"],"correctChoice":"C"},
-          {"type":"SingleChoice","question":"Koja je paradoksalna tvrdnja o odnosu učitelja i seljaka točna?","choices":["seljaci više cijene Shakespearea","učitelj govori lokalnim jezikom","seljaci imaju veću moć odlučivanja","učitelj želi pojednostavniti Hamleta"],"correctChoice":"C"},
-          {"type":"SingleChoice","question":"Na koju osobinu ne upućuje igra riječi seljaka?","choices":["dovitljivost","primitivnost","podrugljivost","dobronamjernost"],"correctChoice":"D"}
-        ]},
-        {"info":"Zadatci 21. – 25. odnose se na tekst o pokratama AI i UI.","questions":[
-          {"type":"SingleChoice","question":"Koja je namjena teksta?","choices":["potaknuti korištenje umjetne inteligencije","informirati o prednostima i nedostatcima","uputiti na uporabu različitih pokrata","poučiti o terminologiji institucija EU-a"],"correctChoice":"C"},
-          {"type":"SingleChoice","question":"Koja je najčešća tema rasprava o umjetnoj inteligenciji prema CARNET-u?","choices":["nazivlje","utjecaj medija","korisnička sučelja","prijetnja opstanku čovječanstva"],"correctChoice":"D"},
-          {"type":"SingleChoice","question":"Zašto pojedinci nerado rabe pokratu UI za umjetnu inteligenciju?","choices":["proizašla je iz neformalnoga govora","ne odobravaju englesku inačicu","u tehnologiji već označava drugi pojam","nije u službenim dokumentima"],"correctChoice":"C"},
-          {"type":"SingleChoice","question":"Koji je izvor prevoditeljima EU-a najvažniji pri odabiru terminologije?","choices":["službeni dokumenti","osvrti radnih skupina","govorna praksa","prijevodi drugih organizacija"],"correctChoice":"A"},
-          {"type":"SingleChoice","question":"Što je iskazano o Neveni Erak Camaj?","choices":["pravnica je","bavi se poduzetništvom","članica je Parlamenta","kreirala je Akt"],"correctChoice":"B"}
-        ]},
-        {"info":"Zadatci 26. – 30. odnose se na Upute za pisanje seminarskoga i diplomskoga rada.","questions":[
-          {"type":"SingleChoice","question":"Koja je namjena uvodnoga dijela?","choices":["informirati o nastanku uputa","uspostaviti suradnju s poduzećima","predstaviti fakultet","pomoći u pisanju radova"],"correctChoice":"A"},
-          {"type":"SingleChoice","question":"Što se postiže izravnim obraćanjem čitateljima?","choices":["etičko upozorenje","kritički stav","objektivnost","akademska jednakost"],"correctChoice":"A"},
-          {"type":"SingleChoice","question":"Koja je tvrdnja iskazana u tekstu?","choices":["studenti su izradili upute","upute su ujednačene na fakultetskoj razini","prve standardizirane upute objavljene su 1996.","upute su nadopunjene digitalnim izdanjima"],"correctChoice":"B"},
-          {"type":"SingleChoice","question":"Za koji je stil karakteristična struktura teksta?","choices":["administrativni","književnoumjetnički","publicistički","razgovorni"],"correctChoice":"A"},
-          {"type":"SingleChoice","question":"U kojoj je rečenici iskazana subjektivnost autorica?","choices":["Upute se objavljuju s namjerom pomoći.","nemojte zaboraviti da ste student našega fakulteta","Preporučljiv je opseg 10 – 15 stranica.","Diplomski je rad samostalan stručan rad."],"correctChoice":"B"}
-        ]}
-      ]
+    "name": "Hrvatski Jezik",
+    "maxPoints": 110,
+    "scale": {
+        "range1": [
+            0,
+            32.99
+        ],
+        "range2": [
+            33,
+            54.99
+        ],
+        "range3": [
+            55,
+            76.89
+        ],
+        "range4": [
+            77,
+            93.49
+        ],
+        "range5": [
+            93.5,
+            110
+        ]
     },
-    {
-      "name":"Književnost i Hrvatski Jezik",
-      "predictedTime":0,
-      "potentialPoints":32,
-      "questionGroups":[
-        {"info":"II. Književnost (31. – 42.)","questions":[
-          {"type":"SingleChoice","question":"U kojem je primjeru upotrijebljena metonimija?","choices":["selo pruža molbu tornja","kao samrt tamna","Ljubav bol je najveća","ja sam mrtvac"],"correctChoice":"A"},
-          {"type":"SingleChoice","question":"Koja se tvrdnja ne odnosi na početak Judite?","choices":["prisutna je invokacija","izrazi su u inverziji","ostvaren je deus ex machina","stihovi su dvostrukorimovani dvanaesterci"],"correctChoice":"C"},
-          {"type":"SingleChoice","question":"Za koju je vrstu karakteristična retardacija?","choices":["ep","novelu","lirsku pjesmu","dramu u stihu"],"correctChoice":"A"},
-          {"type":"SingleChoice","question":"Kojemu tipu romana pripada djelo s Wertherovim pismom?","choices":["epistolarnomu","monološko-asocijativnomu","romanu ideja","struji svijesti"],"correctChoice":"A"},
-          {"type":"SingleChoice","question":"Koja se tvrdnja odnosi na hrvatsku renesansnu književnost?","choices":["katolička obnova i kićenost","narodni preporod","regionalizam i kritika stvarnosti","književni krugovi na obali i sklad"],"correctChoice":"D"},
-          {"type":"SingleChoice","question":"Koje razdoblje započinje Matoševom novelom Moć savjesti?","choices":["renesansa","barok","realizam","moderna"],"correctChoice":"D"},
-          {"type":"SingleChoice","question":"Tko je pisao dijalektalnu poeziju na istarskoj čakavštini?","choices":["Antun Branko Šimić","Silvije Strahimir Kranjčević","Tin Ujević","Vladimir Nazor"],"correctChoice":"D"},
-          {"type":"SingleChoice","question":"S kojim djelom Kiklop uspostavlja vezu spominjanjem Yoricka?","choices":["Hamlet","Patnje mladog Werthera","Preobražaj","Zločin i kazna"],"correctChoice":"A"},
-          {"type":"SingleChoice","question":"Koji je ep barokni?","choices":["Judita","Osman","Eneida","Smrt Smail-age Čengića"],"correctChoice":"B"},
-          {"type":"SingleChoice","question":"Iz kojega je djela ulomak o kanoniku Vukasoviću i Gaju?","choices":["Kiklop","Kip domovine leta 188*","Posljednji Stipančići","Prijan Lovro"],"correctChoice":"C"},
-          {"type":"SingleChoice","question":"Na koji se Matošev lik odnosi opis pogibije pod mađarskim vojnicima?","choices":["Fanny","Kamenski","Pepica","Solus"],"correctChoice":"C"},
-          {"type":"SingleChoice","question":"Tko govori Beatrice o čistoj ruci na tamnoj glavobolji?","choices":["Hamlet","Leone Glembay","Melkior Tresić","Werther"],"correctChoice":"B"}
-        ]},
-        {"info":"III. Hrvatski jezik (43. – 58.5.)","questions":[
-          {"type":"SingleChoice","question":"Koja je rečenica točna prema pisanju velikoga i maloga slova?","choices":["Modra lasta, Školska knjiga","Nobelova Nagrada za Književnost","mali Indijski mungos","Velika Sveta Džamija Aje Sofije"],"correctChoice":"A"},
-          {"type":"SingleChoice","question":"Koja je riječ napisana u skladu s normom?","choices":["djevojćin","pješćan","smećkast","zapećen"],"correctChoice":"C"},
-          {"type":"SingleChoice","question":"U kojoj je rečenici podcrtana riječ naglašena?","choices":["Je li im se svidio?","Nije ih uspjela donijeti.","Marko će mu povjerovati.","Jesi li ti svjestan opasnosti?"],"correctChoice":"D"},
-          {"type":"SingleChoice","question":"Koja je oblikotvorna osnova u riječi gledateljica?","choices":["gled-","gleda-","gledatelj-","gledateljic-"],"correctChoice":"D"},
-          {"type":"SingleChoice","question":"U kojoj je rečenici upotrijebljen načinski prilog?","choices":["poput mrava","predivno selo","kao da mu je...","Slučajno je ugledao..."],"correctChoice":"D"},
-          {"type":"SingleChoice","question":"Koliko se različitih glagolskih vremena pojavljuje u rečenici?","choices":["dva","tri","četiri","pet"],"correctChoice":"B"},
-          {"type":"SingleChoice","question":"Koja je zamjenica u dativu?","choices":["toj","im","ju","njima"],"correctChoice":"B"},
-          {"type":"SingleChoice","question":"Koja je rečenica u skladu s normom standardnog jezika?","choices":["Znaš vrlo dobro da me to smeta.","Ne mogu vjerovati da si me lagala.","Ana se suosjećala...","Matija oženio Sanju."],"correctChoice":"D"},
-          {"type":"SingleChoice","question":"U kojoj je rečenici šuma izravni objekt?","choices":["stigli u šumu","pomišljao na šumu","otac je kupio šumu","novac za šumu"],"correctChoice":"C"},
-          {"type":"SingleChoice","question":"Koja rečenica nije besubjektna?","choices":["Sniježi.","Svitalo je.","Šuška se.","Budimo se."],"correctChoice":"D"},
-          {"type":"SingleChoice","question":"Koja je tvorenica nastala čistim slaganjem?","choices":["blagdan","brodovlasnički","jugozapad","suncobran"],"correctChoice":"C"},
-          {"type":"SingleChoice","question":"Kojim leksemima pripada Vinkovčani?","choices":["egzonimima","ekonimima","eponimima","etnicima"],"correctChoice":"D"},
-          {"type":"SingleChoice","question":"Koji je frazem bliskoznačan naglu i nepromišljenu postupanju?","choices":["hodati po jajima","ići grlom u jagode","kupiti mačka u vreći","dolijevati ulje na vatru"],"correctChoice":"B"},
-          {"type":"SingleChoice","question":"Koja je rečenica na kajkavskom narječju?","choices":["Saka me kotriga boli...","Bukar je zaspa...","U život treba poći...","Vajalo bi posteje..."],"correctChoice":"A"},
-          {"type":"SingleChoice","question":"Kolikojezičan je prvi hrvatski rječnik?","choices":["dvojezičan","trojezičan","četverojezičan","peterojezičan"],"correctChoice":"D"},
-          {"type":"SingleChoice","question":"58.1. ___ pročitaj tekst o drami Nora ili Lutkina kuća.","choices":["Pomno","Pronicljivo","Sadržajno","Skladno"],"correctChoice":"A"},
-          {"type":"SingleChoice","question":"58.2. ___, u trenutku kad uviđa... Nora donosi odluku.","choices":["Naime","Naravno","Štoviše","Zaista"],"correctChoice":"A"},
-          {"type":"SingleChoice","question":"58.3. Nora donosi ___ odluku.","choices":["drastičnu","letargičnu","nehotičnu","skeptičnu"],"correctChoice":"A"},
-          {"type":"SingleChoice","question":"58.4. Drama problematizira ___ odnose.","choices":["patricijske","patrijarhalne","patriotske","patronažne"],"correctChoice":"B"},
-          {"type":"SingleChoice","question":"58.5. ___ svoj odgovor.","choices":["Anticipiraj","Argumentiraj","Asociraj","Ažuriraj"],"correctChoice":"B"}
-        ]}
-      ]
-    },
-    {"name":"Sažetak","predictedTime":80,"potentialPoints":10,"instructions":"Napišite sažetak od 200 do 250 riječi kao zaokruženu cjelinu s uvodom, razradom i zaključkom.","questionGroups":[{"info":"Mija Dropuljić, Put putujem","questions":[{"type":"EssayWriting","question":"Sažmite polazni tekst svojim riječima: navedite opće podatke, namjenu i temu, osnovne misli s pojedinostima koje ih podupiru te autorov stav.","points":[{"category":"Sadržaj, organizacija i stil, jezična točnost","points":10}]}]}]},
-    {"name":"Školski Esej","predictedTime":160,"potentialPoints":38,"instructions":"Napišite školski esej slijedeći priložene upute.","questionGroups":[{"info":"Franz Kafka, Preobražaj","questions":[{"type":"EssayWriting","question":"Polazno pitanje: Na koji način posao i obiteljska očekivanja oblikuju Gregorov život? U uvodu predstavite autora i djelo te oblikujte tvrdnju. U razradi argumentirajte tvrdnju iz djela u cjelini, analizom polaznoga teksta i književnopovijesnim kontekstom. Zaključno sažeto istaknite najvažnije.","points":[{"category":"Sadržaj","points":38}]}]}]}
-  ]
+    "sections": [
+        {
+            "name": "Čitanje, Književnost i Hrvatski Jezik",
+            "predictedTime": 100,
+            "potentialPoints": 30,
+            "instructions": "Pozorno pročitajte sve upute i slijedite ih. Ispit traje 100 minuta.",
+            "questionGroups": [
+                {
+                    "info": "I. Čitanje — Žene među kraljicama, Tin Ujević (zadatci 1. – 5.).",
+                    "initialText": {
+                        "title": "Žene među kraljicama",
+                        "text": "Božanske žene, sva ljepota svijeta\ni lavska gordost i plahota srne,\nkroz Vaše čari uzvišene cvjeta\nu plave dane, i u noći crne.\n\nI, kada stopom punom svetog mira\nbudite zemlji ritam svih otkrića,\nslutim Vas srcem plamenim svemira,\nslutim i ištem tajnu Vaših bića.\n\nSvaka je od Vas rođena da vlada,\ni da za prijesto pruži mliječno dijete;\ncarice tijela, samo usnom sklada\ni usnom želje pitam: što hoćete?\n\nTko će mi dati ključe Vašeg čuda\ni odgonetku Vaše zagonetke?\nKakvo tajanstvo kriju Vaša uda\ni koje nade statue Vam rijetke?\n\nBožanske žene, što u snu i slavi\nčekate zoru pravednih oltara,\npred Vašim likom koljeno se savi,\na srce, zvučni plamen, već izgara.\n\nSunčane duše, zjeni poklonika\nzaman Vas skriva zločinačka tama;\npobožnu ljudstvu fali Vaša slika,\njer Vi ste Žene među Kraljicama.\n\nTin Ujević"
+                    },
+                    "questions": [
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koja se tvrdnja odnosi na žene?",
+                            "choices": [
+                                "Nedostižne su.",
+                                "Bogobojazne su.",
+                                "Zalažu se za pravdu.",
+                                "Imaju izražen majčinski instinkt."
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Kojim se stihom iskazuje poniznost lirskoga subjekta pred ženama?",
+                            "choices": [
+                                "slutim Vas srcem plamenim svemira",
+                                "Tko će mi dati ključe Vašeg čuda",
+                                "pred Vašim likom koljeno se savi",
+                                "pobožnu ljudstvu fali Vaša slika"
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koji je motiv ostvaren sinestezijom?",
+                            "choices": [
+                                "tajne",
+                                "zagonetke",
+                                "zore",
+                                "srca"
+                            ],
+                            "correctChoice": "D"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Na kojoj se stilskoj figuri temelji pjesma?",
+                            "choices": [
+                                "alegoriji",
+                                "apostrofi",
+                                "oksimoronu",
+                                "onomatopeji"
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koji je stilski utjecaj prisutan u pjesmi?",
+                            "choices": [
+                                "angažirane lirike",
+                                "trubadurske lirike",
+                                "antičke korske lirike",
+                                "moderne ekspresionističke lirike"
+                            ],
+                            "correctChoice": "B"
+                        }
+                    ]
+                },
+                {
+                    "info": "Zadatci 6. – 10. odnose se na ulomak iz Zločina i kazne Fjodora Mihajloviča Dostojevskoga.",
+                    "initialText": {
+                        "title": "Fjodor Mihajlovič Dostojevski, Zločin i kazna",
+                        "text": "„Ama, ne čudim se još mami, Bog bio s njom, ona je oduvijek bila takva, ali što je Dunji? Dunječka draga, pa znam ja vas! Bilo vam je već dvadeset godina kad smo se posljednji put vidjeli: tada sam već shvatio kakvi ste. Eto, mama piše da Dunječka ‘može svašta podnijeti’. Znao sam ja to, molim lijepo. Znao sam to već prije dvije i pol godine i otada razmišljao o tome dvije i pol godine, naime o tome kako ‘Dunječka može svašta podnijeti’. Kad već može podnijeti gospodina Svidrigajlova i sve što je odatle proisteklo, onda može zaista svašta podnijeti. A sad su, eto, uobrazile sebi, ona i mama, da može podnijeti i gospodina Lužina koji izlaže teoriju o prednosti žena koje su potekle iz sirotinje i kojima muževi iskazuju dobročinstvo, i to još izlaže tu teoriju takoreći na prvom sastanku. Pa dobro, recimo da se ‘izlanuo’, iako je razuman čovjek (pa se možda uopće nije izlanuo, nego je baš to želio što prije dati na znanje), ali Dunja, Dunja? Pa njoj je bar taj čovjek jasan, a treba da živi s tim čovjekom. Ona bi živjela o kruhu i vodi, ali ne bi dušu prodala, ne bi dala svoju duševnu slobodu za komfor; ne bi je dala ni za cijeli Schleswig-Holstein, a kamoli za gospodina Lužina. Ne, Dunja nije bila takva, koliko je ja znam, a... ama, naravno, nije ni sad drukčija!... Nema šta, nije lako sa Svidrigajlovima! Nije lako potucati se cijeli život kao guvernanta po gubernijama za dvjesta rubalja, ali svejedno znam da bi mi sestra radije otišla među crnce na plantažu, ili među Letonce da nadniči kod gazde baltičkog Nijemca, nego da svoj duh i moralni osjećaj opogani vezom s čovjekom koga ne poštuje i s kojim nema nikakve dodirne točke – zauvijek, radi puke osobne koristi! I baš da je gospodin Lužin sav od suha zlata ili od briljanta u komadu, ni tada ne bi pristala da bude zakonita suložnica gospodina Lužina! Pa zašto je onda pristala? U čemu je vic? Što je posrijedi? Jasno je: radi sebe, radi svog komfora, čak ni da bi se spasila od smrti, ne bi se nikad prodala, a radi drugog se, eto, prodaje! Prodat će se radi dragog, obožavanog čovjeka! (…) Od toga neće biti ništa dok sam ja živ, neće, neće! Ne pristajem na to!”\n\nOdjednom se trgne i zastane.\n\n„Neće? A što ćeš učiniti da od toga ne bude ništa? Hoćeš li im zabraniti da se žrtvuju? A kakvo pravo imaš? Što im možeš zauzvrat obećati da bi stekao to pravo? Da ćeš njima posvetiti sav svoj život, svu svoju budućnost, kad dovršiš studije i dobiješ namještenje? To smo već čuli, ali to je na vrbi svirala, nego, što ćeš sada? Jer tu treba sad nešto učiniti, razumiješ li? A što sad radiš? Živiš na njihovoj grbači. Jer one dobivaju novac na račun mirovine, a dobivaju ga od gospode Svidrigajlovih! Kako ćeš ih očuvati od tih Svidrigajlovih, od tog Afanasija Ivanoviča Vahrušina, ti budući milijunašu, Zeuse, što upravljaš njihovom sudbinom? Za deset godina? Ali za deset godina majka će ti već oslijepjeti od pletenja rubaca, pa možda i od suza; iskopnjet će ti od posta; a sestra? Hajde, dosjeti se što može biti od tvoje sestre za deset godina, ili u toku tih deset godina? Jesi li se domislio?”"
+                    },
+                    "questions": [
+                        {
+                            "type": "SingleChoice",
+                            "question": "Što pripovjedač zamjera Dunji?",
+                            "choices": [
+                                "bila je ljubavnica oženjenu muškarcu",
+                                "zaljubila se u osobu druge boje kože",
+                                "namjerava se udati za nedostojna čovjeka",
+                                "spremna je na brak radi lagodna života"
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koju osobinu pripovjedač pridaje Lužinu?",
+                            "choices": [
+                                "požrtvovnost",
+                                "proračunatost",
+                                "skromnost",
+                                "škrtost"
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "U kojoj je rečenici iskazana ironija?",
+                            "choices": [
+                                "Bilo vam je već dvadeset godina...",
+                                "Ona bi živjela o kruhu i vodi...",
+                                "Od toga neće biti ništa...",
+                                "Kako ćeš ih očuvati ... ti budući milijunašu, Zeuse..."
+                            ],
+                            "correctChoice": "D"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koja pripovjedna tehnika prevladava u tekstu?",
+                            "choices": [
+                                "dijalog",
+                                "pripovijedanje",
+                                "unutarnji monolog",
+                                "slobodni neupravni govor"
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Na koji se lik odnosi riječ u rečenici Prodat će se radi dragog, obožavanog čovjeka?",
+                            "choices": [
+                                "Lebezjatnikova",
+                                "Marmeladova",
+                                "Raskoljnikova",
+                                "Razumihina"
+                            ],
+                            "correctChoice": "C"
+                        }
+                    ]
+                },
+                {
+                    "info": "Zadatci 11. – 15. odnose se na ulomak iz Dekamerona Giovannija Boccaccia.",
+                    "initialText": {
+                        "title": "Giovanni Boccaccio, Dekameron",
+                        "text": "Valja da znate da su u našem gradu nekoć vladali lijepi i pohvalni običaji, od kojih se ni jedan do danas nije sačuvao, jer ih je škrtost, koja je skupa s bogatstvom zavladala gradom, sve iskorijenila. Među tim običajima bio je i taj da su se po fiorentinskim kućama sastajali plemići toga grada i sastavljali nevelike družbe, pazeć sveđ da se združe ljudi koji su lako i bez neprilike mogli snositi troškove, pa je danas jedan, a sutra drugi, svatko u određeni dan, priređivao gozbu cijeloj družbi. (…) Među tim družbama bijaše i družba gospara Betta Brunelleschija. Ta se družba jako trudila da privuče k sebi Guida, sina Cavalcantea de’ Cavalcanti. I ne bez razloga, jer on ne bijaše samo jedan od najboljih mislilaca na svijetu i izvrstan znalac naravne filozofije (za što je družba malo marila), već i ljubezan i pohvalna vladanja i ljeporječiv čovjek, te je sve ono što se priliči plemiću, znao bolje od drugih. Uz to vam bijaše on veoma bogat i umio je kao malo tko počastiti one koje je cijenio.\n\nNo gosparu Bettu nije nikad pošlo za rukom da ga pridobije, te su on i njegovi drugovi mislili da je to stoga što je Guido, razmišljajući mnogo, zaboravljao na ljude. Budući da je naginjao Epikurovim nazorima, prosti je puk govorio, da razmišlja samo o tome kako da dokaže da nema boga. Jednog je dana Guido, kad je iz crkve Or San Michele izlazio i šetalištem degli Adimari stigao do crkve San Giovanni, kuda je često prolazio, zastao među mramornim grobnicama, koje su danas u crkvi Santa Reparata. Dok se nalazio među porfirnim stupovima, koji se ondje nalaze, i onim grobnicama te vratima crkve San Giovanni, koja su bila zatvorena, dojaše gospar Betto sa svojom družbom s trga Santa Reparata, ugleda Guida među grobnicama i pripomenu:\n\n– Hajde da ga malo bocnemo!\n\nPodbodu konje i u šali, kao da će ga napasti, prije negoli je on opazio, nalete na nj i ovako mu kažu:\n\n– Guido, ti ne mariš za našu družbu, ali kada dokažeš da nema boga, što ćeš onda raditi?\n\nA Guido, videći da su ga opkolili, dosjetljivo odgovori:\n\n– Gospodo, u svojoj mi kući možete reći što vas je volja!\n\nTada se odupre rukom o jednu od onih velikih grobnica i, kako je bio vitak, lako je preskoči i prebaci se na drugu stranu, te se tako njih oslobodi i ode. Oni se osupnuto stadoše ogledati i među se govoriti da je luđak i da ono što je rekao ništa ne znači, jer ovo mjesto, gdje su, jednako je njihovo kao i svih ostalih građana, a i Guidovo isto toliko. Gospar Betto odgovori im:\n\n– Budale ste vi što ga nijeste razumjeli! On nam je svojim odgovorom u malo riječi uljudno dobro odbrusio. Pogledate li pravo, ove su grobnice kuće pokojnika jer ovdje sahranjuju mrtvace i ovdje oni počivaju, a on je rekao da su to naše kuće da nam pokaže kako smo mi, i svi neobrazovani ljudi, u poređenju s njim i ostalim učenjacima, manje vrijedni nego mrtvaci, i prema tome smo ovdje u svojoj kući."
+                    },
+                    "questions": [
+                        {
+                            "type": "SingleChoice",
+                            "question": "U kojem je primjeru iskazana pripovjedačeva bliskost s osobama kojima se obraća?",
+                            "choices": [
+                                "Valja da znate...",
+                                "Među tim družbama...",
+                                "Hajde da ga malo bocnemo!",
+                                "On nam je ... odbrusio."
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Zašto su se Betto i prijatelji našalili s Guidom?",
+                            "choices": [
+                                "bio je ateist",
+                                "bavio se znanošću",
+                                "nije se htio družiti s njima",
+                                "nije htio trošiti bogatstvo"
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Gdje se Guido susreo s Bettom i družinom?",
+                            "choices": [
+                                "u crkvi Or San Michele",
+                                "na šetalištu degli Adimari",
+                                "ispred crkve San Giovanni",
+                                "na trgu Santa Reparata"
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koja je karakterizacija, uz socijalnu, prisutna u rečenici o škrtosti?",
+                            "choices": [
+                                "biološka",
+                                "etička",
+                                "govorna",
+                                "psihološka"
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Kojim postupkom završava tekst?",
+                            "choices": [
+                                "poantom",
+                                "katarzom",
+                                "in medias res",
+                                "obraćanjem čitatelju"
+                            ],
+                            "correctChoice": "A"
+                        }
+                    ]
+                },
+                {
+                    "info": "Zadatci 16. – 20. odnose se na Predstavu Hamleta u selu Mrduša Donja Ive Brešana.",
+                    "questions": [
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koja je tema teksta?",
+                            "choices": [
+                                "ljubav prema književnosti",
+                                "uprizorenje kazališnoga komada",
+                                "važnost Shakespeareova opusa",
+                                "utjecaj književnosti na običnoga čovjeka"
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Kakvo je Bukarino mišljenje o Shakespeareovu tekstu?",
+                            "choices": [
+                                "poučan je",
+                                "vulgaran je",
+                                "nerazumljiv je",
+                                "humorističan je"
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koju je Hamletovu ulogu učitelj dodijelio Bukari?",
+                            "choices": [
+                                "Hamleta",
+                                "Horacija",
+                                "Klaudija",
+                                "Polonija"
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koja je paradoksalna tvrdnja o odnosu učitelja i seljaka točna?",
+                            "choices": [
+                                "seljaci više cijene Shakespearea",
+                                "učitelj govori lokalnim jezikom",
+                                "seljaci imaju veću moć odlučivanja",
+                                "učitelj želi pojednostavniti Hamleta"
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Na koju osobinu ne upućuje igra riječi seljaka?",
+                            "choices": [
+                                "dovitljivost",
+                                "primitivnost",
+                                "podrugljivost",
+                                "dobronamjernost"
+                            ],
+                            "correctChoice": "D"
+                        }
+                    ],
+                    "initialText": {
+                        "text": "Ivo Brešan, Predstava Hamleta u selu Mrduša Donja\n\n ŠKUNCA: Dobro, drugovi! Neću duljiti. Vi svi znate moj stav. Međutim, bez obzira na nj, ja sam\n svoj zadatak izvršio. Nabavio sam dramu, i već sam je otipkao u nekoliko primjeraka. Ali prije nego\n počnemo, ja bih vam još jednom skrenuo pažnju da komad nije za nas. Suviše je težak. I, ako vi\n pristajete, još ima vremena da ga promijenimo...\n MAČAK: Šta imamo sad minjati? Ovo ili nešto drugo, isti je belaj.\n PULJO: Na sastanku Narodnog fronta odlučili smo Amleta. I šta ćemo sad tute prasicu sedlati!\n BUKARA: Nego kako! Ili kuj, il’ ne mrči gaća!\n ŠKUNCA nervozno: U redu, drugovi! Kad je tako, onda molim! Vi ste, druže Mate, kralj... vi ste,\n drugarice Maro, kraljica Gertruda...\n PULJO: Vidi, vidi, bogati, udovica, pa trudna!\n ŠKUNCA: ... vi ste, druže Mile, Polonije...\n MAJKAČA: Eto ti na! Ako sam ja trudna, a ti si zato pola nje.\n ŠKUNCA Škoki i Anđi: Vas dvoje ste Hamlet i Ofelija... Ti si, Mačak, Laert...\n MAČAK: Ja, znači, lajem... vau, vau...\n ŠKUNCA: ... a ti si, Šimurina, Horacije...\n ŠIMURINA: Šta sam ja?\n ŠKUNCA: Horacije.\n MAČAK šapće mu u uho: Odi, odi vamo, da ti kažem šta si.\n PULJO prilazi im i sluša: Šta, šta, šta... Pa da šta je nego Kuracije!\n ŠKUNCA dijeli im skripte: A sad da vidimo! Probat ćemo ovako nasumce. Eto, recimo, scena između\n kralja i Hamleta iz prvog čina. Stranica 20, molim! Počnite, druže sekretaru! Vi ste kralj. Odavde.\n       Pokazuje mu.\n BUKARA: Šta, da čitam, je li? Makni se, Mare, tamo, daj mi mista... Čita monotono i nespretno.\n „Za tvoju ćud je dično, Hamlete, i nježno je što tim tugovanjem toliko častiš oca svojega...” Odnija\n ga vrag šta je zapetljan! Šta ne može reći u dvi beside, ki čovik čoviku: Lipo je, brte, od tebe šta se\n toliko kidaš za ćaćom... Čita: „Al treba znati da je i tvoj otac izgubio svog oca, a i njegov je izgubio\n svog...” Ma nemoj mi reći! U velike li si mi ti mudrolije udarija! Pa kud će, brte, nego ga izgubiti?\n Lipo li bi to bilo da mi ćaća onako star i nemoćan jošte sidi za kominom u kući, i da je š njime još\n i njegov ćaća i njegovoga ćaće ćaća. Moga bi k vragu koliko sam dug i širok... Čita: „To je grijeh\n spram neba, grijeh spram mrtvih i grijeh protiv prirode i ludost spram ra-razuma, što zbori sve o\n smrti o-ta-ta-otaca i od prvog mrtvaca pa sve do onog, što je danas umro, do-dovikuje nam:\n Tako mo-mora biti...” E, tute mu ga ne razumim ni crne ni bile. Ma pogledaj, molim te, šta je on ovde\n nadrobija: te nebo, te mrtvi, te priroda, te ludost, te razum, te smrt, i onda ti na koncu još veli:\n „To mu ga tako mora biti!” Jesi li ti ono, učitelju, reka da je to niki veliki čovik? Meni se pari da njemu\n nisu sve daske na mistu.\n ŠKUNCA: Samo vi, druže sekretare, hrabro nastavite! To su za sada još ovako... sitne poteškoće.\n BUKARA čita: „Al istrajati tvr-do-gla-gla-gla-...” nek iđe u božju mater, i on i ko mu je dâ pero u ruke!\n Nije to, brte, za svakoga! Ovo ti je, moj učitelju, nika budalina. Ne moš ga uhvatiti ni za glavu ni za rep.\n ŠKUNCA smije se trijumfalno: A što ja mogu, drugovi? Ja sam vam odmah rekao da je tekst pretežak.\n\n\n\n\n12                                                                                         HRV IK-1 D-S074\n\nČitanje                                                                       Hrvatski jezik\n  BUKARA: Ne, ne, ti si se privarija, učitelju. Ništa tute nije teško. Nego, brte, kad si pismen, lako te\n  čitam, a kad si nepismen, ne mogu nikako. Eto, to ti je! Glavu dajem da je moja pokojna baba Stana\n  bila triput jača na peru od njega... Nema druge, nego ti ćeš ovo morati da popraviš. Ne može to\n  ovako ostati!\n  ŠKUNCA: Da popravim? Šta je vama? Ja da popravim Šekspira, najvećeg engleskog pisca svih\n  vremena! Oprostite, ali ja se to ne usuđujem.\n  BUKARA: Ne beri ti brige, druškane. Šta onda ako je on tamo u nikoj buržoaskoj Engleskoj pisac!\n  Ja sam zato tute, u jednoj socijalističkoj zemlji sekretar partijskog aktiva. Samo ti popravi, a on može\n  da ti puše otraga."
+                    }
+                },
+                {
+                    "info": "Zadatci 21. – 25. odnose se na tekst o pokratama AI i UI.",
+                    "initialText": {
+                        "title": "Antonija Bilić Arar, O čemu govorimo kad na hrvatskome govorimo o umjetnoj inteligenciji, o AI-u ili UI-ju?",
+                        "text": "„Drago mi je da malo diskutiramo o temama vezanim za umjetnu inteligenciju, a koje se ne svode na skoru, ali sigurnu propast čovječanstva”, komentirao je zamjenik ravnatelja CARNET-a kad sam mu se obratila sa zahtjevom za komentar na ovu temu.\n\nIstina, tema, odnosno dilema o kojoj sam ga pitala možda se čini nebitnom, ali kolegama iz Netokracije, a i meni, već se nekoliko puta dogodilo da ostanemo zbunjeni kad bismo u priči o umjetnoj inteligenciji naišli na pokratu – UI.\n\nZbunjen je bio i kolega Marin Pavelić slušajući nedavno u EU parlamentu raspravu o Aktu o umjetnoj inteligenciji, pa je u šali komentirao da nije siguran o čemu se raspravlja, o umjetnoj inteligenciji ili korisničkome sučelju.\n\nNaravno da ima smisla da se u hrvatskome jeziku kao pokrata za umjetnu inteligenciju upotrebljavaju početna slova tih riječi, što daje – UI. Zbunjenost nastaje iz toga što je UI u tehnološkome svijetu uvriježena pokrata za nešto drugo – user interface, odnosno korisničko sučelje.\n\nU konkretnome slučaju Akta o umjetnoj inteligenciji, objašnjava Nevena Erak Camaj, akreditirana konferencijska prevoditeljica za hrvatski jezik u institucijama Europske unije, u službenome prijevodu teksta upotrebljava se pokrata UI. Kad je riječ o usmenome prevođenju u institucijama Europske unije, najvažnije je pravilo slijediti terminologiju koja je zadana službenim pravnim tekstom ili tekstovima koji su podloga onomu o čemu se raspravlja. Katkad u radu radnih skupina stručnjaci koji izravno sudjeluju u raspravama znaju dati svoj osvrt i uputiti na izraze koji su u toj grani djelatnosti uvriježeni ili možda češći od onoga što je prisutno u službenim materijalima, tako da i prevoditelji znaju materiju približiti prikladnijom terminologijom.\n\nU ovome konkretnom slučaju u službenome prijevodu teksta Akta o umjetnoj inteligenciji navedena je pokrata UI za pojam umjetne inteligencije dok se u svakodnevnome govoru, ali i u dobrome dijelu medija upotrebljava ona na koju smo svi navikli – AI.\n\nCARNET se, dodaje zamjenik ravnatelja te ustanove, u službenim dokumentima vodi pojmovima koji se navode u višim propisima, ali: Kad god možemo, upotrebljavamo puni naziv umjetna inteligencija, ali za očekivati je da će se u neformalnoj komunikaciji upotrebljavati i hrvatska i engleska verzija pokrate. UI može biti zbunjujuće samo izvan konteksta, ali većinom se upotrebljava u komunikaciji ili tekstovima o umjetnoj inteligenciji pa je prilično jasno da se ne govori o korisničkome sučelju.\n\nTema prevođenja tehnoloških termina na hrvatski jezik uvijek je polarizirajuća i, priznajem, razumijem oba tabora. I one koji naglašavaju da nema razloga da baš uvijek i nekritički preuzimamo engleske riječi i pokrate jer imamo adekvatne riječi u hrvatskome jeziku, ali i one koji podsjećaju na to da je engleski jezik jednostavno neslužbeni službeni jezik tehnologije, koja se razvija toliko brzo da se ti termini udomaće prije nego ih stignemo prevesti.\n\nErak Camaj, osim prevođenjem u institucijama EU-a, kao suosnivačica svojega startupa bavi se i umjetnom inteligencijom, odnosno prirodnom obradom jezika. S obzirom na to da stoji, kako kaže, s po jednom nogom u oba svijeta, ona se, priznaje, zna zbuniti: „U profesionalnome se radu dotičem i umjetne inteligencije i rada u institucijama, pa me pokrata UI ponekad zbunjuje i često u mikrofon ispalim AI! Svejedno, čini mi se da će, barem u okvirima europskih institucija, pokrata UI za umjetnu inteligenciju s vremenom postati uvriježena, a vjerujem da će se uvriježiti i u mojemu vokabularu. U svijetu stvarne primjene svakako će ostati AI.”\n\nPrilagođeno prema: www.netokracija.com"
+                    },
+                    "questions": [
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koja je namjena teksta?",
+                            "choices": [
+                                "potaknuti korištenje umjetne inteligencije",
+                                "informirati o prednostima i nedostatcima",
+                                "uputiti na uporabu različitih pokrata",
+                                "poučiti o terminologiji institucija EU-a"
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koja je najčešća tema rasprava o umjetnoj inteligenciji prema CARNET-u?",
+                            "choices": [
+                                "nazivlje",
+                                "utjecaj medija",
+                                "korisnička sučelja",
+                                "prijetnja opstanku čovječanstva"
+                            ],
+                            "correctChoice": "D"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Zašto pojedinci nerado rabe pokratu UI za umjetnu inteligenciju?",
+                            "choices": [
+                                "proizašla je iz neformalnoga govora",
+                                "ne odobravaju englesku inačicu",
+                                "u tehnologiji već označava drugi pojam",
+                                "nije u službenim dokumentima"
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koji je izvor prevoditeljima EU-a najvažniji pri odabiru terminologije?",
+                            "choices": [
+                                "službeni dokumenti",
+                                "osvrti radnih skupina",
+                                "govorna praksa",
+                                "prijevodi drugih organizacija"
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Što je iskazano o Neveni Erak Camaj?",
+                            "choices": [
+                                "pravnica je",
+                                "bavi se poduzetništvom",
+                                "članica je Parlamenta",
+                                "kreirala je Akt"
+                            ],
+                            "correctChoice": "B"
+                        }
+                    ]
+                },
+                {
+                    "info": "Zadatci 26. – 30. odnose se na Upute za pisanje seminarskoga i diplomskoga rada.",
+                    "questions": [
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koja je namjena uvodnoga dijela?",
+                            "choices": [
+                                "informirati o nastanku uputa",
+                                "uspostaviti suradnju s poduzećima",
+                                "predstaviti fakultet",
+                                "pomoći u pisanju radova"
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Što se postiže izravnim obraćanjem čitateljima?",
+                            "choices": [
+                                "etičko upozorenje",
+                                "kritički stav",
+                                "objektivnost",
+                                "akademska jednakost"
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koja je tvrdnja iskazana u tekstu?",
+                            "choices": [
+                                "studenti su izradili upute",
+                                "upute su ujednačene na fakultetskoj razini",
+                                "prve standardizirane upute objavljene su 1996.",
+                                "upute su nadopunjene digitalnim izdanjima"
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Za koji je stil karakteristična struktura teksta?",
+                            "choices": [
+                                "administrativni",
+                                "književnoumjetnički",
+                                "publicistički",
+                                "razgovorni"
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "U kojoj je rečenici iskazana subjektivnost autorica?",
+                            "choices": [
+                                "Upute se objavljuju s namjerom pomoći.",
+                                "nemojte zaboraviti da ste student našega fakulteta",
+                                "Preporučljiv je opseg 10 – 15 stranica.",
+                                "Diplomski je rad samostalan stručan rad."
+                            ],
+                            "correctChoice": "B"
+                        }
+                    ],
+                    "initialText": {
+                        "text": "Upute za pisanje seminarskoga i diplomskoga rada\n\n 1. UVOD\n Upute koje slijede rezultat su prikupljanja, raščlambe, razrade, uopćavanja i preinake različitih dosad\n objavljenih informacija o pisanju stručnih i znanstvenih radova. Glavni izvori podataka za njihovu\n izradu bili su interni materijali pripremani za studente Ekonomskoga fakulteta u Zagrebu, odnosno\n već objavljeni priručnici i knjige u kojima su se mogle pronaći informacije o pisanju i oblikovanju\n stručnih i znanstvenih radova. Upute za pisanje seminarskoga i diplomskoga rada objavljuju se\n s namjerom da studentima pomognu pri izradi seminarskih radova i diplomskoga rada. Skupina\n asistenata Ekonomskoga fakulteta u Zagrebu ponukana brojnim upitima i neupućenošću studenata,\n odlučila je 1996. godine izraditi upute za pisanje seminarskih i diplomskih radova. Prva inačica\n uputa dorađena je 1999. godine. Upute su dopunili suvremenim znanjima iz područja pisanja\n stručnih radova, kao što su primjena računala i pojava digitalnih publikacija. Navedene su upute\n korištene neobvezatno, a ponajprije su ih rabili njihovi urednici i priređivači. Stoga je 2002. godine\n uprava Ekonomskoga fakulteta u Zagrebu odlučila standardizirati upute za pisanje seminarskih i\n diplomskih radova na razini Fakulteta.\n Pri izradi seminarskoga, a posebice diplomskoga rada, studenti često posjećuju različita poduzeća\n i/ili ustanove, ovisno o izabranome području i predmetu rada. Tijekom posjeta nemojte zaboraviti\n da ste student našega Ekonomskog fakulteta u Zagrebu te da u tome svojstvu predstavljate\n Fakultet i Sveučilište. Stoga, neka vaše ponašanje bude na akademskoj razini, a dojam koji ostavite\n besprijekoran. Imajte na umu da će zahvaljujući takvomu ponašanju biti uspješnije ostvarena\n buduća suradnja sa studentima Fakulteta, koji će sličan ili isti projekt raditi nekom drugom prilikom.\n                                                                                               Urednice\n 2. SVRHA PISANJA RADA\n 2.1. Svrha seminarskoga rada\n Seminarski rad stručna je obrada izabrane teme. Izradom seminarskoga rada student pokazuje\n teorijsko i praktično znanje, kao i sposobnost služenja aktualnom domaćom i stranom literaturom\n u pisanoj obradi. Ciljevi su izrade seminarskoga rada: proširenje i produbljivanje znanja iz\n sadržaja nastavnoga programa, stjecanje iskustva u pisanju stručnih radova. Preporučljiv je opseg\n seminarskoga rada 10 – 15 stranica.\n 2.2. Svrha diplomskoga rada\n Diplomski je rad samostalan stručan rad u kojemu student pod vodstvom nastavnika mentora obrađuje\n izabranu temu. Student koji je položio ispite, izradio seminarske radove i izvršio druge obveze\n predviđene nastavnim planom i programom studija, izradom diplomskoga rada dokazuje sposobnost\n samostalnoga rješavanja složenoga problema. Ciljevi su izrade diplomskoga rada dokazati: sposobnost\n primjene teorijskih i praktičnih znanja stečenih tijekom studija, sposobnost primjene znanstvenih metoda\n i instrumentarija u obradi problema i izradi rada, sposobnost samostalnoga služenja odgovarajućom\n domaćom i inozemnom literaturom, tj. korištenje spoznaja, činjenica i stavova objavljenih u navedenim\n izvorima. Preporučljiv je opseg diplomskoga rada 30 – 50 stranica."
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Književnost i Hrvatski Jezik",
+            "predictedTime": 0,
+            "potentialPoints": 32,
+            "questionGroups": [
+                {
+                    "info": "II. Književnost (31. – 42.)",
+                    "questions": [
+                        {
+                            "type": "SingleChoice",
+                            "question": "U kojem je primjeru upotrijebljena metonimija?",
+                            "choices": [
+                                "selo pruža molbu tornja",
+                                "kao samrt tamna",
+                                "Ljubav bol je najveća",
+                                "ja sam mrtvac"
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koja se tvrdnja ne odnosi na početak Judite?",
+                            "choices": [
+                                "prisutna je invokacija",
+                                "izrazi su u inverziji",
+                                "ostvaren je deus ex machina",
+                                "stihovi su dvostrukorimovani dvanaesterci"
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Za koju je vrstu karakteristična retardacija?",
+                            "choices": [
+                                "ep",
+                                "novelu",
+                                "lirsku pjesmu",
+                                "dramu u stihu"
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Kojemu tipu romana pripada djelo s Wertherovim pismom?",
+                            "choices": [
+                                "epistolarnomu",
+                                "monološko-asocijativnomu",
+                                "romanu ideja",
+                                "struji svijesti"
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koja se tvrdnja odnosi na hrvatsku renesansnu književnost?",
+                            "choices": [
+                                "katolička obnova i kićenost",
+                                "narodni preporod",
+                                "regionalizam i kritika stvarnosti",
+                                "književni krugovi na obali i sklad"
+                            ],
+                            "correctChoice": "D"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koje razdoblje započinje Matoševom novelom Moć savjesti?",
+                            "choices": [
+                                "renesansa",
+                                "barok",
+                                "realizam",
+                                "moderna"
+                            ],
+                            "correctChoice": "D"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Tko je pisao dijalektalnu poeziju na istarskoj čakavštini?",
+                            "choices": [
+                                "Antun Branko Šimić",
+                                "Silvije Strahimir Kranjčević",
+                                "Tin Ujević",
+                                "Vladimir Nazor"
+                            ],
+                            "correctChoice": "D"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "S kojim djelom Kiklop uspostavlja vezu spominjanjem Yoricka?",
+                            "choices": [
+                                "Hamlet",
+                                "Patnje mladog Werthera",
+                                "Preobražaj",
+                                "Zločin i kazna"
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koji je ep barokni?",
+                            "choices": [
+                                "Judita",
+                                "Osman",
+                                "Eneida",
+                                "Smrt Smail-age Čengića"
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Iz kojega je djela ulomak o kanoniku Vukasoviću i Gaju?",
+                            "choices": [
+                                "Kiklop",
+                                "Kip domovine leta 188*",
+                                "Posljednji Stipančići",
+                                "Prijan Lovro"
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Na koji se Matošev lik odnosi opis pogibije pod mađarskim vojnicima?",
+                            "choices": [
+                                "Fanny",
+                                "Kamenski",
+                                "Pepica",
+                                "Solus"
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Tko govori Beatrice o čistoj ruci na tamnoj glavobolji?",
+                            "choices": [
+                                "Hamlet",
+                                "Leone Glembay",
+                                "Melkior Tresić",
+                                "Werther"
+                            ],
+                            "correctChoice": "B"
+                        }
+                    ]
+                },
+                {
+                    "info": "III. Hrvatski jezik (43. – 58.5.)",
+                    "questions": [
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koja je rečenica točna prema pisanju velikoga i maloga slova?",
+                            "choices": [
+                                "Modra lasta, Školska knjiga",
+                                "Nobelova Nagrada za Književnost",
+                                "mali Indijski mungos",
+                                "Velika Sveta Džamija Aje Sofije"
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koja je riječ napisana u skladu s normom?",
+                            "choices": [
+                                "djevojćin",
+                                "pješćan",
+                                "smećkast",
+                                "zapećen"
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "U kojoj je rečenici podcrtana riječ naglašena?",
+                            "choices": [
+                                "Je li im se svidio?",
+                                "Nije ih uspjela donijeti.",
+                                "Marko će mu povjerovati.",
+                                "Jesi li ti svjestan opasnosti?"
+                            ],
+                            "correctChoice": "D"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koja je oblikotvorna osnova u riječi gledateljica?",
+                            "choices": [
+                                "gled-",
+                                "gleda-",
+                                "gledatelj-",
+                                "gledateljic-"
+                            ],
+                            "correctChoice": "D"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "U kojoj je rečenici upotrijebljen načinski prilog?",
+                            "choices": [
+                                "poput mrava",
+                                "predivno selo",
+                                "kao da mu je...",
+                                "Slučajno je ugledao..."
+                            ],
+                            "correctChoice": "D"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koliko se različitih glagolskih vremena pojavljuje u rečenici?",
+                            "choices": [
+                                "dva",
+                                "tri",
+                                "četiri",
+                                "pet"
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koja je zamjenica u dativu?",
+                            "choices": [
+                                "toj",
+                                "im",
+                                "ju",
+                                "njima"
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koja je rečenica u skladu s normom standardnog jezika?",
+                            "choices": [
+                                "Znaš vrlo dobro da me to smeta.",
+                                "Ne mogu vjerovati da si me lagala.",
+                                "Ana se suosjećala...",
+                                "Matija oženio Sanju."
+                            ],
+                            "correctChoice": "D"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "U kojoj je rečenici šuma izravni objekt?",
+                            "choices": [
+                                "stigli u šumu",
+                                "pomišljao na šumu",
+                                "otac je kupio šumu",
+                                "novac za šumu"
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koja rečenica nije besubjektna?",
+                            "choices": [
+                                "Sniježi.",
+                                "Svitalo je.",
+                                "Šuška se.",
+                                "Budimo se."
+                            ],
+                            "correctChoice": "D"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koja je tvorenica nastala čistim slaganjem?",
+                            "choices": [
+                                "blagdan",
+                                "brodovlasnički",
+                                "jugozapad",
+                                "suncobran"
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Kojim leksemima pripada Vinkovčani?",
+                            "choices": [
+                                "egzonimima",
+                                "ekonimima",
+                                "eponimima",
+                                "etnicima"
+                            ],
+                            "correctChoice": "D"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koji je frazem bliskoznačan naglu i nepromišljenu postupanju?",
+                            "choices": [
+                                "hodati po jajima",
+                                "ići grlom u jagode",
+                                "kupiti mačka u vreći",
+                                "dolijevati ulje na vatru"
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koja je rečenica na kajkavskom narječju?",
+                            "choices": [
+                                "Saka me kotriga boli...",
+                                "Bukar je zaspa...",
+                                "U život treba poći...",
+                                "Vajalo bi posteje..."
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Kolikojezičan je prvi hrvatski rječnik?",
+                            "choices": [
+                                "dvojezičan",
+                                "trojezičan",
+                                "četverojezičan",
+                                "peterojezičan"
+                            ],
+                            "correctChoice": "D"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "58.1. ___ pročitaj tekst o drami Nora ili Lutkina kuća.",
+                            "choices": [
+                                "Pomno",
+                                "Pronicljivo",
+                                "Sadržajno",
+                                "Skladno"
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "58.2. ___, u trenutku kad uviđa... Nora donosi odluku.",
+                            "choices": [
+                                "Naime",
+                                "Naravno",
+                                "Štoviše",
+                                "Zaista"
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "58.3. Nora donosi ___ odluku.",
+                            "choices": [
+                                "drastičnu",
+                                "letargičnu",
+                                "nehotičnu",
+                                "skeptičnu"
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "58.4. Drama problematizira ___ odnose.",
+                            "choices": [
+                                "patricijske",
+                                "patrijarhalne",
+                                "patriotske",
+                                "patronažne"
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "58.5. ___ svoj odgovor.",
+                            "choices": [
+                                "Anticipiraj",
+                                "Argumentiraj",
+                                "Asociraj",
+                                "Ažuriraj"
+                            ],
+                            "correctChoice": "B"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Sažetak",
+            "predictedTime": 80,
+            "potentialPoints": 10,
+            "instructions": "Napišite sažetak od 200 do 250 riječi kao zaokruženu cjelinu s uvodom, razradom i zaključkom.",
+            "questionGroups": [
+                {
+                    "info": "Mija Dropuljić, Put putujem",
+                    "questions": [
+                        {
+                            "type": "EssayWriting",
+                            "question": "Sažmite polazni tekst svojim riječima: navedite opće podatke, namjenu i temu, osnovne misli s pojedinostima koje ih podupiru te autorov stav.",
+                            "points": [
+                                {
+                                    "category": "Sadržaj, organizacija i stil, jezična točnost",
+                                    "points": 10
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Školski Esej",
+            "predictedTime": 160,
+            "potentialPoints": 38,
+            "instructions": "Napišite školski esej slijedeći priložene upute.",
+            "questionGroups": [
+                {
+                    "info": "Franz Kafka, Preobražaj",
+                    "questions": [
+                        {
+                            "type": "EssayWriting",
+                            "question": "Polazno pitanje: Na koji način posao i obiteljska očekivanja oblikuju Gregorov život? U uvodu predstavite autora i djelo te oblikujte tvrdnju. U razradi argumentirajte tvrdnju iz djela u cjelini, analizom polaznoga teksta i književnopovijesnim kontekstom. Zaključno sažeto istaknite najvažnije.",
+                            "points": [
+                                {
+                                    "category": "Sadržaj",
+                                    "points": 38
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
 }

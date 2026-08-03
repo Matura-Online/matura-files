@@ -1,0 +1,680 @@
+{
+    "name": "Engleski",
+    "level": "B",
+    "maxPoints": 85,
+    "scale": {
+        "range1": [
+            0,
+            35.99
+        ],
+        "range2": [
+            36,
+            55.99
+        ],
+        "range3": [
+            56,
+            73.99
+        ],
+        "range4": [
+            74,
+            86.99
+        ],
+        "range5": [
+            87,
+            100
+        ]
+    },
+    "sections": [
+        {
+            "name": "Čitanje i Pisanje",
+            "predictedTime": 75,
+            "potentialPoints": 30,
+            "questionGroups": [
+                {
+                    "info": "Reading Task 1 (questions 1-5).",
+                    "initialText": {
+                        "text": "Task 1\n   Questions 1-5\n\n   Match each message (1-5) and its meaning (A-F).\n   There is one letter that you do not need.\n   Mark your answer on the answer sheet.\n   There is an example at the beginning (0).\n\n\n   0    Can you please lend me your notebook? I will return it as soon as possible. I give you\n        my word.\n\n   1    I won’t come back to say goodbye, so please drive safely and have a nice trip.\n\n   2    He promised to return with the book tonight so I’ll give you a ring when he gets home.\n\n   3    I can’t tell you how terrible I feel about the whole thing with Jack but please understand, I just\n        couldn’t call you. I know I should have.\n\n   4    What have you decided about Eugene’s promise? Let me know right away. I’ll be by the phone\n        so don’t keep me waiting.\n\n   5    I called you to tell you how much I miss you and need you here so make my wish come true\n        and don’t stay away any longer.\n\n\n\n\n   A    I’ll call you.\n\n   B    I’m sorry.                                                       A   B   C   D   E    F   G\n\n   C    Take care.\n                                                                     0                            X\n                                                                     1\n   D    Call me.\n                                                                     2\n   E    Promise me.\n                                                                     3\n   F    Come back.                                                   4\n   G    I promise.                                                   5\n\n\n\n       ENG B IK-1 D-S049\n                                                                                                         02\n\n                                                      4\n\nEngleski jezik\nReading Paper"
+                    },
+                    "questions": [
+                        {
+                            "type": "MatchThePairs",
+                            "options": [
+                                {
+                                    "id": "A",
+                                    "type": "letter",
+                                    "textOrAudio": "I’ll call you."
+                                },
+                                {
+                                    "id": "B",
+                                    "type": "letter",
+                                    "textOrAudio": "I’m sorry.                                                       A   B   C   D   E    F   G"
+                                },
+                                {
+                                    "id": "C",
+                                    "type": "letter",
+                                    "textOrAudio": "Take care."
+                                },
+                                {
+                                    "id": "D",
+                                    "type": "letter",
+                                    "textOrAudio": "Call me."
+                                },
+                                {
+                                    "id": "E",
+                                    "type": "letter",
+                                    "textOrAudio": "Promise me."
+                                },
+                                {
+                                    "id": "F",
+                                    "type": "letter",
+                                    "textOrAudio": "Come back.                                                   4"
+                                },
+                                {
+                                    "id": "1",
+                                    "type": "number",
+                                    "textOrAudio": "I won’t come back to say goodbye, so please drive safely and have a nice trip."
+                                },
+                                {
+                                    "id": "2",
+                                    "type": "number",
+                                    "textOrAudio": "He promised to return with the book tonight so I’ll give you a ring when he gets home."
+                                },
+                                {
+                                    "id": "3",
+                                    "type": "number",
+                                    "textOrAudio": "I can’t tell you how terrible I feel about the whole thing with Jack but please understand, I just couldn’t call you. I know I should have."
+                                },
+                                {
+                                    "id": "4",
+                                    "type": "number",
+                                    "textOrAudio": "What have you decided about Eugene’s promise? Let me know right away. I’ll be by the phone so don’t keep me waiting."
+                                },
+                                {
+                                    "id": "5",
+                                    "type": "number",
+                                    "textOrAudio": "I called you to tell you how much I miss you and need you here so make my wish come true and don’t stay away any longer."
+                                }
+                            ],
+                            "pairs": [
+                                {
+                                    "letter": "C",
+                                    "number": "1"
+                                },
+                                {
+                                    "letter": "A",
+                                    "number": "2"
+                                },
+                                {
+                                    "letter": "B",
+                                    "number": "3"
+                                },
+                                {
+                                    "letter": "D",
+                                    "number": "4"
+                                },
+                                {
+                                    "letter": "F",
+                                    "number": "5"
+                                }
+                            ],
+                            "whatFirst": "letters"
+                        }
+                    ]
+                },
+                {
+                    "info": "Reading Task 2 (questions 6-10).",
+                    "initialText": {
+                        "text": "Task 2\n   Questions 6-10\n\n   You will read five emails.\n   For questions 6-10, choose the correct answer (A, B or C).\n   Mark your answer on the answer sheet.\n\n\n\n\n   6    Hi Jeff!\n        I’m taking the plane to Lisbon tomorrow and will spend two months there. I’ve\n        finally got that scholarship for the management course I was telling you about.\n        It’s going to be a lot of work but I’m looking forward to it. It will be like a holiday\n        compared to studying back home.\n        Dana\n\n        Why is Dana going to Lisbon?\n                                                                                                  A.\n         A To study.                                                                              B.\n         B To work.\n                                                                                                  C.\n         C To have a holiday.\n\n\n\n\n   7    Hi!\n        Jane and I decided to do some chores around the house. And you know my Mum\n        never lets us clean the windows. I don’t know why. So it was either the washing up\n        or washing the car. Since the dishes are Jane’s favourite, you know what I was left\n        with.\n        See you soon.\n        Martha\n\n        Which chore did Martha do?                                                                A.\n                                                                                                  B.\n         A She cleaned the windows.\n         B She did the washing up.                                                                C.\n         C She washed the car.\n\n\n\n\n       ENG B IK-1 D-S049\n                                                                                                       01\n\n                                                        5\n\nEngleski jezik\nReading Paper\n\n\n   8    Hi Tina!\n        When we talked this morning you said you were too busy to get together in the\n        afternoon, so we agreed to meet in the evening. But we’re having guests this\n        evening so I’m busy then. How about an early start tomorrow?\n        Anna\n\n        When does Anna want to meet Tina?\n\n         A In the evening.                                                              A.\n         B Tomorrow morning.                                                            B.\n         C Tomorrow afternoon.\n                                                                                        C.\n\n\n\n\n   9    Hi!\n        Thank you for joining my campaign to shop at the local grocer’s.\n        I buy groceries in the shop nearby although it’s more expensive than the\n        supermarket. It’s a two-minute walk to the supermarket and five to the shop,\n        but I feel I’m doing something for the local shop owners.\n        Tom\n\n        Why does Tom shop at the local grocery store?\n                                                                                        A.\n         A He wants to help the owner.                                                  B.\n         B The owner has the best prices.\n                                                                                        C.\n         C It is closest to his home.\n\n\n\n\n       ENG B IK-1 D-S049\n                                                                                             01\n\n                                                    6\n\nEngleski jezik\nReading Paper\n\n\n   10 Hi Mike,\n       We said we’d meet at my place, but I ran into John in the park and he told me we\n       were meeting in front of the cinema. Now I’m confused. So let’s go with the first\n       thing we agreed on so we don’t miss each other.\n       Mary\n\n       Where are Mike, John and Mary meeting?\n\n       A In front of the cinema.                                                           A.\n       B At Mary’s place.                                                                  B.\n       C In the park.\n                                                                                           C.\n\n\n\n\n     ENG B IK-1 D-S049\n                                                                                                01\n\n                                                   7\n\nEngleski jezik\nReading Paper"
+                    },
+                    "questions": [
+                        {
+                            "type": "SingleChoice",
+                            "question": "Why is Dana going to Lisbon?",
+                            "choices": [
+                                "A To study.",
+                                "B To work.",
+                                "C To have a holiday."
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Hi! Jane and I decided to do some chores around the house. And you know my Mum never lets us clean the windows. I don’t know why. So it was either the washing up or washing the car. Since the dishes are Jane’s favourite, you know what I was left with. See you soon. Martha Which chore did Martha do?",
+                            "choices": [
+                                "A She cleaned the windows.",
+                                "B She did the washing up.",
+                                "C She washed the car."
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "When does Anna want to meet Tina?",
+                            "choices": [
+                                "A In the evening.",
+                                "B Tomorrow morning.",
+                                "C Tomorrow afternoon."
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Why does Tom shop at the local grocery store?",
+                            "choices": [
+                                "A He wants to help the owner.",
+                                "B The owner has the best prices.",
+                                "C It is closest to his home."
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Where are Mike, John and Mary meeting?",
+                            "choices": [
+                                "A In front of the cinema.",
+                                "B At Mary’s place.",
+                                "C In the park."
+                            ],
+                            "correctChoice": "B"
+                        }
+                    ]
+                },
+                {
+                    "info": "Reading Task 3 (questions 11-15).",
+                    "initialText": {
+                        "text": "Task 3\n   Questions 11-15\n\n   Read the text below.\n   For questions 11-15, write one or two words, or a number.\n   Write your answers on the lines below the text.\n   There is an example at the beginning (0).\n\n\n                                             Professional Queuer\n\n   The economic crisis has created two big problems; unemployment and long queues in public\n   offices. Well, one Italian man of Greek origin, decided to kill two birds with one stone by coming up\n   with a solution for both problems at once. He became a professional queuer.\n   Dimitri Rosi was born in Salerno, in the south of Italy, after his mother had moved there from her\n   home town in Greece. They spoke Greek at home so he had problems getting rid of his foreign\n   accent when he came to school. He lived in Salerno until 25, and as a chemistry graduate he\n   moved to Milan and he has lived there ever since. After years of working as a researcher, he lost his\n   job two years ago at the age of 40.\n   After sending numerous unsuccessful applications he came up with an original self-employment\n   idea: he offered people to stand in queues instead of them at the post office, bank or government\n   offices. He charges 10 € an hour and so far, business is booming. “I’ve had calls from other towns\n   where I could make up to 12 € per hour. If all goes well, I’ll start an agency”, he said in an interview.\n   “Not only that, I plan to get a degree in marketing, and besides my native Greek, I also speak\n   English and Italian and I plan to sell my idea abroad”, he added enthusiastically.\n\n\n\n\n    0 Nationality:                                 Italian\n                                            ___\n   11 Age:                                  ___\n   12 Previous job:                         ___\n   13 Degree in:                            ___\n   14 Fee per hour:                         ___\n   15 Town of residence:                    ___\n\n\n\n\n     ENG B IK-1 D-S049\n                                                                                                         02\n\n                                                      8\n\nEngleski jezik\nReading Paper"
+                    },
+                    "questions": [
+                        {
+                            "type": "FillInChoices",
+                            "correctChoices": [
+                                {
+                                    "index": 11,
+                                    "letter": "forty-two",
+                                    "answers": [
+                                        "forty-two"
+                                    ]
+                                },
+                                {
+                                    "index": 12,
+                                    "letter": "researcher",
+                                    "answers": [
+                                        "researcher"
+                                    ]
+                                },
+                                {
+                                    "index": 13,
+                                    "letter": "Chemistry",
+                                    "answers": [
+                                        "Chemistry"
+                                    ]
+                                },
+                                {
+                                    "index": 14,
+                                    "letter": "ten",
+                                    "answers": [
+                                        "ten"
+                                    ]
+                                },
+                                {
+                                    "index": 15,
+                                    "letter": "Milan",
+                                    "answers": [
+                                        "Milan"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "info": "Reading Task 4 (questions 16-20).",
+                    "initialText": {
+                        "text": "Task 4\n   Questions 16-20\n\n   Read the text below.\n   For questions 16-20, choose from A-F to complete the sentences.\n   There is one letter that you do not need. Mark your answer on the answer sheet.\n   There is an example at the beginning (0).\n\n\n                                                 Pac-Man\n\n\n   In 1980 the Japanese arcade games manufacturer Namco Limited introduced Pac-Man to the\n   world. They intended to create a game (0) ___. By paying careful attention to themes, design,\n   and colours, they hoped (16) ___. The game concept was inspired by food and eating. The\n   players moved through a simple maze with a joystick, eating coloured dots until all were gone,\n   (17) ___.\n   In Japanese slang, paku paku describes the snapping of a mouth open and shut, so (18) ___.\n   A group of four enemies, on each level, (19) ___, make the game challenging.\n   The roles of predator and prey are temporarily switched (20) ___.\n   Pac-Man quickly became an international sensation, the most successful arcade game in history.\n   With its innovative design, Pac-Man had a greater impact on popular culture than any other video\n   game.\n\n\n\n\n   A    that provide Pac-Man with the temporary ability to eat the enemies\n\n   B    finally completing a level and moving on to the\n        next maze\n                                                                       A   B   C   D   E   F   G\n   C    the central character was given the name Pac-Man           0                           X\n   D    that this arcade game would appeal to women              16\n                                                                 17\n   E    when Pac-Man eats the special “power pills”\n                                                                 18\n   F    which try to catch and consume Pac-Man\n                                                                 19\n   G    that did not emphasize violence\n                                                                 20\n\n\n\n       ENG B IK-1 D-S049\n                                                                                                   02\n\n                                                      9\n\nEngleski jezik\nReading Paper"
+                    },
+                    "questions": [
+                        {
+                            "type": "FillInChoices",
+                            "correctChoices": [
+                                {
+                                    "index": 16,
+                                    "letter": "D",
+                                    "answers": [
+                                        "D"
+                                    ]
+                                },
+                                {
+                                    "index": 17,
+                                    "letter": "B",
+                                    "answers": [
+                                        "B"
+                                    ]
+                                },
+                                {
+                                    "index": 18,
+                                    "letter": "C",
+                                    "answers": [
+                                        "C"
+                                    ]
+                                },
+                                {
+                                    "index": 19,
+                                    "letter": "F",
+                                    "answers": [
+                                        "F"
+                                    ]
+                                },
+                                {
+                                    "index": 20,
+                                    "letter": "E",
+                                    "answers": [
+                                        "E"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "info": "Reading Task 5 (questions 21-25).",
+                    "initialText": {
+                        "text": "Task 5\n   Questions 21-25\n\n   Read the text below.\n   For questions 21-25, choose the answer (A, B or C) which best completes each sentence.\n   Mark your answer on the answer sheet.\n   There is an example at the beginning (0).\n\n\n   Dear Harriet,\n\n   Thanks (0) ___ your e-mail. They’re always (21) ___ pleasure to receive. You really know\n   how to cheer me (22) ___.\n   You asked me (23) ___ I had spent the summer. Well, it was not the best summer of my life.\n   First, I caught a cold and was sick for two weeks. Because of this, I (24) ___ go to the youth\n   camp and I spent a month in the stuffy city.\n   Then the weather turned bad and again I had to stay in. Only in August, I managed to go hiking\n   with friends. We had a lot of fun and sang songs around the campfire.\n   How is your new dog? Has she got (25) ___ to you? What do you feed her?\n   Well, I’ve got to go, it’s 11:00 pm and it’s time to sleep.\n\n   Take care of yourself,\n   Anne\n\n                                                                                               A.\n   0\n                                                                                               B.\n         A because                                                                             C.      X\n         B with\n         C for\n\n\n\n\n                                                                                               A.\n   21\n                                                                                               B.\n         A the                                                                                 C.\n         B Ø\n         C a\n\n\n\n\n       ENG B IK-1 D-S049\n                                                                                                       01\n\n                                                       10\n\nEngleski jezik\nReading Paper\n\n\n   22                         A.\n                              B.\n        A up\n                              C.\n        B by\n        C on\n\n\n\n\n                              A.\n   23\n                              B.\n        A when                C.\n        B how\n        C if\n\n\n\n                              A.\n   24\n                              B.\n        A shouldn’t           C.\n        B wouldn’t\n        C couldn’t\n\n\n\n\n                              A.\n   25\n                              B.\n        A using               C.\n        B used\n        C use\n\n\n\n\n     ENG B IK-1 D-S049\n                                   01\n\n                         11\n\nEngleski jezik\nReading Paper"
+                    },
+                    "questions": [
+                        {
+                            "type": "SingleChoice",
+                            "question": "They’re always (21) ___ pleasure to receive.",
+                            "choices": [
+                                "A the",
+                                "B Ø",
+                                "C a"
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "how to cheer me (22) ___.",
+                            "choices": [
+                                "A up",
+                                "B by",
+                                "C on"
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "You asked me (23) ___ I had spent the summer.",
+                            "choices": [
+                                "A when",
+                                "B how",
+                                "C if"
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Because of this, I (24) ___ go to the youth camp and I spent a month in the stuffy city.",
+                            "choices": [
+                                "A shouldn’t",
+                                "B wouldn’t",
+                                "C couldn’t"
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Has she got (25) ___ to you?",
+                            "choices": [
+                                "A using",
+                                "B used",
+                                "C use"
+                            ],
+                            "correctChoice": "B"
+                        }
+                    ]
+                },
+                {
+                    "info": "Reading Task 6 (questions 26-30).",
+                    "initialText": {
+                        "text": "Task 6\n   Questions 26-30\n\n   Read the text below.\n   For questions 26-30, write one word that best completes each sentence.\n   Write your answers on the lines below the text.\n   There is an example at the beginning (0).\n\n\n                                         The Lady of the Lake\n\n   The story goes that it was (0) ___ Llyn y Fan Fach, a remote lake in the Black Mountains,\n   where a young farmer named Gwyn won and then tragically lost the love of his life.\n   He fell in love with a beautiful woman who came from the water and agreed to marry him.\n   She warned (26) ___ that she would leave forever if he stepped on her toes three times.\n   They lived happily (27) ___ many years and had three sons. However, when Gwyn stepped on\n   her toe accidentally for the third time she disappeared into the lake and he (28) ___ saw her\n   again.\n   She would sometimes re-appear to her sons and teach them the powers (29) ___ healing herbs\n   and plants. They became skilful physicians, as (30) ___ their children after them.\n\n\n\n\n           on\n    0 ___\n\n   26 ___\n\n   27 ___\n\n   28 ___\n\n   29 ___\n\n   30 ___\n\n\n\n     ENG B IK-1 D-S049\n                                                                                                  02\n\n                                                  12\n\nEngleski jezik\nWriting Paper\n\n\n\n\n                         ISPIT PISANJA\n                         (Writing Paper)\n\n\n\n\n     ENG B IK-1 D-S049\n                                           00\n\n                                13\n\nEngleski jezik\nWriting Paper\n\n\n\n\n   Read the message from Moira.\n   Write Moira a reply. Answer all her questions.\n   Write 50-70 words. Write your reply on the next page.\n   Do not sign your full name.\n\n\n\n\n   Hi\n\n   I’ve started taking cooking classes and I can already prepare a few meals on my own.\n   What’s your favourite food and why?\n   When and where did you last eat out?\n   What’s your most important meal of the day and why?\n\n\n   Write back soon.\n\n   Moira\n\n\n\n\n                            Sastavak obvezatno napišite na list za čistopis.\n\n\n\n\n        ENG B IK-1 D-S049\n                                                                                          00\n\n                                                  14\n\nEngleski jezik\nList za čistopis\n\n\n\n\n      ENG B IK-1 D-S049\n                               03\n\n                          15\n\nEngleski jezik\n\n\n\n\n                               ca\n                               ni\n                          ra\n                      st\n                      a\n              zn\n      ra\n  P\n\n\n\n\n  ENG B IK-1 D-S049\n                                    99\n\n                          16"
+                    },
+                    "questions": [
+                        {
+                            "type": "FillInChoices",
+                            "correctChoices": [
+                                {
+                                    "index": 26,
+                                    "letter": "him",
+                                    "answers": [
+                                        "him"
+                                    ]
+                                },
+                                {
+                                    "index": 27,
+                                    "letter": "for",
+                                    "answers": [
+                                        "for"
+                                    ]
+                                },
+                                {
+                                    "index": 28,
+                                    "letter": "never",
+                                    "answers": [
+                                        "never"
+                                    ]
+                                },
+                                {
+                                    "index": 29,
+                                    "letter": "of",
+                                    "answers": [
+                                        "of"
+                                    ]
+                                },
+                                {
+                                    "index": 30,
+                                    "letter": "did",
+                                    "answers": [
+                                        "did"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "info": "Official B-level writing task.",
+                    "questions": [
+                        {
+                            "type": "EssayWriting",
+                            "question": "Official 2020 Jesen B writing task.",
+                            "minWords": 80,
+                            "maxWords": 100,
+                            "points": [
+                                {
+                                    "category": "Writing",
+                                    "points": 20
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Slušanje",
+            "predictedTime": 30,
+            "potentialPoints": 20,
+            "questionGroups": [
+                {
+                    "info": "Listening Task 1 (questions 1-5).",
+                    "initialText": {
+                        "text": "Task 1\n               Questions 1-5\n\n               You will hear five phone messages.\n               Match each message (1-5) and its meaning (A-F).\n               There is one letter that you do not need.\n               You will hear the recording twice.\n\n                                                                     A   B   C   D   E   F\n               A      Don’t give me away.\n                                                                 1\n               B      Do something now.\n                                                                 2\n               C      Give me a chance.\n                                                                 3\n               D      Stay away from it.\n               E      Keep in touch.                             4\n\n               F      Don’t leave.                               5\n\n\n\n\n                   ENG B IK-2 D-S049\n                                                                                             05\n\n                                                            5\n\n\n\nENG B IK-2 D-S049.indd 5                                                                     24.06.2020. 13:41:16\n\n          Engleski jezik\n          Listening Paper"
+                    },
+                    "questions": [
+                        {
+                            "type": "MatchThePairs",
+                            "options": [
+                                {
+                                    "id": "A",
+                                    "type": "letter",
+                                    "textOrAudio": "Don’t give me away."
+                                },
+                                {
+                                    "id": "B",
+                                    "type": "letter",
+                                    "textOrAudio": "Do something now."
+                                },
+                                {
+                                    "id": "C",
+                                    "type": "letter",
+                                    "textOrAudio": "Give me a chance."
+                                },
+                                {
+                                    "id": "D",
+                                    "type": "letter",
+                                    "textOrAudio": "Stay away from it."
+                                },
+                                {
+                                    "id": "E",
+                                    "type": "letter",
+                                    "textOrAudio": "Keep in touch.                             4"
+                                },
+                                {
+                                    "id": "F",
+                                    "type": "letter",
+                                    "textOrAudio": "Don’t leave.                               5"
+                                },
+                                {
+                                    "id": "1",
+                                    "type": "number",
+                                    "textOrAudio": "I won’t come back to say goodbye, so please drive safely and have a nice trip."
+                                },
+                                {
+                                    "id": "2",
+                                    "type": "number",
+                                    "textOrAudio": "He promised to return with the book tonight so I’ll give you a ring when he gets home."
+                                },
+                                {
+                                    "id": "3",
+                                    "type": "number",
+                                    "textOrAudio": "I can’t tell you how terrible I feel about the whole thing with Jack but please understand, I just couldn’t call you. I know I should have."
+                                },
+                                {
+                                    "id": "4",
+                                    "type": "number",
+                                    "textOrAudio": "What have you decided about Eugene’s promise? Let me know right away. I’ll be by the phone so don’t keep me waiting."
+                                },
+                                {
+                                    "id": "5",
+                                    "type": "number",
+                                    "textOrAudio": "I called you to tell you how much I miss you and need you here so make my wish come true and don’t stay away any longer. A I’ll call you. B I’m sorry. A B C D E F G C Take care."
+                                }
+                            ],
+                            "pairs": [
+                                {
+                                    "letter": "F",
+                                    "number": "1"
+                                },
+                                {
+                                    "letter": "D",
+                                    "number": "2"
+                                },
+                                {
+                                    "letter": "B",
+                                    "number": "3"
+                                },
+                                {
+                                    "letter": "A",
+                                    "number": "4"
+                                },
+                                {
+                                    "letter": "A",
+                                    "number": "5"
+                                }
+                            ],
+                            "whatFirst": "letters"
+                        }
+                    ],
+                    "initialAudio": "https://files.matura.top/2020/Jesen/Eng/B/Task1.opus"
+                },
+                {
+                    "info": "Listening Task 2 (questions 6-10).",
+                    "initialText": {
+                        "text": "Task 2\n               Questions 6-10\n\n               You will hear people talking in five situations.\n               For questions 6-10, choose the correct answer (A, B or C).\n               You will hear each recording twice.\n\n\n                                                                            A.\n               6      You hear a couple on a driving holiday in England.\n                      How long is it to the next destination?               B.\n                                                                            C.\n                       A About ten kilometres.\n                       B About ten miles.\n                       C About sixteen miles.\n\n\n                                                                            A.\n               7      You hear Frank talking to his mother on the phone.\n                      What is the password for his computer?                B.\n                                                                            C.\n                       A LUCY2JA\n                       B LUSY2GI\n                       C LUSI2JA\n\n\n                                                                            A.\n               8      You hear Jeremy talking to his friend.\n                      What time does Jeremy have to be at college?          B.\n                                                                            C.\n                       A 9:45\n                       B 10:15\n                       C 10:30\n\n\n\n               9      You hear two friends planning a trip to Edinburgh.    A.\n                      How will they go there?                               B.\n                                                                            C.\n                       A By car.\n                       B By plane.\n                       C By train.\n\n\n\n\n                   ENG B IK-2 D-S049\n                                                                                 01\n\n                                                                  6\n\n\n\nENG B IK-2 D-S049.indd 6                                                         24.06.2020. 13:41:16\n\n          Engleski jezik\n          Listening Paper\n\n\n               10 You hear Jackie leaving a voice message to her friend.   A.\n                       Where will they meet?                               B.\n                                                                           C.\n                       A At the pub.\n                       B At the cinema.\n                       C At the café.\n\n\n\n\n                   ENG B IK-2 D-S049\n                                                                                01\n\n                                                             7\n\n\n\nENG B IK-2 D-S049.indd 7                                                        24.06.2020. 13:41:16\n\n          Engleski jezik\n          Listening Paper"
+                    },
+                    "questions": [
+                        {
+                            "type": "SingleChoice",
+                            "question": "You hear a couple on a driving holiday in England. How long is it to the next destination?",
+                            "choices": [
+                                "A About ten kilometres.",
+                                "B About ten miles.",
+                                "C About sixteen miles."
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "You hear Frank talking to his mother on the phone. What is the password for his computer?",
+                            "choices": [
+                                "A LUCY2JA",
+                                "B LUSY2GI",
+                                "C LUSI2JA"
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "You hear Jeremy talking to his friend. What time does Jeremy have to be at college?",
+                            "choices": [
+                                "A 9:45",
+                                "B 10:15",
+                                "C 10:30"
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "You hear two friends planning a trip to Edinburgh. How will they go there?",
+                            "choices": [
+                                "A By car.",
+                                "B By plane.",
+                                "C By train."
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "You hear Jackie leaving a voice message to her friend. Where will they meet?",
+                            "choices": [
+                                "A At the pub.",
+                                "B At the cinema.",
+                                "C At the café."
+                            ],
+                            "correctChoice": "B"
+                        }
+                    ],
+                    "initialAudio": "https://files.matura.top/2020/Jesen/Eng/B/Task2.opus"
+                },
+                {
+                    "info": "Listening Task 3 (questions 11-15).",
+                    "initialText": {
+                        "text": "Task 3\n               Questions 11-15\n\n               You will hear a radio interview with Anna Pratt about writing.\n               For questions 11-15, choose the correct answer (A, B or C).\n               You will hear the recording twice.\n\n\n                                                                                A.\n               11 What kind of books did Anna like to read most as a child?\n                                                                                B.\n                       A Fairy tales.                                           C.\n                       B Biographies.\n                       C Mysteries.\n\n\n\n\n                                                                                A.\n               12 Who did Anna share her first stories with?\n                                                                                B.\n                       A Her teacher.                                           C.\n                       B Her friends.\n                       C No one.\n\n\n\n\n               13 What is Anna’s new book about?                                A.\n                                                                                B.\n                       A Her youth.\n                                                                                C.\n                       B Her students.\n                       C Her travels.\n\n\n\n\n                                                                                A.\n               14 What advice does Anna give beginner writers?\n                                                                                B.\n                       A Write your story.\n                                                                                C.\n                       B Listen to your publisher.\n                       C Read other writers’ books.\n\n\n\n\n                   ENG B IK-2 D-S049\n                                                                                     01\n\n                                                                 8\n\n\n\nENG B IK-2 D-S049.indd 8                                                             24.06.2020. 13:41:16\n\n          Engleski jezik\n          Listening Paper\n\n                                                             A.\n               15 What is the next thing Anna will do?\n                                                             B.\n                       A Write a new book.\n                                                             C.\n                       B Give a talk.\n                       C Go on a tour.\n\n\n\n\n                   ENG B IK-2 D-S049\n                                                                  01\n\n                                                         9\n\n\n\nENG B IK-2 D-S049.indd 9                                          24.06.2020. 13:41:16\n\n          Engleski jezik\n          Listening Paper"
+                    },
+                    "questions": [
+                        {
+                            "type": "SingleChoice",
+                            "question": "What kind of books did Anna like to read most as a child?",
+                            "choices": [
+                                "A Fairy tales.",
+                                "B Biographies.",
+                                "C Mysteries."
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Who did Anna share her first stories with?",
+                            "choices": [
+                                "A Her teacher.",
+                                "B Her friends.",
+                                "C No one."
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "What is Anna’s new book about?",
+                            "choices": [
+                                "A Her youth.",
+                                "B Her students.",
+                                "C Her travels."
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "What advice does Anna give beginner writers?",
+                            "choices": [
+                                "A Write your story.",
+                                "B Listen to your publisher.",
+                                "C Read other writers’ books."
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "What is the next thing Anna will do?",
+                            "choices": [
+                                "A Write a new book.",
+                                "B Give a talk.",
+                                "C Go on a tour."
+                            ],
+                            "correctChoice": "B"
+                        }
+                    ],
+                    "initialAudio": "https://files.matura.top/2020/Jesen/Eng/B/Task3.opus"
+                },
+                {
+                    "info": "Listening Task 4 (questions 16-20).",
+                    "initialText": {
+                        "text": "Task 4\n               Questions 16-20\n\n               You will hear a teacher talking to his students about a visit to the town of Brighton.\n               For questions 16-20, choose the correct answer (A, B or C).\n               You will hear the recording twice.\n\n\n                                                                                                        A.\n               16 The students have to be in Brighton at\n                                                                                                        B.\n                       A 8:15.                                                                          C.\n                       B 9:50.\n                       C 10:00.\n\n\n\n\n                                                                                                        A.\n               17 In the aquarium, the students will be able to get a guide book\n                                                                                                        B.\n                       A for half the price.                                                            C.\n                       B at a 10% discount.\n                       C for free.\n\n\n\n\n                                                                                                        A.\n               18 After their visit to Sea World the students will first go to\n                                                                                                        B.\n                       A the Brighton beach.                                                            C.\n                       B the city centre.\n                       C the Royal Pavilion.\n\n\n\n\n                                                                                                        A.\n               19 In their free time in the city centre the teacher recommends that they\n                                                                                                        B.\n                       A take a walk.                                                                   C.\n                       B visit the shops.\n                       C have a meal.\n\n\n\n\n                   ENG B IK-2 D-S049\n                                                                                                             01\n\n                                                                  10\n\n\n\nENG B IK-2 D-S049.indd 10                                                                                    24.06.2020. 13:41:16\n\n          Engleski jezik\n          Listening Paper\n\n                                                                         A.\n               20 The group plans to leave Brighton at 5:00 because of\n                                                                         B.\n                       A the students.\n                                                                         C.\n                       B the teacher.\n                       C the traffic.\n\n\n\n\n                   ENG B IK-2 D-S049\n                                                                              01\n\n                                                             11\n\n\n\nENG B IK-2 D-S049.indd 11                                                     24.06.2020. 13:41:16\n\n          Engleski jezik\n\n\n\n\n                                                ca\n                                             ni\n                                           ra\n                                       st\n                                       a\n                               zn\n                  ra\n                 P\n\n\n\n\n                   ENG B IK-2 D-S049\n                                                     99\n\n                                           12\n\n\n\nENG B IK-2 D-S049.indd 12                            24.06.2020. 13:41:16"
+                    },
+                    "questions": [
+                        {
+                            "type": "SingleChoice",
+                            "question": "The students have to be in Brighton at",
+                            "choices": [
+                                "A 8:15.",
+                                "B 9:50.",
+                                "C 10:00."
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "In the aquarium, the students will be able to get a guide book",
+                            "choices": [
+                                "A for half the price.",
+                                "B at a 10% discount.",
+                                "C for free."
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "After their visit to Sea World the students will first go to",
+                            "choices": [
+                                "A the Brighton beach.",
+                                "B the city centre.",
+                                "C the Royal Pavilion."
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "In their free time in the city centre the teacher recommends that they",
+                            "choices": [
+                                "A take a walk.",
+                                "B visit the shops.",
+                                "C have a meal."
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "The group plans to leave Brighton at 5:00 because of",
+                            "choices": [
+                                "A the students.",
+                                "B the teacher.",
+                                "C the traffic."
+                            ],
+                            "correctChoice": "A"
+                        }
+                    ],
+                    "initialAudio": "https://files.matura.top/2020/Jesen/Eng/B/Task4.opus"
+                }
+            ]
+        }
+    ]
+}

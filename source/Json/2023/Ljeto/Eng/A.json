@@ -1,1 +1,788 @@
-{"name":"Engleski","level":"A","maxPoints":85,"scale":{"range1":[0,35.99],"range2":[36,55.99],"range3":[56,73.99],"range4":[74,86.99],"range5":[87,100]},"sections":[{"name":"Čitanje","predictedTime":70,"potentialPoints":40,"questionGroups":[{"info":"Official Reading Paper, tasks 1-5 and answers 1-40.","questions":[{"type":"FillInChoices","correctChoices":[{"index":1,"letter":"C","answers":["C"]},{"index":2,"letter":"D","answers":["D"]},{"index":3,"letter":"A","answers":["A"]},{"index":4,"letter":"E","answers":["E"]},{"index":5,"letter":"F","answers":["F"]},{"index":6,"letter":"D","answers":["D"]},{"index":7,"letter":"A","answers":["A"]},{"index":8,"letter":"B","answers":["B"]},{"index":9,"letter":"F","answers":["F"]},{"index":10,"letter":"E","answers":["E"]},{"index":11,"letter":"C","answers":["C"]},{"index":12,"letter":"B","answers":["B"]},{"index":13,"letter":"A","answers":["A"]},{"index":14,"letter":"D","answers":["D"]},{"index":15,"letter":"A","answers":["A"]},{"index":16,"letter":"C","answers":["C"]},{"index":17,"letter":"C","answers":["C"]},{"index":18,"letter":"B","answers":["B"]},{"index":19,"letter":"D","answers":["D"]},{"index":20,"letter":"A","answers":["A"]},{"index":21,"letter":"G","answers":["G"]},{"index":22,"letter":"C","answers":["C"]},{"index":23,"letter":"F","answers":["F"]},{"index":24,"letter":"B","answers":["B"]},{"index":25,"letter":"D","answers":["D"]},{"index":26,"letter":"B","answers":["B"]},{"index":27,"letter":"A","answers":["A"]},{"index":28,"letter":"C","answers":["C"]},{"index":29,"letter":"A","answers":["A"]},{"index":30,"letter":"B","answers":["B"]},{"index":31,"letter":"C","answers":["C"]},{"index":32,"letter":"C","answers":["C"]},{"index":33,"letter":"F","answers":["F"]},{"index":34,"letter":"I","answers":["I"]},{"index":35,"letter":"B","answers":["B"]},{"index":36,"letter":"K","answers":["K"]},{"index":37,"letter":"D","answers":["D"]},{"index":38,"letter":"J","answers":["J"]},{"index":39,"letter":"E","answers":["E"]},{"index":40,"letter":"C","answers":["C"]}]}]}]},{"name":"Pisanje","predictedTime":75,"potentialPoints":20,"questionGroups":[{"info":"Official A-level writing task.","questions":[{"type":"EssayWriting","question":"Write the 200-250 word essay from the official 2023 Ljeto A writing paper.","minWords":200,"maxWords":250,"points":[{"category":"Writing","points":20}]}]}]},{"name":"Slušanje","predictedTime":35,"potentialPoints":25,"questionGroups":[{"info":"Official Listening Paper, tasks 1-4 and answers 1-25.","initialAudio":"https://files.matura.top/2023/Ljeto/Eng/A/Task1.opus","questions":[{"type":"FillInChoices","correctChoices":[{"index":1,"letter":"G","answers":["G"]},{"index":2,"letter":"B","answers":["B"]},{"index":3,"letter":"H","answers":["H"]},{"index":4,"letter":"E","answers":["E"]},{"index":5,"letter":"D","answers":["D"]},{"index":6,"letter":"C","answers":["C"]},{"index":7,"letter":"B","answers":["B"]},{"index":8,"letter":"A","answers":["A"]},{"index":9,"letter":"B","answers":["B"]},{"index":10,"letter":"C","answers":["C"]},{"index":11,"letter":"B","answers":["B"]},{"index":12,"letter":"C","answers":["C"]},{"index":13,"letter":"B","answers":["B"]},{"index":14,"letter":"B","answers":["B"]},{"index":15,"letter":"C","answers":["C"]},{"index":16,"letter":"C","answers":["C"]},{"index":17,"letter":"A","answers":["A"]},{"index":18,"letter":"B","answers":["B"]},{"index":19,"letter":"A","answers":["A"]},{"index":20,"letter":"A","answers":["A"]},{"index":21,"letter":"C","answers":["C"]},{"index":22,"letter":"C","answers":["C"]},{"index":23,"letter":"A","answers":["A"]},{"index":24,"letter":"B","answers":["B"]},{"index":25,"letter":"A","answers":["A"]}]}]}]}]}
+{
+    "name": "Engleski",
+    "level": "A",
+    "maxPoints": 85,
+    "scale": {
+        "range1": [
+            0,
+            35.99
+        ],
+        "range2": [
+            36,
+            55.99
+        ],
+        "range3": [
+            56,
+            73.99
+        ],
+        "range4": [
+            74,
+            86.99
+        ],
+        "range5": [
+            87,
+            100
+        ]
+    },
+    "sections": [
+        {
+            "name": "Čitanje",
+            "predictedTime": 70,
+            "potentialPoints": 40,
+            "questionGroups": [
+                {
+                    "info": "Reading Task 1 (questions 1-12).",
+                    "initialText": {
+                        "text": "Task 1\n       Questions 1-12\n\n       You are going to read an article about food waste.\n       For each question (1-12), choose one person from A-F.\n       Mark your answer on the answer sheet.\n       There is an example at the beginning (0→C).\n\n                                              Food waste\n\n  A Alan\n\n  Checking the production and use-by dates on the products prior to buying or consuming them is\n  what I consider crucial in fighting the constant wasting of food, especially food that has a short\n  shelf-life. I’m determined to do it every time I do grocery shopping, thus avoiding overspending.\n  However, I find it very difficult to make a distinction between sell-by date and use-by date. One\n  has to be an expert to understand this! Plus sometimes this date cannot be read due to very small,\n  smudged or blurry print.\n\n  B Ben\n\n  In the case of food waste, it is mostly considered a problem at the family level: parents buy too\n  much food, mothers cook too much of it or family members often eat out. I think a lot can be done\n  in the domain of consumers’ behaviour. For instance, the family can plan their meals more carefully.\n  Thus, food and money are not wasted. Also, a lot more can be done before the food actually comes\n  to our table. For example, we can establish better standards in factories and transport, especially\n  limiting CO2 emissions or introducing other regulatory measures.\n\n  C Celine\n\n  Contrary to my belief, most people consider food waste a minor modern-day issue, which can easily\n  be solved by organising charities to raise awareness. Having done a lot of research into the problem\n  at university, I can say that one of the main drivers of generating food waste is growing prosperity.\n  This, combined with declining food prices, has enabled the citizens of the developed world to care\n  less about the surplus food they buy and throw away. There has also been a lot of research about\n  the rising number of single households – the percentage of food waste there is appalling.\n\n  D David\n\n  In my opinion, food waste is more a product of irresponsible individuals or society as a whole than a\n  technical or economic issue. Prevention is always the key. Small shops like butchers’, groceries and\n  bakeries can be encouraged to work together and redistribute the surplus food to those in need. It’s\n  highly likely that your – or a neighbouring town – has a food bank or a charity that will be more than\n\n\n\n\n4/20                                                                                 ENG A IK-1 D-S062\n\nReading Paper                                                                 Engleski jezik\n\n  happy to help you transport food that has valid use-by date labels. In this way, safe, edible food will\n  be consumed and not wasted.\n\n  E Eve\n\n  In my view, whatever the issue is, it is easier to deal with it before the problem snowballs. One of\n  the measures I suggest is the abolition of financial subsidies on food. This will result in a rise in\n  food prices. I always think twice when buying food and preparing meals, simply because I despise\n  overspending and I’m a responsible citizen. When I read the city council’s reports on how much\n  food ends up in the landfill in my town on a daily basis I’m really angry. Obviously, other people are\n  unaware of the economic impact on every household.\n\n  F    Fiona\n\n  What I see daily in the apartment block where I live worries me. Surplus food is thrown away and\n  put into the mixed rubbish bin. Why is it such a big problem for people to sort out biodegradable\n  waste and put it in the proper bin? I’m sure the situation would improve if the city council imposed\n  higher fines for those who do not sort out the garbage properly. What I’m trying to say is that we\n  have good laws but they are ignored most of the time.\n\n  Which person...\n\n\n  0    thinks food waste is a major problem of our civilisation? → C\n\n  1    offers expert opinion on the food waste problem?\n\n  2    thinks people should cooperate with local businesses to find the solution?\n\n  3    always reads labels on food?\n\n  4    is extra careful with the money they spend on food?\n\n  5    is concerned about waste disposal?\n\n  6    suggests food donation?\n\n  7    finds information on food products confusing?\n\n  8    thinks household members are responsible for food waste?\n\n  9    blames both their neighbours and the local government for food waste?\n\n 10    suggests that food should become more expensive?\n\n 11    connects the food waste problem to the rich?\n\n 12    suggests some legal changes concerning food production?\n\n\n\nENG A IK-1 D-S062                                                                                        5/20\n\nEngleski jezik                                                                              Reading Paper"
+                    },
+                    "questions": [
+                        {
+                            "type": "MatchThePairs",
+                            "options": [
+                                {
+                                    "id": "A",
+                                    "type": "letter",
+                                    "textOrAudio": "Alan"
+                                },
+                                {
+                                    "id": "B",
+                                    "type": "letter",
+                                    "textOrAudio": "Ben"
+                                },
+                                {
+                                    "id": "C",
+                                    "type": "letter",
+                                    "textOrAudio": "Celine"
+                                },
+                                {
+                                    "id": "D",
+                                    "type": "letter",
+                                    "textOrAudio": "David"
+                                },
+                                {
+                                    "id": "E",
+                                    "type": "letter",
+                                    "textOrAudio": "Eve"
+                                },
+                                {
+                                    "id": "F",
+                                    "type": "letter",
+                                    "textOrAudio": "Fiona"
+                                },
+                                {
+                                    "id": "0",
+                                    "type": "number",
+                                    "textOrAudio": "thinks food waste is a major problem of our civilisation? → C"
+                                },
+                                {
+                                    "id": "1",
+                                    "type": "number",
+                                    "textOrAudio": "offers expert opinion on the food waste problem?"
+                                },
+                                {
+                                    "id": "2",
+                                    "type": "number",
+                                    "textOrAudio": "thinks people should cooperate with local businesses to find the solution?"
+                                },
+                                {
+                                    "id": "3",
+                                    "type": "number",
+                                    "textOrAudio": "always reads labels on food?"
+                                },
+                                {
+                                    "id": "4",
+                                    "type": "number",
+                                    "textOrAudio": "is extra careful with the money they spend on food?"
+                                },
+                                {
+                                    "id": "5",
+                                    "type": "number",
+                                    "textOrAudio": "is concerned about waste disposal?"
+                                },
+                                {
+                                    "id": "6",
+                                    "type": "number",
+                                    "textOrAudio": "suggests food donation?"
+                                },
+                                {
+                                    "id": "7",
+                                    "type": "number",
+                                    "textOrAudio": "finds information on food products confusing?"
+                                },
+                                {
+                                    "id": "8",
+                                    "type": "number",
+                                    "textOrAudio": "thinks household members are responsible for food waste?"
+                                },
+                                {
+                                    "id": "9",
+                                    "type": "number",
+                                    "textOrAudio": "blames both their neighbours and the local government for food waste?"
+                                },
+                                {
+                                    "id": "10",
+                                    "type": "number",
+                                    "textOrAudio": "suggests that food should become more expensive?"
+                                },
+                                {
+                                    "id": "11",
+                                    "type": "number",
+                                    "textOrAudio": "connects the food waste problem to the rich?"
+                                },
+                                {
+                                    "id": "12",
+                                    "type": "number",
+                                    "textOrAudio": "suggests some legal changes concerning food production?"
+                                }
+                            ],
+                            "pairs": [
+                                {
+                                    "letter": "C",
+                                    "number": "0",
+                                    "isExample": true
+                                },
+                                {
+                                    "letter": "C",
+                                    "number": "1"
+                                },
+                                {
+                                    "letter": "D",
+                                    "number": "2"
+                                },
+                                {
+                                    "letter": "A",
+                                    "number": "3"
+                                },
+                                {
+                                    "letter": "E",
+                                    "number": "4"
+                                },
+                                {
+                                    "letter": "F",
+                                    "number": "5"
+                                },
+                                {
+                                    "letter": "D",
+                                    "number": "6"
+                                },
+                                {
+                                    "letter": "A",
+                                    "number": "7"
+                                },
+                                {
+                                    "letter": "B",
+                                    "number": "8"
+                                },
+                                {
+                                    "letter": "F",
+                                    "number": "9"
+                                },
+                                {
+                                    "letter": "E",
+                                    "number": "10"
+                                },
+                                {
+                                    "letter": "C",
+                                    "number": "11"
+                                },
+                                {
+                                    "letter": "B",
+                                    "number": "12"
+                                }
+                            ],
+                            "whatFirst": "letters"
+                        }
+                    ]
+                },
+                {
+                    "info": "Reading Task 2 (questions 13-18).",
+                    "initialText": {
+                        "text": "Task 2\n       Questions 13-18\n\n       Read the text below.\n       For each question (13-18), choose the correct answer (A, B, C or D).\n       Mark your answer on the answer sheet.\n\n\n                                          Huntresses of the sea\n\n      Four years ago, Bae Chong was commuting to her job on the Seoul subway. She spent her days\n  working at a hair salon. It was a gruelling life: she had trouble finding time to care for her children,\n  she was constantly sick, and interacting with indifferent strangers left her drained.\n  And, bottom line, she never seemed to make ends meet. Now, like her mother before her,\n  Bae spends her working days diving into the Korean Strait without an oxygen tank to gather\n  seafood from the ocean floor.\n      Bae is a haenyeo, a member of a traditional profession on the Jeju island. Known for their\n  independent spirit, iron will, and determination, the ‘last mermaids’ represent the long history of\n  the semi-matriarchal structure of Jeju society. For centuries, these female divers have earned a\n  living by plunging into the sea to gather its edible treasures and sell them. In the 1600s, women\n  started taking over the diving work. Historians say they became experts in sumbisori: an ancient\n  breathing technique, essential in their work, which their male counterparts could not match.\n  Additionally, some of the Jeju men went deep-sea fishing and never came back. As women’s\n  earnings were free from the heavy taxes imposed by the king, and there was ever-increasing\n  demand for the abalone or the ear shell, Jeju women earned a lot of money.\n      Bae says she didn’t realise before she became a haenyeo that the women take pills to cope with\n  motion sickness, which is intensified by the stink of their rubber suits and the disorienting fogging of\n  their masks. She has found this to be the most challenging part of the job, and it took her too long to\n  get accustomed to this. Some haenyeo report that they face strong currents and poor visibility and\n  others have been washed out to sea or caught in riptides. The haenyeo must be careful not to push\n  too far. Spending so much time under water, for inexperienced beginners, can lead to fatal heart\n  problems.\n      The sheer amount of time spent under the sea means that the haenyeo have been\n  first-hand witnesses to the environmental devastation of our oceans. Contamination will soon\n  be the biggest problem. The seas off Korea’s southern coast have warmed, which will lead to an\n  influx of new species. On Jeju, the degradation of the existing underwater habitat has become\n  increasingly severe because large seaweed has disappeared, causing marine life to die off. The\n  occupation is becoming less viable. Changes in the environment are mainly to blame as they take\n  away everything that is vital for a haenyeo. Some think that the barrier to becoming a haenyeo is set\n  intentionally high so that the existing divers do not have to share diminishing resources.\n  There is also the competition from farmed seafood, and cheap imports. Combine that with the\n\n\n\n\n6/20                                                                                  ENG A IK-1 D-S062\n\nReading Paper                                                                Engleski jezik\n  life-threatening nature of the job, and it is no surprise that it may soon become impossible to find\n  new recruits. Moreover, young women are leaving Jeju and trying to find more stable jobs.\n      The Jeju government has started preservation measures for the haenyeo. They have recognised\n  that the demand for haenyeo seafood could attract more tourists. Hopefully, this will help to create\n  new jobs. The government wants to emphasise the historical importance of the haenyeo, who have\n  been reimagined as Korea’s pioneer feminists, and whose independent income has allowed them\n  to have a voice in the predominantly patriarchal family structure. Their community-based, strictly\n  hierarchical social structure has been linked to a model of democratic community governance and\n  sustainable environmental practice.\n\n\n\n 13   The main reason Bae left her old job was\n\n      A   low income.\n      B   chronic illness.\n      C   human alienation.\n      D   work-life imbalance.\n\n\n\n 14   According to historians, Jeju women took over the role of free divers because of\n\n      A   excessive taxation.\n      B   the shortage of men.\n      C   high seafood demand.\n      D   their mastery of breath.\n\n\n\n 15   According to Bae, the hardest part of doing haenyeo is\n\n      A   nausea.\n      B   the high health risk.\n      C   knowing your limits.\n      D   the unpredictable sea.\n\n\n\n 16   At this point, the biggest threat to marine biodiversity in the haenyeo area is\n\n      A   water pollution.\n      B   over exploitation.\n      C   habitat destruction.\n      D   invasion of non-native species.\n\n\n\n\nENG A IK-1 D-S062                                                                                   7/20\n\nEngleski jezik                                                                       Reading Paper\n\n\n\n 17    Haenyeo culture is becoming extinct because of\n\n       A   migration.\n       B   competition.\n       C   global warming.\n       D   labour conditions.\n\n\n\n 18    The government is trying to preserve haenyeo culture because haenyeo divers\n\n       A   attract tourists.\n       B   are great role models.\n       C   tackle unemployment.\n       D   safeguard the environment.\n\n\n\n\n8/20                                                                            ENG A IK-1 D-S062\n\nReading Paper                                                             Engleski jezik"
+                    },
+                    "questions": [
+                        {
+                            "type": "SingleChoice",
+                            "question": "The main reason Bae left her old job was",
+                            "choices": [
+                                "A low income.",
+                                "B chronic illness.",
+                                "C human alienation.",
+                                "D work-life imbalance."
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "According to historians, Jeju women took over the role of free divers because of",
+                            "choices": [
+                                "A excessive taxation.",
+                                "B the shortage of men.",
+                                "C high seafood demand.",
+                                "D their mastery of breath."
+                            ],
+                            "correctChoice": "D"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "According to Bae, the hardest part of doing haenyeo is",
+                            "choices": [
+                                "A nausea.",
+                                "B the high health risk.",
+                                "C knowing your limits.",
+                                "D the unpredictable sea."
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "At this point, the biggest threat to marine biodiversity in the haenyeo area is",
+                            "choices": [
+                                "A water pollution.",
+                                "B over exploitation.",
+                                "C habitat destruction.",
+                                "D invasion of non-native species."
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Haenyeo culture is becoming extinct because of",
+                            "choices": [
+                                "A migration.",
+                                "B competition.",
+                                "C global warming.",
+                                "D labour conditions."
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "The government is trying to preserve haenyeo culture because haenyeo divers",
+                            "choices": [
+                                "A attract tourists.",
+                                "B are great role models.",
+                                "C tackle unemployment.",
+                                "D safeguard the environment."
+                            ],
+                            "correctChoice": "B"
+                        }
+                    ]
+                },
+                {
+                    "info": "Reading Task 3 (questions 19-24).",
+                    "initialText": {
+                        "text": "Task 3\n    Questions 19-24\n\n    Read the text on the next page.\n    For each question (19-24), choose the sentence (A-H) that best fits the gap.\n    There are two sentences that you do not need.\n    Mark your answer on the answer sheet.\n    There is an example at the beginning (0→I).\n\n\n\n\nENG A IK-1 D-S062                                                                    9/20\n\nEngleski jezik                                                                               Reading Paper\n\n\n\n                                             Tomorrow’s cars\n\n      “A technological tsunami has been upturning the automotive industry over the last decade”, says\n  Patrick Breen, an industry CEO. Traditional patterns have been exploding as the digital revolution\n  leads to a reinvention of all the hardware and software architecture on vehicles. It may well be that\n  in a few years’ time, a car will look nothing like it does today. (0) ___.\n      In the opinion of Mr Breen, this is a disruptive technology. The car of the future is well and truly\n  on its way! Let us look at some of its main features.\n      Electric was the first phenomenon to transform cars. (19) ___. However, electric cars are\n  now emerging as a must-have in all the market segments because they have many technological\n  advantages. This trend has been greatly reinforced by environmental obligations to reduce particle\n  and greenhouse gas emissions. In the years ahead, increasingly powerful hybrid or electric engines\n  will replace the traditional internal combustion engine.\n      Next is the autonomous car, a most spectacular revolution. (20) ___. The first two stages\n  of autonomous cars have already been completed. Cruise control has existed for several years:\n  drivers can set a cruising speed and remove their feet from the pedals. The next step?\n  100% autonomy. Engineers are working to replace human eyes with a multitude of cameras,\n  sensors and lasers that will reproduce the environment in 3D and allow the vehicle to make\n  navigation decisions alone.\n      The car of the future will be fully connected with objects... and humans! In fact, in order to be\n  autonomous and make the right decisions, cars must be able to exchange a variety of information\n  with the outside world: traffic, weather, vehicle condition, service stations, accidents, etc.\n  (21) ___. In addition, numerous online services will be available to passengers: Wi-Fi, cloud,\n  media, entertainment, etc. In Mr Breen’s opinion, this involves a total paradigm shift. Just imagine:\n  a several-hour trip will become an opportunity to answer your emails, watch the latest film released\n  in cinemas, or skype a friend on the other side of the planet.\n      The last major change concerns the industry itself. (22) ___. All the car’s hardware and software\n  architecture is in the process of being redesigned. It is not just that the body is slowly changing to\n  incorporate new technologies – such as lightweight composite and 3D printing materials. (23) ___.\n  This means completely overhauling the car’s electronic architecture. (24) ___. It will bring a\n  number of benefits to society: less pollution, more safety, more free time and services. And the end\n  of it all? A paradigm revolution: cars will perhaps offer less pleasure driving on the open road but will\n  offer real transport, safety and connectivity services.\n\n\n\n\n10/20                                                                                   ENG A IK-1 D-S062\n\nReading Paper                                                              Engleski jezik\n  A Tomorrow’s cars will be able to do without their drivers.\n\n  B To sum up, the car of the future, built according to a new model, will be electric, autonomous\n      and connected.\n\n  C Tomorrow’s factories will be nothing like they are today.\n\n  D When it was first introduced, experts envisaged a specific use – for electric public transport for\n      example.\n\n  E Such technology is quickly catching up on the autonomous car.\n\n  F   But also, to ensure the connectivity and range of the vehicle, numerous smart devices will have\n      to be connected and integrated.\n\n  G Eventually, through various sensors, it will be able to communicate with other vehicles but also\n      with the infrastructure (roads, buildings, etc.).\n\n  H The car of the future is still too expensive for ordinary people.\n\n  I   This development will be in stages: we start without feet and then do without hands and\n      eventually without eyes.\n\n\n\n\nENG A IK-1 D-S062                                                                                    11/20\n\nEngleski jezik                                                                               Reading Paper"
+                    },
+                    "questions": [
+                        {
+                            "type": "FillInChoices",
+                            "correctChoices": [
+                                {
+                                    "index": 19,
+                                    "letter": "D",
+                                    "answers": [
+                                        "D"
+                                    ]
+                                },
+                                {
+                                    "index": 20,
+                                    "letter": "A",
+                                    "answers": [
+                                        "A"
+                                    ]
+                                },
+                                {
+                                    "index": 21,
+                                    "letter": "G",
+                                    "answers": [
+                                        "G"
+                                    ]
+                                },
+                                {
+                                    "index": 22,
+                                    "letter": "C",
+                                    "answers": [
+                                        "C"
+                                    ]
+                                },
+                                {
+                                    "index": 23,
+                                    "letter": "F",
+                                    "answers": [
+                                        "F"
+                                    ]
+                                },
+                                {
+                                    "index": 24,
+                                    "letter": "B",
+                                    "answers": [
+                                        "B"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "info": "Reading Task 4 (questions 25-32).",
+                    "initialText": {
+                        "text": "Task 4\n      Questions 25-32\n\n      Read the text below.\n      For each question (25-32), choose the answer (A, B, C or D) that best completes the sentence.\n      Mark your answer on the answer sheet.\n      There is an example at the beginning (0→C).\n\n\n                                     Why are fairy tales important?\n\n      ‘Once upon a (0) ___’ is the usual introduction to a fairy tale. A child who reads or listens to\n  them imagines something that happened in the past. One of the main reasons why fairy tales are\n  important is that they help in a child’s character (25) ___. In this way young children are able to\n  better understand the world around them.\n      As adults we still remember the fantasy lands and fantastic characters such as kings, fairies and\n  princesses who (26) ___ our life from an early age. Lessons about life are portrayed through these\n  characters.\n      Fairy tales teach children how to deal with basic human dilemmas and conflicts. The stories\n  abound in picturesque scenes and supernatural heroes, but on the other hand, they may be\n  dangerous in (27) ___ of hidden messages. The versions of fairy tales that are known today are\n  softened versions of some very old stories dating from ancient times. Original fairy tales were not\n  (28) ___ for children. These stories were too cruel and had to be (29) ___, although they still have\n  some intimidating features.\n      There has always been a conflict between good and evil, (30) ___ can be seen as the internal\n  conflict in a person. Good always wins, but to achieve that the main character has to have a pure\n  heart to defeat the obstacles in front of him or her. The hero or heroine (31) ___ a warrior, e.g., in\n  Little Red Riding Hood a girl defeats a big bad wolf.\n      By identifying with characters who are defined by their virtue, a child can (32) ___ positive values\n  and obtain emotional stability later in life. That is the reason why each fairy tale ends with\n  the sentence: ‘And they lived happily ever after.’\n\n\n\n  0\n\n        A   hour\n        B   o’clock\n        C   time\n        D   year\n\n\n\n\n12/20                                                                                  ENG A IK-1 D-S062\n\nReading Paper                Engleski jezik\n 25\n\n      A   evolution\n      B   advancement\n      C   progress\n      D   development\n\n\n\n 26\n\n      A   are influencing\n      B   have influenced\n      C   had to influence\n      D   should influence\n\n\n\n 27\n\n      A   terms\n      B   spite\n      C   charge\n      D   favour\n\n\n\n 28\n\n      A   expected\n      B   given\n      C   meant\n      D   aimed\n\n\n\n 29\n\n      A   adapted\n      B   adopted\n      C   restricted\n      D   reviewed\n\n\n\n\nENG A IK-1 D-S062                       13/20\n\nEngleski jezik                Reading Paper\n\n\n\n 30\n\n        A   that\n        B   which\n        C   this\n        D   what\n\n\n\n 31\n\n        A   can’t be\n        B   mustn’t be\n        C   needn’t be\n        D   couldn’t be\n\n\n\n 32\n\n        A   receive\n        B   reach\n        C   acquire\n        D   win\n\n\n\n\n14/20                     ENG A IK-1 D-S062\n\nReading Paper                                                           Engleski jezik"
+                    },
+                    "questions": [
+                        {
+                            "type": "SingleChoice",
+                            "question": "important is that they help in a child’s character (25) ___.",
+                            "choices": [
+                                "A evolution",
+                                "B advancement",
+                                "C progress",
+                                "D development"
+                            ],
+                            "correctChoice": "D"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "princesses who (26) ___ our life from an early age.",
+                            "choices": [
+                                "A are influencing",
+                                "B have influenced",
+                                "C had to influence",
+                                "D should influence"
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "dangerous in (27) ___ of hidden messages.",
+                            "choices": [
+                                "A terms",
+                                "B spite",
+                                "C charge",
+                                "D favour"
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "(28) ___ for children.",
+                            "choices": [
+                                "A expected",
+                                "B given",
+                                "C meant",
+                                "D aimed"
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "These stories were too cruel and had to be (29) ___, although they still have some intimidating features.",
+                            "choices": [
+                                "A adapted",
+                                "B adopted",
+                                "C restricted",
+                                "D reviewed"
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "There has always been a conflict between good and evil, (30) ___ can be seen as the internal conflict in a person.",
+                            "choices": [
+                                "A that",
+                                "B which",
+                                "C this",
+                                "D what"
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "The hero or heroine (31) ___ a warrior, e.",
+                            "choices": [
+                                "A can’t be",
+                                "B mustn’t be",
+                                "C needn’t be",
+                                "D couldn’t be"
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "By identifying with characters who are defined by their virtue, a child can (32) ___ positive values and obtain emotional stability later in life.",
+                            "choices": [
+                                "A receive",
+                                "B reach",
+                                "C acquire",
+                                "D win"
+                            ],
+                            "correctChoice": "C"
+                        }
+                    ]
+                },
+                {
+                    "info": "Reading Task 5 (questions 33-40).",
+                    "initialText": {
+                        "text": "Task 5\n    Questions 33-40\n\n    Read the text on the next page.\n    For each question (33-40), choose the answer (A-K) that best completes the sentence.\n    There are three options that you do not need.\n    Mark your answer on the answer sheet.\n    There is an example at the beginning (0→L).\n\n\n\n\nENG A IK-1 D-S062                                                                          15/20\n\nEngleski jezik                                                                               Reading Paper\n\n\n\n                                       Singing for body and mind\n\n      The physiological benefits of singing, and music more generally, have long been explored. Music\n  (0) ___ exercises the brain as well as the body, but singing is particularly beneficial for improving\n  breathing, posture and muscle tension. Listening to and (33) ___ in music has been shown\n  to be effective in pain relief, too, probably due to the release of neurochemicals. An example\n  is β-endorphin, a natural painkiller responsible for the feeling of satisfaction that is (34) ___ after\n  intense exercise.\n      There’s also some evidence to suggest that music can play a role in supporting a healthy\n  immune system (35) ___ reducing the stress hormone cortisol and boosting the immunoglobin\n  A antibody.\n      Music has been used in different cultures throughout history in many (36) ___ rituals and is\n  already used as a therapy in our own culture (for the relief of mental illness, breathing conditions\n  and language impairment, for example). Everyone can sing, however much we might protest,\n  (37) ___ that it is one of the most accessible forms of music making, too. Song is a powerful\n  therapy indeed.\n      Regular choir members report that learning new songs is cognitively stimulating and helps their\n  memory. The satisfaction of performing together is likely to be associated (38) ___ activation of\n  the brain’s reward system, which keeps people coming back for more.\n      Singing, (39) ___ if there is no audience, improves our sense of happiness and wellbeing.\n  Research has found, for example, that people feel more positive after actively singing than they do\n  after passively listening to music, or after chatting about positive life events. Our improved mood is\n  likely to be (40) ___ by changes in our sense of social closeness with others. This comes directly\n  from the release of positive neurochemicals such as dopamine and serotonin. So, join a choir and\n  start singing!\n\n\n\n\n16/20                                                                                  ENG A IK-1 D-S062\n\nReading Paper         Engleski jezik\n  A doing\n\n  B by\n\n  C influenced\n\n  D meaning\n\n  E even\n\n  F   participating\n\n  G made\n\n  H saying\n\n  I   experienced\n\n  J   with\n\n  K healing\n\n  L   making\n\n\n\n\nENG A IK-1 D-S062                17/20\n\nEngleski jezik\n\n\n\n\n                      ca\n                     ni\n                     ra\n                 st\n                 a\n         zn\n     ra\n    P\n\n\n\n\n18/20                     ENG A IK-1 D-S062\n\n                             Engleski jezik\n\n\n\n\n                         ca\n                        ni\n                        ra\n                    st\n                    a\n                zn\n        ra\n   P\n\n\n\n\nENG A IK-1 D-S062                       19/20\n\nEngleski jezik\n\n\n\n\n                      ca\n                     ni\n                     ra\n                 st\n                 a\n         zn\n     ra\n    P\n\n\n\n\n20/20                     ENG A IK-1 D-S062"
+                    },
+                    "questions": [
+                        {
+                            "type": "FillInChoices",
+                            "correctChoices": [
+                                {
+                                    "index": 33,
+                                    "letter": "F",
+                                    "answers": [
+                                        "F"
+                                    ]
+                                },
+                                {
+                                    "index": 34,
+                                    "letter": "I",
+                                    "answers": [
+                                        "I"
+                                    ]
+                                },
+                                {
+                                    "index": 35,
+                                    "letter": "B",
+                                    "answers": [
+                                        "B"
+                                    ]
+                                },
+                                {
+                                    "index": 36,
+                                    "letter": "K",
+                                    "answers": [
+                                        "K"
+                                    ]
+                                },
+                                {
+                                    "index": 37,
+                                    "letter": "D",
+                                    "answers": [
+                                        "D"
+                                    ]
+                                },
+                                {
+                                    "index": 38,
+                                    "letter": "J",
+                                    "answers": [
+                                        "J"
+                                    ]
+                                },
+                                {
+                                    "index": 39,
+                                    "letter": "E",
+                                    "answers": [
+                                        "E"
+                                    ]
+                                },
+                                {
+                                    "index": 40,
+                                    "letter": "C",
+                                    "answers": [
+                                        "C"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Pisanje",
+            "predictedTime": 75,
+            "potentialPoints": 20,
+            "questionGroups": [
+                {
+                    "info": "Official A-level writing task.",
+                    "questions": [
+                        {
+                            "type": "EssayWriting",
+                            "question": "Write the 200-250 word essay from the official 2023 Ljeto A writing paper.",
+                            "minWords": 200,
+                            "maxWords": 250,
+                            "points": [
+                                {
+                                    "category": "Writing",
+                                    "points": 20
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Slušanje",
+            "predictedTime": 35,
+            "potentialPoints": 25,
+            "questionGroups": [
+                {
+                    "info": "Listening Task 1 (questions 1-5).",
+                    "initialText": {
+                        "text": "Task 1\n       Questions 1-5\n\n       You will hear five people talking about their most recent trips.\n       Match each speaker (1-5) with one option from A-H.\n       There are three options that you do not need.\n       You will hear the recording twice.\n\n\n  Which type of trip did each speaker go on?\n\n\n  A A city break.\n\n  B A winter holiday.\n\n  C A pilgrimage.\n\n  D A business trip.\n\n  E An educational trip.\n\n  F      A wellness holiday.\n\n  G A summer holiday.\n\n  H A trip to the country.\n\n\n\n\n4/12                                                                      ENG A IK-2 D-S062\n\nListening Paper                                                             Engleski jezik"
+                    },
+                    "questions": [
+                        {
+                            "type": "FillInChoices",
+                            "correctChoices": [
+                                {
+                                    "index": 1,
+                                    "letter": "G",
+                                    "answers": [
+                                        "G"
+                                    ]
+                                },
+                                {
+                                    "index": 2,
+                                    "letter": "B",
+                                    "answers": [
+                                        "B"
+                                    ]
+                                },
+                                {
+                                    "index": 3,
+                                    "letter": "H",
+                                    "answers": [
+                                        "H"
+                                    ]
+                                },
+                                {
+                                    "index": 4,
+                                    "letter": "E",
+                                    "answers": [
+                                        "E"
+                                    ]
+                                },
+                                {
+                                    "index": 5,
+                                    "letter": "D",
+                                    "answers": [
+                                        "D"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "initialAudio": "https://files.matura.top/2023/Ljeto/Eng/A/Task1.opus"
+                },
+                {
+                    "info": "Listening Task 2 (questions 6-13).",
+                    "initialText": {
+                        "text": "Task 2\n      Questions 6-13\n\n      You will hear people talking in eight situations.\n      For each question (6-13), choose the correct answer (A, B or C).\n      You will hear each recording twice.\n\n\n  6     You hear a man talking about cooking.\n        Why does he like cooking?\n\n        A Because it’s cheaper than eating out.\n        B He likes talking to his wife.\n        C He likes the feeling of accomplishment.\n\n\n\n  7     You hear a woman talking about a phrase.\n        What does she think about it?\n\n        A She thinks it’s meaningless.\n        B She disagrees with it.\n        C She agrees with it.\n\n\n\n  8     You hear a man talking about his living preferences.\n        Where does he prefer to live?\n\n        A In the city.\n        B In the hills.\n        C In the country.\n\n\n  9     You hear a woman talking about what qualities she looks for in a friend.\n        What does she value most in a friend?\n\n        A Not being rude.\n        B Being original.\n        C Being talkative.\n\n\n\n\nENG A IK-2 D-S062                                                                      5/12\n\nEngleski jezik                                                          Listening Paper\n\n\n\n 10    You hear a man talking about problems at work.\n       What is the biggest problem?\n\n       A Coming late to work.\n       B Communication skills with colleagues.\n       C Motivation of employees.\n\n\n\n 11    You hear a woman talking about Rick, her close friend.\n       What does she think of him?\n\n       A He’s outgoing.\n       B He’s introverted.\n       C He’s humorous.\n\n\n\n 12    You hear a man talking about Sydney.\n       What does he like about the city?\n\n       A Bondi Beach.\n       B Sydney Tower Eye.\n       C Downtown clubbing.\n\n\n\n 13    You hear a news item about the employment of young adults.\n       Which jobs are most in demand?\n\n       A Traditional jobs.\n       B Creative jobs.\n       C Highly-paid jobs.\n\n\n\n\n6/12                                                                ENG A IK-2 D-S062\n\nListening Paper                                                              Engleski jezik"
+                    },
+                    "questions": [
+                        {
+                            "type": "SingleChoice",
+                            "question": "Why does he like cooking?",
+                            "choices": [
+                                "A Because it’s cheaper than eating out.",
+                                "B He likes talking to his wife.",
+                                "C He likes the feeling of accomplishment."
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "What does she think about it?",
+                            "choices": [
+                                "A She thinks it’s meaningless.",
+                                "B She disagrees with it.",
+                                "C She agrees with it."
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Where does he prefer to live?",
+                            "choices": [
+                                "A In the city.",
+                                "B In the hills.",
+                                "C In the country."
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "What does she value most in a friend?",
+                            "choices": [
+                                "A Not being rude.",
+                                "B Being original.",
+                                "C Being talkative."
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "What is the biggest problem?",
+                            "choices": [
+                                "A Coming late to work.",
+                                "B Communication skills with colleagues.",
+                                "C Motivation of employees."
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "What does she think of him?",
+                            "choices": [
+                                "A He’s outgoing.",
+                                "B He’s introverted.",
+                                "C He’s humorous."
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "What does he like about the city?",
+                            "choices": [
+                                "A Bondi Beach.",
+                                "B Sydney Tower Eye.",
+                                "C Downtown clubbing."
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Which jobs are most in demand?",
+                            "choices": [
+                                "A Traditional jobs.",
+                                "B Creative jobs.",
+                                "C Highly-paid jobs."
+                            ],
+                            "correctChoice": "B"
+                        }
+                    ],
+                    "initialAudio": "https://files.matura.top/2023/Ljeto/Eng/A/Task2.opus"
+                },
+                {
+                    "info": "Listening Task 3 (questions 14-19).",
+                    "initialText": {
+                        "text": "Task 3\n      Questions 14-19\n\n      You will hear two friends talking about three online learning platforms.\n      For each question (14-19), choose the correct answer (A, B or C) from the list of learning\n      platforms.\n\n      Mark A for AptEra\n            B for Benefix\n      or   C for Courseline.\n\n      You will hear the recording twice.\n\n\n  Which learning platform…\n\n 14     offers traditional academic-style learning?\n\n 15     uses the widest selection of learning methods?\n\n 16     is the most appropriate for young professionals?\n\n 17     includes celebrity instructors?\n\n 18     is the most user-friendly?\n\n 19     is the most cost-effective?\n\n\n\n\nENG A IK-2 D-S062                                                                                  7/12\n\nEngleski jezik                                                                             Listening Paper"
+                    },
+                    "questions": [
+                        {
+                            "type": "FillInChoices",
+                            "correctChoices": [
+                                {
+                                    "index": 14,
+                                    "letter": "B",
+                                    "answers": [
+                                        "B"
+                                    ]
+                                },
+                                {
+                                    "index": 15,
+                                    "letter": "C",
+                                    "answers": [
+                                        "C"
+                                    ]
+                                },
+                                {
+                                    "index": 16,
+                                    "letter": "C",
+                                    "answers": [
+                                        "C"
+                                    ]
+                                },
+                                {
+                                    "index": 17,
+                                    "letter": "A",
+                                    "answers": [
+                                        "A"
+                                    ]
+                                },
+                                {
+                                    "index": 18,
+                                    "letter": "B",
+                                    "answers": [
+                                        "B"
+                                    ]
+                                },
+                                {
+                                    "index": 19,
+                                    "letter": "A",
+                                    "answers": [
+                                        "A"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "initialAudio": "https://files.matura.top/2023/Ljeto/Eng/A/Task3.opus"
+                },
+                {
+                    "info": "Listening Task 4 (questions 20-25).",
+                    "initialText": {
+                        "text": "Task 4\n       Questions 20-25\n\n       You will hear a radio interview with Lucy Bresson, a professional music photographer.\n       For each question (20-25), choose the correct answer (A, B or C).\n       You will hear the recording twice.\n\n\n 20      Lucy became interested in photography\n\n         A in her last year at school.\n         B when she first fell in love.\n         C when she took a course in photography.\n\n\n\n 21      Lucy’s first permanent job was\n\n         A in a restaurant.\n         B in a marketing company.\n         C in an IT company.\n\n\n\n 22      Lucy became a music photographer\n\n         A through her website.\n         B by promoting herself.\n         C because of a friend.\n\n\n 23      Before a shoot, Lucy\n\n         A meditates.\n         B researches the band.\n         C spends time with the band.\n\n\n\n 24      Lucy’s photographs depict\n\n         A large-scale views.\n         B facial expressions.\n         C atmospheric intensity.\n\n\n\n\n8/12                                                                                  ENG A IK-2 D-S062\n\nListening Paper                                                   Engleski jezik\n 25   Next, Lucy will\n\n      A take a break.\n      B have an exhibition.\n      C go on tour.\n\n\n\n\n             You now have five minutes to copy your answers onto the answer sheet.\n\n\n\n\nENG A IK-2 D-S062                                                                    9/12\n\nEngleski jezik\n\n\n\n\n                      ca\n                     ni\n                     ra\n                 st\n                 a\n         zn\n     ra\n    P\n\n\n\n\n10/12                     ENG A IK-2 D-S062\n\n                             Engleski jezik\n\n\n\n\n                         ca\n                        ni\n                        ra\n                    st\n                    a\n                zn\n        ra\n   P\n\n\n\n\nENG A IK-2 D-S062                       11/12\n\nEngleski jezik\n\n\n\n\n                      ca\n                     ni\n                     ra\n                 st\n                 a\n         zn\n     ra\n    P\n\n\n\n\n12/12                     ENG A IK-2 D-S062"
+                    },
+                    "questions": [
+                        {
+                            "type": "SingleChoice",
+                            "question": "Lucy became interested in photography",
+                            "choices": [
+                                "A in her last year at school.",
+                                "B when she first fell in love.",
+                                "C when she took a course in photography."
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Lucy’s first permanent job was",
+                            "choices": [
+                                "A in a restaurant.",
+                                "B in a marketing company.",
+                                "C in an IT company."
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Lucy became a music photographer",
+                            "choices": [
+                                "A through her website.",
+                                "B by promoting herself.",
+                                "C because of a friend."
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Before a shoot, Lucy",
+                            "choices": [
+                                "A meditates.",
+                                "B researches the band.",
+                                "C spends time with the band."
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Lucy’s photographs depict",
+                            "choices": [
+                                "A large-scale views.",
+                                "B facial expressions.",
+                                "C atmospheric intensity."
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Next, Lucy will",
+                            "choices": [
+                                "A take a break.",
+                                "B have an exhibition.",
+                                "C go on tour."
+                            ],
+                            "correctChoice": "A"
+                        }
+                    ],
+                    "initialAudio": "https://files.matura.top/2023/Ljeto/Eng/A/Task4.opus"
+                }
+            ]
+        }
+    ]
+}

@@ -1,74 +1,1044 @@
 {
-  "name": "Hrvatski Jezik",
-  "level": "B",
-  "maxPoints": 120,
-  "scale": {"range1":[0,41.99],"range2":[42,62.39],"range3":[62.4,80.99],"range4":[81,97.19],"range5":[97.2,120]},
-  "sections": [
-    {"name":"Književnost, neknjiževni tekst i jezik","predictedTime":100,"potentialPoints":80,"instructions":"Pozorno pročitajte sve upute i slijedite ih. Ispit traje 100 minuta. U zadatcima višestrukoga izbora od više ponuđenih odgovora samo je jedan točan. Točan odgovor donosi jedan bod.","questionGroups":[
-      {"info":"Zadatci 1. – 3. odnose se na Petrarkin Kanconijer.","questions":[
-        {"type":"SingleChoice","question":"Što od sljedećega lirski subjekt iskazuje o dragoj osobi?","choices":["da je njezina ljepota nenadmašiva","da ona voli slušati njegovu pjesmu","da mu nije uzvratila ljubav","da je bila nečasna"],"correctChoice":"C"},
-        {"type":"SingleChoice","question":"Što je o lirskome subjektu iskazano sljedećim stihom?","shortText":"Bez oružja Amor na nišan me uze,","choices":["Nije se mogao obraniti od ljubavi.","Amor ga je kaznio zbog grijeha.","Nije pronašao smisao u životu.","Tražio je božju pomoć."],"correctChoice":"A"},
-        {"type":"SingleChoice","question":"Kako lirski subjekt doživljava ljubav?","choices":["kao poziv na putovanje","kao svoje oružje","kao bezbrižnost","kao ropstvo"],"correctChoice":"D"}]},
-      {"info":"Zadatci 4. – 6. odnose se na ulomak iz Odiseje Homera.","questions":[
-        {"type":"SingleChoice","question":"Koja je od sljedećih tvrdnja o Eurìmahu točna?","choices":["Obećaje Odiseju da će se osvetiti za počinjena zlodjela.","Svaljuje krivnju za zlo naneseno Odiseju na Antìnoja.","Sažalijeva Odiseja zbog zla koje mu je naneseno.","Pomogao je Odiseju da se vrati kući."],"correctChoice":"B"},
-        {"type":"SingleChoice","question":"Što je od sljedećega Eurìmah iskazao o proscima?","choices":["Oni koji su preživjeli htjeli su ubiti Odisejeva sina.","Spremni su darovima odobrovoljiti Odiseja.","Pobjegli su pred bijesnim Odisejem.","Obrađivali su Odisejeva polja."],"correctChoice":"B"},
-        {"type":"SingleChoice","question":"Na što se odnosi podcrtana riječ u sljedećemu primjeru?","shortText":"Očevinu, Eurìmaše, svu da dade mi svaki,\nŠto je tko ima, pa jošte i drȕgō da tome dodade,","choices":["na imovinu prosaca","na Odisejeve muke","na isprike Odiseju","na krvnu osvetu"],"correctChoice":"A"}]},
-      {"info":"Zadatci 7. – 9. odnose se na ulomak iz Zlatarova zlata Augusta Šenoe.","questions":[
-        {"type":"SingleChoice","question":"O čemu je izviješten Petar Ratkaj?","choices":["o okrutnome postupanju prema kmetovima","o potpisivanju povelje o slobodi","o dogovoru plemića pred bitku","o pripremama za izbor bana"],"correctChoice":"A"},
-        {"type":"SingleChoice","question":"Što je zajedničko svim poslanicima?","choices":["Podupiru bana Draškovića.","Ogovaraju Niku Alapića.","Raskošno su odjeveni.","Žale se na kmetove."],"correctChoice":"C"},
-        {"type":"SingleChoice","question":"Tko je prikazan kao dvolična osoba?","choices":["Franjo Stolniković","Gregorijanec Medvedgradski","Niko Želnički","Stjepko Tah"],"correctChoice":"C"}]},
-      {"info":"Zadatci 10. – 12. odnose se na ulomak iz Patnja mladog Werthera Johanna Wolfganga Goethea.","questions":[
-        {"type":"SingleChoice","question":"Kako ljubav djeluje na pripovjedača?","choices":["Potiče ljutnju prema drugima.","Uzrokuje umjetničku nemoć.","Izaziva stid i nelagodu.","Budi zabrinutost."],"correctChoice":"B"},
-        {"type":"SingleChoice","question":"Kojim je izrazom u pismu od 18. srpnja slikovito prikazana Lotta?","choices":["fantom","bononski kamen","sunce","tisuća talira"],"correctChoice":"C"},
-        {"type":"SingleChoice","question":"Koja je uloga motiva iz prirode u pismu od 24. srpnja?","choices":["Naglašavaju pripovjedačeve osjećaje.","Podsjećaju Werthera na Wilhelma.","Opisuju mjesto gdje Werther slika.","Dočaravaju ljepotu krajolika."],"correctChoice":"A"}]},
-      {"info":"Zadatci 13. – 15. odnose se na ulomak iz Romana portreta (1616.) Ksavera Šandora Gjalskoga.","questions":[
-        {"type":"SingleChoice","question":"Na koji od sljedećih načina pisac postiže dojam realističnosti?","choices":["U pripovijedanju upotrebljava uglavnom složene rečenice.","Navodi rukopis u kojemu se prikazuje nastanak portreta.","U središtu je priča o djevojci iznimne ljepote.","Postavlja pripovjedača u prvo lice."],"correctChoice":"B"},
-        {"type":"SingleChoice","question":"U čemu su hrvatski staleži i redovi pomagali Blagaju?","choices":["da zaposjedne imanje rođaka svoje žene","da mu gradačka komora vrati posjede","da mu se olakša život u Veneciji","da otjera Turke sa svoje zemlje"],"correctChoice":"B"},
-        {"type":"SingleChoice","question":"Koja je od sljedećih tvrdnja o Marjetinu portretu točna?","choices":["Slikar ga je darovao Blagaju kako bi dobio dopuštenje da još jedanput slika Marjetu.","Blagaj je odabirom Marjete kao modela htio pokazati tko mu je najdraže dijete.","Njegovom je prodajom slikar htio novčano pomoći Blagaju.","Blagaj se njime htio dodvoriti francuskomu kralju."],"correctChoice":"A"}]},
-      {"info":"Zadatci 16. – 18. odnose se na ulomak iz Antigone Sofokla.","questions":[
-        {"type":"SingleChoice","question":"Što je od sljedećega učinio Antigonin i Izmenin otac?","choices":["Dao je pogubiti svoje sinove.","Ubio je svojega brata.","Oslijepio se.","Objesio se."],"correctChoice":"C"},
-        {"type":"SingleChoice","question":"Što je od sljedećega odlučila Izmena?","choices":["da će odati počast pokojnim roditeljima","da će se pokoriti vladarovoj volji","da će pomoći Antigoni","da će osvetiti braću"],"correctChoice":"B"},
-        {"type":"SingleChoice","question":"Što znače sljedeće Antigonine riječi?","shortText":"Ta dulje sviđat se\nJa svijetu moram onom nego ovome","choices":["Želi poštivati božanske zakone.","Želi se svidjeti svim ljudima.","Želi da je vladar poštuje.","Želi se domoći vlasti."],"correctChoice":"A"}]},
-      {"info":"Zadatci 19. – 21. odnose se na ulomak iz Hamleta Williama Shakespearea.","questions":[
-        {"type":"SingleChoice","question":"Na koju se situaciju odnose podcrtane riječi u sljedećemu stihu?","shortText":"Za svu tu vrevu i taj metež diljem zemlje.","choices":["na užurbano naoružavanje","na stražarsku neopreznost","na pojavu Duha noću","na održani dvoboj"],"correctChoice":"A"},
-        {"type":"SingleChoice","question":"Što je od sljedećega motiviralo ljude da se priključe ratnomu pohodu kraljevića Fortinbrasa?","choices":["težnja da se dokažu u borbi","želja za pravdom","odanost kralju","zavist"],"correctChoice":"A"},
-        {"type":"SingleChoice","question":"Što je od sljedećega posljedica smrti norveškoga kralja?","choices":["Poništava se ugovor koji je potpisao s danskim kraljem.","U Danskoj se počinje pojavljivati Duh njegova ubojice.","Norveška vojska smaknut će ubojicu svojega kralja.","Mladi Fortinbras želi vratiti sve izgubljene posjede."],"correctChoice":"D"}]}
-      ,{"info":"Zadatci 22. – 24. odnose se na tekst Teorija neobrazovanosti Konrada Paula Liessmanna.","questions":[
-        {"type":"SingleChoice","question":"Što je od sljedećega tema polaznoga teksta?","choices":["ispravnost Hegelovih predviđanja o funkcioniranju današnjega svijeta","poboljšanje mogućnosti da se razlikuju važne i nevažne informacije","beskorisnost većine informacija kojima je suvremeni čovjek izložen","prednosti koje porast informacijskih mogućnosti donosi ljudima"],"correctChoice":"C"},{"type":"SingleChoice","question":"Koju od sljedećih teza iznosi autor?","choices":["Ljudi kojima je dostupno mnogo informacija imaju i mnogo znanja.","Suvremeni ljudi napreduju u vještini filtriranja važnih informacija.","Ljudski kapacitet za primanje informacija ograničen je.","Životima današnjih ljudi upravljaju vijesti."],"correctChoice":"C"},{"type":"SingleChoice","question":"Što je za autora vremenska prognoza?","choices":["mukotrpan posao","važan podatak","dezinformacija","zabava"],"correctChoice":"B"}]}
-      ,{"info":"Zadatci 25. – 27. odnose se na tekst Jezik ljubavi Davora Rostuhara.","questions":[
-        {"type":"SingleChoice","question":"Koju su vrstu ljubavi Grci smatrali potencijalno opasnom?","choices":["ljubav koja se temelji na popuštanju","bezuvjetnu požrtvovnu ljubav","mladenačku nezrelu ljubav","strastvenu tjelesnu ljubav"],"correctChoice":"D"},{"type":"SingleChoice","question":"Na čemu se prema Aristotelovu mišljenju temelji brak?","choices":["na tjelesnoj privlačnosti","na ljubavi prema sebi","na prijateljstvu","na požudi"],"correctChoice":"C"},{"type":"SingleChoice","question":"Koja je od sljedećih tvrdnja o konkretnim i apstraktnim pojmovima iskazana?","choices":["Konkretni su pojmovi u staroj Grčkoj imali mnogo značenja, a apstraktni samo jedno.","Za razliku od konkretnih pojmova apstraktni mogu dovesti do različitih tumačenja.","I apstraktni i konkretni pojmovi jednako su razumljivi kad se govori o ljubavi.","U staroj je Grčkoj bilo mnogo više apstraktnih pojmova nego konkretnih."],"correctChoice":"B"}]}
-      ,{"info":"Zadatci 28. – 30. odnose se na tekst Plodored kao sistem biljne proizvodnje.","questions":[
-        {"type":"SingleChoice","question":"Koja je od sljedećih tvrdnja o plodoredu točna?","choices":["Stalni uzgoj iste kulture na istome mjestu uzrokuje nedovoljnu iskorištenost hraniva.","Preporučuje se izmjenjivanje biljnih vrsta koje pripadaju istoj porodici.","Biljke će u dobrome plodoredu imati istu dubinu korijena.","Plodoredom se nagomilavaju štetne tvari u tlu."],"correctChoice":"A"},{"type":"SingleChoice","question":"Zašto je dobro u plodoredu nakon krastavaca uzgajati mrkvu?","choices":["jer se izbjegava stalna izloženost tla velikoj količini vode","jer se uzgojem mrkve smanjuje mrvičastost tla","jer imaju sličnu potrebu za vodom i hranivima","jer se ubrzava rast jednogodišnjih korova"],"correctChoice":"A"},{"type":"SingleChoice","question":"Koju je od sljedećih kultura preporučljivo uzgajati prije rajčice?","choices":["mahune","kelj","krastavac","papriku"],"correctChoice":"A"}]}
-      ,{"info":"II. Književnost\n\nZadatci bez polaznoga teksta.","questions":[
-        {"type":"SingleChoice","question":"U kojemu je od sljedećih stihova upotrijebljena sinestezija?","choices":["Đurđic, sitan cvjetić, skroman, tih i fin,","Mirisi su jedni ko put dječja svježi,","Maćuhica ćuti ispod rosne vaze,","Kad su grička zvona od sreće zaplakala"],"correctChoice":"B"},{"type":"SingleChoice","question":"Koja je od sljedećih stilskih figura upotrijebljena u stihovima: Vijest je letjela brže od ptice, Brže od vjetra, Brže od munje?","choices":["epifora","gradacija","inverzija","polisindeton"],"correctChoice":"B"},{"type":"SingleChoice","question":"Koja je od sljedećih stilskih figura upotrijebljena u stihovima: O, sveto nebo, što to vidim! O, sveto nebo, što to gledam!","choices":["antiteza","apostrofa","onomatopeja","paradoks"],"correctChoice":"B"},{"type":"SingleChoice","question":"Što je katarza?","choices":["nesporazum nastao zbog zamjene osoba ili stvari u komediji","razrješavanje dramskoga sukoba božjom intervencijom","oponašanje stvarnosti u umjetničkim djelima","pročišćenje osjećaja gledatelja tragedije"],"correctChoice":"D"},{"type":"SingleChoice","question":"Koja od sljedećih književnih vrsta pripada lirsko-epskim vrstama?","choices":["ditiramb","elegija","legenda","poema"],"correctChoice":"D"},{"type":"SingleChoice","question":"Na koju se književnu vrstu odnosi rečenica o oponašanju i katarzi, trima jedinstvima i dosljednim karakterima?","choices":["na romantičarsku poemu","na renesansnu komediju","na klasicističku tragediju","na barokni ep"],"correctChoice":"C"},{"type":"SingleChoice","question":"Koja je od sljedećih tvrdnja o stvaralaštvu Antuna Branka Šimića točna?","choices":["U svojim pjesmama bojama daje simbolična značenja.","U njegovu pjesničkome stvaralaštvu najviše je soneta.","Pisao je pod utjecajem francuskoga simbolizma.","Poznat je po svojoj dijalektalnoj poeziji."],"correctChoice":"A"},{"type":"SingleChoice","question":"Koji je stih najčešći stih hrvatskoga renesansnog pjesništva?","choices":["dvostrukorimovani dvanaesterac","simetrični osmerac","aleksandrinac","heksametar"],"correctChoice":"A"},{"type":"SingleChoice","question":"Koje književno razdoblje neposredno prethodi baroku?","choices":["humanizam","klasicizam","renesansa","romantizam"],"correctChoice":"C"},{"type":"SingleChoice","question":"Koje od sljedećih djela pripada hrvatskoj renesansi?","choices":["Dubravka Ivana Gundulića","Novela od Stanca Marina Držića","Posljednji Stipančići Vjenceslava Novaka","Zlatarovo zlato Augusta Šenoe"],"correctChoice":"B"},{"type":"SingleChoice","question":"Koji je epski postupak upotrijebljen na početku epa Osman?","choices":["dijalog","invokacija","retardacija","retrospekcija"],"correctChoice":"B"},{"type":"SingleChoice","question":"Na kojoj se od sljedećih suprotnosti temelji radnja Mažuranićeva djela Smrt Smail-age Čengića?","choices":["duhovno – materijalno","sloboda – ropstvo","mladost – starost","grad – selo"],"correctChoice":"B"},{"type":"SingleChoice","question":"Koje od sljedećih književnih djela pripada razdoblju renesanse?","choices":["Cvjetovi zla","Hamlet","Patnje mladog Werthera","Život je san"],"correctChoice":"B"},{"type":"SingleChoice","question":"Kojim događajem započinje roman Stranac Alberta Camusja?","choices":["Meursault piše uime Raymonda pismo njegovoj ljubavnici.","Meursault pripovijeda o majčinoj smrti.","Meursault odlazi u kino s Marie.","Meursault je ubio Arapina."],"correctChoice":"B"},{"type":"SingleChoice","question":"Na koji se književni lik odnosi tvrdnja o otuđenom pojedincu koji je osuđen na smrt?","choices":["na Gregora Samsu","na Leonea Glembaja","na Meursaulta","na Rodiona Raskoljnikova"],"correctChoice":"C"},{"type":"SingleChoice","question":"Na temelju kojega mita Albert Camus filozofski objašnjava ideju romana Stranac?","choices":["o Edipu","o Odiseju","o Prometeju","o Sizifu"],"correctChoice":"D"},{"type":"SingleChoice","question":"Tko je od sljedećih likova žrtva praznovjerja vlastita oca?","choices":["Gregor Samsa","Leone Glembay","Sigismund","Werther"],"correctChoice":"C"},{"type":"SingleChoice","question":"Na koji se lik iz Sofoklove Antigone odnosi Tiresijino obraćanje o živoj u grobu?","choices":["na Antigonu","na Eteokla","na Euridiku","na Polinika"],"correctChoice":"A"},{"type":"SingleChoice","question":"Tko se u drami Život je san prerušio u osobu suprotnoga spola?","choices":["Astolfo","Klarin","Rosaura","Stela"],"correctChoice":"C"},{"type":"SingleChoice","question":"Koja se tvrdnja odnosi na početak tragedije Hamlet?","choices":["Bernardo i Francisco razgovaraju tijekom promjene straže o pojavi duha.","Polonije se oprašta sa sinom koji odlazi na školovanje u Pariz.","Klaudije i Polonije prisluškuju razgovor Hamleta i Ofelije.","Hamlet daje upute glumcima kako uvjerljivo glumiti."],"correctChoice":"A"},{"type":"SingleChoice","question":"Tko u drami Gospoda Glembajevi izgovara rečenicu o karitativnom tajniku?","choices":["dr. Altmann","Leone Glembay","Puba Fabriczy","Silberbrandt"],"correctChoice":"D"},{"type":"SingleChoice","question":"Koja je književna vrsta dominantna u razdoblju realizma?","choices":["ep","lirska pjesma","roman","tragedija"],"correctChoice":"C"},{"type":"SingleChoice","question":"Koja se od sljedećih tvrdnja odnosi na larpurlartizam?","choices":["Umjetnička djela trebaju buditi nacionalnu svijest.","Umjetnost treba sama sebi biti ciljem i svrhom.","Umjetnička djela trebaju oponašati stvarnost.","Umjetnost treba imati didaktičku ulogu."],"correctChoice":"B"},{"type":"SingleChoice","question":"Koji je od sljedećih književnika dio svojega stvaralaštva utemeljio na filozofiji apsurda?","choices":["Albert Camus","Charles Baudelaire","Fjodor Mihajlovič Dostojevski","Johann Wolfgang Goethe"],"correctChoice":"A"},{"type":"SingleChoice","question":"Koji se književni časopis suprotstavljao poetici socijalističkoga realizma i uveo hrvatsku književnost u razdoblje druge moderne?","choices":["Juriš","Kolo","Krugovi","Vijenac"],"correctChoice":"C"}]}
-      ,{"info":"III. Jezik\n\nZadatci višestrukoga izbora.","questions":[
-        {"type":"SingleChoice","question":"U kojoj je od sljedećih rečenica podcrtana riječ pravopisno točna?","choices":["Taj plačenički posao odrađivali su vrsni novinari.","Lice mu je dobilo pačenički izraz nekoga svetca.","Tad je ban pomislio na svoj mučenički narod.","Položio je svečenički zavjet."],"correctChoice":"C"},
-        {"type":"SingleChoice","question":"U kojemu su od sljedećih primjera obje riječi pravopisno točne?","choices":["usmjeriti – usmjeravati","razrjediti – razrjeđivati","smjeniti – smjenjivati","odoljeti – odoljevati"],"correctChoice":"A"},
-        {"type":"SingleChoice","question":"Koja je od sljedećih riječi pravopisno točna?","choices":["crvemperka","jedamput","prehrambeni","stramputica"],"correctChoice":"C"},
-        {"type":"SingleChoice","question":"Koja je od sljedećih rečenica napisana u skladu s pravilima o pisanju velikoga i maloga početnog slova?","choices":["Jedan od zastora Hrvatskoga Narodnog Kazališta u Zagrebu Bukovčevo je djelo.","U obilježavanju Dana planeta Zemlje sudjelovali su i učenici i nastavnici.","Od ostalih pokrajina Azurnu Obalu na zapadu razdvaja rijeka Rona.","Na Trgu Kralja Tomislava okupilo se mnoštvo prosvjednika."],"correctChoice":"B"},
-        {"type":"SingleChoice","question":"Koja je od sljedećih rečenica napisana u skladu s pravilima o pisanju zareza?","choices":["Hrvatski petrarkist Šiško Menčetić, stvarao je u razdoblju renesanse.","Sad je, dakako prekasno žaliti za propuštenim prilikama.","Kad stignem na otok, poslat ću ti razglednicu.","Danas se osjećam mnogo bolje, nego jučer."],"correctChoice":"C"},
-        {"type":"SingleChoice","question":"Koja je od sljedećih riječi točno napisana?","choices":["nadčovjek","nadkriti","nadpolovičan","nadprirodan"],"correctChoice":"D"},
-        {"type":"SingleChoice","question":"U kojemu je od sljedećih primjera provedena palatalizacija?","choices":["gost > gozba","list > lišće","misao > mišlju","ruka > ručetina"],"correctChoice":"D"},
-        {"type":"SingleChoice","question":"U kojemu je primjeru riječ brod točno naglašena?","choices":["brόd","brȏd","brȍd","brὸd"],"correctChoice":"B"},
-        {"type":"SingleChoice","question":"Koja od sljedećih riječi u rečenici nije naglašena? Ja sam još bio dijete kad nam je mama o njemu pričala.","choices":["ja","još","bio","je"],"correctChoice":"D"},
-        {"type":"SingleChoice","question":"Što je oblikotvorni/gramatički morfem u riječi ljepotica?","choices":["-a","-ca","-ica","-tica"],"correctChoice":"D"},
-        {"type":"SingleChoice","question":"U kojemu je padežu podcrtana riječ u sljedećoj rečenici? Odjednom je među okupljenima nastalo komešanje.","choices":["u dativu","u akuzativu","u lokativu","u instrumentalu"],"correctChoice":"A"},
-        {"type":"SingleChoice","question":"Koja je zamjenica u sljedećoj rečenici neodređena zamjenica? Držao se svojega posla i nitko ga zbog toga nije gnjavio.","choices":["svojega","nitko","ga","toga"],"correctChoice":"B"},
-        {"type":"SingleChoice","question":"U kojemu je rodu i broju podcrtana riječ u sljedećoj rečenici? Pobijedili su igrači bolje momčadi.","choices":["u ženskome rodu množine","u muškome rodu množine","u ženskome rodu jednine","u muškome rodu jednine"],"correctChoice":"C"},
-        {"type":"SingleChoice","question":"Koji je glagolski oblik podcrtan u sljedećoj rečenici? Gledajući u daljinu, duboko je uzdahnuo.","choices":["glagolski prilog sadašnji","glagolski pridjev radni","prezent","infinitiv"],"correctChoice":"A"},
-        {"type":"SingleChoice","question":"Koji je točan infinitiv podcrtanoga glagola u sljedećoj rečenici? Mnogi prolaznici toj raznovrsnoj ponudi ipak nekako odole.","choices":["odolijevati","odoljevati","odoljeti","odoliti"],"correctChoice":"C"},
-        {"type":"SingleChoice","question":"Koliko je nepromjenjivih riječi u sljedećoj rečenici? Drugoga dana palo je nekoliko teških povika kroz rešetke, ali ni tada okupljeni ne dobiše odgovore.","choices":["tri","četiri","pet","šest"],"correctChoice":"D"},
-        {"type":"SingleChoice","question":"Koji od sljedećih frazema znači ‘trajno prestati s radom’?","choices":["staviti ključ u bravu","ostati praznih ruku","stegnuti remen","stati na loptu"],"correctChoice":"A"},
-        {"type":"SingleChoice","question":"Kojemu funkcionalnom stilu hrvatskoga jezika pripada rečenica o C-terminalnim odsječcima proteina?","choices":["administrativnomu","književnoumjetničkomu","publicističkomu","znanstvenomu"],"correctChoice":"D"},
-        {"type":"SingleChoice","question":"U kojoj je od sljedećih rečenica podcrtana riječ eponim?","choices":["Laureat je dobitnik najvišega priznanja, a ta riječ potječe od latinske riječi za lovor.","Disertacija je sustavna znanstvena rasprava s novim prinosom poznavanju teme.","Nobelij je kemijski element koji je dobio naziv prema švedskome kemičaru.","Poklisar je naziv za saborskoga zastupnika u 19. stoljeću."],"correctChoice":"C"},
-        {"type":"SingleChoice","question":"Kojim je od sljedećih tvorbenih nastavaka nastala riječ učionica?","choices":["-onica","-nica","-ica","-a"],"correctChoice":"A"},
-        {"type":"SingleChoice","question":"Kojim je tvorbenim načinom nastala riječ bogataš?","choices":["prefiksalno-sufiksalnom tvorbom","složeno-sufiksalnom tvorbom","prefiksalnom tvorbom","sufiksalnom tvorbom"],"correctChoice":"D"},
-        {"type":"SingleChoice","question":"Kojoj skupini imena pripada ime Mokro Polje?","choices":["antroponimima","ekonimima","hidronimima","oronimima"],"correctChoice":"B"},
-        {"type":"SingleChoice","question":"Iz kojega jezika potječu luzitanizmi?","choices":["iz portugalskoga jezika","iz francuskoga jezika","iz talijanskoga jezika","iz latinskoga jezika"],"correctChoice":"A"},
-        {"type":"SingleChoice","question":"Za koji je funkcionalni stil karakteristična upotreba kolokvijalizama?","choices":["za administrativni","za publicistički","za razgovorni","za znanstveni"],"correctChoice":"C"},
-        {"type":"SingleChoice","question":"Tko je sastavio prvi hrvatski tiskani rječnik?","choices":["Bartol Kašić","Bogoslav Šulek","Faust Vrančić","Ljudevit Gaj"],"correctChoice":"C"}
-      ]}
-    ]},
-    {"name":"Školski Esej","predictedTime":160,"potentialPoints":40,"instructions":"Napišite školski esej slijedeći priložene upute i smjernice za pisanje školskoga eseja.","questionGroups":[{"info":"ZADATAK ZA PISANJE ŠKOLSKOGA ESEJA\nAlbert Camus, Stranac","questions":[{"type":"EssayWriting","question":"Smjernice\n• Predstavite poetiku djela Stranac.\n• Objasnite na temelju djela u cjelini kako je karakter glavnoga lika doveo do ubojstva o kojemu se pripovijeda u polaznome tekstu.\n• Interpretirajte polazni tekst na sadržajnoj i stilskoj razini te protumačite njegovu ulogu u cjelini djela.\n• Usporedite glavni lik djela Stranac s Raskoljnikovim iz romana Zločin i kazna.\n• Obrazložite svoje tvrdnje.","points":[{"category":"Sadržaj","points":40}]}]}]}
-  ]
+    "name": "Hrvatski Jezik",
+    "level": "B",
+    "maxPoints": 120,
+    "scale": {
+        "range1": [
+            0,
+            41.99
+        ],
+        "range2": [
+            42,
+            62.39
+        ],
+        "range3": [
+            62.4,
+            80.99
+        ],
+        "range4": [
+            81,
+            97.19
+        ],
+        "range5": [
+            97.2,
+            120
+        ]
+    },
+    "sections": [
+        {
+            "name": "Književnost, neknjiževni tekst i jezik",
+            "predictedTime": 100,
+            "potentialPoints": 80,
+            "instructions": "Pozorno pročitajte sve upute i slijedite ih. Ispit traje 100 minuta. U zadatcima višestrukoga izbora od više ponuđenih odgovora samo je jedan točan. Točan odgovor donosi jedan bod.",
+            "questionGroups": [
+                {
+                    "info": "Zadatci 1. – 3. odnose se na Petrarkin Kanconijer.",
+                    "initialText": {
+                        "title": "Francesco Petrarca, Kanconijer",
+                        "text": "III.\n\nDan je bio takav, da su sunca traci\npomračili se, rad smrti svog tvorca,\nkad ja uzet bijah, te ko slaba borca\nsjaj očiju vaših u ropstvo me baci.\n\nNi mislio nisam, da se branim tada\nod Amorovih udaraca; bio\nbezbrižan ja sam, al` zabugario¹\nodmah sam potom sred općega jada.\n\nBez oružja Amor na nišan me uze,\ns otvorenim putem od oka do grudi,\noka, kojim teku samo gorke suze.\n\nČasno baš nije bilo me prokazat,\nte bez oružja me nastrijelit sred ljudi,\na vama s oružjem luka ne pokazat.\n\n¹ zabugariti – tužno zapjevati"
+                    },
+                    "questions": [
+                        {
+                            "type": "SingleChoice",
+                            "question": "Što od sljedećega lirski subjekt iskazuje o dragoj osobi?",
+                            "choices": [
+                                "da je njezina ljepota nenadmašiva",
+                                "da ona voli slušati njegovu pjesmu",
+                                "da mu nije uzvratila ljubav",
+                                "da je bila nečasna"
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Što je o lirskome subjektu iskazano sljedećim stihom?",
+                            "shortText": "Bez oružja Amor na nišan me uze,",
+                            "choices": [
+                                "Nije se mogao obraniti od ljubavi.",
+                                "Amor ga je kaznio zbog grijeha.",
+                                "Nije pronašao smisao u životu.",
+                                "Tražio je božju pomoć."
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Kako lirski subjekt doživljava ljubav?",
+                            "choices": [
+                                "kao poziv na putovanje",
+                                "kao svoje oružje",
+                                "kao bezbrižnost",
+                                "kao ropstvo"
+                            ],
+                            "correctChoice": "D"
+                        }
+                    ]
+                },
+                {
+                    "info": "Zadatci 4. – 6. odnose se na ulomak iz Odiseje Homera.",
+                    "initialText": {
+                        "title": "Homer, Odiseja",
+                        "text": "Tako im reče, i svȅ ih bljedoća osvoji i strah,\nSvaki se ògledā, kud će utèći od smrti pr’jeke.\nSamo Eurìmah riječ ovako prihvati njemu:\n„Ako si Itačanin Odisej te kući si došo,\nOnda govoriš pravo, Ahejci činjahu sve to,\nU kući radiše mnoga bezakonja, na polju mnoga.\nAli mrtav već leži Antìnoje, koji je krivac\nSvemu, što radilo se, i sviju djela je uzrok;\nNije ženidbe on tolìkō tražio željno,\nNego je mislio drugo, al’ nije mu dao Kronìōn,\nItakom uređenom u duši svojoj je htio\nVladati sam i u zasjedi tvog pogubiti sina,\nAli je eno ubit po pràvici, à tī se sada\nSmiluj čeljadi svojoj; u tvojoj što se je kući\nIzjelo, ispilo što se, u narodu sve ćemo tebi\nNaknadit, ì još napóse na náplatu tebi će svaki\nDati za volova dvaest i mjedi i zlata, dok srce\nTvoje se smiri, a dotle ljutini ti zamjere nema.”\n\nMrko pogledav njega Odisej dosjetljivi reče:\n„Očevinu, Eurìmaše, svu da dade mi svaki,\nŠto je tko ima, pa jošte i drȕgō da tome dodade,\nOd krvi svojih ruku ni onda ustegnuo ne bih,\nPrije nego se za sva za nedjela osvetim proscem.\nSada vam ostaje samo il’ borit se sa mnom il’ bježat.\nNe bi li smrti i Keri utèći mogao koji,\nAl’ vam prijekoj smrti ni jednom ne velim utèći!”"
+                    },
+                    "questions": [
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koja je od sljedećih tvrdnja o Eurìmahu točna?",
+                            "choices": [
+                                "Obećaje Odiseju da će se osvetiti za počinjena zlodjela.",
+                                "Svaljuje krivnju za zlo naneseno Odiseju na Antìnoja.",
+                                "Sažalijeva Odiseja zbog zla koje mu je naneseno.",
+                                "Pomogao je Odiseju da se vrati kući."
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Što je od sljedećega Eurìmah iskazao o proscima?",
+                            "choices": [
+                                "Oni koji su preživjeli htjeli su ubiti Odisejeva sina.",
+                                "Spremni su darovima odobrovoljiti Odiseja.",
+                                "Pobjegli su pred bijesnim Odisejem.",
+                                "Obrađivali su Odisejeva polja."
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Na što se odnosi podcrtana riječ u sljedećemu primjeru?",
+                            "shortText": "Očevinu, Eurìmaše, svu da dade mi svaki,\nŠto je tko ima, pa jošte i drȕgō da tome dodade,",
+                            "choices": [
+                                "na imovinu prosaca",
+                                "na Odisejeve muke",
+                                "na isprike Odiseju",
+                                "na krvnu osvetu"
+                            ],
+                            "correctChoice": "A"
+                        }
+                    ]
+                },
+                {
+                    "info": "Zadatci 7. – 9. odnose se na ulomak iz Zlatarova zlata Augusta Šenoe.",
+                    "initialText": {
+                        "title": "August Šenoa, Zlatarovo zlato",
+                        "text": "U dvorištu regnikolarnoga¹ doma u kraljevskom gradu Zagrebu bijaše neobično živo. Oko dugačkoga zelenoga stola na kojem stajahu debele knjižurine, papir, crnilo i šarena škrinja sa sloboštinama² kraljevine, vrvjela sila poslanika saborskih sve u bogatim dolamama³ iskićenim srebrom i zlatom, sve pod kalpacima⁴ na kojima blistaše biser i dragulj, a o boku okovane sablje. Pjeneznik⁵ Mijo Konjski zbijao šale sa majušnim gospodinom sucem Matom Crnkovićem iz Crnkovca, frčući svejednako velike plave brkove. Varaždinski poslanici Gašpar Druškoci i Ivan Zaboki zaokupili gospodina Petra Ratkaja Velikotaborskoga te mu pripovijedaju vrlo krupnim jezikom kako gospodin Mate Keglević pod silu otimlje i ubija kmetove. Gospodin Ratkaj, pogladiv si crnu bradu, čudi se tomu nasilju i spominje mimogred da je Mate Keglević veliki prijatelj bivšemu banu Draškoviću. Gospodin Niko Alapić Kalnički, banov brat, skupio je oko sebe jato kalničkih plemića seljaka i kuje svoga brata bana u zvijezde. Prečasni prepošt⁶ Niko Želnički klanja se udvorno mladomu gospodinu Stjepku Tahu, plavokosu mladcu, a kradomice namiguje Franji Stolnikoviću koji se tvrdo zavjeruje seoskim plemićima iz Moravča da će ih pred stališima braniti radi zuluma⁷ Hallekovih vojnika. Podalje stoji žilav starac od šezdeset godina, crnih žarkih očiju i malih brkova, u plavetnoj dolami – Blaž Pogledić, župan turopoljski, i razgovara živo sa čovjekom visokim, suhim, odjevenim u mrke haljine – sa literatom Ivanom Jakopovićem – poslanikom plemenitoga varoša zagrebačkoga. A sam u kutu mrk – zamišljen sjeđaše, upirući se o svoju široku sablju, gospodin Gregorijanec Medvedgradski. I navali plemstvo sve više i više govorkajući, vičući, zvekećući, a gdjegdje među plemstvom pokoji časni gospodin u crnoj dugačkoj halji."
+                    },
+                    "questions": [
+                        {
+                            "type": "SingleChoice",
+                            "question": "O čemu je izviješten Petar Ratkaj?",
+                            "choices": [
+                                "o okrutnome postupanju prema kmetovima",
+                                "o potpisivanju povelje o slobodi",
+                                "o dogovoru plemića pred bitku",
+                                "o pripremama za izbor bana"
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Što je zajedničko svim poslanicima?",
+                            "choices": [
+                                "Podupiru bana Draškovića.",
+                                "Ogovaraju Niku Alapića.",
+                                "Raskošno su odjeveni.",
+                                "Žale se na kmetove."
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Tko je prikazan kao dvolična osoba?",
+                            "choices": [
+                                "Franjo Stolniković",
+                                "Gregorijanec Medvedgradski",
+                                "Niko Želnički",
+                                "Stjepko Tah"
+                            ],
+                            "correctChoice": "C"
+                        }
+                    ]
+                },
+                {
+                    "info": "Zadatci 10. – 12. odnose se na ulomak iz Patnja mladog Werthera Johanna Wolfganga Goethea.",
+                    "initialText": {
+                        "title": "Johann Wolfgang Goethe, Patnje mladog Werthera",
+                        "text": "18. srpnja\n\nŠto bi, Wilhelme, našemu srcu bio svijet da nema ljubavi? Što je laterna magica¹ bez svjetla! Čim staviš u nju žižak, pokazuju se na bijeloj plohi najšarenije slike! Pa ako to nisu ništa drugo no prolazni fantomi², ipak nas usrećuju pa kao bodri dječaci stojimo pred ovim čudom ushićeni.\n\nDanas nisam mogao k Lotti, zadržalo me društvo kojemu nisam mogao izmaći, što da se radi? Poslao sam joj svoga slugu da bih oko sebe imao nekoga koji je došao u njezinu blizinu. Kako sam ga nestrpljivo čekao i kako sam se obveselio kad sam ga na povratku ugledao! Samo da ga nisam obujmio i poljubio, no bilo me stid.\n\nPriča se o bononskom kamenu, kad ga staviš na sunce, privlači sunčane zrake pa noću još neko vrijeme svijetli. Toga sam se sjetio kad sam ugledao momka. Osjećaj da su njezine oči počivale na njegovu licu, njegovim dugmetima na kaputu, na ovratniku surtouta³ učini mi ove stvari nekako svete, nekako vrednije! U taj mah ne bih tog mladića dao ni za tisuću talira. Bilo mi je tako ugodno u njegovu društvu. (...)\n\n24. srpnja\n\n(...) Nikada nisam bio sretniji, nikada moje osjećanje prirode, sve do kamenčića ili travčice, nije bilo potpunije i prisnije, a ipak – ne znam kako bih se izrazio – moja sposobnost predočivanja tako je slaba da pred mojom dušom sve pliva i pluta pa ne mogu zahvatiti ni jedan obris. No sve mislim: da mi je gline ili voska, nešto bih dobro uobličio. Uzet ću doista gline te mijesiti i mijesiti pa makar se rodili i kolači!\n\nTri puta sam počeo Lottin portret i tri puta sam se osramotio. To me naljutilo, to više što sam prije nekog vremena vrlo dobro pogađao sličnost. Onda sam izrezao njezinu siluetu, pa neka mi to bude dosta.\n\n¹ laterna magica – uređaj za optičku projekciju\n² fantom – duh, prikaza, slika u glavi\n³ surtout – vrsta muškoga kaputa"
+                    },
+                    "questions": [
+                        {
+                            "type": "SingleChoice",
+                            "question": "Kako ljubav djeluje na pripovjedača?",
+                            "choices": [
+                                "Potiče ljutnju prema drugima.",
+                                "Uzrokuje umjetničku nemoć.",
+                                "Izaziva stid i nelagodu.",
+                                "Budi zabrinutost."
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Kojim je izrazom u pismu od 18. srpnja slikovito prikazana Lotta?",
+                            "choices": [
+                                "fantom",
+                                "bononski kamen",
+                                "sunce",
+                                "tisuća talira"
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koja je uloga motiva iz prirode u pismu od 24. srpnja?",
+                            "choices": [
+                                "Naglašavaju pripovjedačeve osjećaje.",
+                                "Podsjećaju Werthera na Wilhelma.",
+                                "Opisuju mjesto gdje Werther slika.",
+                                "Dočaravaju ljepotu krajolika."
+                            ],
+                            "correctChoice": "A"
+                        }
+                    ]
+                },
+                {
+                    "info": "Zadatci 13. – 15. odnose se na ulomak iz Romana portreta (1616.) Ksavera Šandora Gjalskoga.",
+                    "initialText": {
+                        "title": "Ksaver Šandor Gjalski, Roman portreta (1616.)",
+                        "text": "Evo što sam našao u rukopisu o brezovičkom portretu: Pod konac šesnaestoga vijeka doselio se u Veneciju hrvatski velikaš knez Blagaj. Iz domovine je morao otići jer su mu Turci popalili gradove i sela, podanike što podavili što u ropstvo odveli, zemlje posvojili, a što je od njih preostalo u gornjim stranama kraljevine, izgubio je tako što je gradačka komora posjela ta imanja u ime obrambenih obzira i ondje svoje vojnike, vlaške bjegunce, nastanila. Blagaj ostade gotovo bez svega. U toj svojoj nevolji uteče se rodu svoje žene, rođene Mlečanke iz moćne obitelji Morosina. Rođaci ga ovi pozovu u Veneciju i tu mu dadu u jednoj od manje sjajnih palača na Rialtu priličan stan, pomažući ga također novcem, koliko im dopuštaše njihov veliki imutak pored silno raskošna života.\n\nPonosni je hrvatski gospodin trpio stoga mnoge i premnoge muke, no tješio se da je tek začas došao ovamo. Ali – što je jednom izgubio, sve je govorilo da je izgubio zauvijek. Turci ostali u zaposjednutim stranama, a protiv komore nije uspio nikako, premda su ga u tom pomagali i hrvatski staleži i redovi.\n\nTako je prošla i petnaesta godina otkada je otišao iz domovine. Ali za dugih tih godina jenjala je i silno popustila pripomoć rođaka, te je Blagaj imao svaki dan gorih neprilika. Njegova je radost bila i njegova najveća briga. Imao je naime devetero djece. Najmlađe bijaše njegovo osobito ljubimče, a bila je to kćerka Marjeta. Kad je navršila svoju šesnaestu godinu, bila je tako izvanredne ljepote da ju je jedan od najslavnijih tadašnjih slikara umolio neka mu sjedi za portret, i dogotovivši sliku, pokloni je ocu s molbom ne bi li smio „divno ovo liceˮ upotrijebiti za svoje remek-djelo koje je imao izraditi za francuskoga kralja. Gdje god bi se Marjeta pokazala, svagdje je usplamtila srca i mladih i starih ljudi. Opći glas je bio, tko jednom Marjetu vidi, da je neće nikada više zaboraviti."
+                    },
+                    "questions": [
+                        {
+                            "type": "SingleChoice",
+                            "question": "Na koji od sljedećih načina pisac postiže dojam realističnosti?",
+                            "choices": [
+                                "U pripovijedanju upotrebljava uglavnom složene rečenice.",
+                                "Navodi rukopis u kojemu se prikazuje nastanak portreta.",
+                                "U središtu je priča o djevojci iznimne ljepote.",
+                                "Postavlja pripovjedača u prvo lice."
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "U čemu su hrvatski staleži i redovi pomagali Blagaju?",
+                            "choices": [
+                                "da zaposjedne imanje rođaka svoje žene",
+                                "da mu gradačka komora vrati posjede",
+                                "da mu se olakša život u Veneciji",
+                                "da otjera Turke sa svoje zemlje"
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koja je od sljedećih tvrdnja o Marjetinu portretu točna?",
+                            "choices": [
+                                "Slikar ga je darovao Blagaju kako bi dobio dopuštenje da još jedanput slika Marjetu.",
+                                "Blagaj je odabirom Marjete kao modela htio pokazati tko mu je najdraže dijete.",
+                                "Njegovom je prodajom slikar htio novčano pomoći Blagaju.",
+                                "Blagaj se njime htio dodvoriti francuskomu kralju."
+                            ],
+                            "correctChoice": "A"
+                        }
+                    ]
+                },
+                {
+                    "info": "Zadatci 16. – 18. odnose se na ulomak iz Antigone Sofokla.",
+                    "initialText": {
+                        "title": "Sofoklo, Antigona",
+                        "text": "Izmena\n\nJao meni! Promisli, o sestro, kako nam\nPreminu otac omražen i preziran!\nSam sebe krivcem zločina je otkrio\nI zato si je oba oka izbio.\nPa mati mu i žena – ista osoba –\nPletènom omčom skonča život sramotno.\nI treće, brata dva u jedan sebe dan\nPogubiše, smrt svojom rukom jadnici\nIstovremeno jedan drugom zadaše.\nSad same nas dvije ostasmo i najgora\nJoš smrt nas čeka ako protiv zakona\nMi pogazimo volju il’ vlast kraljevsku.\nNa umu treba imati da žene smo:\nS muškarcima se ne možemo boriti;\nPa onda jači nama zapovijedaju\nTe slušat nam je to i òd tog mučnije.\nJa, dakle, molim one što pod zemljom su\nNek’ oproste jer evo sila priječi me;\nA poglavare slušat ću. Jer raditi\nŠto snage prelazi baš nije pametno.\n\nAntigona\n\nNit’ tražim tvoju pomoć, nit’, da pristaneš,\nPrihvatila bih još da ti mi pomogneš.\nAl’ sudi kako hoćeš; ja ću onoga\nSahranit: za to čast je meni umrijeti\nJer draga s njim ću dragim mrtva ležati\nUčinivši svet grijeh. Ta dulje sviđat se\nJa svijetu moram onom nego ovome\nJer ondje dovijek ću počivati. A ti,\nKad tako misliš, božji zakon pogazi!"
+                    },
+                    "questions": [
+                        {
+                            "type": "SingleChoice",
+                            "question": "Što je od sljedećega učinio Antigonin i Izmenin otac?",
+                            "choices": [
+                                "Dao je pogubiti svoje sinove.",
+                                "Ubio je svojega brata.",
+                                "Oslijepio se.",
+                                "Objesio se."
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Što je od sljedećega odlučila Izmena?",
+                            "choices": [
+                                "da će odati počast pokojnim roditeljima",
+                                "da će se pokoriti vladarovoj volji",
+                                "da će pomoći Antigoni",
+                                "da će osvetiti braću"
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Što znače sljedeće Antigonine riječi?",
+                            "shortText": "Ta dulje sviđat se\nJa svijetu moram onom nego ovome",
+                            "choices": [
+                                "Želi poštivati božanske zakone.",
+                                "Želi se svidjeti svim ljudima.",
+                                "Želi da je vladar poštuje.",
+                                "Želi se domoći vlasti."
+                            ],
+                            "correctChoice": "A"
+                        }
+                    ]
+                },
+                {
+                    "info": "Zadatci 19. – 21. odnose se na ulomak iz Hamleta Williama Shakespearea.",
+                    "initialText": {
+                        "title": "William Shakespeare, Hamlet",
+                        "text": "MARCEL: No, sjednimo; i nek mi kaže taj tko znade,\nZašto te iste brižljive i stroge straže\nSvaku noć muče podanike ove zemlje;\nZašto se dnevno liju brončani mužari¹,\nA ratna sprema nabavlja iz strane zemlje.\nŠto brodograditelje tako bolno kinje\nDa nedjelju ne luče od radnoga tjedna?\nŠto nam to svima prijeti, da ta znojna žurba\nSad čini noć u trudu supatnicom danu?\nTko mi to može sve objasniti?\n\nHORACIJE: Mogu ja;\nIl bar se tako šapće: Bivšeg našeg kralja\nČiji nam lik se upravo pojavio,\nKralj norveški je Fortinbras, kao što znate,\nPodboden na to ponosom surevnjivim²,\nNa dvoboj izazvao; tu je hrabri Hamlet –\nA takvim ga je cijeli svijet naš cijenio –\nSmaknuo Fortinbrasa; koji, po ugovoru\nZapečaćenu zakonom heraldike³,\nSa svojim izgubi životom posjede\nI svoje zemlje sve u korist pobjednika;\nNasuprot tome, odgovarajući dio\nZaložio je i naš kralj, a taj bi zalog\nU nasljeđe Fortinbrasu pripao,\nDa je ostao pobjednikom, kao što je,\nPo sadržaju istog ugovornog člana,\nNjegov dijel Hamlet dobio. Mladi Fortinbras,\nNeiskušane srčanosti pun, i žestok,\nPo rubovima Norveške je amo-tamo,\nZa samu hranu, pokupio družbu divljih\nPustòlova za neki pothvat koji stavlja\nNa kušnju hrabrost; a taj ide samo za tim –\nI našim gospodarima je posve jasno –\nDa silom nas i uvjetima prinudnim\nPrimora da mu povratimo one zemlje\nKoje je njegov otac tad izgubio.\nA to je, mislim, razlog te pripravnosti\nI uzrok ove naše straže, glavni povod\nZa svu tu vrevu i taj metež diljem zemlje.\n\n¹ mužari – topovi\n² surevnjiv – koji je pun zavisti, ljubomoran, zavidan\n³ heraldika – znanost o grbovima"
+                    },
+                    "questions": [
+                        {
+                            "type": "SingleChoice",
+                            "question": "Na koju se situaciju odnose podcrtane riječi u sljedećemu stihu?",
+                            "shortText": "Za svu tu vrevu i taj metež diljem zemlje.",
+                            "choices": [
+                                "na užurbano naoružavanje",
+                                "na stražarsku neopreznost",
+                                "na pojavu Duha noću",
+                                "na održani dvoboj"
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Što je od sljedećega motiviralo ljude da se priključe ratnomu pohodu kraljevića Fortinbrasa?",
+                            "choices": [
+                                "težnja da se dokažu u borbi",
+                                "želja za pravdom",
+                                "odanost kralju",
+                                "zavist"
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Što je od sljedećega posljedica smrti norveškoga kralja?",
+                            "choices": [
+                                "Poništava se ugovor koji je potpisao s danskim kraljem.",
+                                "U Danskoj se počinje pojavljivati Duh njegova ubojice.",
+                                "Norveška vojska smaknut će ubojicu svojega kralja.",
+                                "Mladi Fortinbras želi vratiti sve izgubljene posjede."
+                            ],
+                            "correctChoice": "D"
+                        }
+                    ]
+                },
+                {
+                    "info": "Zadatci 22. – 24. odnose se na tekst Teorija neobrazovanosti Konrada Paula Liessmanna.",
+                    "initialText": {
+                        "title": "Konrad Paul Liessmann, Teorija neobrazovanosti",
+                        "text": "Omiljenoj tezi da živimo u informacijskom društvu i na taj način u društvu znanja može se, doduše, posve opravdano suprotstaviti teza da živimo u „dezinformacijskom društvu”.\n\nHegel je jednom formulirao da poznato nije „spoznato zato što je poznato”. Sa znanjem i spoznajom informacije još nemaju veze. Među brojnim definicijama informacije možda je još uvijek najrazvidnija ona koju je formulirao američki teoretičar sistema Gregory Bateson: informacija je „bilo koja razlika koja prilikom nekog kasnijeg događaja stvara razliku”.\n\nPred opnom ovog pojmovnog određenja odmah biva jasno zašto je za opis našega društva pojam dezinformacijsko društvo znatno prikladniji od pojma informacijsko društvo. Porast informacijskih i komunikacijskih mogućnosti, to puko mnoštvo dojmova, tonova, brojki i slika skrivenih pod krinkom informacije, koje danas zapljuskuju prosječnog gradskog žitelja, vodi k tome da se razlike najprije pomute, a ako ipak postanu vidljive, tada s obzirom na neki kasniji događaj više ne tvore nikakvu razliku, jer se iz kapacitetskih razloga mogu opažati samo periferno, ili ih u pravilu smjesta valja iznova zaboraviti.\n\nProvjerimo li takozvane bezbrojne informacije što ih – također pod službenim naslovom „Vijesti” – suvremeni čovjek konzumira tijekom dana, propitujući u kolikoj mjeri nakon toga uslijedi neka radnja koja bi bez vijesti izostala, biva savršeno jasno da većina tih takozvanih vijesti nisu nikakve vijesti, dok su vijesti koje tvore razliku te zbilja nešto imaju priopćiti rijetke, pa ih stoga u pravilu tek valja mukotrpno isfiltrirati. Što se tiče redovitih večernjih televizijskih vijesti, postoji, uostalom, samo jedan blok koji doista prenosi informaciju relevantnu za blisku budućnost gotovo svakoga gledatelja, pa stoga uistinu ima značenje: vremenska prognoza. Sve drugo, ma kako bilo ozbiljno, u pravilu je zabava."
+                    },
+                    "questions": [
+                        {
+                            "type": "SingleChoice",
+                            "question": "Što je od sljedećega tema polaznoga teksta?",
+                            "choices": [
+                                "ispravnost Hegelovih predviđanja o funkcioniranju današnjega svijeta",
+                                "poboljšanje mogućnosti da se razlikuju važne i nevažne informacije",
+                                "beskorisnost većine informacija kojima je suvremeni čovjek izložen",
+                                "prednosti koje porast informacijskih mogućnosti donosi ljudima"
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koju od sljedećih teza iznosi autor?",
+                            "choices": [
+                                "Ljudi kojima je dostupno mnogo informacija imaju i mnogo znanja.",
+                                "Suvremeni ljudi napreduju u vještini filtriranja važnih informacija.",
+                                "Ljudski kapacitet za primanje informacija ograničen je.",
+                                "Životima današnjih ljudi upravljaju vijesti."
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Što je za autora vremenska prognoza?",
+                            "choices": [
+                                "mukotrpan posao",
+                                "važan podatak",
+                                "dezinformacija",
+                                "zabava"
+                            ],
+                            "correctChoice": "B"
+                        }
+                    ]
+                },
+                {
+                    "info": "Zadatci 25. – 27. odnose se na tekst Jezik ljubavi Davora Rostuhara.",
+                    "initialText": {
+                        "title": "Davor Rostuhar, Jezik ljubavi",
+                        "text": "Ima li ljubavi tamo gdje nema riječi za ljubav?\n\nAntički Grci imali su puno više riječi za ljubav nego što ih mi danas imamo u većini modernih jezika, ali nijedna se zapravo ne odnosi na ljubav koju mi istražujemo. Philia je najcjenjenija vrsta ljubavi, ljubav prema članovima obitelji i prema državi, više prijateljska ljubav nego ljubav zaljubljenog dvojca. Eros označava seksualnu strast, požudu, ljubav prema vanjskom, fizičkom. Grci su cijenili ljepotu, ali nisu eros uvijek smatrali pozitivnim – štoviše mislili su da može biti opasan jer čovjeka može lišiti samokontrole. Aristotel je rekao da eros prerastamo u mladosti, a u zreloj dobi odnose, pa i brak, baziramo na philiji, dok je Platon rekao da se eros i philia međusobno nadopunjuju i rastu jedno iz drugoga. Agape je nešto poput bezuvjetne ljubavi, ljubavi koja ne traži ništa zauzvrat, ali ona se više odnosi na ljubav prema bogu ili božju ljubav prema čovjeku. Pragma je pragmatična, zrela ljubav zasnovana na kompromisima, trudu i zajedničkim interesima. Ludus je zaigrana, nezrela ljubav, flertovska, mladenačka. Storge je neka vrst empatije, usmjerena najčešće prema roditeljima ili djeci. Philautia je ljubav prema sebi, xenia prema gostu, philantropia prema čovjeku, čovječanstvu... (...)\n\nLjudi s kojima smo pričali nekad su pod ljubavlju podrazumijevali samo onu vatrenu fazu intenzivne zaljubljenosti, nekad su taj termin koristili da opišu onu erotsku, seksualnu dimenziju ljubavi, a nekad onu dublju privrženost koja dolazi u kasnijim stadijima odnosa. Nekad su ljubavlju smatrali odnos pun poštovanja, nekad su je mistificirali kao božansku silu, nekad su je poricali kao apstraktan pojam koji smo izmislili...\n\nKad je riječ o konkretnim konceptima kao što su pas, nož, stablo ili voda, tu ne može doći do prevelikog nerazumijevanja ili pretjerano različitih tumačenja. No, kad je riječ o apstraktnim pojmovima kao što su bog, domovina, normalno, prirodno, pravda ili ljubav, tu se u pravilu razilazimo u značenju i razumijevanju jer razni ljudi apstraktnim pojmovima pripisuju razna značenja."
+                    },
+                    "questions": [
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koju su vrstu ljubavi Grci smatrali potencijalno opasnom?",
+                            "choices": [
+                                "ljubav koja se temelji na popuštanju",
+                                "bezuvjetnu požrtvovnu ljubav",
+                                "mladenačku nezrelu ljubav",
+                                "strastvenu tjelesnu ljubav"
+                            ],
+                            "correctChoice": "D"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Na čemu se prema Aristotelovu mišljenju temelji brak?",
+                            "choices": [
+                                "na tjelesnoj privlačnosti",
+                                "na ljubavi prema sebi",
+                                "na prijateljstvu",
+                                "na požudi"
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koja je od sljedećih tvrdnja o konkretnim i apstraktnim pojmovima iskazana?",
+                            "choices": [
+                                "Konkretni su pojmovi u staroj Grčkoj imali mnogo značenja, a apstraktni samo jedno.",
+                                "Za razliku od konkretnih pojmova apstraktni mogu dovesti do različitih tumačenja.",
+                                "I apstraktni i konkretni pojmovi jednako su razumljivi kad se govori o ljubavi.",
+                                "U staroj je Grčkoj bilo mnogo više apstraktnih pojmova nego konkretnih."
+                            ],
+                            "correctChoice": "B"
+                        }
+                    ]
+                },
+                {
+                    "info": "Zadatci 28. – 30. odnose se na tekst Plodored kao sistem biljne proizvodnje.",
+                    "initialText": {
+                        "title": "Plodored kao sistem biljne proizvodnje",
+                        "text": "Plodored kao sistem biljne proizvodnje koji se na oranicama obvezno mora primjenjivati predstavlja pravilnu izmjenu usjeva, prostornu i vremensku, na proizvodnim površinama. Ratarske i povrtlarske kulture ne bi se smjele neprestano uzgajati na istoj površini jer se u tlu nagomilavaju štetne tvari, uzročnici biljnih bolesti, štetnici i korovi, a hraniva iz tla troše se jednostrano i nepravilno. Zbog svega navedenog potrebno je sastaviti dobar plodored, odnosno isplanirati prostornu i vremensku izmjenu ratarskih i povrtlarskih kultura, uzimajući u obzir pripadnost pojedine vrste određenoj biljnoj porodici jer se štetnici i uzročnici biljnih bolesti mogu javljati na različitim biljnim vrstama unutar neke porodice.\n\n(...)\n\nOsim toga potrebno je uzeti u obzir i izmjenu kultura s različitom dubinom korijena te izmjenjivati kulture s različitim potrebama za vodom i hranivima. Sastaviti dobar plodored sa svim elementima kao što su ophodnja, plodosmjena i odmor tla nije baš jednostavno jer treba odabrati najpovoljniji način gnojidbe i obrade tla, kulture i sorte, vrijeme sjetve, sadnje i berbe, kao i načine njege usjeva. Ako se ista vrsta uzgaja često ili uzastopno na istoj površini, dolazi do smanjenja uroda i kvalitete, do povećanja izvora zaraze bolestima i štetnicima, do povećanja jednogodišnjih i višegodišnjih korova specifičnih za svaku kulturu. Kod čestog natapanja i orošavanja povrća narušava se mrvičasta struktura tla i ubrzava mineralizacija humusa pa tako kulture koje troše puno vode, kao rajčica, paprika, krastavci i kupusnjače u dobrom se plodoredu izmjenjuju s korjenastim, lukovičastim biljem i mahunarkama, koje ne treba puno zalijevati. Prema tome se kao dobre pretkulture preporučuju:\n• za rajčicu: mahunarke i korjenasto povrće\n• za papriku: korjenasto povrće i višegodišnje trave\n• za kupusnjače: krumpir, rajčica, paprika, mahunarke, korjenasto povrće\n• za korjenasto povrće: rajčica, paprika, krastavac, mahune\n• za grašak i mahune: rajčica, paprika, krumpir\n• za krastavce i lubenice: paprika, rajčica, krumpir i trave\n• za luk: paprika, lubenice, pšenica."
+                    },
+                    "questions": [
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koja je od sljedećih tvrdnja o plodoredu točna?",
+                            "choices": [
+                                "Stalni uzgoj iste kulture na istome mjestu uzrokuje nedovoljnu iskorištenost hraniva.",
+                                "Preporučuje se izmjenjivanje biljnih vrsta koje pripadaju istoj porodici.",
+                                "Biljke će u dobrome plodoredu imati istu dubinu korijena.",
+                                "Plodoredom se nagomilavaju štetne tvari u tlu."
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Zašto je dobro u plodoredu nakon krastavaca uzgajati mrkvu?",
+                            "choices": [
+                                "jer se izbjegava stalna izloženost tla velikoj količini vode",
+                                "jer se uzgojem mrkve smanjuje mrvičastost tla",
+                                "jer imaju sličnu potrebu za vodom i hranivima",
+                                "jer se ubrzava rast jednogodišnjih korova"
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koju je od sljedećih kultura preporučljivo uzgajati prije rajčice?",
+                            "choices": [
+                                "mahune",
+                                "kelj",
+                                "krastavac",
+                                "papriku"
+                            ],
+                            "correctChoice": "A"
+                        }
+                    ]
+                },
+                {
+                    "info": "II. Književnost\n\nZadatci bez polaznoga teksta.",
+                    "questions": [
+                        {
+                            "type": "SingleChoice",
+                            "question": "U kojemu je od sljedećih stihova upotrijebljena sinestezija?",
+                            "choices": [
+                                "Đurđic, sitan cvjetić, skroman, tih i fin,",
+                                "Mirisi su jedni ko put dječja svježi,",
+                                "Maćuhica ćuti ispod rosne vaze,",
+                                "Kad su grička zvona od sreće zaplakala"
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koja je od sljedećih stilskih figura upotrijebljena u stihovima: Vijest je letjela brže od ptice, Brže od vjetra, Brže od munje?",
+                            "choices": [
+                                "epifora",
+                                "gradacija",
+                                "inverzija",
+                                "polisindeton"
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koja je od sljedećih stilskih figura upotrijebljena u stihovima: O, sveto nebo, što to vidim! O, sveto nebo, što to gledam!",
+                            "choices": [
+                                "antiteza",
+                                "apostrofa",
+                                "onomatopeja",
+                                "paradoks"
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Što je katarza?",
+                            "choices": [
+                                "nesporazum nastao zbog zamjene osoba ili stvari u komediji",
+                                "razrješavanje dramskoga sukoba božjom intervencijom",
+                                "oponašanje stvarnosti u umjetničkim djelima",
+                                "pročišćenje osjećaja gledatelja tragedije"
+                            ],
+                            "correctChoice": "D"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koja od sljedećih književnih vrsta pripada lirsko-epskim vrstama?",
+                            "choices": [
+                                "ditiramb",
+                                "elegija",
+                                "legenda",
+                                "poema"
+                            ],
+                            "correctChoice": "D"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Na koju se književnu vrstu odnosi rečenica o oponašanju i katarzi, trima jedinstvima i dosljednim karakterima?",
+                            "choices": [
+                                "na romantičarsku poemu",
+                                "na renesansnu komediju",
+                                "na klasicističku tragediju",
+                                "na barokni ep"
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koja je od sljedećih tvrdnja o stvaralaštvu Antuna Branka Šimića točna?",
+                            "choices": [
+                                "U svojim pjesmama bojama daje simbolična značenja.",
+                                "U njegovu pjesničkome stvaralaštvu najviše je soneta.",
+                                "Pisao je pod utjecajem francuskoga simbolizma.",
+                                "Poznat je po svojoj dijalektalnoj poeziji."
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koji je stih najčešći stih hrvatskoga renesansnog pjesništva?",
+                            "choices": [
+                                "dvostrukorimovani dvanaesterac",
+                                "simetrični osmerac",
+                                "aleksandrinac",
+                                "heksametar"
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koje književno razdoblje neposredno prethodi baroku?",
+                            "choices": [
+                                "humanizam",
+                                "klasicizam",
+                                "renesansa",
+                                "romantizam"
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koje od sljedećih djela pripada hrvatskoj renesansi?",
+                            "choices": [
+                                "Dubravka Ivana Gundulića",
+                                "Novela od Stanca Marina Držića",
+                                "Posljednji Stipančići Vjenceslava Novaka",
+                                "Zlatarovo zlato Augusta Šenoe"
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koji je epski postupak upotrijebljen na početku epa Osman?",
+                            "choices": [
+                                "dijalog",
+                                "invokacija",
+                                "retardacija",
+                                "retrospekcija"
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Na kojoj se od sljedećih suprotnosti temelji radnja Mažuranićeva djela Smrt Smail-age Čengića?",
+                            "choices": [
+                                "duhovno – materijalno",
+                                "sloboda – ropstvo",
+                                "mladost – starost",
+                                "grad – selo"
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koje od sljedećih književnih djela pripada razdoblju renesanse?",
+                            "choices": [
+                                "Cvjetovi zla",
+                                "Hamlet",
+                                "Patnje mladog Werthera",
+                                "Život je san"
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Kojim događajem započinje roman Stranac Alberta Camusja?",
+                            "choices": [
+                                "Meursault piše uime Raymonda pismo njegovoj ljubavnici.",
+                                "Meursault pripovijeda o majčinoj smrti.",
+                                "Meursault odlazi u kino s Marie.",
+                                "Meursault je ubio Arapina."
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Na koji se književni lik odnosi tvrdnja o otuđenom pojedincu koji je osuđen na smrt?",
+                            "choices": [
+                                "na Gregora Samsu",
+                                "na Leonea Glembaja",
+                                "na Meursaulta",
+                                "na Rodiona Raskoljnikova"
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Na temelju kojega mita Albert Camus filozofski objašnjava ideju romana Stranac?",
+                            "choices": [
+                                "o Edipu",
+                                "o Odiseju",
+                                "o Prometeju",
+                                "o Sizifu"
+                            ],
+                            "correctChoice": "D"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Tko je od sljedećih likova žrtva praznovjerja vlastita oca?",
+                            "choices": [
+                                "Gregor Samsa",
+                                "Leone Glembay",
+                                "Sigismund",
+                                "Werther"
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Na koji se lik iz Sofoklove Antigone odnosi Tiresijino obraćanje o živoj u grobu?",
+                            "choices": [
+                                "na Antigonu",
+                                "na Eteokla",
+                                "na Euridiku",
+                                "na Polinika"
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Tko se u drami Život je san prerušio u osobu suprotnoga spola?",
+                            "choices": [
+                                "Astolfo",
+                                "Klarin",
+                                "Rosaura",
+                                "Stela"
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koja se tvrdnja odnosi na početak tragedije Hamlet?",
+                            "choices": [
+                                "Bernardo i Francisco razgovaraju tijekom promjene straže o pojavi duha.",
+                                "Polonije se oprašta sa sinom koji odlazi na školovanje u Pariz.",
+                                "Klaudije i Polonije prisluškuju razgovor Hamleta i Ofelije.",
+                                "Hamlet daje upute glumcima kako uvjerljivo glumiti."
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Tko u drami Gospoda Glembajevi izgovara rečenicu o karitativnom tajniku?",
+                            "choices": [
+                                "dr. Altmann",
+                                "Leone Glembay",
+                                "Puba Fabriczy",
+                                "Silberbrandt"
+                            ],
+                            "correctChoice": "D"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koja je književna vrsta dominantna u razdoblju realizma?",
+                            "choices": [
+                                "ep",
+                                "lirska pjesma",
+                                "roman",
+                                "tragedija"
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koja se od sljedećih tvrdnja odnosi na larpurlartizam?",
+                            "choices": [
+                                "Umjetnička djela trebaju buditi nacionalnu svijest.",
+                                "Umjetnost treba sama sebi biti ciljem i svrhom.",
+                                "Umjetnička djela trebaju oponašati stvarnost.",
+                                "Umjetnost treba imati didaktičku ulogu."
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koji je od sljedećih književnika dio svojega stvaralaštva utemeljio na filozofiji apsurda?",
+                            "choices": [
+                                "Albert Camus",
+                                "Charles Baudelaire",
+                                "Fjodor Mihajlovič Dostojevski",
+                                "Johann Wolfgang Goethe"
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koji se književni časopis suprotstavljao poetici socijalističkoga realizma i uveo hrvatsku književnost u razdoblje druge moderne?",
+                            "choices": [
+                                "Juriš",
+                                "Kolo",
+                                "Krugovi",
+                                "Vijenac"
+                            ],
+                            "correctChoice": "C"
+                        }
+                    ]
+                },
+                {
+                    "info": "III. Jezik\n\nZadatci višestrukoga izbora.",
+                    "questions": [
+                        {
+                            "type": "SingleChoice",
+                            "question": "U kojoj je od sljedećih rečenica podcrtana riječ pravopisno točna?",
+                            "choices": [
+                                "Taj plačenički posao odrađivali su vrsni novinari.",
+                                "Lice mu je dobilo pačenički izraz nekoga svetca.",
+                                "Tad je ban pomislio na svoj mučenički narod.",
+                                "Položio je svečenički zavjet."
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "U kojemu su od sljedećih primjera obje riječi pravopisno točne?",
+                            "choices": [
+                                "usmjeriti – usmjeravati",
+                                "razrjediti – razrjeđivati",
+                                "smjeniti – smjenjivati",
+                                "odoljeti – odoljevati"
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koja je od sljedećih riječi pravopisno točna?",
+                            "choices": [
+                                "crvemperka",
+                                "jedamput",
+                                "prehrambeni",
+                                "stramputica"
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koja je od sljedećih rečenica napisana u skladu s pravilima o pisanju velikoga i maloga početnog slova?",
+                            "choices": [
+                                "Jedan od zastora Hrvatskoga Narodnog Kazališta u Zagrebu Bukovčevo je djelo.",
+                                "U obilježavanju Dana planeta Zemlje sudjelovali su i učenici i nastavnici.",
+                                "Od ostalih pokrajina Azurnu Obalu na zapadu razdvaja rijeka Rona.",
+                                "Na Trgu Kralja Tomislava okupilo se mnoštvo prosvjednika."
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koja je od sljedećih rečenica napisana u skladu s pravilima o pisanju zareza?",
+                            "choices": [
+                                "Hrvatski petrarkist Šiško Menčetić, stvarao je u razdoblju renesanse.",
+                                "Sad je, dakako prekasno žaliti za propuštenim prilikama.",
+                                "Kad stignem na otok, poslat ću ti razglednicu.",
+                                "Danas se osjećam mnogo bolje, nego jučer."
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koja je od sljedećih riječi točno napisana?",
+                            "choices": [
+                                "nadčovjek",
+                                "nadkriti",
+                                "nadpolovičan",
+                                "nadprirodan"
+                            ],
+                            "correctChoice": "D"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "U kojemu je od sljedećih primjera provedena palatalizacija?",
+                            "choices": [
+                                "gost > gozba",
+                                "list > lišće",
+                                "misao > mišlju",
+                                "ruka > ručetina"
+                            ],
+                            "correctChoice": "D"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "U kojemu je primjeru riječ brod točno naglašena?",
+                            "choices": [
+                                "brόd",
+                                "brȏd",
+                                "brȍd",
+                                "brὸd"
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koja od sljedećih riječi u rečenici nije naglašena? Ja sam još bio dijete kad nam je mama o njemu pričala.",
+                            "choices": [
+                                "ja",
+                                "još",
+                                "bio",
+                                "je"
+                            ],
+                            "correctChoice": "D"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Što je oblikotvorni/gramatički morfem u riječi ljepotica?",
+                            "choices": [
+                                "-a",
+                                "-ca",
+                                "-ica",
+                                "-tica"
+                            ],
+                            "correctChoice": "D"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "U kojemu je padežu podcrtana riječ u sljedećoj rečenici? Odjednom je među okupljenima nastalo komešanje.",
+                            "choices": [
+                                "u dativu",
+                                "u akuzativu",
+                                "u lokativu",
+                                "u instrumentalu"
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koja je zamjenica u sljedećoj rečenici neodređena zamjenica? Držao se svojega posla i nitko ga zbog toga nije gnjavio.",
+                            "choices": [
+                                "svojega",
+                                "nitko",
+                                "ga",
+                                "toga"
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "U kojemu je rodu i broju podcrtana riječ u sljedećoj rečenici? Pobijedili su igrači bolje momčadi.",
+                            "choices": [
+                                "u ženskome rodu množine",
+                                "u muškome rodu množine",
+                                "u ženskome rodu jednine",
+                                "u muškome rodu jednine"
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koji je glagolski oblik podcrtan u sljedećoj rečenici? Gledajući u daljinu, duboko je uzdahnuo.",
+                            "choices": [
+                                "glagolski prilog sadašnji",
+                                "glagolski pridjev radni",
+                                "prezent",
+                                "infinitiv"
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koji je točan infinitiv podcrtanoga glagola u sljedećoj rečenici? Mnogi prolaznici toj raznovrsnoj ponudi ipak nekako odole.",
+                            "choices": [
+                                "odolijevati",
+                                "odoljevati",
+                                "odoljeti",
+                                "odoliti"
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koliko je nepromjenjivih riječi u sljedećoj rečenici? Drugoga dana palo je nekoliko teških povika kroz rešetke, ali ni tada okupljeni ne dobiše odgovore.",
+                            "choices": [
+                                "tri",
+                                "četiri",
+                                "pet",
+                                "šest"
+                            ],
+                            "correctChoice": "D"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koji od sljedećih frazema znači ‘trajno prestati s radom’?",
+                            "choices": [
+                                "staviti ključ u bravu",
+                                "ostati praznih ruku",
+                                "stegnuti remen",
+                                "stati na loptu"
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Kojemu funkcionalnom stilu hrvatskoga jezika pripada rečenica o C-terminalnim odsječcima proteina?",
+                            "choices": [
+                                "administrativnomu",
+                                "književnoumjetničkomu",
+                                "publicističkomu",
+                                "znanstvenomu"
+                            ],
+                            "correctChoice": "D"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "U kojoj je od sljedećih rečenica podcrtana riječ eponim?",
+                            "choices": [
+                                "Laureat je dobitnik najvišega priznanja, a ta riječ potječe od latinske riječi za lovor.",
+                                "Disertacija je sustavna znanstvena rasprava s novim prinosom poznavanju teme.",
+                                "Nobelij je kemijski element koji je dobio naziv prema švedskome kemičaru.",
+                                "Poklisar je naziv za saborskoga zastupnika u 19. stoljeću."
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Kojim je od sljedećih tvorbenih nastavaka nastala riječ učionica?",
+                            "choices": [
+                                "-onica",
+                                "-nica",
+                                "-ica",
+                                "-a"
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Kojim je tvorbenim načinom nastala riječ bogataš?",
+                            "choices": [
+                                "prefiksalno-sufiksalnom tvorbom",
+                                "složeno-sufiksalnom tvorbom",
+                                "prefiksalnom tvorbom",
+                                "sufiksalnom tvorbom"
+                            ],
+                            "correctChoice": "D"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Kojoj skupini imena pripada ime Mokro Polje?",
+                            "choices": [
+                                "antroponimima",
+                                "ekonimima",
+                                "hidronimima",
+                                "oronimima"
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Iz kojega jezika potječu luzitanizmi?",
+                            "choices": [
+                                "iz portugalskoga jezika",
+                                "iz francuskoga jezika",
+                                "iz talijanskoga jezika",
+                                "iz latinskoga jezika"
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Za koji je funkcionalni stil karakteristična upotreba kolokvijalizama?",
+                            "choices": [
+                                "za administrativni",
+                                "za publicistički",
+                                "za razgovorni",
+                                "za znanstveni"
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Tko je sastavio prvi hrvatski tiskani rječnik?",
+                            "choices": [
+                                "Bartol Kašić",
+                                "Bogoslav Šulek",
+                                "Faust Vrančić",
+                                "Ljudevit Gaj"
+                            ],
+                            "correctChoice": "C"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Školski Esej",
+            "predictedTime": 160,
+            "potentialPoints": 40,
+            "instructions": "Napišite školski esej slijedeći priložene upute i smjernice za pisanje školskoga eseja.",
+            "questionGroups": [
+                {
+                    "info": "ZADATAK ZA PISANJE ŠKOLSKOGA ESEJA\nAlbert Camus, Stranac",
+                    "questions": [
+                        {
+                            "type": "EssayWriting",
+                            "question": "Smjernice\n• Predstavite poetiku djela Stranac.\n• Objasnite na temelju djela u cjelini kako je karakter glavnoga lika doveo do ubojstva o kojemu se pripovijeda u polaznome tekstu.\n• Interpretirajte polazni tekst na sadržajnoj i stilskoj razini te protumačite njegovu ulogu u cjelini djela.\n• Usporedite glavni lik djela Stranac s Raskoljnikovim iz romana Zločin i kazna.\n• Obrazložite svoje tvrdnje.",
+                            "points": [
+                                {
+                                    "category": "Sadržaj",
+                                    "points": 40
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
 }

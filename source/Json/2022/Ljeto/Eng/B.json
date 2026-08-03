@@ -1,1 +1,705 @@
-{"name":"Engleski","level":"B","maxPoints":85,"scale":{"range1":[0,35.99],"range2":[36,55.99],"range3":[56,73.99],"range4":[74,86.99],"range5":[87,100]},"sections":[{"name":"Čitanje i Pisanje","predictedTime":75,"potentialPoints":60,"questionGroups":[{"info":"Official Reading Paper, tasks 1-6 and answers 1-30.","questions":[{"type":"FillInChoices","correctChoices":[{"index":1,"letter":"D","answers":["D"]},{"index":2,"letter":"E","answers":["E"]},{"index":3,"letter":"A","answers":["A"]},{"index":4,"letter":"B","answers":["B"]},{"index":5,"letter":"C","answers":["C"]},{"index":6,"letter":"C","answers":["C"]},{"index":7,"letter":"B","answers":["B"]},{"index":8,"letter":"A","answers":["A"]},{"index":9,"letter":"B","answers":["B"]},{"index":10,"letter":"A","answers":["A"]},{"index":11,"letter":"C","answers":["C"]},{"index":12,"letter":"B","answers":["B"]},{"index":13,"letter":"C","answers":["C"]},{"index":14,"letter":"B","answers":["B"]},{"index":15,"letter":"A","answers":["A"]},{"index":16,"letter":"F","answers":["F"]},{"index":17,"letter":"E","answers":["E"]},{"index":18,"letter":"C","answers":["C"]},{"index":19,"letter":"A","answers":["A"]},{"index":20,"letter":"B","answers":["B"]},{"index":21,"letter":"C","answers":["C"]},{"index":22,"letter":"B","answers":["B"]},{"index":23,"letter":"B","answers":["B"]},{"index":24,"letter":"A","answers":["A"]},{"index":25,"letter":"A","answers":["A"]},{"index":26,"letter":"G","answers":["G"]},{"index":27,"letter":"F","answers":["F"]},{"index":28,"letter":"A","answers":["A"]},{"index":29,"letter":"C","answers":["C"]},{"index":30,"letter":"B","answers":["B"]}]}]},{"info":"Official B-level writing task.","questions":[{"type":"EssayWriting","question":"Write the 80-100 word response from the official 2022 Ljeto B writing paper.","minWords":80,"maxWords":100,"points":[{"category":"Writing","points":20}]}]}]},{"name":"Slušanje","predictedTime":25,"potentialPoints":25,"questionGroups":[{"info":"Official Listening Paper, tasks 1-4 and answers 1-20.","initialAudio":"https://files.matura.top/2022/Ljeto/Eng/B/Task1.opus","questions":[{"type":"FillInChoices","correctChoices":[{"index":1,"letter":"D","answers":["D"]},{"index":2,"letter":"A","answers":["A"]},{"index":3,"letter":"F","answers":["F"]},{"index":4,"letter":"B","answers":["B"]},{"index":5,"letter":"C","answers":["C"]},{"index":6,"letter":"C","answers":["C"]},{"index":7,"letter":"B","answers":["B"]},{"index":8,"letter":"C","answers":["C"]},{"index":9,"letter":"A","answers":["A"]},{"index":10,"letter":"B","answers":["B"]},{"index":11,"letter":"A","answers":["A"]},{"index":12,"letter":"C","answers":["C"]},{"index":13,"letter":"A","answers":["A"]},{"index":14,"letter":"B","answers":["B"]},{"index":15,"letter":"C","answers":["C"]},{"index":16,"letter":"B","answers":["B"]},{"index":17,"letter":"A","answers":["A"]},{"index":18,"letter":"A","answers":["A"]},{"index":19,"letter":"B","answers":["B"]},{"index":20,"letter":"C","answers":["C"]}]}]}]}]}
+{
+    "name": "Engleski",
+    "level": "B",
+    "maxPoints": 85,
+    "scale": {
+        "range1": [
+            0,
+            35.99
+        ],
+        "range2": [
+            36,
+            55.99
+        ],
+        "range3": [
+            56,
+            73.99
+        ],
+        "range4": [
+            74,
+            86.99
+        ],
+        "range5": [
+            87,
+            100
+        ]
+    },
+    "sections": [
+        {
+            "name": "Čitanje i Pisanje",
+            "predictedTime": 75,
+            "potentialPoints": 60,
+            "questionGroups": [
+                {
+                    "info": "Reading Task 1 (questions 1-5).",
+                    "initialText": {
+                        "text": "Task 1\n       Questions 1-5\n\n       Match each message (1-5) and its meaning (A-F).\n       There is one letter that you do not need.\n       Mark your answer on the answer sheet.\n       There is an example at the beginning (0→G).\n\n\n  0      Something’s come up about the conference in Munich. Really important. We have to\n         make a decision. Get back to me.\n\n  1      I thought I told you the report was needed by lunchtime today. I don’t see it on my desk. I hope\n         you haven’t lost it.\n\n  2      Tony told me you talked to Sandra this morning and explained the situation. I hope it wasn’t too\n         upsetting. Anyway, let me know how she took it.\n\n  3      Hey guys. I know I told you all we were going to celebrate Helena’s new promotion. And we\n         were all looking forward to it. But she’s not well so we’ve had to call it off. We can think of\n         something else to surprise her.\n\n  4      I heard you were called in by the principal. Did he blame you for the broken computer? I’m sure\n         he blew up like a volcano. But relax. He’ll forget about it in a few days.\n\n  5      I’m a little bit worried about Frank’s work on his project. It’s way behind schedule. If he doesn’t\n         start working faster, he’ll be in trouble.\n\n\n\n\n4/20                                                                                      ENG B IK-1 D-S056\n\nReading Paper                Engleski jezik\n  A It’s not happening.\n\n  B Don’t worry about it.\n\n  C He needs to hurry up.\n\n  D Where is it?\n\n  E What was her reaction?\n\n  F   He’s calmed down.\n\n  G We need to talk.\n\n\n\n\nENG B IK-1 D-S056                       5/20\n\nEngleski jezik                                                                               Reading Paper"
+                    },
+                    "questions": [
+                        {
+                            "type": "MatchThePairs",
+                            "options": [
+                                {
+                                    "id": "A",
+                                    "type": "letter",
+                                    "textOrAudio": "It’s not happening."
+                                },
+                                {
+                                    "id": "B",
+                                    "type": "letter",
+                                    "textOrAudio": "Don’t worry about it."
+                                },
+                                {
+                                    "id": "C",
+                                    "type": "letter",
+                                    "textOrAudio": "He needs to hurry up."
+                                },
+                                {
+                                    "id": "D",
+                                    "type": "letter",
+                                    "textOrAudio": "Where is it?"
+                                },
+                                {
+                                    "id": "E",
+                                    "type": "letter",
+                                    "textOrAudio": "What was her reaction?"
+                                },
+                                {
+                                    "id": "F",
+                                    "type": "letter",
+                                    "textOrAudio": "He’s calmed down."
+                                },
+                                {
+                                    "id": "0",
+                                    "type": "number",
+                                    "textOrAudio": "Something’s come up about the conference in Munich. Really important. We have to make a decision. Get back to me."
+                                },
+                                {
+                                    "id": "1",
+                                    "type": "number",
+                                    "textOrAudio": "I thought I told you the report was needed by lunchtime today. I don’t see it on my desk. I hope you haven’t lost it."
+                                },
+                                {
+                                    "id": "2",
+                                    "type": "number",
+                                    "textOrAudio": "Tony told me you talked to Sandra this morning and explained the situation. I hope it wasn’t too upsetting. Anyway, let me know how she took it."
+                                },
+                                {
+                                    "id": "3",
+                                    "type": "number",
+                                    "textOrAudio": "Hey guys. I know I told you all we were going to celebrate Helena’s new promotion. And we were all looking forward to it. But she’s not well so we’ve had to call it off. We can think of something else to surprise her."
+                                },
+                                {
+                                    "id": "4",
+                                    "type": "number",
+                                    "textOrAudio": "I heard you were called in by the principal. Did he blame you for the broken computer? I’m sure he blew up like a volcano. But relax. He’ll forget about it in a few days."
+                                },
+                                {
+                                    "id": "5",
+                                    "type": "number",
+                                    "textOrAudio": "I’m a little bit worried about Frank’s work on his project. It’s way behind schedule. If he doesn’t start working faster, he’ll be in trouble. 4/20"
+                                },
+                                {
+                                    "id": "G",
+                                    "type": "letter",
+                                    "textOrAudio": "We need to talk."
+                                }
+                            ],
+                            "pairs": [
+                                {
+                                    "letter": "G",
+                                    "number": "0",
+                                    "isExample": true
+                                },
+                                {
+                                    "letter": "D",
+                                    "number": "1"
+                                },
+                                {
+                                    "letter": "E",
+                                    "number": "2"
+                                },
+                                {
+                                    "letter": "A",
+                                    "number": "3"
+                                },
+                                {
+                                    "letter": "B",
+                                    "number": "4"
+                                },
+                                {
+                                    "letter": "C",
+                                    "number": "5"
+                                }
+                            ],
+                            "whatFirst": "letters"
+                        }
+                    ]
+                },
+                {
+                    "info": "Reading Task 2 (questions 6-10).",
+                    "initialText": {
+                        "text": "Task 2\n       Questions 6-10\n\n       You will read five emails.\n       For each question (6-10), choose the correct answer (A, B or C).\n       Mark your answer on the answer sheet.\n\n\n  6      Hi,\n         I won’t be going on the trip, after all. I had a fever that I managed to get rid of, and then my\n         parents wanted to ground me because I didn’t hand in my book report on time, so I worked all\n         night to complete it. Once I finally finished, a snowstorm closed the roads and that was that.\n         So come over to cheer me up.\n         Ralph\n\n         Why isn’t Ralph going on the trip?\n\n         A Because he got ill.\n         B Because of his parents.\n         C Because of the weather.\n\n\n\n  7      Hi Toby,\n         Come over to my place on Wednesday. We’ll be less stressed if we go to school together\n         on the day of the exam. You can come to my place the day before too if you want to go over\n         the main points. It usually makes me feel less anxious. And they promised our exams will be\n         marked on the same day, so on Thursday we’ll celebrate the results, I hope.\n         Lena\n\n         When do Lena and Toby get their exam results?\n\n         A On Tuesday.\n         B On Wednesday.\n         C On Thursday.\n\n\n\n\n6/20                                                                                    ENG B IK-1 D-S056\n\nReading Paper                                                                 Engleski jezik\n  8   Hi,\n      I’ve been playing this action video game for hours. It’s supposed to develop your reflexes,\n      hand-eye coordination and so on. After all that work, I expected to be feeling good about myself\n      but right now I don’t think I can get up from my desk. And I’ve had more fun cleaning up my\n      room.\n      Ben\n\n      What does Ben say about the game he’s playing?\n\n      A It’s exhausting.\n      B It’s satisfying.\n      C It’s entertaining.\n\n\n\n  9   Hi Gemma,\n      The open-air concert is in Stoke Park. Pick me up by 5:30. That will give us enough time to get\n      there by 6:00 so we don’t miss the opening ceremony that starts at 6:30. Rudy will be there an\n      hour earlier, at 5:30, to save us seats. So, it should be okay. Try not to be late this time, please!\n      Pat\n\n      What time will Pat and Gemma arrive at the park?\n\n      A By 5:30.\n      B By 6:00.\n      C By 6:30.\n\n\n\n 10   Emma,\n      If you want my advice, you need your own place. It will give you the independence you need\n      to finish your studies, and you’re already earning enough money to make this happen. So you\n      know what to do. Good luck!\n      Carla\n\n      What does Carla want Emma to do?\n\n      A To get her own flat.\n      B To find another job.\n      C To finish college.\n\n\n\n\nENG B IK-1 D-S056                                                                                        7/20\n\nEngleski jezik                                                                            Reading Paper"
+                    },
+                    "questions": [
+                        {
+                            "type": "SingleChoice",
+                            "question": "Why isn’t Ralph going on the trip?",
+                            "choices": [
+                                "A Because he got ill.",
+                                "B Because of his parents.",
+                                "C Because of the weather."
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "When do Lena and Toby get their exam results?",
+                            "choices": [
+                                "A On Tuesday.",
+                                "B On Wednesday.",
+                                "C On Thursday."
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "What does Ben say about the game he’s playing?",
+                            "choices": [
+                                "A It’s exhausting.",
+                                "B It’s satisfying.",
+                                "C It’s entertaining."
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "What time will Pat and Gemma arrive at the park?",
+                            "choices": [
+                                "A By 5:30.",
+                                "B By 6:00.",
+                                "C By 6:30."
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "What does Carla want Emma to do?",
+                            "choices": [
+                                "A To get her own flat.",
+                                "B To find another job.",
+                                "C To finish college."
+                            ],
+                            "correctChoice": "A"
+                        }
+                    ]
+                },
+                {
+                    "info": "Reading Task 3 (questions 11-15).",
+                    "initialText": {
+                        "text": "Task 3\n       Questions 11-15\n\n       Read the text below.\n       For each question (11-15), choose the correct answer (A, B, or C).\n       Mark your answer on the answer sheet.\n\n\n                                       The smartest dog in the world\n\n     Many owners struggle to teach their dogs to sit or fetch, but John Pilley, a retired professor,\n  taught his dog Chaser to understand more than 1,000 words. Chaser is an average-sized border\n  collie with round eyes, mostly the colour of cookies-and-cream ice cream, but with a black patch\n  right above her left eye.\n     Pilley studied dogs working on sheep farms and one night around the fire he told one farmer,\n  “You know science says that your dogs don’t really know their name?” The farmer responded:\n  “Really? Then tell me why, when I call out my dog Jeb or Fuzz out of four dogs and ask them to go\n  get Molly and Tolly, two sheep out of a hundred, they do it every time?” John Pilley realized he was\n  wrong.\n     Other scientists worked with monkeys showing how fast they learn through play. For Pilley, our\n  connection with dogs was more special. He was sure that working one-on-one rather than with\n  groups of animals must bring even better results. He believed it would be meaningful to work with\n  one dog, and that was Chaser.\n     Chaser was a two-month-old puppy when he started teaching her words. The first was for a blue\n  ball. He named it Blue, put it in front of Chaser and said, “Catch Blue”. Then he threw it to her. On\n  the third day, when she could bring him the ball from another room, he moved to another object. At\n  the end of the third month of her training, only five-months-old Chaser knew 40 words.\n     For three years, Mr Pilley trained Chaser for four to five hours every day. He showed her an\n  object, said its name up to 40 times, then hid it and asked her to find it. She learned to recognize\n  the names of 800 stuffed animals, 116 balls, 26 frisbees and a mishmash of plastic toys. Each of the\n  1,022 objects Chaser knows has an individual name like “Bamboozel” or “Flipflopper.”\n\n\n\n 11      What do we find out about Chaser from the first paragraph?\n\n         A She is black around the right eye.\n         B She likes cookies and ice cream.\n         C She belongs to a former teacher.\n\n\n\n\n8/20                                                                                ENG B IK-1 D-S056\n\nReading Paper                                                 Engleski jezik\n 12   What did a farmer tell Mr Pilley about his dogs?\n\n      A His dogs sat with him around the fire.\n      B His dogs knew the names of the sheep.\n      C His dogs’ names were Molly and Tolly.\n\n\n\n 13   What did Pilley believe about how dogs learn?\n\n      A They learn best when people play with them.\n      B They learn best when they are in a group.\n      C They learn best when they are alone.\n\n\n\n 14   How long did it take Chaser to learn 40 words?\n\n      A Two months.\n      B Three months.\n      C Five months.\n\n\n\n 15   How did Pilley succeed in training Chaser?\n\n      A He trained her several hours a day for three years.\n      B He showed her 40 objects a day for three years.\n      C He repeated her name 40 times each day.\n\n\n\n\nENG B IK-1 D-S056                                                        9/20\n\nEngleski jezik                                                                            Reading Paper"
+                    },
+                    "questions": [
+                        {
+                            "type": "SingleChoice",
+                            "question": "What do we find out about Chaser from the first paragraph?",
+                            "choices": [
+                                "A She is black around the right eye.",
+                                "B She likes cookies and ice cream.",
+                                "C She belongs to a former teacher."
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "What did a farmer tell Mr Pilley about his dogs?",
+                            "choices": [
+                                "A His dogs sat with him around the fire.",
+                                "B His dogs knew the names of the sheep.",
+                                "C His dogs’ names were Molly and Tolly."
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "What did Pilley believe about how dogs learn?",
+                            "choices": [
+                                "A They learn best when people play with them.",
+                                "B They learn best when they are in a group.",
+                                "C They learn best when they are alone."
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "How long did it take Chaser to learn 40 words?",
+                            "choices": [
+                                "A Two months.",
+                                "B Three months.",
+                                "C Five months."
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "How did Pilley succeed in training Chaser?",
+                            "choices": [
+                                "A He trained her several hours a day for three years.",
+                                "B He showed her 40 objects a day for three years.",
+                                "C He repeated her name 40 times each day."
+                            ],
+                            "correctChoice": "A"
+                        }
+                    ]
+                },
+                {
+                    "info": "Reading Task 4 (questions 16-20).",
+                    "initialText": {
+                        "text": "Task 4\n    Questions 16-20\n\n    Read the text below.\n    For each question (16-20), choose the answer (A-F) that best completes the sentence.\n    There is one letter that you do not need. Mark your answer on the answer sheet.\n    There is an example at the beginning (0→G).\n\n\n                                          A letter of application\n\n    Dear Sir/Madam,\n\n     I am writing to apply (0) ___ volunteer worker in the refugee centre in Somerville, which you\n  advertise on your website. Assisting immigrant children with their homework and teaching them\n  various things about their new home is a great challenge for me.\n     I would like to work for you because I am interested (16) ___, particularly children.\n     I am a hard-working and responsible person and I have already done some volunteer work. Last\n  year, every week (17) ___ in my local area. After that experience, I’m confident I can get on well\n  with anybody. Also, for the past three years (18) ___ in my hometown, where I am in charge of\n  feeding.\n     I am currently in my third year at university, where I study law. I am an active member of\n  the Green Movement and (19) ___. That includes everything related to the protection of the\n  environment. I also have a certificate (20) ___, which I am very proud of.\n     Thanks to my experience, I think I could help your organization a lot. I can start immediately if\n  that suits you. I enclose a copy of my CV.\n     I look forward to hearing from you.\n\n    Yours faithfully,\n    Jane McNeil\n\n\n\n\n10/20                                                                               ENG B IK-1 D-S056\n\nReading Paper                                       Engleski jezik\n  A I regularly take part in different activities\n\n  B in first aid and rescue techniques\n\n  C I have helped at the animal shelter\n\n  D for your organisation\n\n  E I was visiting elderly people\n\n  F   in helping people in need\n\n  G for the position of\n\n\n\n\nENG B IK-1 D-S056                                              11/20\n\nEngleski jezik                                                                               Reading Paper"
+                    },
+                    "questions": [
+                        {
+                            "type": "FillInChoices",
+                            "correctChoices": [
+                                {
+                                    "index": 16,
+                                    "letter": "F",
+                                    "answers": [
+                                        "F"
+                                    ]
+                                },
+                                {
+                                    "index": 17,
+                                    "letter": "E",
+                                    "answers": [
+                                        "E"
+                                    ]
+                                },
+                                {
+                                    "index": 18,
+                                    "letter": "C",
+                                    "answers": [
+                                        "C"
+                                    ]
+                                },
+                                {
+                                    "index": 19,
+                                    "letter": "A",
+                                    "answers": [
+                                        "A"
+                                    ]
+                                },
+                                {
+                                    "index": 20,
+                                    "letter": "B",
+                                    "answers": [
+                                        "B"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "info": "Reading Task 5 (questions 21-25).",
+                    "initialText": {
+                        "text": "Task 5\n      Questions 21-25\n\n      Read the text below.\n      For each question (21-25), choose the answer (A, B, or C) that best completes the sentence.\n      Mark your answer on the answer sheet.\n      There is an example at the beginning (0→A).\n\n\n                             How do Dutch children learn to ride a bicycle?\n\n      In the Netherlands a lot of primary schools take part in an exam specifically designed to help\n  children (0) ___ how to move around in traffic. This exam has a theoretical part and a practical\n  part.\n      Most children are taught how to ride a bicycle at a very young age (21) ___ their parents or\n  grandparents. They start with training wheels. When the child has gotten familiar with the bike, the\n  training wheels (22) ___ off. They then practise a lot in a safe environment with little other traffic,\n  until they don’t tip over anymore.\n      The theoretical part of the exam is mainly about the general rules in traffic. Children have to know\n  (23) ___ they are supposed to do in many situations that happen in everyday life. They are taught\n  to be mindful of other people breaking the rules or (24) ___ a mistake, while also learning how to\n  stay safe themselves.\n      The practical part of the exam is done in a normal situation, just (25) ___ driving tests. The\n  children take a specific route on their bikes, showing the instructor they know how to ride safely. If\n  they do this, they have passed the exam.\n\n\n\n  0\n\n        A learn\n        B teach\n        C study\n\n\n\n 21\n\n        A from\n        B for\n        C by\n\n\n\n\n12/20                                                                                  ENG B IK-1 D-S056\n\nReading Paper       Engleski jezik\n 22\n\n      A put\n      B come\n      C take\n\n\n\n 23\n\n      A why\n      B what\n      C which\n\n\n\n 24\n\n      A making\n      B breaking\n      C doing\n\n\n\n 25\n\n      A like\n      B while\n      C how\n\n\n\n\nENG B IK-1 D-S056              13/20\n\nEngleski jezik                                                                                 Reading Paper"
+                    },
+                    "questions": [
+                        {
+                            "type": "SingleChoice",
+                            "question": "Most children are taught how to ride a bicycle at a very young age (21) ___ their parents or grandparents.",
+                            "choices": [
+                                "A from",
+                                "B for",
+                                "C by"
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "training wheels (22) ___ off.",
+                            "choices": [
+                                "A put",
+                                "B come",
+                                "C take"
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "(23) ___ they are supposed to do in many situations that happen in everyday life.",
+                            "choices": [
+                                "A why",
+                                "B what",
+                                "C which"
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "They are taught to be mindful of other people breaking the rules or (24) ___ a mistake, while also learning how to stay safe themselves.",
+                            "choices": [
+                                "A making",
+                                "B breaking",
+                                "C doing"
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "The practical part of the exam is done in a normal situation, just (25) ___ driving tests.",
+                            "choices": [
+                                "A like",
+                                "B while",
+                                "C how"
+                            ],
+                            "correctChoice": "A"
+                        }
+                    ]
+                },
+                {
+                    "info": "Reading Task 6 (questions 26-30).",
+                    "initialText": {
+                        "text": "Task 6\n      Questions 26-30\n\n      Read the text below.\n      For each question (26-30), choose the answer (A-G) that best completes the sentence.\n      There are two letters that you do not need. Mark your answer on the answer sheet.\n      There is an example at the beginning (0→H).\n\n\n                                                Fish and chips\n\n     ‘Fish and chips’ is the traditional take-away food of England. Long (0) ___ McDonald’s, we had\n  the fish and chips shop. This dish originated in England, where these two components had come\n  from separate immigrant cultures. The tradition of fish battered and fried in oil (26) ___ from Jewish\n  immigrants from Spain, while fries originated in Belgium.\n     The fresh fish is dipped in flour and batter, and then deep fried and served with chips. Usually\n  you are asked if you want salt and vinegar. Sometimes people order curry sauce as well, a yellow\n  sauce that tastes (27) ___ like real curry at all.\n     Traditionally the dish was served wrapped up in old newspaper. Thanks to hygiene laws, (28) ___\n  they are wrapped up in greaseproof paper. Some shops used specially printed paper to make it\n  (29) ___ like newspaper to keep the tradition. You often get a small wooden fork to eat with,\n  (30) ___ it is quite ok to use your fingers. All of the fish is filleted and you should not find any bones.\n\n\n\n\n  A nowadays\n\n  B although\n\n  C look\n\n  D come\n\n  E always\n\n  F     nothing\n\n  G came\n\n  H before\n\n\n\n\n14/20                                                                                    ENG B IK-1 D-S056\n\nWriting Paper                          Engleski jezik\n\n\n\n\n                    ISPIT PISANJA\n                     (Writing Paper)\n\n\n\n\nENG B IK-1 D-S056                                 15/20\n\nEngleski jezik                                                                             Writing Paper\n\n\n\n\n    Read the message from Sandra.\n    Write Sandra a reply. Answer all her questions.\n    Write 70-100 words. Write your reply on the next page.\n    Do not sign your full name.\n\n\n  Hi, Mark!\n\n  I’m taking driving lessons. When do you plan to get a driving licence? Who is the best driver you\n  know and why do you think so? What is the most dangerous thing about driving and why?\n\n  Sandra\n\n\n\n\n                            Pisani tekst obvezno napišite na list za čistopis.\n\n\n\n\n16/20                                                                               ENG B IK-1 D-S056\n\nList za čistopis                                            Engleski jezik\n\n  ___\n\n  ___\n\n  ___\n\n  ___\n\n  ___\n\n  ___\n\n  ___\n\n  ___\n\n  ___\n\n  ___\n\n  ___\n\n  ___\n\n  ___\n\n  ___\n\n  ___\n\n  ___\n\n  ___\n\n  ___\n\n  ___\n\n  ___\n\n  ___\n\n\n\n\nENG B IK-1 D-S056                                                              17/20\n\nEngleski jezik                                                         List za čistopis\n\n\n\n  ___\n\n  ___\n\n  ___\n\n  ___\n\n  ___\n\n  ___\n\n  ___\n\n  ___\n\n  ___\n\n  ___\n\n  ___\n\n  ___\n\n  ___\n\n  ___\n\n  ___\n\n  ___\n\n  ___\n\n  ___\n\n  ___\n\n  ___\n\n  ___\n\n\n\n\n18/20                                                              ENG B IK-1 D-S056\n\n                             Engleski jezik\n\n\n\n\n                         ca\n                        ni\n                        ra\n                    st\n                    a\n                zn\n        ra\n   P\n\n\n\n\nENG B IK-1 D-S056                       19/20\n\nEngleski jezik\n\n\n\n\n                      ca\n                     ni\n                     ra\n                 st\n                 a\n         zn\n     ra\n    P\n\n\n\n\n20/20                     ENG B IK-1 D-S056"
+                    },
+                    "questions": [
+                        {
+                            "type": "FillInChoices",
+                            "correctChoices": [
+                                {
+                                    "index": 26,
+                                    "letter": "G",
+                                    "answers": [
+                                        "G"
+                                    ]
+                                },
+                                {
+                                    "index": 27,
+                                    "letter": "F",
+                                    "answers": [
+                                        "F"
+                                    ]
+                                },
+                                {
+                                    "index": 28,
+                                    "letter": "A",
+                                    "answers": [
+                                        "A"
+                                    ]
+                                },
+                                {
+                                    "index": 29,
+                                    "letter": "C",
+                                    "answers": [
+                                        "C"
+                                    ]
+                                },
+                                {
+                                    "index": 30,
+                                    "letter": "B",
+                                    "answers": [
+                                        "B"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "info": "Official B-level writing task.",
+                    "questions": [
+                        {
+                            "type": "EssayWriting",
+                            "question": "Write the 80-100 word response from the official 2022 Ljeto B writing paper.",
+                            "minWords": 80,
+                            "maxWords": 100,
+                            "points": [
+                                {
+                                    "category": "Writing",
+                                    "points": 20
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Slušanje",
+            "predictedTime": 25,
+            "potentialPoints": 25,
+            "questionGroups": [
+                {
+                    "info": "Listening Task 1 (questions 1-5).",
+                    "initialText": {
+                        "text": "Task 1\n       Questions 1-5\n\n       You will hear five phone messages.\n       Match each message (1-5) and its meaning (A-F).\n       There is one letter that you do not need.\n       You will hear the recording twice.\n\n\n  A Do it yourself.\n\n  B Act quickly.\n\n  C Less looks better.\n\n  D Go instead of him.\n\n  E It’s on Wednesday.\n\n  F      It’s cheaper.\n\n\n\n\n4/12                                                     ENG B IK-2 D-S056\n\nListening Paper                                                          Engleski jezik"
+                    },
+                    "questions": [
+                        {
+                            "type": "MatchThePairs",
+                            "options": [
+                                {
+                                    "id": "A",
+                                    "type": "letter",
+                                    "textOrAudio": "Do it yourself."
+                                },
+                                {
+                                    "id": "B",
+                                    "type": "letter",
+                                    "textOrAudio": "Act quickly."
+                                },
+                                {
+                                    "id": "C",
+                                    "type": "letter",
+                                    "textOrAudio": "Less looks better."
+                                },
+                                {
+                                    "id": "D",
+                                    "type": "letter",
+                                    "textOrAudio": "Go instead of him."
+                                },
+                                {
+                                    "id": "E",
+                                    "type": "letter",
+                                    "textOrAudio": "It’s on Wednesday."
+                                },
+                                {
+                                    "id": "F",
+                                    "type": "letter",
+                                    "textOrAudio": "It’s cheaper."
+                                },
+                                {
+                                    "id": "1",
+                                    "type": "number",
+                                    "textOrAudio": "I thought I told you the report was needed by lunchtime today. I don’t see it on my desk. I hope you haven’t lost it."
+                                },
+                                {
+                                    "id": "2",
+                                    "type": "number",
+                                    "textOrAudio": "Tony told me you talked to Sandra this morning and explained the situation. I hope it wasn’t too upsetting. Anyway, let me know how she took it."
+                                },
+                                {
+                                    "id": "3",
+                                    "type": "number",
+                                    "textOrAudio": "Hey guys. I know I told you all we were going to celebrate Helena’s new promotion. And we were all looking forward to it. But she’s not well so we’ve had to call it off. We can think of something else to surprise her."
+                                },
+                                {
+                                    "id": "4",
+                                    "type": "number",
+                                    "textOrAudio": "I heard you were called in by the principal. Did he blame you for the broken computer? I’m sure he blew up like a volcano. But relax. He’ll forget about it in a few days."
+                                },
+                                {
+                                    "id": "5",
+                                    "type": "number",
+                                    "textOrAudio": "I’m a little bit worried about Frank’s work on his project. It’s way behind schedule. If he doesn’t start working faster, he’ll be in trouble. 4/20 A It’s not happening. B Don’t worry about it. C He needs to hurry up. D Where is it? E What was her reaction? F He’s calmed down. G We need to talk. You will read five emails. For each question (6-10), choose the correct answer (A, B or C). Mark your answer on the answer sheet."
+                                }
+                            ],
+                            "pairs": [
+                                {
+                                    "letter": "D",
+                                    "number": "1"
+                                },
+                                {
+                                    "letter": "A",
+                                    "number": "2"
+                                },
+                                {
+                                    "letter": "F",
+                                    "number": "3"
+                                },
+                                {
+                                    "letter": "B",
+                                    "number": "4"
+                                },
+                                {
+                                    "letter": "C",
+                                    "number": "5"
+                                }
+                            ],
+                            "whatFirst": "letters"
+                        }
+                    ],
+                    "initialAudio": "https://files.matura.top/2022/Ljeto/Eng/B/Task1.opus"
+                },
+                {
+                    "info": "Listening Task 2 (questions 6-10).",
+                    "initialText": {
+                        "text": "Task 2\n      Questions 6-10\n\n      You will hear people talking in five situations.\n      For each question (6-10), choose the correct answer (A, B or C).\n      You will hear each recording twice.\n\n\n  6     You will hear two friends talking about a school trip.\n        Why are they going?\n\n        A To hike.\n        B To climb.\n        C To ski.\n\n\n\n  7     You will hear a woman making a restaurant reservation.\n        What is her name?\n\n        A Ms Jehnson.\n        B Ms Jeanson.\n        C Ms Geanson.\n\n\n\n  8     You will hear two sisters talking about their brother.\n        What has just happened?\n\n        A He has broken something.\n        B He has injured someone.\n        C He has injured himself.\n\n\n\n  9     You will hear a boy talking about his mother.\n        What does he say about her?\n\n        A She can worry too much.\n        B She overreacts to things.\n        C She is possessive.\n\n\n\n\nENG B IK-2 D-S056                                                                   5/12\n\nEngleski jezik                                                           Listening Paper\n\n\n\n 10    You will hear two colleagues talking about a business trip.\n       Where are they going?\n\n       A Munich.\n       B Vienna.\n       C Paris.\n\n\n\n\n6/12                                                                 ENG B IK-2 D-S056\n\nListening Paper                                                             Engleski jezik"
+                    },
+                    "questions": [
+                        {
+                            "type": "SingleChoice",
+                            "question": "Why are they going?",
+                            "choices": [
+                                "A To hike.",
+                                "B To climb.",
+                                "C To ski."
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "What is her name?",
+                            "choices": [
+                                "A Ms Jehnson.",
+                                "B Ms Jeanson.",
+                                "C Ms Geanson."
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "What has just happened?",
+                            "choices": [
+                                "A He has broken something.",
+                                "B He has injured someone.",
+                                "C He has injured himself."
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "What does he say about her?",
+                            "choices": [
+                                "A She can worry too much.",
+                                "B She overreacts to things.",
+                                "C She is possessive."
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Where are they going?",
+                            "choices": [
+                                "A Munich.",
+                                "B Vienna.",
+                                "C Paris."
+                            ],
+                            "correctChoice": "B"
+                        }
+                    ],
+                    "initialAudio": "https://files.matura.top/2022/Ljeto/Eng/B/Task2.opus"
+                },
+                {
+                    "info": "Listening Task 3 (questions 11-15).",
+                    "initialText": {
+                        "text": "Task 3\n      Questions 11-15\n\n      You will hear a radio interview with Gordon Ferrero about mountain-climbing.\n      For each question (11-15), choose the correct answer (A, B or C).\n      You will hear the recording twice.\n\n\n 11     How did he become interested in climbing mountains?\n\n        A He saw a painting of mountains.\n        B He read a book about mountains.\n        C He studied about mountains.\n\n\n\n 12     When did he decide to climb all Seven Summits?\n\n        A Before he climbed Kilimanjaro.\n        B While he was climbing Kilimanjaro.\n        C After he climbed Kilimanjaro.\n\n\n\n 13     Why was climbing Kilimanjaro difficult for Gordon?\n\n        A He was very young.\n        B He wasn’t prepared well.\n        C The weather was very bad.\n\n\n\n 14     What did he do during his travelling in Kenya and Tanzania?\n\n        A He made friends with locals.\n        B He saw natural wonders.\n        C He visited big cities.\n\n\n\n 15     Why does Gordon train with his dad?\n\n        A His dad is a mountain climber as well.\n        B His dad has a lot of climbing experience.\n        C His dad is good company.\n\n\n\n\nENG B IK-2 D-S056                                                                      7/12\n\nEngleski jezik                                                                                 Listening Paper"
+                    },
+                    "questions": [
+                        {
+                            "type": "SingleChoice",
+                            "question": "How did he become interested in climbing mountains?",
+                            "choices": [
+                                "A He saw a painting of mountains.",
+                                "B He read a book about mountains.",
+                                "C He studied about mountains."
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "When did he decide to climb all Seven Summits?",
+                            "choices": [
+                                "A Before he climbed Kilimanjaro.",
+                                "B While he was climbing Kilimanjaro.",
+                                "C After he climbed Kilimanjaro."
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Why was climbing Kilimanjaro difficult for Gordon?",
+                            "choices": [
+                                "A He was very young.",
+                                "B He wasn’t prepared well.",
+                                "C The weather was very bad."
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "What did he do during his travelling in Kenya and Tanzania?",
+                            "choices": [
+                                "A He made friends with locals.",
+                                "B He saw natural wonders.",
+                                "C He visited big cities."
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Why does Gordon train with his dad?",
+                            "choices": [
+                                "A His dad is a mountain climber as well.",
+                                "B His dad has a lot of climbing experience.",
+                                "C His dad is good company."
+                            ],
+                            "correctChoice": "C"
+                        }
+                    ],
+                    "initialAudio": "https://files.matura.top/2022/Ljeto/Eng/B/Task3.opus"
+                },
+                {
+                    "info": "Listening Task 4 (questions 16-20).",
+                    "initialText": {
+                        "text": "Task 4\n       Questions 16-20\n\n       You will hear a teacher talking to students about a field trip they are going on.\n       For each question (16-20), choose the correct answer (A, B or C).\n       You will hear the recording twice.\n\n\n 16      When will they enter the Marine Science Centre?\n\n         A At 9:00.\n         B At 9:30.\n         C At 10:00.\n\n\n 17      Which programme has the teacher booked?\n\n         A The Exhibit Tour.\n         B The Eco Walk.\n         C The Boat Ride.\n\n\n 18      What will they visit last?\n\n         A The Turtle Terrace.\n         B The Bird Sanctuary.\n         C The Ecosystems Gallery.\n\n\n 19      Where will they have lunch?\n\n         A In the amphitheatre.\n         B In the park.\n         C In the pavilion.\n\n\n 20      How much does the Prime dolphin adoption package cost?\n\n         A €30.\n         B €40.\n         C €50.\n\n                 You now have five minutes to copy your answers onto the answer sheet.\n\n\n\n\n8/12                                                                                       ENG B IK-2 D-S056\n\n                             Engleski jezik\n\n\n\n\n                         ca\n                        ni\n                        ra\n                    st\n                    a\n                zn\n        ra\n   P\n\n\n\n\nENG B IK-2 D-S056                       9/12\n\nEngleski jezik\n\n\n\n\n                      ca\n                     ni\n                     ra\n                 st\n                 a\n         zn\n     ra\n    P\n\n\n\n\n10/12                     ENG B IK-2 D-S056\n\n                             Engleski jezik\n\n\n\n\n                         ca\n                        ni\n                        ra\n                    st\n                    a\n                zn\n        ra\n   P\n\n\n\n\nENG B IK-2 D-S056                       11/12\n\nEngleski jezik\n\n\n\n\n                      ca\n                     ni\n                     ra\n                 st\n                 a\n         zn\n     ra\n    P\n\n\n\n\n12/12                     ENG B IK-2 D-S056"
+                    },
+                    "questions": [
+                        {
+                            "type": "SingleChoice",
+                            "question": "When will they enter the Marine Science Centre?",
+                            "choices": [
+                                "A At 9:00.",
+                                "B At 9:30.",
+                                "C At 10:00."
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Which programme has the teacher booked?",
+                            "choices": [
+                                "A The Exhibit Tour.",
+                                "B The Eco Walk.",
+                                "C The Boat Ride."
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "What will they visit last?",
+                            "choices": [
+                                "A The Turtle Terrace.",
+                                "B The Bird Sanctuary.",
+                                "C The Ecosystems Gallery."
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Where will they have lunch?",
+                            "choices": [
+                                "A In the amphitheatre.",
+                                "B In the park.",
+                                "C In the pavilion."
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "How much does the Prime dolphin adoption package cost?",
+                            "choices": [
+                                "A €30.",
+                                "B €40.",
+                                "C €50."
+                            ],
+                            "correctChoice": "C"
+                        }
+                    ],
+                    "initialAudio": "https://files.matura.top/2022/Ljeto/Eng/B/Task4.opus"
+                }
+            ]
+        }
+    ]
+}

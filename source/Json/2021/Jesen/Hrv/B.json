@@ -1,0 +1,1027 @@
+{
+    "name": "Hrvatski",
+    "maxPoints": 120,
+    "scale": {
+        "range1": [
+            0,
+            41.99
+        ],
+        "range2": [
+            42,
+            62.39
+        ],
+        "range3": [
+            62.4,
+            80.99
+        ],
+        "range4": [
+            81,
+            97.19
+        ],
+        "range5": [
+            97.2,
+            120
+        ]
+    },
+    "sections": [
+        {
+            "name": "Književnost i jezik",
+            "predictedTime": 100,
+            "potentialPoints": 80,
+            "questionGroups": [
+                {
+                    "info": "Zadatci 1. – 3. odnose se na polazni tekst.",
+                    "initialText": {
+                        "text": "Ikarov odgovor\nGlas nemoći:                                              Ikar:\n– Nikada Ga nećeš dostići, ludove!                        – O dosadni glase! Pomisli li ikad\nZalud vežeš krila s tvojijem Dedalom                      Na prostora mjere, vremena eone1?\nKao stoti luđak, hiteć k Idealom!...                      I da u bezmjerju ne postoji n i k a d ?\nOstavi to glupo Sunce i te snove!\nTijelo, zemna koro! Što ću s tvojim prahom?\nVidiš zvijezde i planete: Mirno plove,                    Hajd da hvatam zvijezde, dok sve ljepše\nJednako daleko plavetnijem valom...                       zvone!\nA ti si mi sličan baš anđelu palom,                       Ne mognem li rukom, dostić ću ih dahom!\nNe slušajuć mudar savjet, kad te zove!...\nLjubo Wiesner\neon – naziv za dugo razdoblje\nA."
+                    },
+                    "questions": [
+                        {
+                            "type": "SingleChoice",
+                            "question": "Zašto Ikar teži Suncu?",
+                            "choices": [
+                                "jer mu je cilj izmjeriti prostor i vrijeme",
+                                "jer se nastoji povezati s Dedalom",
+                                "jer želi nadvladati prolaznost",
+                                "jer je pali anđeo"
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koja je riječ bliskoznačna riječi Sunce?",
+                            "choices": [
+                                "krila",
+                                "ideal",
+                                "planet",
+                                "anđeo"
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "U kojemu se stihu iskazuje da se ljudske težnje mogu ostvariti?",
+                            "choices": [
+                                "Kao stoti luđak, hiteć k Idealom!...",
+                                "Vidiš zvijezde i planete: Mirno plove,",
+                                "I da u bezmjerju ne postoji n i k a d ?",
+                                "Tijelo, zemna koro! Što ću s tvojim prahom?"
+                            ],
+                            "correctChoice": "C"
+                        }
+                    ]
+                },
+                {
+                    "info": "Zadatci 4. – 6. odnose se na polazni tekst.",
+                    "initialText": {
+                        "text": "Jonathan Swift, Gulliverova putovanja\nOtac mi imao dobarce1 u Nottinghamshireu, a ja mu bio treći od pet sinova. Kad mi bijaše četrnaest\ngodina, poslao me u Cambridge, u Emanuel College, gdje sam proboravio tri godine i marljivo se\nbavio naukama; ali za mali je očev imutak moje uzdržavanje bilo preskupo, premda sam dobivao\nvrlo oskudnu opskrbninu, te odem na nauk gospodinu Jamesu Batesu, odličnu ranarniku2 u\nLondonu, u koga sam proveo četiri godine; pa kako mi je otac kadšto slao pomalo novaca, trošio\nsam ih na izučavanje navigacije, matematike i drugih znanosti (...).\nOd Batesa vratio sam se ocu; ondje sam, uz pomoć njegovu i strica mojega Johna, i nekih drugih\nrođaka, stekao četrdeset funti i obećanje od trideset funti na godinu za moje uzdržavanje u\nLeydenu; tu sam dvije godine i sedam mjeseci učio medicinu, jer sam znao da će mi to koristiti na\ndalekim putovanjima.\nNaskoro nakon mojega povratka iz Leydena preporučio me moj dobri učitelj, gospodin Bates, za\nranarnika na brodu Swallow (...).\nKad sam se vratio, odlučim nastaniti se u Londonu; na to me sokolio gospodin Bates, moj učitelj, te\nme preporučio nekojim pacijentima. Unajmim stan u nekoj kućici u predgrađu Old Jewry; a jer su\nmi savjetovali da se okanim momačkog života, oženim se gospođicom Mary Burton, drugom kćerju\ngospodina Edmunda Burtona, trgovca pleteninom u ulici Newgate; sa ženom sam u ženinstvo dobio\nčetiri stotine funti.\nAli kako je moj dobri učitelj Bates umro za dvije godine, a ja imao malo prijatelja, počeo mi posao\nnazadovati; jer savjest mi nije trpjela da se povodim za lošom praksom mnogih i premnogih svojih\nkolega. Pošto sam se dakle posavjetovao sa ženom i sa nekoliko znanaca, odlučim opet krenuti na\nmore.\ndobarce – mali posjed\nranarnik – kirurg\nA."
+                    },
+                    "questions": [
+                        {
+                            "type": "SingleChoice",
+                            "question": "S kojom je namjerom pripovjedač prvi put otišao u London?",
+                            "choices": [
+                                "kako bi šegrtovao kod cijenjenoga stručnjaka",
+                                "kako bi zaradio novac za studij",
+                                "kako bi posjetio strica",
+                                "kako bi se oženio"
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Zašto je pripovjedač ponovno odlučio ploviti?",
+                            "choices": [
+                                "jer nije mogao preboljeti smrt svojega učitelja",
+                                "jer se zaželio svojih prijatelja s broda",
+                                "jer nije imao dovoljno pacijenata",
+                                "jer ga je nagovorila supruga"
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Gdje se nalazi ulica Newgate?",
+                            "choices": [
+                                "u Nottinghamshireu",
+                                "u Cambridgeu",
+                                "u Leydenu",
+                                "u Londonu"
+                            ],
+                            "correctChoice": "D"
+                        }
+                    ]
+                },
+                {
+                    "info": "Zadatci 7. – 9. odnose se na polazni tekst.",
+                    "initialText": {
+                        "text": "Ivan Sergejevič Turgenjev, Čertophanov i Nedopjuskin\nOtac Panteleja Jeremejiča naslijedio je već upropašteno imanje; on je opet isto tako mnogo\n„žuiraoˮ1, a kad je umro, ostavio svom jedinom nasljedniku Panteleju založeno seoce Besonovo\nsa trideset pet duša muškog i sedamdeset šest duša ženskog spola, te četrnaest desetina i jednu\nosminu slabe zemlje u pustari Kolobrodovoj za koju, uostalom, nisu našli nikakve kupovnice među\npokojnikovim spisima. Mora se priznati da je pokojnik vrlo čudnovato propao; upropastio ga je\n„ekonomski računˮ. Po njegovu shvaćanju, plemić nije smio zavisiti od trgovaca, građana i sličnih\n„razbojnikaˮ, kako je sam govorio; uveo je kod sebe svakakve obrte i radionice: „i doličnije je i\njeftinijeˮ, govorio je, „ekonomski računˮ! Te se pogubne misli nije odrekao do kraja života; ona ga\nje i upropastila. Ali se i nauživao: udovoljavao je svakom svom prohtjevu. Između ostalih izuma,\nnapravio je jednom, prema svojoj zamisli, takvu golemu obiteljsku kočiju da se, usprkos složnim\nnaporima svih konja iz sela i njihovih vlasnika, na prvoj nizbrdici prevalila i raspala. Jeremej Lukič\n(Pantelejev se otac zvao Jeremej Lukič) zapovjedio je da se podigne spomenik na toj nizbrdici,\ninače se nije nimalo zbunio. Isto mu je tako palo na pamet da sagradi crkvu, razumije se, sam, bez\narhitektove pomoći. Popalio je cijelu šumu radi opeka, postavio golem temelj da bi mogao na njemu\nsazidati i gubernijsku stolnu crkvu; podigao zidove, počeo graditi kube2: kube se sruši. On opet –\nkube se i opet strovali; on treći put – kube se stropošta po treći put. Zamisli se moj Jeremej Lukič:\novo nisu, misli, čista posla... umiješale se proklete čarolije... pa tek najednom zapovjedi da išibaju\nsve babe u selu. Išibaše babe – ali kube ne sagradiše.\nžuirao – uživao\nkube – kupola"
+                    },
+                    "questions": [
+                        {
+                            "type": "SingleChoice",
+                            "question": "Što je od sljedećega iskazano o Panteleju Jeremiču?",
+                            "choices": [
+                                "Ostavio je sinu dugove u nasljedstvo.",
+                                "Lažirao je posjedovne dokumente.",
+                                "Otvorio je svoju obrtničku radnju.",
+                                "Dobio je vlastelinstvo u posjed."
+                            ],
+                            "correctChoice": "D"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Zašto se kupola na crkvi koju je gradio Jeremej Lukič uvijek iznova rušila?",
+                            "choices": [
+                                "Temelji crkve nisu bili dovoljno čvrsti da bi izdržali opterećenje.",
+                                "Crkva nije bila projektirana prema građevinskim pravilima.",
+                                "Netko je iznova podmetao požare.",
+                                "Na crkvu su bačeni zli uroci."
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Što je od sljedećega primjer ekonomskoga računa Jeremeja Lukiča?",
+                            "choices": [
+                                "naslijedio je već upropašteno imanje",
+                                "nisu našli nikakve kupovnice među pokojnikovim spisima.",
+                                "napravio je jednom, prema svojoj zamisli, takvu golemu obiteljsku kočiju",
+                                "pa tek najednom zapovjedi da išibaju sve babe u selu."
+                            ],
+                            "correctChoice": "C"
+                        }
+                    ]
+                },
+                {
+                    "info": "Zadatci 10. – 12. odnose se na polazni tekst.",
+                    "initialText": {
+                        "text": "Eugen Kumičić, Olga i Lina\nGospođa Klara, Olgina majka, bila je udova. Muž joj, pokojni Gavro Milić, rodom iz Zagreba,\npošten i vrlo bogat trgovac, bio je kao mladić nekoliko godina u trgovini u Beču gdje se s Klarom\nupoznao i vjenčao. Gospođa Klara bijaše činovnička kći i sasvim „moderno” odgojena. Olga je\nbila jedinica ne odviše sretnoga braka. Bilo joj je već šest godina, a hrvatski još nije znala govoriti.\nStarog je to Milića srdilo, te odluči da potraži Olgi odgojiteljicu, i to ne Njemicu ili Francuskinju, nego\nHrvaticu. Sreća mu posluži, te nađe poštenu i dobro naobraženu Karlovčanku. Bila je to vatrena\nHrvatica. Gospođa Klara nije je mogla trpjeti, no u kući je, srećom, Milić zapovijedao. Olga je voljela\nsvoju odgojiteljicu kao rođenu majku. Kad je Milić umro, bilo je Olgi upravo dvanaest godina. Malo\nkasnije udade se njezina odgojiteljica za nekoga umirovljenoga graničarskog pukovnika. Godinu\ndana poslije smrti Milićeve počela udova Klara polaziti plesove i upoznala se tako s barunom\nAlfredom. Svijet je koješta brbljao, no ludo bi bilo paziti i obazirati se na sve što zlobni i besposleni\njezici čavrljaju. Gospođa je Klara željela da Olga na svaki način pođe za bogatoga baruna Alfreda.\nOlgi bilo već blizu petnaest godina kad ju je majka počela nagovarati da bude što ljubaznija s\nbarunom. Ona ne bi prigovarala, šutjela bi i nasamu suze ronila. Da nije toga, Olga bi bila posve\nsretna. Alfred nije imao ništa protiv Klarinih osnova, no njene kćerke nije ljubio. Glavna stvar bijahu\nmu njezine hiljade. Nisu još bili zaručeni... to je zavisilo o volji Alfredovoj, jer mu je Olgina majka\nnekako odviše ugađala."
+                    },
+                    "questions": [
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koja je od sljedećih tvrdnja o odnosu Klare i Gavre točna?",
+                            "choices": [
+                                "Gavro je bio ponosan na Klarino hrvatstvo.",
+                                "Nisu se slagali oko Olgina obrazovanja.",
+                                "Sve je odluke u braku donosila Klara.",
+                                "Klara je bila nevjerna Gavri."
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Na što se odnosi podcrtana riječ?",
+                            "choices": [
+                                "Majci ne odgovara Olgina odgojiteljica.",
+                                "Olgi se ne sviđa majčin budući suprug.",
+                                "Majka planira udati Olgu.",
+                                "Umro je Olgin otac."
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "U kojemu se od sljedećih primjera nalazi pripovjedačev komentar?",
+                            "choices": [
+                                "a hrvatski još nije znala govoriti.",
+                                "no u kući je, srećom, Milić zapovijedao.",
+                                "Svijet je koješta brbljao,",
+                                "Alfred nije imao ništa protiv Klarinih osnova,"
+                            ],
+                            "correctChoice": "B"
+                        }
+                    ]
+                },
+                {
+                    "info": "Zadatci 13. – 15. odnose se na polazni tekst.",
+                    "initialText": {
+                        "text": "Marcel Proust, Combray\nNema sumnje, one večeri kad me je onako blago držala za ruku i nastojala da zaustavi moje\nsuze, lijepo je lice moje majke još blistalo mladošću; ali baš mi se tada učinilo da ne bi smjelo biti\ntako; njezina me srdžba ne bi bila toliko ražalostila koliko ta nova nježnost koju moje djetinjstvo\nnije poznavalo; činilo mi se kao da sam bezbožnom i potajnom rukom u njezinu dušu urezao prvi\nnabor i izazvao prvu sijedu kosu. Ta misao udvostruči moje jecanje i tada vidjeh kako mamu,\nkoja se nije sa mnom nikad upuštala ni u kakvo raznježivanje, najednom svladava moje ganuće i\nkako se pokušava suzdržati da ne zaplače. Budući da je osjetila da sam to opazio, reče mi kroz\nsmijeh: – (...) Hajde, kad se već ni tebi, a ni tvojoj mami ne spava, nemojmo se dalje uzrujavati,\nradimo štogod, uzmimo koju od tvojih knjiga. – Ali ja nisam ni jedne imao u sobi. – Da li bi te manje\nradovalo kad bih već sada izvadila knjige koje će ti baka pokloniti za imendan? Razmisli dobro:\nnećeš li biti razočaran kad prekosutra ništa ne dobiješ? – Bio sam, naprotiv, očaran, pa mama\node po paket s knjigama, kome nisam kroz papir, kojim su knjige bile zamotane, mogao pogoditi\nsadržaj, nego samo kratak i širok oblik, no koji je već pri tom prvom, iako površnom i zastrtom\npogledu, zasjenjivao novogodišnju kutiju s bojama i dudove svilce od lani. Tu su bile: Đavolja bara,\nNahoče François, Mala Fadette i Majstori zvonari. Poslije sam doznao da je baka najprije odabrala\nMussetove pjesme, jedan svezak Rousseaua i Indijanu; jer, premda je nevrijednu lektiru držala isto\ntako nezdravom kao i bombone i poslastice, nije mislila na to da bi snažni duh genijev mogao na\nsam duh djeteta imati opasniji i štetniji utjecaj nego što bi slobodan zrak ili vjetar s morske pučine\nkoristio njegovu tijelu."
+                    },
+                    "questions": [
+                        {
+                            "type": "SingleChoice",
+                            "question": "Što je ražalostilo pripovjedača?",
+                            "choices": [
+                                "majčin izbor knjiga za čitanje",
+                                "majčina nježnost",
+                                "majčina srdžba",
+                                "majčine riječi"
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Kako je pripovjedač prihvatio mogućnost da ranije dobije poklon?",
+                            "choices": [
+                                "oduševljeno",
+                                "razočarano",
+                                "suzdržano",
+                                "uzrujano"
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Što pripovjedač smatra potencijalno štetnim za djetetov duh?",
+                            "choices": [
+                                "umjetnički vrijednu književnost",
+                                "previše tjelesnoga umaranja",
+                                "dug boravak u prirodi",
+                                "nezdravu prehranu"
+                            ],
+                            "correctChoice": "A"
+                        }
+                    ]
+                },
+                {
+                    "info": "Zadatci 16. – 18. odnose se na polazni tekst.",
+                    "initialText": {
+                        "text": "Margaret Atwood, Penelopeja\nItaka nije bila nikakav raj. Nerijetko je vrijeme bilo vjetrovito, te često kišovito i hladno. U usporedbi\ns onima na koje sam dotad navikla, plemenitaši su bili prilično ofucani, a premda je služila svrsi,\npalača nije bila od onih kakve biste smatrali prostranima.\nOtok je zaista obilovao stijenama i kozama, kao što su mi pričali kod kuće. No bilo je tu i krava,\ni ovaca, i svinja, i žita za kruh, a u sezoni bi se pojavile kruške ili jabuke ili smokve; stoga je naša\ntrpeza bila dobro opskrbljena, a s vremenom sam se pomalo priviknula na taj kraj. Također, nije\nbila mala stvar imati Odiseja za muža. Svi su se obraćali njemu, pa je dolazila sva sila što molitelja,\nšto onih kojima je trebao njegov savjet. Neki su čak znali doploviti iz dalekih krajeva kako bi se\nposavjetovali s njim, budući da je bio na glasu kao čovjek koji umije razriješiti svaki zamršeni čvor,\niako u nekim slučajevima tako što bi svezao još zamršeniji.\nNjegov otac Laert i njegova majka Antikleja u to su doba još živjeli u palači: majka nije još umrla,\nizmučena motrenjem i čekanjem da se Odisej vrati i, naslućujem, vlastitim probavnim tegobama;\notac se još nije, očajan zbog sinovljeve odsutnosti, preselio u potleušicu i sâm sebe kažnjavao\nobrađivanjem zemlje. Sve će se to zbiti nakon što Odisej bude godinama odsutan, ali tada još nije\nbilo ničim nagoviješteno.\nMoja svekrva Antikleja bila je suzdržana. Spadala je među one mrzovoljne i kisele, pa premda\nmi je formalno izrazila dobrodošlicu, shvatila sam da nema dobro mišljenje o meni. Neprestano je\ngovorila kako sam jako mlada. Odisej je suho izjavio da će se ta mana s vremenom sama ispraviti."
+                    },
+                    "questions": [
+                        {
+                            "type": "SingleChoice",
+                            "question": "Zašto su ljudi izdaleka plovili na Itaku?",
+                            "choices": [
+                                "da bi ih Odisej poučio mornarskoj vještini",
+                                "da bi riješili svoje probleme",
+                                "da bi se bavili stočarstvom",
+                                "da bi postali plemićima"
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Zašto se Odisejev otac preselio u kolibu?",
+                            "choices": [
+                                "S toga mjesta najbolje se vidi dolazak brodova.",
+                                "Dosadio mu je život s mrzovoljnom suprugom.",
+                                "Na to ga je potaknula sinovljeva sudbina.",
+                                "Nije htio nikomu pokazati da je bolestan."
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "U kojemu od sljedećih primjera dolazi do izražaja Odisejev smisao za humor?",
+                            "choices": [
+                                "plemenitaši su bili prilično ofucani, a premda je služila svrsi, palača nije bila od",
+                                "budući da je bio na glasu kao čovjek koji umije razriješiti svaki zamršeni čvor,",
+                                "Spadala je među one mrzovoljne i kisele,",
+                                "suho izjavio da će se ta mana s vremenom sama ispraviti."
+                            ],
+                            "correctChoice": "D"
+                        }
+                    ]
+                },
+                {
+                    "info": "Zadatci 19. – 21. odnose se na polazni tekst.",
+                    "initialText": {
+                        "text": "Nebojša Lujanović, Orgulje iz Waldsassena\nRijetko kada bi uspjeli izbjeći onaj dio „tko bi što želio” i nabrajanje uvijek istih stvari, svatko sa\nsvojim popisom snova. (...)\nĆići bi se čudili i smijali, njegov san je bio nekako najteži – velika kuća i imanje na kojem bi radio\nsam i za sebe, taj mu znoj ne bi bilo teško prolijevati. Za sada je živio za druge.\nStjepanu je bilo malo teže sanjati, sve njegove želje pretvarale su se u neki čudan i neodređen\nsan o bijegu, o ostavljanju svega iza sebe. Njegovi dani inače su bili ispunjeni malim bjegovima u\nšale, podvale, sulude pothvate, priželjkujući onaj veliki i pravi. I njemu bi se smijali kao nekome tko\nnije sposoban poželjeti nešto određeno.\nMirza je vicevima izbjegavao govoriti o tome, šaleći se na svoj račun, ali ispod toga izvirala je\nželja da se sva njegova braća raspu svijetom, svatko sa svojim komadom sreće pod rukama, skinu\nse majci s leđa i ostave njega da je dohrani do smrti. Onda bi ova kuća bila njegova... Spominjao je\nčesto tu skalameriju1 od žutih nagriženih cigli, kao slijepac koji umjesto nje vidi nešto posve drugo.\nKada bi došao red na mene, lagao bih iz neke nelagode, pa čak i straha, o autima, kući, zemlji\nna Vlašiću vječno okićenoj snijegom... a ustvari sam želio nešto drugo; nešto biti, a ne imati.\nMaglovitiji san od Stjepanovog, iako sam mu se smijao. Postati netko, uzdignuti se iznad svega. Ne\nznam.\nA onda bi ostavili Broza za kraj, smijali se njegovim priprostim željama koje su se vezale uz\nsve ono jeftino što smo mi već imali. Kako se samo gladnih očiju motao oko naših kućeraka, malih\nbaraka iz kojih se ljeti širio miris zagorenog mesa i zaprške. Smiješno je jer sve što je sanjao bilo je\ntako obično.\nskalamerija – starudija"
+                    },
+                    "questions": [
+                        {
+                            "type": "SingleChoice",
+                            "question": "Tko živi u najvećoj neimaštini?",
+                            "choices": [
+                                "Ćićo",
+                                "Stjepan",
+                                "Mirza",
+                                "Broz"
+                            ],
+                            "correctChoice": "D"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koja je od sljedećih tvrdnja o Mirzi točna?",
+                            "choices": [
+                                "Obitelj mu posjeduje ruševnu nekretninu.",
+                                "Majka mu je smrtno bolesna.",
+                                "Prezire svoju braću.",
+                                "Izgubio je vid."
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Zašto su se ostali mladići smijali Stjepanu?",
+                            "choices": [
+                                "Pobjegao je kad su ga pitali o čemu mašta.",
+                                "Smatrali su njegov san neostvarivim.",
+                                "Njegove su im želje bile neodređene.",
+                                "Ispričao im je dobru šalu."
+                            ],
+                            "correctChoice": "C"
+                        }
+                    ]
+                },
+                {
+                    "info": "Zadatci 22. – 24. odnose se na polazni tekst.",
+                    "initialText": {
+                        "text": "Ivo Brešan, Predstava Hamleta u selu Mrduša Donja\nŠIMURINA: Drugovi i drugarice! Vi svi znate da ja nisam ni učen ni školovan čovik. Ja se ne\nrazumim u te, kako bi reka, kulturne i prosvićene predmete, a jope nikako tija bi da vam stavim\ntute jedan pridlog. Prije dvi godine bija sam u Zagrebu, kad me uno drug predsjednik posla da\nzagrebačkoj „Vinarijiˮ prodam dvista ektolitara vina. I kad sam ja tako lipo svršija posal i potpisa sve\nune formulacije šta i’ je tribalo potpisati, jedan mi drug iz „Vinarijeˮ veli:\n„Aj ti, druže, s namikare večeras u tejatar.ˮ A tejatar, drugovi i drugarice, to vam je nika velika\nkućetina di se svaku večer daje nika prestava, ki u nas tute za narodni praznik.\nPRVI SELJAK: Pa jesi li iša?\nŠIMURINA: Vidi njega! Kako neću ići kad me čovik zove... i kad je un to reka, ja, ne budi lin, poša\ns njima. I moj brte, da ste vi vidili toga čuda! Uša vam ja, a uno svitlo ki usrid bila dana od puste\nletrifikacije šta je unutra. A svita ki u tri naša sela. I nike katrige1 šta skaču gorika udma čim se\ndigneš s nji’. Nema... stani – pani!\nDRUGI SELJAK: A kako se zvala prestava?\nŠIMURINA: Čekaj, majku ti božju... jest... Pari mi se da se zvala „Omletˮ.\nŠKUNCA: Nije „Omletˮ, nego „Hamletˮ.\nŠIMURINA: Muči ti, učo, ne prikidaj me! Omlet ili Amlet, šta nije isti belaj? I eto, drugovi i drugarice,\nta mi je prestava ostala nikako u pameti, pa sam tija pridložiti da je i mi dajemo.\nŠKUNCA: Što! „Hamletaˮ da dajemo? Pa ti si lud! Ti ne znaš šta govoriš.\nPULJO: Nemoj ti tako, druže učitelju! Neka si ti svršija škole, ti se tute, razumiš li me, nepravilno\npostavljaš. Drug Šimurina samo pridlaže, a mi smo tute da bi taj pridlog, razumiš li me, stavili na\ndiskusiju.\nkatrige – stolice"
+                    },
+                    "questions": [
+                        {
+                            "type": "SingleChoice",
+                            "question": "Zašto je Šimurina bio u Zagrebu?",
+                            "choices": [
+                                "Dobio je karte za kazališnu predstavu.",
+                                "Išao je završiti dogovoreni posao.",
+                                "Zaposlio se u tamošnjoj vinariji.",
+                                "Želio se školovati."
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Što je od sljedećega Šimurinu iznenadilo u kazalištu?",
+                            "choices": [
+                                "Predstava u kazalištu imala je isti naziv kao i vrsta hrane.",
+                                "Stolice u kazalištu imale su pomične sjedalice.",
+                                "Kazalište je radilo i državnim praznicima.",
+                                "U kazalištu je bilo mnogo seljaka."
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Za kakav se način odlučivanja o izboru predstave zalaže Puljo?",
+                            "choices": [
+                                "Odluku treba donijeti onaj koji je gledao predstavu.",
+                                "Odluku treba donijeti nakon rasprave.",
+                                "Odluku treba donijeti najobrazovaniji.",
+                                "Odluku treba donijeti on sam."
+                            ],
+                            "correctChoice": "B"
+                        }
+                    ]
+                },
+                {
+                    "info": "Zadatci 25. – 27. odnose se na polazni tekst.",
+                    "initialText": {
+                        "text": "Igor Mirković, Sretno dijete\nKako smo nabavljali ploče? Svatko od nas, klinaca, raspolagao je nekakvim čudnim,\nmisterioznim adresama u Engleskoj. Nitko nije znao točno objasniti što je ili tko na tim adresama, ali\nkad god bismo dočuli da se u velikom svijetu pojavilo novo izdanje nekog od naših glazbenih heroja,\nnekoliko stranih novčanica, pomno čuvanih za ovakve prilike, spakirali bismo u kuvertu i poslali ih\nu nepoznato, provjerivši najmanje deset puta da se u adresi ispisanoj na kuverti nije omaklo neko\nkrivo slovo. Dva tjedna kasnije poštar bi doista donio ploču – Black and Blue Rolling Stonesa prva\nje koju sam tako pribavio. Još se jasno sjećam neizdrživog iščekivanja kroz koje je valjalo proći\nu tih četrnaest dana, dodatno otežanog stalno tinjajućom sumnjom da će me prevariti, uzeti moje\nteško ušteđene novce, a ja im neću moći ništa, jer zapravo niti znam tko su oni, niti imam bilo kakav\ndokaz da sam im ikada išta poslao. (...) No, za divno čudo, ploče bi na kraju uvijek stizale.\nDrugi, znatno manje rizičan način bio je raspitati se kada netko od prijatelja ide u Trst ili Graz\ni zaskočiti ga s narudžbom. (...) Od tako pribavljenih trofejnih primjeraka živjelo bi tjednima čitavo\nsusjedstvo, ploče bi kružile od ruke do ruke, presnimavale se do iznemoglosti.\nPrilikom primopredaje blaga, oni zadrtiji među nama izvadili bi dragocjeni komad vinila iz\nomotnice – pritom se površina ploče NIKAKO ne smije dotaknuti jagodicama, onome tko bi na\nnjezinoj sjajnoj površini ostavio masne otiske svojih prstiju, slijedila bi društvena ekskomunikacija\n– i stručnim okom odmjerili najprije stranu A, pa stranu B, prstom ukazujući na oštećenja. Tim bi\nse postupkom konstatiralo postojeće stanje. I bez suvišnih riječi podrazumijevalo bi se da se vinil\nu istom stanju i bez novih ogrebotina ima vratiti natrag (u protivnom slijedi, kako smo rekli, izgon iz\nkruga onih koji razmjenjuju ploče).\nA."
+                    },
+                    "questions": [
+                        {
+                            "type": "SingleChoice",
+                            "question": "Na koji su od sljedećih načina autor teksta i njegovo društvo nabavljali gramofonske ploče?",
+                            "choices": [
+                                "Organizirali su zajednička putovanja u Trst i Graz.",
+                                "Slali su im ih poznanici koji su živjeli u Engleskoj.",
+                                "Naručivali su ih od stranih dobavljača.",
+                                "Kupovali su ih u poslovnici pošte."
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Na koga se odnosi sljedeća sintagma?",
+                            "choices": [
+                                "na one koji su ploče u ruke uzimali masnim prstim",
+                                "na one koji su provjeravali imaju li ploče oštećenja",
+                                "na one koji su vraćali vlasnicima ogrebane ploče",
+                                "na one koji su ploče dirali jagodicama"
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Što je iskazano o autorovu iskustvu pri kupovini ploče Black and Blue?",
+                            "choices": [
+                                "Autor je zamijetio da nedostaje jedno slovo u nazivu izvođača na njezinu",
+                                "Autora su ljudi od kojih ju je kupio pokušali prevariti za njezinu cijenu.",
+                                "Autor ju je morao platiti novčanicama u stranoj valuti.",
+                                "Autor ju je dobio s 14 dana zakašnjenja."
+                            ],
+                            "correctChoice": "C"
+                        }
+                    ]
+                },
+                {
+                    "info": "Zadatci 28. – 30. odnose se na polazni tekst.",
+                    "initialText": {
+                        "text": "Stribor Marković, Stablo Anne Frank\nDivlji kesten nije naša samonikla biljka. On je samonikao na području Grčke, te dijelom Albanije,\nBugarske i Turske. Divlji kesten bio je biljka u nestajanju, nekoć proširen Europom povukao se\ntijekom ledenog doba na svoje utočište na jugu. Kao i ginko, otkrili su ga ljudi. Smatra se kako je\naustrijski ambasador pri tada već turskom Carigradu potkraj 16. stoljeća presadio prva stabalca u\nBeč, a početkom 17. stoljeća presađuje se i u Pariz. Slavni turistički Jardin de Tuilleries1 u Parizu\nprvi se mogao pohvaliti ukrasnim drvoredom divljeg kestena. Njegov uspon od tada bio je munjevit.\nPrekrasni proljetni cvjetovi, oku ugodni listovi u obliku dlana, krasni smeđi plodovi u jesen, bio je\nljubimac europske parkovne arhitekture i proširio se cijelim svijetom. Uz ginko, jedan je od rijetkih\nprimjera biljaka koje su se raširile, a ne nestale, zahvaljujući čovjeku.\nU 20. stoljeću otkrili smo i njegova medicinska svojstva. Svoje djelovanje mahom duguje\nsaponozidima. Saponozidi su velike molekule koje prepoznajete na – cesti. Kada se ujesen vozite\npo lokvama uz drvored kestena, moći ćete zamijetiti pjenu na lokvicama. Osim zbog motornog\nulja, to je i zbog saponozida kestena koji se pjene. (...) No, oni nam u organizmu nisu bitni kao\ndeterdženti koji čiste. (...) Svi znamo kako je divlji kesten „lijek za vene”, odnosno za kroničnu\nvensku insuficijenciju2, ali smo rijetko kada svjesni zašto djeluje. Biljka koja je svoj put započela iz\nnemirnog Balkana i ambasadorskog Carigrada morala je, kao svaki pravi vješti, ali etični političar i\ndiplomat, balansirati s više mehanizama djelovanja. Jedan od njih je stezanje pretjerano raširenih\nvena, venokonstrikcija. Drugi mehanizam je sprječavanje propadanja finih vezivnih molekula zbog\nloše venske cirkulacije.\nJardin de Tuilleries – javni vrt u Parizu\ninsuficijencija – funkcionalna slabost nekoga organa"
+                    },
+                    "questions": [
+                        {
+                            "type": "SingleChoice",
+                            "question": "Što je bio po zanimanju čovjek za kojeg se vjeruje da je prvi presadio divlji kesten?",
+                            "choices": [
+                                "arhitekt",
+                                "diplomat",
+                                "liječnik",
+                                "vrtlar"
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koje je obilježje divljega kestena utjecalo na njegovo brzo širenje svijetom?",
+                            "choices": [
+                                "otpornost na različite vremenske uvjete",
+                                "lijep izgled stabla tijekom cijele godine",
+                                "velika mogućnost primjene u medicini",
+                                "jednostavnost presađivanja"
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Za što se divlji kesten upotrebljava u medicini?",
+                            "choices": [
+                                "za izbacivanje štetnih tvari iz tijela",
+                                "za liječenje krvožilnoga sustava",
+                                "za uravnoteženje hormona",
+                                "za dezinfekciju"
+                            ],
+                            "correctChoice": "B"
+                        }
+                    ]
+                },
+                {
+                    "info": "II. Književnost — zadatci bez polaznoga teksta.",
+                    "questions": [
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koja od sljedećih književnih vrsta pripada drami?",
+                            "choices": [
+                                "elegija",
+                                "farsa",
+                                "feljton",
+                                "mit"
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Kojoj književnoj vrsti pripada sljedeća pjesma? NESUVREMEN UZDAH O moj bijeli svijete, stižu crni dani: što bolje – rakete, to gori – romani!",
+                            "choices": [
+                                "ditirambu",
+                                "epigramu",
+                                "idili",
+                                "odi"
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koji je izraz u sljedećim stihovima oksimoron? O, ti si uzdah, suza, arija, Sutonâ pustih Zdrava Marija, Ti si Helena, Psiha, Venera, Lasta i bršljan moga pendžera, Gdje gledam rujne ruže mladosti, Kad dišu pelin tužnih radosti.",
+                            "choices": [
+                                "Zdrava Marija",
+                                "Lasta i bršljan",
+                                "rujne ruže",
+                                "tužnih radosti"
+                            ],
+                            "correctChoice": "D"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koji su od sljedećih stihova dvostruko rimovani dvanaesterci?",
+                            "choices": [
+                                "Nu kada procinih tvoj razum pak i ćud",
+                                "Gda to slišah, obuje mi srce tuga",
+                                "Tužno moje srce, kamo sada misliš,",
+                                "Na vojsku, na vojsku, vitezi zibrani,"
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koji je pjesnički postupak upotrijebljen u sljedećim stihovima? Nek muze mi i genij pomoć dadu! Pamet, što pisa, kud mi noga gazi, Nek ovdje vrijednost pokaže na radu!",
+                            "choices": [
+                                "apostrofa",
+                                "digresija",
+                                "invokacija",
+                                "retardacija"
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koji od sljedećih pjesnika pripada grčkoj antičkoj književnosti?",
+                            "choices": [
+                                "Alkej",
+                                "Horacije",
+                                "Katul",
+                                "Marcijal"
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Na kojega se antičkog junaka odnosi podcrtani izraz u sljedećemu primjeru? Neće bo rata se prije okaniti sileni Hektor, No što se od lađa digne brzonogi Pelejev sinak Onoga dana, u koji u prestrašnom se tjesnacu Oko Patrokla mrtvog kod brodova, razvije borba.",
+                            "choices": [
+                                "na Ahileja",
+                                "na Menelaja",
+                                "na Odiseja",
+                                "na Parisa"
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koji se hrvatski vladar spominje u tekstu Bašćanske ploče?",
+                            "choices": [
+                                "Domagoj",
+                                "Tomislav",
+                                "Trpimir",
+                                "Zvonimir"
+                            ],
+                            "correctChoice": "D"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "U kojemu se književnom djelu nalaze sljedeći stihovi? Evo u svu komoru Oloferne kopni na postilji goru, na njemu glave ni!",
+                            "choices": [
+                                "u djelu Suze sina razmetnoga",
+                                "u djelu Smrt Smail-age Čengića",
+                                "u djelu Dubravka",
+                                "u djelu Judita"
+                            ],
+                            "correctChoice": "D"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koji je od sljedećih književnika petrarkistički pjesnik?",
+                            "choices": [
+                                "Antun Kanižlić",
+                                "Hanibal Lucić",
+                                "Ivan Česmički",
+                                "Ivan Gundulić"
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koje je od sljedećih stihova napisao Ivan Gundulić?",
+                            "choices": [
+                                "O lijepa, o draga, o slatka slobodo,",
+                                "Blaženi čas i hip najprvo kad sam ja",
+                                "Jur nijedna na svit vila",
+                                "Boj se onoga, tko je viko"
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Na koje se književno razdoblje odnosi sljedeća tvrdnja? U književnim djelima toga vremena odražava se duh dvorskoga društva, a književnici paze na doličnost, sklad, jasnoću stila, savršenstvo forme i uzvišeni govor.",
+                            "choices": [
+                                "na barok",
+                                "na klasicizam",
+                                "na romantizam",
+                                "na realizam"
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Na kojega se književnika odnosi sljedeća tvrdnja? Najznačajniji je predstavnik Sturm und Drang pokreta te se svojim epistolarnim romanom snažno suprotstavio klasicističkoj poetici.",
+                            "choices": [
+                                "na Edgara Allana Poea",
+                                "na Georgea Gordona Byrona",
+                                "na Johanna Wolfganga Goethea",
+                                "na Victora Hugoa"
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koja je od sljedećih zbirka pjesama nastala u hrvatskome romantizmu?",
+                            "choices": [
+                                "Đulabije Stanka Vraza",
+                                "Lelek sebra Tina Ujevića",
+                                "Zore i vihori Vesne Parun",
+                                "Plandovanja Ivana Bunića Vučića"
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Komu je upućeno pismo iz kojega su sljedeće rečenice? Ti znaš koliko te volim; ti si nam jedini, meni i Dunji, ti si nama sve, sva nada i uzdanje naše. Kako je meni bilo kad sam saznala da si već prije nekoliko mjeseci napustio sveučilište, jer se nemaš čime uzdržavati i da je nestalo satova i drugih sredstava!",
+                            "choices": [
+                                "Akakiju Akakijeviču",
+                                "Eugèneu de Rastignacu",
+                                "Raskoljnikovu",
+                                "Wertheru"
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Tko je pripovjedač u sljedećemu primjeru? I doista sraziše se „zgubidan” i „kanonik”. Moj otac, čovjek suh, nasađen na dugačkim, tankim nogama, opuhnu baš ljudski maloga „kanonika”.",
+                            "choices": [
+                                "Ferkonja",
+                                "Ivica Kičmanović",
+                                "kumordinar Žorž",
+                                "Miha"
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koja je od sljedećih tvrdnja o Martinu Tintoru iz romana Posljednji Stipančići točna?",
+                            "choices": [
+                                "Pisao je ljubavna pisma Luciji Stipančić.",
+                                "Došao je u Senj s Jurjem Stipančićem.",
+                                "Pokušao je potkupiti Antu Stipančića.",
+                                "Izjavio je ljubav Valpurgi Stipančić."
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "U kojemu je od sljedećih djela radnja utemeljena na narodnoj predaji o preobrazbi A. djevojčice u dječaka?",
+                            "choices": [
+                                "u djelu Misao na vječnost",
+                                "u djelu Cvijet sa raskršća",
+                                "u djelu Duga",
+                                "u djelu Tena"
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koji je od sljedećih romana dio ciklusa U traganju za izgubljenim vremenom?",
+                            "choices": [
+                                "Combray",
+                                "Gospođa Bovary",
+                                "Otac Goriot",
+                                "Stranac"
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Tko je autor manifesta u kojemu se nalazi sljedeća rečenica?",
+                            "choices": [
+                                "André Breton",
+                                "Filippo Tommaso Marinetti",
+                                "Louis Aragon",
+                                "Tristan Tzara"
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koji je od sljedećih pjesnika ekspresionist?",
+                            "choices": [
+                                "Antun Branko Šimić",
+                                "Dobriša Cesarić",
+                                "Dragutin Tadijanović",
+                                "Josip Pupačić"
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koja se od sljedećih rečenica odnosi na Bobočku iz romana Povratak Filipa A. Latinovicza?",
+                            "choices": [
+                                "Osuđena je na smrtnu kaznu zbog ubojstava.",
+                                "Ubio ju je suprug saznavši da ga je prevarila.",
+                                "Bivši joj je ljubavnik pregrizao grkljan.",
+                                "Završila je unakažena zbog bolesti."
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Na koji se književni lik odnosi sljedeća rečenica? I Zemlju poljubi još jednom, za oproštaj – zbogom – onda krene četveronoške za zovom uplašenih zvijeri – ne vičite, dolazim – i otplazi bratski u izbezumljeni grad Zoopolis.",
+                            "choices": [
+                                "na Đuru Martića",
+                                "na Filipa Latinovicza",
+                                "na Leonea Glembaya",
+                                "na Melkiora Tresića"
+                            ],
+                            "correctChoice": "D"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Na koju se generaciju hrvatskih književnika odnosi sljedeća rečenica? Javljaju se na književnoj sceni sedamdesetih godina 20. stoljeća, iznimno cijene citatnost i intertekstualnost, a tematski su zainteresirani za fantastiku i okultne teme.",
+                            "choices": [
+                                "na borgesovce",
+                                "na forumaše",
+                                "na krugovaše",
+                                "na razlogovce"
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Tko je autor sljedećih stihova? Nigdar ni tak bilo da ni nekak bilo, pak ni vezda nebu da nam nekak nebu.",
+                            "choices": [
+                                "Tin Ujević",
+                                "Josip Pupačić",
+                                "Jure Kaštelan",
+                                "Miroslav Krleža"
+                            ],
+                            "correctChoice": "D"
+                        }
+                    ]
+                },
+                {
+                    "info": "III. Hrvatski jezik — zadatci bez polaznoga teksta.",
+                    "questions": [
+                        {
+                            "type": "SingleChoice",
+                            "question": "U kojoj je od sljedećih rečenica podcrtana riječ pravopisno točna?",
+                            "choices": [
+                                "Uvijek se namiještala prije fotografiranja.",
+                                "Nemojte zamijerati nesnalaženje ljudi.",
+                                "Obavijesti su redovito dospijevale.",
+                                "Sabor će cijeli tjedan zasijedati."
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "U kojoj je od sljedećih rečenica podcrtana riječ pravopisno točna?",
+                            "choices": [
+                                "Poznati napadač tri će mjeseca morati liječiti ozljedu podkoljenice.",
+                                "Časnik se toliko razžestio na njegove riječi da je postao ljubičast.",
+                                "Istočna područja Ukrajine odlučila su odcijepiti se od matice.",
+                                "Opet ju je občinila ljepota pjevačeva glasa."
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koja je od sljedećih rečenica napisana u skladu s pravilima o pisanju velikoga i maloga početnog slova?",
+                            "choices": [
+                                "Vrančić je napisao životopis hrvatskoga bana Petra Berislavića.",
+                                "Taj naš Humanist ostavio je vrijedna djela na latinskome jeziku.",
+                                "Vrančić je bio diplomat na dvoru Hrvatsko-ugarskoga kralja.",
+                                "Za života Pape Grgura Vrančić je proglašen kardinalom."
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "U kojoj je riječi u sljedećoj rečenici provedena sibilarizacija?",
+                            "choices": [
+                                "vrapci",
+                                "konopcu",
+                                "tracima",
+                                "Sunca"
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "U kojoj je od sljedećih rečenica podcrtani primjer napisan u skladu s pravilima o A. sastavljenome i nesastavljenome pisanju riječi?",
+                            "choices": [
+                                "U emisiji je bilo riječi o štetnosti ultra-ljubičastih zraka.",
+                                "Pred nama su stajala najveća svjetska remek-djela.",
+                                "Naši su nam prijatelji uputili video-poziv.",
+                                "Za njega kažu da je pravi čovjek-zvijer."
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "U kojoj je od sljedećih riječi slogotvorni r ?",
+                            "choices": [
+                                "praštati",
+                                "pripasti",
+                                "prkositi",
+                                "proširiti"
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Što je gramatički/oblikotvorni morfem u riječi istražitelj?",
+                            "choices": [
+                                "-Ø",
+                                "-elj",
+                                "-telj",
+                                "-itelj"
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "U kojoj je od sljedećih rečenica imenica u muškome rodu?",
+                            "choices": [
+                                "Zagazio je u blato.",
+                                "Pronašao je zlato.",
+                                "Zapisao je moto.",
+                                "Kupio je sito."
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koja je imenica u sljedećoj rečenici zbirna imenica? U podnožju brijega zašao sam u šumu i našao se u neprohodnome kamenjaru prepunome grmlja.",
+                            "choices": [
+                                "podnožje",
+                                "šuma",
+                                "kamenjar",
+                                "grmlje"
+                            ],
+                            "correctChoice": "D"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koja je zamjenica u sljedećoj rečenici u dativu? Kad su razgovarali o njoj, osjećao je na sebi znatiželjne poglede koji su tražili odgovor može li si oprostiti što ju je povrijedio.",
+                            "choices": [
+                                "njoj",
+                                "sebi",
+                                "si",
+                                "ju"
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "U kojoj je od sljedećih rečenica upotrijebljen točan glagolski prilog?",
+                            "choices": [
+                                "Čitavši knjigu, poželio je pogledati i film.",
+                                "Radivši u polju, jako se umorio.",
+                                "Noseći torbu, sporije je hodao.",
+                                "Otrčeći kući, nahranio je psa."
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koji je glagolski oblik upotrijebljen u sljedećoj rečenici? A. Čovjek mu iznenada šapnu nešto.",
+                            "choices": [
+                                "aorist",
+                                "imperativ",
+                                "imperfekt",
+                                "prezent"
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koliko je prijedloga u sljedećoj rečenici? Tad djed sa štapom u ruci dođe iza kuće iz vinograda pa tek načas zastane pokraj dvora.",
+                            "choices": [
+                                "četiri",
+                                "pet",
+                                "šest",
+                                "sedam"
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "U kojoj je od sljedećih rečenica podcrtana sintagma rezultat upravljanja?",
+                            "choices": [
+                                "Učenici osnovnih škola razdragano su prihvatili darove.",
+                                "Očevom je voljom Matija prošloga tjedna postao pisar.",
+                                "Požar je opet zahvatio zapadnu padinu planine.",
+                                "Djeca su naizust recitirala pjesmice."
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koja riječ u sljedećoj rečenici ima službu atributa? S krovova bučno pada snijeg, u snijegu se vide tragovi, a sela spavaju snom pravednika nadajući se da zima neće pokazati zube.",
+                            "choices": [
+                                "krovova",
+                                "tragovi",
+                                "pravednika",
+                                "zube"
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Što je po sintaktičkoj službi podcrtani izraz u sljedećoj rečenici?",
+                            "choices": [
+                                "priložna oznaka posljedice",
+                                "priložna oznaka namjere",
+                                "priložna oznaka uzroka",
+                                "priložna oznaka načina"
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Kojoj vrsti zavisnosloženih rečenica pripada sljedeća rečenica?",
+                            "choices": [
+                                "predikatnima",
+                                "subjektnima",
+                                "atributnima",
+                                "objektnima"
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koja je od sljedećih zavisnosloženih rečenica namjerna rečenica?",
+                            "choices": [
+                                "Odlučio je tu večer ostati doma jer se htio dobro naspavati za sutrašnji dan.",
+                                "Morat će biti potpuno koncentriran želi li sve napraviti bez pogreške.",
+                                "Dođi prije svih kako bi u miru mogao porazgovarati s njom.",
+                                "Bio je toliko uzbuđen zbog te prilike da se tresao kao šiba."
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koja je od sljedećih rečenica gramatički točna?",
+                            "choices": [
+                                "Nisu više bili sigurni jesu li glasovali za ili protiv zakona.",
+                                "Na i preko zaslona računala isticala se velika mrlja.",
+                                "Odlučili su proći pokraj ili preko kanjona.",
+                                "U i oko škole zabranjeno je pušenje."
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "U kojoj je od sljedećih rečenica podcrtana riječ metafora?",
+                            "choices": [
+                                "U jednome danu prodali su 30 kilograma piletine.",
+                                "U Južnoj Americi raste broj farmi za uzgoj pilića.",
+                                "Djed je svojega unuka odmila zvao piletom.",
+                                "Dječak se glasao kao malo pijukavo pile."
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "U kojoj je od sljedećih rečenica upotrijebljen sinonim pridjeva autonoman?",
+                            "choices": [
+                                "Svi su bili dužni plaćati porez na dohodak od nesamostalnoga rada.",
+                                "Složan je narod nepobjediv bez obzira na snagu protivnika.",
+                                "Sveučilište je posve nezavisno u donošenju svojih odluka.",
+                                "Morali su rasprodati svu svoju nepokretnu imovinu."
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Što znači podcrtani frazem u sljedećoj rečenici? Proljetos je u selo stigao strani trgovac drvima, a mojoj je obitelji upala sjekira u med.",
+                            "choices": [
+                                "Obitelj je doživjela nenadanu sreću.",
+                                "Obitelj je dobila novoga člana.",
+                                "Narušen je obiteljski sklad.",
+                                "Obitelj je osiromašena."
+                            ],
+                            "correctChoice": "A"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Što su bohemizmi?",
+                            "choices": [
+                                "posuđenice iz mađarskoga jezika",
+                                "posuđenice iz poljskoga jezika",
+                                "posuđenice iz češkoga jezika",
+                                "posuđenice iz ruskoga jezika"
+                            ],
+                            "correctChoice": "C"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "Koji je izraz u sljedećoj rečenici pleonazam? Za nesvakidašnju nesreću optužena je žena vozačica, međutim istraga je bacila novo svjetlo na cijeli slučaj.",
+                            "choices": [
+                                "nesvakidašnja nesreća",
+                                "žena vozačica",
+                                "novo svjetlo",
+                                "cijeli slučaj"
+                            ],
+                            "correctChoice": "B"
+                        },
+                        {
+                            "type": "SingleChoice",
+                            "question": "U kojemu je stoljeću tiskana prva hrvatska knjiga?",
+                            "choices": [
+                                "u 12. stoljeću",
+                                "u 13. stoljeću",
+                                "u 14. stoljeću",
+                                "u 15. stoljeću"
+                            ],
+                            "correctChoice": "D"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Školski Esej",
+            "predictedTime": 160,
+            "potentialPoints": 40,
+            "questionGroups": [
+                {
+                    "info": "Official school essay task.",
+                    "questions": [
+                        {
+                            "type": "EssayWriting",
+                            "question": "Hrvatski jezik\nŠkolski esej\n\n\n   ZADATAK ZA PISANJE ŠKOLSKOGA ESEJA\n                                          B\n   William Shakespeare, Hamlet\n   Prvi polazni tekst\n                                                          Al otkrivenje takvih vječnih stvari\n   DUH: Ja sam duh tvog oca, osuđen\n                                                          Ne dolikuje ušima od mesa\n   Obilaziti noću neko vrijeme,\n                                                          I krvi. Slušaj me, o, slušaj\n   A danju postit, zatvoren u ognju,\n                                                          Pa ako ikad ljubio si oca –\n   Dok plamen taj me sveg ne očisti\n   Od gadnih grijeha, koje za života\n                                                          HAMLET: O, Bože moj!\n   Počinih. Da mi nije zabranjeno\n   Kazivat tajne moga zatvora,                            DUH: Osveti gadno mu\n   Ispričati bih štošta mogao,                            I bezdušno umorstvo!\n   Od čega bi i ponajblaža riječ                          HAMLET: Ha! Umorstvo!\n   Strahotom tebi dušu prožela\n                                                          DUH: Umorstvo već je samo sobom gadno,\n   I mladu tvoju krv zaledila\n                                                          Al ovo ti je ponajgadnije\n   I oči ti, ko zvijezde iz putanja,\n                                                          I najgrđe i najbezdušnije!\n   Izbacila iz duplja njihovih,\n   A kudrave i guste uvojke                               HAMLET: O, kazuj mi ga bez odlaganja,\n   Razmrsila, te svaka bi se vlas                         Da uzmognem na brzim krilima,\n   Za sebe sama nakostriješila                            Ko miso ili mašta ljubavna,\n   Ko bodljike u ljutog dikobraza.                        Pojurit i na svoju osvetu!\n\n   Drugi polazni tekst\n\n   KRALJ: Je l’ otac bio drag vam, Laerte?            Od rođenoga gine obilja.\n   Il tek ste kao neka slika bola –                   Što hoćemo uradit, valjalo bi\n   Lik bez srca?                                      Uradit smjesta, čim i hoćemo,\n                                                      Jer naše htijenje mijenja se i slabi\n   LAERT: Što pitate me to?\n                                                      I odgađa toliko, koliko je\n   KRALJ: Ja ne mislim da niste ljubili               I prilika i jezika i ruku,\n   Svog oca, nego znam da ljubav je                   I onda riječi „valjalo biˮ jesu\n   Za vrijeme vezana, a život mi                      Ko dubok uzdah, koji blažeć zlijedi1,\n   Dokazuje da vrijeme gasi žar                       Al sad u živac čira. Hamlet je\n   I vatru njenu. Ima neki gar                        Na povratku – što mislite uradit,\n   Il fitilj u plamenu ljubavi,                       Valjanim da se sinom pokažete\n   Što hoće da ga oslabi, i ništa                     Svog oca – više djelom nego riječju?\n   Na svijetu nema uvijek istu snagu\n   Jer kad se snaga odviše razbuja,                   LAERT: U crkvi ću mu grkljan prerezati!\n                                                      1\n                                                          zlijedi – ranjava\n   Smjernice\n   • Predstavite djelo Hamlet u kontekstu književnopovijesnoga razdoblja u kojemu je nastalo.\n   • Protumačite odnos Hamleta i Laerta na temelju djela u cjelini.\n   • Usporedite polazne tekstove na sadržajnoj i stilskoj razini i objasnite njihovu ulogu u kontekstu\n     djela u cjelini.\n   • Povežite tematiku polaznih tekstova s djelima slične tematike.\n   • Obrazložite svoje tvrdnje.\n",
+                            "points": [
+                                {
+                                    "category": "Sadržaj",
+                                    "points": 40
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
