@@ -55,9 +55,11 @@
                 return s;
             }
 
-            function nodeEl(n) {
+            function nodeEl(n, depth) {
+                depth = depth || 0;
                 const div = document.createElement('div');
                 div.className = 't-line';
+                div.style.paddingLeft = (depth * 1.5) + 'rem';
 
                 const inner = document.createElement('span');
                 inner.className = n.isDir ? 't-dir' : 't-file';
@@ -75,7 +77,7 @@
                     inner.style.cursor = 'pointer';
                     const kids = document.createElement('div');
                     kids.className = 't-kids';
-                    for (const c of n.children) kids.appendChild(nodeEl(c));
+                    for (const c of n.children) kids.appendChild(nodeEl(c, depth + 1));
                     div.appendChild(kids);
                     inner.addEventListener('click', function() { kids.classList.toggle('t-hidden'); });
                 } else if (!n.isDir) {
@@ -88,7 +90,7 @@
 
             function matches(n, qt) {
                 const low = n.name.toLowerCase();
-                if (qt.every(t => low.includes(t))) return true;
+                if (qt.every(function(t) { return low.includes(t); })) return true;
                 if (n.children && n.children.length) {
                     for (const c of n.children) {
                         if (matches(c, qt)) return true;
@@ -108,10 +110,10 @@
                 const q = filter.value.trim();
                 const filtered = filterTree(treeData, q ? q.toLowerCase().split(/\s+/) : null);
                 for (const n of filtered) {
-                    const nEl = nodeEl(n);
+                    const nEl = nodeEl(n, 0);
                     if (n.isDir && n.children && n.children.length) {
-                        const kids = nEl.lastChild;
-                        if (kids && kids.classList) kids.classList.remove('t-hidden');
+                        const kids = nEl.querySelector(':scope > .t-kids');
+                        if (kids) kids.classList.remove('t-hidden');
                     }
                     el.appendChild(nEl);
                 }

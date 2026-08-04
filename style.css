@@ -13,6 +13,9 @@
     box-sizing: border-box;
 }
 
+::-webkit-scrollbar { display: none; }
+* { scrollbar-width: none; }
+
 body {
     background-color: var(--background);
     color: var(--foreground);
