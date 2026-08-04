@@ -10,7 +10,7 @@
         <link rel='stylesheet' href='style.css' />
         <title>Files - Matura Online</title>
     </head>
-
+    
     <body>
         <div class='container'>
             <div class='nav'>
@@ -21,85 +21,103 @@
                 <a href='/stats.html'>Stats</a>
             </div>
 
-            <div class='hero'>
-                <h1>File Tree</h1>
-                <p>All hosted media files organized by year, term, subject, and level.</p>
-            </div>
-
-            <input type='search' id='filter' class='filter' placeholder='Filter files... (e.g. "2024 ljeto eng")' />
+            <input type='search' id='filter' class='filter' placeholder='Filter... (e.g. "2024 ljeto eng")' />
 
             <div class='card'>
-                <div id='tree' class='tree'>Loading..</div>
+                <div id='tree'>Loading..</div>
             </div>
         </div>
 
         <script>
+            let treeData;
+            const el = document.getElementById('tree');
+            const filter = document.getElementById('filter');
+
+            function fmt(n) {
+                if (n >= 1e9) return (n/1e9).toFixed(2) + ' GB';
+                if (n >= 1e6) return (n/1e6).toFixed(2) + ' MB';
+                if (n >= 1e3) return (n/1e3).toFixed(2) + ' KB';
+                return n + ' B';
+            }
+
+            function dirSize(nodes) {
+                let s = 0;
+                for (const n of nodes) {
+                    if (n.isDir && n.children) {
+                        n.size = dirSize(n.children);
+                        s += n.size;
+                    } else {
+                        s += n.size || 0;
+                    }
+                }
+                return s;
+            }
+
+            function nodeEl(n) {
+                const div = document.createElement('div');
+                div.className = 't-line';
+
+                const inner = document.createElement('span');
+                inner.className = n.isDir ? 't-dir' : 't-file';
+                inner.textContent = n.isDir ? n.name + '/' : n.name;
+                div.appendChild(inner);
+
+                if (n.size) {
+                    const sz = document.createElement('span');
+                    sz.className = 't-sz';
+                    sz.textContent = fmt(n.size);
+                    div.appendChild(sz);
+                }
+
+                if (n.isDir && n.children) {
+                    inner.style.cursor = 'pointer';
+                    inner.addEventListener('click', () => {
+                        const kids = div.querySelector(':scope > .t-kids');
+                        kids.classList.toggle('t-hidden');
+                    });
+
+                    const kids = document.createElement('div');
+                    kids.className = 't-kids t-hidden';
+                    kids.style.marginLeft = '1.5rem';
+                    for (const c of n.children) kids.appendChild(nodeEl(c));
+                    div.appendChild(kids);
+                }
+
+                return div;
+            }
+
+            function matches(n, qt) {
+                const low = n.name.toLowerCase();
+                if (qt.every(t => low.includes(t))) return true;
+                if (n.children) {
+                    for (const c of n.children) {
+                        if (matches(c, qt)) return true;
+                    }
+                }
+                return false;
+            }
+
+            function filterTree(nodes, qt) {
+                if (!qt) return nodes;
+                return nodes.filter(n => matches(n, qt));
+            }
+
+            function render() {
+                el.innerHTML = '';
+                dirSize(treeData);
+                const q = filter.value.trim();
+                const filtered = filterTree(treeData, q ? q.toLowerCase().split(/\s+/) : null);
+                for (const n of filtered) {
+                    const nEl = nodeEl(n);
+                    nEl.querySelector(':scope > .t-kids').classList.remove('t-hidden');
+                    el.appendChild(nEl);
+                }
+            }
+
             (async () => {
-                const res = await fetch('/files.json');
-                const tree = await res.json();
-                const el = document.getElementById('tree');
-                const filter = document.getElementById('filter');
-
-                function size(n) {
-                    if (n >= 1e9) return (n / 1e9).toFixed(1) + ' GB';
-                    if (n >= 1e6) return (n / 1e6).toFixed(1) + ' MB';
-                    if (n >= 1e3) return (n / 1e3).toFixed(1) + ' KB';
-                    return n + ' B';
-                }
-
-                function renderNode(nodes, indent) {
-                    const lines = [];
-                    for (let i = 0; i < nodes.length; i++) {
-                        const n = nodes[i];
-                        const last = i === nodes.length - 1;
-                        const prefix = indent + (last ? '└─ ' : '├─ ');
-                        const childIndent = indent + (last ? '   ' : '│  ');
-                        if (n.isDir && n.children) {
-                            lines.push(`${prefix}<span class="dir">${n.name}/</span>`);
-                            lines.push(...renderNode(n.children, childIndent));
-                        } else {
-                            const sz = n.size ? size(n.size) : '';
-                            lines.push(`${prefix}<span class="file">${n.name}</span> ${sz ? `<span class="sz">${sz}</span>` : ''}`);
-                        }
-                    }
-                    return lines;
-                }
-
-                function buildTree(nodes, q) {
-                    if (!q) return tree;
-                    const qt = q.toLowerCase().split(/\s+/);
-                    function matches(name, children) {
-                        const low = name.toLowerCase();
-                        if (qt.every(t => low.includes(t))) return true;
-                        if (children) {
-                            for (const c of children) {
-                                if (matches(c.name, c.children)) return true;
-                            }
-                        }
-                        return false;
-                    }
-                    return nodes.filter(n => matches(n.name, n.children));
-                }
-
-                function addSizes(nodes) {
-                    for (const n of nodes) {
-                        if (n.children) addSizes(n.children);
-                        if (n.isDir && n.children) {
-                            n.size = n.children.reduce((s, c) => s + (c.size || 0), 0);
-                        }
-                    }
-                }
-
-                addSizes(tree);
-
-                function refresh() {
-                    const q = filter.value.trim();
-                    const filtered = buildTree(tree, q);
-                    el.innerHTML = renderNode(filtered, '').join('\n');
-                }
-
-                refresh();
-                filter.addEventListener('input', refresh);
+                treeData = await fetch('/files.json').then(r => r.json());
+                render();
+                filter.addEventListener('input', render);
             })();
         </script>
     </body>

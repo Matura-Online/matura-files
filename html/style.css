@@ -31,15 +31,15 @@ a:hover {
 }
 
 .container {
-    max-width: 960px;
-    margin: 0 auto;
+    max-width: 660px;
+    margin: 10rem auto;
 }
 
 /* --- nav --- */
 .nav {
     display: flex;
     gap: 1.5rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     padding-bottom: 1rem;
     border-bottom: 1px solid var(--border);
 }
@@ -85,54 +85,61 @@ a:hover {
     margin: 0.5rem 0 0;
 }
 
+/* --- card --- */
+.card {
+    background-color: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: 0.5rem;
+    padding: 2rem;
+    margin-bottom: 1rem;
+}
+
 /* --- tree --- */
-.tree {
+#tree {
     font-family: monospace;
     font-size: 14px;
     line-height: 1.6;
-    white-space: pre;
 }
 
-.tree .dir {
+.t-line {
+    position: relative;
+}
+
+.t-dir {
     color: var(--accent);
 }
 
-.tree .file {
+.t-file {
     color: var(--muted);
 }
 
-.tree .sz {
+.t-sz {
     color: #555555;
-    font-size: 0.75em;
+    font-size: 0.8em;
+    margin-left: 0.5rem;
 }
 
+.t-kids {
+    overflow: hidden;
+}
+
+.t-kids.t-hidden {
+    display: none;
+}
+
+/* --- filter --- */
 .filter {
     width: 100%;
     padding: 0.6rem 1rem;
+    margin-bottom: 1rem;
     border-radius: 0.5rem;
     border: 1px solid var(--border);
     background: var(--card-bg);
     color: var(--foreground);
     font-size: 1rem;
-    margin-bottom: 1.5rem;
 }
 
 /* --- stats --- */
-.hero {
-    text-align: center;
-    padding: 3rem 0;
-}
-
-.hero h1 {
-    font-size: 2rem;
-    margin-bottom: 0.5rem;
-}
-
-.hero p {
-    color: var(--muted);
-    font-size: 1.1rem;
-}
-
 h2 {
     font-size: 1.4rem;
     margin: 2rem 0 1rem;
@@ -180,12 +187,6 @@ h2 {
     color: var(--muted);
 }
 
-.stat-box .row .ext {
-    text-transform: uppercase;
-    font-weight: bold;
-    color: var(--accent);
-}
-
 .subj-header {
     margin-top: 1.5rem;
     color: var(--accent);
@@ -197,12 +198,4 @@ h2 {
     justify-content: space-between;
     margin-bottom: 1rem;
     color: var(--muted);
-}
-
-.card {
-    background-color: var(--card-bg);
-    border: 1px solid var(--border);
-    border-radius: 0.5rem;
-    padding: 2rem;
-    margin-bottom: 1rem;
 }
