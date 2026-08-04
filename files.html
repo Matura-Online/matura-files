@@ -10,7 +10,7 @@
         <link rel='stylesheet' href='style.css' />
         <title>Files - Matura Online</title>
     </head>
-    
+
     <body>
         <div class='container'>
             <div class='nav'>
@@ -32,6 +32,7 @@
             let treeData;
             const el = document.getElementById('tree');
             const filter = document.getElementById('filter');
+            const base = window.location.origin;
 
             function fmt(n) {
                 if (n >= 1e9) return (n/1e9).toFixed(2) + ' GB';
@@ -40,11 +41,12 @@
                 return n + ' B';
             }
 
-            function dirSize(nodes) {
+            function dirSize(nodes, prefix) {
                 let s = 0;
                 for (const n of nodes) {
+                    n._path = prefix ? prefix + '/' + n.name : n.name;
                     if (n.isDir && n.children) {
-                        n.size = dirSize(n.children);
+                        n.size = dirSize(n.children, n._path);
                         s += n.size;
                     } else {
                         s += n.size || 0;
@@ -69,18 +71,16 @@
                     div.appendChild(sz);
                 }
 
-                if (n.isDir && n.children) {
+                if (n.isDir && n.children && n.children.length) {
                     inner.style.cursor = 'pointer';
-                    inner.addEventListener('click', () => {
-                        const kids = div.querySelector(':scope > .t-kids');
-                        kids.classList.toggle('t-hidden');
-                    });
-
                     const kids = document.createElement('div');
-                    kids.className = 't-kids t-hidden';
-                    kids.style.marginLeft = '1.5rem';
+                    kids.className = 't-kids';
                     for (const c of n.children) kids.appendChild(nodeEl(c));
                     div.appendChild(kids);
+                    inner.addEventListener('click', function() { kids.classList.toggle('t-hidden'); });
+                } else if (!n.isDir) {
+                    inner.style.cursor = 'pointer';
+                    inner.addEventListener('click', function() { window.open(base + '/' + n._path, '_blank'); });
                 }
 
                 return div;
@@ -89,7 +89,7 @@
             function matches(n, qt) {
                 const low = n.name.toLowerCase();
                 if (qt.every(t => low.includes(t))) return true;
-                if (n.children) {
+                if (n.children && n.children.length) {
                     for (const c of n.children) {
                         if (matches(c, qt)) return true;
                     }
@@ -99,23 +99,26 @@
 
             function filterTree(nodes, qt) {
                 if (!qt) return nodes;
-                return nodes.filter(n => matches(n, qt));
+                return nodes.filter(function(n) { return matches(n, qt); });
             }
 
             function render() {
                 el.innerHTML = '';
-                dirSize(treeData);
+                dirSize(treeData, '');
                 const q = filter.value.trim();
                 const filtered = filterTree(treeData, q ? q.toLowerCase().split(/\s+/) : null);
                 for (const n of filtered) {
                     const nEl = nodeEl(n);
-                    nEl.querySelector(':scope > .t-kids').classList.remove('t-hidden');
+                    if (n.isDir && n.children && n.children.length) {
+                        const kids = nEl.lastChild;
+                        if (kids && kids.classList) kids.classList.remove('t-hidden');
+                    }
                     el.appendChild(nEl);
                 }
             }
 
-            (async () => {
-                treeData = await fetch('/files.json').then(r => r.json());
+            (async function() {
+                treeData = await fetch('/files.json').then(function(r) { return r.json(); });
                 render();
                 filter.addEventListener('input', render);
             })();
