@@ -6,6 +6,7 @@ import (
 	"os"
 	"os/exec"
 	"path/filepath"
+	"runtime"
 	"strings"
 	"sync"
 )
@@ -23,31 +24,50 @@ type TypeStats struct {
 }
 
 type Stats struct {
-	ByType    map[string]TypeStats       `json:"byType"`
-	BySubject map[string]SubjectStats     `json:"bySubject"`
-	Total     TypeStats                   `json:"total"`
+	ByType    map[string]TypeStats    `json:"byType"`
+	BySubject map[string]SubjectStats `json:"bySubject"`
+	Total     TypeStats               `json:"total"`
 }
 
 type SubjectStats struct {
-	TotalBytes int64            `json:"totalBytes"`
-	Count      int              `json:"count"`
-	ByType     map[string]TypeStats `json:"byType"`
+	TotalBytes int64                       `json:"totalBytes"`
+	Count      int                         `json:"count"`
+	ByType     map[string]TypeStats        `json:"byType"`
 	ByYearTerm map[string]SubjectYearStats `json:"byYearTerm"`
 }
 
 type SubjectYearStats struct {
-	TotalBytes int64            `json:"totalBytes"`
-	Count      int              `json:"count"`
+	TotalBytes int64                `json:"totalBytes"`
+	Count      int                  `json:"count"`
 	ByType     map[string]TypeStats `json:"byType"`
 }
 
+func cleanStaleTemps(root string) {
+	filepath.Walk(root, func(path string, info os.FileInfo, err error) error {
+		if err != nil || info.IsDir() {
+			return nil
+		}
+		base := filepath.Base(path)
+		if strings.HasPrefix(base, ".opus-recompress-") || strings.HasPrefix(base, ".pdf-optimized-") {
+			os.Remove(path)
+			fmt.Printf("Cleaned stale temp: %s\n", path)
+		}
+		return nil
+	})
+}
+
 func main() {
+	cleanStaleTemps("source")
+
 	var wg sync.WaitGroup
+	workers := min(max(runtime.NumCPU()-1, 1), 8)
+	sem := make(chan struct{}, workers)
+	fmt.Printf("Using %d workers (%d cores available)\n", workers, runtime.NumCPU())
 
 	imageFormats := []string{".png", ".jpg", ".jpeg"}
 	audioFormats := []string{".mp3", ".wav"}
 
-	err := filepath.Walk("source", func(path string, info os.FileInfo, err error) error {
+	filepath.Walk("source", func(path string, info os.FileInfo, err error) error {
 		if err != nil {
 			return err
 		}
@@ -55,139 +75,186 @@ func main() {
 		for _, format := range imageFormats {
 			if strings.HasSuffix(path, format) {
 				wg.Add(1)
-				go convertAndRemoveFile(path, "WebP", convertToWebP, &wg)
+				sem <- struct{}{}
+				go func(p string) {
+					defer wg.Done()
+					defer func() { <-sem }()
+					convertAndRemoveFile(p, "WebP", convertToWebP)
+				}(path)
 			}
 		}
 
 		for _, format := range audioFormats {
 			if strings.HasSuffix(path, format) {
 				wg.Add(1)
-				go convertAndRemoveFile(path, "Opus", convertToOpus, &wg)
+				sem <- struct{}{}
+				go func(p string) {
+					defer wg.Done()
+					defer func() { <-sem }()
+					convertAndRemoveFile(p, "Opus", convertToOpus)
+				}(path)
 			}
 		}
 
 		if strings.HasSuffix(strings.ToLower(path), ".pdf") {
 			wg.Add(1)
-			go optimizePDFInPlace(path, &wg)
+			sem <- struct{}{}
+			go func(p string) { defer wg.Done(); defer func() { <-sem }(); optimizePDFInPlace(p) }(path)
+		}
+
+		if strings.HasSuffix(strings.ToLower(path), ".opus") {
+			wg.Add(1)
+			sem <- struct{}{}
+			go func(p string) { defer wg.Done(); defer func() { <-sem }(); recompressOpusInPlace(p) }(path)
 		}
 
 		return nil
 	})
 
-	if err != nil {
-		fmt.Printf("Error walking the path %s: %v\n", ".", err)
-	}
-
 	wg.Wait()
 
 	stats := collectStats("source")
-
-	statsFile, err := os.Create("source/stats.json")
-	if err != nil {
-		fmt.Printf("Error creating stats.json: %v\n", err)
-		return
-	}
+	statsFile, _ := os.Create("source/stats.json")
 	defer statsFile.Close()
 	enc := json.NewEncoder(statsFile)
 	enc.SetIndent("", "  ")
-	if err := enc.Encode(stats); err != nil {
-		fmt.Printf("Error encoding stats.json: %v\n", err)
-	}
+	enc.Encode(stats)
 	fmt.Printf("Generated stats.json (%d subjects)\n", len(stats.BySubject))
 
-	root, err := buildFileTree("source")
-	if err != nil {
-		fmt.Printf("Error building file tree: %v\n", err)
-		return
-	}
-
-	file, err := os.Create("source/files.json")
-	if err != nil {
-		fmt.Printf("Error creating files.json: %v\n", err)
-		return
-	}
+	root, _ := buildFileTree("source")
+	file, _ := os.Create("source/files.json")
 	defer file.Close()
-
 	encoder := json.NewEncoder(file)
 	encoder.SetIndent("", "  ")
-	if err := encoder.Encode(root.Children); err != nil {
-		fmt.Printf("Error encoding JSON: %v\n", err)
+	encoder.Encode(root.Children)
+}
+
+func convertAndRemoveFile(path, targetFormat string, convertFunc func(string) error) {
+	if err := convertFunc(path); err != nil {
+		fmt.Printf("Error converting %s to %s: %v\n", path, targetFormat, err)
+		return
+	}
+	fmt.Printf("Converted %s to %s.\n", path, targetFormat)
+	if err := os.Remove(path); err != nil {
+		fmt.Printf("Error removing %s: %v\n", path, err)
 	}
 }
 
-func optimizePDFInPlace(path string, wg *sync.WaitGroup) {
-	defer wg.Done()
+func convertToWebP(pngPath string) error {
+	webpPath := strings.TrimSuffix(pngPath, filepath.Ext(pngPath)) + ".webp"
+	return exec.Command("ffmpeg", "-i", pngPath, webpPath).Run()
+}
 
+func convertToOpus(mp3Path string) error {
+	opusPath := strings.TrimSuffix(mp3Path, filepath.Ext(mp3Path)) + ".opus"
+	return exec.Command("nice", "-n", "12", "ffmpeg",
+		"-i", mp3Path, "-c:a", "libopus", "-b:a", "32k", "-application", "voip",
+		"-y", "-loglevel", "error", "-threads", "1", opusPath,
+	).Run()
+}
+
+func recompressOpusInPlace(path string) {
+	if opusAlreadyDone(path) {
+		return
+	}
+
+	before := int64(0)
+	if fi, _ := os.Stat(path); fi != nil {
+		before = fi.Size()
+	}
+	if before == 0 {
+		return
+	}
+
+	tmp, err := os.CreateTemp(filepath.Dir(path), ".opus-recompress-*.opus")
+	if err != nil {
+		fmt.Printf("Error creating temp for %s: %v\n", path, err)
+		return
+	}
+	tmpPath := tmp.Name()
+	tmp.Close()
+
+	cmd := exec.Command("nice", "-n", "12", "ffmpeg",
+		"-i", path, "-c:a", "libopus", "-b:a", "32k", "-application", "voip",
+		"-y", "-loglevel", "error", "-threads", "1", tmpPath,
+	)
+	if output, err := cmd.CombinedOutput(); err != nil {
+		fmt.Printf("Error recompressing %s: %v (%s)\n", path, err, strings.TrimSpace(string(output)))
+		os.Remove(tmpPath)
+		return
+	}
+	if err := os.Rename(tmpPath, path); err != nil {
+		fmt.Printf("Error replacing %s: %v\n", path, err)
+		os.Remove(tmpPath)
+		return
+	}
+	after := int64(0)
+	if fi, _ := os.Stat(path); fi != nil {
+		after = fi.Size()
+	}
+	pct := 0.0
+	if before > 0 {
+		pct = float64(after) / float64(before) * 100
+	}
+	fmt.Printf("Opus: %s  %d -> %d  (%.0f%%)\n", path, before, after, pct)
+}
+
+func opusAlreadyDone(path string) bool {
+	probe := exec.Command("ffprobe", "-v", "error",
+		"-show_entries", "format=duration",
+		"-of", "default=noprint_wrappers=1:nokey=1", path,
+	)
+	out, err := probe.Output()
+	if err != nil {
+		return false
+	}
+	fi, err := os.Stat(path)
+	if err != nil {
+		return false
+	}
+	dur := 0.0
+	fmt.Sscanf(strings.TrimSpace(string(out)), "%f", &dur)
+	if dur <= 0 {
+		return false
+	}
+	bps := float64(fi.Size()) * 8 / dur
+	return bps <= 45000
+}
+
+func optimizePDFInPlace(path string) {
 	if pdfIsAlreadyOptimized(path) {
 		return
 	}
 
 	tmp, err := os.CreateTemp(filepath.Dir(path), ".pdf-optimized-*.pdf")
 	if err != nil {
-		fmt.Printf("Error creating temporary PDF for %s: %v\n", path, err)
+		fmt.Printf("Error creating temp PDF for %s: %v\n", path, err)
 		return
 	}
 	tmpPath := tmp.Name()
-	if err := tmp.Close(); err != nil {
-		_ = os.Remove(tmpPath)
-		fmt.Printf("Error closing temporary PDF for %s: %v\n", path, err)
-		return
-	}
-	defer os.Remove(tmpPath)
+	tmp.Close()
 
-	cmd := exec.Command("gs", "-sDEVICE=pdfwrite", "-dCompatibilityLevel=1.4", "-dPDFSETTINGS=/ebook", "-dNOPAUSE", "-dQUIET", "-dBATCH", "-sOutputFile="+tmpPath, path)
+	cmd := exec.Command("gs", "-sDEVICE=pdfwrite", "-dCompatibilityLevel=1.4", "-dPDFSETTINGS=/ebook",
+		"-dNOPAUSE", "-dQUIET", "-dBATCH",
+		"-sOutputFile="+tmpPath, "-c", "[ /Title (matura-op-v1) /DOCINFO pdfmark", "-f", path,
+	)
 	if output, err := cmd.CombinedOutput(); err != nil {
 		fmt.Printf("Error optimizing PDF %s: %v (%s)\n", path, err, strings.TrimSpace(string(output)))
+		os.Remove(tmpPath)
 		return
 	}
 	if err := os.Rename(tmpPath, path); err != nil {
 		fmt.Printf("Error replacing PDF %s: %v\n", path, err)
+		os.Remove(tmpPath)
 		return
 	}
 	fmt.Printf("Optimized %s.\n", path)
 }
 
 func pdfIsAlreadyOptimized(path string) bool {
-	f, err := os.Open(path)
-	if err != nil {
-		return false
-	}
-	defer f.Close()
-	header := make([]byte, 8)
-	n, _ := f.Read(header)
-	return n >= 8 && string(header[:8]) == "%PDF-1.4"
-}
-
-func convertAndRemoveFile(path, targetFormat string, convertFunc func(string) error, wg *sync.WaitGroup) {
-	defer wg.Done()
-
-	err := convertFunc(path)
-	if err != nil {
-		fmt.Printf("Error converting %s to %s: %v\n", path, targetFormat, err)
-		return
-	}
-
-	fmt.Printf("Converted %s to %s.\n", path, targetFormat)
-
-	err = os.Remove(path)
-	if err != nil {
-		fmt.Printf("Error removing %s: %v\n", path, err)
-		return
-	}
-
-	fmt.Printf("Removed %s.\n", path)
-}
-
-func convertToWebP(pngPath string) error {
-	webpPath := strings.TrimSuffix(pngPath, filepath.Ext(pngPath)) + ".webp"
-	cmd := exec.Command("ffmpeg", "-i", pngPath, webpPath)
-	return cmd.Run()
-}
-
-func convertToOpus(mp3Path string) error {
-	opusPath := strings.TrimSuffix(mp3Path, filepath.Ext(mp3Path)) + ".opus"
-	cmd := exec.Command("ffmpeg", "-i", mp3Path, "-c:a", "libopus", opusPath)
-	return cmd.Run()
+	cmd := exec.Command("exiftool", "-s", "-s", "-s", "-Title", path)
+	out, err := cmd.Output()
+	return err == nil && strings.HasPrefix(strings.TrimSpace(string(out)), "matura-op")
 }
 
 func ext(path string) string {
@@ -221,10 +288,7 @@ func collectStats(root string) Stats {
 		stats.Total.TotalBytes += sz
 		stats.Total.Count++
 
-		if len(parts) >= 1 && parts[0] == "All" {
-			return nil
-		}
-		if len(parts) >= 1 && (parts[0] == "Raw" || parts[0] == "Json") {
+		if len(parts) >= 1 && (parts[0] == "All" || parts[0] == "Raw" || parts[0] == "Json") {
 			return nil
 		}
 
@@ -237,6 +301,7 @@ func collectStats(root string) Stats {
 			}
 			ss.TotalBytes += sz
 			ss.Count++
+
 			st := ss.ByType[t]
 			st.TotalBytes += sz
 			st.Count++
@@ -268,13 +333,14 @@ func collectStats(root string) Stats {
 
 func buildFileTree(root string) (FileNode, error) {
 	rootNode := FileNode{Name: filepath.Base(root), IsDir: true, Size: 0}
-	err := filepath.WalkDir(root, func(path string, d os.DirEntry, err error) error {
+
+	_ = filepath.WalkDir(root, func(path string, d os.DirEntry, err error) error {
 		if err != nil || path == root {
 			return err
 		}
 
-		relPath, err := filepath.Rel(root, path)
-		if err != nil || relPath == "." {
+		relPath, _ := filepath.Rel(root, path)
+		if relPath == "." {
 			return nil
 		}
 		parts := strings.Split(relPath, string(filepath.Separator))
@@ -295,17 +361,13 @@ func buildFileTree(root string) (FileNode, error) {
 			}
 
 			if !found {
-				newNode := FileNode{
-					Name:  part,
-					IsDir: d.IsDir(),
-				}
+				newNode := FileNode{Name: part, IsDir: d.IsDir()}
 				curr.Children = append(curr.Children, newNode)
 				curr = &curr.Children[len(curr.Children)-1]
 			}
 
 			if i == len(parts)-1 && !d.IsDir() {
-				info, _ := d.Info()
-				if info != nil {
+				if info, _ := d.Info(); info != nil {
 					curr.Size = info.Size()
 				}
 				break
@@ -315,5 +377,5 @@ func buildFileTree(root string) (FileNode, error) {
 		return nil
 	})
 
-	return rootNode, err
+	return rootNode, nil
 }
