@@ -1,0 +1,1562 @@
+{
+  "byType": {
+    "json": {
+      "totalBytes": 4012649,
+      "count": 69
+    },
+    "opus": {
+      "totalBytes": 569958944,
+      "count": 184
+    },
+    "pdf": {
+      "totalBytes": 98648577,
+      "count": 184
+    },
+    "webp": {
+      "totalBytes": 2213442,
+      "count": 193
+    }
+  },
+  "bySubject": {
+    "Eng": {
+      "totalBytes": 569958944,
+      "count": 184,
+      "byType": {
+        "opus": {
+          "totalBytes": 569958944,
+          "count": 184
+        }
+      },
+      "byYearTerm": {
+        "2015/Jesen/A": {
+          "totalBytes": 14982291,
+          "count": 4,
+          "byType": {
+            "opus": {
+              "totalBytes": 14982291,
+              "count": 4
+            }
+          }
+        },
+        "2015/Jesen/B": {
+          "totalBytes": 9077851,
+          "count": 4,
+          "byType": {
+            "opus": {
+              "totalBytes": 9077851,
+              "count": 4
+            }
+          }
+        },
+        "2015/Ljeto/A": {
+          "totalBytes": 16814129,
+          "count": 4,
+          "byType": {
+            "opus": {
+              "totalBytes": 16814129,
+              "count": 4
+            }
+          }
+        },
+        "2015/Ljeto/B": {
+          "totalBytes": 8532893,
+          "count": 4,
+          "byType": {
+            "opus": {
+              "totalBytes": 8532893,
+              "count": 4
+            }
+          }
+        },
+        "2016/Jesen/A": {
+          "totalBytes": 13819690,
+          "count": 4,
+          "byType": {
+            "opus": {
+              "totalBytes": 13819690,
+              "count": 4
+            }
+          }
+        },
+        "2016/Jesen/B": {
+          "totalBytes": 8242426,
+          "count": 4,
+          "byType": {
+            "opus": {
+              "totalBytes": 8242426,
+              "count": 4
+            }
+          }
+        },
+        "2016/Ljeto/A": {
+          "totalBytes": 14595671,
+          "count": 4,
+          "byType": {
+            "opus": {
+              "totalBytes": 14595671,
+              "count": 4
+            }
+          }
+        },
+        "2016/Ljeto/B": {
+          "totalBytes": 8198426,
+          "count": 4,
+          "byType": {
+            "opus": {
+              "totalBytes": 8198426,
+              "count": 4
+            }
+          }
+        },
+        "2017/Jesen/A": {
+          "totalBytes": 15399178,
+          "count": 4,
+          "byType": {
+            "opus": {
+              "totalBytes": 15399178,
+              "count": 4
+            }
+          }
+        },
+        "2017/Jesen/B": {
+          "totalBytes": 8796105,
+          "count": 4,
+          "byType": {
+            "opus": {
+              "totalBytes": 8796105,
+              "count": 4
+            }
+          }
+        },
+        "2017/Ljeto/A": {
+          "totalBytes": 16280148,
+          "count": 4,
+          "byType": {
+            "opus": {
+              "totalBytes": 16280148,
+              "count": 4
+            }
+          }
+        },
+        "2017/Ljeto/B": {
+          "totalBytes": 9362308,
+          "count": 4,
+          "byType": {
+            "opus": {
+              "totalBytes": 9362308,
+              "count": 4
+            }
+          }
+        },
+        "2018/Jesen/A": {
+          "totalBytes": 14818753,
+          "count": 4,
+          "byType": {
+            "opus": {
+              "totalBytes": 14818753,
+              "count": 4
+            }
+          }
+        },
+        "2018/Jesen/B": {
+          "totalBytes": 8678622,
+          "count": 4,
+          "byType": {
+            "opus": {
+              "totalBytes": 8678622,
+              "count": 4
+            }
+          }
+        },
+        "2018/Ljeto/A": {
+          "totalBytes": 15520333,
+          "count": 4,
+          "byType": {
+            "opus": {
+              "totalBytes": 15520333,
+              "count": 4
+            }
+          }
+        },
+        "2018/Ljeto/B": {
+          "totalBytes": 9981001,
+          "count": 4,
+          "byType": {
+            "opus": {
+              "totalBytes": 9981001,
+              "count": 4
+            }
+          }
+        },
+        "2019/Jesen/A": {
+          "totalBytes": 16066115,
+          "count": 4,
+          "byType": {
+            "opus": {
+              "totalBytes": 16066115,
+              "count": 4
+            }
+          }
+        },
+        "2019/Jesen/B": {
+          "totalBytes": 9049971,
+          "count": 4,
+          "byType": {
+            "opus": {
+              "totalBytes": 9049971,
+              "count": 4
+            }
+          }
+        },
+        "2019/Ljeto/A": {
+          "totalBytes": 15493681,
+          "count": 4,
+          "byType": {
+            "opus": {
+              "totalBytes": 15493681,
+              "count": 4
+            }
+          }
+        },
+        "2019/Ljeto/B": {
+          "totalBytes": 8481082,
+          "count": 4,
+          "byType": {
+            "opus": {
+              "totalBytes": 8481082,
+              "count": 4
+            }
+          }
+        },
+        "2020/Jesen/A": {
+          "totalBytes": 15039585,
+          "count": 4,
+          "byType": {
+            "opus": {
+              "totalBytes": 15039585,
+              "count": 4
+            }
+          }
+        },
+        "2020/Jesen/B": {
+          "totalBytes": 9184763,
+          "count": 4,
+          "byType": {
+            "opus": {
+              "totalBytes": 9184763,
+              "count": 4
+            }
+          }
+        },
+        "2020/Ljeto/A": {
+          "totalBytes": 16167202,
+          "count": 4,
+          "byType": {
+            "opus": {
+              "totalBytes": 16167202,
+              "count": 4
+            }
+          }
+        },
+        "2020/Ljeto/B": {
+          "totalBytes": 9188558,
+          "count": 4,
+          "byType": {
+            "opus": {
+              "totalBytes": 9188558,
+              "count": 4
+            }
+          }
+        },
+        "2021/Jesen/A": {
+          "totalBytes": 14981385,
+          "count": 4,
+          "byType": {
+            "opus": {
+              "totalBytes": 14981385,
+              "count": 4
+            }
+          }
+        },
+        "2021/Jesen/B": {
+          "totalBytes": 8897503,
+          "count": 4,
+          "byType": {
+            "opus": {
+              "totalBytes": 8897503,
+              "count": 4
+            }
+          }
+        },
+        "2021/Ljeto/A": {
+          "totalBytes": 16730840,
+          "count": 4,
+          "byType": {
+            "opus": {
+              "totalBytes": 16730840,
+              "count": 4
+            }
+          }
+        },
+        "2021/Ljeto/B": {
+          "totalBytes": 9781054,
+          "count": 4,
+          "byType": {
+            "opus": {
+              "totalBytes": 9781054,
+              "count": 4
+            }
+          }
+        },
+        "2022/Jesen/A": {
+          "totalBytes": 15821048,
+          "count": 4,
+          "byType": {
+            "opus": {
+              "totalBytes": 15821048,
+              "count": 4
+            }
+          }
+        },
+        "2022/Jesen/B": {
+          "totalBytes": 9833646,
+          "count": 4,
+          "byType": {
+            "opus": {
+              "totalBytes": 9833646,
+              "count": 4
+            }
+          }
+        },
+        "2022/Ljeto/A": {
+          "totalBytes": 15821048,
+          "count": 4,
+          "byType": {
+            "opus": {
+              "totalBytes": 15821048,
+              "count": 4
+            }
+          }
+        },
+        "2022/Ljeto/B": {
+          "totalBytes": 9833646,
+          "count": 4,
+          "byType": {
+            "opus": {
+              "totalBytes": 9833646,
+              "count": 4
+            }
+          }
+        },
+        "2023/Jesen/A": {
+          "totalBytes": 18191183,
+          "count": 4,
+          "byType": {
+            "opus": {
+              "totalBytes": 18191183,
+              "count": 4
+            }
+          }
+        },
+        "2023/Jesen/B": {
+          "totalBytes": 10798018,
+          "count": 4,
+          "byType": {
+            "opus": {
+              "totalBytes": 10798018,
+              "count": 4
+            }
+          }
+        },
+        "2023/Ljeto/A": {
+          "totalBytes": 17762129,
+          "count": 4,
+          "byType": {
+            "opus": {
+              "totalBytes": 17762129,
+              "count": 4
+            }
+          }
+        },
+        "2023/Ljeto/B": {
+          "totalBytes": 10699334,
+          "count": 4,
+          "byType": {
+            "opus": {
+              "totalBytes": 10699334,
+              "count": 4
+            }
+          }
+        },
+        "2024/Jesen/A": {
+          "totalBytes": 16459002,
+          "count": 4,
+          "byType": {
+            "opus": {
+              "totalBytes": 16459002,
+              "count": 4
+            }
+          }
+        },
+        "2024/Jesen/B": {
+          "totalBytes": 10181271,
+          "count": 4,
+          "byType": {
+            "opus": {
+              "totalBytes": 10181271,
+              "count": 4
+            }
+          }
+        },
+        "2024/Ljeto/A": {
+          "totalBytes": 16802048,
+          "count": 4,
+          "byType": {
+            "opus": {
+              "totalBytes": 16802048,
+              "count": 4
+            }
+          }
+        },
+        "2024/Ljeto/B": {
+          "totalBytes": 11229506,
+          "count": 4,
+          "byType": {
+            "opus": {
+              "totalBytes": 11229506,
+              "count": 4
+            }
+          }
+        },
+        "2025/Jesen/A": {
+          "totalBytes": 13736942,
+          "count": 4,
+          "byType": {
+            "opus": {
+              "totalBytes": 13736942,
+              "count": 4
+            }
+          }
+        },
+        "2025/Jesen/B": {
+          "totalBytes": 7999375,
+          "count": 4,
+          "byType": {
+            "opus": {
+              "totalBytes": 7999375,
+              "count": 4
+            }
+          }
+        },
+        "2025/Ljeto/A": {
+          "totalBytes": 12540913,
+          "count": 4,
+          "byType": {
+            "opus": {
+              "totalBytes": 12540913,
+              "count": 4
+            }
+          }
+        },
+        "2025/Ljeto/B": {
+          "totalBytes": 7567923,
+          "count": 4,
+          "byType": {
+            "opus": {
+              "totalBytes": 7567923,
+              "count": 4
+            }
+          }
+        },
+        "2026/Ljeto/A": {
+          "totalBytes": 14290227,
+          "count": 4,
+          "byType": {
+            "opus": {
+              "totalBytes": 14290227,
+              "count": 4
+            }
+          }
+        },
+        "2026/Ljeto/B": {
+          "totalBytes": 8230121,
+          "count": 4,
+          "byType": {
+            "opus": {
+              "totalBytes": 8230121,
+              "count": 4
+            }
+          }
+        }
+      }
+    },
+    "Inf": {
+      "totalBytes": 1274952,
+      "count": 94,
+      "byType": {
+        "webp": {
+          "totalBytes": 1274952,
+          "count": 94
+        }
+      },
+      "byYearTerm": {
+        "2015/Jesen/6bjwRncl7.webp": {
+          "totalBytes": 2344,
+          "count": 1,
+          "byType": {
+            "webp": {
+              "totalBytes": 2344,
+              "count": 1
+            }
+          }
+        },
+        "2015/Jesen/FTf7n35Oc.webp": {
+          "totalBytes": 14642,
+          "count": 1,
+          "byType": {
+            "webp": {
+              "totalBytes": 14642,
+              "count": 1
+            }
+          }
+        },
+        "2015/Jesen/Fn6q2XdbU.webp": {
+          "totalBytes": 1262,
+          "count": 1,
+          "byType": {
+            "webp": {
+              "totalBytes": 1262,
+              "count": 1
+            }
+          }
+        },
+        "2015/Jesen/R2ZTBLp4y.webp": {
+          "totalBytes": 3678,
+          "count": 1,
+          "byType": {
+            "webp": {
+              "totalBytes": 3678,
+              "count": 1
+            }
+          }
+        },
+        "2015/Jesen/T4EoxTciX.webp": {
+          "totalBytes": 6632,
+          "count": 1,
+          "byType": {
+            "webp": {
+              "totalBytes": 6632,
+              "count": 1
+            }
+          }
+        },
+        "2015/Jesen/TqjUsZmgO.webp": {
+          "totalBytes": 15626,
+          "count": 1,
+          "byType": {
+            "webp": {
+              "totalBytes": 15626,
+              "count": 1
+            }
+          }
+        },
+        "2015/Jesen/WiX0ZzzTS.webp": {
+          "totalBytes": 5322,
+          "count": 1,
+          "byType": {
+            "webp": {
+              "totalBytes": 5322,
+              "count": 1
+            }
+          }
+        },
+        "2015/Jesen/YgPORQeZt.webp": {
+          "totalBytes": 5400,
+          "count": 1,
+          "byType": {
+            "webp": {
+              "totalBytes": 5400,
+              "count": 1
+            }
+          }
+        },
+        "2015/Jesen/iJ2hID30d.webp": {
+          "totalBytes": 13478,
+          "count": 1,
+          "byType": {
+            "webp": {
+              "totalBytes": 13478,
+              "count": 1
+            }
+          }
+        },
+        "2015/Jesen/jaUNZujiA.webp": {
+          "totalBytes": 4284,
+          "count": 1,
+          "byType": {
+            "webp": {
+              "totalBytes": 4284,
+              "count": 1
+            }
+          }
+        },
+        "2015/Jesen/oed1iN4Zn.webp": {
+          "totalBytes": 6032,
+          "count": 1,
+          "byType": {
+            "webp": {
+              "totalBytes": 6032,
+              "count": 1
+            }
+          }
+        },
+        "2015/Jesen/seyprHU9X.webp": {
+          "totalBytes": 4432,
+          "count": 1,
+          "byType": {
+            "webp": {
+              "totalBytes": 4432,
+              "count": 1
+            }
+          }
+        },
+        "2015/Jesen/uh0bVqGJM.webp": {
+          "totalBytes": 1668,
+          "count": 1,
+          "byType": {
+            "webp": {
+              "totalBytes": 1668,
+              "count": 1
+            }
+          }
+        },
+        "2015/Jesen/zqckRdOqT.webp": {
+          "totalBytes": 1776,
+          "count": 1,
+          "byType": {
+            "webp": {
+              "totalBytes": 1776,
+              "count": 1
+            }
+          }
+        },
+        "2015/Ljeto/5K4AXevFG.webp": {
+          "totalBytes": 11148,
+          "count": 1,
+          "byType": {
+            "webp": {
+              "totalBytes": 11148,
+              "count": 1
+            }
+          }
+        },
+        "2015/Ljeto/A5xvJmfOY.webp": {
+          "totalBytes": 2068,
+          "count": 1,
+          "byType": {
+            "webp": {
+              "totalBytes": 2068,
+              "count": 1
+            }
+          }
+        },
+        "2015/Ljeto/F9E0HzLEZ.webp": {
+          "totalBytes": 7140,
+          "count": 1,
+          "byType": {
+            "webp": {
+              "totalBytes": 7140,
+              "count": 1
+            }
+          }
+        },
+        "2015/Ljeto/Fze1BuJsX.webp": {
+          "totalBytes": 1932,
+          "count": 1,
+          "byType": {
+            "webp": {
+              "totalBytes": 1932,
+              "count": 1
+            }
+          }
+        },
+        "2015/Ljeto/KHgPBDexZ.webp": {
+          "totalBytes": 2034,
+          "count": 1,
+          "byType": {
+            "webp": {
+              "totalBytes": 2034,
+              "count": 1
+            }
+          }
+        },
+        "2015/Ljeto/OQZGEH94p.webp": {
+          "totalBytes": 596,
+          "count": 1,
+          "byType": {
+            "webp": {
+              "totalBytes": 596,
+              "count": 1
+            }
+          }
+        },
+        "2015/Ljeto/Qpb38zjm7.webp": {
+          "totalBytes": 3448,
+          "count": 1,
+          "byType": {
+            "webp": {
+              "totalBytes": 3448,
+              "count": 1
+            }
+          }
+        },
+        "2015/Ljeto/ZmnDHv5Wz.webp": {
+          "totalBytes": 8236,
+          "count": 1,
+          "byType": {
+            "webp": {
+              "totalBytes": 8236,
+              "count": 1
+            }
+          }
+        },
+        "2015/Ljeto/ksjXaA9hr.webp": {
+          "totalBytes": 1732,
+          "count": 1,
+          "byType": {
+            "webp": {
+              "totalBytes": 1732,
+              "count": 1
+            }
+          }
+        },
+        "2015/Ljeto/lsBubkR0M.webp": {
+          "totalBytes": 7276,
+          "count": 1,
+          "byType": {
+            "webp": {
+              "totalBytes": 7276,
+              "count": 1
+            }
+          }
+        },
+        "2015/Ljeto/oDOQ5DONp.webp": {
+          "totalBytes": 6024,
+          "count": 1,
+          "byType": {
+            "webp": {
+              "totalBytes": 6024,
+              "count": 1
+            }
+          }
+        },
+        "2015/Ljeto/vowqzMXcc.webp": {
+          "totalBytes": 4102,
+          "count": 1,
+          "byType": {
+            "webp": {
+              "totalBytes": 4102,
+              "count": 1
+            }
+          }
+        },
+        "2015/Ljeto/x6oXSwBUq.webp": {
+          "totalBytes": 13754,
+          "count": 1,
+          "byType": {
+            "webp": {
+              "totalBytes": 13754,
+              "count": 1
+            }
+          }
+        },
+        "2015/Ljeto/ydWMOTVcx.webp": {
+          "totalBytes": 5054,
+          "count": 1,
+          "byType": {
+            "webp": {
+              "totalBytes": 5054,
+              "count": 1
+            }
+          }
+        },
+        "2019/Jesen/2e4qU6RLQ.webp": {
+          "totalBytes": 43172,
+          "count": 1,
+          "byType": {
+            "webp": {
+              "totalBytes": 43172,
+              "count": 1
+            }
+          }
+        },
+        "2019/Jesen/W6UlSJT16.webp": {
+          "totalBytes": 15936,
+          "count": 1,
+          "byType": {
+            "webp": {
+              "totalBytes": 15936,
+              "count": 1
+            }
+          }
+        },
+        "2019/Jesen/XqDz4FMsz.webp": {
+          "totalBytes": 15716,
+          "count": 1,
+          "byType": {
+            "webp": {
+              "totalBytes": 15716,
+              "count": 1
+            }
+          }
+        },
+        "2019/Jesen/ZwudB4Umc.webp": {
+          "totalBytes": 29216,
+          "count": 1,
+          "byType": {
+            "webp": {
+              "totalBytes": 29216,
+              "count": 1
+            }
+          }
+        },
+        "2019/Jesen/dnINTacmL.webp": {
+          "totalBytes": 6332,
+          "count": 1,
+          "byType": {
+            "webp": {
+              "totalBytes": 6332,
+              "count": 1
+            }
+          }
+        },
+        "2019/Jesen/f40TzPmW3.webp": {
+          "totalBytes": 11920,
+          "count": 1,
+          "byType": {
+            "webp": {
+              "totalBytes": 11920,
+              "count": 1
+            }
+          }
+        },
+        "2019/Jesen/fql24cJ9C.webp": {
+          "totalBytes": 21556,
+          "count": 1,
+          "byType": {
+            "webp": {
+              "totalBytes": 21556,
+              "count": 1
+            }
+          }
+        },
+        "2019/Ljeto/2z3iXBfIi.webp": {
+          "totalBytes": 11774,
+          "count": 1,
+          "byType": {
+            "webp": {
+              "totalBytes": 11774,
+              "count": 1
+            }
+          }
+        },
+        "2019/Ljeto/3xBx4ew4q.webp": {
+          "totalBytes": 10576,
+          "count": 1,
+          "byType": {
+            "webp": {
+              "totalBytes": 10576,
+              "count": 1
+            }
+          }
+        },
+        "2019/Ljeto/4yAQNdbUu.webp": {
+          "totalBytes": 9792,
+          "count": 1,
+          "byType": {
+            "webp": {
+              "totalBytes": 9792,
+              "count": 1
+            }
+          }
+        },
+        "2019/Ljeto/8EjU2vq4G.webp": {
+          "totalBytes": 11908,
+          "count": 1,
+          "byType": {
+            "webp": {
+              "totalBytes": 11908,
+              "count": 1
+            }
+          }
+        },
+        "2019/Ljeto/CcAWrhorm.webp": {
+          "totalBytes": 8622,
+          "count": 1,
+          "byType": {
+            "webp": {
+              "totalBytes": 8622,
+              "count": 1
+            }
+          }
+        },
+        "2019/Ljeto/fql24cJ9C.webp": {
+          "totalBytes": 21556,
+          "count": 1,
+          "byType": {
+            "webp": {
+              "totalBytes": 21556,
+              "count": 1
+            }
+          }
+        },
+        "2019/Ljeto/sQGY7DLbN.webp": {
+          "totalBytes": 30424,
+          "count": 1,
+          "byType": {
+            "webp": {
+              "totalBytes": 30424,
+              "count": 1
+            }
+          }
+        },
+        "2019/Ljeto/u2bhpH1XP.webp": {
+          "totalBytes": 43292,
+          "count": 1,
+          "byType": {
+            "webp": {
+              "totalBytes": 43292,
+              "count": 1
+            }
+          }
+        },
+        "2020/Jesen/2ZhhHm42J.webp": {
+          "totalBytes": 28480,
+          "count": 1,
+          "byType": {
+            "webp": {
+              "totalBytes": 28480,
+              "count": 1
+            }
+          }
+        },
+        "2020/Jesen/DHrgr2Hrf.webp": {
+          "totalBytes": 21846,
+          "count": 1,
+          "byType": {
+            "webp": {
+              "totalBytes": 21846,
+              "count": 1
+            }
+          }
+        },
+        "2020/Jesen/GxD81Qrl1.webp": {
+          "totalBytes": 17436,
+          "count": 1,
+          "byType": {
+            "webp": {
+              "totalBytes": 17436,
+              "count": 1
+            }
+          }
+        },
+        "2020/Jesen/OP7YGjWfl.webp": {
+          "totalBytes": 24466,
+          "count": 1,
+          "byType": {
+            "webp": {
+              "totalBytes": 24466,
+              "count": 1
+            }
+          }
+        },
+        "2020/Jesen/fql24cJ9C.webp": {
+          "totalBytes": 21556,
+          "count": 1,
+          "byType": {
+            "webp": {
+              "totalBytes": 21556,
+              "count": 1
+            }
+          }
+        },
+        "2020/Jesen/t54N1isC5.webp": {
+          "totalBytes": 27122,
+          "count": 1,
+          "byType": {
+            "webp": {
+              "totalBytes": 27122,
+              "count": 1
+            }
+          }
+        },
+        "2020/Ljeto/J1TqHIzb7.webp": {
+          "totalBytes": 15316,
+          "count": 1,
+          "byType": {
+            "webp": {
+              "totalBytes": 15316,
+              "count": 1
+            }
+          }
+        },
+        "2020/Ljeto/JhmVQpkxt.webp": {
+          "totalBytes": 25522,
+          "count": 1,
+          "byType": {
+            "webp": {
+              "totalBytes": 25522,
+              "count": 1
+            }
+          }
+        },
+        "2020/Ljeto/fCF2AmEFQ.webp": {
+          "totalBytes": 28502,
+          "count": 1,
+          "byType": {
+            "webp": {
+              "totalBytes": 28502,
+              "count": 1
+            }
+          }
+        },
+        "2020/Ljeto/fql24cJ9C.webp": {
+          "totalBytes": 21556,
+          "count": 1,
+          "byType": {
+            "webp": {
+              "totalBytes": 21556,
+              "count": 1
+            }
+          }
+        },
+        "2020/Ljeto/ghn2lNbrG.webp": {
+          "totalBytes": 22656,
+          "count": 1,
+          "byType": {
+            "webp": {
+              "totalBytes": 22656,
+              "count": 1
+            }
+          }
+        },
+        "2020/Ljeto/igSrYpeZk.webp": {
+          "totalBytes": 27488,
+          "count": 1,
+          "byType": {
+            "webp": {
+              "totalBytes": 27488,
+              "count": 1
+            }
+          }
+        },
+        "2021/Jesen/J6Zj5KKjL.webp": {
+          "totalBytes": 29120,
+          "count": 1,
+          "byType": {
+            "webp": {
+              "totalBytes": 29120,
+              "count": 1
+            }
+          }
+        },
+        "2021/Jesen/SPHjz4NqP.webp": {
+          "totalBytes": 28200,
+          "count": 1,
+          "byType": {
+            "webp": {
+              "totalBytes": 28200,
+              "count": 1
+            }
+          }
+        },
+        "2021/Jesen/TByyrXzth.webp": {
+          "totalBytes": 13430,
+          "count": 1,
+          "byType": {
+            "webp": {
+              "totalBytes": 13430,
+              "count": 1
+            }
+          }
+        },
+        "2021/Jesen/TSracjWQX.webp": {
+          "totalBytes": 9494,
+          "count": 1,
+          "byType": {
+            "webp": {
+              "totalBytes": 9494,
+              "count": 1
+            }
+          }
+        },
+        "2021/Jesen/eombpSllm.webp": {
+          "totalBytes": 11700,
+          "count": 1,
+          "byType": {
+            "webp": {
+              "totalBytes": 11700,
+              "count": 1
+            }
+          }
+        },
+        "2021/Jesen/fql24cJ9C.webp": {
+          "totalBytes": 21556,
+          "count": 1,
+          "byType": {
+            "webp": {
+              "totalBytes": 21556,
+              "count": 1
+            }
+          }
+        },
+        "2021/Jesen/kntaGqhGe.webp": {
+          "totalBytes": 18210,
+          "count": 1,
+          "byType": {
+            "webp": {
+              "totalBytes": 18210,
+              "count": 1
+            }
+          }
+        },
+        "2021/Ljeto/0Y1moONJK.webp": {
+          "totalBytes": 10626,
+          "count": 1,
+          "byType": {
+            "webp": {
+              "totalBytes": 10626,
+              "count": 1
+            }
+          }
+        },
+        "2021/Ljeto/9E1D01MnT.webp": {
+          "totalBytes": 32472,
+          "count": 1,
+          "byType": {
+            "webp": {
+              "totalBytes": 32472,
+              "count": 1
+            }
+          }
+        },
+        "2021/Ljeto/AwvDJ6Gu6.webp": {
+          "totalBytes": 12936,
+          "count": 1,
+          "byType": {
+            "webp": {
+              "totalBytes": 12936,
+              "count": 1
+            }
+          }
+        },
+        "2021/Ljeto/fql24cJ9C.webp": {
+          "totalBytes": 21556,
+          "count": 1,
+          "byType": {
+            "webp": {
+              "totalBytes": 21556,
+              "count": 1
+            }
+          }
+        },
+        "2021/Ljeto/ftbwp9dUk.webp": {
+          "totalBytes": 10586,
+          "count": 1,
+          "byType": {
+            "webp": {
+              "totalBytes": 10586,
+              "count": 1
+            }
+          }
+        },
+        "2021/Ljeto/tGLneJslc.webp": {
+          "totalBytes": 18344,
+          "count": 1,
+          "byType": {
+            "webp": {
+              "totalBytes": 18344,
+              "count": 1
+            }
+          }
+        },
+        "2021/Ljeto/vaHRD691t.webp": {
+          "totalBytes": 28378,
+          "count": 1,
+          "byType": {
+            "webp": {
+              "totalBytes": 28378,
+              "count": 1
+            }
+          }
+        },
+        "2024/Ljeto/It33M9JiZk.webp": {
+          "totalBytes": 49546,
+          "count": 1,
+          "byType": {
+            "webp": {
+              "totalBytes": 49546,
+              "count": 1
+            }
+          }
+        },
+        "2024/Ljeto/O6a59Z4c9Q.webp": {
+          "totalBytes": 884,
+          "count": 1,
+          "byType": {
+            "webp": {
+              "totalBytes": 884,
+              "count": 1
+            }
+          }
+        },
+        "2024/Ljeto/d4Sqiig4xk.webp": {
+          "totalBytes": 12416,
+          "count": 1,
+          "byType": {
+            "webp": {
+              "totalBytes": 12416,
+              "count": 1
+            }
+          }
+        },
+        "2024/Ljeto/stVHkVw1q6.webp": {
+          "totalBytes": 44852,
+          "count": 1,
+          "byType": {
+            "webp": {
+              "totalBytes": 44852,
+              "count": 1
+            }
+          }
+        },
+        "2024/Ljeto/vSeMOgHPfi.webp": {
+          "totalBytes": 3714,
+          "count": 1,
+          "byType": {
+            "webp": {
+              "totalBytes": 3714,
+              "count": 1
+            }
+          }
+        },
+        "2024/Probna/29hFqQWNaf.webp": {
+          "totalBytes": 4498,
+          "count": 1,
+          "byType": {
+            "webp": {
+              "totalBytes": 4498,
+              "count": 1
+            }
+          }
+        },
+        "2024/Probna/86pj9orMKC.webp": {
+          "totalBytes": 60764,
+          "count": 1,
+          "byType": {
+            "webp": {
+              "totalBytes": 60764,
+              "count": 1
+            }
+          }
+        },
+        "2024/Probna/AdRBOXgBNy.webp": {
+          "totalBytes": 4072,
+          "count": 1,
+          "byType": {
+            "webp": {
+              "totalBytes": 4072,
+              "count": 1
+            }
+          }
+        },
+        "2024/Probna/BJer12BmMW.webp": {
+          "totalBytes": 12892,
+          "count": 1,
+          "byType": {
+            "webp": {
+              "totalBytes": 12892,
+              "count": 1
+            }
+          }
+        },
+        "2024/Probna/FfGcskSJLT.webp": {
+          "totalBytes": 6332,
+          "count": 1,
+          "byType": {
+            "webp": {
+              "totalBytes": 6332,
+              "count": 1
+            }
+          }
+        },
+        "2024/Probna/Kl0Ox5W3k2.webp": {
+          "totalBytes": 9022,
+          "count": 1,
+          "byType": {
+            "webp": {
+              "totalBytes": 9022,
+              "count": 1
+            }
+          }
+        },
+        "2024/Probna/KqcYPkGc5E.webp": {
+          "totalBytes": 4302,
+          "count": 1,
+          "byType": {
+            "webp": {
+              "totalBytes": 4302,
+              "count": 1
+            }
+          }
+        },
+        "2024/Probna/M7x6C3SnNT.webp": {
+          "totalBytes": 3318,
+          "count": 1,
+          "byType": {
+            "webp": {
+              "totalBytes": 3318,
+              "count": 1
+            }
+          }
+        },
+        "2024/Probna/QGoGnjaQmf.webp": {
+          "totalBytes": 5424,
+          "count": 1,
+          "byType": {
+            "webp": {
+              "totalBytes": 5424,
+              "count": 1
+            }
+          }
+        },
+        "2024/Probna/UqMbdcr7nQ.webp": {
+          "totalBytes": 5292,
+          "count": 1,
+          "byType": {
+            "webp": {
+              "totalBytes": 5292,
+              "count": 1
+            }
+          }
+        },
+        "2024/Probna/W8svyEYrK2.webp": {
+          "totalBytes": 4812,
+          "count": 1,
+          "byType": {
+            "webp": {
+              "totalBytes": 4812,
+              "count": 1
+            }
+          }
+        },
+        "2024/Probna/beMCFXx1cT.webp": {
+          "totalBytes": 3718,
+          "count": 1,
+          "byType": {
+            "webp": {
+              "totalBytes": 3718,
+              "count": 1
+            }
+          }
+        },
+        "2024/Probna/he4gkMmXgL.webp": {
+          "totalBytes": 3202,
+          "count": 1,
+          "byType": {
+            "webp": {
+              "totalBytes": 3202,
+              "count": 1
+            }
+          }
+        },
+        "2024/Probna/i9OaYn4p7V.webp": {
+          "totalBytes": 3240,
+          "count": 1,
+          "byType": {
+            "webp": {
+              "totalBytes": 3240,
+              "count": 1
+            }
+          }
+        },
+        "2024/Probna/kh8hse766D.webp": {
+          "totalBytes": 2884,
+          "count": 1,
+          "byType": {
+            "webp": {
+              "totalBytes": 2884,
+              "count": 1
+            }
+          }
+        },
+        "2024/Probna/pE07ZoC6hv.webp": {
+          "totalBytes": 5652,
+          "count": 1,
+          "byType": {
+            "webp": {
+              "totalBytes": 5652,
+              "count": 1
+            }
+          }
+        },
+        "2024/Probna/tECp9wUzCi.webp": {
+          "totalBytes": 7848,
+          "count": 1,
+          "byType": {
+            "webp": {
+              "totalBytes": 7848,
+              "count": 1
+            }
+          }
+        },
+        "2024/Probna/tJhbnuVCl3.webp": {
+          "totalBytes": 4840,
+          "count": 1,
+          "byType": {
+            "webp": {
+              "totalBytes": 4840,
+              "count": 1
+            }
+          }
+        },
+        "2024/Probna/u5hwr9ksu.webp": {
+          "totalBytes": 5992,
+          "count": 1,
+          "byType": {
+            "webp": {
+              "totalBytes": 5992,
+              "count": 1
+            }
+          }
+        },
+        "2024/Probna/x5S0PO5Oka.webp": {
+          "totalBytes": 3970,
+          "count": 1,
+          "byType": {
+            "webp": {
+              "totalBytes": 3970,
+              "count": 1
+            }
+          }
+        }
+      }
+    },
+    "Mat": {
+      "totalBytes": 677740,
+      "count": 88,
+      "byType": {
+        "webp": {
+          "totalBytes": 677740,
+          "count": 88
+        }
+      },
+      "byYearTerm": {
+        "2015/Jesen/A": {
+          "totalBytes": 29368,
+          "count": 8,
+          "byType": {
+            "webp": {
+              "totalBytes": 29368,
+              "count": 8
+            }
+          }
+        },
+        "2015/Jesen/B": {
+          "totalBytes": 51158,
+          "count": 4,
+          "byType": {
+            "webp": {
+              "totalBytes": 51158,
+              "count": 4
+            }
+          }
+        },
+        "2015/Ljeto/A": {
+          "totalBytes": 181282,
+          "count": 10,
+          "byType": {
+            "webp": {
+              "totalBytes": 181282,
+              "count": 10
+            }
+          }
+        },
+        "2015/Ljeto/B": {
+          "totalBytes": 66456,
+          "count": 5,
+          "byType": {
+            "webp": {
+              "totalBytes": 66456,
+              "count": 5
+            }
+          }
+        },
+        "2024/Jesen/A": {
+          "totalBytes": 39292,
+          "count": 10,
+          "byType": {
+            "webp": {
+              "totalBytes": 39292,
+              "count": 10
+            }
+          }
+        },
+        "2024/Jesen/B": {
+          "totalBytes": 50324,
+          "count": 10,
+          "byType": {
+            "webp": {
+              "totalBytes": 50324,
+              "count": 10
+            }
+          }
+        },
+        "2024/Ljeto/A": {
+          "totalBytes": 35612,
+          "count": 10,
+          "byType": {
+            "webp": {
+              "totalBytes": 35612,
+              "count": 10
+            }
+          }
+        },
+        "2024/Ljeto/B": {
+          "totalBytes": 35106,
+          "count": 7,
+          "byType": {
+            "webp": {
+              "totalBytes": 35106,
+              "count": 7
+            }
+          }
+        },
+        "2025/Probna/A": {
+          "totalBytes": 155146,
+          "count": 18,
+          "byType": {
+            "webp": {
+              "totalBytes": 155146,
+              "count": 18
+            }
+          }
+        },
+        "2025/Probna/B": {
+          "totalBytes": 33996,
+          "count": 6,
+          "byType": {
+            "webp": {
+              "totalBytes": 33996,
+              "count": 6
+            }
+          }
+        }
+      }
+    }
+  },
+  "total": {
+    "totalBytes": 674833612,
+    "count": 630
+  }
+}
