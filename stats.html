@@ -21,9 +21,12 @@
                 <a href='/stats.html'>Stats</a>
             </div>
 
-            <div class='hero'>
-                <h1>Statistics</h1>
-                <p id='total'>Loading..</p>
+            <div class='hero-card'>
+                <img src='https://matura.top/logo-tr.svg' alt='Matura Online Logo' />
+                <div>
+                    <h1>Statistics</h1>
+                    <p id='total'>Loading...</p>
+                </div>
             </div>
 
             <h2>By Type</h2>
@@ -34,59 +37,58 @@
         </div>
 
         <script>
-        (async () => {
-            const res = await fetch('/stats.json');
-            const stats = await res.json();
+            (async () => {
+                const res = await fetch('/stats.json');
+                const stats = await res.json();
 
-            document.getElementById('total').textContent = `${stats.total.count} files · ${fmt(stats.total.totalBytes)}`;
+                document.getElementById('total').textContent =
+                    `${stats.total.count} files · ${fmt(stats.total.totalBytes)}`;
 
-            function fmt(n) {
-                if (n >= 1e9) return (n/1e9).toFixed(2) + ' GB';
-                if (n >= 1e6) return (n/1e6).toFixed(2) + ' MB';
-                if (n >= 1e3) return (n/1e3).toFixed(2) + ' KB';
-                return n + ' B';
-            }
+                function fmt(n) {
+                    if (n >= 1e9) return (n/1e9).toFixed(2) + ' GB';
+                    if (n >= 1e6) return (n/1e6).toFixed(2) + ' MB';
+                    if (n >= 1e3) return (n/1e3).toFixed(2) + ' KB';
+                    return n + ' B';
+                }
 
-            function bar(v, max) {
-                const pct = max > 0 ? (v / max) * 100 : 0;
-                return `<div class="bar"><div class="bar-fill" style="width:${pct}%"></div></div>`;
-            }
+                function bar(v, max) {
+                    const pct = max > 0 ? (v / max) * 100 : 0;
+                    return `<div class="bar"><div class="bar-fill" style="width:${pct}%"></div></div>`;
+                }
 
-            // by type
-            const maxType = Math.max(...Object.values(stats.byType).map(t => t.totalBytes));
-            const typeEl = document.getElementById('byType');
-            for (const [ext, t] of Object.entries(stats.byType).sort((a,b) => b[1].totalBytes - a[1].totalBytes)) {
-                typeEl.innerHTML += `
-                    <div class="stat-box">
-                        <h3>.${ext}</h3>
-                        <div class="row"><span>${t.count} files</span><span>${fmt(t.totalBytes)}</span></div>
-                        ${bar(t.totalBytes, maxType)}
-                    </div>`;
-            }
-
-            // by subject
-            const subjEl = document.getElementById('bySubject');
-            for (const [subj, s] of Object.entries(stats.bySubject).sort()) {
-                const types = Object.entries(s.byType).sort((a,b) => b[1].totalBytes - a[1].totalBytes);
-                const maxSubj = Math.max(...types.map(t => t[1].totalBytes), 1);
-
-                let html = `<h3 class="subj-header">${subj}</h3>`;
-                html += `<div class="subj-summary"><span>${s.count} files</span><span>${fmt(s.totalBytes)}</span></div>`;
-                html += '<div class="grid">';
-
-                    for (const [ext, t] of types) {
-                    html += `
+                // by type
+                const maxType = Math.max(...Object.values(stats.byType).map(t => t.totalBytes));
+                const typeEl = document.getElementById('byType');
+                for (const [ext, t] of Object.entries(stats.byType).sort((a,b) => b[1].totalBytes - a[1].totalBytes)) {
+                    typeEl.innerHTML += `
                         <div class="stat-box">
                             <h3>.${ext}</h3>
                             <div class="row"><span>${t.count} files</span><span>${fmt(t.totalBytes)}</span></div>
-                            ${bar(t.totalBytes, maxSubj)}
+                            ${bar(t.totalBytes, maxType)}
                         </div>`;
                 }
 
-                html += '</div>';
-                subjEl.innerHTML += html;
-            }
-        })();
+                // by subject
+                const subjEl = document.getElementById('bySubject');
+                for (const [subj, s] of Object.entries(stats.bySubject).sort()) {
+                    const types = Object.entries(s.byType).sort((a,b) => b[1].totalBytes - a[1].totalBytes);
+                    const maxSubj = Math.max(...types.map(t => t[1].totalBytes), 1);
+
+                    let html = `<h3 class="subj-header">${subj}</h3>`;
+                    html += `<div class="subj-summary"><span>${s.count} files</span><span>${fmt(s.totalBytes)}</span></div>`;
+                    html += '<div class="grid">';
+                    for (const [ext, t] of types) {
+                        html += `
+                            <div class="stat-box">
+                                <h3>.${ext}</h3>
+                                <div class="row"><span>${t.count} files</span><span>${fmt(t.totalBytes)}</span></div>
+                                ${bar(t.totalBytes, maxSubj)}
+                            </div>`;
+                    }
+                    html += '</div>';
+                    subjEl.innerHTML += html;
+                }
+            })();
         </script>
     </body>
 </html>
