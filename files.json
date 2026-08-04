@@ -2853,170 +2853,6 @@
         ]
       },
       {
-        "name": "2020",
-        "isDir": true,
-        "children": [
-          {
-            "name": "Jesen",
-            "isDir": true,
-            "children": [
-              {
-                "name": "Eng",
-                "isDir": true,
-                "children": [
-                  {
-                    "name": "A.json",
-                    "isDir": false,
-                    "size": 65591
-                  },
-                  {
-                    "name": "B.json",
-                    "isDir": false,
-                    "size": 57556
-                  }
-                ]
-              },
-              {
-                "name": "Hrv",
-                "isDir": true,
-                "children": [
-                  {
-                    "name": "A.json",
-                    "isDir": false,
-                    "size": 72295
-                  },
-                  {
-                    "name": "B.json",
-                    "isDir": false,
-                    "size": 70290
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "name": "Ljeto",
-            "isDir": true,
-            "children": [
-              {
-                "name": "Eng",
-                "isDir": true,
-                "children": [
-                  {
-                    "name": "A.json",
-                    "isDir": false,
-                    "size": 69443
-                  },
-                  {
-                    "name": "B.json",
-                    "isDir": false,
-                    "size": 54988
-                  }
-                ]
-              },
-              {
-                "name": "Hrv",
-                "isDir": true,
-                "children": [
-                  {
-                    "name": "A.json",
-                    "isDir": false,
-                    "size": 74723
-                  },
-                  {
-                    "name": "B.json",
-                    "isDir": false,
-                    "size": 72760
-                  }
-                ]
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "name": "2021",
-        "isDir": true,
-        "children": [
-          {
-            "name": "Jesen",
-            "isDir": true,
-            "children": [
-              {
-                "name": "Eng",
-                "isDir": true,
-                "children": [
-                  {
-                    "name": "A.json",
-                    "isDir": false,
-                    "size": 70623
-                  },
-                  {
-                    "name": "B.json",
-                    "isDir": false,
-                    "size": 55351
-                  }
-                ]
-              },
-              {
-                "name": "Hrv",
-                "isDir": true,
-                "children": [
-                  {
-                    "name": "A.json",
-                    "isDir": false,
-                    "size": 75833
-                  },
-                  {
-                    "name": "B.json",
-                    "isDir": false,
-                    "size": 74469
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "name": "Ljeto",
-            "isDir": true,
-            "children": [
-              {
-                "name": "Eng",
-                "isDir": true,
-                "children": [
-                  {
-                    "name": "A.json",
-                    "isDir": false,
-                    "size": 71102
-                  },
-                  {
-                    "name": "B.json",
-                    "isDir": false,
-                    "size": 55373
-                  }
-                ]
-              },
-              {
-                "name": "Hrv",
-                "isDir": true,
-                "children": [
-                  {
-                    "name": "A.json",
-                    "isDir": false,
-                    "size": 76703
-                  },
-                  {
-                    "name": "B.json",
-                    "isDir": false,
-                    "size": 75022
-                  }
-                ]
-              }
-            ]
-          }
-        ]
-      },
-      {
         "name": "2022",
         "isDir": true,
         "children": [
@@ -3024,22 +2860,6 @@
             "name": "Jesen",
             "isDir": true,
             "children": [
-              {
-                "name": "Eng",
-                "isDir": true,
-                "children": [
-                  {
-                    "name": "A.json",
-                    "isDir": false,
-                    "size": 63599
-                  },
-                  {
-                    "name": "B.json",
-                    "isDir": false,
-                    "size": 53780
-                  }
-                ]
-              },
               {
                 "name": "Hrv",
                 "isDir": true,
@@ -3062,22 +2882,6 @@
             "name": "Ljeto",
             "isDir": true,
             "children": [
-              {
-                "name": "Eng",
-                "isDir": true,
-                "children": [
-                  {
-                    "name": "A.json",
-                    "isDir": false,
-                    "size": 64412
-                  },
-                  {
-                    "name": "B.json",
-                    "isDir": false,
-                    "size": 54577
-                  }
-                ]
-              },
               {
                 "name": "Hrv",
                 "isDir": true,
@@ -3107,22 +2911,6 @@
             "isDir": true,
             "children": [
               {
-                "name": "Eng",
-                "isDir": true,
-                "children": [
-                  {
-                    "name": "A.json",
-                    "isDir": false,
-                    "size": 66054
-                  },
-                  {
-                    "name": "B.json",
-                    "isDir": false,
-                    "size": 54293
-                  }
-                ]
-              },
-              {
                 "name": "Hrv",
                 "isDir": true,
                 "children": [
@@ -3139,22 +2927,6 @@
             "name": "Ljeto",
             "isDir": true,
             "children": [
-              {
-                "name": "Eng",
-                "isDir": true,
-                "children": [
-                  {
-                    "name": "A.json",
-                    "isDir": false,
-                    "size": 62819
-                  },
-                  {
-                    "name": "B.json",
-                    "isDir": false,
-                    "size": 53969
-                  }
-                ]
-              },
               {
                 "name": "Hrv",
                 "isDir": true,
@@ -3186,11 +2958,6 @@
                     "name": "A.json",
                     "isDir": false,
                     "size": 68936
-                  },
-                  {
-                    "name": "B.json",
-                    "isDir": false,
-                    "size": 44052
                   }
                 ]
               },
@@ -3235,11 +3002,6 @@
                     "name": "A.json",
                     "isDir": false,
                     "size": 68370
-                  },
-                  {
-                    "name": "B.json",
-                    "isDir": false,
-                    "size": 49184
                   }
                 ]
               },
@@ -3318,58 +3080,9 @@
         "isDir": true,
         "children": [
           {
-            "name": "Jesen",
-            "isDir": true,
-            "children": [
-              {
-                "name": "Eng",
-                "isDir": true,
-                "children": [
-                  {
-                    "name": "A.json",
-                    "isDir": false,
-                    "size": 67192
-                  },
-                  {
-                    "name": "B.json",
-                    "isDir": false,
-                    "size": 51191
-                  }
-                ]
-              },
-              {
-                "name": "Hrv",
-                "isDir": true,
-                "children": [
-                  {
-                    "name": "base.json",
-                    "isDir": false,
-                    "size": 56928
-                  }
-                ]
-              }
-            ]
-          },
-          {
             "name": "Ljeto",
             "isDir": true,
             "children": [
-              {
-                "name": "Eng",
-                "isDir": true,
-                "children": [
-                  {
-                    "name": "A.json",
-                    "isDir": false,
-                    "size": 63244
-                  },
-                  {
-                    "name": "B.json",
-                    "isDir": false,
-                    "size": 52405
-                  }
-                ]
-              },
               {
                 "name": "Hrv",
                 "isDir": true,
@@ -3411,45 +3124,6 @@
                     "name": "B.json",
                     "isDir": false,
                     "size": 24024
-                  }
-                ]
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "name": "2026",
-        "isDir": true,
-        "children": [
-          {
-            "name": "Ljeto",
-            "isDir": true,
-            "children": [
-              {
-                "name": "Eng",
-                "isDir": true,
-                "children": [
-                  {
-                    "name": "A.json",
-                    "isDir": false,
-                    "size": 64287
-                  },
-                  {
-                    "name": "B.json",
-                    "isDir": false,
-                    "size": 51075
-                  }
-                ]
-              },
-              {
-                "name": "Hrv",
-                "isDir": true,
-                "children": [
-                  {
-                    "name": "base.json",
-                    "isDir": false,
-                    "size": 69890
                   }
                 ]
               }

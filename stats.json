@@ -1,8 +1,8 @@
 {
   "byType": {
     "json": {
-      "totalBytes": 4012649,
-      "count": 69
+      "totalBytes": 1877576,
+      "count": 35
     },
     "opus": {
       "totalBytes": 214417509,
@@ -1556,7 +1556,7 @@
     }
   },
   "total": {
-    "totalBytes": 318504909,
-    "count": 630
+    "totalBytes": 316369836,
+    "count": 596
   }
 }
