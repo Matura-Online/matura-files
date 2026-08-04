@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang='en'>
+    <head>
+        <meta charset='UTF-8' />
+        <meta name='viewport' content='width=device-width, initial-scale=1.0' />
+        <meta name='description' content='Matura Online - File tree explorer showing all hosted resources by year, subject and type.' />
+        <link rel='icon' href='https://matura.top/favicon.ico' type='image/x-icon' />
+        <meta name='author' content='Matura Online' />
+        <meta name='theme-color' content='#b99c6a' />
+        <link rel='stylesheet' href='style.css' />
+        <title>Files - Matura Online</title>
+    </head>
+
+    <body>
+        <div class='container'>
+            <div class='nav'>
+                <a href='/'>Home</a>
+                <span class='sep'>|</span>
+                <a href='/files.html'>Files</a>
+                <span class='sep'>|</span>
+                <a href='/stats.html'>Stats</a>
+            </div>
+
+            <div class='hero'>
+                <h1>File Tree</h1>
+                <p>All hosted media files organized by year, term, subject, and level.</p>
+            </div>
+
+            <input type='search' id='filter' class='filter' placeholder='Filter files... (e.g. "2024 ljeto eng")' />
+
+            <div class='card'>
+                <div id='tree' class='tree'>Loading..</div>
+            </div>
+        </div>
+
+        <script>
+            (async () => {
+                const res = await fetch('/files.json');
+                const tree = await res.json();
+                const el = document.getElementById('tree');
+                const filter = document.getElementById('filter');
+
+                function size(n) {
+                    if (n >= 1e9) return (n / 1e9).toFixed(1) + ' GB';
+                    if (n >= 1e6) return (n / 1e6).toFixed(1) + ' MB';
+                    if (n >= 1e3) return (n / 1e3).toFixed(1) + ' KB';
+                    return n + ' B';
+                }
+
+                function renderNode(nodes, indent) {
+                    const lines = [];
+                    for (let i = 0; i < nodes.length; i++) {
+                        const n = nodes[i];
+                        const last = i === nodes.length - 1;
+                        const prefix = indent + (last ? '└─ ' : '├─ ');
+                        const childIndent = indent + (last ? '   ' : '│  ');
+                        if (n.isDir && n.children) {
+                            lines.push(`${prefix}<span class="dir">${n.name}/</span>`);
+                            lines.push(...renderNode(n.children, childIndent));
+                        } else {
+                            const sz = n.size ? size(n.size) : '';
+                            lines.push(`${prefix}<span class="file">${n.name}</span> ${sz ? `<span class="sz">${sz}</span>` : ''}`);
+                        }
+                    }
+                    return lines;
+                }
+
+                function buildTree(nodes, q) {
+                    if (!q) return tree;
+                    const qt = q.toLowerCase().split(/\s+/);
+                    function matches(name, children) {
+                        const low = name.toLowerCase();
+                        if (qt.every(t => low.includes(t))) return true;
+                        if (children) {
+                            for (const c of children) {
+                                if (matches(c.name, c.children)) return true;
+                            }
+                        }
+                        return false;
+                    }
+                    return nodes.filter(n => matches(n.name, n.children));
+                }
+
+                function addSizes(nodes) {
+                    for (const n of nodes) {
+                        if (n.children) addSizes(n.children);
+                        if (n.isDir && n.children) {
+                            n.size = n.children.reduce((s, c) => s + (c.size || 0), 0);
+                        }
+                    }
+                }
+
+                addSizes(tree);
+
+                function refresh() {
+                    const q = filter.value.trim();
+                    const filtered = buildTree(tree, q);
+                    el.innerHTML = renderNode(filtered, '').join('\n');
+                }
+
+                refresh();
+                filter.addEventListener('input', refresh);
+            })();
+        </script>
+    </body>
+</html>

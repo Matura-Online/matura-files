@@ -1,0 +1,208 @@
+:root {
+    --background: #1a1a1a;
+    --foreground: #ffffff;
+    --card-bg: #272727;
+    --border: #333333;
+    --accent: #b99c6a;
+    --muted: #9ca3af;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--background);
+    color: var(--foreground);
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+    padding: 2rem;
+}
+
+a {
+    color: var(--accent);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+/* --- nav --- */
+.nav {
+    display: flex;
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid var(--border);
+}
+
+.nav a {
+    font-weight: bold;
+}
+
+.nav .sep {
+    color: var(--border);
+}
+
+/* --- hero card --- */
+.hero-card {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    background-color: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: 0.5rem;
+    padding: 2rem;
+    margin-bottom: 1rem;
+}
+
+.hero-card img {
+    width: 4rem;
+    height: 4rem;
+    flex-shrink: 0;
+}
+
+.hero-card h1 {
+    font-size: 1.875rem;
+    margin: 0;
+}
+
+.hero-card h1.error {
+    color: var(--accent);
+}
+
+.hero-card p {
+    color: var(--muted);
+    font-size: 1.125rem;
+    margin: 0.5rem 0 0;
+}
+
+/* --- tree --- */
+.tree {
+    font-family: monospace;
+    font-size: 14px;
+    line-height: 1.6;
+    white-space: pre;
+}
+
+.tree .dir {
+    color: var(--accent);
+}
+
+.tree .file {
+    color: var(--muted);
+}
+
+.tree .sz {
+    color: #555555;
+    font-size: 0.75em;
+}
+
+.filter {
+    width: 100%;
+    padding: 0.6rem 1rem;
+    border-radius: 0.5rem;
+    border: 1px solid var(--border);
+    background: var(--card-bg);
+    color: var(--foreground);
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+/* --- stats --- */
+.hero {
+    text-align: center;
+    padding: 3rem 0;
+}
+
+.hero h1 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.hero p {
+    color: var(--muted);
+    font-size: 1.1rem;
+}
+
+h2 {
+    font-size: 1.4rem;
+    margin: 2rem 0 1rem;
+    color: var(--accent);
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.stat-box {
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: 0.5rem;
+    padding: 1rem;
+}
+
+.stat-box h3 {
+    color: var(--accent);
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.stat-box .bar {
+    height: 6px;
+    background: var(--border);
+    border-radius: 3px;
+    margin: 0.25rem 0 0.5rem;
+    overflow: hidden;
+}
+
+.stat-box .bar-fill {
+    height: 100%;
+    background: var(--accent);
+    border-radius: 3px;
+}
+
+.stat-box .row {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.85rem;
+    color: var(--muted);
+}
+
+.stat-box .row .ext {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: var(--accent);
+}
+
+.subj-header {
+    margin-top: 1.5rem;
+    color: var(--accent);
+    text-transform: uppercase;
+}
+
+.subj-summary {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    color: var(--muted);
+}
+
+.card {
+    background-color: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: 0.5rem;
+    padding: 2rem;
+    margin-bottom: 1rem;
+}

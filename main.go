@@ -13,7 +13,32 @@ import (
 type FileNode struct {
 	Name     string     `json:"name"`
 	IsDir    bool       `json:"isDir"`
+	Size     int64      `json:"size,omitempty"`
 	Children []FileNode `json:"children,omitempty"`
+}
+
+type TypeStats struct {
+	TotalBytes int64 `json:"totalBytes"`
+	Count      int   `json:"count"`
+}
+
+type Stats struct {
+	ByType    map[string]TypeStats       `json:"byType"`
+	BySubject map[string]SubjectStats     `json:"bySubject"`
+	Total     TypeStats                   `json:"total"`
+}
+
+type SubjectStats struct {
+	TotalBytes int64            `json:"totalBytes"`
+	Count      int              `json:"count"`
+	ByType     map[string]TypeStats `json:"byType"`
+	ByYearTerm map[string]SubjectYearStats `json:"byYearTerm"`
+}
+
+type SubjectYearStats struct {
+	TotalBytes int64            `json:"totalBytes"`
+	Count      int              `json:"count"`
+	ByType     map[string]TypeStats `json:"byType"`
 }
 
 func main() {
@@ -55,6 +80,21 @@ func main() {
 
 	wg.Wait()
 
+	stats := collectStats("source")
+
+	statsFile, err := os.Create("source/stats.json")
+	if err != nil {
+		fmt.Printf("Error creating stats.json: %v\n", err)
+		return
+	}
+	defer statsFile.Close()
+	enc := json.NewEncoder(statsFile)
+	enc.SetIndent("", "  ")
+	if err := enc.Encode(stats); err != nil {
+		fmt.Printf("Error encoding stats.json: %v\n", err)
+	}
+	fmt.Printf("Generated stats.json (%d subjects)\n", len(stats.BySubject))
+
 	root, err := buildFileTree("source")
 	if err != nil {
 		fmt.Printf("Error building file tree: %v\n", err)
@@ -77,6 +117,10 @@ func main() {
 
 func optimizePDFInPlace(path string, wg *sync.WaitGroup) {
 	defer wg.Done()
+
+	if pdfIsAlreadyOptimized(path) {
+		return
+	}
 
 	tmp, err := os.CreateTemp(filepath.Dir(path), ".pdf-optimized-*.pdf")
 	if err != nil {
@@ -101,6 +145,17 @@ func optimizePDFInPlace(path string, wg *sync.WaitGroup) {
 		return
 	}
 	fmt.Printf("Optimized %s.\n", path)
+}
+
+func pdfIsAlreadyOptimized(path string) bool {
+	f, err := os.Open(path)
+	if err != nil {
+		return false
+	}
+	defer f.Close()
+	header := make([]byte, 8)
+	n, _ := f.Read(header)
+	return n >= 8 && string(header[:8]) == "%PDF-1.4"
 }
 
 func convertAndRemoveFile(path, targetFormat string, convertFunc func(string) error, wg *sync.WaitGroup) {
@@ -135,14 +190,93 @@ func convertToOpus(mp3Path string) error {
 	return cmd.Run()
 }
 
+func ext(path string) string {
+	s := strings.ToLower(filepath.Ext(path))
+	if s == "" {
+		return s
+	}
+	return s[1:]
+}
+
+func collectStats(root string) Stats {
+	stats := Stats{
+		ByType:    map[string]TypeStats{},
+		BySubject: map[string]SubjectStats{},
+	}
+
+	_ = filepath.Walk(root, func(path string, info os.FileInfo, err error) error {
+		if err != nil || info.IsDir() {
+			return nil
+		}
+
+		rel, _ := filepath.Rel(root, path)
+		parts := strings.Split(rel, string(filepath.Separator))
+		t := ext(path)
+		sz := info.Size()
+
+		ts := stats.ByType[t]
+		ts.TotalBytes += sz
+		ts.Count++
+		stats.ByType[t] = ts
+		stats.Total.TotalBytes += sz
+		stats.Total.Count++
+
+		if len(parts) >= 1 && parts[0] == "All" {
+			return nil
+		}
+		if len(parts) >= 1 && (parts[0] == "Raw" || parts[0] == "Json") {
+			return nil
+		}
+
+		if len(parts) >= 3 {
+			subj := parts[2]
+			ss := stats.BySubject[subj]
+			if ss.ByType == nil {
+				ss.ByType = map[string]TypeStats{}
+				ss.ByYearTerm = map[string]SubjectYearStats{}
+			}
+			ss.TotalBytes += sz
+			ss.Count++
+			st := ss.ByType[t]
+			st.TotalBytes += sz
+			st.Count++
+			ss.ByType[t] = st
+
+			if len(parts) >= 4 {
+				ytKey := parts[0] + "/" + parts[1] + "/" + parts[3]
+				sys := ss.ByYearTerm[ytKey]
+				if sys.ByType == nil {
+					sys.ByType = map[string]TypeStats{}
+				}
+				sys.TotalBytes += sz
+				sys.Count++
+				sty := sys.ByType[t]
+				sty.TotalBytes += sz
+				sty.Count++
+				sys.ByType[t] = sty
+				ss.ByYearTerm[ytKey] = sys
+			}
+
+			stats.BySubject[subj] = ss
+		}
+
+		return nil
+	})
+
+	return stats
+}
+
 func buildFileTree(root string) (FileNode, error) {
-	rootNode := FileNode{Name: filepath.Base(root), IsDir: true}
+	rootNode := FileNode{Name: filepath.Base(root), IsDir: true, Size: 0}
 	err := filepath.WalkDir(root, func(path string, d os.DirEntry, err error) error {
-		if err != nil || path == "." {
+		if err != nil || path == root {
 			return err
 		}
 
-		relPath, _ := filepath.Rel(root, path)
+		relPath, err := filepath.Rel(root, path)
+		if err != nil || relPath == "." {
+			return nil
+		}
 		parts := strings.Split(relPath, string(filepath.Separator))
 		curr := &rootNode
 
@@ -165,12 +299,15 @@ func buildFileTree(root string) (FileNode, error) {
 					Name:  part,
 					IsDir: d.IsDir(),
 				}
-
 				curr.Children = append(curr.Children, newNode)
 				curr = &curr.Children[len(curr.Children)-1]
 			}
 
 			if i == len(parts)-1 && !d.IsDir() {
+				info, _ := d.Info()
+				if info != nil {
+					curr.Size = info.Size()
+				}
 				break
 			}
 		}
