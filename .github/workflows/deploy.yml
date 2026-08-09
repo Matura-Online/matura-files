@@ -7,56 +7,73 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: write
+  contents: read
   actions: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages-publish
+  cancel-in-progress: false
 
 jobs:
-  build:
+  build-and-deploy:
     runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
 
     steps:
-    - name: Checkout code
-      uses: actions/checkout@v4
+      - name: Checkout code
+        uses: actions/checkout@v4
 
-    - name: Set up Go
-      uses: actions/setup-go@v5
-      with:
-        go-version: '1.22.5'
+      - name: Set up Go
+        uses: actions/setup-go@v5
+        with:
+          go-version: '1.22.5'
 
-    - name: Install ffmpeg and ExifTool
-      run: sudo apt-get update && sudo apt-get install -y ffmpeg exiftool
+      - name: Install ffmpeg and ExifTool
+        run: sudo apt-get update && sudo apt-get install -y ffmpeg exiftool
 
-    - name: Run Go program
-      run: go run .
+      - name: Restore the published study catalog
+        id: study_catalog
+        run: |
+          mkdir -p source
+          catalog_tmp="$(mktemp)"
+          if curl --fail --silent --show-error --location --max-time 30 \
+            --output "$catalog_tmp" https://files.matura.top/programi.json; then
+            mv "$catalog_tmp" source/programi.json
+            echo "missing=false" >> "$GITHUB_OUTPUT"
+            echo "Restored the currently published programi.json."
+          else
+            rm -f "$catalog_tmp"
+            echo "missing=true" >> "$GITHUB_OUTPUT"
+            echo "No published programi.json found; this is the initial catalog deployment."
+          fi
 
-    - name: Copy files from ./html to ./source
-      run: |
-        mkdir -p ./source
-        cp -r ./html/* ./source/
+      - name: Build the published source tree
+        run: go run .
 
-    - name: Deploy to GitHub Pages
-      uses: peaceiris/actions-gh-pages@v4
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./source
-        publish_branch: gh-pages
-        # The dated study catalog is refreshed only by schedule/manual runs.
-        # Media-only pushes must not remove the last published programi.json.
-        keep_files: true
+      - name: Copy static HTML files
+        run: cp -r ./html/* ./source/
 
-    - name: Detect published study catalog
-      id: study_catalog
-      run: |
-        if curl --fail --silent --show-error --location --max-time 30 --output /dev/null https://files.matura.top/programi.json; then
-          echo "missing=false" >> "$GITHUB_OUTPUT"
-          echo "Published study catalog found."
-        else
-          echo "missing=true" >> "$GITHUB_OUTPUT"
-          echo "Published study catalog is missing."
-        fi
+      - name: Prepare GitHub Pages artifact
+        run: touch source/.nojekyll
 
-    - name: Queue initial study refresh when missing
-      if: steps.study_catalog.outputs.missing == 'true'
-      env:
-        GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      run: gh workflow run refresh-programs.yml --repo "$GITHUB_REPOSITORY" --ref main
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload GitHub Pages artifact
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: ./source
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+
+      - name: Queue initial study refresh when missing
+        if: steps.study_catalog.outputs.missing == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh workflow run refresh-programs.yml --repo "$GITHUB_REPOSITORY" --ref main

@@ -84,7 +84,13 @@ On every push to `main`, GitHub Actions:
 2. Converts any PNG/JPEG files to WebP, MP3/WAV files to Opus, and PDF files to
    Ghostscript `/ebook`-optimized PDFs in place.
 3. Regenerates `source/files.json`.
-4. Copies `html/` into `source/` and deploys `source/` to the `gh-pages` branch.
+4. Copies `html/` into `source/` and deploys the complete `source/` tree through
+   GitHub Pages Actions. The published `programi.json` is restored before an
+   ordinary deploy so a media-only push cannot remove it.
+
+The Pages publishing source should be set to **GitHub Actions** in the repository
+settings. The old `gh-pages` branch can remain as history, but it is no longer
+used by these workflows.
 
 `main.go` removes the original PNG/JPEG/MP3/WAV file after a successful conversion. Commit media in its final `.webp` or `.opus` form whenever possible; do not run the converter on the only copy of an asset unless that removal is intended.
 
