@@ -57,9 +57,6 @@ jobs:
       - name: Copy static HTML files
         run: cp -r ./html/* ./source/
 
-      - name: Prepare GitHub Pages artifact
-        run: touch source/.nojekyll
-
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
 

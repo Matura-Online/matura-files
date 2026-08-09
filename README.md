@@ -11,9 +11,8 @@ source/
   Raw/<year>/<term>/<subject>/<level>/answers.pdf
   <year>/<term>/<subject>/<level>/     # media for one paper
   All/<subject>/                       # material shared between papers
-  files.json                           # generated source-tree index
 html/                                  # static files copied into the published source
-main.go                                # media conversion and index generator
+main.go                                # media conversion
 studies.go                              # live Postani Student downloader/parser
 ```
 
@@ -41,9 +40,8 @@ typed values, alternatives, thresholds, grouped rules, cross-section caps, origi
 HTML cells, and a limitation report whenever the source wording cannot be safely
 reduced to an algorithm. `.github/workflows/refresh-programs.yml` refreshes
 it only on January 1, March 1, June 1, October 1, or a manual run. That workflow
-publishes only `programi.json` and preserves the exam files deployed by
-`deploy.yml`. Ordinary pushes rebuild media/indexes and preserve the last study
-catalog.
+rebuilds and publishes the complete static source tree so the catalog refresh
+cannot replace the exam files with a partial deployment.
 
 Years are grouped by exam term: `Ljeto`, `Jesen`, and, where available, `Probna`. Subject directories use Croatian abbreviations such as `Hrv`, `Eng`, `Mat`, and `Inf`. Papers with levels use `A` and `B`; subjects without levels use `base`.
 
@@ -83,8 +81,7 @@ On every push to `main`, GitHub Actions:
 1. Runs `go run .`.
 2. Converts any PNG/JPEG files to WebP, MP3/WAV files to Opus, and PDF files to
    Ghostscript `/ebook`-optimized PDFs in place.
-3. Regenerates `source/files.json`.
-4. Copies `html/` into `source/` and deploys the complete `source/` tree through
+3. Copies `html/` into `source/` and deploys the complete `source/` tree through
    GitHub Pages Actions. The published `programi.json` is restored before an
    ordinary deploy so a media-only push cannot remove it.
 
