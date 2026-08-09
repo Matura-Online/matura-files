@@ -6,6 +6,7 @@ package main
 // only source/programi.json.
 
 import (
+	"archive/zip"
 	"bytes"
 	"crypto/tls"
 	"encoding/json"
@@ -32,7 +33,6 @@ const (
 	componentsURL      = postaniStudentBase + "/webservices/Pretraga.svc/nositelji"
 	programsAPIURL     = postaniStudentBase + "/webservices/Pretraga.svc/PretraziPrograme"
 	detailsURL         = postaniStudentBase + "/usercontrols/uvjeticontainer.aspx"
-	studySchema        = "3.0-self-contained"
 )
 
 var (
@@ -99,23 +99,22 @@ type rawProgram struct {
 }
 
 type programMeta struct {
-	ID           int
-	IDPrograma   int
-	Naziv        string
-	Smjer        []string
-	Modul        []string
-	Nositelj     string
-	Izvodjac     string
-	Mjesto       string
-	ECTS         int
-	TrajanjeGod  float64
-	VrstaStudija *int
+	ID           int      `json:"id"`
+	IDPrograma   int      `json:"idPrograma"`
+	Naziv        string   `json:"naziv"`
+	Smjer        []string `json:"smjer"`
+	Modul        []string `json:"modul"`
+	Nositelj     string   `json:"nositelj"`
+	Izvodjac     string   `json:"izvodjac"`
+	Mjesto       string   `json:"mjesto"`
+	ECTS         int      `json:"ects"`
+	TrajanjeGod  float64  `json:"trajanje_god"`
+	VrstaStudija *int     `json:"vrsta_studija"`
 }
 
 type tableRow struct {
-	Index     int      `json:"index"`
-	Cells     []string `json:"cells"`
-	HTMLCells []string `json:"html_cells"`
+	Index int      `json:"index"`
+	Cells []string `json:"cells"`
 }
 
 type tableSnapshot struct {
@@ -131,10 +130,8 @@ type noteBlock struct {
 }
 
 type noteDocument struct {
-	ElementID *string     `json:"element_id"`
-	RawHTML   string      `json:"raw_html"`
-	RawText   *string     `json:"raw_text"`
-	Blocks    []noteBlock `json:"blocks"`
+	RawText *string
+	Blocks  []noteBlock
 }
 
 var tableIDs = map[string]string{
@@ -205,16 +202,16 @@ func (c *studyHTTPClient) do(method, url string, body []byte, extra http.Header)
 	return data, resp.StatusCode, readErr
 }
 
-func (c *studyHTTPClient) loadSession() error {
+func (c *studyHTTPClient) loadSession() ([]byte, error) {
 	data, status, err := c.do(http.MethodGet, programsPageURL, nil, nil)
 	if err != nil {
-		return err
+		return nil, err
 	}
 	if status != http.StatusOK {
-		return fmt.Errorf("study page returned HTTP %d", status)
+		return nil, fmt.Errorf("study page returned HTTP %d", status)
 	}
 	fmt.Printf("Study source session loaded (%d bytes)\n", len(data))
-	return nil
+	return data, nil
 }
 
 func ajaxHeaders(referer string) http.Header {
@@ -380,24 +377,28 @@ func (c *studyHTTPClient) fetchDetail(id int) ([]byte, error) {
 	return nil, lastErr
 }
 
-func refreshStudyPrograms(outputPath string) error {
+func refreshStudyPrograms(outputPath, htmlArchivePath string) error {
 	client, err := newStudyHTTPClient()
 	if err != nil {
 		return err
 	}
-	if err := client.loadSession(); err != nil {
+	temporaryDir, err := os.MkdirTemp("", "matura-programi-")
+	if err != nil {
 		return err
+	}
+	defer os.RemoveAll(temporaryDir)
+	sessionHTML, err := client.loadSession()
+	if err != nil {
+		return err
+	}
+	if err := os.WriteFile(filepath.Join(temporaryDir, "catalog.html"), sessionHTML, 0o600); err != nil {
+		return fmt.Errorf("save study catalog HTML: %w", err)
 	}
 	catalog, err := client.fetchCatalog()
 	if err != nil {
 		return err
 	}
 	fmt.Printf("Refreshing %d study detail pages\n", len(catalog))
-	temporaryDir, err := os.MkdirTemp("", "matura-programi-")
-	if err != nil {
-		return err
-	}
-	defer os.RemoveAll(temporaryDir)
 
 	details := make([]map[string]any, 0, len(catalog))
 	for index, meta := range catalog {
@@ -420,26 +421,196 @@ func refreshStudyPrograms(outputPath string) error {
 		time.Sleep(200 * time.Millisecond)
 	}
 
+	if htmlArchivePath != "" {
+		if err := zipStudyHTMLDirectory(temporaryDir, htmlArchivePath); err != nil {
+			return fmt.Errorf("archive fetched study HTML: %w", err)
+		}
+	}
+	return writeStudyCatalog(outputPath, details)
+}
+
+// zipStudyHTMLDirectory stores the fetched source pages as a single audit
+// artifact. The archive contains catalog.html plus numeric detail filenames,
+// never the temporary absolute path used by the runner.
+func zipStudyHTMLDirectory(htmlDir, archivePath string) error {
+	entries, err := os.ReadDir(htmlDir)
+	if err != nil {
+		return fmt.Errorf("read fetched HTML directory: %w", err)
+	}
+	if len(entries) == 0 {
+		return errors.New("fetched HTML directory is empty")
+	}
+	if directory := filepath.Dir(archivePath); directory != "." {
+		if err := os.MkdirAll(directory, 0o755); err != nil {
+			return fmt.Errorf("create HTML archive directory: %w", err)
+		}
+	}
+	temporary, err := os.CreateTemp(filepath.Dir(archivePath), ".programi-html-*.zip")
+	if err != nil {
+		return err
+	}
+	temporaryPath := temporary.Name()
+	defer os.Remove(temporaryPath)
+
+	archive := zip.NewWriter(temporary)
+	archivedCount := 0
+	for _, entry := range entries {
+		if entry.IsDir() || strings.ToLower(filepath.Ext(entry.Name())) != ".html" {
+			continue
+		}
+		input, err := os.Open(filepath.Join(htmlDir, entry.Name()))
+		if err != nil {
+			archive.Close()
+			temporary.Close()
+			return fmt.Errorf("open %s: %w", entry.Name(), err)
+		}
+		header := &zip.FileHeader{Name: filepath.Base(entry.Name()), Method: zip.Deflate}
+		header.SetModTime(time.Unix(0, 0).UTC())
+		writer, err := archive.CreateHeader(header)
+		if err == nil {
+			_, err = io.Copy(writer, input)
+		}
+		closeErr := input.Close()
+		if err != nil {
+			archive.Close()
+			temporary.Close()
+			return fmt.Errorf("archive %s: %w", entry.Name(), err)
+		}
+		if closeErr != nil {
+			archive.Close()
+			temporary.Close()
+			return fmt.Errorf("close %s: %w", entry.Name(), closeErr)
+		}
+		archivedCount++
+	}
+	if archivedCount == 0 {
+		archive.Close()
+		temporary.Close()
+		return errors.New("fetched HTML directory contains no HTML files")
+	}
+	if err := archive.Close(); err != nil {
+		temporary.Close()
+		return err
+	}
+	if err := temporary.Close(); err != nil {
+		return err
+	}
+	if err := os.Rename(temporaryPath, archivePath); err != nil {
+		return fmt.Errorf("publish HTML archive %s: %w", archivePath, err)
+	}
+	info, err := os.Stat(archivePath)
+	if err != nil {
+		return err
+	}
+	fmt.Printf("Archived fetched study HTML: %s (%d bytes)\n", archivePath, info.Size())
+	return nil
+}
+
+func parseStudyProgramsFromHTML(htmlDir, catalogPath, outputPath string) error {
+	catalog, err := loadStudyCatalog(catalogPath)
+	if err != nil {
+		return err
+	}
+	if err := validateStudyHTMLDirectory(htmlDir, catalog); err != nil {
+		return err
+	}
+	fmt.Printf("Parsing %d existing study HTML files from %s\n", len(catalog), htmlDir)
+	details := make([]map[string]any, 0, len(catalog))
+	for index, meta := range catalog {
+		path := filepath.Join(htmlDir, strconv.Itoa(meta.IDPrograma)+".html")
+		detail, err := parseStudyDetail(path, meta)
+		if err != nil {
+			return fmt.Errorf("parse detail %d/%d (%d): %w", index+1, len(catalog), meta.IDPrograma, err)
+		}
+		record := catalogRecord(meta)
+		record["detalji"] = detail
+		details = append(details, record)
+		studyProgress("details", index+1, len(catalog), fmt.Sprintf(" - %d ok", meta.IDPrograma))
+	}
+	return writeStudyCatalog(outputPath, details)
+}
+
+func loadStudyCatalog(path string) ([]programMeta, error) {
+	data, err := os.ReadFile(path)
+	if err != nil {
+		return nil, fmt.Errorf("read study catalog %s: %w", path, err)
+	}
+	trimmed := bytes.TrimSpace(data)
+	var catalog []programMeta
+	if len(trimmed) > 0 && trimmed[0] == '[' {
+		if err := json.Unmarshal(trimmed, &catalog); err != nil {
+			return nil, fmt.Errorf("decode study catalog %s: %w", path, err)
+		}
+	} else {
+		var envelope struct {
+			Programi []programMeta `json:"programi"`
+		}
+		if err := json.Unmarshal(trimmed, &envelope); err != nil {
+			return nil, fmt.Errorf("decode study catalog %s: %w", path, err)
+		}
+		catalog = envelope.Programi
+	}
+	if len(catalog) == 0 {
+		return nil, fmt.Errorf("study catalog %s contains no programs", path)
+	}
+	sort.Slice(catalog, func(i, j int) bool { return catalog[i].IDPrograma < catalog[j].IDPrograma })
+	for index, meta := range catalog {
+		if meta.IDPrograma == 0 {
+			return nil, fmt.Errorf("study catalog row %d has no idPrograma", index+1)
+		}
+		if index > 0 && catalog[index-1].IDPrograma == meta.IDPrograma {
+			return nil, fmt.Errorf("study catalog contains duplicate idPrograma %d", meta.IDPrograma)
+		}
+	}
+	return catalog, nil
+}
+
+func validateStudyHTMLDirectory(htmlDir string, catalog []programMeta) error {
+	entries, err := os.ReadDir(htmlDir)
+	if err != nil {
+		return fmt.Errorf("read study HTML directory %s: %w", htmlDir, err)
+	}
+	ids := map[int]bool{}
+	for _, entry := range entries {
+		if entry.IsDir() || filepath.Ext(entry.Name()) != ".html" {
+			continue
+		}
+		id, err := strconv.Atoi(strings.TrimSuffix(entry.Name(), ".html"))
+		if err != nil {
+			return fmt.Errorf("study HTML filename %q is not numeric", entry.Name())
+		}
+		ids[id] = true
+	}
+	if len(ids) != len(catalog) {
+		return fmt.Errorf("study HTML/catalog count mismatch: %d HTML files, %d catalog programs", len(ids), len(catalog))
+	}
+	for _, meta := range catalog {
+		if !ids[meta.IDPrograma] {
+			return fmt.Errorf("catalog program %d has no matching HTML file", meta.IDPrograma)
+		}
+	}
+	return nil
+}
+
+func writeStudyCatalog(outputPath string, details []map[string]any) error {
 	generated := time.Now().UTC().Truncate(time.Second).Format(time.RFC3339)
 	payload := map[string]any{
-		"schema_version":   "4.0-study-catalog",
 		"generated_at":     generated,
 		"refresh_schedule": []string{"01-01", "01-03", "01-06", "01-10"},
-		"source": map[string]any{
-			"catalog_url":       programsPageURL,
-			"catalog_api_url":   programsAPIURL,
-			"details_url":       detailsURL,
-			"html_is_temporary": true,
-			"record_count":      len(details),
-		},
-		"programi": details,
+		"programi":         details,
 	}
 	if err := os.MkdirAll(filepath.Dir(outputPath), 0o755); err != nil {
 		return err
 	}
-	encoded, err := json.MarshalIndent(payload, "", "  ")
+	// Keep the published artifact compact. Temporary HTML is never embedded;
+	// compact JSON also avoids adding many megabytes of indentation to a file
+	// that is downloaded by every client.
+	encoded, err := json.Marshal(payload)
 	if err != nil {
 		return err
+	}
+	if err := validateStudyCatalogJSON(encoded); err != nil {
+		return fmt.Errorf("generated study catalog does not match its schema: %w", err)
 	}
 	temporaryOutput, err := os.CreateTemp(filepath.Dir(outputPath), ".programi-*.json")
 	if err != nil {
@@ -587,17 +758,6 @@ func parentElement(node *html.Node) *html.Node {
 	return node.Parent
 }
 
-func innerHTML(node *html.Node) string {
-	if node == nil {
-		return ""
-	}
-	var buffer bytes.Buffer
-	for child := node.FirstChild; child != nil; child = child.NextSibling {
-		_ = html.Render(&buffer, child)
-	}
-	return buffer.String()
-}
-
 func parseStudyDetail(path string, meta programMeta) (map[string]any, error) {
 	file, err := os.Open(path)
 	if err != nil {
@@ -608,7 +768,7 @@ func parseStudyDetail(path string, meta programMeta) (map[string]any, error) {
 	if err != nil {
 		return nil, err
 	}
-	basic, originalName, err := parseHeader(document)
+	basic, _, err := parseHeader(document)
 	if err != nil {
 		return nil, err
 	}
@@ -677,27 +837,19 @@ func parseStudyDetail(path string, meta programMeta) (map[string]any, error) {
 	} else if len(thresholdRules) > 1 {
 		threshold = thresholdRules
 	}
-	notesAny := map[string]any{}
-	for key, value := range notes {
-		notesAny[key] = value
-	}
-
 	detail := map[string]any{
-		"schema_version": studySchema, "idPrograma": meta.IDPrograma, "program": programMap(meta, originalName),
-		"izvorni_naziv_programa": originalName, "osnovno": basic, "kvota": parseQuota(document),
-		"preduvjet": joinPreconditions(preconditions), "preduvjeti": preconditions,
-		"ocjene": grades, "ocjene_pravila": nil, "hrvatski_jezik": flags, "prag": threshold,
+		"idPrograma": meta.IDPrograma,
+		"osnovno":    basic, "kvota": parseQuota(document),
+		"preduvjeti": preconditions,
+		"ocjene":     grades, "hrvatski_jezik": flags, "prag": threshold,
 		"obvezni": mandatory, "obvezni_pravila": nilIfEmpty(mandatoryRules),
 		"izborni": elective, "dodatne_vjestine": additional,
-		"dodatne_provjere":       electiveAdditionalNote(notes["izborni"]),
 		"dodatne_provjere_grupe": additionalGroups, "natjecanja": competitions,
 		"natjecanja_pravila": nilIfEmpty(competitionRules), "sportasi": athletes,
-		"sportasi_pravila": nil, "druga_posebna_postignuca": achievements,
+		"druga_posebna_postignuca":          achievements,
 		"posebna_postignuca_pravila":        nilIfEmpty(achievementRules),
 		"vrednovanje_ocjena_mature":         maturity,
 		"vrednovanje_ocjena_mature_pravila": nilIfEmpty(groupRules(maturity, func(row map[string]any) string { return stringValue(row["ispit"]) })),
-		"napomena_obvezni_raw":              mandatoryRaw, "napomene_raw": notesAny,
-		"izvorne_tablice": snapshots,
 	}
 	crossRules := append(groupRules(maturity, func(row map[string]any) string { return stringValue(row["ispit"]) }), groupRules(competitions, func(row map[string]any) string {
 		return strings.Join([]string{stringValue(row["kategorija"]), stringValue(row["disciplina"]), stringValue(row["razred_od"]), stringValue(row["razred_do"])}, "|")
@@ -712,25 +864,14 @@ func parseStudyDetail(path string, meta programMeta) (map[string]any, error) {
 		}
 	}
 	detail["medusekcijska_pravila"] = crossRules
-	limitations := auditDetail(detail)
+	limitations := auditDetail(detail, notes)
 	detail["ogranicenja_izvora"] = limitations
 	status := "spremno"
 	if len(limitations) > 0 {
 		status = "spremno_uz_ogranicenja_izvora"
 	}
-	detail["kalkulator_spremnost"] = map[string]any{"status": status, "zahtijeva_rucni_pregled": len(limitations) > 0, "razlozi": uniqueLimitationTypes(limitations)}
-	detail["izracun_pomoc"] = calculationSums(detail)
-	detail["izvor"] = map[string]any{"html_datoteka": nil, "detalji_url": detailsURL + "?id=" + strconv.Itoa(meta.IDPrograma), "parser": "studies.go", "html_privremen": true}
-	detail["format_exporta"] = map[string]any{"samodostatan": true, "sadrzi_izvorne_redke": true, "sadrzi_izvorne_footnote": true, "izvorni_html_ukljucen": false}
+	detail["kalkulator_spremnost"] = map[string]any{"status": status, "zahtijeva_rucni_pregled": len(limitations) > 0, "razlozi": limitationTypes(limitations)}
 	return detail, nil
-}
-
-func programMap(meta programMeta, fallbackName string) map[string]any {
-	name := fallbackName
-	if meta.Naziv != "" {
-		name = meta.Naziv
-	}
-	return map[string]any{"id": meta.ID, "naziv": name, "smjer": meta.Smjer, "modul": meta.Modul, "naziv_api": fallbackName, "mjesto": meta.Mjesto, "ects": meta.ECTS, "trajanje_god": meta.TrajanjeGod, "vrsta_studija": meta.VrstaStudija}
 }
 
 func parseHeader(document *html.Node) (map[string]any, string, error) {
@@ -758,7 +899,10 @@ func parseHeader(document *html.Node) (map[string]any, string, error) {
 	}
 	var address, phone, email any
 	for _, paragraph := range paragraphs {
-		value := nodeText(paragraph)
+		// The original BeautifulSoup parser did not insert a separator for the
+		// source's uppercase `</BR>` tags in this header block. Preserve that
+		// quirk for exact compatibility with the initial custom export.
+		value := nodeTextNoBreak(paragraph)
 		bold := findFirst(paragraph, func(node *html.Node) bool { return node.Type == html.ElementNode && node.Data == "b" })
 		label := strings.TrimSuffix(strings.ToLower(nodeText(bold)), ":")
 		switch label {
@@ -773,7 +917,7 @@ func parseHeader(document *html.Node) (map[string]any, string, error) {
 				email = v
 			}
 		default:
-			if findFirst(paragraph, func(node *html.Node) bool { return node.Type == html.ElementNode && node.Data == "a" }) == nil && address == nil && value != "" {
+			if findFirst(paragraph, func(node *html.Node) bool { return node.Type == html.ElementNode && node.Data == "a" }) == nil && address == nil {
 				address = value
 			}
 		}
@@ -793,7 +937,7 @@ func parseHeader(document *html.Node) (map[string]any, string, error) {
 	if src := attr(logoNode, "src"); src != "" {
 		logo = absoluteURL(src)
 	}
-	return map[string]any{"nositelj": nodeText(h1[0]), "izvodjac": provider, "izvodjac_izvorni": originalProvider, "adresa": address, "telefon": phone, "email": email, "web": website, "logo_url": logo}, originalName, nil
+	return map[string]any{"nositelj": nodeText(h1[0]), "izvodjac": provider, "adresa": address, "telefon": phone, "email": email, "web": website, "logo_url": logo}, originalName, nil
 }
 
 func absoluteURL(value string) string {
@@ -833,10 +977,8 @@ func tableSnapshotFor(document *html.Node, section string) tableSnapshot {
 			continue
 		}
 		values := make([]string, len(cells))
-		rawHTML := make([]string, len(cells))
 		for index, cell := range cells {
 			values[index] = nodeText(cell)
-			rawHTML[index] = innerHTML(cell)
 		}
 		if rowIndex == 0 {
 			firstIsHeader = len(directChildren(row, "th")) > 0
@@ -845,7 +987,7 @@ func tableSnapshotFor(document *html.Node, section string) tableSnapshot {
 				continue
 			}
 		}
-		snapshot.Rows = append(snapshot.Rows, tableRow{Index: len(snapshot.Rows) + 1, Cells: values, HTMLCells: rawHTML})
+		snapshot.Rows = append(snapshot.Rows, tableRow{Index: len(snapshot.Rows) + 1, Cells: values})
 	}
 	_ = firstIsHeader
 	return snapshot
@@ -853,13 +995,9 @@ func tableSnapshotFor(document *html.Node, section string) tableSnapshot {
 
 func noteDocumentFor(document *html.Node, section string) noteDocument {
 	node := findByID(document, noteIDs[section])
-	doc := noteDocument{RawHTML: innerHTML(node), Blocks: []noteBlock{}}
+	doc := noteDocument{Blocks: []noteBlock{}}
 	if node == nil {
 		return doc
-	}
-	id := attr(node, "id")
-	if id != "" {
-		doc.ElementID = &id
 	}
 	text := nodeTextLines(node)
 	cleaned := cleanText(text)
@@ -898,7 +1036,11 @@ func noteDocumentFor(document *html.Node, section string) noteDocument {
 }
 
 func parseQuota(document *html.Node) map[string]any {
-	value := nodeText(findByID(document, "ucUvjeti_pnlOsnovniPodaci"))
+	// The source uses adjacent span nodes for labels and values. BeautifulSoup's
+	// original `get_text(" ")` inserted boundaries between those nodes; use the
+	// equivalent here so quota parsing does not produce `0Upisna` or swallow the
+	// next label.
+	value := nodeTextSeparated(findByID(document, "ucUvjeti_pnlOsnovniPodaci"))
 	findInt := func(pattern string) any {
 		match := regexp.MustCompile(pattern).FindStringSubmatch(value)
 		if len(match) == 0 {
@@ -913,7 +1055,49 @@ func parseQuota(document *html.Node) map[string]any {
 	if threshold != "" {
 		thresholdPct = percent(threshold)
 	}
-	return map[string]any{"eu": findInt(`(?i)Upisna kvota za državljane EU\s*:\s*(\d+)`), "strani": findInt(`(?i)Upisna kvota za strane državljane\s*:\s*(\d+)`), "participacija": nilIfEmptyAny(participation), "ukupni_prag_raw": nilIfEmptyAny(threshold), "ukupni_prag_pct": thresholdPct, "izvor_sadrzi_eu_kvotu": regexp.MustCompile(`(?i)Upisna kvota za državljane EU`).MatchString(value), "izvor_sadrzi_stranu_kvotu": regexp.MustCompile(`(?i)Upisna kvota za strane državljane`).MatchString(value), "izvorni_raw": value}
+	return map[string]any{"eu": findInt(`(?i)Upisna kvota za državljane EU\s*:\s*(\d+)`), "strani": findInt(`(?i)Upisna kvota za strane državljane\s*:\s*(\d+)`), "participacija": nilIfEmptyAny(participation), "ukupni_prag_pct": thresholdPct, "izvor_sadrzi_eu_kvotu": regexp.MustCompile(`(?i)Upisna kvota za državljane EU`).MatchString(value), "izvor_sadrzi_stranu_kvotu": regexp.MustCompile(`(?i)Upisna kvota za strane državljane`).MatchString(value)}
+}
+
+func nodeTextSeparated(node *html.Node) string {
+	if node == nil {
+		return ""
+	}
+	parts := []string{}
+	var walk func(*html.Node)
+	walk = func(current *html.Node) {
+		if current.Type == html.TextNode {
+			parts = append(parts, current.Data)
+			return
+		}
+		if current.Type == html.ElementNode && current.Data == "br" {
+			parts = append(parts, " ")
+			return
+		}
+		for child := current.FirstChild; child != nil; child = child.NextSibling {
+			walk(child)
+		}
+	}
+	walk(node)
+	return cleanText(strings.Join(parts, " "))
+}
+
+func nodeTextNoBreak(node *html.Node) string {
+	if node == nil {
+		return ""
+	}
+	var builder strings.Builder
+	var walk func(*html.Node)
+	walk = func(current *html.Node) {
+		if current.Type == html.TextNode {
+			builder.WriteString(current.Data)
+			return
+		}
+		for child := current.FirstChild; child != nil; child = child.NextSibling {
+			walk(child)
+		}
+	}
+	walk(node)
+	return cleanText(builder.String())
 }
 
 func regexSub(value, pattern string) string {
@@ -940,18 +1124,10 @@ func parsePreconditions(snapshot tableSnapshot) []map[string]any {
 	result := []map[string]any{}
 	for _, row := range snapshot.Rows {
 		if len(row.Cells) > 0 && row.Cells[0] != "" {
-			result = append(result, map[string]any{"tekst": row.Cells[0], "uvjet_primjene": true, "izvor": sourceRow(snapshot, row.Index)})
+			result = append(result, map[string]any{"tekst": row.Cells[0], "uvjet_primjene": true})
 		}
 	}
 	return result
-}
-
-func sourceRow(snapshot tableSnapshot, index int) map[string]any {
-	if index < 1 || index > len(snapshot.Rows) {
-		return map[string]any{"table_id": snapshot.TableID, "row_index": index}
-	}
-	row := snapshot.Rows[index-1]
-	return map[string]any{"table_id": snapshot.TableID, "row_index": index, "raw_cells": row.Cells, "html_cells": row.HTMLCells}
 }
 
 func parseRows(snapshot tableSnapshot, kind string) ([]map[string]any, error) {
@@ -959,7 +1135,6 @@ func parseRows(snapshot tableSnapshot, kind string) ([]map[string]any, error) {
 	for _, row := range snapshot.Rows {
 		cells := row.Cells
 		scoredValue := func(index int) map[string]any { return scored(cells, index) }
-		source := sourceRow(snapshot, row.Index)
 		switch kind {
 		case "ocjene":
 			if len(cells) != 2 {
@@ -970,32 +1145,36 @@ func parseRows(snapshot tableSnapshot, kind string) ([]map[string]any, error) {
 			if len(markers) > 0 {
 				marker = markers[len(markers)-1]
 			}
-			result = append(result, merge(map[string]any{"naziv": strings.TrimSpace(markerPattern.ReplaceAllString(cells[0], "")), "naziv_raw": cells[0], "napomena_marker": marker}, scoredValue(1), map[string]any{"izvor": source}))
+			result = append(result, merge(map[string]any{"redak": row.Index, "naziv": strings.TrimSpace(markerPattern.ReplaceAllString(cells[0], "")), "napomena_marker": marker}, scoredValue(1)))
 		case "obvezni":
 			if len(cells) != 4 {
 				return nil, fmt.Errorf("obvezni row has %d cells", len(cells))
 			}
-			result = append(result, merge(map[string]any{"predmet": cells[0], "predmet_raw": cells[0], "razina": nilIfEmptyAny(cells[1]), "prag_raw": cells[2], "prag_pct": percent(cells[2]), "pravilo_bodovanja": alternativeRule(cells[0])}, scoredValue(3), map[string]any{"izvor": source}))
+			alternative := alternativeRule(cells[0])
+			if alternative != nil {
+				alternative = merge(map[string]any{"tip": "alternativa"}, alternative)
+			}
+			result = append(result, merge(map[string]any{"redak": row.Index, "predmet": cells[0], "razina": nilIfEmptyAny(cells[1]), "prag_pct": percent(cells[2]), "pravilo_bodovanja": alternative}, scoredValue(3)))
 		case "natjecanja":
 			if len(cells) != 9 {
 				return nil, fmt.Errorf("natjecanja row has %d cells", len(cells))
 			}
-			result = append(result, merge(map[string]any{"kategorija": cells[0], "disciplina": cells[1], "razred_od": cells[2], "razred_do": cells[3], "plasman_od": cells[4], "plasman_do": cells[5], "nagrada_od": cells[6], "nagrada_do": cells[7], "disciplina_raw": cells[1], "disciplina_pravilo": alternativeRule(cells[1])}, scoredValue(8), map[string]any{"izvor": source}))
+			result = append(result, merge(map[string]any{"redak": row.Index, "kategorija": cells[0], "disciplina": cells[1], "razred_od": cells[2], "razred_do": cells[3], "plasman_od": cells[4], "plasman_do": cells[5], "nagrada_od": cells[6], "nagrada_do": cells[7], "disciplina_pravilo": alternativeRule(cells[1])}, scoredValue(8)))
 		case "sportasi":
 			if len(cells) != 3 {
 				return nil, fmt.Errorf("sportasi row has %d cells", len(cells))
 			}
-			result = append(result, merge(map[string]any{"kategorija_od": cells[0], "kategorija_do": cells[1]}, scoredValue(2), map[string]any{"izvor": source}))
+			result = append(result, merge(map[string]any{"redak": row.Index, "kategorija_od": cells[0], "kategorija_do": cells[1]}, scoredValue(2)))
 		case "posebna_postignuca":
 			if len(cells) != 2 {
 				return nil, fmt.Errorf("posebna postignuca row has %d cells", len(cells))
 			}
-			result = append(result, merge(map[string]any{"postignuce": cells[0], "postignuce_raw": cells[0]}, scoredValue(1), map[string]any{"izvor": source}))
+			result = append(result, merge(map[string]any{"redak": row.Index, "postignuce": cells[0]}, scoredValue(1)))
 		case "ocjene_mature":
 			if len(cells) != 5 {
 				return nil, fmt.Errorf("matura row has %d cells", len(cells))
 			}
-			result = append(result, merge(map[string]any{"ispit": cells[0], "razina": nilIfEmptyAny(cells[1]), "ocjena_od": parseIntAny(cells[2]), "ocjena_do": parseIntAny(cells[3])}, scoredValue(4), map[string]any{"izvor": source}))
+			result = append(result, merge(map[string]any{"redak": row.Index, "ispit": cells[0], "razina": nilIfEmptyAny(cells[1]), "ocjena_od": parseIntAny(cells[2]), "ocjena_do": parseIntAny(cells[3])}, scoredValue(4)))
 		}
 	}
 	return result, nil
@@ -1007,12 +1186,12 @@ func scored(cells []string, index int) map[string]any {
 		value = cells[index]
 	}
 	parsed := scoreValue(value)
-	return map[string]any{"vrednovanje_pct": parsed["pct"], "vrednovanje_raw": parsed["raw"], "vrednovanje": parsed, "izravan_upis": boolValue(parsed["izravan_upis"])}
+	return map[string]any{"vrednovanje_pct": parsed["pct"], "vrednovanje": parsed, "izravan_upis": boolValue(parsed["izravan_upis"])}
 }
 
 func scoreValue(value string) map[string]any {
 	raw := cleanText(value)
-	result := map[string]any{"raw": raw, "kind": "unparsed"}
+	result := map[string]any{"kind": "unparsed"}
 	if raw == "" {
 		result["kind"] = "not_published"
 	}
@@ -1051,7 +1230,7 @@ func percent(value string) any {
 
 func parseElective(snapshot tableSnapshot, note noteDocument) (map[string]any, error) {
 	if len(snapshot.Rows) == 1 && len(snapshot.Rows[0].Cells) == 1 && strings.EqualFold(snapshot.Rows[0].Cells[0], "nije zahtjev studija") {
-		return map[string]any{"nije_zahtjev": true, "najbolji_rezultat_pct": nil, "predmeti": []map[string]any{}, "napomena": note.RawText, "napomene_strukturirano": []map[string]any{}, "izvor": sourceRow(snapshot, 1)}, nil
+		return map[string]any{"nije_zahtjev": true, "najbolji_rezultat_pct": nil, "predmeti": []map[string]any{}, "napomena": note.RawText, "napomene_strukturirano": []map[string]any{}}, nil
 	}
 	rules := inferNotes(note, "izborni")
 	rows := []map[string]any{}
@@ -1075,7 +1254,7 @@ func parseElective(snapshot tableSnapshot, note noteDocument) (map[string]any, e
 		} else if len(linked) > 0 {
 			rule = linked[0]
 		}
-		rows = append(rows, merge(map[string]any{"predmet": cells[0], "predmet_raw": cells[0], "obavezan": boolOrNil(cells[1]), "prag_raw": cells[2], "prag_pct": percent(cells[2]), "pravilo_bodovanja": rule}, value, map[string]any{"izvor": sourceRow(snapshot, row.Index)}))
+		rows = append(rows, merge(map[string]any{"redak": row.Index, "predmet": cells[0], "obavezan": boolOrNil(cells[1]), "prag_pct": percent(cells[2]), "pravilo_bodovanja": rule}, value))
 	}
 	var weights []float64
 	for _, rule := range rules {
@@ -1098,11 +1277,19 @@ func parseAdditional(snapshot tableSnapshot) ([]map[string]any, []map[string]any
 		if index := strings.Index(strings.ToLower(cells[0]), "vrednovanje:"); index >= 0 {
 			internalRaw = strings.TrimSpace(cells[0][index+len("vrednovanje:"):])
 		}
-		internal := map[string]any{"alternativa": alternative, "interno_vrednovanje_raw": nilIfEmptyAny(internalRaw), "interno_vrednovanje": parseInternalValues(internalRaw), "kumulativno": regexp.MustCompile(`(?i)kumulativno`).MatchString(cells[0]), "iskljucujuci_uvjet": nilIfEmptyAny(regexSub(cells[0], `(?i)(isključujući uvjet|iskljucujuci uvjet)\s*:?(.*)$`))}
-		item := merge(map[string]any{"naziv": cells[0], "obavezan": boolOrNil(cells[1]), "prag_raw": cells[2], "prag_pct": percent(cells[2]), "uvjet_primjene": map[string]any{"tekst": cells[0], "uvjetno": regexp.MustCompile(`(?i)ukoliko|za strane državljane|za kandidate koji|\bako\b`).MatchString(cells[0])}, "unutarnja_pravila": internal}, scored(cells, 3), map[string]any{"izvor": sourceRow(snapshot, row.Index)})
+		internal := map[string]any{"alternativa": alternative, "interno_vrednovanje": parseInternalValues(internalRaw), "kumulativno": regexp.MustCompile(`(?i)kumulativno`).MatchString(cells[0]), "iskljucujuci_uvjet": nilIfEmptyAny(regexSub(cells[0], `(?i)(isključujući uvjet|iskljucujuci uvjet)\s*:?(.*)$`))}
+		if alternative != nil && regexp.MustCompile(`(?i)\bi/ili\b`).MatchString(cells[0]) {
+			alternative["terms"] = alternativeTerms(cells[0])
+		}
+		if regexp.MustCompile(`(?i)isključujući uvjet|iskljucujuci uvjet`).MatchString(cells[0]) {
+			// The original custom parser preserved the complete row text here,
+			// rather than only the matched words.
+			internal["iskljucujuci_uvjet"] = cells[0]
+		}
+		item := merge(map[string]any{"redak": row.Index, "naziv": cells[0], "obavezan": boolOrNil(cells[1]), "prag_pct": percent(cells[2]), "uvjet_primjene": map[string]any{"tekst": cells[0], "uvjetno": regexp.MustCompile(`(?i)ukoliko|za strane državljane|za kandidate koji|\bako\b`).MatchString(cells[0])}, "unutarnja_pravila": internal}, scored(cells, 3))
 		result = append(result, item)
 		if alternative != nil || boolValue(internal["kumulativno"]) || stringValue(internal["iskljucujuci_uvjet"]) != "" {
-			groups = append(groups, map[string]any{"tip": "pravilo_unutar_dodatne_provjere", "redci": []int{row.Index}, "alternativa": alternative, "kumulativno_bodovanje": internal["kumulativno"], "izvor": cells[0]})
+			groups = append(groups, map[string]any{"tip": "pravilo_unutar_dodatne_provjere", "redci": []int{row.Index}, "alternativa": alternative, "kumulativno_bodovanje": internal["kumulativno"], "tekst": cells[0]})
 		}
 	}
 	return result, groups, nil
@@ -1125,13 +1312,22 @@ func alternativeRule(value string) map[string]any {
 	}
 	if regexp.MustCompile(`(?i)\bi/ili\b`).MatchString(cleaned) {
 		parts := splitRegex(cleaned, `(?i)\s+i/ili\s+`)
-		return map[string]any{"operator": "at_least_one_of", "terms": parts, "minimalno_odabranih": 1, "maksimalno_odabranih": len(parts), "mogu_se_odabrati_obje_varijante": true, "izvor": cleaned}
+		return map[string]any{"operator": "at_least_one_of", "terms": parts, "minimalno_odabranih": 1, "maksimalno_odabranih": len(parts), "mogu_se_odabrati_obje_varijante": true, "tekst": cleaned}
 	}
 	if regexp.MustCompile(`(?i)\b(kandidat\w*|pristupnik\w*|državljan\w*|završ\w*|zavrs\w*|ukoliko|ako)\b|:`).MatchString(cleaned) {
 		return nil
 	}
 	parts := splitRegex(cleaned, `(?i)\s+ili\s+`)
-	return map[string]any{"operator": "one_of", "terms": parts, "minimalno_odabranih": 1, "maksimalno_odabranih": 1, "ne_zbrajati_alternative": true, "izvor": cleaned}
+	return map[string]any{"operator": "one_of", "terms": parts, "minimalno_odabranih": 1, "maksimalno_odabranih": 1, "ne_zbrajati_alternative": true, "tekst": cleaned}
+}
+
+func alternativeTerms(value string) []string {
+	cleaned := cleanText(value)
+	withoutExplanation := regexp.MustCompile(`(?i)^(.+?)\s+i/ili\s+([^()]+?)\s*\(.*$`).FindStringSubmatch(cleaned)
+	if len(withoutExplanation) == 3 {
+		return []string{strings.TrimSpace(withoutExplanation[1]), strings.TrimSpace(withoutExplanation[2])}
+	}
+	return splitRegex(cleaned, `(?i)\s+i/ili\s+`)
 }
 
 func splitRegex(value, pattern string) []string {
@@ -1155,7 +1351,7 @@ func inferNotes(note noteDocument, section string) []map[string]any {
 
 func inferRule(value, section string, marker *string) map[string]any {
 	raw, lower := cleanText(value), strings.ToLower(cleanText(value))
-	result := map[string]any{"tip": "izvorna_napomena", "izvor": raw}
+	result := map[string]any{"tip": "izvorna_napomena", "tekst": raw}
 	if strings.Contains(lower, "za sve kandidate") {
 		result["opseg"] = "svi_kandidati"
 	}
@@ -1280,39 +1476,39 @@ func parseWordNumber(value string) *int {
 
 func groupRules(rows []map[string]any, key func(map[string]any) string) []map[string]any {
 	groups := map[string][]map[string]any{}
+	order := []string{}
 	for _, row := range rows {
 		value := key(row)
 		if value != "" {
+			if _, exists := groups[value]; !exists {
+				order = append(order, value)
+			}
 			groups[value] = append(groups[value], row)
 		}
 	}
-	keys := make([]string, 0, len(groups))
-	for value := range groups {
-		keys = append(keys, value)
-	}
-	sort.Strings(keys)
 	result := []map[string]any{}
-	for _, group := range keys {
+	for _, group := range order {
 		rows := groups[group]
 		if len(rows) < 2 {
 			continue
 		}
 		indices := []int{}
-		sources := []any{}
-		for _, row := range rows {
-			source, _ := row["izvor"].(map[string]any)
-			indices = append(indices, intValue(source["row_index"]))
-			sources = append(sources, source["raw_cells"])
+		for index, row := range rows {
+			redak := intValue(row["redak"])
+			if redak == 0 {
+				redak = index + 1
+			}
+			indices = append(indices, redak)
 		}
-		result = append(result, map[string]any{"tip": "alternativni_redci_unutar_grupe", "grupa": group, "redci": indices, "strategija": "pojedinacni_rezultat", "redci_iste_grupe_se_ne_zbrajaju": true, "ne_zbrajati_alternative": true, "izvor": sources})
+		result = append(result, map[string]any{"tip": "alternativni_redci_unutar_grupe", "grupa": group, "redci": indices, "strategija": "pojedinacni_rezultat", "redci_iste_grupe_se_ne_zbrajaju": true, "ne_zbrajati_alternative": true})
 	}
 	return result
 }
 
-func auditDetail(detail map[string]any) []map[string]any {
+func auditDetail(detail map[string]any, notes map[string]noteDocument) []map[string]any {
 	limitations := []map[string]any{}
-	add := func(kind, section, impact string, source any, extra map[string]any) {
-		item := map[string]any{"tip": kind, "sekcija": section, "utjecaj_na_kalkulator": impact, "izvor": source}
+	add := func(kind, section, impact string, extra map[string]any) {
+		item := map[string]any{"tip": kind, "sekcija": section, "utjecaj_na_kalkulator": impact}
 		for key, value := range extra {
 			item[key] = value
 		}
@@ -1326,27 +1522,27 @@ func auditDetail(detail map[string]any) []map[string]any {
 		for index, row := range section.rows {
 			value := mapValue(row["vrednovanje"])
 			kind := stringValue(value["kind"])
-			if (kind == "footnote_marker" || kind == "unparsed") && len(noteBlocksFor(detail, section.name, stringValue(value["marker"]))) == 0 {
-				add("nepoznato_vrednovanje", section.name, "Redak nije sigurno pretvoriv u numeričko bodovanje bez ručne provjere.", row["izvor"], map[string]any{"redak": index + 1, "vrednovanje_raw": value["raw"]})
+			if (kind == "footnote_marker" || kind == "unparsed") && len(noteBlocksFor(notes, section.name, stringValue(value["marker"]))) == 0 {
+				add("nepoznato_vrednovanje", section.name, "Redak nije sigurno pretvoriv u numeričko bodovanje bez ručne provjere.", map[string]any{"redak": index + 1})
 			}
 		}
 	}
 	for _, row := range mapsFrom(detail["preduvjeti"]) {
 		text := stringValue(row["tekst"])
 		if regexp.MustCompile(`(?i)(^|[^\p{L}])ili([^\p{L}]|$)|ukoliko|(^|[^\p{L}])ako([^\p{L}]|$)|pod uvjetom|kandidat`).MatchString(text) {
-			add("preduvjet_prirodni_jezik", "preduvjeti", "Uvjetni/alternativni prirodni jezik zadržan je kao tekst i traži ručnu potvrdu.", row["izvor"], map[string]any{"tekst": text, "sigurna_automatizacija_nije_moguca": true})
+			add("preduvjet_prirodni_jezik", "preduvjeti", "Uvjetni/alternativni prirodni jezik zadržan je kao tekst i traži ručnu potvrdu.", map[string]any{"tekst": text, "sigurna_automatizacija_nije_moguca": true})
 		}
 	}
-	for section, document := range map[string]noteDocument{"obvezni": noteDocumentValue(detail, "obvezni"), "izborni": noteDocumentValue(detail, "izborni"), "natjecanja": noteDocumentValue(detail, "natjecanja"), "posebna_postignuca": noteDocumentValue(detail, "posebna_postignuca")} {
+	for section, document := range notes {
 		for _, block := range document.Blocks {
 			rule := inferRule(block.Text, section, block.Marker)
 			if boolValue(rule["sigurna_automatizacija_nije_moguca"]) {
-				add("slozena_napomena", section, "Napomena je samo djelomično strukturirana; ne koristiti neprepoznati dio kao formulu.", block.Text, map[string]any{"marker": block.Marker})
+				add("slozena_napomena", section, "Napomena je samo djelomično strukturirana; ne koristiti neprepoznati dio kao formulu.", map[string]any{"marker": block.Marker, "tekst": block.Text})
 			}
 		}
 	}
 	electiveRows := mapsFrom(mapValue(detail["izborni"])["predmeti"])
-	for _, block := range noteDocumentValue(detail, "izborni").Blocks {
+	for _, block := range notes["izborni"].Blocks {
 		rule := inferRule(block.Text, "izborni", block.Marker)
 		expected, hasExpected := rule["broj_navedenih_alternativa"]
 		if !hasExpected || stringValue(rule["opseg"]) == "svi_kandidati" {
@@ -1371,27 +1567,14 @@ func auditDetail(detail map[string]any) []map[string]any {
 			}
 		}
 		if actual > 0 && actual != intValue(expected) {
-			add("napomena_opseg_neusklađen", "izborni", "Napomena navodi više alternativa nego što ih nosi označeni redak; vjerojatno se odnosi na širi skup redaka ili je izvor nedosljedan.", block.Text, map[string]any{"marker": block.Marker, "ocekivano": intValue(expected), "vidljivo_u_oznacenom_retku": actual})
+			add("napomena_opseg_neusklađen", "izborni", "Napomena navodi više alternativa nego što ih nosi označeni redak; vjerojatno se odnosi na širi skup redaka ili je izvor nedosljedan.", map[string]any{"marker": block.Marker, "tekst": block.Text, "ocekivano": intValue(expected), "vidljivo_u_oznacenom_retku": actual})
 		}
 	}
 	return limitations
 }
 
-func calculationSums(detail map[string]any) map[string]any {
-	sum := func(value any) float64 {
-		total := 0.0
-		for _, row := range mapsFrom(value) {
-			if number, ok := row["vrednovanje_pct"].(float64); ok {
-				total += number
-			}
-		}
-		return total
-	}
-	return map[string]any{"ocjene_pct_zbroj_redaka": sum(detail["ocjene"]), "obvezni_pct_zbroj_redaka": sum(detail["obvezni"]), "izborni_pct_zbroj_redaka": sum(mapValue(detail["izborni"])["predmeti"]), "dodatne_provjere_pct_zbroj_redaka": sum(detail["dodatne_vjestine"]), "natjecanja_pct_zbroj_redaka": sum(detail["natjecanja"]), "sportasi_pct_zbroj_redaka": sum(detail["sportasi"]), "posebna_postignuca_pct_zbroj_redaka": sum(detail["druga_posebna_postignuca"]), "napomena": "Audit zbroj; ne pretpostavlja da su alternative zbrojive."}
-}
-
-func noteBlocksFor(detail map[string]any, section, marker string) []noteBlock {
-	document := noteDocumentValue(detail, section)
+func noteBlocksFor(notes map[string]noteDocument, section, marker string) []noteBlock {
+	document := notes[section]
 	result := []noteBlock{}
 	for _, block := range document.Blocks {
 		blockMarker := ""
@@ -1404,30 +1587,7 @@ func noteBlocksFor(detail map[string]any, section, marker string) []noteBlock {
 	}
 	return result
 }
-func noteDocumentValue(detail map[string]any, section string) noteDocument {
-	documents := mapValue(detail["napomene_raw"])
-	if document, ok := documents[section].(noteDocument); ok {
-		return document
-	}
-	return noteDocument{}
-}
 
-func electiveAdditionalNote(note noteDocument) any {
-	if note.RawText != nil && strings.Contains(strings.ToLower(*note.RawText), "dodatn") {
-		return note.RawText
-	}
-	return nil
-}
-func joinPreconditions(rows []map[string]any) any {
-	values := []string{}
-	for _, row := range rows {
-		values = append(values, stringValue(row["tekst"]))
-	}
-	if len(values) == 0 {
-		return nil
-	}
-	return strings.Join(values, "\n")
-}
 func nilIfEmptyAny(value any) any {
 	if value == nil || stringValue(value) == "" {
 		return nil
@@ -1458,6 +1618,12 @@ func stringValue(value any) string {
 	}
 	if result, ok := value.(string); ok {
 		return result
+	}
+	if result, ok := value.(*string); ok {
+		if result == nil {
+			return ""
+		}
+		return *result
 	}
 	return fmt.Sprint(value)
 }
@@ -1532,13 +1698,10 @@ func firstFloat(values []float64) any {
 	}
 	return values[0]
 }
-func uniqueLimitationTypes(values []map[string]any) []string {
-	seen := map[string]bool{}
-	result := []string{}
+func limitationTypes(values []map[string]any) []string {
+	result := make([]string, 0, len(values))
 	for _, value := range values {
-		key := stringValue(value["tip"])
-		if key != "" && !seen[key] {
-			seen[key] = true
+		if key := stringValue(value["tip"]); key != "" {
 			result = append(result, key)
 		}
 	}

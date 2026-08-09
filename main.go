@@ -27,10 +27,42 @@ func cleanStaleTemps(root string) {
 
 func main() {
 	refreshPrograms := flag.Bool("refresh-programs", false, "download and parse the live study catalog")
+	studyHTMLArchive := flag.String("study-html-archive", "", "write fetched study HTML files to one ZIP archive")
+	studyHTMLDir := flag.String("parse-study-html", "", "parse an existing directory of study HTML files")
+	studyCatalog := flag.String("study-catalog", "", "catalog JSON for --parse-study-html (defaults to ../source/programi.json)")
+	studyOutput := flag.String("study-output", filepath.Join("source", "programi.json"), "output JSON path for study parsing")
+	studyValidation := flag.String("validate-study", "", "validate an existing programi.json against the publication schema")
 	flag.Parse()
+	if *studyValidation != "" {
+		if *refreshPrograms || *studyHTMLDir != "" {
+			fmt.Fprintln(os.Stderr, "study validation cannot be combined with a study refresh or HTML parse")
+			os.Exit(2)
+		}
+		if err := validateStudyCatalogFile(*studyValidation); err != nil {
+			fmt.Fprintf(os.Stderr, "%v\n", err)
+			os.Exit(1)
+		}
+		fmt.Printf("Study catalog schema valid: %s\n", *studyValidation)
+		return
+	}
+	if *refreshPrograms && *studyHTMLDir != "" {
+		fmt.Fprintln(os.Stderr, "study refresh failed: --refresh-programs and --parse-study-html are mutually exclusive")
+		os.Exit(2)
+	}
 	if *refreshPrograms {
-		if err := refreshStudyPrograms(filepath.Join("source", "programi.json")); err != nil {
+		if err := refreshStudyPrograms(*studyOutput, *studyHTMLArchive); err != nil {
 			fmt.Fprintf(os.Stderr, "study refresh failed: %v\n", err)
+			os.Exit(1)
+		}
+		return
+	}
+	if *studyHTMLDir != "" {
+		catalogPath := *studyCatalog
+		if catalogPath == "" {
+			catalogPath = filepath.Join(filepath.Dir(*studyHTMLDir), "source", "programi.json")
+		}
+		if err := parseStudyProgramsFromHTML(*studyHTMLDir, catalogPath, *studyOutput); err != nil {
+			fmt.Fprintf(os.Stderr, "study HTML parse failed: %v\n", err)
 			os.Exit(1)
 		}
 		return
