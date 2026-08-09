@@ -14,7 +14,36 @@ source/
   files.json                           # generated source-tree index
 html/                                  # static files copied into the published source
 main.go                                # media conversion and index generator
+studies.go                              # live Postani Student downloader/parser
 ```
+
+The study-program dataset is published beside the exam files:
+
+```text
+source/programi.json                    # one combined catalog + structured requirements file
+```
+
+The file is an object with `generated_at`, the four-date `refresh_schedule`, source
+metadata, and a `programi` array. Each array entry keeps the searchable basic fields
+at the top level and nests the full parser result under `detalji`. The original HTML
+pages are build-only temporary files and are not published or committed.
+
+To refresh it locally:
+
+```sh
+go run . --refresh-programs
+```
+
+`studies.go` fetches the live catalog from the Postani Student API, downloads each
+detail page into a temporary directory, parses it sequentially, and deletes that
+directory when finished. It does not discard source cells or footnotes: it records
+typed values, alternatives, thresholds, grouped rules, cross-section caps, original
+HTML cells, and a limitation report whenever the source wording cannot be safely
+reduced to an algorithm. `.github/workflows/refresh-programs.yml` refreshes
+it only on January 1, March 1, June 1, October 1, or a manual run. That workflow
+publishes only `programi.json` and preserves the exam files deployed by
+`deploy.yml`. Ordinary pushes rebuild media/indexes and preserve the last study
+catalog.
 
 Years are grouped by exam term: `Ljeto`, `Jesen`, and, where available, `Probna`. Subject directories use Croatian abbreviations such as `Hrv`, `Eng`, `Mat`, and `Inf`. Papers with levels use `A` and `B`; subjects without levels use `base`.
 

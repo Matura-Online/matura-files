@@ -2,6 +2,7 @@ package main
 
 import (
 	"encoding/json"
+	"flag"
 	"fmt"
 	"os"
 	"os/exec"
@@ -57,6 +58,16 @@ func cleanStaleTemps(root string) {
 }
 
 func main() {
+	refreshPrograms := flag.Bool("refresh-programs", false, "download and parse the live study catalog")
+	flag.Parse()
+	if *refreshPrograms {
+		if err := refreshStudyPrograms(filepath.Join("source", "programi.json")); err != nil {
+			fmt.Fprintf(os.Stderr, "study refresh failed: %v\n", err)
+			os.Exit(1)
+		}
+		return
+	}
+
 	cleanStaleTemps("source")
 
 	var wg sync.WaitGroup

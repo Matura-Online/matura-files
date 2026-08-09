@@ -2,11 +2,13 @@ name: Build and Deploy to GitHub Pages
 
 on:
   push:
-    branches: [ main ]
+    branches:
+      - main
   workflow_dispatch:
 
 permissions:
   contents: write
+  actions: write
 
 jobs:
   build:
@@ -19,7 +21,7 @@ jobs:
     - name: Set up Go
       uses: actions/setup-go@v5
       with:
-        go-version: '1.21'
+        go-version: '1.22.5'
 
     - name: Install ffmpeg and ExifTool
       run: sudo apt-get update && sudo apt-get install -y ffmpeg exiftool
@@ -38,3 +40,23 @@ jobs:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: ./source
         publish_branch: gh-pages
+        # The dated study catalog is refreshed only by schedule/manual runs.
+        # Media-only pushes must not remove the last published programi.json.
+        keep_files: true
+
+    - name: Detect published study catalog
+      id: study_catalog
+      run: |
+        if curl --fail --silent --show-error --location --max-time 30 --output /dev/null https://files.matura.top/programi.json; then
+          echo "missing=false" >> "$GITHUB_OUTPUT"
+          echo "Published study catalog found."
+        else
+          echo "missing=true" >> "$GITHUB_OUTPUT"
+          echo "Published study catalog is missing."
+        fi
+
+    - name: Queue initial study refresh when missing
+      if: steps.study_catalog.outputs.missing == 'true'
+      env:
+        GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: gh workflow run refresh-programs.yml --repo "$GITHUB_REPOSITORY" --ref main

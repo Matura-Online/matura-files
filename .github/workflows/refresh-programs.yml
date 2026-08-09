@@ -1,0 +1,51 @@
+name: Refresh study programs
+
+on:
+  schedule:
+    - cron: '0 3 1 1,3,6,10 *'
+  workflow_dispatch:
+
+concurrency:
+  group: refresh-study-programs
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Go
+        uses: actions/setup-go@v5
+        with:
+          go-version: '1.22.5'
+
+      - name: Detect refresh state
+        run: |
+          if curl --fail --silent --show-error --location --max-time 30 --output /dev/null https://files.matura.top/programi.json; then
+            echo "Existing programi.json found; replacing it with a fresh catalog."
+          else
+            echo "No published programi.json found; this is the initial catalog publication."
+          fi
+
+      - name: Download and parse study requirements
+        run: go run . --refresh-programs
+
+      - name: Prepare the published catalog
+        run: |
+          mkdir -p .study-publish
+          cp source/programi.json .study-publish/programi.json
+
+      - name: Publish refreshed study catalog
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./.study-publish
+          publish_branch: gh-pages
+          # This workflow owns programi.json; keep exam files deployed by deploy.yml.
+          keep_files: true
