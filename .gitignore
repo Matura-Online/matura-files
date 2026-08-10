@@ -1,3 +1,4 @@
 source/programi.json
 source/files.json
 scripts/*
+*_test.go
