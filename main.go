@@ -1,6 +1,7 @@
 package main
 
 import (
+	"encoding/json"
 	"flag"
 	"fmt"
 	"os"
@@ -124,6 +125,77 @@ func main() {
 
 	wg.Wait()
 
+	if err := writeFilesManifest("source"); err != nil {
+		fmt.Fprintf(os.Stderr, "failed to generate files.json: %v\n", err)
+		os.Exit(1)
+	}
+
+}
+
+type filesManifestEntry struct {
+	Name     string               `json:"name"`
+	IsDir    bool                 `json:"isDir"`
+	Children []filesManifestEntry `json:"children,omitempty"`
+	Size     int64                `json:"size,omitempty"`
+}
+
+func writeFilesManifest(sourceRoot string) error {
+	entries, err := readFilesManifestDirectory(sourceRoot)
+	if err != nil {
+		return err
+	}
+
+	encoded, err := json.MarshalIndent(entries, "", "  ")
+	if err != nil {
+		return err
+	}
+	encoded = append(encoded, '\n')
+
+	manifestPath := filepath.Join(sourceRoot, "files.json")
+	if err := os.WriteFile(manifestPath, encoded, 0644); err != nil {
+		return err
+	}
+
+	fmt.Printf("Generated file manifest: %s\n", manifestPath)
+	return nil
+}
+
+func readFilesManifestDirectory(directory string) ([]filesManifestEntry, error) {
+	directoryEntries, err := os.ReadDir(directory)
+	if err != nil {
+		return nil, err
+	}
+
+	entries := make([]filesManifestEntry, 0, len(directoryEntries))
+	for _, directoryEntry := range directoryEntries {
+		name := directoryEntry.Name()
+		if shouldSkipFilesManifestEntry(name) {
+			continue
+		}
+
+		info, err := directoryEntry.Info()
+		if err != nil {
+			return nil, err
+		}
+
+		entry := filesManifestEntry{Name: name, IsDir: directoryEntry.IsDir()}
+		if entry.IsDir {
+			entry.Children, err = readFilesManifestDirectory(filepath.Join(directory, name))
+			if err != nil {
+				return nil, err
+			}
+		} else {
+			entry.Size = info.Size()
+		}
+
+		entries = append(entries, entry)
+	}
+
+	return entries, nil
+}
+
+func shouldSkipFilesManifestEntry(name string) bool {
+	return name == "files.json" || name == "programi.json" || strings.HasPrefix(name, ".")
 }
 
 func convertAndRemoveFile(path, targetFormat string, convertFunc func(string) error) {
