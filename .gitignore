@@ -1,4 +1,5 @@
 source/programi.json
+source/filters.json
 source/files.json
 scripts/*
 *_test.go

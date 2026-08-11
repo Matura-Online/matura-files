@@ -44,6 +44,14 @@ jobs:
           if-no-files-found: error
           retention-days: 90
 
+      - name: Upload dependent study-filter snapshot
+        uses: actions/upload-artifact@v7
+        with:
+          name: filters.json
+          path: source/filters.json
+          if-no-files-found: error
+          retention-days: 90
+
       - name: Upload raw study HTML archive
         if: ${{ always() }}
         uses: actions/upload-artifact@v7

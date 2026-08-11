@@ -35,20 +35,24 @@ jobs:
       - name: Install ffmpeg and ExifTool
         run: sudo apt-get update && sudo apt-get install -y ffmpeg exiftool
 
-      - name: Restore the published study catalog
+      - name: Restore the published study data
         id: study_catalog
         run: |
           mkdir -p source
           catalog_tmp="$(mktemp)"
+          filters_tmp="$(mktemp)"
           if curl --fail --silent --show-error --location --max-time 30 \
-            --output "$catalog_tmp" https://files.matura.top/programi.json; then
+            --output "$catalog_tmp" https://files.matura.top/programi.json \
+            && curl --fail --silent --show-error --location --max-time 30 \
+              --output "$filters_tmp" https://files.matura.top/filters.json; then
             mv "$catalog_tmp" source/programi.json
+            mv "$filters_tmp" source/filters.json
             echo "missing=false" >> "$GITHUB_OUTPUT"
-            echo "Restored the currently published programi.json."
+            echo "Restored the currently published study data."
           else
-            rm -f "$catalog_tmp"
+            rm -f "$catalog_tmp" "$filters_tmp"
             echo "missing=true" >> "$GITHUB_OUTPUT"
-            echo "No published programi.json found; this is the initial catalog deployment."
+            echo "Published study data is incomplete; this is the initial refresh deployment."
           fi
 
       - name: Build the published source tree

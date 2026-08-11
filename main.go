@@ -32,6 +32,7 @@ func main() {
 	studyHTMLDir := flag.String("parse-study-html", "", "parse an existing directory of study HTML files")
 	studyCatalog := flag.String("study-catalog", "", "catalog JSON for --parse-study-html (defaults to ../source/programi.json)")
 	studyOutput := flag.String("study-output", filepath.Join("source", "programi.json"), "output JSON path for study parsing")
+	studyFiltersOutput := flag.String("study-filters-output", filepath.Join("source", "filters.json"), "output JSON path for dependent study filters")
 	studyValidation := flag.String("validate-study", "", "validate an existing programi.json against the publication schema")
 	flag.Parse()
 	if *studyValidation != "" {
@@ -51,7 +52,7 @@ func main() {
 		os.Exit(2)
 	}
 	if *refreshPrograms {
-		if err := refreshStudyPrograms(*studyOutput, *studyHTMLArchive); err != nil {
+		if err := refreshStudyPrograms(*studyOutput, *studyFiltersOutput, *studyHTMLArchive); err != nil {
 			fmt.Fprintf(os.Stderr, "study refresh failed: %v\n", err)
 			os.Exit(1)
 		}
@@ -195,7 +196,7 @@ func readFilesManifestDirectory(directory string) ([]filesManifestEntry, error) 
 }
 
 func shouldSkipFilesManifestEntry(name string) bool {
-	return name == "files.json" || name == "programi.json" || strings.HasPrefix(name, ".")
+	return name == "files.json" || name == "programi.json" || name == "filters.json" || strings.HasPrefix(name, ".")
 }
 
 func convertAndRemoveFile(path, targetFormat string, convertFunc func(string) error) {

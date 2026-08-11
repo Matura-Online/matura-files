@@ -377,7 +377,7 @@ func (c *studyHTTPClient) fetchDetail(id int) ([]byte, error) {
 	return nil, lastErr
 }
 
-func refreshStudyPrograms(outputPath, htmlArchivePath string) error {
+func refreshStudyPrograms(outputPath, filtersOutputPath, htmlArchivePath string) error {
 	client, err := newStudyHTTPClient()
 	if err != nil {
 		return err
@@ -397,6 +397,9 @@ func refreshStudyPrograms(outputPath, htmlArchivePath string) error {
 	catalog, err := client.fetchCatalog()
 	if err != nil {
 		return err
+	}
+	if err := refreshStudyFilters(client, sessionHTML, filtersOutputPath); err != nil {
+		return fmt.Errorf("refresh dependent study filters: %w", err)
 	}
 	fmt.Printf("Refreshing %d study detail pages\n", len(catalog))
 
