@@ -36,11 +36,10 @@ const (
 )
 
 var (
-	percentPattern    = regexp.MustCompile(`(-?\d+(?:[.,]\d+)?)\s*%`)
-	programPattern    = regexp.MustCompile(`(?s)<strong>(.+?)</strong><br/>(.+?) \((\d+) bodova, ([\d.]+) godin[ae]?, (.+?)\)\s*$`)
-	qualifierPattern  = regexp.MustCompile(`(?is)^(.*?);\s*(smjer(?:ovi)?|modul(?:i)?)\s*[:;]\s*(.*)$`)
-	markerPattern     = regexp.MustCompile(`\*+`)
-	wordNumberPattern = regexp.MustCompile(`(?i)\b(jedan|jednog|jednoga|jednu|jedno|dva|dvije|tri|četiri|cetiri|pet|šest|sest|sedam|osam|devet|deset|jedanaest|dvanaest|trinaest|četrnaest|cetrnaest|petnaest|šesnaest|sesnaest|sedamnaest|osamnaest|devetnaest|dvadeset|\d+)\b`)
+	percentPattern   = regexp.MustCompile(`(-?\d+(?:[.,]\d+)?)\s*%`)
+	programPattern   = regexp.MustCompile(`(?s)<strong>(.+?)</strong><br/>(.+?) \((\d+) bodova, ([\d.]+) godin[ae]?, (.+?)\)\s*$`)
+	qualifierPattern = regexp.MustCompile(`(?is)^(.*?);\s*(smjer(?:ovi)?|modul(?:i)?)\s*[:;]\s*(.*)$`)
+	markerPattern    = regexp.MustCompile(`\*+`)
 )
 
 var numberWords = map[string]int{
@@ -1153,8 +1152,6 @@ func regexSub(value, pattern string) string {
 	}
 	return match[1]
 }
-
-func findText(value string) string { return strings.TrimSpace(value) }
 
 func trimQuotaValue(value string) string {
 	value = strings.TrimSpace(value)

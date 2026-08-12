@@ -23,25 +23,10 @@ import (
 )
 
 const (
-	studyFilterOutputDefault = "source/filters.json"
-	providersAPIURL          = postaniStudentBase + "/webservices/Pretraga.svc/izvodjaci"
-	placesAPIURL             = postaniStudentBase + "/webservices/Pretraga.svc/MjestoIzvodjenja"
-	fieldsAPIURL             = postaniStudentBase + "/webservices/Pretraga.svc/Polja"
+	providersAPIURL = postaniStudentBase + "/webservices/Pretraga.svc/izvodjaci"
+	placesAPIURL    = postaniStudentBase + "/webservices/Pretraga.svc/MjestoIzvodjenja"
+	fieldsAPIURL    = postaniStudentBase + "/webservices/Pretraga.svc/Polja"
 )
-
-var studyFilterControlLabels = map[string]string{
-	"ddlVrstaNositelja":   "Vrsta visokog učilišta",
-	"ddlSveuciliste":      "Visoko učilište / nositelj",
-	"ddlVisokoUciliste":   "Sastavnica / izvođač",
-	"ddlPosebneKvote":     "Posebna kvota",
-	"ddlMjestaIzvodjenja": "Mjesto izvođenja",
-	"ddlPodrucje":         "Područje",
-	"ddlPolja":            "Polje",
-}
-
-var studyFilterControlOrder = []string{
-	"ddlVrstaNositelja", "ddlSveuciliste", "ddlVisokoUciliste", "ddlPosebneKvote", "ddlMjestaIzvodjenja", "ddlPodrucje", "ddlPolja",
-}
 
 var studyFilterDefaultLabels = map[string]string{
 	"ddlSveuciliste":      "Sva visoka učilišta",

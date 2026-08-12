@@ -124,12 +124,6 @@ func (v *studySchemaValidator) each(path string, value any, validate func(string
 	}
 }
 
-func (v *studySchemaValidator) nullable(value any, validate func(string, any), path string) {
-	if value != nil {
-		validate(path, value)
-	}
-}
-
 func (v *studySchemaValidator) validateRoot(value any) {
 	root := v.object("$", value, []string{"generated_at", "refresh_schedule", "programi"}, []string{"generated_at", "refresh_schedule", "programi"})
 	if root == nil {
