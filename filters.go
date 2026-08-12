@@ -349,11 +349,9 @@ func studyFilterPublicDocument(document studyFilterDocument) (map[string]any, er
 	}
 
 	return map[string]any{
-		"schema_version": "2.0-offline-filter-machine",
-		"default_state":  map[string]string{"vrsta": "-1", "nositelj": "-1", "sastavnica": "-1", "posebna_kvota": "-1", "mjesto": "-1", "podrucje": "-1", "polje": "-1"},
-		"selectors":      selectors, "catalogs": catalogs, "transitions": transitions,
+		"default_state": map[string]string{"vrsta": "-1", "nositelj": "-1", "sastavnica": "-1", "posebna_kvota": "-1", "mjesto": "-1", "podrucje": "-1", "polje": "-1"},
+		"selectors":     selectors, "catalogs": catalogs, "transitions": transitions,
 		"reset":     map[string]any{"sets": map[string]string{"vrsta": "-1", "nositelj": "-1", "sastavnica": "-1", "mjesto": "-1", "podrucje": "-1", "polje": "-1"}, "keeps": "posebna_kvota"},
-		"coverage":  map[string]int{"type_transitions": len(document.Types), "institution_transitions": len(document.Institutions), "component_transitions": len(document.Components), "location_transitions": len(document.Locations), "area_transitions": len(document.Areas), "response_catalogs": len(document.Catalogs), "http_calls": document.Coverage.HTTPCalls},
 		"algorithm": map[string]any{"kind": "finite offline state machine captured from all reachable select changes", "select_change_order": []string{"vrsta", "nositelj", "sastavnica", "posebna_kvota", "mjesto", "podrucje", "polje"}, "effects": map[string][]string{"vrsta": {"nositelj", "sastavnica", "mjesto", "podrucje", "polje"}, "nositelj": {"sastavnica", "mjesto", "podrucje", "polje"}, "sastavnica": {"mjesto", "podrucje", "polje"}, "posebna_kvota": {"mjesto", "podrucje", "polje"}, "mjesto": {"podrucje", "polje"}, "podrucje": {"polje"}, "polje": {}}, "search": "See source/programi.json search_model; all IDs are resolved locally and no HTTP endpoint is used."},
 	}, nil
 }
