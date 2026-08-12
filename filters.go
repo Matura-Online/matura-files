@@ -242,7 +242,9 @@ func publishStudyFilterMenu(menu studyFilterMenu) (publishedStudyFilterMenu, err
 	if len(menu.Options) == 0 {
 		return publishedStudyFilterMenu{}, errors.New("filter menu has no default option")
 	}
-	return publishedStudyFilterMenu{Default: menu.Options[0], Options: append([]studyFilterOption(nil), menu.Options[1:]...)}, nil
+	options := make([]studyFilterOption, len(menu.Options)-1)
+	copy(options, menu.Options[1:])
+	return publishedStudyFilterMenu{Default: menu.Options[0], Options: options}, nil
 }
 
 func studyFilterPublicDocument(document studyFilterDocument) (map[string]any, error) {

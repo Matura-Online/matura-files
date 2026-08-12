@@ -424,23 +424,16 @@ func refreshStudyPrograms(outputPath, filtersOutputPath, htmlArchivePath string)
 	if err := os.WriteFile(filepath.Join(temporaryDir, "catalog.html"), sessionHTML, 0o600); err != nil {
 		return fmt.Errorf("save study catalog HTML: %w", err)
 	}
-	previousCatalog, err := loadStudyCatalog(outputPath)
-	if err != nil {
-		return fmt.Errorf("load previous catalog search relations from %s: %w", outputPath, err)
+	if err := refreshStudyFilters(client, sessionHTML, filtersOutputPath); err != nil {
+		return fmt.Errorf("refresh dependent study filters: %w", err)
 	}
-	relations := make(map[int]studySearchRelation, len(previousCatalog))
-	for _, meta := range previousCatalog {
-		if !meta.Pretraga.valid() {
-			return fmt.Errorf("previous catalog program %d has no verified search relation", meta.IDPrograma)
-		}
-		relations[meta.IDPrograma] = meta.Pretraga
+	relations, err := captureStudySearchRelations(client, filtersOutputPath)
+	if err != nil {
+		return fmt.Errorf("capture program search relations: %w", err)
 	}
 	catalog, err := client.fetchCatalog(relations)
 	if err != nil {
 		return err
-	}
-	if err := refreshStudyFilters(client, sessionHTML, filtersOutputPath); err != nil {
-		return fmt.Errorf("refresh dependent study filters: %w", err)
 	}
 	fmt.Printf("Refreshing %d study detail pages\n", len(catalog))
 
