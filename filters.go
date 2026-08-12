@@ -9,6 +9,7 @@ import (
 	"crypto/sha256"
 	"encoding/hex"
 	"encoding/json"
+	"errors"
 	"fmt"
 	"net/http"
 	"net/url"
@@ -68,6 +69,9 @@ type studyFilterTransition struct {
 	Branch       string            `json:"branch"`
 	Selected     studyFilterOption `json:"selected"`
 	ResponseRef  string            `json:"response_ref"`
+	Sastavnice   []string          `json:"-"`
+	Mjesta       []string          `json:"-"`
+	Podrucje     string            `json:"-"`
 }
 
 type studyFilterControls struct {
@@ -239,8 +243,142 @@ func (c *studyHTTPClient) fetchStudyFilterResponse(method, endpoint string, quer
 	return nil, lastErr
 }
 
+type publishedStudyFilterMenu struct {
+	Default studyFilterOption   `json:"default"`
+	Options []studyFilterOption `json:"options"`
+}
+
+type publishedStudyFilterCatalog struct {
+	ID    string                              `json:"id"`
+	Menus map[string]publishedStudyFilterMenu `json:"menus"`
+}
+
+func publishStudyFilterMenu(menu studyFilterMenu) (publishedStudyFilterMenu, error) {
+	if len(menu.Options) == 0 {
+		return publishedStudyFilterMenu{}, errors.New("filter menu has no default option")
+	}
+	return publishedStudyFilterMenu{Default: menu.Options[0], Options: append([]studyFilterOption(nil), menu.Options[1:]...)}, nil
+}
+
+func studyFilterPublicDocument(document studyFilterDocument) (map[string]any, error) {
+	friendlyKey := map[string]string{
+		"ddlVrstaNositelja": "vrsta", "ddlSveuciliste": "nositelj", "ddlVisokoUciliste": "sastavnica",
+		"ddlPosebneKvote": "posebna_kvota", "ddlMjestaIzvodjenja": "mjesto", "ddlPodrucje": "podrucje", "ddlPolja": "polje",
+	}
+	friendlyLabel := map[string]string{
+		"vrsta": "Vrsta visokog u?ili?ta", "nositelj": "Visoko u?ili?te / nositelj", "sastavnica": "Sastavnica / izvo?a?",
+		"posebna_kvota": "Posebna kvota", "mjesto": "Mjesto izvo?enja", "podrucje": "Podru?je", "polje": "Polje",
+	}
+	rootRef := ""
+	for _, transition := range document.Types {
+		if transition.Selected.Value == "-1" {
+			rootRef = transition.ResponseRef
+			break
+		}
+	}
+	root, ok := document.Catalogs[rootRef]
+	if !ok {
+		return nil, errors.New("filter discovery has no all-types root state")
+	}
+	selectors := map[string]any{
+		"vrsta":         map[string]any{"label": friendlyLabel["vrsta"], "options": document.Controls.TypeOptions},
+		"posebna_kvota": map[string]any{"label": friendlyLabel["posebna_kvota"], "options": document.Controls.QuotaOptions},
+	}
+	for raw, friendly := range friendlyKey {
+		if raw == "ddlVrstaNositelja" || raw == "ddlPosebneKvote" {
+			continue
+		}
+		menu, exists := root.Menus[raw]
+		if !exists {
+			return nil, fmt.Errorf("root state is missing %s", raw)
+		}
+		selectors[friendly] = map[string]any{"label": friendlyLabel[friendly], "options": menu.Options}
+	}
+
+	catalogRefs := make([]string, 0, len(document.Catalogs))
+	for ref := range document.Catalogs {
+		catalogRefs = append(catalogRefs, ref)
+	}
+	sort.Strings(catalogRefs)
+	catalogs := make([]publishedStudyFilterCatalog, 0, len(catalogRefs))
+	for _, ref := range catalogRefs {
+		raw := document.Catalogs[ref]
+		menus := map[string]publishedStudyFilterMenu{}
+		for rawKey, friendly := range friendlyKey {
+			if rawKey == "ddlVrstaNositelja" || rawKey == "ddlPosebneKvote" {
+				continue
+			}
+			menu, exists := raw.Menus[rawKey]
+			if !exists {
+				return nil, fmt.Errorf("catalog %s is missing %s", ref, rawKey)
+			}
+			published, err := publishStudyFilterMenu(menu)
+			if err != nil {
+				return nil, fmt.Errorf("catalog %s %s: %w", ref, rawKey, err)
+			}
+			menus[friendly] = published
+		}
+		catalogs = append(catalogs, publishedStudyFilterCatalog{ID: ref, Menus: menus})
+	}
+
+	makeTransition := func(transition studyFilterTransition) map[string]any {
+		return map[string]any{"select": transition.Selected.Value, "state": transition.ResponseRef}
+	}
+	typeValues := map[string]string{}
+	transitions := map[string]any{"vrsta": []map[string]any{}, "nositelj": []map[string]any{}, "sastavnica": []map[string]any{}, "mjesto": []map[string]any{}, "podrucje": []map[string]any{}, "posebna_kvota": []map[string]any{}}
+	for _, transition := range document.Types {
+		entry := makeTransition(transition)
+		transitions["vrsta"] = append(transitions["vrsta"].([]map[string]any), entry)
+		typeValues[transition.Branch] = transition.Selected.Value
+	}
+	for _, transition := range document.Institutions {
+		entry := makeTransition(transition)
+		entry["branch"] = transition.Branch
+		entry["vrsta"] = typeValues[transition.ParentBranch]
+		transitions["nositelj"] = append(transitions["nositelj"].([]map[string]any), entry)
+	}
+	for _, transition := range document.Components {
+		entry := makeTransition(transition)
+		entry["branch"] = transition.Branch
+		entry["sastavnice"] = transition.Sastavnice
+		transitions["sastavnica"] = append(transitions["sastavnica"].([]map[string]any), entry)
+		for _, quota := range document.Controls.QuotaOptions {
+			quotaEntry := map[string]any{"select": quota.Value, "state": transition.ResponseRef, "sastavnica_branch": transition.Branch}
+			transitions["posebna_kvota"] = append(transitions["posebna_kvota"].([]map[string]any), quotaEntry)
+		}
+	}
+	for _, transition := range document.Locations {
+		entry := makeTransition(transition)
+		entry["branch"] = transition.Branch
+		entry["sastavnice"] = transition.Sastavnice
+		entry["mjesta"] = transition.Mjesta
+		transitions["mjesto"] = append(transitions["mjesto"].([]map[string]any), entry)
+	}
+	for _, transition := range document.Areas {
+		entry := makeTransition(transition)
+		entry["branch"] = transition.Branch
+		entry["sastavnice"] = transition.Sastavnice
+		entry["mjesta"] = transition.Mjesta
+		entry["podrucje"] = transition.Podrucje
+		transitions["podrucje"] = append(transitions["podrucje"].([]map[string]any), entry)
+	}
+
+	return map[string]any{
+		"schema_version": "2.0-offline-filter-machine",
+		"default_state":  map[string]string{"vrsta": "-1", "nositelj": "-1", "sastavnica": "-1", "posebna_kvota": "-1", "mjesto": "-1", "podrucje": "-1", "polje": "-1"},
+		"selectors":      selectors, "catalogs": catalogs, "transitions": transitions,
+		"reset":     map[string]any{"sets": map[string]string{"vrsta": "-1", "nositelj": "-1", "sastavnica": "-1", "mjesto": "-1", "podrucje": "-1", "polje": "-1"}, "keeps": "posebna_kvota"},
+		"coverage":  map[string]int{"type_transitions": len(document.Types), "institution_transitions": len(document.Institutions), "component_transitions": len(document.Components), "location_transitions": len(document.Locations), "area_transitions": len(document.Areas), "response_catalogs": len(document.Catalogs), "http_calls": document.Coverage.HTTPCalls},
+		"algorithm": map[string]any{"kind": "finite offline state machine captured from all reachable select changes", "select_change_order": []string{"vrsta", "nositelj", "sastavnica", "posebna_kvota", "mjesto", "podrucje", "polje"}, "effects": map[string][]string{"vrsta": {"nositelj", "sastavnica", "mjesto", "podrucje", "polje"}, "nositelj": {"sastavnica", "mjesto", "podrucje", "polje"}, "sastavnica": {"mjesto", "podrucje", "polje"}, "posebna_kvota": {"mjesto", "podrucje", "polje"}, "mjesto": {"podrucje", "polje"}, "podrucje": {"polje"}, "polje": {}}, "search": "See source/programi.json search_model; all IDs are resolved locally and no HTTP endpoint is used."},
+	}, nil
+}
+
 func writeStudyFilterDocument(path string, document studyFilterDocument) error {
-	encoded, err := json.Marshal(document)
+	published, err := studyFilterPublicDocument(document)
+	if err != nil {
+		return err
+	}
+	encoded, err := json.Marshal(published)
 	if err != nil {
 		return err
 	}
@@ -343,7 +481,7 @@ func refreshStudyFilters(client *studyHTTPClient, sessionHTML []byte, outputPath
 			}
 			responseRef := storeCatalog(data)
 			branch := "component:" + shortStudyFilterHash([]any{transition.Branch, option.Value, responseRef})
-			document.Components = append(document.Components, studyFilterTransition{ParentBranch: transition.Branch, Branch: branch, Selected: option, ResponseRef: responseRef})
+			document.Components = append(document.Components, studyFilterTransition{ParentBranch: transition.Branch, Branch: branch, Selected: option, ResponseRef: responseRef, Sastavnice: components})
 			componentBranches = append(componentBranches, studyFilterBranch{Components: components, ResponseRef: responseRef})
 		}
 		studyProgress("filters", index+1, len(document.Institutions), " - components")
@@ -362,7 +500,7 @@ func refreshStudyFilters(client *studyHTTPClient, sessionHTML []byte, outputPath
 			}
 			responseRef := storeCatalog(data)
 			branch := "location:" + shortStudyFilterHash([]any{transition.Branch, option.Value, responseRef})
-			document.Locations = append(document.Locations, studyFilterTransition{ParentBranch: transition.Branch, Branch: branch, Selected: option, ResponseRef: responseRef})
+			document.Locations = append(document.Locations, studyFilterTransition{ParentBranch: transition.Branch, Branch: branch, Selected: option, ResponseRef: responseRef, Sastavnice: components, Mjesta: locations})
 			locationBranches = append(locationBranches, studyFilterBranch{Components: components, Locations: locations, ResponseRef: responseRef})
 		}
 		studyProgress("filters", index+1, len(document.Components), " - locations")
@@ -379,7 +517,7 @@ func refreshStudyFilters(client *studyHTTPClient, sessionHTML []byte, outputPath
 			}
 			responseRef := storeCatalog(data)
 			areaBranch := "area:" + shortStudyFilterHash([]any{transition.Branch, option.Value, responseRef})
-			document.Areas = append(document.Areas, studyFilterTransition{ParentBranch: transition.Branch, Branch: areaBranch, Selected: option, ResponseRef: responseRef})
+			document.Areas = append(document.Areas, studyFilterTransition{ParentBranch: transition.Branch, Branch: areaBranch, Selected: option, ResponseRef: responseRef, Sastavnice: branch.Components, Mjesta: branch.Locations, Podrucje: option.Value})
 		}
 		studyProgress("filters", index+1, len(document.Locations), " - areas")
 	}

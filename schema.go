@@ -144,8 +144,8 @@ func (v *studySchemaValidator) validateRoot(value any) {
 
 func (v *studySchemaValidator) validateProgram(path string, value any) {
 	program := v.object(path, value,
-		[]string{"detalji", "ects", "id", "idPrograma", "izvodjac", "mjesto", "modul", "naziv", "nositelj", "smjer", "trajanje_god", "vrsta_studija"},
-		[]string{"detalji", "ects", "id", "idPrograma", "izvodjac", "mjesto", "modul", "naziv", "nositelj", "smjer", "trajanje_god", "vrsta_studija"})
+		[]string{"detalji", "ects", "id", "idPrograma", "izvodjac", "mjesto", "modul", "naziv", "nositelj", "pretraga", "smjer", "trajanje_god", "vrsta_studija"},
+		[]string{"detalji", "ects", "id", "idPrograma", "izvodjac", "mjesto", "modul", "naziv", "nositelj", "pretraga", "smjer", "trajanje_god", "vrsta_studija"})
 	if program == nil {
 		return
 	}
@@ -159,7 +159,20 @@ func (v *studySchemaValidator) validateProgram(path string, value any) {
 	}
 	v.field(program, path, "modul", v.stringArray)
 	v.field(program, path, "smjer", v.stringArray)
+	v.field(program, path, "pretraga", v.validateSearchRelation)
 	v.field(program, path, "detalji", v.validateDetail)
+}
+
+func (v *studySchemaValidator) validateSearchRelation(path string, value any) {
+	object := v.object(path, value, []string{"sastavnica_id", "podrucja", "polja", "posebna_kvota", "redoslijed"}, []string{"sastavnica_id", "podrucja", "polja", "posebna_kvota", "redoslijed"})
+	if object == nil {
+		return
+	}
+	v.field(object, path, "sastavnica_id", v.string)
+	v.field(object, path, "podrucja", v.stringArray)
+	v.field(object, path, "polja", v.stringArray)
+	v.field(object, path, "posebna_kvota", v.string)
+	v.field(object, path, "redoslijed", v.integer)
 }
 
 func (v *studySchemaValidator) validateDetail(path string, value any) {

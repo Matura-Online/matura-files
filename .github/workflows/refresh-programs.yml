@@ -33,6 +33,16 @@ jobs:
       - name: Install ffmpeg and ExifTool
         run: sudo apt-get update && sudo apt-get install -y ffmpeg exiftool
 
+      # The published catalog is also the verified relation snapshot. A refresh
+      # may update HTML details, but it must not manufacture area/field membership
+      # for a new program id that has not been fully recaptured.
+      - name: Restore verified search relations
+        run: |
+          mkdir -p source
+          curl --fail --silent --show-error --location --max-time 30 \
+            --output source/programi.json https://files.matura.top/programi.json
+          go run . --validate-study source/programi.json
+
       - name: Download and parse study requirements
         run: go run . --refresh-programs --study-html-archive "$RUNNER_TEMP/programi-html.zip"
 

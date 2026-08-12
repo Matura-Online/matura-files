@@ -99,17 +99,34 @@ type rawProgram struct {
 }
 
 type programMeta struct {
-	ID           int      `json:"id"`
-	IDPrograma   int      `json:"idPrograma"`
-	Naziv        string   `json:"naziv"`
-	Smjer        []string `json:"smjer"`
-	Modul        []string `json:"modul"`
-	Nositelj     string   `json:"nositelj"`
-	Izvodjac     string   `json:"izvodjac"`
-	Mjesto       string   `json:"mjesto"`
-	ECTS         int      `json:"ects"`
-	TrajanjeGod  float64  `json:"trajanje_god"`
-	VrstaStudija *int     `json:"vrsta_studija"`
+	ID           int                 `json:"id"`
+	IDPrograma   int                 `json:"idPrograma"`
+	Naziv        string              `json:"naziv"`
+	Smjer        []string            `json:"smjer"`
+	Modul        []string            `json:"modul"`
+	Nositelj     string              `json:"nositelj"`
+	Izvodjac     string              `json:"izvodjac"`
+	Mjesto       string              `json:"mjesto"`
+	ECTS         int                 `json:"ects"`
+	TrajanjeGod  float64             `json:"trajanje_god"`
+	VrstaStudija *int                `json:"vrsta_studija"`
+	Pretraga     studySearchRelation `json:"pretraga"`
+}
+
+// studySearchRelation is the captured membership used by the official search
+// endpoint. It is deliberately separate from display fields: a program can be
+// listed under several areas/fields while still having one displayed place and
+// quota partition. Refreshing detail HTML must never invent those memberships.
+type studySearchRelation struct {
+	SastavnicaID string   `json:"sastavnica_id"`
+	Podrucja     []string `json:"podrucja"`
+	Polja        []string `json:"polja"`
+	PosebnaKvota string   `json:"posebna_kvota"`
+	Redoslijed   int      `json:"redoslijed"`
+}
+
+func (relation studySearchRelation) valid() bool {
+	return relation.SastavnicaID != "" && len(relation.Podrucja) > 0 && len(relation.Polja) > 0 && relation.PosebnaKvota != ""
 }
 
 type tableRow struct {
@@ -223,7 +240,7 @@ func ajaxHeaders(referer string) http.Header {
 	}
 }
 
-func (c *studyHTTPClient) fetchCatalog() ([]programMeta, error) {
+func (c *studyHTTPClient) fetchCatalog(relations map[int]studySearchRelation) ([]programMeta, error) {
 	data, status, err := c.do(http.MethodGet, componentsURL+"?id=-1", nil, ajaxHeaders(programsPageURL))
 	if err != nil {
 		return nil, err
@@ -247,47 +264,56 @@ func (c *studyHTTPClient) fetchCatalog() ([]programMeta, error) {
 	}
 	fmt.Printf("Fetched %d study components\n", len(ids)-1)
 
-	var all []rawProgram
-	totalPages := 0
-	for page := 1; page <= 200; page++ {
-		payload := map[string]any{
-			"lista": ids, "search": "", "searchVisokaUcilista": "", "podrucje": "-1",
-			"polje": "-1", "Mjesto": "Sva mjesta", "usporedba": true,
-			"posebnaKvota": "-1", "page": page,
-		}
-		body, err := json.Marshal(payload)
-		if err != nil {
-			return nil, err
-		}
-		data, status, err = c.do(http.MethodPost, programsAPIURL, body, ajaxHeaders(programsPageURL))
-		if err != nil {
-			return nil, fmt.Errorf("fetch catalog page %d: %w", page, err)
-		}
-		if status != http.StatusOK {
-			return nil, fmt.Errorf("catalog page %d returned HTTP %d", page, status)
-		}
-		var envelope struct {
-			D struct {
-				TotalPages int          `json:"TotalPages"`
-				Programi   []rawProgram `json:"Programi"`
-			} `json:"d"`
-		}
-		if err := json.Unmarshal(data, &envelope); err != nil {
-			return nil, fmt.Errorf("decode catalog page %d: %w", page, err)
-		}
-		if totalPages == 0 {
-			totalPages = envelope.D.TotalPages
-			if totalPages < 1 {
-				return nil, errors.New("catalog API returned no pages")
+	all := map[int]rawProgram{}
+	// -1 is regular admission only. The special-quota partitions are disjoint
+	// result sets, so all three must be fetched to publish the full catalog.
+	for _, quota := range []string{"-1", "1", "2"} {
+		totalPages := 0
+		for page := 1; page <= 200; page++ {
+			payload := map[string]any{
+				"lista": ids, "search": "", "searchVisokaUcilista": "", "podrucje": "-1",
+				"polje": "-1", "Mjesto": "Sva mjesta", "usporedba": true,
+				"posebnaKvota": quota, "page": page,
 			}
-			fmt.Printf("Catalog has %d pages\n", totalPages)
+			body, err := json.Marshal(payload)
+			if err != nil {
+				return nil, err
+			}
+			data, status, err = c.do(http.MethodPost, programsAPIURL, body, ajaxHeaders(programsPageURL))
+			if err != nil {
+				return nil, fmt.Errorf("fetch catalog quota %s page %d: %w", quota, page, err)
+			}
+			if status != http.StatusOK {
+				return nil, fmt.Errorf("catalog quota %s page %d returned HTTP %d", quota, page, status)
+			}
+			var envelope struct {
+				D struct {
+					TotalPages int          `json:"TotalPages"`
+					Programi   []rawProgram `json:"Programi"`
+				} `json:"d"`
+			}
+			if err := json.Unmarshal(data, &envelope); err != nil {
+				return nil, fmt.Errorf("decode catalog quota %s page %d: %w", quota, page, err)
+			}
+			if totalPages == 0 {
+				totalPages = envelope.D.TotalPages
+				if totalPages < 1 {
+					return nil, fmt.Errorf("catalog quota %s returned no pages", quota)
+				}
+				fmt.Printf("Catalog quota %s has %d pages\n", quota, totalPages)
+			}
+			for _, item := range envelope.D.Programi {
+				if previous, exists := all[item.IDPrograma]; exists && previous.ID != item.ID {
+					return nil, fmt.Errorf("catalog program %d appears with conflicting ids %d and %d", item.IDPrograma, previous.ID, item.ID)
+				}
+				all[item.IDPrograma] = item
+			}
+			studyProgress("catalog", page, totalPages, fmt.Sprintf(" - quota %s, %d programs", quota, len(all)))
+			if page >= totalPages {
+				break
+			}
+			time.Sleep(300 * time.Millisecond)
 		}
-		all = append(all, envelope.D.Programi...)
-		studyProgress("catalog", page, totalPages, fmt.Sprintf(" - %d programs", len(all)))
-		if page >= totalPages {
-			break
-		}
-		time.Sleep(300 * time.Millisecond)
 	}
 
 	parsed := make([]programMeta, 0, len(all))
@@ -296,6 +322,11 @@ func (c *studyHTTPClient) fetchCatalog() ([]programMeta, error) {
 		if err != nil {
 			return nil, fmt.Errorf("catalog program %d: %w", item.IDPrograma, err)
 		}
+		relation, ok := relations[meta.IDPrograma]
+		if !ok || !relation.valid() {
+			return nil, fmt.Errorf("catalog program %d has no verified search relation; capture the new state graph before publishing", meta.IDPrograma)
+		}
+		meta.Pretraga = relation
 		parsed = append(parsed, meta)
 	}
 	if len(parsed) == 0 {
@@ -394,7 +425,18 @@ func refreshStudyPrograms(outputPath, filtersOutputPath, htmlArchivePath string)
 	if err := os.WriteFile(filepath.Join(temporaryDir, "catalog.html"), sessionHTML, 0o600); err != nil {
 		return fmt.Errorf("save study catalog HTML: %w", err)
 	}
-	catalog, err := client.fetchCatalog()
+	previousCatalog, err := loadStudyCatalog(outputPath)
+	if err != nil {
+		return fmt.Errorf("load previous catalog search relations from %s: %w", outputPath, err)
+	}
+	relations := make(map[int]studySearchRelation, len(previousCatalog))
+	for _, meta := range previousCatalog {
+		if !meta.Pretraga.valid() {
+			return fmt.Errorf("previous catalog program %d has no verified search relation", meta.IDPrograma)
+		}
+		relations[meta.IDPrograma] = meta.Pretraga
+	}
+	catalog, err := client.fetchCatalog(relations)
 	if err != nil {
 		return err
 	}
@@ -638,6 +680,7 @@ func catalogRecord(meta programMeta) map[string]any {
 		"smjer": meta.Smjer, "modul": meta.Modul, "nositelj": meta.Nositelj,
 		"izvodjac": meta.Izvodjac, "mjesto": meta.Mjesto, "ects": meta.ECTS,
 		"trajanje_god": meta.TrajanjeGod, "vrsta_studija": meta.VrstaStudija,
+		"pretraga": meta.Pretraga,
 	}
 }
 
