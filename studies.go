@@ -125,7 +125,7 @@ type studySearchRelation struct {
 }
 
 func (relation studySearchRelation) valid() bool {
-	return relation.SastavnicaID != "" && len(relation.Podrucja) > 0 && len(relation.Polja) > 0 && relation.PosebnaKvota != ""
+	return relation.SastavnicaID != "" && relation.PosebnaKvota != ""
 }
 
 type tableRow struct {
@@ -463,7 +463,13 @@ func refreshStudyPrograms(outputPath, filtersOutputPath, htmlArchivePath string)
 			return fmt.Errorf("archive fetched study HTML: %w", err)
 		}
 	}
-	return writeStudyCatalog(outputPath, details)
+	if err := writeStudyCatalog(outputPath, details); err != nil {
+		return err
+	}
+	if err := clearStudySearchCache(); err != nil {
+		return fmt.Errorf("clear completed search cache: %w", err)
+	}
+	return nil
 }
 
 // zipStudyHTMLDirectory stores the fetched source pages as a single audit

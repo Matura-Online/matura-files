@@ -4,3 +4,4 @@ source/files.json
 scripts/*
 *_test.go
 *.exe
+source/.study-search-cache/

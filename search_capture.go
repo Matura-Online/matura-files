@@ -5,6 +5,7 @@ import (
 	"fmt"
 	"net/http"
 	"os"
+	"path/filepath"
 	"sort"
 	"sync"
 	"time"
@@ -14,6 +15,8 @@ const (
 	studySearchWorkers = 3
 	studySearchDelay   = 80 * time.Millisecond
 )
+
+var studySearchCacheDir = "source/.study-search-cache"
 
 type capturedFilterOption struct {
 	Value string `json:"value"`
@@ -52,6 +55,7 @@ type terminalSearchResult struct {
 	State    terminalSearchState
 	Programs []rawProgram
 	Calls    int
+	Cached   bool
 	Err      error
 }
 type programEvidence struct{ Components, Places, Areas, Fields, Quotas map[string]bool }
@@ -69,7 +73,23 @@ func captureStudySearchRelations(client *studyHTTPClient, filtersPath string) (m
 	if err != nil {
 		return nil, err
 	}
-	fmt.Printf("Capturing %d terminal search states\n", len(states))
+	if err := os.MkdirAll(studySearchCacheDir, 0o755); err != nil {
+		return nil, fmt.Errorf("create search cache: %w", err)
+	}
+	pending := make([]terminalSearchState, 0, len(states))
+	preloaded := make([]terminalSearchResult, 0, len(states))
+	for _, state := range states {
+		result, ok, err := loadTerminalSearchCache(state)
+		if err != nil {
+			return nil, err
+		}
+		if ok {
+			preloaded = append(preloaded, result)
+		} else {
+			pending = append(pending, state)
+		}
+	}
+	fmt.Printf("Capturing %d terminal search states (%d cached, %d pending)\n", len(states), len(preloaded), len(pending))
 	jobs := make(chan terminalSearchState)
 	results := make(chan terminalSearchResult, studySearchWorkers)
 	var wg sync.WaitGroup
@@ -84,7 +104,7 @@ func captureStudySearchRelations(client *studyHTTPClient, filtersPath string) (m
 		}()
 	}
 	go func() {
-		for _, state := range states {
+		for _, state := range pending {
 			jobs <- state
 		}
 		close(jobs)
@@ -94,9 +114,14 @@ func captureStudySearchRelations(client *studyHTTPClient, filtersPath string) (m
 	evidence := map[int]*programEvidence{}
 	orders := map[string]map[int]int{}
 	calls, done := 0, 0
-	for result := range results {
+	consume := func(result terminalSearchResult) error {
 		if result.Err != nil {
-			return nil, result.Err
+			return result.Err
+		}
+		if !result.Cached {
+			if err := writeTerminalSearchCache(result); err != nil {
+				return err
+			}
 		}
 		calls += result.Calls
 		if result.State.Baseline {
@@ -105,7 +130,7 @@ func captureStudySearchRelations(client *studyHTTPClient, filtersPath string) (m
 				order[program.IDPrograma] = index
 			}
 			if prior, exists := orders[result.State.Kvota]; exists && !equalSearchOrder(prior, order) {
-				return nil, fmt.Errorf("inconsistent baseline order for quota %s", result.State.Kvota)
+				return fmt.Errorf("inconsistent baseline order for quota %s", result.State.Kvota)
 			}
 			orders[result.State.Kvota] = order
 		}
@@ -131,6 +156,17 @@ func captureStudySearchRelations(client *studyHTTPClient, filtersPath string) (m
 		}
 		done++
 		studyProgress("search", done, len(states), fmt.Sprintf(" - %d HTTP pages", calls))
+		return nil
+	}
+	for _, result := range preloaded {
+		if err := consume(result); err != nil {
+			return nil, err
+		}
+	}
+	for result := range results {
+		if err := consume(result); err != nil {
+			return nil, err
+		}
 	}
 	if len(orders) != 3 {
 		return nil, fmt.Errorf("expected 3 quota baseline result sets, got %d", len(orders))
@@ -287,3 +323,60 @@ func sortedSet(values map[string]bool, numeric bool) []string {
 	}
 	return result
 }
+
+func terminalSearchCachePath(state terminalSearchState) string {
+	return filepath.Join(studySearchCacheDir, state.Key+".json")
+}
+
+func loadTerminalSearchCache(state terminalSearchState) (terminalSearchResult, bool, error) {
+	data, err := os.ReadFile(terminalSearchCachePath(state))
+	if os.IsNotExist(err) {
+		return terminalSearchResult{}, false, nil
+	}
+	if err != nil {
+		return terminalSearchResult{}, false, fmt.Errorf("read search cache %s: %w", state.Key, err)
+	}
+	var record struct {
+		Key      string       `json:"key"`
+		Programs []rawProgram `json:"programs"`
+	}
+	if err := json.Unmarshal(data, &record); err != nil {
+		return terminalSearchResult{}, false, fmt.Errorf("decode search cache %s: %w", state.Key, err)
+	}
+	if record.Key != state.Key || record.Programs == nil {
+		return terminalSearchResult{}, false, fmt.Errorf("invalid search cache %s", state.Key)
+	}
+	return terminalSearchResult{State: state, Programs: record.Programs, Cached: true}, true, nil
+}
+
+func writeTerminalSearchCache(result terminalSearchResult) error {
+	data, err := json.Marshal(struct {
+		Key      string       `json:"key"`
+		Programs []rawProgram `json:"programs"`
+	}{Key: result.State.Key, Programs: result.Programs})
+	if err != nil {
+		return err
+	}
+	path := terminalSearchCachePath(result.State)
+	temporary, err := os.CreateTemp(filepath.Dir(path), ".search-*.json")
+	if err != nil {
+		return err
+	}
+	temporaryPath := temporary.Name()
+	if _, err := temporary.Write(append(data, '\n')); err != nil {
+		temporary.Close()
+		os.Remove(temporaryPath)
+		return err
+	}
+	if err := temporary.Close(); err != nil {
+		os.Remove(temporaryPath)
+		return err
+	}
+	if err := os.Rename(temporaryPath, path); err != nil {
+		os.Remove(temporaryPath)
+		return err
+	}
+	return nil
+}
+
+func clearStudySearchCache() error { return os.RemoveAll(studySearchCacheDir) }
