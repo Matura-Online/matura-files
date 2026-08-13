@@ -206,7 +206,7 @@ func (c *studyHTTPClient) fetchStudyFilterResponse(method, endpoint string, quer
 	}
 	var lastErr error
 	for attempt := 1; attempt <= 3; attempt++ {
-		data, status, requestErr := c.do(method, requestURL, body, ajaxHeaders(programsPageURL))
+		data, status, _, requestErr := c.doCached(method, requestURL, body, ajaxHeaders(programsPageURL))
 		if requestErr == nil && status == http.StatusOK {
 			var envelope struct {
 				D map[string]any `json:"d"`

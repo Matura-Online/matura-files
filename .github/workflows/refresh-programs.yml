@@ -33,6 +33,20 @@ jobs:
       - name: Install ffmpeg and ExifTool
         run: sudo apt-get update && sudo apt-get install -y ffmpeg exiftool
 
+      # A failed refresh can resume its completed service calls on the next run.
+      # This is GitHub's short-lived cache (evicted after seven inactive days),
+      # never a committed source file and cleared by Go after a successful build.
+      - name: Restore interrupted study refresh
+        uses: actions/cache@v4
+        with:
+          path: source/.study-refresh-cache
+          key: study-refresh-${{ github.run_id }}
+          restore-keys: |
+            study-refresh-
+
+      - name: Verify parser and publication contract
+        run: go test ./...
+
       - name: Download and parse study requirements
         run: go run . --refresh-programs --study-html-archive "$RUNNER_TEMP/programi-html.zip"
 

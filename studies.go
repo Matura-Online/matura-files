@@ -8,6 +8,7 @@ package main
 import (
 	"archive/zip"
 	"bytes"
+	"crypto/sha256"
 	"crypto/tls"
 	"encoding/json"
 	"errors"
@@ -83,9 +84,15 @@ var nameFixes = map[string]string{
 }
 
 type studyHTTPClient struct {
-	client  *http.Client
-	headers http.Header
+	client    *http.Client
+	headers   http.Header
+	cacheRoot string
 }
+
+// studyRefreshCacheDir is deliberately an interrupted-run cache, not source
+// data. It is recreated while a refresh is incomplete and deleted only after
+// both published JSON files have been written successfully.
+var studyRefreshCacheDir = filepath.Join("source", ".study-refresh-cache")
 
 type rawProgram struct {
 	ID         int    `json:"id"`
@@ -186,6 +193,7 @@ func newStudyHTTPClient() (*studyHTTPClient, error) {
 			"User-Agent": []string{"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/150.0 Safari/537.36"},
 			"DNT":        []string{"1"},
 		},
+		cacheRoot: studyRefreshCacheDir,
 	}, nil
 }
 
@@ -218,6 +226,71 @@ func (c *studyHTTPClient) do(method, url string, body []byte, extra http.Header)
 	return data, resp.StatusCode, readErr
 }
 
+type cachedStudyHTTPResponse struct {
+	Method string `json:"method"`
+	URL    string `json:"url"`
+	Status int    `json:"status"`
+	Body   []byte `json:"body"`
+}
+
+// doCached stores only successful source responses. It is used for the menu
+// graph, catalog and detail endpoints so a failed refresh resumes instead of
+// repeating completed requests. Search-state pages have their own compact
+// parsed cache in search_capture.go.
+func (c *studyHTTPClient) doCached(method, url string, body []byte, extra http.Header) ([]byte, int, bool, error) {
+	if c.cacheRoot == "" {
+		data, status, err := c.do(method, url, body, extra)
+		return data, status, false, err
+	}
+	keyInput := append([]byte(method+"\n"+url+"\n"), body...)
+	key := fmt.Sprintf("%x", sha256.Sum256(keyInput))
+	path := filepath.Join(c.cacheRoot, "http", key+".json")
+	if data, err := os.ReadFile(path); err == nil {
+		var cached cachedStudyHTTPResponse
+		if err := json.Unmarshal(data, &cached); err != nil {
+			return nil, 0, false, fmt.Errorf("decode refresh cache %s: %w", key, err)
+		}
+		if cached.Method != method || cached.URL != url || cached.Status != http.StatusOK || cached.Body == nil {
+			return nil, 0, false, fmt.Errorf("invalid refresh cache %s", key)
+		}
+		return cached.Body, cached.Status, true, nil
+	} else if !os.IsNotExist(err) {
+		return nil, 0, false, fmt.Errorf("read refresh cache %s: %w", key, err)
+	}
+
+	data, status, err := c.do(method, url, body, extra)
+	if err != nil || status != http.StatusOK {
+		return data, status, false, err
+	}
+	if err := os.MkdirAll(filepath.Dir(path), 0o755); err != nil {
+		return nil, 0, false, fmt.Errorf("create refresh cache: %w", err)
+	}
+	record, err := json.Marshal(cachedStudyHTTPResponse{Method: method, URL: url, Status: status, Body: data})
+	if err != nil {
+		return nil, 0, false, err
+	}
+	temporary, err := os.CreateTemp(filepath.Dir(path), ".http-*.json")
+	if err != nil {
+		return nil, 0, false, err
+	}
+	temporaryPath := temporary.Name()
+	if _, err := temporary.Write(append(record, '\n')); err != nil {
+		temporary.Close()
+		os.Remove(temporaryPath)
+		return nil, 0, false, err
+	}
+	if err := temporary.Close(); err != nil {
+		os.Remove(temporaryPath)
+		return nil, 0, false, err
+	}
+	if err := os.Rename(temporaryPath, path); err != nil {
+		os.Remove(temporaryPath)
+		return nil, 0, false, err
+	}
+	return data, status, false, nil
+}
+
+func clearStudyRefreshCache() error { return os.RemoveAll(studyRefreshCacheDir) }
 func (c *studyHTTPClient) loadSession() ([]byte, error) {
 	data, status, err := c.do(http.MethodGet, programsPageURL, nil, nil)
 	if err != nil {
@@ -240,7 +313,7 @@ func ajaxHeaders(referer string) http.Header {
 }
 
 func (c *studyHTTPClient) fetchCatalog(relations map[int]studySearchRelation) ([]programMeta, error) {
-	data, status, err := c.do(http.MethodGet, componentsURL+"?id=-1", nil, ajaxHeaders(programsPageURL))
+	data, status, _, err := c.doCached(http.MethodGet, componentsURL+"?id=-1", nil, ajaxHeaders(programsPageURL))
 	if err != nil {
 		return nil, err
 	}
@@ -278,7 +351,7 @@ func (c *studyHTTPClient) fetchCatalog(relations map[int]studySearchRelation) ([
 			if err != nil {
 				return nil, err
 			}
-			data, status, err = c.do(http.MethodPost, programsAPIURL, body, ajaxHeaders(programsPageURL))
+			data, status, _, err = c.doCached(http.MethodPost, programsAPIURL, body, ajaxHeaders(programsPageURL))
 			if err != nil {
 				return nil, fmt.Errorf("fetch catalog quota %s page %d: %w", quota, page, err)
 			}
@@ -392,7 +465,7 @@ func (c *studyHTTPClient) fetchDetail(id int) ([]byte, error) {
 	url := detailsURL + "?id=" + strconv.Itoa(id)
 	var lastErr error
 	for attempt := 1; attempt <= 3; attempt++ {
-		data, status, err := c.do(http.MethodGet, url, nil, nil)
+		data, status, _, err := c.doCached(http.MethodGet, url, nil, nil)
 		if err == nil && status == http.StatusOK && len(data) > 2000 {
 			return data, nil
 		}
@@ -466,8 +539,8 @@ func refreshStudyPrograms(outputPath, filtersOutputPath, htmlArchivePath string)
 	if err := writeStudyCatalog(outputPath, details); err != nil {
 		return err
 	}
-	if err := clearStudySearchCache(); err != nil {
-		return fmt.Errorf("clear completed search cache: %w", err)
+	if err := clearStudyRefreshCache(); err != nil {
+		return fmt.Errorf("clear completed refresh cache: %w", err)
 	}
 	return nil
 }

@@ -514,18 +514,31 @@ func (v *studySchemaValidator) validateRule(path string, value any) {
 }
 
 func (v *studySchemaValidator) validateAlternative(path string, value any) {
-	object := v.object(path, value, []string{"maksimalno_odabranih", "minimalno_odabranih", "mogu_se_odabrati_obje_varijante", "operator", "tekst", "terms"}, []string{"maksimalno_odabranih", "minimalno_odabranih", "mogu_se_odabrati_obje_varijante", "operator", "tekst", "terms"})
+	// Mirrors parse_details.py exactly: i/ili publishes
+	// mogu_se_odabrati_obje_varijante=true, while a plain ili publishes
+	// ne_zbrajati_alternative=true. Both are meaningful, mutually exclusive
+	// source representations of the same bounded-choice rule.
+	object := v.object(path, value, []string{"maksimalno_odabranih", "minimalno_odabranih", "operator", "tekst", "terms"}, []string{"maksimalno_odabranih", "minimalno_odabranih", "mogu_se_odabrati_obje_varijante", "ne_zbrajati_alternative", "operator", "tekst", "terms"})
 	if object == nil {
 		return
 	}
+	canChooseBoth, hasCanChooseBoth := object["mogu_se_odabrati_obje_varijante"]
+	doNotSum, hasDoNotSum := object["ne_zbrajati_alternative"]
+	if hasCanChooseBoth == hasDoNotSum {
+		v.issue(path, "requires exactly one alternative-mode field")
+	}
+	if hasCanChooseBoth {
+		v.boolean(path+".mogu_se_odabrati_obje_varijante", canChooseBoth)
+	}
+	if hasDoNotSum {
+		v.boolean(path+".ne_zbrajati_alternative", doNotSum)
+	}
 	v.field(object, path, "maksimalno_odabranih", v.integer)
 	v.field(object, path, "minimalno_odabranih", v.integer)
-	v.field(object, path, "mogu_se_odabrati_obje_varijante", v.boolean)
 	v.field(object, path, "operator", v.string)
 	v.field(object, path, "tekst", v.string)
 	v.field(object, path, "terms", v.stringArray)
 }
-
 func (v *studySchemaValidator) validateNullableAlternative(path string, value any) {
 	if value != nil {
 		v.validateAlternative(path, value)

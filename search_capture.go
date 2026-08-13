@@ -16,7 +16,7 @@ const (
 	studySearchDelay   = 80 * time.Millisecond
 )
 
-var studySearchCacheDir = "source/.study-search-cache"
+var studySearchCacheDir = filepath.Join(studyRefreshCacheDir, "search")
 
 type capturedFilterOption struct {
 	Value string `json:"value"`
@@ -378,5 +378,3 @@ func writeTerminalSearchCache(result terminalSearchResult) error {
 	}
 	return nil
 }
-
-func clearStudySearchCache() error { return os.RemoveAll(studySearchCacheDir) }
